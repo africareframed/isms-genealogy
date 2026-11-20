@@ -53,7 +53,7 @@ entries:
     text: Andreessen argues that AI will not destroy the world and may save it, by augmenting human intelligence. “Every child will have an AI tutor that is infinitely patient,” he writes. AI has no goals of its own, he says, and he calls the fear that it will kill us a cult. The greatest risk, he argues, is that China wins, so the West should build fast and keep open source free.
     source: Marc Andreessen, “Why AI Will Save the World”, Andreessen Horowitz (a16z.com), 6 June 2023
     sourceUrl: https://a16z.com/ai-will-save-the-world/
-    themes: [power]
+    themes: [power, alignment]
     image: techopt-save-the-world-2023
     status: checked
 

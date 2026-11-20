@@ -72,6 +72,7 @@ entries:
     text: The institute is founded to speed progress towards smarter-than-human AI. Yudkowsky's Singularitarian Principles define a singularitarian as someone who works to bring such intelligence about. Within a few years he concludes that aligning it with human values is a real problem, and the institute turns to AI risk. In 2013 it becomes the Machine Intelligence Research Institute.
     source: Machine Intelligence Research Institute, “About MIRI”; Eliezer Yudkowsky, The Singularitarian Principles, version 1.0.2, 2000
     sourceUrl: https://intelligence.org/about/
+    themes: [alignment]
     image: sing-siai-website
     status: checked
 
