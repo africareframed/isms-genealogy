@@ -6,25 +6,25 @@ entries:
     year: 2026
     month: 9
     title: “Americanism, not effective altruism”
-    who: The US government and the Centre for Effective Altruism
+    who: The US Department of War and the Centre for Effective Altruism
     relation: milestone
-    text: In 2026 the movement became a target in the US fight over AI rules. In September the Department of War posted “Americanism, not effective altruism”, and a senior Pentagon official called its ideology dangerous. Zachary Robinson, head of the Centre for Effective Altruism, argued that EA is not the same as AI safety. Global health, he noted, has long received far more of the movement's funding than AI.
-    source: Beatrice Nolan and Emily Forlini, “How ‘Effective Altruism’ went from fringe philosophy to Trump's AI villain”, Fortune, 23 September 2026; AFP, “Under fire over AI, effective altruism wants to tell its own story”, 9 November 2026
+    text: In mid-September a US Department of War account posted the slogan on X, and a senior Pentagon official called EA's ideology dangerous. Anthropic, many of whose co-founders have EA ties, became a particular target, though it does not publicly align with the movement. In November Zachary Robinson, head of the Centre for Effective Altruism, said EA is not the same as AI safety. Global health, he noted, has long received much more of its money than AI.
+    source: Beatrice Nolan and Emily Forlini, “How ‘Effective Altruism’ went from fringe philosophy to Trump's AI villain”, Fortune, 23 September 2026; Peter Singer, “Trump's Misguided War Against Effective Altruism”, Project Syndicate, 13 October 2026; Thomas Urbain, “Under fire over AI, effective altruism wants to tell its own story”, AFP, 9 November 2026
     sourceUrl: https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/
     themes: [power]
     image: ea-dow-post-2026
-    status: draft
+    status: checked
 
   - id: 2025-80000-hours-agi
     year: 2025
     title: 80,000 Hours turns to AGI
     who: 80,000 Hours
     relation: milestone
-    text: The careers organisation founded by William MacAskill and Benjamin Todd narrows its focus to making the transition to advanced AI go well. It judges that AGI could plausibly arrive within the next decade. Reducing AI risk, it argues, is probably the best way to do the most good over the long term. New work on other causes now faces a much higher bar.
-    source: Niel Bowerman and the 80,000 Hours team, “We're shifting our strategic approach to focus more on AGI”, 80,000 Hours, 4 April 2025
+    text: The careers organisation founded by William MacAskill and Benjamin Todd narrows its focus to making the transition to advanced AI go well. It judges that AGI could plausibly arrive within the next decade. Reducing AI risk, it argues, is probably the best way to do the most good over the long term. New content on other topics now faces a much higher bar.
+    source: Niel Bowerman and the 80,000 Hours team, “We're shifting our strategic approach to focus more on AGI”, 80,000 Hours, 4 April 2025; 80,000 Hours, “About us”, 80000hours.org
     sourceUrl: https://80000hours.org/2025/04/strategic-approach
     image: ea-80000-hours-agi-2025
-    status: draft
+    status: checked
 
   - id: 2023-openai-board
     year: 2023
@@ -32,12 +32,12 @@ entries:
     title: The OpenAI board crisis
     who: Helen Toner, Tasha McCauley and the OpenAI board
     relation: milestone
-    text: "OpenAI's non-profit board removed its chief executive, Sam Altman, saying he had not been candid with it. Two directors had ties to effective altruism: Helen Toner had worked at Open Philanthropy, and Tasha McCauley sat on the board of Effective Ventures. Critics blamed the movement, though OpenAI said none of its board members were effective altruists. After nearly all staff threatened to leave, Altman returned within days, and both women left the board."
-    source: Matt O'Brien, “OpenAI brings back Sam Altman as CEO just days after his firing unleashed chaos”, Associated Press, 22 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023
+    text: "OpenAI's non-profit board removed its chief executive, Sam Altman, saying he had not been consistently candid with it. Two directors had ties to effective altruism: Helen Toner had worked at Open Philanthropy, and Tasha McCauley sat on the board of Effective Ventures. Critics blamed the movement, though in September OpenAI had said none of its board members were effective altruists. After nearly all staff threatened to leave, Altman returned within days, and both women left the board."
+    source: Matt O'Brien, “OpenAI's ex-chairman accuses board of going rogue in firing Altman”, Associated Press via Fortune, 18 November 2023; Matt O'Brien, “OpenAI brings back Sam Altman as CEO just days after his firing unleashed chaos”, Associated Press, 22 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023; Center for Security and Emerging Technology, “Helen Toner”, staff page
     sourceUrl: https://www.semafor.com/article/11/21/2023/how-effective-altruism-led-to-a-crisis-at-openai
     themes: [power]
     image: ea-openai-board-2023
-    status: draft
+    status: checked
 
   - id: 2022-ftx-collapse
     year: 2022
@@ -45,12 +45,12 @@ entries:
     title: The fall of FTX
     who: Sam Bankman-Fried and the FTX Future Fund
     relation: milestone
-    text: In 2012 MacAskill had persuaded Sam Bankman-Fried, then a student, to earn to give, and he became a major donor to the movement. In November 2022 his crypto exchange, FTX, collapsed. The team of its Future Fund, which backed AI safety and biosecurity, resigned, MacAskill among them. Bankman-Fried was convicted of fraud in 2023 and sentenced to 25 years in prison, and the episode badly damaged the movement's reputation.
-    source: Hillary Hoffower, “Sam Bankman-Fried was an effective altruism evangelist, pledging to give away most of his $26 billion fortune…”, Fortune, 15 November 2022; Justin Weinberg, “Cryptocurrency Chaos Affects Academic Grants (updated)”, Daily Nous, 11 November 2022; Ken Sweet and Larry Neumeister, “FTX founder Sam Bankman-Fried sentenced to 25 years in prison”, Associated Press, 28 March 2024; AFP, 9 November 2026
+    text: In 2012 MacAskill had pitched earning to give to Sam Bankman-Fried, then a student, who became a leading funder of the movement's causes. In November 2022 his crypto exchange, FTX, collapsed. The team of its Future Fund, which funded work on AI and humanity's long-term prospects, resigned, MacAskill among them. Bankman-Fried was convicted of fraud in 2023 and sentenced to 25 years, and the episode badly damaged the movement's reputation.
+    source: Hillary Hoffower, “Sam Bankman-Fried was an effective altruism evangelist, pledging to give away most of his $26 billion fortune…”, Fortune, 15 November 2022; Justin Weinberg, “Cryptocurrency Chaos Affects Academic Grants (updated)”, Daily Nous, 11 November 2022; Ken Sweet and Larry Neumeister, “FTX founder Sam Bankman-Fried sentenced to 25 years in prison”, Associated Press, 28 March 2024; Thomas Urbain, “Under fire over AI, effective altruism wants to tell its own story”, AFP, 9 November 2026
     sourceUrl: https://fortune.com/2022/11/15/what-is-effective-altruism-sam-bankman-fried-wealth-career/
     themes: [power]
     image: ea-future-fund-2022
-    status: draft
+    status: checked
 
   - id: 2022-what-we-owe-the-future
     year: 2022
@@ -58,23 +58,23 @@ entries:
     title: What We Owe the Future
     who: William MacAskill
     relation: milestone
-    text: "MacAskill rests longtermism on three claims: future people count, there could be very many of them, and we can make their lives better. Among the gravest threats he names engineered pathogens and misaligned AGI. Advanced AI, he warns, could also lock in one set of values for an extremely long time. TIME ran a cover story on the book and the movement."
-    source: William MacAskill, What We Owe the Future, Basic Books, 16 August 2022; Krister Bykvist, review, Notre Dame Philosophical Reviews, 2023
+    text: "MacAskill rests longtermism on three claims: future people count, there could be very many of them, and we can make their lives better. Among the risks he weighs are man-made pathogens and advanced AI. AI, he warns, could also lock in one set of values for a very long time. TIME ran a cover story on the book and the movement."
+    source: William MacAskill, What We Owe the Future, Basic Books, 16 August 2022; Krister Bykvist, review, Notre Dame Philosophical Reviews, 7 July 2023; Naina Bajekal, “Want to Do More Good? This Movement Might Have the Answer”, TIME, 10 August 2022
     sourceUrl: https://www.hachettebookgroup.com/titles/william-macaskill/what-we-owe-the-future/9781541618626/
     themes: [rights-and-dignity]
     image: ea-wwotf-cover-2022
-    status: draft
+    status: checked
 
   - id: 2020-the-precipice
     year: 2020
     title: The Precipice
     who: Toby Ord
     relation: milestone
-    text: An Oxford philosopher argues that since the first atomic bomb, in 1945, humanity has lived through a period of heightened risk. He puts the chance of an existential catastrophe this century at about one in six. The largest single risk, about one in ten, is AI whose goals do not match human flourishing. Reducing such risk, he argues, should be a major global priority.
-    source: "Toby Ord, The Precipice: Existential Risk and the Future of Humanity, Hachette, 2020; Theron Pummer, review, Notre Dame Philosophical Reviews, 2 August 2020"
+    text: An Oxford philosopher argues that since the first atomic bomb, in 1945, humanity has lived in an age of heightened existential risk. He puts the chance of an existential catastrophe this century at about one in six. The largest single risk, about one in ten, is AI whose goals do not match human flourishing. Reducing such risk, he argues, should be a major global priority.
+    source: "Toby Ord, The Precipice: Existential Risk and the Future of Humanity, Bloomsbury, London, and Hachette, New York, 2020; Theron Pummer, review, Notre Dame Philosophical Reviews, 2 August 2020"
     sourceUrl: https://ndpr.nd.edu/reviews/the-precipice-existential-risk-and-the-future-of-humanity/
     image: ea-trinity-1945
-    status: draft
+    status: checked
 
   - id: 2017-longtermism
     year: 2017
@@ -87,52 +87,52 @@ entries:
     sourceUrl: https://forum.effectivealtruism.org/posts/qZyshHCNkjs3TvSem/longtermism
     themes: [rights-and-dignity]
     image: ea-longtermism-post-2017
-    status: draft
+    status: checked
 
   - id: 2016-open-philanthropy-ai
     year: 2016
-    title: Open Philanthropy bets on AI safety
+    title: Open Philanthropy makes AI risk a priority
     who: Holden Karnofsky, Open Philanthropy
     relation: milestone
-    text: GiveWell's offshoot, which advises the foundation of Dustin Moskovitz and Cari Tuna, makes potential risks from advanced AI “a major priority”. Karnofsky gives at least a one-in-ten chance of transformative AI within twenty years, and finds the cause important, neglected and tractable. In March 2017 it gave OpenAI $30 million, and Karnofsky joined OpenAI's board.
-    source: "Holden Karnofsky, “Potential Risks from Advanced Artificial Intelligence: The Philanthropic Opportunity”, Open Philanthropy, 6 May 2016; Open Philanthropy, “OpenAI — General Support”, March 2017"
+    text: GiveWell's offshoot, which advises the foundation of Dustin Moskovitz and Cari Tuna, makes potential risks from advanced AI “a major priority”. Karnofsky gives at least a one-in-ten chance of transformative AI within twenty years, and finds the cause important, neglected and tractable. In March 2017 it granted OpenAI $30 million over three years, and Karnofsky joined OpenAI's board.
+    source: "Holden Karnofsky, “Potential Risks from Advanced Artificial Intelligence: The Philanthropic Opportunity”, Open Philanthropy, 6 May 2016; Open Philanthropy, “OpenAI — General Support”, March 2017; GiveWell, “Our story”, givewell.org"
     sourceUrl: https://coefficientgiving.org/blog/potential-risks-advanced-artificial-intelligence-philanthropic-opportunity
     themes: [power]
     image: ea-open-philanthropy-ai-2016
-    status: draft
+    status: checked
 
   - id: 2011-effective-altruism-named
     year: 2011
     title: “Effective altruism”
     who: William MacAskill and the Oxford founders
     relation: coined
-    text: Giving What We Can was growing, and 80,000 Hours, a careers project, had soft-launched in February. Planning an umbrella charity, the founders needed a name for people using their lives to do good effectively. MacAskill pushed for “effective altruism”, and on 5 December a shortlist vote chose the Centre for Effective Altruism by a clear margin. Peter Singer's TED talk later spread the term.
+    text: Giving What We Can was growing, and 80,000 Hours, a careers project, had soft-launched in February. Planning an umbrella charity, the founders needed a name for people using their lives to do good effectively. MacAskill pushed for “effective altruism”, and on 5 December a shortlist vote chose the Centre for Effective Altruism by a clear margin. Peter Singer's 2013 TED talk later spread the term.
     source: William MacAskill, “The history of the term ‘effective altruism’”, Effective Altruism Forum, 11 March 2014
     sourceUrl: https://forum.effectivealtruism.org/posts/9a7xMXoSiQs3EYPA2/the-history-of-the-term-effective-altruism
     image: ea-cea-website-2011
-    status: draft
+    status: checked
 
   - id: 2009-giving-what-we-can
     year: 2009
     title: Giving What We Can
     who: Toby Ord, Bernadette Young and William MacAskill
     relation: institutional-root
-    text: Inspired by Singer's essay, the Oxford philosopher Toby Ord decides to give a large share of his income to the most effective charities. With his wife, Bernadette Young, and William MacAskill, he launches a society whose members pledge at least 10% of their income. More than 11,000 people have since taken the lifetime pledge.
-    source: Giving What We Can, “About us”, givingwhatwecan.org; David Edmonds, “The drowning child”, Princeton University Press, 22 September 2025
+    text: Inspired by ethicists such as Peter Singer, the Oxford philosopher Toby Ord decides to give a large share of his income to effective charities. With his wife, Bernadette Young, and William MacAskill, he launches a society whose members pledge at least 10% of their income. By November 2026 more than 11,000 people had taken its 10% Pledge.
+    source: Giving What We Can, “About us” and “Our history”, givingwhatwecan.org, seen 20 November 2026
     sourceUrl: https://www.givingwhatwecan.org/about-us
     image: ea-gwwc-website-2009
-    status: draft
+    status: checked
 
   - id: 2007-givewell
     year: 2007
     title: GiveWell
     who: Holden Karnofsky and Elie Hassenfeld
     relation: institutional-root
-    text: Eight friends working in finance try to find out where their donations would do most good, but foundations will not share what they know. Two of them, Holden Karnofsky and Elie Hassenfeld, leave their jobs and launch GiveWell full time. It recommends a few top charities, chosen for strong evidence and high cost-effectiveness, and publishes its research. It later incubated Open Philanthropy, separate from 2017.
+    text: Eight friends working in finance try to find out where their donations would do most good, but foundations will not share what they know. Two of them, Holden Karnofsky and Elie Hassenfeld, leave their jobs and launch GiveWell full time. It recommends a few top charities, chosen for strong evidence and high cost-effectiveness, and publishes its research. It also incubated Open Philanthropy, which became separate in 2017.
     source: GiveWell, “Our story”, givewell.org, updated February 2018; GiveWell, “Quick Start Guide”, givewell.org
     sourceUrl: https://www.givewell.org/story
     image: ea-givewell-website-2007
-    status: draft
+    status: checked
 
   - id: 2003-astronomical-waste
     year: 2003
@@ -144,7 +144,7 @@ entries:
     sourceUrl: https://nickbostrom.com/astronomical/waste.pdf
     themes: [abundance]
     image: ea-virgo-cluster-hubble
-    status: draft
+    status: checked
 
   - id: 2002-existential-risks
     year: 2002
@@ -155,7 +155,7 @@ entries:
     source: "Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards”, Journal of Evolution and Technology 9(1), 2002; Michael Aird, “Clarifying existential risks and existential catastrophes”, Effective Altruism Forum, 24 April 2020"
     sourceUrl: https://nickbostrom.com/existential/risks
     image: ea-jet-2002
-    status: draft
+    status: checked
 
   - id: 1984-reasons-and-persons
     year: 1984
@@ -163,31 +163,31 @@ entries:
     who: Derek Parfit
     relation: claimed
     text: "Parfit compares three outcomes: peace, a nuclear war that kills 99% of the world's people, and a war that kills everyone. The gap between the last two is far greater, he argues, because extinction would also end all the generations to come. Destroying mankind, he writes, would be “much worse than most people think”. The passage has led many effective altruists to work on extinction risk."
-    source: Derek Parfit, Reasons and Persons, Clarendon Press, Oxford, 1984, pp. 453–454; Effective Altruism Forum, “Ethics of existential risk” and “Derek Parfit”, wiki entries
-    sourceUrl: https://forum.effectivealtruism.org/tag/ethics-of-existential-risk
+    source: Derek Parfit, Reasons and Persons, Clarendon Press, Oxford, 1984, pp. 453–454; Effective Altruism Forum, “Derek Parfit” and “Ethics of existential risk”, wiki entries
+    sourceUrl: https://forum.effectivealtruism.org/topics/derek-parfit
     themes: [rights-and-dignity]
     image: ea-reasons-and-persons-1984
-    status: draft
+    status: checked
 
   - id: 1972-famine-affluence-morality
     year: 1972
     title: “Famine, Affluence, and Morality”
     who: Peter Singer
     relation: claimed
-    text: Writing in November 1971, as people die in East Bengal for lack of food, Singer imagines a child drowning in a shallow pond. Anyone would wade in, even at the cost of muddy clothes. If we can prevent something bad without sacrificing “anything of comparable moral importance”, he argues, we ought to, however far away the suffering. Giving What We Can credits the essay with inspiring the modern effective giving movement.
-    source: Peter Singer, “Famine, Affluence, and Morality”, Philosophy & Public Affairs 1(3), Spring 1972, pp. 229–243; full text and introduction on the Giving What We Can website
+    text: Writing in November 1971, as people die in East Bengal for lack of food, Singer imagines a child drowning in a shallow pond. He ought to wade in, he says, even at the cost of muddy clothes. If we can prevent something bad without sacrificing “anything of comparable moral importance”, he argues, we ought to, however far away the suffering. Giving What We Can credits the essay with inspiring the modern effective giving movement.
+    source: Peter Singer, “Famine, Affluence, and Morality”, Philosophy & Public Affairs 1(3), 1972, pp. 229–243; full text and introduction on the Giving What We Can website
     sourceUrl: https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/famine-affluence-and-morality-peter-singer
     themes: [rights-and-dignity]
     image: ea-ppa-1972
-    status: draft
+    status: checked
 
   - id: 1874-methods-of-ethics
     year: 1874
     title: The Methods of Ethics
     who: Henry Sidgwick
     relation: claimed
-    text: A Cambridge lecturer sets out the classical utilitarianism founded by Jeremy Bentham. From the point of view of the universe, he argues, no one's good matters more than anyone else's. Nor does it matter when a person lives, since the interests of posterity “must concern a Utilitarian as much as those of his contemporaries”. Greaves and MacAskill cite him among those who reject any pure time preference.
-    source: Henry Sidgwick, The Methods of Ethics, Macmillan, London, 1874, Book IV, ch. 1, p. 385; Hilary Greaves and William MacAskill, “The Case for Strong Longtermism”, GPI Working Paper, June 2021; L. Hampton, “Henry Sidgwick”, utilitarianism.net, 2023
+    text: A Cambridge lecturer sets out utilitarianism, the theory Jeremy Bentham first stated clearly. The time at which a person lives, he argues, cannot change the value of their happiness. So the interests of posterity “must concern a Utilitarian as much as those of his contemporaries”. Greaves and MacAskill cite him among those who endorse a zero rate of pure time preference.
+    source: Henry Sidgwick, The Methods of Ethics, Macmillan, London, 1874, Book IV, ch. 1, § 2, p. 385; Hilary Greaves and William MacAskill, “The Case for Strong Longtermism”, GPI Working Paper 5-2021, June 2021, note 21
     sourceUrl: https://darwin-online.org.uk/converted/pdf/1874_Sidgwick_methods_of_ethics_DlibD_A5921.pdf
     image: ea-sidgwick-1874
-    status: draft
+    status: checked
