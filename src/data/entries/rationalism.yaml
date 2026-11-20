@@ -35,7 +35,7 @@ entries:
     text: MIRI's co-founder and its president argue that modern AI systems are opaque, so no one can set the goals a superintelligence would pursue. Such a machine would want the resources people depend on, and humanity would die out. They call for a halt to large-scale AI development everywhere, and the book's website sets out a draft treaty.
     source: Eliezer Yudkowsky and Nate Soares, If Anyone Builds It, Everyone Dies, Little, Brown, 2025; “A Draft of a Treaty, with Annotations”, on the book's website
     sourceUrl: https://www.ifanyonebuildsit.com/treaty
-    themes: [compute]
+    themes: [compute, alignment]
     image: rationalism-iabied-cover-2025
     status: checked
 
@@ -156,6 +156,7 @@ entries:
     sourceUrl: https://www.cs.umd.edu/users/gasarch/BLOGPAPERS/moral.pdf
     image: sorcerers-apprentice-1882
     status: checked
+    themes: [alignment]
 
   - id: 1951-turing
     year: 1951

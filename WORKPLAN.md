@@ -22,7 +22,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - WebFetch cannot open Wikimedia Commons file pages. Image research on Commons is done in the main conversation with the built-in browser, which runs on the owner's Mac.
 - Same-year entries: give `month` so they sort newest first.
-- **Alignment tags held back** (20 Nov): to avoid a merge conflict with the unmerged `keywords` branch, three checked entries still lack the `alignment` tag. Once `keywords` is in `main`, append `alignment` to the `themes:` line of rationalism `2025-if-anyone-builds-it` and `1960-wiener`, and techno-optimism `2023-why-ai-will-save-the-world` (add the line if `keywords` removed it).
+- Alignment tags: the three held-back tags were added after `keywords` merged (20 Nov).
 - The proxy refuses deleting remote branches (HTTP 403), so merged branches such as `keyword/alignment` stay on GitHub; the owner can delete them there.
 
 ## Waiting on the owner
