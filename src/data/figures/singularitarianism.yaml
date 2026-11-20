@@ -1,0 +1,68 @@
+# Notable figures for Singularitarianism (one file per ism). Portraits are added by the project team only:
+# put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+# Ids carry the suffix -singularity so they stay unique across the site.
+- id: sam-altman-singularity
+  name: Sam Altman
+  lifespan: born 1985
+  isms: [singularitarianism]
+  note: Chief executive of OpenAI, who wrote in 2025 that the takeoff has started.
+  entry: singularitarianism/2025-gentle-singularity
+- id: richard-sutton-singularity
+  name: Richard Sutton
+  isms: [singularitarianism]
+  note: Pioneer of reinforcement learning, who argues that succession to AI is inevitable.
+  entry: singularitarianism/2025-sutton-succession
+- id: ray-kurzweil-singularity
+  name: Ray Kurzweil
+  lifespan: born 1948
+  isms: [singularitarianism]
+  note: Inventor and futurist who dated the singularity to 2045 and co-founded Singularity University.
+  entry: singularitarianism/2005-singularity-is-near
+- id: eliezer-yudkowsky-singularity
+  name: Eliezer Yudkowsky
+  lifespan: born 1979
+  isms: [singularitarianism]
+  note: Co-founder of the Singularity Institute. Wrote the Singularitarian Principles before turning to AI risk.
+  entry: singularitarianism/2000-singularity-institute
+- id: vernor-vinge-singularity
+  name: Vernor Vinge
+  lifespan: 1944–2024
+  isms: [singularitarianism]
+  note: Mathematician and science-fiction writer who named the technological singularity.
+  entry: singularitarianism/1993-vinge-coming-singularity
+- id: hans-moravec-singularity
+  name: Hans Moravec
+  lifespan: born 1948
+  isms: [singularitarianism]
+  note: Roboticist who saw robots as humanity's mind children and successors.
+  entry: singularitarianism/1988-moravec-mind-children
+- id: ij-good-singularity
+  name: I. J. Good
+  lifespan: 1916–2009
+  isms: [singularitarianism]
+  note: Statistician who described the first ultraintelligent machine and the intelligence explosion.
+  entry: singularitarianism/1965-good-ultraintelligent
+- id: gordon-moore-singularity
+  name: Gordon Moore
+  lifespan: 1929–2023
+  isms: [singularitarianism]
+  note: Semiconductor pioneer whose 1965 forecast became Moore's law.
+  entry: singularitarianism/1965-moore
+- id: john-von-neumann-singularity
+  name: John von Neumann
+  lifespan: 1903–1957
+  isms: [singularitarianism]
+  note: Mathematician and computer designer, remembered for speaking of a coming singularity.
+  entry: singularitarianism/1958-ulam-von-neumann
+- id: alan-turing-singularity
+  name: Alan Turing
+  lifespan: 1912–1954
+  isms: [singularitarianism]
+  note: Mathematician and computing pioneer, who expected thinking machines to take control in the end.
+  entry: singularitarianism/1951-turing-heretical-theory
+- id: samuel-butler-singularity
+  name: Samuel Butler
+  lifespan: 1835–1902
+  isms: [singularitarianism]
+  note: Novelist and satirist who warned in 1863 that machines might become our successors.
+  entry: singularitarianism/1863-butler-darwin-machines

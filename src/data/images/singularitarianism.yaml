@@ -1,0 +1,64 @@
+# Images for the Singularitarianism timeline (one file per ism). Ids carry the prefix sing-.
+# No file yet = a labelled placeholder. Downloads only after the owner approves a batch.
+- id: sing-gentle-singularity-2025
+  title: “The Gentle Singularity”, Sam Altman's blog post
+  date: '2025'
+  rights: to-check
+  sourceUrl: https://blog.samaltman.com/the-gentle-singularity
+- id: sing-nasa-ames-aerial-2008
+  title: Aerial view of NASA Ames Research Center and NASA Research Park, Moffett Field, California
+  date: '2008'
+  creator: Dominic Hart, NASA
+  holder: NASA Ames Research Center
+  rights: public-domain
+  sourceUrl: https://images.nasa.gov/details/ARC-2008-ACD08-0105-028
+- id: sing-singularity-near-cover
+  title: The Singularity Is Near, first edition cover
+  date: '2005'
+  rights: to-check
+- id: sing-siai-website
+  title: The Singularity Institute's early website, via the Internet Archive
+  rights: to-check
+- id: sing-vinge-1993-ntrs
+  title: “The Coming Technological Singularity”, first page, NASA conference paper
+  date: '1993'
+  holder: NASA Technical Reports Server
+  rights: to-check
+  licence: 'NTRS states: Work of the US Gov. Public Use Permitted'
+  sourceUrl: https://ntrs.nasa.gov/citations/19940022856
+- id: sing-mind-children-cover
+  title: Mind Children, first edition cover, Harvard University Press
+  date: '1988'
+  rights: to-check
+- id: sing-omni-1983-01
+  title: Omni magazine, January 1983, cover
+  date: '1983'
+  rights: to-check
+  sourceUrl: https://archive.org/details/omni-1983-01
+- id: sing-advances-computers-1965
+  title: Advances in Computers, volume 6, title page
+  date: '1965'
+  rights: to-check
+- id: sing-electronics-1965
+  title: Electronics magazine, 19 April 1965, cover
+  date: '1965'
+  rights: to-check
+- id: sing-ias-computer
+  title: The IAS computer, built under John von Neumann at Princeton, Smithsonian National Museum of American History
+  date: 1946–1951
+  holder: Smithsonian Institution
+  rights: to-check
+  sourceUrl: https://www.si.edu/object/nmah_334741
+- id: sing-turing-typescript-1951
+  title: Turing, “Intelligent machinery, a heretical theory”, typescript, King's College Cambridge
+  date: c. 1951
+  holder: King's College, Cambridge
+  rights: to-check
+  sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
+- id: sing-erewhon-1872
+  title: Erewhon, or Over the Range, title page of the first edition, Trübner, London
+  date: '1872'
+  creator: Samuel Butler
+  holder: Duke University Libraries, via the Internet Archive
+  rights: public-domain
+  sourceUrl: https://archive.org/details/erewhonoroverra00butl

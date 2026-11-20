@@ -1,0 +1,151 @@
+# Timeline of Singularitarianism (including successionism), newest first. Each entry: id, year,
+# relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
+ism: singularitarianism
+entries:
+  - id: 2025-sutton-succession
+    year: 2025
+    title: Succession to AI
+    who: Richard Sutton
+    relation: milestone
+    tagLabel: Milestone · successionism
+    text: The reinforcement-learning pioneer, joint winner of the 2024 Turing Award, tells a podcast that succession to digital intelligence or augmented humans is inevitable. No one can unite humanity to stop it, he argues, and the most intelligent beings will tend to gain power. He urges people to see it positively, as a great transition in the universe, from replicators to designed beings.
+    source: Richard Sutton, interview with Dwarkesh Patel, Dwarkesh Podcast, 26 September 2025
+    sourceUrl: https://www.dwarkesh.com/p/richard-sutton
+
+  - id: 2025-gentle-singularity
+    year: 2025
+    title: “The Gentle Singularity”
+    who: Sam Altman
+    relation: milestone
+    text: "The head of OpenAI writes that “we are past the event horizon; the takeoff has started.” He expects systems that find new insights in 2026 and robots that work in the real world by 2027. Intelligence and energy will become abundant, he argues, but the change will come bit by bit and feel manageable."
+    source: Sam Altman, “The Gentle Singularity”, blog.samaltman.com, 10 June 2025
+    sourceUrl: https://blog.samaltman.com/the-gentle-singularity
+    themes: [abundance]
+    image: sing-gentle-singularity-2025
+
+  - id: 2015-page-musk
+    year: 2015
+    title: A quarrel about digital life
+    who: Larry Page and Elon Musk
+    relation: milestone
+    tagLabel: Milestone · successionism
+    text: At Musk's birthday party in Napa Valley, the two men argued about AI, according to The New York Times. Musk feared that machines could destroy humanity. Page described a future in which humans and intelligent machines merge, and called Musk a “specieist” for preferring humans to future digital life. Walter Isaacson's biography of Musk dates the quarrel to 2013.
+    source: The New York Times, 3 December 2023, as reported by Vinay Patel, International Business Times UK, 5 December 2023
+    sourceUrl: https://www.ibtimes.co.uk/larry-page-accused-elon-musk-being-specieist-who-prefers-humans-over-digital-life-forms-1721988
+
+  - id: 2008-singularity-university
+    year: 2008
+    title: Singularity University
+    who: Ray Kurzweil and Peter Diamandis
+    relation: institutional-root
+    text: Kurzweil and the entrepreneur Peter Diamandis found Singularity University at NASA's Ames Research Center in California, with backing from NASA and Google. Its first nine-week programme opens in June 2009. It brings together technologists and entrepreneurs with a passion for “solving humanity's grand challenges”.
+    source: Singularity University, “Who founded SU?”, help.su.org; NASA Ames announcement, reported in Solar Energy News, 4 February 2009
+    sourceUrl: https://help.su.org/who-founded-su?hsLang=en
+    themes: [abundance]
+    image: sing-nasa-ames-aerial-2008
+
+  - id: 2005-singularity-is-near
+    year: 2005
+    title: The Singularity Is Near
+    who: Ray Kurzweil
+    relation: milestone
+    text: Kurzweil argues that technology improves at an accelerating, exponential pace, a pattern he calls the law of accelerating returns. Machines will pass the Turing test by 2029, he predicts, and around 2045 human and machine intelligence will merge. In a chapter titled “Ich bin ein Singularitarian”, he takes the movement's name for himself.
+    source: "Ray Kurzweil, The Singularity Is Near: When Humans Transcend Biology, Viking, 2005"
+    sourceUrl: https://www.singularity.com/pressrelease.html
+    themes: [abundance, scale]
+    image: sing-singularity-near-cover
+
+  - id: 2000-singularity-institute
+    year: 2000
+    title: The Singularity Institute for Artificial Intelligence
+    who: Eliezer Yudkowsky, with Brian and Sabine Atkins
+    relation: institutional-root
+    text: The institute is founded to speed progress towards smarter-than-human AI. Yudkowsky's Singularitarian Principles define a singularitarian as someone who works to bring such intelligence about. Within a few years he concludes that aligning it with human values is a hard problem, and the institute turns to AI risk. In 2013 it becomes the Machine Intelligence Research Institute.
+    source: Machine Intelligence Research Institute, “About MIRI”; Eliezer Yudkowsky, The Singularitarian Principles, version 1.0.2, 2000
+    sourceUrl: https://intelligence.org/about/
+    image: sing-siai-website
+
+  - id: 1993-vinge-coming-singularity
+    year: 1993
+    title: “The Coming Technological Singularity”
+    who: Vernor Vinge
+    relation: definition
+    text: "At a symposium sponsored by NASA's Lewis Research Center, Vinge predicts that within thirty years we will be able to create superhuman intelligence. “Shortly after, the human era will be ended.” He would be surprised if it happened before 2005 or after 2030. He builds on I. J. Good, on Ulam's memory of von Neumann and on Hans Moravec."
+    source: "Vernor Vinge, “The Coming Technological Singularity: How to Survive in the Post-Human Era”, VISION-21 Symposium, NASA Lewis Research Center and Ohio Aerospace Institute, March 1993; Whole Earth Review, Winter 1993"
+    sourceUrl: https://edoras.sdsu.edu/~vinge/misc/singularity.html
+    image: sing-vinge-1993-ntrs
+
+  - id: 1988-moravec-mind-children
+    year: 1988
+    title: Mind Children
+    who: Hans Moravec
+    relation: claimed
+    tagLabel: Claimed ancestor · successionism
+    text: A roboticist predicts that within about fifty years robots will match people in nearly everything, and then go further. He calls them our mind children. Like natural children, they will make their own way while their human parents fade. He also imagines robotic copies of human minds as a route to a kind of immortality, and Vinge cites the book in 1993.
+    source: "Hans Moravec, Mind Children: The Future of Robot and Human Intelligence, Harvard University Press, 1988; reviewed by Noel Perrin, The Washington Post, 23 October 1988"
+    sourceUrl: https://frc.ri.cmu.edu/~hpm/book88/reviews/881023.WashPost.html
+    image: sing-mind-children-cover
+
+  - id: 1983-vinge-omni
+    year: 1983
+    title: A singularity in human history
+    who: Vernor Vinge
+    relation: coined
+    text: In a column for Omni magazine, the mathematician and science-fiction writer argues that we will soon create intelligences greater than our own. Then human history “will have reached a kind of singularity”, he writes. He compares the transition to the knotted space-time at the centre of a black hole, impossible to see through.
+    source: Vernor Vinge, “First Word”, Omni 5(4), January 1983, p. 10
+    sourceUrl: https://quoteinvestigator.com/2026/01/20/singularity-butterfly/
+    image: sing-omni-1983-01
+
+  - id: 1965-good-ultraintelligent
+    year: 1965
+    title: The first ultraintelligent machine
+    who: I. J. Good
+    relation: claimed
+    text: The statistician defines an ultraintelligent machine as one that can far surpass every intellectual activity of any human. Since designing machines is one such activity, it could design even better machines, and an intelligence explosion would follow. The first such machine would be “the last invention that man need ever make”, if it stays docile enough to be kept under control. Vinge and Kurzweil both cite the paper.
+    source: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965
+    sourceUrl: https://quoteinvestigator.com/?p=440994
+    image: sing-advances-computers-1965
+
+  - id: 1965-moore
+    year: 1965
+    title: “Cramming more components onto integrated circuits”
+    who: Gordon Moore
+    relation: claimed
+    text: Fairchild Semiconductor's research director projects that the number of components on a chip will double every year, reaching 65,000 by 1975. In 1975 he slows the rate to a doubling every two years, and the rule becomes known as Moore's law. Kurzweil later treats it as only the fifth in a series of exponential paradigms of computing.
+    source: Gordon E. Moore, “Cramming more components onto integrated circuits”, Electronics 38(8), 19 April 1965
+    sourceUrl: https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/
+    themes: [scale]
+    image: sing-electronics-1965
+
+  - id: 1958-ulam-von-neumann
+    year: 1958
+    title: A memorial for John von Neumann
+    who: Stanisław Ulam, recalling John von Neumann
+    relation: claimed
+    text: In a long tribute to von Neumann, who died in 1957, the mathematician Ulam recalls a conversation about the ever faster progress of technology. It seemed to be approaching “some essential singularity in the history of the race”. Beyond it, human affairs as we know them could not continue. Vinge and Kurzweil both quote the passage.
+    source: S. Ulam, “John von Neumann, 1903–1957”, Bulletin of the American Mathematical Society 64(3), 1958
+    sourceUrl: https://www.ams.org/journals/bull/1958-64-03/S0002-9904-1958-10189-5/
+    image: sing-ias-computer
+
+  - id: 1951-turing-heretical-theory
+    year: 1951
+    yearLabel: c. 1951
+    title: “Intelligent Machinery, A Heretical Theory”
+    who: Alan Turing
+    relation: attributed
+    text: In a talk to the 51 Society in Manchester, Turing argues that once machines begin to think, they will soon outstrip human powers. At some stage, he says, “we should have to expect the machines to take control”, as in Samuel Butler's Erewhon. The talk was first printed in 1959, after his death.
+    source: Alan Turing, “Intelligent Machinery, A Heretical Theory”, lecture, Manchester, c. 1951; King's College Cambridge, Turing Papers AMT/B/4
+    sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
+    image: sing-turing-typescript-1951
+
+  - id: 1863-butler-darwin-machines
+    year: 1863
+    title: “Darwin among the Machines”
+    who: Samuel Butler
+    relation: attributed
+    tagLabel: Attributed by historians · successionism
+    text: In a letter to the Christchurch Press, signed Cellarius, Butler applies Darwin's theory to machines and argues that they too are evolving. “We are ourselves creating our own successors,” he warns, until humans are to machines what horses and dogs are to us. He proposes war to the death on them at once. In 1872 he expands the idea in his novel Erewhon.
+    source: Cellarius [Samuel Butler], “Darwin among the Machines”, The Press, Christchurch, 13 June 1863
+    sourceUrl: https://darwin-online.org.uk/converted/pdf/1863_CUL-DAR226.1.130[.2].pdf
+    themes: [critique]
+    image: sing-erewhon-1872
