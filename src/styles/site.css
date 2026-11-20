@@ -26,7 +26,7 @@ a:hover { color: var(--muted); }
 .ph { background: var(--ph); display: flex; align-items: flex-end; padding: 14px; width: 100%; }
 .pic { margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .pic img { width: 100%; height: auto; object-fit: cover; display: block; background: var(--ph); }
-.pic img.contain { object-fit: contain; padding: 4%; }
+/* Every image fills its frame (owner, 20 Nov). */
 .pic .cap { min-height: 30px; }
 .tgrid .pic .cap { min-height: 45px; }
 .item .pic .cap, .intro .pic .cap { min-height: 0; }
