@@ -22,12 +22,14 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - WebFetch cannot open Wikimedia Commons file pages. Image research on Commons is done in the main conversation with the built-in browser, which runs on the owner's Mac.
 - Same-year entries: give `month` so they sort newest first.
+- **Alignment tags held back** (20 Nov): to avoid a merge conflict with the unmerged `keywords` branch, three checked entries still lack the `alignment` tag. Once `keywords` is in `main`, append `alignment` to the `themes:` line of rationalism `2025-if-anyone-builds-it` and `1960-wiener`, and techno-optimism `2023-why-ai-will-save-the-world` (add the line if `keywords` removed it).
+- The proxy refuses deleting remote branches (HTTP 403), so merged branches such as `keyword/alignment` stay on GitHub; the owner can delete them there.
 
 ## Waiting on the owner
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
-- Image batch approvals (sent as lists when ready).
+- Image batch approvals (sent as lists when ready). **Batch 6** (`docs/image-batches/batch-06.md`): candidates for the Alignment card (a 1788 flyball governor, two more governors, an Iron Age horse bit). Nothing downloaded.
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag). The name Made Minds was decided on 20 November 2026.
 
 ## How a session continues the build
@@ -39,6 +41,8 @@ Every session starts here: find the first stage that is not done, do the next pi
 5. Run `npm run deploy` to update the live site, republish the preview, tick this file, add a line to the log, commit, push.
 
 ## Log
+
+- 2026-11-20 (scheduled run): Key word **Alignment** drafted, checked by a separate agent and merged (`order: 8`, card image to come; 6 history entries tagged, 3 held back, see Notes). Checker removed Russell's reported denial of coining the word (single unverifiable source; the vocabulary entry for "alignment" still carries it) and moved the DAIR statement out (better on The pause). Image batch 6 listed for its card. Preview republished (version 24); not deployed to GitHub Pages.
 
 - 2026-11-20: Collage set made for all 13 cards; Abundance rebuilt around an electricity meter (batch 3, 1 image, CC BY-SA 4.0).
 - 2026-11-20: Vocabulary merged: 40 words, each checked against sources by a separate agent (several dates corrected, e.g. p(doom) by 2009). Vocabulary page with family filter; home shows the illustrated words, then the plain list.
