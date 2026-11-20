@@ -49,11 +49,11 @@ a:hover { color: var(--muted); }
 /* Families as rows: the family on the left, its two movements side by side. */
 .sec-h { margin: 0 0 40px; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; }
 .fams { display: flex; flex-direction: column; row-gap: 72px; }
-.fam { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 4fr) minmax(0, 4fr); column-gap: 40px; align-items: start; padding-top: 20px; border-top: 2px solid var(--ink); }
-.fh { display: flex; flex-direction: column; gap: 8px; }
+.fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; row-gap: 28px; align-items: start; padding-top: 18px; border-top: 2px solid var(--ink); }
+.fh { grid-column: 1 / -1; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 20px; row-gap: 4px; }
 .fn { margin: 0; font-size: 15px; line-height: 20px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; display: flex; align-items: center; }
 .fsw { display: inline-block; width: 14px; height: 14px; margin-right: 10px; flex: none; }
-.fd { margin: 0; font-size: 16px; line-height: 24px; color: var(--muted); max-width: 300px; }
+.fd { margin: 0; font-size: 16px; line-height: 24px; color: var(--muted); }
 .cn { font-family: var(--mono); font-size: 13px; line-height: 18px; color: var(--muted); margin-top: 6px; }
 .card { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: var(--ink); transition: opacity 200ms ease; }
 a.card:hover .ph, a.card:hover img { filter: brightness(0.96); }
@@ -173,8 +173,7 @@ a.hist:hover .ht { text-decoration: underline; }
 .prose ul { margin: 0; padding-left: 24px; display: flex; flex-direction: column; gap: 10px; }
 
 @media (max-width: 1100px) {
-  .fam { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 24px; }
-  .fh { grid-column: 1 / -1; }
+  .fam { column-gap: 32px; }
   .crit { grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
   .wlist { grid-template-columns: minmax(0, 1fr); }
   .tgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
