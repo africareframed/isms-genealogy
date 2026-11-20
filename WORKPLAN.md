@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 ## Log
 
 - 2026-11-20: Collage set made for all 13 cards; Abundance rebuilt around an electricity meter (batch 3, 1 image, CC BY-SA 4.0).
+- 2026-11-20: Ism cards rebuilt by the illustration guide, with page images: Transhumanism (Flood Tablet + 2045, label date corrected to 7th century BCE), Singularitarianism (IAS machine + Ulam 1958), Techno-optimism (Hoover Dam, no BUILD; handed over two years early), e/acc kept plus a page image. Rationalism and Effective altruism wait for image batch 5.
 - 2026-11-20: Owner decisions: themes become narrow key words plus a word book (questions dropped as too broad, no critics section); notable figures shown as a folding index of names, no portraits. Questions agent stopped before writing; vocabulary agent continues (branch `words`).
 - 2026-11-20: Home restructured (owner): the six as movements in three family rows, numbered 01–06; no filter above them; themes shown as questions; the critics and the vocabulary get their own sections (filter on the vocabulary). Agents drafting the question pages (branch `questions`) and the vocabulary (branch `words`).
 - 2026-11-20: Vertical page images (4:5, 1200 × 1500) for the seven themes, shown at the top of each theme page (`pageImage`). Fixed stretched photos on The tool, Rights and dignity, Critique and Power; the engine now warns when a box stretches its crop (ism cards still have some, to fix in their rework).

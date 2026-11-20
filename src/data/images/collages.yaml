@@ -2,18 +2,19 @@
 # from the archive images listed in each title. No generative model is used.
 
 - id: collage-transhumanism
-  title: "Collage from the Gilgamesh Flood Tablet and Tsiolkovsky's Free Space (1883)"
+  title: "Collage from the Flood Tablet, Epic of Gilgamesh (7th century BCE)"
   rights: open-licence
-  licence: "from CC0 and public-domain sources"
+  licence: "CC0, after the British Museum's photograph"
   file: "collage-transhumanism.jpg"
-  alt: "A cut-up collage: a cuneiform tablet and a drawing of a spherical spacecraft over acid-green fields, with the number 2045"
+  alt: "The cuneiform Flood Tablet of the Epic of Gilgamesh over acid-green fields, beside 2045, Kurzweil's date for the Singularity"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"
 
 - id: collage-singularitarianism
-  title: "Collage from the IAS machine and a chart of transistors per chip, 1970–2020"
-  rights: open-licence
-  licence: "CC BY 4.0, after Our World in Data (Max Roser, Hannah Ritchie)"
+  title: "Collage from a photograph of the IAS machine, von Neumann's computer"
+  rights: public-domain
   file: "collage-singularitarianism.jpg"
-  alt: "A cut-up collage: an early valve computer and a steeply rising chart of chip transistor counts over green fields"
+  alt: "The IAS machine, an early valve computer, over green fields; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
 
 - id: collage-rationalism
   title: "Collage from von Holst's Frankenstein frontispiece (1831) and Barth's Sorcerer's Apprentice (c. 1882)"
@@ -41,7 +42,8 @@
   rights: open-licence
   licence: "from a public-domain photograph"
   file: "collage-techno-optimism.jpg"
-  alt: "A cut-up collage: dam towers in scaffolding over orange fields, with the word BUILD"
+  alt: "Hoover Dam's intake towers in scaffolding over orange fields; the dam was handed over more than two years ahead of schedule"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Construction_Intake_Towers_Hoover_Dam_1934.jpg"
 
 - id: collage-abundance
   title: "Collage from a photograph of a Siemens electricity meter"
@@ -146,3 +148,34 @@
   licence: "from public-domain sources"
   file: "collage-critique-tall.jpg"
   alt: "The Leader of the Luddites, an 1812 engraving, beside the IAS computer, cut along a grid"
+
+- id: collage-transhumanism-tall
+  title: "Collage from the Flood Tablet, Epic of Gilgamesh (7th century BCE)"
+  rights: open-licence
+  licence: "CC0, after the British Museum's photograph"
+  file: "collage-transhumanism-tall.jpg"
+  alt: "The Flood Tablet of the Epic of Gilgamesh above 2045, Kurzweil's date for the Singularity"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"
+
+- id: collage-singularitarianism-tall
+  title: "Collage from a photograph of the IAS machine, von Neumann's computer"
+  rights: public-domain
+  file: "collage-singularitarianism-tall.jpg"
+  alt: "The IAS machine over green fields; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
+
+- id: collage-effective-accelerationism-tall
+  title: "Collage from Boccioni's The City Rises (1910)"
+  rights: open-licence
+  licence: "from a public-domain painting"
+  file: "collage-effective-accelerationism-tall.jpg"
+  alt: "Boccioni's Futurist painting of rushing horses in black ink over orange fields, above the word e/acc"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg"
+
+- id: collage-techno-optimism-tall
+  title: "Collage from a photograph of Hoover Dam under construction (1934)"
+  rights: open-licence
+  licence: "from a public-domain photograph"
+  file: "collage-techno-optimism-tall.jpg"
+  alt: "Hoover Dam's intake towers in scaffolding over orange fields; the dam was handed over more than two years ahead of schedule"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Construction_Intake_Towers_Hoover_Dam_1934.jpg"
