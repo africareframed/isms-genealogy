@@ -1,0 +1,16 @@
+# Image batch 6 — 20 November 2026
+
+Status: **waiting for the owner's yes.** Nothing downloaded. Candidates for the card of the new key word **Alignment** (one strong object: a machine that keeps another machine to its intended purpose). Pick one or two; the collage is made after download. Licences and sizes were read through the Wikimedia Commons API and the Met's open-access API, not by eye on the file pages; confirm on the page before downloading. No real people shown.
+
+| # | Image id (proposed) | What it shows | File page | File | Licence | Credit | Size |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | governor-boulton-watt | Boulton and Watt centrifugal (flyball) governor, 1788, Science Museum, London: the feedback device that keeps a steam engine at its set speed | https://commons.wikimedia.org/wiki/File:Boulton_and_Watt_centrifugal_governor.jpg | https://upload.wikimedia.org/wikipedia/commons/1/12/Boulton_and_Watt_centrifugal_governor.jpg | CC BY 3.0 | Andy Dingley, 2008 | 1223 × 2048 px |
+| 1b | governor-boulton-watt-mj | Same object, another photograph | https://commons.wikimedia.org/wiki/File:Boulton_and_Watt_centrifugal_governor-MJ.jpg | https://upload.wikimedia.org/wikipedia/commons/c/c7/Boulton_and_Watt_centrifugal_governor-MJ.jpg | CC BY 3.0 | Mirko Junge, 2008 | 1152 × 1536 px |
+| 2 | governor-tangye-1910 | Governor for a stationary steam engine, Tangye Ltd, lantern slide c. 1910 | https://commons.wikimedia.org/wiki/File:Lantern_Slide_-_Tangyes_Ltd,_Governor,_circa_1910.jpg | https://upload.wikimedia.org/wikipedia/commons/7/70/Lantern_Slide_-_Tangyes_Ltd%2C_Governor%2C_circa_1910.jpg | Public domain (per Commons; probably Museums Victoria, item not confirmed) | Author unknown | 3000 × 2992 px |
+| 3 | governor-ripper-1913 | Centrifugal governor, engraving from William Ripper, Heat Engines (Longmans, 1913 edition) | https://commons.wikimedia.org/wiki/File:Centrifugal_governor_(Heat_Engines,_1913).jpg | https://upload.wikimedia.org/wikipedia/commons/5/5e/Centrifugal_governor_%28Heat_Engines%2C_1913%29.jpg | Public domain | William Ripper | 796 × 1336 px (small) |
+| 4 | horse-bit-iran | Bronze horse bit with cheekpieces in the form of horses, Iran, Iron Age, c. 8th–7th century BCE, 13 cm, Met 57.51.40a–c | https://www.metmuseum.org/art/collection/search/324669 | https://images.metmuseum.org/CRDImages/an/original/DP226649.jpg | Met Open Access (public domain, CC0) | The Metropolitan Museum of Art | not confirmed |
+| 4b | horse-bit-etruscan | Etruscan iron horse bit, c. 550 BCE, Met 03.23.52 | https://www.metmuseum.org/art/collection/search/ (object 03.23.52) | https://images.metmuseum.org/CRDImages/gr/original/DP260759.jpg | Met Open Access (to confirm on the object page) | The Metropolitan Museum of Art | not confirmed |
+
+Also found: a Science Museum Group governor (1844–45) under CC BY-NC-SA, held back until the owner decides on non-commercial licences.
+
+A possible pairing in the house style (one object, one exact fact, type only from another time): the 1788 governor with Wiener's 1960 warning as a small label, or with the year 2014 when the word "alignment" came into use.
