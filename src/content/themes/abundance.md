@@ -4,7 +4,7 @@ order: 1
 ready: true
 summary: The promise that AI will make intelligence and energy so cheap that scarcity ends.
 includes: [post-work]
-image: atoms-for-peace-stamp
+image: collage-abundance
 lead: The promise that AI will make intelligence, energy and goods so cheap that scarcity ends. Almost every ism in Silicon Valley makes it. They differ on when it comes, who gets it, and what it costs.
 isms:
   - ism: transhumanism

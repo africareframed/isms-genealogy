@@ -1,0 +1,93 @@
+# The collage set (20 Nov 2026): one per ism and theme, made in code by scripts/collages.py
+# from the archive images listed in each title. No generative model is used.
+
+- id: collage-transhumanism
+  title: "Collage from the Gilgamesh Flood Tablet and Tsiolkovsky's Free Space (1883)"
+  rights: open-licence
+  licence: "from CC0 and public-domain sources"
+  file: "collage-transhumanism.jpg"
+  alt: "A cut-up collage: a cuneiform tablet and a drawing of a spherical spacecraft over acid-green fields, with the number 2045"
+
+- id: collage-singularitarianism
+  title: "Collage from the IAS machine and a chart of transistors per chip, 1970–2020"
+  rights: open-licence
+  licence: "CC BY 4.0, after Our World in Data (Max Roser, Hannah Ritchie)"
+  file: "collage-singularitarianism.jpg"
+  alt: "A cut-up collage: an early valve computer and a steeply rising chart of chip transistor counts over green fields"
+
+- id: collage-rationalism
+  title: "Collage from von Holst's Frankenstein frontispiece (1831) and Barth's Sorcerer's Apprentice (c. 1882)"
+  rights: open-licence
+  licence: "from public-domain sources"
+  file: "collage-rationalism.jpg"
+  alt: "A cut-up collage: Frankenstein recoiling from his creature and the sorcerer's apprentice over pink fields"
+
+- id: collage-effective-altruism
+  title: "Collage from The Blue Marble, Apollo 17 (1972)"
+  rights: open-licence
+  licence: "from a public-domain NASA photograph"
+  file: "collage-effective-altruism.jpg"
+  alt: "A cut-up collage: the whole Earth in halftone with one square missing, over pink fields"
+
+- id: collage-effective-accelerationism
+  title: "Collage from Boccioni's The City Rises (1910)"
+  rights: open-licence
+  licence: "from a public-domain painting"
+  file: "collage-effective-accelerationism.jpg"
+  alt: "A cut-up collage: a Futurist painting of rushing horses in rough black ink over orange fields, with the word e/acc"
+
+- id: collage-techno-optimism
+  title: "Collage from a photograph of Hoover Dam under construction (1934)"
+  rights: open-licence
+  licence: "from a public-domain photograph"
+  file: "collage-techno-optimism.jpg"
+  alt: "A cut-up collage: dam towers in scaffolding over orange fields, with the word BUILD"
+
+- id: collage-abundance
+  title: "Collage from the Atoms for Peace stamp (1955)"
+  rights: open-licence
+  licence: "from a public-domain stamp"
+  file: "collage-abundance.jpg"
+  alt: "A cut-up collage: an atomic stamp in halftone with the words too cheap to meter"
+
+- id: collage-power
+  title: "Collage from the frontispiece of Hobbes's Leviathan (1651)"
+  rights: open-licence
+  licence: "from a CC0 scan, British Library"
+  file: "collage-power.jpg"
+  alt: "A cut-up collage: the crowned giant of Leviathan, made of many people, over grey fields"
+
+- id: collage-the-tool
+  title: "Collage from Engelbart's prototype mouse (1964)"
+  rights: open-licence
+  licence: "CC BY 2.0, after a photo by Michael Hicks"
+  file: "collage-the-tool.jpg"
+  alt: "A cut-up collage: the first computer mouse, a wooden box with a cable, over grey fields"
+
+- id: collage-scale
+  title: "Collage from the Mark I Perceptron operator's manual (1960)"
+  rights: open-licence
+  licence: "from a public-domain manual figure"
+  file: "collage-scale.jpg"
+  alt: "A cut-up collage: a diagram of the Mark I Perceptron with the number ten to the twenty-fifth"
+
+- id: collage-rights-and-dignity
+  title: "Collage from the Universal Declaration of Human Rights (1948)"
+  rights: open-licence
+  licence: "from a public-domain UN document"
+  file: "collage-rights-and-dignity.jpg"
+  alt: "A cut-up collage: the UN emblem in white on black with the words Article 1"
+
+- id: collage-self-determination
+  title: "Collage from a photograph of the kleroterion, Museum of the Ancient Agora"
+  rights: open-licence
+  licence: "CC BY-SA 3.0, after a photo by Dorieo"
+  file: "collage-self-determination.jpg"
+  alt: "A cut-up collage: a marble allotment machine with rows of slots, over grey fields"
+
+- id: collage-critique
+  title: "Collage from The Leader of the Luddites (1812) and the IAS machine"
+  rights: open-licence
+  licence: "from public-domain sources"
+  file: "collage-critique.jpg"
+  alt: "A cut-up collage: a Luddite figure pointing towards an early computer, over grey fields"

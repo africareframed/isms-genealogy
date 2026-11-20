@@ -4,7 +4,7 @@ family: transcendence
 order: 1
 ready: true
 summary: Humans can and should use technology to overcome ageing, illness and the limits of body and mind. AI is the strongest tool yet for becoming more than human.
-image: tsiolkovsky-free-space
+image: collage-transhumanism
 lead: Transhumanism holds that the human condition is not fixed. Ageing, illness and the limits of the body and mind are problems that technology can solve, and should.
 holders:
   - name: Humanity+

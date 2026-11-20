@@ -54,6 +54,10 @@ Schemas are in `src/content.config.ts`; the build fails on a broken reference. S
 - Prefer Wikimedia Commons, the Library of Congress, the Internet Archive and museum open-access collections. Copyrighted items (book covers, press photos, film stills) stay `to-check` placeholders until the owner clears them.
 - Downloads happen only after the owner approves a batch (a list of files with source, size and licence). They go to the owner's connected folder `isms-genealogy-images` and are then copied into `public/images/`.
 
+### Collages (the house image style, from 20 Nov 2026)
+
+Every ism and theme card is a collage made in code by `scripts/collages.py` (`python3 scripts/collages.py <id>`), from archive images already cleared. Rules: archive fragments only (objects, drawings, engravings, machines, charts; no title pages or text documents); fragments cut along a 100 px grid, with a few squares shifted, inverted or removed; two bold colour fields under them, slightly out of register; family colour for isms (Transcendence `#C9F25B`, Risk `#F5A3BC`, Acceleration `#D8461C`), grey for themes; type only when it carries meaning (a date, a word of the ism's own) and then always whole, never cut; small mono labels with year and source on paper strips. Each collage's record in `src/data/images/collages.yaml` names its sources and the licence that follows from them.
+
 ## Build and check
 
 ```

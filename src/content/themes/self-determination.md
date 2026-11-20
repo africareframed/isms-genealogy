@@ -4,7 +4,7 @@ order: 6
 ready: true
 summary: Who gets to decide, over data, over communities, over the future of AI itself.
 includes: [data sovereignty, democratic plurality]
-image: kleroterion
+image: collage-self-determination
 lead: Self-determination asks who decides how AI uses people's data and shapes their future, and the isms split between voice, markets, personal choice and exit.
 isms:
   - ism: transhumanism

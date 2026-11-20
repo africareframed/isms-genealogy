@@ -4,7 +4,7 @@ order: 5
 ready: true
 summary: What every person is owed, and what no machine should take away.
 includes: [rights-based regulation, religious voices]
-image: udhr-1948
+image: collage-rights-and-dignity
 lead: The claim that every person has rights that AI must respect; the isms divide over whether that claim stops at the human.
 isms:
   - ism: transhumanism

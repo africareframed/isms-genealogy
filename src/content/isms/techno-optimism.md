@@ -5,7 +5,7 @@ order: 6
 ready: true
 summary: Technology and free markets are the engine of human progress. AI will make people richer, healthier and freer, and slowing it down costs lives.
 includes: [Augmentation]
-image: hoover-dam-1934
+image: collage-techno-optimism
 lead: Techno-optimism holds that technology and markets drive human progress, and that AI, if not held back, will make people richer, healthier and more capable.
 holders:
   - name: Marc Andreessen

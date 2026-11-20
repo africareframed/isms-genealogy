@@ -3,7 +3,7 @@ title: Scale
 order: 4
 ready: true
 summary: The belief that intelligence comes from more data and computing power, not cleverer design.
-image: perceptron-1958
+image: collage-scale
 lead: The belief that intelligence grows with data, computing power and energy, and the isms differ on whether that growth is promise or danger.
 isms:
   - ism: transhumanism
