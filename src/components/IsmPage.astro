@@ -98,7 +98,7 @@ const first = entries[0];
 
     {ism.data.themes.length > 0 && (
       <section class="wrap sec" aria-labelledby="themes-h">
-        <h2 class="kick" id="themes-h">Its key words</h2>
+        <h2 class="kick" id="themes-h">In the vocabulary</h2>
         <p class="tchips lg">
           {ism.data.themes.map((r) => {
             const t = themeById.get(r.id);
@@ -142,7 +142,7 @@ const first = entries[0];
                   <p class="src">{e.data.sourceUrl ? <a href={e.data.sourceUrl}>{e.data.source}</a> : e.data.source}</p>
                   {e.data.themes.length > 0 && (
                     <p class="tchips">
-                      <span class="lbl">Key words</span>
+                      <span class="lbl">Vocabulary</span>
                       {e.data.themes.map((r) => {
                         const t = themeById.get(r.id);
                         return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
@@ -162,7 +162,7 @@ const first = entries[0];
       <p>The oldest root traced so far.</p>
       <div class="end-links">
         <a href="#introduction">Back to the introduction</a>
-        <a href={pageHref()}>All movements and key words</a>
+        <a href={pageHref()}>All movements and words</a>
       </div>
     </section>
   </main>

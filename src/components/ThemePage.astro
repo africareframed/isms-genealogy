@@ -28,12 +28,12 @@ const nav = [
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
 ---
 <Base title={`${theme.data.title} · ${SITE_NAME}`} description={theme.data.summary}>
-  <PageHeader title={theme.data.title} kind="Key word" nav={nav} navLabel="On this page" />
+  <PageHeader title={theme.data.title} kind="Vocabulary" nav={nav} navLabel="On this page" />
 
   <main id="main">
     <section id="introduction" class="wrap intro">
       <div class="intro-text">
-        <span class="kick">Key word · Introduction</span>
+        <span class="kick">Vocabulary · Introduction</span>
         <h1>{theme.data.title}</h1>
         {theme.data.lead && <p class="lead">{theme.data.lead}</p>}
         <div class="body"><Content /></div>
@@ -108,7 +108,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
     <section class="wrap end">
       <div class="end-links">
         <a href="#introduction">Back to the introduction</a>
-        <a href={pageHref()}>All movements and key words</a>
+        <a href={pageHref()}>All movements and words</a>
       </div>
     </section>
   </main>

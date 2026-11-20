@@ -9,6 +9,7 @@ import { FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref } from '../lib/site
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
 const allThemes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
 const questions = allThemes;
+const keyTitles = new Set(allThemes.map((t) => t.data.title.toLowerCase()));
 // The vocabulary shows once src/data/words/words.yaml holds entries (an empty collection makes the build warn).
 const hasWords = (parse(readFileSync('src/data/words/words.yaml', 'utf8')) ?? []).length > 0;
 const words = hasWords ? (await getCollection('words')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0)) : [];
@@ -21,8 +22,7 @@ const num = (n: number) => String(n).padStart(2, '0');
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
-      <a href="#key-words">Key words</a>
-      {words.length > 0 && <a href={pageHref('vocabulary')}>Vocabulary</a>}
+      <a href="#vocabulary">Vocabulary</a>
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
     </nav>
@@ -65,17 +65,15 @@ const num = (n: number) => String(n).padStart(2, '0');
     </div>
   </main>
 
-  <section id="key-words" class="wrap themes-sec" aria-labelledby="key-words-h">
+  <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
     <div class="themes-head">
-      <h2 id="key-words-h">Key words</h2>
-      <p>The terms the debate keeps returning to. Open one to see what it means, where it comes from and how each movement sees it.</p>
+      <h2 id="vocab-h">Vocabulary</h2>
     </div>
     <div class="tgrid">
       {questions.map((t) => {
         const inner = (
           <Fragment>
             <Picture image={t.data.image} ratio="3 / 2" />
-            <span class="tl">Key word</span>
             <h3 class="tt">{t.data.title}</h3>
             <p class="td">{t.data.summary}</p>
             {!t.data.ready && <span class="soon">In preparation</span>}
@@ -84,20 +82,13 @@ const num = (n: number) => String(n).padStart(2, '0');
         return t.data.ready ? <a class="card" href={pageHref(t.id)}>{inner}</a> : <div class="card">{inner}</div>;
       })}
     </div>
-  </section>
-
-  {words.length > 0 && (
-    <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
-      <div class="themes-head">
-        <h2 id="vocab-h">Vocabulary</h2>
-        <p>{words.length} words of the movements, with who coined each one and when.</p>
-      </div>
+    {words.length > 0 && (
       <p class="vteaser">
-        {words.slice(-12).reverse().map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}
+        {words.filter((w) => !keyTitles.has(w.data.word.toLowerCase())).slice(-14).reverse().map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}
         <a class="vall" href={pageHref('vocabulary')}>All {words.length} words →</a>
       </p>
-    </section>
-  )}
+    )}
+  </section>
 
   <footer class="wrap site-foot">
     <span>{SITE_NAME} · A shared framework for how we speak about AI, and the history behind it</span>
