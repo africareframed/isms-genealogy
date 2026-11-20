@@ -5,7 +5,7 @@
   date: '2026'
   rights: to-check
 - id: rationalism-superintelligence-statement-2025
-  title: Statement on Superintelligence, web page
+  title: Statement on Superintelligence, web page (text only, no photographs of signers)
   date: '2025'
   holder: Future of Life Institute
   rights: to-check
@@ -17,19 +17,19 @@
   rights: to-check
   sourceUrl: https://www.hachettebookgroup.com/titles/eliezer-yudkowsky/if-anyone-builds-it-everyone-dies-why-superhuman-ai-would-kill-us-all/9780316595643/
 - id: rationalism-cais-statement-2023
-  title: Statement on AI Risk, web page
+  title: Statement on AI Risk, web page (text only, no photographs of signers)
   date: '2023'
   holder: Center for AI Safety
   rights: to-check
   sourceUrl: https://safe.ai/work/statement-on-ai-risk
 - id: rationalism-time-2023
-  title: Yudkowsky's op-ed in TIME, web page
+  title: Yudkowsky's op-ed in TIME, web page (headline and text only, without the article's photograph)
   date: '2023'
   holder: TIME
   rights: to-check
   sourceUrl: https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/
 - id: rationalism-pause-letter-2023
-  title: Pause Giant AI Experiments, open letter, web page
+  title: Pause Giant AI Experiments, open letter, web page (text only)
   date: '2023'
   holder: Future of Life Institute
   rights: to-check
