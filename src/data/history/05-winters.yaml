@@ -1,0 +1,146 @@
+# The history of AI, era "winters" (1974 to 1993), newest first.
+# Fields: see the history collection in src/content.config.ts. thread: the line of the story
+# each moment belongs to most (validated after merge). status: draft until a checker agent
+# has verified every claim against its source.
+
+- id: 1992-td-gammon
+  era: winters
+  year: 1992
+  title: TD-Gammon
+  line: A neural network teaches itself backgammon by playing against itself.
+  who: Gerald Tesauro, IBM
+  text: Tesauro's program joined a neural network to temporal-difference learning, a form of reinforcement learning. Starting from random weights, it learned from the results of games against itself. At the 1992 World Cup of Backgammon it played 38 exhibition games against top players and lost by only 7 points overall. Experts later adopted some of its opening moves.
+  source: "Gerald Tesauro, “Temporal Difference Learning and TD-Gammon”, Communications of the ACM 38 (3), March 1995"
+  sourceUrl: https://bkgm.com/articles/tesauro/tdl.html
+  thread: games
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1988-mind-children
+  era: winters
+  year: 1988
+  title: Mind Children
+  line: A roboticist predicts that robots will soon do everything people do.
+  who: Hans Moravec
+  text: Moravec predicted that robots would soon do everything people do, only better, and then go further. A reviewer read “soon” as within about fifty years. Like natural children, the robots would make their own way while their human parents faded. Vernor Vinge cited the book in 1993.
+  source: "Hans Moravec, Mind Children: The Future of Robot and Human Intelligence, Harvard University Press, 1988; reviewed by Noel Perrin, The Washington Post, 23 October 1988"
+  sourceUrl: https://frc.ri.cmu.edu/~hpm/book88/reviews/881023.WashPost.html
+  thread: made-beings
+  isms: [singularitarianism]
+  themes: []
+  status: checked
+
+- id: 1987-second-winter
+  era: winters
+  year: 1987
+  title: The second AI winter
+  line: The expert-systems boom ends, AI firms close and budgets fall.
+  who: AI companies, the American Association for Artificial Intelligence, DARPA
+  text: Membership of the American Association for Artificial Intelligence peaked at 16,421 in 1987, then fell. Sponsors had expected more than the systems delivered, and Lisp machine makers lost out to makers of ordinary workstations. Several AI companies closed. Between 1987 and 1989, DARPA's budget for basic AI and Strategic Computing research fell from $47 million to $31 million.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 21 and 24, citing Alex Roland with Philip Shiman, Strategic Computing, MIT Press, 2002"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1986-backpropagation
+  era: winters
+  year: 1986
+  month: 10
+  title: Backpropagation
+  line: Neural networks return, with a way to train their hidden layers.
+  who: David Rumelhart, Geoffrey Hinton and Ronald Williams
+  text: A letter in Nature described back-propagation, which adjusts every weight in a layered network to reduce its error. Hidden units, neither input nor output, came by themselves to represent useful features of a task. That year Rumelhart, James McClelland and their PDP group published two volumes on parallel distributed processing, computation modelled on the brain. Their networks of simple units were at odds with Newell and Simon's symbol systems.
+  source: "David E. Rumelhart, Geoffrey E. Hinton and Ronald J. Williams, “Learning representations by back-propagating errors”, Nature 323, 9 October 1986, pp. 533–536; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 25 and 29"
+  sourceUrl: https://ui.adsabs.harvard.edu/abs/1986Natur.323..533R/abstract
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1984-cyc
+  era: winters
+  year: 1984
+  title: Cyc begins
+  line: A project sets out to type common sense into a computer, fact by fact.
+  who: Douglas Lenat, at MCC in Austin, Texas
+  text: In the autumn of 1984 Lenat left Stanford for MCC, the American consortium formed in answer to Japan's Fifth Generation project. His team set out to enter millions of everyday facts and rules of thumb by hand. The name comes from the middle of “encyclopedia”, since Cyc should know enough to read one. Lenat first thought it needed a couple of million general assertions, and later put the figure nearer 200 million.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 22 and 26, quoting Douglas Lenat"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1983-strategic-computing
+  era: winters
+  year: 1983
+  month: 10
+  title: Strategic Computing
+  line: DARPA launches a billion-dollar programme for intelligent military machines.
+  who: Robert Kahn and Robert Cooper, DARPA
+  text: DARPA's plan, written up in October 1983, aimed to move expert systems, vision and speech out of the laboratory and into military use. Its showcase projects were a pilot's associate, a naval battle-management system and an autonomous land vehicle. Congress, worried by Japan's Fifth Generation project, approved the money. From 1983 to 1993 DARPA spent just over $1 billion on it.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 23; Alex Roland with Philip Shiman, Strategic Computing: DARPA and the Quest for Machine Intelligence, 1983–1993, MIT Press, 2002"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1982-fifth-generation
+  era: winters
+  year: 1982
+  title: Japan's Fifth Generation
+  line: Japan launches a ten-year plan for computers that reason and converse.
+  who: Japan's Ministry of International Trade and Industry (MITI) and its institute ICOT, led by Kazuhiro Fuchi
+  text: MITI's project aimed at computers that draw inferences from large knowledge bases and talk with people in natural language. ICOT built parallel inference machines based on logic programming, with Prolog as the starting point. The plan stirred fear in the United States that Japan would overtake its computer industry. By 1992 the project was fizzling out, short of many goals, after spending about $400 million.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 22; “‘Fifth Generation’ Became Japan's Lost Generation”, The New York Times, 5 June 1992"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1980-xcon
+  era: winters
+  year: 1980
+  title: XCON goes to work
+  line: An expert system configures computers for Digital Equipment Corporation.
+  who: John McDermott, Carnegie Mellon University, for Digital Equipment Corporation (DEC)
+  text: McDermott's R1 worked out how to configure DEC's VAX-11/780 computers, using 772 if–then rules in June 1980. Developed into XCON, it went into use that year at DEC's plant in Salem, New Hampshire. By 1989 DEC's configuration systems held about 17,500 rules, and DEC estimated their net return at over $40 million a year.
+  source: "John McDermott, “R1: An Expert in the Computer Systems Domain”, AAAI conference, 1980; Virginia E. Barker and Dennis E. O'Connor, “Expert Systems for Configuration at Digital: XCON and Beyond”, Communications of the ACM 32 (3), March 1989, quoted in Nils J. Nilsson, The Quest for Artificial Intelligence, 2010, ch. 18"
+  sourceUrl: https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1976-mycin
+  era: winters
+  year: 1976
+  title: MYCIN
+  line: A Stanford program advises doctors on infections, one rule at a time.
+  who: Edward Shortliffe, with Bruce Buchanan and Stanley Cohen, Stanford University
+  text: Described in Shortliffe's 1976 book, MYCIN advised physicians on bacterial infections, asking questions and explaining its reasoning. Its knowledge sat in a few hundred if–then rules drawn from experts, each with a certainty factor. In evaluations, a majority of reviewers rated 70 per cent of its therapies acceptable. Keeping the rules apart from the reasoning engine let others reuse it for new fields, as EMYCIN did.
+  source: "Edward H. Shortliffe, Computer-Based Medical Consultations: MYCIN, Elsevier, 1976; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 18"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1975-darpa-heilmeier
+  era: winters
+  year: 1975
+  title: DARPA demands military payoffs
+  line: The Pentagon's research agency turns AI work towards military needs.
+  who: George Heilmeier and J. C. R. Licklider, DARPA
+  text: The Mansfield Amendment of 1969 had already tied Defense Department research to specific military purposes. When Heilmeier became DARPA's director in 1975, he asked for roadmaps and shorter-term results. In an April 1975 email, Licklider warned AI leaders of pressure to redirect university work to military problems. Heilmeier declined to continue DARPA's speech-understanding programme, which he judged to be basic research.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 16 and 19, quoting J. C. R. Licklider's email of 2 April 1975"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked

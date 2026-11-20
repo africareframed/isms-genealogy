@@ -1,0 +1,182 @@
+# The history of AI, era "learning" (1993 to 2012), newest first.
+# Fields: see the history collection in src/content.config.ts. thread: the line of the story
+# each moment belongs to most (validated after merge). status: draft until a checker agent
+# has verified every claim against its source.
+
+# 2012 falls in the deep-learning era (eraBounds: from 2012), so this moment is tagged
+# deep-learning. The coordinator may move it or merge it with the 2012-onwards file.
+- id: 2012-google-cat
+  era: deep-learning
+  year: 2012
+  month: 6
+  title: The Google Brain cat
+  line: A network trained on YouTube frames learns to detect cats without labels.
+  who: Quoc Le, Andrew Ng, Jeff Dean and colleagues, Google and Stanford
+  text: The team trained a neural network with a billion connections on 10 million unlabelled images, frames taken from YouTube videos. Training ran for three days on 1,000 machines with 16,000 processor cores. Without being told what to look for, the network grew detectors for faces, human bodies and cat faces. On 20,000 ImageNet categories it reached 15.8 per cent accuracy, a 70 per cent relative gain on the previous best.
+  source: "Quoc V. Le, Marc'Aurelio Ranzato, Rajat Monga and others, “Building High-level Features Using Large Scale Unsupervised Learning”, arXiv:1112.6209, 2011, presented at ICML 2012; Jeff Dean and Andrew Ng, “Using large-scale brain simulations for machine learning and A.I.”, Google blog, 26 June 2012"
+  sourceUrl: https://arxiv.org/abs/1112.6209v1
+  thread: compute
+  isms: []
+  themes: [compute]
+  status: checked
+
+- id: 2011-siri
+  era: learning
+  year: 2011
+  month: 10
+  title: Siri
+  line: Apple puts a voice assistant on its new iPhone.
+  who: Apple
+  text: Apple announced the iPhone 4S on 4 October 2011 with Siri, “an intelligent assistant that helps you get things done just by asking”. Users could speak to make calls, send messages, schedule meetings and reminders, or look up facts. Siri launched as a beta, in English, French and German.
+  source: "Apple, “Apple Launches iPhone 4S, iOS 5 & iCloud”, press release, 4 October 2011"
+  sourceUrl: https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/
+  thread: talking
+  isms: []
+  themes: []
+  status: checked
+
+- id: 2011-watson-jeopardy
+  era: learning
+  year: 2011
+  month: 2
+  title: Watson wins Jeopardy!
+  line: IBM's question-answering machine beats two champions on television.
+  who: IBM Research, led by David Ferrucci
+  text: In a televised two-match contest over three days, Watson beat Ken Jennings and Brad Rutter, the show's two foremost champions. It answered questions put in natural language without being connected to the internet. The room-sized system used 90 servers with 2,880 processor cores. Watson won $77,147, against $24,000 for Jennings and $21,600 for Rutter.
+  source: "IBM, “Watson, ‘Jeopardy!’ champion”, IBM History"
+  sourceUrl: https://www.ibm.com/history/watson-jeopardy
+  thread: games
+  isms: []
+  themes: []
+  status: checked
+
+- id: 2010-deepmind
+  era: learning
+  year: 2010
+  title: DeepMind is founded
+  line: A small start-up sets out to understand and recreate intelligence.
+  who: Demis Hassabis, Shane Legg and Mustafa Suleyman
+  text: Hassabis, Legg and Suleyman founded DeepMind in 2010, aiming to answer big questions by understanding and recreating intelligence. Hassabis later called it a tiny start-up working in a very unfashionable area. In August 2010 he met the investor Peter Thiel at his home, after the Singularity Summit. Thiel went on to invest £1.4 million, and let the company stay in London.
+  source: "Demis Hassabis, “Entering our tenth year at DeepMind”, DeepMind blog, 5 December 2019; CNBC, “DeepMind's Demis Hassabis used chess to get Peter Thiel's attention”, 7 December 2020, reporting The Sunday Times"
+  sourceUrl: https://deepmind.google/blog/announcements/entering-our-tenth-year-at-deepmind
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 2009-imagenet
+  era: learning
+  year: 2009
+  title: ImageNet
+  line: Princeton researchers build a vast library of labelled images.
+  who: Jia Deng, Li Fei-Fei, Kai Li and colleagues, Princeton University
+  text: ImageNet sorted photographs into the categories of WordNet, a database of English words. At its debut it held 3.2 million images in 5,247 categories, and aimed at around 50 million. Workers on Amazon Mechanical Turk checked each image, with several voting independently.
+  source: "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, “ImageNet: A Large-Scale Hierarchical Image Database”, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009"
+  sourceUrl: https://wordnet.cs.princeton.edu/papers/imagenet_cvpr09.pdf
+  thread: compute
+  isms: []
+  themes: []
+  status: checked
+
+- id: 2006-cuda
+  era: learning
+  year: 2006
+  month: 11
+  title: CUDA opens graphics chips to computing
+  line: Nvidia lets programmers use its graphics chips for general calculation.
+  who: Nvidia
+  text: On 16 November 2006 Nvidia unveiled CUDA, with a C compiler for programming its graphics processors. It ran on the new GeForce 8800, whose 128 processor cores could cooperate on one problem. In 2009 a Stanford team reported training deep belief nets up to 70 times faster on such chips than on a dual-core processor.
+  source: "Nvidia, press release on CUDA, 16 November 2006, in Computer Graphics World; Rajat Raina, Anand Madhavan and Andrew Y. Ng, “Large-scale Deep Unsupervised Learning using Graphics Processors”, ICML 2009"
+  sourceUrl: https://www.cgw.com/Press-Center/News/2006/Nvidia-Introduces-CUDA-Architecture-for-Computin.aspx
+  thread: compute
+  isms: []
+  themes: [compute]
+  status: checked
+
+- id: 2006-deep-belief-nets
+  era: learning
+  year: 2006
+  month: 7
+  title: Deep belief nets
+  line: Hinton's group shows how to train networks many layers deep.
+  who: Geoffrey Hinton, Simon Osindero and Yee-Whye Teh
+  text: The paper gave a fast, greedy method that trains a deep network one layer at a time, before slower fine-tuning. Its model of handwritten digits, with three hidden layers, classified them better than the best discriminative methods. Hinton was then leading CIFAR's Neural Computation and Adaptive Perception programme, whose members included Yann LeCun and Yoshua Bengio.
+  source: "Geoffrey E. Hinton, Simon Osindero and Yee-Whye Teh, “A Fast Learning Algorithm for Deep Belief Nets”, Neural Computation 18 (7), 2006, pp. 1527–1554; CIFAR, “Our story”, cifar.ca"
+  sourceUrl: https://www.cs.utoronto.ca/~hinton/absps/ncfast.pdf
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 2005-stanley
+  era: learning
+  year: 2005
+  title: Stanley wins the desert race
+  line: A robot car drives 132 miles of desert with no one aboard.
+  who: Stanford Racing Team, led by Sebastian Thrun
+  text: In 2004 no vehicle finished DARPA's Grand Challenge across the desert, and its $1 million prize went unclaimed. On 8 October 2005 five teams completed the 132-mile course. Stanford's Stanley, a modified Volkswagen Touareg, won in just under seven hours and took the $2 million prize.
+  source: "DARPA, “The Grand Challenge”, Innovation Timeline; “Computerized Car Is Champ”, Stanford Magazine, November/December 2005"
+  sourceUrl: https://www.darpa.mil/about/innovation-timeline/grand-challenge
+  thread: made-beings
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1998-lenet-mnist
+  era: learning
+  year: 1998
+  title: LeNet and the MNIST digits
+  line: A convolutional network learns to read handwriting, and millions of cheques.
+  who: Yann LeCun, Léon Bottou, Yoshua Bengio and Patrick Haffner
+  text: The paper argued that networks trained by backpropagation could classify handwritten characters with minimal preprocessing. Its convolutional network, LeNet-5, was tested on MNIST, a set of 60,000 training digits built from two US NIST collections. On that test, convolutional networks outperformed every other technique compared. A cheque-reading system built on these methods read several million cheques a day.
+  source: "Yann LeCun, Léon Bottou, Yoshua Bengio and Patrick Haffner, “Gradient-Based Learning Applied to Document Recognition”, Proceedings of the IEEE 86 (11), November 1998"
+  sourceUrl: https://gwern.net/doc/ai/nn/cnn/1998-lecun.pdf
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1997-lstm
+  era: learning
+  year: 1997
+  month: 11
+  title: Long short-term memory
+  line: A recurrent network learns to remember across long sequences.
+  who: Sepp Hochreiter and Jürgen Schmidhuber
+  text: Recurrent networks trained by backpropagation struggled to link events far apart in time, because their error signals faded. Hochreiter and Schmidhuber added memory cells that keep the error flowing, with gates that control access to them. On artificial tasks their network bridged time lags of more than 1,000 steps.
+  source: "Sepp Hochreiter and Jürgen Schmidhuber, “Long Short-Term Memory”, Neural Computation 9 (8), 1997, pp. 1735–1780"
+  sourceUrl: https://mlanthology.org/neco/1997/hochreiter1997neco-long
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1997-deep-blue
+  era: learning
+  year: 1997
+  month: 5
+  title: Deep Blue beats Kasparov
+  line: An IBM computer defeats the world chess champion in a match.
+  who: IBM Research (Feng-hsiung Hsu, Murray Campbell, Joe Hoane and others), against Garry Kasparov
+  text: IBM hired Hsu and Campbell in 1989 to build a chess computer. In February 1996 Kasparov beat it 4–2, though it won the first game. In the May 1997 rematch in New York, Deep Blue won 3½–2½. It used 32 processors and could evaluate 200 million chess positions a second.
+  source: "IBM, “Deep Blue”, IBM History"
+  sourceUrl: https://ibm.com/history/deep-blue
+  thread: games
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1993-vinge-singularity
+  era: learning
+  year: 1993
+  month: 3
+  title: The coming technological singularity
+  line: Vinge tells a NASA symposium that the human era may soon end.
+  who: Vernor Vinge
+  text: At a symposium held by NASA's Lewis Research Center and the Ohio Aerospace Institute, Vinge predicted superhuman intelligence within thirty years. He named four routes, from intelligent computers and networks that wake up to close human–computer links and improved biology. Shortly after, he argued, “the human era will be ended”.
+  source: "Vernor Vinge, “The Coming Technological Singularity: How to Survive in the Post-Human Era”, VISION-21 Symposium, NASA Lewis Research Center and Ohio Aerospace Institute, 30–31 March 1993"
+  sourceUrl: https://edoras.sdsu.edu/~vinge/misc/singularity.html
+  thread: warnings
+  isms: [singularitarianism]
+  themes: []
+  status: checked

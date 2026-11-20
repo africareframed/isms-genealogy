@@ -1,0 +1,54 @@
+# Words born in the history of AI, 1943 to 2012 (eras birth, winters, learning).
+# Same fields as words.yaml. Ordered by year of coinage or earliest documented use, oldest first.
+# status: draft until a checker agent has verified every claim against its source.
+
+- id: cybernetics
+  word: cybernetics
+  definition: The study of control, feedback and communication in living things and machines. John McCarthy later said he named artificial intelligence partly to escape association with it.
+  coinedBy: Norbert Wiener (in this sense)
+  year: 1948
+  origin: "Norbert Wiener, Cybernetics: Or Control and Communication in the Animal and the Machine, Hermann & Cie, Paris, and MIT Press, 1948. He took the name from the Greek for steersman (MIT Libraries, “MIT 150 Books”). André Ampère had earlier used “cybernétique” for the art of government (Frank R. Tangherlini, letter, Physics Today, April 2008)."
+  sourceUrl: https://libraries.mit.edu/150books/2011/04/04/1948/
+  isms: []
+  status: checked
+
+- id: turing-test
+  word: Turing test
+  definition: A test of machine intelligence in which a judge holds written conversations with a hidden person and a hidden machine. The machine does well if the judge cannot reliably tell them apart.
+  coinedBy: Alan Turing, who called it the imitation game
+  year: 1950
+  origin: A. M. Turing, “Computing Machinery and Intelligence”, Mind 59 (236), October 1950. Turing called it the imitation game. The name Turing test came later, and its first use is not traced here.
+  sourceUrl: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
+  isms: []
+  status: checked
+
+- id: artificial-intelligence
+  word: artificial intelligence
+  definition: Making machines behave in ways that would be called intelligent if a person behaved so. The phrase also names the field that studies how to do it.
+  coinedBy: John McCarthy, with Marvin Minsky, Nathaniel Rochester and Claude Shannon
+  year: 1955
+  origin: "John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon, “A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence”, 31 August 1955, apparently the phrase's first appearance (Computer History Museum). McCarthy led the writing and later gave his reasons for the name (Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 3)."
+  sourceUrl: https://computerhistory.org/?p=3246
+  isms: []
+  status: checked
+
+- id: machine-learning
+  word: machine learning
+  definition: Programming computers to improve at a task from data or experience, instead of spelling out every step by hand.
+  coinedBy: Arthur Samuel (the use that made it known)
+  year: 1959
+  origin: Arthur L. Samuel, “Some Studies in Machine Learning Using the Game of Checkers”, IBM Journal of Research and Development 3 (3), July 1959. The paper is widely credited with coining the term (for example Gil Press, “Inventing Machine Learning”, 1 April 2025). Earlier uses, if any, are not traced here.
+  sourceUrl: https://people.csail.mit.edu/brooks/idocs/Samuel.pdf
+  isms: []
+  status: checked
+
+- id: ai-winter
+  word: AI winter
+  definition: A period when sponsors, disappointed by what AI has delivered, cut funding and interest in the field cools. The best-known came in the late 1980s, after the expert-systems boom.
+  coinedBy: Drew McDermott, chairing a panel at the 1984 AAAI conference (earliest use found)
+  year: 1984
+  yearLabel: by 1984
+  origin: "Drew McDermott, M. Mitchell Waldrop, B. Chandrasekaran, John McDermott and Roger Schank, “The Dark Ages of AI: A Panel Discussion at AAAI-84”, AI Magazine 6 (3), Fall 1985, pp. 122–134. Opening the panel, McDermott urged steps to make sure the “AI Winter” did not happen. Quoted in Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 24."
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  isms: []
+  status: checked

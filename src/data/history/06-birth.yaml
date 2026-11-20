@@ -1,0 +1,235 @@
+# The history of AI, era "birth" (1943 to 1974), newest first.
+# Fields: see the history collection in src/content.config.ts. thread: the line of the story
+# each moment belongs to most (validated after merge). status: draft until a checker agent
+# has verified every claim against its source.
+
+- id: 1973-lighthill-report
+  era: birth
+  year: 1973
+  title: The Lighthill report
+  line: A British survey finds that AI has not delivered what it promised.
+  who: Sir James Lighthill, for the Science Research Council
+  text: The Science Research Council asked the Cambridge mathematician to review AI, and published his report in 1973. He backed work on automation and on models of the brain, but found the bridge between them, robots and language, disappointing. Its methods, he argued, would founder on the combinatorial explosion. The report led to deep cuts in British AI research, among them Donald Michie's robot work at Edinburgh.
+  source: "James Lighthill, “Artificial Intelligence: A General Survey”, in Artificial Intelligence: a paper symposium, Science Research Council, 1973; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 16"
+  sourceUrl: https://www.aiai.ed.ac.uk/events/lighthill1973/lighthill.pdf
+  thread: booms-winters
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1969-perceptrons
+  era: birth
+  year: 1969
+  title: Perceptrons
+  line: Two MIT scientists prove what simple neural networks cannot do.
+  who: Marvin Minsky and Seymour Papert
+  text: Their book analysed Rosenblatt's perceptrons mathematically. It proved that networks with a single layer of adjustable weights cannot compute some simple functions. Some have blamed it for a fading interest in neural networks. Nils Nilsson doubted that, and Geoffrey Hinton later said the book never proved neural nets were nonsense.
+  source: "Marvin Minsky and Seymour Papert, Perceptrons: An Introduction to Computational Geometry, MIT Press, 1969; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 16; Geoffrey Hinton, oral-history interview by Vassilis Galanos, University of Edinburgh, 14 June 2024"
+  sourceUrl: https://groups.inf.ed.ac.uk/aics_history/AICSCSHistory_Interview005_GeoffreyHinton_publish.pdf
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1966-shakey
+  era: birth
+  year: 1966
+  month: 3
+  title: Shakey the robot
+  line: A wheeled robot at SRI perceives its rooms and plans its moves.
+  who: SRI's Artificial Intelligence Center (Charles Rosen, Nils Nilsson, Bertram Raphael and others)
+  text: Work began at SRI in March 1966, under a contract from ARPA. Shakey carried a camera, a range finder and bump sensors, and planned its way through a set of rooms. SRI calls it the first mobile robot that could perceive and reason about its surroundings. The agency, renamed DARPA in 1972, declined to fund more, and the project ended that year.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 12; SRI International, “Shakey the Robot”, sri.com"
+  sourceUrl: https://sri.com/hoi/shakey-the-robot
+  thread: made-beings
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1966-eliza
+  era: birth
+  year: 1966
+  month: 1
+  title: ELIZA
+  line: A simple program plays a therapist, and users credit it with understanding.
+  who: Joseph Weizenbaum, MIT
+  text: Weizenbaum's program ran on MIT's MAC time-sharing system. It scanned typed sentences for key words and answered from rules kept in a separate script. Its scripts made it answer like a Rogerian psychotherapist, a role in which knowing little about the world seems natural. Weizenbaum observed that users lent the program knowledge and insight it did not have.
+  source: "Joseph Weizenbaum, “ELIZA: A Computer Program for the Study of Natural Language Communication Between Man and Machine”, Communications of the ACM 9 (1), January 1966"
+  sourceUrl: https://courses.cs.umbc.edu/331/papers/eliza.html
+  thread: talking
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1965-ultraintelligent-machine
+  era: birth
+  year: 1965
+  title: The first ultraintelligent machine
+  line: A statistician foresees machines that design ever better machines.
+  who: I. J. Good
+  text: Good defined an ultraintelligent machine as one that could far surpass any human in every intellectual activity. Designing machines is one such activity, so it could build better machines, and an intelligence explosion would follow. The first such machine would be “the last invention that man need ever make”. He added one condition, that the machine be docile enough to tell us how to control it.
+  source: "I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965"
+  sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
+  thread: warnings
+  isms: [singularitarianism, rationalism]
+  themes: []
+  status: checked
+
+- id: 1960-wiener-automation
+  era: birth
+  year: 1960
+  title: Moral consequences of automation
+  line: The founder of cybernetics warns that learning machines may outrun their makers.
+  who: Norbert Wiener
+  text: Writing in Science, Wiener pointed to checkers programs that beat their own programmers after 10 to 20 hours of play. Machines that learn, he argued, can act in ways their makers did not foresee, and faster than people can react. If we cannot interfere once a machine starts, we must be sure it pursues “the purpose which we really desire”.
+  source: "Norbert Wiener, “Some Moral and Technical Consequences of Automation”, Science 131 (3410), 6 May 1960"
+  sourceUrl: https://www.cs.umd.edu/users/gasarch/BLOGPAPERS/moral.pdf
+  thread: warnings
+  isms: [rationalism]
+  themes: [alignment]
+  status: checked
+
+- id: 1959-samuel-checkers
+  era: birth
+  year: 1959
+  title: Samuel's checkers player
+  line: An IBM program learns to play checkers better than the man who wrote it.
+  who: Arthur Samuel, IBM
+  text: Samuel had written checkers programs for IBM computers since 1952, to explore how a computer could learn. In 1959 he reported that after 8 or 10 hours of play, his program on the IBM 704 played better checkers than he did. The paper's title, Some Studies in Machine Learning, is often credited with coining the term. In 1962 the program beat Robert Nealey, a checkers master from Connecticut.
+  source: "Arthur L. Samuel, “Some Studies in Machine Learning Using the Game of Checkers”, IBM Journal of Research and Development 3 (3), July 1959; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 5; Gil Press, “Inventing Machine Learning”, 1 April 2025"
+  sourceUrl: https://people.csail.mit.edu/brooks/idocs/Samuel.pdf
+  thread: games
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1958-perceptron
+  era: birth
+  year: 1958
+  title: The Perceptron
+  line: The US Navy unveils a machine that learns by trial and error.
+  who: Frank Rosenblatt, Cornell Aeronautical Laboratory, with the Office of Naval Research
+  text: In July 1958 the Office of Naval Research demonstrated Rosenblatt's perceptron, simulated on an IBM 704. After 50 trials it had taught itself to tell cards marked on the left from cards marked on the right. Rosenblatt called it the first machine “capable of having an original idea”. A hardware version, the Mark I, was first shown in public in June 1960.
+  source: "Cornell University, “Professor's perceptron paved the way for AI – 60 years too soon”, Cornell Chronicle, 25 September 2019; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 4"
+  sourceUrl: https://psychology.cornell.edu/news/professors-perceptron-paved-way-ai-60-years-too-soon
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1956-dartmouth-workshop
+  era: birth
+  year: 1956
+  title: The Dartmouth workshop
+  line: A small group spends a summer at Dartmouth founding a new field.
+  who: John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon, with Allen Newell, Herbert Simon, Arthur Samuel, Oliver Selfridge, Ray Solomonoff and others
+  text: With money from the Rockefeller Foundation, the workshop met at Dartmouth College for about six weeks of the summer. It turned out to be more a rolling workshop than a joint study. Newell and Simon brought a working program that proved theorems in logic. Neither liked the name artificial intelligence, and for years they called their work complex information processing.
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 3; Computer History Museum, “The 1956 Dartmouth Workshop and its Immediate Consequences: The Origins of Artificial Intelligence”"
+  sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
+  thread: reasoning
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1955-logic-theorist
+  era: birth
+  year: 1955
+  month: 12
+  title: The Logic Theorist
+  line: A program proves theorems from Principia Mathematica by searching for them.
+  who: Allen Newell, Herbert Simon and Cliff Shaw, RAND Corporation
+  text: On 15 December 1955 Simon worked through the program's first proof by hand. It searched for proofs by transforming logical formulas, guided by rules of thumb that Newell and Simon called heuristics. Running at RAND in 1956, it proved 38 of the first 52 theorems of Whitehead and Russell's Principia Mathematica. Newell and Simon later argued that a physical symbol system has all that intelligent action needs.
+  source: "Allen Newell and Herbert A. Simon, “The Logic Theory Machine: A Complex Information Processing System”, RAND paper P-868, 15 June 1956, and IRE Transactions on Information Theory, September 1956; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 3 and 5"
+  sourceUrl: https://www.historyofinformation.com/detail.php?id=742
+  thread: reasoning
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1955-dartmouth-proposal
+  era: birth
+  year: 1955
+  month: 8
+  title: A name for the field
+  line: Four scientists propose a summer study of “artificial intelligence”.
+  who: John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon
+  text: McCarthy led the writing of a proposal to the Rockefeller Foundation, dated 31 August 1955. It asked for “a 2 month, 10 man study of artificial intelligence” at Dartmouth the next summer. The study would assume that every feature of intelligence can be described precisely enough for a machine to simulate it. The proposal is apparently the first appearance of the phrase.
+  source: "John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon, “A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence”, 31 August 1955, reprinted in AI Magazine 27 (4), 2006; Computer History Museum, “The 1956 Dartmouth Workshop and its Immediate Consequences”"
+  sourceUrl: https://computerhistory.org/?p=3246
+  thread: reasoning
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1950-turing-imitation-game
+  era: birth
+  year: 1950
+  month: 10
+  title: Computing Machinery and Intelligence
+  line: Turing swaps “Can machines think?” for a test of conversation.
+  who: Alan Turing
+  text: Turing's paper in Mind opens with the question “Can machines think?” He replaces it with the imitation game, in which an interrogator questions two hidden players in writing and must tell which is which. He predicted that by about 2000 an average interrogator would spot the machine at most 70 per cent of the time, after five minutes. He also proposed building a machine like a child's mind and educating it.
+  source: "A. M. Turing, “Computing Machinery and Intelligence”, Mind 59 (236), October 1950, pp. 433–460"
+  sourceUrl: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
+  thread: talking
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1950-shannon-chess
+  era: birth
+  year: 1950
+  month: 3
+  title: Programming a computer to play chess
+  line: Bell Labs' Claude Shannon sets out how a computer could play chess.
+  who: Claude Shannon, Bell Telephone Laboratories
+  text: Shannon's paper in the Philosophical Magazine was the first technical paper on computer chess. It was entirely theoretical, and described no program actually run on a computer. He contrasted two strategies, examining every possible line of play or using chess knowledge to follow only promising ones. The second anticipated what Newell and Simon would call heuristics.
+  source: "Claude E. Shannon, “Programming a Computer for Playing Chess”, Philosophical Magazine, series 7, 41 (314), March 1950; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 5"
+  sourceUrl: https://historyofinformation.com/detail.php?entryid=94
+  thread: games
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1948-cybernetics
+  era: birth
+  year: 1948
+  title: Cybernetics
+  line: Wiener names a science of feedback in animals and machines.
+  who: Norbert Wiener, MIT
+  text: Wiener's book set out a theory of control, feedback and communication in living things and machines. He took its name from the Greek for steersman, since ships' steering engines were early feedback mechanisms. In a closing note he asked whether a machine could play chess, and thought it might play as well as most people. McCarthy later said he named artificial intelligence partly to escape association with cybernetics.
+  source: "Norbert Wiener, Cybernetics: Or Control and Communication in the Animal and the Machine, Hermann & Cie, Paris, and MIT Press, 1948; MIT Libraries, “MIT 150 Books: Cybernetics”; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 3"
+  sourceUrl: https://libraries.mit.edu/150books/2011/04/04/1948/
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
+
+- id: 1946-eniac
+  era: birth
+  year: 1946
+  month: 2
+  title: ENIAC is announced
+  line: The first general-purpose electronic computer fills a room in Philadelphia.
+  who: John Mauchly and J. Presper Eckert, University of Pennsylvania, for the US Army
+  text: Built under a contract from the Army's Ballistics Research Laboratory, ENIAC was announced on 14 February 1946. It needed about 18,000 vacuum tubes, weighed 30 tons and filled a room 30 by 50 feet. A ballistics calculation that took 12 hours on a hand calculator took it 30 seconds. Six women ran it, among the earliest programmers in the world.
+  source: "Penn Engineering, “Celebrating Penn Engineering History: ENIAC”, University of Pennsylvania School of Engineering and Applied Science"
+  sourceUrl: https://www.engineering.upenn.edu/about/history-heritage/eniac/
+  thread: compute
+  isms: []
+  themes: [compute]
+  status: checked
+
+- id: 1943-mcculloch-pitts
+  era: birth
+  year: 1943
+  title: A logical calculus of neurons
+  line: Two scientists model neurons as switches, and networks of them as logic.
+  who: Warren McCulloch and Walter Pitts
+  text: Because a neuron either fires or does not, McCulloch and Pitts treated nervous activity as propositional logic. They showed that the behaviour of any net of such idealised neurons can be written in logic. Conversely, for any logical expression meeting certain conditions, a net can be built that behaves as it describes.
+  source: "Warren S. McCulloch and Walter Pitts, “A Logical Calculus of the Ideas Immanent in Nervous Activity”, Bulletin of Mathematical Biophysics 5 (4), 1943, pp. 115–133"
+  sourceUrl: https://link.springer.com/article/10.1007/BF02478259
+  thread: symbols-networks
+  isms: []
+  themes: []
+  status: checked
