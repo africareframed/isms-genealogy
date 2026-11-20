@@ -10,11 +10,11 @@ isms:
   - ism: transhumanism
     text: An abundance of life itself, with the end of ageing and a body and mind with no fixed limits. The Extropians of the 1990s added the faith in boundless growth.
   - ism: singularitarianism
-    text: Abundance arrives with the singularity. As machine intelligence compounds, the cost of almost everything falls towards zero.
+    text: Abundance arrives with the singularity. Sam Altman expects intelligence and energy to become abundant in the 2030s, through a change that comes bit by bit.
   - ism: rationalism
-    text: Abundance is the prize if alignment is solved. A misaligned superintelligence would share none of it, so the prize can wait.
+    text: Abundance is the prize if alignment is solved. A superintelligence with the wrong goals would take the resources people depend on, so the prize must wait.
   - ism: effective-altruism
-    text: The greatest abundance is a vast future, with trillions of lives across space and time. That is why the risk of extinction matters more than anything else.
+    text: For longtermists, the greatest abundance is a vast future, with trillions of lives across space and time. That is why they rank the risk of extinction above almost everything else.
   - ism: effective-accelerationism
     text: Abundance is what the universe tends towards when energy and intelligence are allowed to grow. Slowing that growth is the real harm.
   - ism: techno-optimism
@@ -30,8 +30,8 @@ strands:
     text: The left-wing version of the same promise. Abundance is possible, but only if the machines are publicly owned.
     source: Aaron Bastani, Fully Automated Luxury Communism, Verso, 2019
   - name: The abundance agenda
-    text: Same word, different meaning. In US politics since 2025, “abundance” means building more housing, energy and infrastructure. It is about permits and planning, not AI.
-    source: Ezra Klein and Derek Thompson, Abundance, 2025
+    text: Same word, different meaning. In US politics since 2022, “abundance” means building more housing, energy and infrastructure. It is about permits and planning, not AI.
+    source: Derek Thompson, “A Simple Plan to Solve All of America's Problems”, The Atlantic, 2022; Ezra Klein and Derek Thompson, Abundance, 2025
 words:
   - abundance
   - post-scarcity
