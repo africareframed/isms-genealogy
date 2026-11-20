@@ -53,7 +53,7 @@ const filterCss = [
             <div>
               <h2 class="ww">{key?.data.ready ? <a href={pageHref(key.id)}>{w.data.word}</a> : w.data.word}</h2>
               <p class="wd">{w.data.definition}</p>
-              <p class="wo">{w.data.coinedBy && <Fragment>{w.data.coinedBy} · </Fragment>}{w.data.sourceUrl ? <a href={w.data.sourceUrl}>{w.data.origin}</a> : w.data.origin}</p>
+              <p class="wo">{w.data.coinedBy && <Fragment>{w.data.coinedBy} · </Fragment>}{w.data.origin}{w.data.sourceUrl && <Fragment> <a href={w.data.sourceUrl}>Source</a></Fragment>}</p>
               {w.data.isms.length > 0 && <p class="wi">{w.data.isms.map((r) => ismById.get(r.id)?.data.title).filter(Boolean).join(' · ')}</p>}
             </div>
           </li>
