@@ -73,6 +73,7 @@ entries:
     text: An Oxford philosopher argues that since the first atomic bomb, in 1945, humanity has lived in an age of heightened existential risk. He puts the chance of an existential catastrophe this century at about one in six. The largest single risk, about one in ten, is AI whose goals do not match human flourishing. Reducing such risk, he argues, should be a major global priority.
     source: "Toby Ord, The Precipice: Existential Risk and the Future of Humanity, Bloomsbury, London, and Hachette, New York, 2020; Theron Pummer, review, Notre Dame Philosophical Reviews, 2 August 2020"
     sourceUrl: https://ndpr.nd.edu/reviews/the-precipice-existential-risk-and-the-future-of-humanity/
+    themes: [alignment]
     image: ea-trinity-1945
     status: checked
 
