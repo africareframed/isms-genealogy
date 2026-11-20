@@ -1,9 +1,10 @@
 ---
-title: Effective altruism and longtermism
+title: Effective altruism
 family: risk
 order: 4
 ready: true
 summary: Do the most good you can, counted across the whole future. For its longtermists, reducing the risk of extinction outweighs almost everything else.
+includes: [Longtermism]
 image: blue-marble-1972
 lead: Effective altruism holds that we should use evidence and reason to do the most good we can. Longtermists also count the generations to come, and many now see risk from advanced AI as the most pressing.
 holders:

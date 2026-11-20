@@ -13,7 +13,7 @@ A website, built first to pitch funders for an exhibition. It maps the isms of t
 - **An ism** is mapped when it is a whole view of AI (what it is, where it is heading, what to do), born in the tech world, and named by its own people, with founding texts, vocabulary and institutions to trace.
 - **Six isms in three families:**
   - Transcendence: Transhumanism · Singularitarianism (includes successionism)
-  - Risk: Rationalism (includes the call to pause) · Effective altruism and longtermism
+  - Risk: Rationalism (often called the doomers; includes the call to pause) · Effective altruism (includes longtermism)
   - Acceleration: Effective accelerationism (includes neoreaction and the network state) · Techno-optimism (includes augmentation)
 - **Seven themes**, with no timeline of their own: Abundance (incl. post-work) · Power (AI nationalism, state-led AI, the populist right) · The tool (open-source AI) · Scale · Rights and dignity (rights-based regulation, religious voices) · Self-determination (data sovereignty, democratic plurality) · Critique (AI ethics, political economy, normal technology).
 - **Ism page:** Introduction · Who holds it now · Notable figures · Its words · Its themes · Who disputes it · then the history, newest first, back to the oldest root.

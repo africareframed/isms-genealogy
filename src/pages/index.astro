@@ -59,7 +59,9 @@ const filterCss = [
                   <Picture image={i.data.image} />
                   <h3 class="ct">{i.data.title}</h3>
                   <p class="cd">{i.data.summary}</p>
-                  {i.data.includes.length > 0 && <p class="inc">Includes {i.data.includes.join(', ').toLowerCase()}</p>}
+                  {(i.data.aka || i.data.includes.length > 0) && (
+                    <p class="inc">{[i.data.aka, i.data.includes.length ? `${i.data.aka ? "includes" : "Includes"} ${i.data.includes.join(', ').toLowerCase()}` : ''].filter(Boolean).join(' · ')}</p>
+                  )}
                   {!i.data.ready && <span class="soon">In preparation</span>}
                 </Fragment>
               );

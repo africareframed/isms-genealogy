@@ -5,6 +5,7 @@ order: 3
 ready: true
 summary: A superintelligence built before alignment is solved would likely end humanity. Getting it right first is the most important problem there is.
 includes: [The call to pause]
+aka: Often called the doomers
 image: frankenstein-1831
 lead: Rationalism holds that superhuman AI built before its goals can be made safe would likely end humanity, so building it should wait.
 holders:

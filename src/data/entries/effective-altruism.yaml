@@ -1,4 +1,4 @@
-# Timeline of Effective altruism and longtermism, newest first. Each entry: id, year,
+# Timeline of Effective altruism, newest first. Each entry: id, year,
 # relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
 ism: effective-altruism
 entries:

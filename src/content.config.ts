@@ -17,6 +17,7 @@ const isms = defineCollection({
     ready: z.boolean().default(false),
     summary: z.string(),
     includes: z.array(z.string()).default([]),
+    aka: z.string().optional(),
     image: reference('images').optional(),
     lead: z.string().optional(),
     holders: z.array(z.object({ name: z.string(), note: z.string() })).default([]),
