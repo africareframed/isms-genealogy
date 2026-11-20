@@ -1,0 +1,206 @@
+# Timeline of Effective accelerationism (incl. neoreaction and the network state), newest first.
+# Each entry: id, year, relation (see src/content.config.ts), text, source, themes, image.
+# status: draft until checked.
+ism: effective-accelerationism
+entries:
+  - id: 2026-network-school-kazakhstan
+    year: 2026
+    month: 7
+    title: The Network School moves to Kazakhstan
+    who: Balaji Srinivasan
+    relation: milestone
+    tagLabel: Milestone · the network state
+    text: Srinivasan opened the Network School in 2024 at Forest City in Johor, Malaysia, across the strait from Singapore. It is a co-living community for founders and creators, which he promotes as a model for a network state. In July 2026 the local council revoked its business licence, citing breaches of licensing and premises rules. Srinivasan then signed a five-year memorandum with Kazakhstan's Ministry of Artificial Intelligence and Digital Development.
+    source: Angelica Ang, “Booted from Malaysia, Balaji Srinivasan finds a new patron for his ‘nomad’ commune, Kazakhstan”, Fortune, 26 July 2026
+    sourceUrl: https://www.fortune.com/2026/07/26/network-school-balaji-srinivasan-malaysia-johor-israel-kazakhstan/
+    themes: [power, self-determination]
+    image: eacc-network-school-2026
+    status: draft
+
+  - id: 2025-extropic-chips
+    year: 2025
+    month: 10
+    title: Thermodynamic chips
+    who: Extropic, led by Guillaume Verdon
+    relation: milestone
+    text: Verdon's start-up, founded in 2022 with Trevor McCourt, shares its first hardware with a handful of partners. Its chips are built from probabilistic bits, circuits that switch at random between 1 and 0 with programmable odds. On small simulated benchmarks, Extropic claims, its approach could be up to 10,000 times more energy-efficient than GPUs. Its stated aim is a world where “energy constraints will no longer limit AI scaling”.
+    source: Extropic, “Inside X0 and XTR-0” and “Thermodynamic computing from zero to one”, extropic.ai, 29 October 2025; Will Knight, “Extropic Aims to Disrupt the Data Center Bonanza”, WIRED, 29 October 2025; Maximilian Schreiner, The Decoder, 2 April 2024
+    sourceUrl: https://extropic.ai/writing/thermodynamic-computing-from-zero-to-one
+    themes: [scale]
+    image: eacc-extropic-x0-2025
+    status: draft
+
+  - id: 2023-beff-jezos-named
+    year: 2023
+    month: 12
+    title: Beff Jezos is named
+    who: Guillaume Verdon
+    relation: milestone
+    text: Forbes reports that the account @BasedBeffJezos is run by Guillaume Verdon, a physicist who had worked on quantum computing at Google. He had founded Extropic, a start-up building hardware for AI. Verdon has since spoken openly under his own name, including on Lex Fridman's podcast. By then Marc Andreessen and Garry Tan had put e/acc on their X profiles, and Andreessen's manifesto listed @BasedBeffJezos among its patron saints.
+    source: Emily Baker-White, “Who Is @BasedBeffJezos, The Leader Of The Tech Elite's ‘E/Acc’ Movement?”, Forbes, 1 December 2023; Steve Mollman, Fortune, 30 December 2023; Hasan Chowdhury, Business Insider, 2023; Marc Andreessen, “The Techno-Optimist Manifesto”, a16z, 16 October 2023
+    sourceUrl: https://fortune.com/2023/12/30/jeff-bezos-elon-musk-outer-space-future-beff-jezos-billionaires-have-earned-right/
+    image: eacc-forbes-2023
+    status: draft
+
+  - id: 2022-eacc-tenets
+    year: 2022
+    month: 7
+    title: “Notes on e/acc principles and tenets”
+    who: Beff Jezos and Bayeslord
+    relation: definition
+    text: In point-form notes on Substack, the two set out the thinking behind e/acc. Life arose through dissipative adaptation, they argue, and intelligence and capitalism are faster forms of the same process. Against top-down control they favour competition, and welcome Balaji Srinivasan's network states as tests of how to govern. Beff counts himself a post-humanist, and their summary reads, stop fighting “the thermodynamic will of the universe”.
+    source: Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets”, Beff's Newsletter, Substack, 10 July 2022
+    sourceUrl: https://beff.substack.com/p/notes-on-eacc-principles-and-tenets
+    themes: [abundance]
+    image: eacc-tenets-2022
+    status: draft
+
+  - id: 2022-network-state
+    year: 2022
+    month: 7
+    title: The Network State
+    who: Balaji Srinivasan
+    relation: milestone
+    tagLabel: Milestone · the network state
+    text: The former chief technology officer of Coinbase publishes his book on 4 July, also online as a text he keeps updating. A network state, he writes, is “a highly aligned online community with a capacity for collective action”. It crowdfunds territory around the world and in time wins diplomatic recognition from existing states. Six days later, e/acc's founding notes said the idea particularly excited them.
+    source: Balaji Srinivasan, The Network State, 2022, thenetworkstate.com; Balaji Srinivasan, “The Network State Book”, balajis.com, 19 March 2022, updated 4 July 2022
+    sourceUrl: https://thenetworkstate.com/the-network-state-in-one-sentence
+    themes: [self-determination, power]
+    image: eacc-network-state-2022
+    status: draft
+
+  - id: 2022-eacc-named
+    year: 2022
+    month: 5
+    title: Effective accelerationism is named
+    who: “swarthy” (@zestular), with @BasedBeffJezos, @bayeslord and @creatine_cycle
+    relation: coined
+    tagLabel: Coined the word
+    text: At the end of May, a handful of pseudonymous Twitter users announce a new philosophy, its name a play on effective altruism. A newsletter post by swarthy defines it and sets it apart from EA, which it finds unfocused and too averse to risk. Its first line repeats a sentence from Nick Land's 2017 introduction to accelerationism. Humanity's overarching goal, it says, is “to preserve the light of consciousness”.
+    source: swarthy, “Effective accelerationism (e/acc)”, Substack, 31 May 2022, reposted as “Effective Accelerationism — e/acc” in the e/acc newsletter; “e/acc”, Know Your Meme; Nick Land, “A Quick-and-Dirty Introduction to Accelerationism”, Jacobite, 25 May 2017
+    sourceUrl: https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
+    image: eacc-swarthy-2022
+    status: draft
+
+  - id: 2013-ultimate-exit
+    year: 2013
+    month: 10
+    title: “Silicon Valley's Ultimate Exit”
+    who: Balaji Srinivasan
+    relation: milestone
+    tagLabel: Milestone · the network state
+    text: At Y Combinator's Startup School, a founder of the genetic-testing company Counsyl contrasts two responses to a declining system. Voice means changing it from within, and exit means leaving to build something new. “Exit amplifies voice,” he argues, and technology should help people opt out peacefully. Reason noted that the distinction comes from Albert O. Hirschman's 1970 book Exit, Voice, and Loyalty.
+    source: Balaji Srinivasan, “Silicon Valley's Ultimate Exit”, Startup School, Y Combinator, October 2013; J. D. Tuccille, “Tech Should Make It Easier To Escape Government Control, Says Startup Veteran Balaji Srinivasan”, Reason, 30 October 2013
+    sourceUrl: https://reason.com/2013/10/30/tech-should-make-it-easier-to-escape-the/printer/
+    themes: [self-determination, power]
+    image: eacc-startup-school-2013
+    status: draft
+
+  - id: 2013-england-dissipation
+    year: 2013
+    month: 9
+    title: Dissipation-driven adaptation
+    who: Jeremy England
+    relation: claimed
+    text: An MIT physicist shows that self-replication must always be paid for by producing entropy. He goes further, arguing that matter driven by an outside energy source tends to reorganise itself to dissipate that energy better. Harvard's Eugene Shakhnovich found it interesting but “extremely speculative” as an account of life. e/acc's 2022 tenets cite England for their claim that life emerged through dissipative adaptation.
+    source: Jeremy L. England, “Statistical Physics of Self-Replication”, The Journal of Chemical Physics 139 (12), 121923, 2013; Natalie Wolchover, “A New Physics Theory of Life”, Quanta Magazine, 22 January 2014; Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets”, 2022
+    sourceUrl: https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122
+    image: eacc-england-2013
+    status: draft
+
+  - id: 2012-dark-enlightenment
+    year: 2012
+    title: The Dark Enlightenment
+    who: Nick Land
+    relation: milestone
+    tagLabel: Milestone · neoreaction
+    text: In a long essay posted online in parts, Land surveys the blogger Mencius Moldbug and his readers, whom he calls neo-reactionaries. Its first part is headed “Neo-reactionaries head for the exit”. Against democratic voice it sets exit, the freedom to leave, and it adopts Moldbug's name for the ruling order, the Cathedral. It also quotes Peter Thiel's doubt that freedom and democracy are compatible.
+    source: Nick Land, “The Dark Enlightenment”, thedarkenlightenment.com, 2012, archived copy
+    sourceUrl: https://www.gwern.net/docs/www/www.thedarkenlightenment.com/8fb594d142764625b62157ff0c8f51bae346da3b.html
+    themes: [power]
+    image: eacc-dark-enlightenment-2012
+    status: draft
+
+  - id: 2009-thiel-libertarian
+    year: 2009
+    title: “The Education of a Libertarian”
+    who: Peter Thiel
+    relation: claimed
+    tagLabel: Claimed ancestor · neoreaction
+    text: In an essay for Cato Unbound, the PayPal co-founder writes, “I no longer believe that freedom and democracy are compatible.” The great task for libertarians, he argues, is to find a way out of politics altogether. He looks to cyberspace, outer space and the sea, and backs Patri Friedman's seasteading experiment. Nick Land quotes the line in The Dark Enlightenment.
+    source: Peter Thiel, “The Education of a Libertarian”, Cato Unbound, 13 April 2009; quoted in Nick Land, “The Dark Enlightenment”, 2012
+    sourceUrl: https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian
+    themes: [power, self-determination]
+    image: eacc-cato-unbound-2009
+    status: draft
+
+  - id: 2007-unqualified-reservations
+    year: 2007
+    title: Unqualified Reservations
+    who: Curtis Yarvin, as Mencius Moldbug
+    relation: milestone
+    tagLabel: Milestone · neoreaction
+    text: A software engineer opens a blog under a pen name with “A Formalist Manifesto”. Over the next years he argues that democracy has failed and should give way to sovereign corporations run by a single executive. He calls the universities and press that, he says, really hold power “the Cathedral”. In 2013 Peter Thiel invests in his software company, Tlon.
+    source: Mencius Moldbug [Curtis Yarvin], “A Formalist Manifesto”, Unqualified Reservations, April 2007; George Michael, “An antidemocratic philosophy called ‘neoreaction’ is creeping into GOP politics”, The Conversation, July 2022
+    sourceUrl: https://www.theconversation.com/an-antidemocratic-philosophy-called-neoreaction-is-creeping-into-gop-politics-182581
+    themes: [power]
+    image: eacc-unqualified-reservations-2007
+    status: draft
+
+  - id: 1997-sovereign-individual
+    year: 1997
+    title: The Sovereign Individual
+    who: James Dale Davidson and William Rees-Mogg
+    relation: attributed
+    tagLabel: Attributed by historians · exit
+    text: Its authors predict that the internet and digital money will let the richest and most able slip free of the nation state. Taxes will become hard to enforce, they argue, and the welfare state will collapse. Peter Thiel wrote the preface to a 2020 edition. The sociologists Harrison Smith and Roger Burrows argue that it anticipated neoreaction's vision of exit.
+    source: James Dale Davidson and William Rees-Mogg, The Sovereign Individual, Simon & Schuster, 1997; Quinn Slobodian, “The sovereign individual in Downing Street”, New Statesman, 2 November 2022; Harrison Smith and Roger Burrows, “Software, Sovereignty and the Post-Neoliberal Politics of Exit”, Theory, Culture & Society, 2021
+    sourceUrl: https://www.newstatesman.com/ideas/2023/06/rishi-sunak-silicon-valley-sovereign-individual
+    themes: [self-determination, power]
+    image: eacc-sovereign-individual-1997
+    status: draft
+
+  - id: 1994-meltdown
+    year: 1994
+    title: “Meltdown”
+    who: Nick Land
+    relation: claimed
+    text: In spring 1994 a philosophy lecturer at Warwick gives a talk called “Meltdown” at a Virtual Futures conference. It begins with a story, in which “Earth is captured by a technocapital singularity”. Read through Deleuze and Guattari, capitalism is a process to push further rather than resist. e/acc's 2022 tenets link to the text when they note that Land saw capitalism as a form of intelligence.
+    source: Nick Land, “Meltdown”, Virtual Futures conference, University of Warwick, 1994, text on the CCRU website; James Duesterberg, “Silicon Valley's Favorite Doomsaying Philosopher”, The New Yorker, February 2026; Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets”, 2022
+    sourceUrl: https://dataswamp.org/~john/sites/ccru/swarm1/1_melt.htm
+    image: eacc-meltdown-1994
+    status: draft
+
+  - id: 1972-anti-oedipus
+    year: 1972
+    title: Anti-Oedipus
+    who: Gilles Deleuze and Félix Guattari
+    relation: claimed
+    text: A philosopher and a psychoanalyst publish the first volume of Capitalism and Schizophrenia. In one passage they ask whether the revolutionary path is to withdraw from the world market or to go further into it. They suggest the second, to “accelerate the process”, as Nietzsche put it. Nick Land's 2017 introduction to accelerationism starts from this passage.
+    source: Gilles Deleuze and Félix Guattari, L'Anti-Œdipe. Capitalisme et schizophrénie, Éditions de Minuit, 1972; English translation by Robert Hurley, Mark Seem and Helen R. Lane, 1977; Nick Land, “A Quick-and-Dirty Introduction to Accelerationism”, Jacobite, 25 May 2017
+    sourceUrl: https://obsoletecapitalism.blogspot.com/2017/05/nick-land-quick-and-dirty-introduction.html
+    image: eacc-anti-oedipus-1972
+    status: draft
+
+  - id: 1964-kardashev
+    year: 1964
+    title: Types of civilisation
+    who: Nikolai Kardashev
+    relation: claimed
+    text: Writing on how alien civilisations might send signals, a Soviet astronomer ranks them by the power they command. Type I commands roughly the power of a planet, Type II that of its star, Type III that of its galaxy. The e/acc newsletter names climbing “the Kardashev gradient” among its goals, alongside harnessing more energy and building AI.
+    source: N. S. Kardashev, “Transmission of Information by Extraterrestrial Civilizations”, Astronomicheskii Zhurnal, 1964, translated in Soviet Astronomy 8, 1964, p. 217; e/acc, “What the F* is e/acc”, e/acc newsletter, Substack, 26 December 2022
+    sourceUrl: https://effectiveaccelerationism.substack.com/p/what-the-f-is-eacc
+    themes: [abundance, scale]
+    image: eacc-kardashev-1964
+    status: draft
+
+  - id: 1909-futurism
+    year: 1909
+    title: The Founding and Manifesto of Futurism
+    who: Filippo Tommaso Marinetti
+    relation: attributed
+    text: On the front page of Le Figaro, the Italian poet launches Futurism. His manifesto rejects the past and glorifies speed, machines, youth and violence, treating war as a kind of hygiene. Marinetti later became active in Italian Fascism. The critic Benjamin Noys, who gave accelerationism its name as a theory in 2010, reads it as an avant-garde in the vein of Futurism.
+    source: F. T. Marinetti, “Le Futurisme”, Le Figaro, Paris, 20 February 1909; Benjamin Noys, “The Corpse of Accelerationism”, e-flux Notes, 14 November 2025
+    sourceUrl: https://www.e-flux.com/notes/6783419/the-corpse-of-accelerationism
+    image: eacc-figaro-1909
+    status: draft
