@@ -11,7 +11,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Singularitarianism (incl. successionism) — 14 entries, 11 figures, checked and merged
   - [x] Rationalism (incl. the call to pause) — 16 entries, 12 figures, checked and merged
   - [x] Effective altruism and longtermism — 16 entries, 10 figures, checked and merged
-  - [ ] Effective accelerationism (incl. neoreaction and the network state) — drafted (16 entries) on `ism/effective-accelerationism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
+  - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
   - [ ] Techno-optimism (incl. augmentation) — drafted (16 entries) on `ism/techno-optimism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
 - [ ] **4. Themes.** Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
 - [ ] **5. Images.** Batch 1 (17 files) approved by the owner on 20 Nov but blocked: image hosts are not in the network allowlist; owner is adding them. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Effective accelerationism checked and merged.
 - 2026-11-20: Effective altruism checked and merged; card summary narrowed to longtermists.
 - 2026-11-20: The last three isms drafted; checks running.
 - 2026-11-20: Singularitarianism checked and merged. Research agents started for the last three isms.
