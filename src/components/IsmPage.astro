@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
 import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref } from '../lib/site';
+import { getHistory, momentAnchor } from '../lib/history';
 
 const { ism } = Astro.props;
 const { Content } = await render(ism);
@@ -29,6 +30,10 @@ const entryById = new Map(entries.map((e) => [e.id, e]));
 const figures = (await getCollection('figures', (f) => f.data.isms.some((r) => r.id === ism.id))).sort(
   (a, b) => (yearOf.get(b.data.entry?.id ?? '') ?? 0) - (yearOf.get(a.data.entry?.id ?? '') ?? 0),
 );
+
+// "In the history of AI" is built from the movement tags on history moments.
+const inHistory = (await getHistory()).filter((m) => m.data.isms.some((r) => r.id === ism.id));
+const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
 
 const nav = [
   { href: '#introduction', label: 'Introduction' },
@@ -105,6 +110,21 @@ const first = entries[0];
             return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
           })}
         </p>
+      </section>
+    )}
+
+    {inHistory.length > 0 && (
+      <section class="wrap sec" aria-labelledby="aih-h">
+        <h2 class="kick" id="aih-h">In the history of AI</h2>
+        <div>
+          {inHistory.map((m) => (
+            <a class="hist" href={`${pageHref('history')}#${momentAnchor(m.id)}`}>
+              <span class="hy">{yearText(m.data.year, m.data.yearLabel)}</span>
+              <span class="ht">{m.data.title}</span>
+              <span class="hi">History of AI<Fragment set:html={arrow} /></span>
+            </a>
+          ))}
+        </div>
       </section>
     )}
 

@@ -195,3 +195,29 @@
   file: "collage-effective-altruism-tall.jpg"
   alt: "Stacked bales of bed nets receding down a corridor, over pink fields; GiveWell reckons about $5 a net and $5,500 per life saved"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
+
+- id: collage-alignment
+  title: "Collage from a photograph of Watt's centrifugal governor (1788)"
+  rights: open-licence
+  licence: "CC BY 3.0, after a photo by Andy Dingley"
+  file: "collage-alignment.jpg"
+  alt: "A cut-up collage: the flyball governor of Boulton and Watt's Lap Engine over a grey field, with Norbert Wiener's words of 1960"
+
+- id: collage-alignment-tall
+  title: "Collage from a photograph of Watt's centrifugal governor (1788)"
+  rights: open-licence
+  licence: "CC BY 3.0, after a photo by Andy Dingley"
+  file: "collage-alignment-tall.jpg"
+  alt: "Watt's flyball governor of 1788, cut along a grid on a grey field"
+
+- id: collage-history
+  title: "Collage from Racknitz's engraving of von Kempelen's Turk (1789)"
+  rights: public-domain
+  file: "collage-history.jpg"
+  alt: "A cut-up collage: the chess-playing Turk of 1770 with a man hidden in its cabinet, over a grey field, beside the year 1997, when Deep Blue beat Kasparov"
+
+- id: collage-history-tall
+  title: "Collage from Racknitz's engraving of von Kempelen's Turk (1789)"
+  rights: public-domain
+  file: "collage-history-tall.jpg"
+  alt: "The chess-playing Turk of 1770, cut along a grid on a grey field, above the year 1997"

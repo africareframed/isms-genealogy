@@ -4,7 +4,8 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
-import { FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref } from '../lib/site';
+import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText } from '../lib/site';
+import { getHistory } from '../lib/history';
 
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
 const allThemes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
@@ -15,6 +16,10 @@ const hasWords = (parse(readFileSync('src/data/words/words.yaml', 'utf8')) ?? []
 const words = hasWords ? (await getCollection('words')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0)) : [];
 
 const ismById = new Map(isms.map((i) => [i.id, i]));
+const moments = await getHistory();
+const historyEras = ERAS.filter((e) => moments.some((m) => m.data.era === e.id));
+const oldest = moments[moments.length - 1];
+const historyImage = (await getCollection('images')).find((i) => i.id === 'collage-history');
 const num = (n: number) => String(n).padStart(2, '0');
 
 ---
@@ -22,6 +27,8 @@ const num = (n: number) => String(n).padStart(2, '0');
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
+      <a href="#main">Movements</a>
+      {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
       <a href="#vocabulary">Vocabulary</a>
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
@@ -65,6 +72,26 @@ const num = (n: number) => String(n).padStart(2, '0');
       ))}
     </div>
   </main>
+
+  {moments.length > 0 && (
+    <section id="history" class="wrap hist-sec" aria-labelledby="hist-h">
+      <div class="themes-head">
+        <h2 id="hist-h">History of AI</h2>
+      </div>
+      <a class={historyImage ? 'hcard' : 'hcard noimg'} href={pageHref('history')}>
+        {historyImage && <Picture image={{ collection: 'images', id: historyImage.id }} ratio="16 / 9" />}
+        <div class="hc-side">
+          <div class="hc-body">
+            <p class="hc-t">From ancient automata to the generative race</p>
+            <p class="hc-d">The machines, ideas, laboratories, money and laws that all six movements react to. {moments.length} moments, newest first, back to {yearText(oldest.data.year, oldest.data.yearLabel)}.</p>
+          </div>
+          <ol class="hc-eras">
+            {historyEras.map((e) => <li><span class="s">{e.span}</span><span>{e.name}</span></li>)}
+          </ol>
+        </div>
+      </a>
+    </section>
+  )}
 
   <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
     <div class="themes-head">

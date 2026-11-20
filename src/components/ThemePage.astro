@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
 import { FAMILIES, SITE_NAME, yearText, pageHref } from '../lib/site';
+import { getHistory, momentAnchor } from '../lib/history';
 
 const { theme } = Astro.props;
 const { Content } = await render(theme);
@@ -17,12 +18,16 @@ const tagged = (await getCollection('entries', (e) => e.data.themes.some((r) => 
   (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0),
 );
 
+// "In the history of AI" is built from the key-word tags on history moments.
+const inHistory = (await getHistory()).filter((m) => m.data.themes.some((r) => r.id === theme.id));
+
 const nav = [
   { href: '#introduction', label: 'Introduction' },
   ...(theme.data.isms.length ? [{ href: '#isms', label: 'How the movements see it' }] : []),
   ...(theme.data.strands.length ? [{ href: '#strands', label: 'Strands' }] : []),
   ...(theme.data.words.length ? [{ href: '#words', label: 'Related words' }] : []),
   ...(tagged.length ? [{ href: '#histories', label: 'In the histories' }] : []),
+  ...(inHistory.length ? [{ href: '#history-of-ai', label: 'In the history of AI' }] : []),
   ...(theme.data.disputes ? [{ href: '#disputes', label: 'Who disputes it' }] : []),
 ];
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
@@ -96,6 +101,21 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
               <div class="hist">{inner}</div>
             );
           })}
+        </div>
+      </section>
+    )}
+
+    {inHistory.length > 0 && (
+      <section id="history-of-ai" class="wrap sec" aria-labelledby="aih-h">
+        <h2 class="kick" id="aih-h">In the history of AI</h2>
+        <div>
+          {inHistory.map((m) => (
+            <a class="hist" href={`${pageHref('history')}#${momentAnchor(m.id)}`}>
+              <span class="hy">{yearText(m.data.year, m.data.yearLabel)}</span>
+              <span class="ht">{m.data.title}</span>
+              <span class="hi">History of AI<Fragment set:html={arrow} /></span>
+            </a>
+          ))}
         </div>
       </section>
     )}
