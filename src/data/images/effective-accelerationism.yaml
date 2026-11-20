@@ -1,0 +1,93 @@
+# Images for the Effective accelerationism timeline (one file per ism). Ids carry the prefix eacc-.
+# No file yet = a labelled placeholder. No portraits or photographs of people.
+# Downloads only after the owner approves a batch.
+- id: eacc-network-school-2026
+  title: Forest City, Johor, where the Network School opened in 2024 (view of the development, no people)
+  date: 2024–2026
+  rights: to-check
+- id: eacc-extropic-x0-2025
+  title: Extropic's X0 chip and XTR-0 development platform, company image (hardware only)
+  date: '2025'
+  holder: Extropic
+  rights: to-check
+  licence: 'extropic.ai footer: ©2026 Extropic Corp., all rights reserved'
+  sourceUrl: https://extropic.ai/writing/inside-x0-and-xtr-0
+- id: eacc-forbes-2023
+  title: “Who Is @BasedBeffJezos, The Leader Of The Tech Elite's ‘E/Acc’ Movement?”, Forbes web page (headline and text only, no photographs)
+  date: '2023'
+  holder: Forbes
+  rights: to-check
+- id: eacc-tenets-2022
+  title: “Notes on e/acc principles and tenets”, Substack web page (text only)
+  date: '2022'
+  rights: to-check
+  sourceUrl: https://beff.substack.com/p/notes-on-eacc-principles-and-tenets
+- id: eacc-network-state-2022
+  title: The Network State, cover of the 2022 book
+  date: '2022'
+  rights: to-check
+  sourceUrl: https://thenetworkstate.com/the-network-state-in-one-sentence
+- id: eacc-swarthy-2022
+  title: “Effective Accelerationism — e/acc”, e/acc newsletter web page (text only)
+  date: '2022'
+  rights: to-check
+  sourceUrl: https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
+- id: eacc-startup-school-2013
+  title: “Silicon Valley's Ultimate Exit”, a slide from the Startup School 2013 talk, if one can be found (slide only, no people)
+  date: '2013'
+  holder: Y Combinator
+  rights: to-check
+  sourceUrl: https://www.ycombinator.com/blog/videos-from-startup-school-2013-are-now-online
+- id: eacc-england-2013
+  title: “Statistical Physics of Self-Replication”, first page, The Journal of Chemical Physics
+  date: '2013'
+  holder: AIP Publishing, via DSpace@MIT
+  rights: to-check
+  licence: 'DSpace@MIT: made available in accordance with the publisher''s policy; may be subject to US copyright law'
+  sourceUrl: https://dspace.mit.edu/handle/1721.1/90392
+- id: eacc-dark-enlightenment-2012
+  title: “The Dark Enlightenment”, Part 1, web page (archived copy, text only)
+  date: '2012'
+  rights: to-check
+  sourceUrl: https://www.gwern.net/docs/www/www.thedarkenlightenment.com/8fb594d142764625b62157ff0c8f51bae346da3b.html
+- id: eacc-cato-unbound-2009
+  title: Cato Unbound, April 2009 issue, “The Education of a Libertarian”, web page (text only)
+  date: '2009'
+  holder: Cato Institute
+  rights: to-check
+  sourceUrl: https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian
+- id: eacc-unqualified-reservations-2007
+  title: Unqualified Reservations, “A Formalist Manifesto”, blog page (text only; source still to find)
+  date: '2007'
+  rights: to-check
+- id: eacc-sovereign-individual-1997
+  title: The Sovereign Individual, first edition cover, Simon & Schuster
+  date: '1997'
+  holder: Simon & Schuster
+  rights: to-check
+- id: eacc-meltdown-1994
+  title: “Meltdown”, page on the CCRU website (Swarm 1)
+  date: 1990s
+  holder: Cybernetic Culture Research Unit
+  rights: to-check
+  sourceUrl: https://dataswamp.org/~john/sites/ccru/swarm1/1_melt.htm
+- id: eacc-anti-oedipus-1972
+  title: L'Anti-Œdipe, first edition cover, Éditions de Minuit
+  date: '1972'
+  holder: Éditions de Minuit
+  rights: to-check
+- id: eacc-kardashev-1964
+  title: The Sun, seen by NASA's Solar Dynamics Observatory, PIA26681 (a Type II civilisation would command a star's power)
+  date: '2025-09-10'
+  creator: NASA/GSFC/Solar Dynamics Observatory
+  holder: NASA
+  rights: public-domain
+  licence: 'NASA images and media usage guidelines: NASA content generally not subject to copyright in the United States; credit NASA/GSFC/Solar Dynamics Observatory; no people in the image'
+  sourceUrl: https://science.nasa.gov/photojournal/image-of-sun-from-nasas-solar-dynamics-observatory/
+- id: eacc-figaro-1909
+  title: Le Figaro, front page, 20 February 1909, with Marinetti's “Le Futurisme”
+  date: '1909-02-20'
+  creator: Filippo Tommaso Marinetti
+  rights: to-check
+  licence: Likely public domain (published 1909, Marinetti died 1944); the MIT Dome scan is marked all rights reserved, so a Commons or Gallica scan should be checked
+  sourceUrl: https://dome.mit.edu/handle/1721.3/18321

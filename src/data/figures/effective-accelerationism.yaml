@@ -1,0 +1,60 @@
+# Notable figures for Effective accelerationism (one file per ism). Portraits are added by the project team only:
+# put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+# Ids carry the prefix eacc- so they stay unique across the site.
+- id: eacc-guillaume-verdon
+  name: Guillaume Verdon
+  isms: [effective-accelerationism]
+  note: Physicist behind the Beff Jezos account and co-author of e/acc's first posts. Founded the chip start-up Extropic.
+  entry: effective-accelerationism/2022-eacc-tenets
+- id: eacc-balaji-srinivasan
+  name: Balaji Srinivasan
+  isms: [effective-accelerationism]
+  note: Investor and former Coinbase executive who turned exit into the plan of the network state.
+  entry: effective-accelerationism/2022-network-state
+- id: eacc-jeremy-england
+  name: Jeremy England
+  isms: [effective-accelerationism]
+  note: Physicist whose theory of dissipation-driven adaptation e/acc takes as its account of life.
+  entry: effective-accelerationism/2013-england-dissipation
+- id: eacc-peter-thiel
+  name: Peter Thiel
+  lifespan: born 1967
+  isms: [effective-accelerationism]
+  note: Investor and PayPal co-founder. Wrote in 2009 that he no longer believed freedom and democracy were compatible.
+  entry: effective-accelerationism/2009-thiel-libertarian
+- id: eacc-curtis-yarvin
+  name: Curtis Yarvin
+  lifespan: born 1973
+  isms: [effective-accelerationism]
+  note: Software developer who, as Mencius Moldbug, wrote the blog from which neoreaction grew.
+  entry: effective-accelerationism/2007-unqualified-reservations
+- id: eacc-nick-land
+  name: Nick Land
+  lifespan: born 1962
+  isms: [effective-accelerationism]
+  note: Philosopher of accelerationism, co-founder of Warwick's Cybernetic Culture Research Unit, and author of The Dark Enlightenment.
+  entry: effective-accelerationism/1994-meltdown
+- id: eacc-gilles-deleuze
+  name: Gilles Deleuze
+  lifespan: 1925–1995
+  isms: [effective-accelerationism]
+  note: Philosopher. With Guattari, wrote the passage on accelerating the process that accelerationists cite.
+  entry: effective-accelerationism/1972-anti-oedipus
+- id: eacc-felix-guattari
+  name: Félix Guattari
+  lifespan: 1930–1992
+  isms: [effective-accelerationism]
+  note: Psychoanalyst and political activist, Deleuze's co-author on Anti-Oedipus.
+  entry: effective-accelerationism/1972-anti-oedipus
+- id: eacc-nikolai-kardashev
+  name: Nikolai Kardashev
+  lifespan: 1932–2019
+  isms: [effective-accelerationism]
+  note: Soviet astrophysicist who ranked civilisations by the energy they command.
+  entry: effective-accelerationism/1964-kardashev
+- id: eacc-filippo-tommaso-marinetti
+  name: Filippo Tommaso Marinetti
+  lifespan: 1876–1944
+  isms: [effective-accelerationism]
+  note: Poet who founded Futurism with his 1909 manifesto.
+  entry: effective-accelerationism/1909-futurism
