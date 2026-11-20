@@ -1,0 +1,174 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { ERAS, FAMILIES, SITE_NAME, yearText, pageHref, threadName } from '../lib/site';
+import { getHistory, getWords, eraBounds, eraAnchor, momentAnchor } from '../lib/history';
+
+const moments = await getHistory();
+const words = await getWords();
+const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
+const ismById = new Map(isms.map((i) => [i.id, i]));
+const themeById = new Map((await getCollection('themes')).map((t) => [t.id, t]));
+const colour = (ismId: string) => FAMILIES.find((f) => f.id === ismById.get(ismId)?.data.family)?.colour ?? '#ccc';
+
+// Each movement's naming moment, from its own timeline, placed in the era it falls in.
+const births = (
+  await Promise.all(
+    isms.map(async (i) => {
+      const e = i.data.born ? await getEntry(i.data.born) : undefined;
+      return e ? { ism: i, entry: e } : undefined;
+    }),
+  )
+).filter((b) => b !== undefined);
+
+const eras = ERAS.map((era) => {
+  const { from, to } = eraBounds(era.id);
+  const inRange = (y?: number) => y !== undefined && y >= from && y < to;
+  return {
+    ...era,
+    items: moments.filter((m) => m.data.era === era.id),
+    born: births.filter((b) => inRange(b.entry.data.year)).sort((a, b) => b.entry.data.year - a.entry.data.year),
+    words: words.filter((w) => inRange(w.data.year)).sort((a, b) => (b.data.year ?? 0) - (a.data.year ?? 0)),
+  };
+}).filter((e) => e.items.length > 0);
+
+const oldest = moments[moments.length - 1];
+const pageImage = (await getCollection('images')).find((i) => i.id === 'collage-history-tall');
+const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: e.name }))];
+---
+<Base title={`History of AI · ${SITE_NAME}`} description="The history of artificial intelligence, from ancient automata to the generative race, newest first.">
+  <PageHeader title="History of AI" kind="History" nav={nav} navLabel="Eras" />
+
+  <main id="main">
+    <section id="introduction" class="wrap intro hintro">
+      <div class="intro-text">
+        <span class="kick">History of AI · Introduction</span>
+        <h1>History of AI</h1>
+        <p class="lead">Artificial intelligence was named in 1955, but the wish to make minds is far older.</p>
+        <div class="body">
+          <p>This history runs from myths of bronze guardians to today's chatbots. It follows the machines, the ideas, the laboratories, the money and the laws.</p>
+          <p>All six movements read the same history in their own way, and each was named at a moment in it. Every moment opens to its source.</p>
+        </div>
+      </div>
+      {pageImage && <Picture image={{ collection: 'images', id: pageImage.id }} ratio="4 / 5" />}
+    </section>
+
+    {eras.length > 0 && (
+      <section class="wrap eras" aria-label="The eras">
+        {eras.map((e) => (
+          <a class="era-cell" href={`#${eraAnchor(e.id)}`}>
+            <span class="ec-span">{e.span}</span>
+            <span class="ec-name">{e.name}</span>
+            <span class="ec-n">
+              {e.items.length} {e.items.length === 1 ? "moment" : "moments"}
+              {e.born.map((b) => <span class="fsw" style={`background:${colour(b.ism.id)}`} title={`${b.ism.data.title} is named`}></span>)}
+            </span>
+          </a>
+        ))}
+      </section>
+    )}
+
+    {moments.length > 0 && (
+      <a href={`#${eraAnchor(eras[0].id)}`} class="wrap nudge">
+        <span class="nudge-t">Scroll back in time</span>
+        <svg aria-hidden="true" width="28" height="44" viewBox="0 0 28 44" fill="none" stroke="#D8461C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2V40"></path><path d="M5 31L14 40L23 31"></path></svg>
+        <span class="nudge-n">Next · {yearText(moments[0].data.year, moments[0].data.yearLabel)} · {moments[0].data.title}</span>
+      </a>
+    )}
+
+    <section class="wrap" aria-label="History">
+      <div class="thread">
+        {eras.map((e) => (
+          <Fragment>
+            <div class="era-block">
+              <h2 id={eraAnchor(e.id)} class="era-h">{e.name}</h2>
+              <p class="era-span">{e.span}</p>
+              <p class="era-text">{e.text}</p>
+              {e.born.length > 0 && (
+                <p class="tchips">
+                  <span class="lbl">Named in this era</span>
+                  {e.born.map((b) => (
+                    <a href={`${pageHref(b.ism.id)}#entry-${b.entry.id.split('/')[1]}`}>
+                      <span class="fsw" style={`background:${colour(b.ism.id)}`} aria-hidden="true"></span>
+                      {b.ism.data.title} · {yearText(b.entry.data.year, b.entry.data.yearLabel)}
+                    </a>
+                  ))}
+                </p>
+              )}
+              {e.words.length > 0 && (
+                <p class="ewords">
+                  <span class="lbl">Words from this era</span>
+                  {e.words.map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}<span class="ew-y">{w.data.yearLabel ?? w.data.year}</span></a>)}
+                </p>
+              )}
+            </div>
+            <div class="moments">
+              {e.items.map((m) => (
+                <details class="hm" id={momentAnchor(m.id)}>
+                  <summary>
+                    <span class="hm-y">
+                      {yearText(m.data.year, m.data.yearLabel)}
+                      {m.data.thread && <span class="hm-th">{threadName(m.data.thread)}</span>}
+                    </span>
+                    <span class="hm-t">
+                      <span class="hm-n">{m.data.title}</span>
+                      <span class="hm-l">{m.data.line}</span>
+                    </span>
+                    <span class="hm-dots" aria-hidden="true">
+                      {m.data.isms.map((r) => <span class="fsw" style={`background:${colour(r.id)}`}></span>)}
+                    </span>
+                  </summary>
+                  <div class="hm-b">
+                    {m.data.who && <p class="who">{m.data.who}</p>}
+                    <p class="ib">{m.data.text}</p>
+                    <p class="src">{m.data.sourceUrl ? <a href={m.data.sourceUrl}>{m.data.source}</a> : m.data.source}</p>
+                    {m.data.status === 'draft' && <span class="draft">Draft · to be checked</span>}
+                    {(m.data.isms.length > 0 || m.data.themes.length > 0) && (
+                      <p class="tchips">
+                        {m.data.isms.map((r) => {
+                          const i = ismById.get(r.id)!;
+                          return (
+                            <a href={pageHref(i.id)}>
+                              <span class="fsw" style={`background:${colour(i.id)}`} aria-hidden="true"></span>
+                              {i.data.title}
+                            </a>
+                          );
+                        })}
+                        {m.data.themes.map((r) => {
+                          const t = themeById.get(r.id);
+                          return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
+                        })}
+                      </p>
+                    )}
+                    {m.data.image && <Picture image={m.data.image} />}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </Fragment>
+        ))}
+      </div>
+    </section>
+
+    <section class="wrap end">
+      <p>{oldest ? `The oldest root traced so far: ${yearText(oldest.data.year, oldest.data.yearLabel)}.` : 'The history is being researched.'}</p>
+      <div class="end-links">
+        <a href="#introduction">Back to the introduction</a>
+        <a href={pageHref()}>All movements and words</a>
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    // A link to one moment opens it.
+    (function () {
+      function open() {
+        var el = location.hash && document.getElementById(location.hash.slice(1));
+        if (el && el.tagName === 'DETAILS') el.open = true;
+      }
+      open();
+      window.addEventListener('hashchange', open);
+    })();
+  </script>
+</Base>
