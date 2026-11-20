@@ -11,7 +11,6 @@ entries:
     text: In March about 200 people, by the organiser's count, marched past the San Francisco offices of Anthropic, OpenAI and xAI. The organiser, Michaël Trazzi of Stop the AI Race, asked the labs to stop building new frontier models if rivals credibly did the same. Members of MIRI, PauseAI and StopAI joined the march.
     source: Jason Nelson, “Protesters Rally Outside OpenAI, Anthropic, and xAI Offices Over Industry Concerns”, Decrypt, 23 March 2026
     sourceUrl: https://decrypt.co/362129/protesters-rally-openai-anthropic-xai-offices
-    themes: [power]
     image: rationalism-stop-ai-race-2026
     status: checked
 
@@ -24,7 +23,6 @@ entries:
     text: The statement calls for a prohibition on developing superintelligence. It would hold until there is broad scientific agreement that this can be done safely, and strong public support. Early signers ranged from Geoffrey Hinton and Yoshua Bengio to Steve Wozniak, Susan Rice and Steve Bannon. Unlike the 2023 letter, it asks for a ban, not a pause.
     source: Future of Life Institute, Statement on Superintelligence, 22 October 2025; AFP, “Celebrities, AI giants urge end to superintelligence quest”, 22 October 2025
     sourceUrl: https://superintelligence-statement.org/
-    themes: [power, self-determination]
     image: rationalism-superintelligence-statement-2025
     status: checked
 
@@ -37,7 +35,7 @@ entries:
     text: MIRI's co-founder and its president argue that modern AI systems are opaque, so no one can set the goals a superintelligence would pursue. Such a machine would want the resources people depend on, and humanity would die out. They call for a halt to large-scale AI development everywhere, and the book's website sets out a draft treaty.
     source: Eliezer Yudkowsky and Nate Soares, If Anyone Builds It, Everyone Dies, Little, Brown, 2025; “A Draft of a Treaty, with Annotations”, on the book's website
     sourceUrl: https://www.ifanyonebuildsit.com/treaty
-    themes: [scale, power]
+    themes: [compute]
     image: rationalism-iabied-cover-2025
     status: checked
 
@@ -62,7 +60,7 @@ entries:
     text: A week after the pause letter, Yudkowsky wrote in TIME that it asked for too little. He called for an indefinite, worldwide moratorium on large training runs, a cap on computing power and the tracking of every GPU sold. States should be ready to enforce it, he wrote, even by destroying a rogue data centre from the air.
     source: Eliezer Yudkowsky, “Pausing AI Developments Isn't Enough. We Need to Shut it All Down”, TIME, 29 March 2023
     sourceUrl: https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/
-    themes: [scale, power]
+    themes: [compute]
     image: rationalism-time-2023
     status: checked
 
@@ -75,7 +73,7 @@ entries:
     text: An open letter asks all AI labs to pause, for at least six months, the training of systems more powerful than GPT-4. If the labs do not act quickly, governments should impose a moratorium. More than 30,000 people signed, including Elon Musk and Steve Wozniak.
     source: 'Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023'
     sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-    themes: [scale]
+    themes: [compute]
     image: rationalism-pause-letter-2023
     status: checked
 
@@ -142,7 +140,6 @@ entries:
     text: A statistician who had worked with Alan Turing at Bletchley Park argues that a machine cleverer than any human could design still better machines. An intelligence explosion would follow, and the first such machine would be “the last invention that man need ever make”. Good added a condition, that it be docile enough to tell us how to control it. MIRI's FAQ on the intelligence explosion quotes the passage.
     source: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965; Luke Muehlhauser, “Intelligence Explosion FAQ”, Machine Intelligence Research Institute, 2013
     sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
-    themes: [abundance]
     image: rationalism-advances-computers-1965
     status: checked
 
@@ -154,7 +151,6 @@ entries:
     text: The founder of cybernetics warns that learning machines can find tactics no one foresaw, and act faster than people can react. He recalls the sorcerer's apprentice, whose enchanted broom nearly drowns him. If we cannot interfere with a machine once it starts, he argues, we must be sure its purpose is the one we really want. A 2013 LessWrong post noted how closely the paper matches the community's own themes.
     source: Norbert Wiener, “Some Moral and Technical Consequences of Automation”, Science 131 (3410), 6 May 1960; JonahS, “Norbert Wiener's paper ‘Some Moral and Technical Consequences of Automation’”, LessWrong, 21 July 2013
     sourceUrl: https://www.cs.umd.edu/users/gasarch/BLOGPAPERS/moral.pdf
-    themes: [the-tool]
     image: sorcerers-apprentice-1882
     status: checked
 
@@ -178,7 +174,7 @@ entries:
     text: "In a letter to a Christchurch newspaper, signed Cellarius, Butler argues that machines evolve like living things and may one day take our place. His answer is blunt: “war to the death should be instantly proclaimed against them”. He later reworked the idea as the Book of the Machines in his novel Erewhon (1872). A 2012 LessWrong timeline of early AI-risk ideas opens with this letter."
     source: "Cellarius [Samuel Butler], “Darwin among the Machines”, The Press, Christchurch, 13 June 1863; reprinted in Canterbury Pieces, A. C. Fifield, 1914; Luke Muehlhauser (lukeprog), “AI Risk & Opportunity: A Timeline of Early Ideas and Arguments”, LessWrong, 31 March 2012"
     sourceUrl: https://gutenberg.org/files/3279/3279-h/3279-h.htm
-    themes: [critique]
+    themes: [luddite]
     image: rationalism-erewhon-1872
     status: checked
 

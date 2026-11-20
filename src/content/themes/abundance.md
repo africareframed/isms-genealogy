@@ -1,48 +1,53 @@
 ---
 title: Abundance
-order: 1
+order: 3
 ready: true
-summary: The promise that AI will make intelligence and energy so cheap that scarcity ends.
-includes: [post-work]
+summary: The promise that AI will make intelligence, energy and goods so cheap that scarcity ends.
 image: collage-abundance
 pageImage: collage-abundance-tall
-lead: The promise that AI will make intelligence, energy and goods so cheap that scarcity ends. Almost every ism in Silicon Valley makes it. They differ on when it comes, who gets it, and what it costs.
+lead: Abundance is the tech industry's word for a coming world where AI makes intelligence, energy and goods so cheap that everyone has enough.
 isms:
   - ism: transhumanism
-    text: An abundance of life itself, with the end of ageing and a body and mind with no fixed limits. In the 1990s Max More's Extropian Principles opened with “Boundless Expansion”, including an unlimited lifespan.
+    text: Nick Bostrom, a co-founder of the World Transhumanist Association, asks what comes after abundance. His Deep Utopia (2024) imagines a “solved world” where AI has made human effort unnecessary, and asks where meaning would then lie.
   - ism: singularitarianism
-    text: Abundance arrives with the singularity. Sam Altman expects intelligence and energy to become abundant in the 2030s, through a change that comes bit by bit.
-  - ism: rationalism
-    text: Abundance is the prize if alignment is solved. A superintelligence with the wrong goals would take the resources people depend on, so the prize must wait.
-  - ism: effective-altruism
-    text: For longtermists, the greatest abundance is a vast future, with trillions of lives across space and time. That is why they rank the risk of extinction above almost everything else.
+    text: Sam Altman expects intelligence and energy to become “wildly abundant” in the 2030s. In September 2025 he titled a post on building AI infrastructure “Abundant Intelligence”.
   - ism: effective-accelerationism
-    text: The universe favours the growth of energy and intelligence, and abundance follows when they are allowed to grow. Slowing that growth is the real harm.
+    text: e/acc treats abundance as a matter of will. Its newsletter wrote in 2022 that only will stands between us and abundance for every human alive.
   - ism: techno-optimism
-    text: Technology plus markets makes abundance. Marc Andreessen's 2023 manifesto borrows Nick Land's phrase for it, the “techno-capital machine”.
+    text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure.
 strands:
-  - name: Post-work
-    text: The hope that automation frees people from jobs, and the fear that it simply removes them. In 1930 John Maynard Keynes warned of “technological unemployment”. Yet he thought the economic problem might be solved within a hundred years.
-    source: John Maynard Keynes, “Economic Possibilities for our Grandchildren”, The Nation and Athenaeum, 11 and 18 October 1930
-  - name: Universal basic income
-    text: A guaranteed income as the way to share the gains of automation. Sam Altman backed one of the largest US studies of it, in which 1,000 people received $1,000 a month for three years.
-    source: OpenResearch, Unconditional Cash Study, first results July 2024, as reported by Jennifer Ludden, “As new tech threatens jobs, Silicon Valley promotes no-strings cash aid”, NPR, July 2024
-  - name: Fully automated luxury communism
-    text: The left-wing version of the same promise. Aaron Bastani argues that new technologies could end scarcity, but that capitalism, built on scarcity, cannot deliver it. He proposes universal basic services rather than a basic income.
-    source: "Aaron Bastani, Fully Automated Luxury Communism: A Manifesto, Verso, 2019; reviewed by Kristian Niemietz, Quillette, 9 July 2019, and by Mark Featherstone, Theory, Culture & Society blog"
+  - name: Too cheap to meter
+    text: In 1954 Lewis Strauss, chairman of the US Atomic Energy Commission, told science writers that their children would enjoy electricity “too cheap to meter”. The phrase became a catchphrase, and critics read it as a promise about nuclear power.
+    source: "Thomas Wellock, “‘Too Cheap to Meter’: A History of the Phrase”, US Nuclear Regulatory Commission, nrc.gov; Robert Deis, This Day in Quotes, September 2015, on the speech of 16 September 1954 to the National Association of Science Writers"
+  - name: Moore's law for everything
+    text: In 2021 Sam Altman argued that AI would lower the cost of goods and services, because labour drives costs along supply chains. Housing, education and food would keep getting cheaper. To share the gains, he proposed an American Equity Fund, taxing large companies and land to pay every adult citizen a yearly share.
+    source: Sam Altman, “Moore's Law for Everything”, moores.samaltman.com, 16 March 2021
   - name: The abundance agenda
-    text: Same word, different meaning. In US politics since 2022, abundance means making it easier to build housing, clean energy and infrastructure. It is about permits and planning, not AI.
-    source: Derek Thompson, “A Simple Plan to Solve All of America's Problems”, The Atlantic, January 2022; Ezra Klein and Derek Thompson, Abundance, Avid Reader Press, 18 March 2025
+    text: Same word, different meaning. In US politics, Ezra Klein and Derek Thompson's book Abundance (2025) argues for clearing the rules that slow housing, infrastructure and clean energy. It is about building and permits, not AI.
+    source: Ezra Klein and Derek Thompson, Abundance, Avid Reader Press, March 2025; review, Publishers Weekly, 7 March 2025
 words:
-  - abundance
   - post-scarcity
   - too cheap to meter
-  - cheap intelligence
   - Moore's law for everything
+  - abundant intelligence
   - universal basic income
-  - the techno-capital machine
-disputes: Daron Acemoglu and Simon Johnson argue that power and choices, not the technology itself, decide who gains from it (Power and Progress, 2023). Aaron Benanav argues that weak demand for labour comes from slowing growth, not automation (Automation and the Future of Work, 2020). Kate Crawford warns that generative AI's costs in energy and water are soaring and mostly secret (Nature, 2024).
-status: checked
+  - the solved world
+  - the abundance agenda
+disputes: Daron Acemoglu and Simon Johnson argue that choices and power, not the technology itself, decide who gains from it (Power and Progress, 2023). Aaron Benanav argues that weak demand for labour comes from slowing growth, not automation (Automation and the Future of Work, 2020). Kate Crawford warns that generative AI's costs in energy and water are soaring and mostly kept secret (Nature, 2024).
+# Sources for the introduction, rows and disputes (for the checker):
+# - Peter H. Diamandis and Steven Kotler, Abundance, Free Press, 21 February 2012, publisher's description (simonandschuster.co.uk)
+# - Sam Altman, "Moore's Law for Everything", 16 March 2021; "The Gentle Singularity", 10 June 2025; "Abundant Intelligence", September 2025
+# - Nick Bostrom, Deep Utopia: Life and Meaning in a Solved World, Ideapress, 27 March 2024 (nickbostrom.com/deep-utopia; Kirkus Reviews); Bostrom as WTA co-founder: entry transhumanism/1998-wta
+# - e/acc, "What the F* is e/acc", e/acc newsletter, Substack, 26 December 2022
+# - Marc Andreessen, "The Techno-Optimist Manifesto", a16z.com, 16 October 2023
+# - Peter Dizikes, "An AI challenge only humans can solve", MIT News, 17 May 2023
+# - Aaron Benanav, "A Low Demand for Labor", Verso blog, 30 November 2020 (excerpt from Automation and the Future of Work)
+# - Kate Crawford, "Generative AI's environmental costs are soaring — and mostly secret", Nature 626, 22 February 2024
+status: draft
 ---
 
-The hope is old, and so is the question that comes with it: if machines do the work, who owns what they make? In their 2012 book Abundance, Peter Diamandis and Steven Kotler argued that exponential technologies would soon end scarcity. Sam Altman's essays have since tied it directly to AI, from “Moore's Law for Everything” (2021) to “The Gentle Singularity” (2025).
+In the AI industry, abundance names a promise: machines will do so much of the work that prices fall and every need is met. Its holders speak of cheap intelligence, cheap energy and enough for everyone.
+
+Peter Diamandis, a co-founder of Singularity University, and Steven Kotler made the case in their 2012 book Abundance. AI, robotics and other exponential technologies, they argued, would soon “meet and exceed the basic needs of every person on the planet”.
+
+Sam Altman tied the word to AI itself. His essays run from “Moore's Law for Everything” (2021) to “The Gentle Singularity” (2025). In the latter he writes that the cost of intelligence should fall to near the cost of electricity.

@@ -1,6 +1,6 @@
 # Timeline of Techno-optimism (including augmentation), newest first. Each entry: id, year,
 # relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
-# Augmentation entries carry the theme the-tool and a tagLabel ending in "· augmentation".
+# Augmentation entries carry the theme augmentation and a tagLabel ending in "· augmentation".
 ism: techno-optimism
 entries:
   - id: 2025-nadella-bicycles
@@ -13,7 +13,7 @@ entries:
     text: Microsoft's chief executive starts a personal blog with a post on the year ahead. He calls for a new concept that evolves Steve Jobs's bicycles for the mind. People will be equipped with “cognitive amplifier” tools, he writes, and AI should support human potential, not substitute for it. The Register noted that getting customers to pay for Copilot and Microsoft's other AI services remained “a work in progress”.
     source: Satya Nadella, “Looking Ahead to 2026”, sn scratchpad, 29 December 2025; quoted by Julie Bort, TechCrunch, 5 January 2026, and dated by Luis Rijo, PPC Land, 2 January 2026; Thomas Claburn, The Register, 2 January 2026
     sourceUrl: https://techcrunch.com/2026/01/05/microsofts-nadella-wants-us-to-stop-thinking-of-ai-as-slop
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-nadella-post-2025
     status: checked
 
@@ -27,7 +27,7 @@ entries:
     text: The co-founder of LinkedIn argues, with Greg Beato, that AI will give people new superpowers. When many people gain them at once, everyone benefits, a state the book calls superagency. Hoffman sorts views of AI into doomers, gloomers, zoomers and bloomers. Bloomers, like him, are cautious optimists who want AI in many hands and shaped by its users' feedback.
     source: "Reid Hoffman and Greg Beato, Superagency: What Could Possibly Go Right with Our AI Future, Authors Equity, 28 January 2025; Angie Basiouny, “Embracing AI: Are You a Doomer, Gloomer, Zoomer or Bloomer?”, Knowledge at Wharton, 4 February 2025; Anthony Ha, TechCrunch, 26 January 2025"
     sourceUrl: https://knowledge.wharton.upenn.edu/article/embracing-ai-are-you-a-doomer-gloomer-zoomer-or-bloomer/
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-superagency-cover-2025
     status: checked
 
@@ -40,7 +40,7 @@ entries:
     text: In fifteen sections, mostly statements of belief, the co-founder of Andreessen Horowitz argues that progress comes from technology combined with free markets. Together they form what Nick Land called the techno-capital machine. On AI, it states that “any deceleration of AI will cost lives”. Its enemies include stagnation, central planning and the precautionary principle, and it counts tech ethics among the names of a demoralisation campaign.
     source: Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023
     sourceUrl: https://a16z.com/the-techno-optimist-manifesto/
-    themes: [abundance, power, critique]
+    themes: [abundance, luddite]
     image: techopt-manifesto-2023
     status: checked
 
@@ -53,7 +53,7 @@ entries:
     text: Andreessen argues that AI will not destroy the world and may save it, by augmenting human intelligence. “Every child will have an AI tutor that is infinitely patient,” he writes. AI has no goals of its own, he says, and he calls the fear that it will kill us a cult. The greatest risk, he argues, is that China wins, so the West should build fast and keep open source free.
     source: Marc Andreessen, “Why AI Will Save the World”, Andreessen Horowitz (a16z.com), 6 June 2023
     sourceUrl: https://a16z.com/ai-will-save-the-world/
-    themes: [power]
+    themes: [augmentation]
     image: techopt-save-the-world-2023
     status: checked
 
@@ -67,7 +67,7 @@ entries:
     text: Microsoft builds an AI assistant called Copilot into Word, Excel, PowerPoint, Outlook and Teams. It is meant to work alongside people, who decide what to keep. “With Copilot, you're always in control,” the launch post promises. GitHub had previewed its Copilot in 2021, an AI “pair programmer” built on OpenAI's Codex.
     source: "Jared Spataro, “Introducing Microsoft 365 Copilot – your copilot for work”, Official Microsoft Blog, 16 March 2023; Nat Friedman, “Introducing GitHub Copilot: your AI pair programmer”, GitHub Blog, 29 June 2021"
     sourceUrl: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-copilot-2023
     status: checked
 
@@ -79,7 +79,6 @@ entries:
     text: Early in the coronavirus pandemic, Andreessen blames the West's lack of tests, ventilators and masks on “our widespread inability to build”. He calls for housing, highly automated factories, nuclear reactors and high-speed trains, and for new ways to deliver education and health care. The problem, he argues, is a lack of desire and will, along with inertia and regulatory capture.
     source: Marc Andreessen, “It's Time to Build”, Andreessen Horowitz (a16z.com), 18 April 2020
     sourceUrl: https://a16z.com/its-time-to-build/
-    themes: [abundance]
     image: techopt-time-to-build-2020
     status: checked
 
@@ -127,7 +126,7 @@ entries:
     text: "In a presentation filmed around 1980, Apple's co-founder compares the personal computer to a bicycle. In a study of how efficiently species move, he recalls, the condor beat humans, but a human on a bicycle beat the condor. A computer, he says in a 1990 film, is “the equivalent of a bicycle for our minds”. Microsoft's Satya Nadella took up the image for AI in 2023 and again in 2025."
     source: "Philip Elmer-DeWitt, “Video: Steve Jobs in 1980 on PCs as bicycles for the mind”, Fortune, 14 December 2011; Steve Jobs in Memory & Imagination: New Pathways to the Library of Congress, 1990, excerpted by Maria Popova, The Marginalian, 21 December 2011; Satya Nadella, Build keynote, May 2023, reported by Ben Thompson, Stratechery, 24 May 2023; Satya Nadella, “Looking Ahead to 2026”, 2025"
     sourceUrl: https://www.themarginalian.org/2011/12/21/steve-jobs-bicycle-for-the-mind-1990/
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-apple-ii
     status: checked
 
@@ -140,7 +139,7 @@ entries:
     text: In a report for the US Air Force Office of Scientific Research, Engelbart of the Stanford Research Institute sets out a programme. To augment human intellect is “increasing the capability of a man to approach a complex problem situation”. He builds on Vannevar Bush's memex and J. C. R. Licklider's man-computer symbiosis. His lab presented the mouse in 1968, and Andreessen names him a patron saint.
     source: "Douglas C. Engelbart, Augmenting Human Intellect: A Conceptual Framework, SRI Summary Report AFOSR-3223, Stanford Research Institute, October 1962 (text at the Doug Engelbart Institute; copy in the Computer History Museum, 102776493); Smithsonian National Museum of American History, replica of Engelbart's first mouse prototype; Marc Andreessen, “The Techno-Optimist Manifesto”, 2023 (patron saints)"
     sourceUrl: https://dougengelbart.org/content/view/138
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-augmenting-1962
     status: checked
 
@@ -153,7 +152,7 @@ entries:
     text: A psychologist then at Bolt Beranek and Newman hopes that human brains and computers will soon be “coupled together very tightly”. People would set the goals and judge the results, and machines would do the routine work. He grants that machines alone may one day do the thinking, but only after a long interim. Engelbart cites the paper in 1962.
     source: "J. C. R. Licklider, “Man-Computer Symbiosis”, IRE Transactions on Human Factors in Electronics HFE-1, March 1960, pp. 4–11; IEEE Computer Society, “Joseph C. R. Licklider”, Computer Pioneers; Douglas C. Engelbart, Augmenting Human Intellect, 1962, section III.A.5; Howard Rheingold, Tools for Thought, Simon & Schuster, 1985, chapter 9"
     sourceUrl: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-symbiosis-1960
     status: checked
 
@@ -179,7 +178,7 @@ entries:
     text: The magazine introduces Bush as coordinator of some six thousand leading American scientists in the war. He asks what scientists should do next, and answers that the growing store of knowledge must be easier to reach. He imagines the memex, a desk holding a person's books and records, “an enlarged intimate supplement to his memory”. Engelbart's 1962 report devotes a section to the idea.
     source: Vannevar Bush, “As We May Think”, The Atlantic Monthly, July 1945; Douglas C. Engelbart, Augmenting Human Intellect, 1962, sections III.A.1–2; Howard Rheingold, Tools for Thought, Simon & Schuster, 1985, chapter 9
     sourceUrl: https://www.w3.org/History/1945/vbush/vbush.txt
-    themes: [the-tool]
+    themes: [augmentation]
     image: techopt-as-we-may-think-1945
     status: checked
 

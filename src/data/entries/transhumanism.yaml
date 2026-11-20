@@ -20,7 +20,7 @@ entries:
     text: Nearly twenty years after The Singularity Is Near, Kurzweil restates his timeline. AI will reach and pass human-level intelligence by 2029, he writes, and by 2045 minds linked to the cloud will expand a millionfold. People careful with their health, he expects, will reach longevity escape velocity between 2029 and 2035. From then on, scientific progress would add at least a year of life for every year lived.
     source: "Ray Kurzweil, The Singularity Is Nearer: When We Merge with AI, Viking, 25 June 2024; Kurzweil's summary of the book for the Next Big Idea Club, 2024; Kirkus Reviews"
     sourceUrl: https://nextbigideaclub.com/magazine/merging-ai-mean-humanity-according-futurist-ray-kurzweil-bookbite/50146/amp/
-    themes: [abundance, scale]
+    themes: [augmentation]
     image: singularity-nearer-cover
     status: checked
 
@@ -32,7 +32,7 @@ entries:
     text: At a launch event in San Francisco, Neuralink shows ultra-thin electrode threads and a robot that sews them into the brain. The first aim is medical. Elon Musk says the long-term goal is to “achieve a sort of symbiosis with artificial intelligence”, so humans are not left behind. In January 2024 he announces that a first human patient has received the implant.
     source: Darrell Etherington, TechCrunch, 16 July 2019; Dezeen, 22 July 2019; Wyatte Grantham-Philips and Laura Ungar, Associated Press via PBS NewsHour, 30 January 2024
     sourceUrl: https://techcrunch.com/2019/07/16/elon-musks-neuralink-looks-to-begin-outfitting-human-brains-with-faster-input-and-output-starting-next-year/amp
-    themes: [the-tool]
+    themes: [augmentation]
     image: neuralink-2019
     status: checked
 
@@ -56,7 +56,6 @@ entries:
     text: Two philosophers found an association to promote transhumanism as a serious academic field. The Transhumanist Declaration, drafted that year by an international group, envisions broadening human potential by overcoming ageing, involuntary suffering and confinement to Earth. In 2008 the association renames itself Humanity+.
     source: Nick Bostrom, “A History of Transhumanist Thought”, Journal of Evolution and Technology, 2005; Encyclopaedia Britannica, “World Transhumanist Association”; Humanity+, “The Transhumanist Declaration”
     sourceUrl: https://britannica.com/topic/World-Transhumanist-Association
-    themes: [self-determination]
     image: wta-website
     status: checked
 
@@ -68,7 +67,6 @@ entries:
     text: Two years after launching the magazine Extropy with Tom Morrow, More gives the word its first modern definition. Transhumanism, he writes, is “a class of philosophies that seek to guide us towards a posthuman condition”. Humanity, in his view, is only a temporary stage on the path of evolution.
     source: "Max More, “Transhumanism: Toward a Futurist Philosophy”, Extropy no. 6, Summer 1990 (revised 1994 and 1996; republished on More's Substack, 2023); Nick Bostrom, “A History of Transhumanist Thought”, 2005"
     sourceUrl: https://maxmore.substack.com/p/transhumanism-toward-a-futurist-philosophy
-    themes: [abundance, self-determination]
     image: extropy-1990-cover
     status: checked
 
@@ -92,7 +90,6 @@ entries:
     text: The biologist and first director-general of UNESCO uses the word for humanity “remaining man, but transcending himself” by realising new possibilities of its nature. The word had appeared before, in a 1940 paper by the Canadian philosopher W. D. Lighthall, but Huxley's essay made it known. Huxley was also a prominent supporter of eugenics, and president of the Eugenics Society from 1959 to 1962, a link the movement's critics stress.
     source: Julian Huxley, “Transhumanism”, in New Bottles for New Wine, Chatto & Windus, 1957; “Transhumanism” and “Julian Huxley”, Wikipedia (Lighthall, Eugenics Society)
     sourceUrl: https://ia800306.us.archive.org/19/items/NewBottlesForNewWine/New-Bottles-For-New-Wine_text.pdf
-    themes: [critique]
     image: huxley-1957-book
     status: checked
 
@@ -104,7 +101,6 @@ entries:
     text: A young Cambridge crystallographer imagines people replacing their bodies with machinery, the brain living on inside a short cylinder. He pictures minds linked together and hollow globes, ten miles across, settled in space. Bostrom's history counts it among the forerunners of transhumanism.
     source: J. D. Bernal, The World, the Flesh and the Devil, Kegan Paul, Trench, Trubner, 1929 (To-day and To-morrow series); The Encyclopedia of Science Fiction, “Bernal, J D”
     sourceUrl: https://www.marxists.org/archive/bernal/works/1920s/soul/ch03.htm
-    themes: [the-tool]
     image: bernal-1929-book
     status: checked
 
@@ -138,7 +134,6 @@ entries:
     text: Written in hiding during the Terror and published after his death, the essay foresees the indefinite improvement of humanity. People will not become immortal, Condorcet concedes, but the span of human life may have no fixed limit. Bostrom quotes this passage as an early hope of extending life through medicine.
     source: Condorcet, Esquisse d'un tableau historique des progrès de l'esprit humain, 1795; Encyclopaedia Britannica, “Marie-Jean-Antoine-Nicolas de Caritat, marquis de Condorcet”; Nick Bostrom, “A History of Transhumanist Thought”, 2005
     sourceUrl: https://jetpress.org/volume14/bostrom.html
-    themes: [abundance]
     image: condorcet-1795-title
     status: checked
 
@@ -150,7 +145,6 @@ entries:
     text: Written in 1486 to introduce 900 theses for a public debate, the speech was printed only in 1496, after Pico's death. In it God tells Adam that humans alone have no fixed nature. They can make themselves whatever they choose to be.
     source: Pico della Mirandola, Oratio de hominis dignitate, written 1486, first printed in his Commentationes, ed. Gianfrancesco Pico, 1496; Stanford Encyclopedia of Philosophy, “Giovanni Pico della Mirandola”
     sourceUrl: https://plato.stanford.edu/archives/Win2023/entries/pico-della-mirandola/
-    themes: [self-determination]
     image: pico-1496-page
     status: checked
 
