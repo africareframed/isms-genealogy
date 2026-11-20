@@ -49,7 +49,7 @@ a:hover { color: var(--muted); }
 .hero-top p { margin: 0; font-family: var(--mono); font-size: 13px; line-height: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .hero-grid { padding-top: 64px; }
 .hero h1 { margin: 0; font-size: clamp(64px, 8.9vw, 128px); line-height: 0.94; font-weight: 600; letter-spacing: -0.035em; }
-.hero-side { display: grid; grid-template-columns: calc(var(--c) * 4 + var(--g) * 3) var(--c) minmax(0, 1fr); column-gap: var(--g); margin-top: 72px; align-items: start; } /* standfirst on columns 1-4, column 5 left as air, text from column 6 as on the history card */
+.hero-side { display: grid; grid-template-columns: calc(var(--c) * 5 + var(--g) * 4) var(--c) minmax(0, 1fr); column-gap: var(--g); margin-top: 72px; align-items: start; } /* standfirst on columns 1-5, column 6 left as air, text on 7-12 like the right-hand movement cards below */
 .hero-side .stand { grid-column: 1; }
 .hero-side .hero-body { grid-column: 3; }
 .hero-body { max-width: 680px; }
