@@ -8,13 +8,13 @@ Every session starts here: find the first stage that is not done, do the next pi
 - [x] **2. Content structure.** Isms, themes, entries, figures, images; per-ism files; references checked at build.
 - [ ] **3. Isms.** For each: research agent drafts (branch `ism/<ism>`), checker agent verifies, merge, `ready: true`.
   - [ ] Transhumanism — drafted from the mockup; needs checking and more figures' sources
-  - [ ] Singularitarianism (incl. successionism) — research agent drafting on branch `ism/singularitarianism`
-  - [ ] Rationalism (incl. the call to pause) — drafted (16 entries, 12 figures) on `ism/rationalism`; checker agent running
+  - [ ] Singularitarianism (incl. successionism) — drafted (14 entries, 11 figures) on `ism/singularitarianism`; checker agent running
+  - [x] Rationalism (incl. the call to pause) — 16 entries, 12 figures, checked and merged
   - [ ] Effective altruism and longtermism
   - [ ] Effective accelerationism (incl. neoreaction and the network state)
   - [ ] Techno-optimism (incl. augmentation)
 - [ ] **4. Themes.** Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
-- [ ] **5. Images.** Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
+- [ ] **5. Images.** Batch 1 (17 files) approved by the owner on 20 Nov but blocked: image hosts are not in the network allowlist; owner is adding them. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
 
@@ -41,5 +41,6 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Rationalism checked and merged (Wiener root set to attributed; Barlach NC image swapped for Barth, public domain). Image batch 1 approved; download blocked by allowlist.
 - 2026-11-20: Rationalism drafted by a research agent; check started. Month field added.
 - 2026-11-20: Skeleton, content structure, Transhumanism and Abundance drafted from the mockup. Repository created.

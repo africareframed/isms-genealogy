@@ -150,12 +150,12 @@ entries:
     year: 1960
     title: “Some Moral and Technical Consequences of Automation”
     who: Norbert Wiener
-    relation: claimed
+    relation: attributed
     text: The founder of cybernetics warns that learning machines can find tactics no one foresaw, and act faster than people can react. He recalls the sorcerer's apprentice, whose enchanted broom nearly drowns him. If we cannot interfere with a machine once it starts, he argues, we must be sure its purpose is the one we really want. A 2013 LessWrong post noted how closely the paper matches the community's own themes.
     source: Norbert Wiener, “Some Moral and Technical Consequences of Automation”, Science 131 (3410), 6 May 1960; JonahS, “Norbert Wiener's paper ‘Some Moral and Technical Consequences of Automation’”, LessWrong, 21 July 2013
     sourceUrl: https://www.cs.umd.edu/users/gasarch/BLOGPAPERS/moral.pdf
     themes: [the-tool]
-    image: rationalism-barlach-zauberlehrling
+    image: sorcerers-apprentice-1882
     status: checked
 
   - id: 1951-turing
