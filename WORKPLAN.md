@@ -35,6 +35,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Image batch approvals (sent as lists when ready). Batches 6 and 7 were approved and used (Watt's governor for Alignment; von Kempelen's Turk with 1997 for the History of AI).
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag).
+- Hosting (owner, 21 Nov: later): move the site from GitHub Pages to Cloudflare, likely Workers static assets serving `dist/` (no adapter needed for a static Astro build), with the domain mademinds.org. Needs the owner's Cloudflare account and explicit go; no session starts it on its own.
 - Before launch: delete the dev grid switch (owner, 21 Nov: the "Grid" button and G key in `src/layouts/Base.astro`, and the "DEV ONLY" block at the end of `src/styles/site.css`). The name Made Minds was decided on 20 November 2026.
 
 ## How a session continues the build
