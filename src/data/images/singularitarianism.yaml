@@ -7,10 +7,11 @@
   sourceUrl: https://blog.samaltman.com/the-gentle-singularity
 - id: sing-nasa-ames-aerial-2008
   title: Aerial view of NASA Ames Research Center and NASA Research Park, Moffett Field, California
-  date: '2008'
+  date: '2008-05-20'
   creator: Dominic Hart, NASA
   holder: NASA Ames Research Center
   rights: public-domain
+  licence: NASA media guidelines, generally not subject to copyright in the United States; aerial view, no identifiable people
   sourceUrl: https://images.nasa.gov/details/ARC-2008-ACD08-0105-028
 - id: sing-singularity-near-cover
   title: The Singularity Is Near, first edition cover
@@ -56,7 +57,7 @@
   rights: to-check
   sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
 - id: sing-erewhon-1872
-  title: Erewhon, or Over the Range, title page of the first edition, Trübner, London
+  title: Erewhon, or Over the Range, title page, Trübner, London, 1872
   date: '1872'
   creator: Samuel Butler
   holder: Duke University Libraries, via the Internet Archive
