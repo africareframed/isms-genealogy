@@ -35,7 +35,7 @@ const wordFilterCss = [
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
       <a href="#questions">Questions</a>
-      {words.length > 0 && <a href="#words">Words</a>}
+      {words.length > 0 && <a href="#words">Vocabulary</a>}
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
     </nav>
@@ -124,7 +124,7 @@ const wordFilterCss = [
   {words.length > 0 && (
     <section id="words" class="wrap themes-sec" aria-labelledby="words-h">
       <div class="themes-head">
-        <h2 id="words-h">Their words</h2>
+        <h2 id="words-h">Vocabulary</h2>
         <p>The movements' own vocabulary, with who coined each word and when.</p>
       </div>
       <div class="wsec">
