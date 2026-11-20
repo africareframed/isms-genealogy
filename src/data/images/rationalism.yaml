@@ -77,21 +77,26 @@
   rights: to-check
   sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
 - id: rationalism-erewhon-1872
-  title: Samuel Butler, Erewhon, or Over the Range, first edition, title page
-  date: '1872'
-  holder: Smithsonian Libraries, via the Internet Archive
-  rights: public-domain
-  sourceUrl: https://archive.org/details/ErewhonOverrang00Butl
+  title: "Samuel Butler, Erewhon, first edition binding"
+  date: "1872"
+  rights: "public-domain"
+  file: "erewhon-1872.jpg"
+  alt: "Red cloth book cover with the title Erewhon, or Over the Range"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Erewhon-1872-001.jpg"
+
 - id: rationalism-bayes-1763
-  title: Bayes, An Essay towards solving a Problem in the Doctrine of Chances, first page, Philosophical Transactions
-  date: '1763'
-  holder: Royal Society, via Zenodo
-  rights: public-domain
-  licence: CC0 1.0
-  sourceUrl: https://zenodo.org/records/1432246
+  title: "Bayes's Essay, first page, Philosophical Transactions"
+  date: "1763"
+  rights: "public-domain"
+  file: "rationalism-bayes-1763.jpg"
+  alt: "Printed page headed An Essay towards solving a Problem in the Doctrine of Chances"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:An_Essay_towards_Solving_a_Problem_in_the_Doctrine_of_Chances._By_the_Late_Rev._Mr._Bayes,_F._R._S._Communicated_by_Mr._Price,_in_a_Letter_to_John_Canton,_A._M._F._R._S._(IA_jstor-105741).pdf"
+
 - id: sorcerers-apprentice-1882
-  title: Ferdinand Barth, The Sorcerer's Apprentice
-  date: c. 1882
-  creator: Ferdinand Barth
-  rights: public-domain
-  sourceUrl: https://commons.wikimedia.org/wiki/File:Tovenaarsleerling_S_Barth.png
+  title: "Ferdinand Barth, The Sorcerer's Apprentice"
+  date: "c. 1882"
+  creator: "Ferdinand Barth"
+  rights: "public-domain"
+  file: "sorcerers-apprentice-1882.jpg"
+  alt: "Engraving of a young man casting a spell over a broom amid smoke and spilled water"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Tovenaarsleerling_S_Barth.png"

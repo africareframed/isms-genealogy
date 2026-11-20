@@ -1,6 +1,6 @@
 # Image batch 1 — 20 November 2026
 
-Status: waiting for the owner's yes. Licences read on each file page via the Wikimedia Commons API (or NASA's media guidelines). All are human-made images of objects, documents, artworks or places; none is a portrait.
+Status: approved by the owner on 20 Nov 2026 and downloaded the same day. All 17 checked by eye: no identifiable people; no. 12 is the cover of the 1872 Erewhon, not its title page. Licences read on each file page via the Wikimedia Commons API (or NASA's media guidelines). All are human-made images of objects, documents, artworks or places; none is a portrait.
 
 | # | Image id (site) | What it shows | File page | File | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- | --- |

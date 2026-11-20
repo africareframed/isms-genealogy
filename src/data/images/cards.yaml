@@ -5,9 +5,14 @@
 
 # Cards: isms
 - id: tsiolkovsky-free-space
-  title: Konstantin Tsiolkovsky, sketch from Free Space
-  date: '1883'
-  rights: public-domain
+  title: "Konstantin Tsiolkovsky, drawing from Free Space"
+  date: "1883"
+  creator: "Konstantin Tsiolkovsky"
+  rights: "public-domain"
+  file: "tsiolkovsky-free-space.jpg"
+  alt: "Pen drawing of a spherical vessel in free space, with figures floating inside and handwritten notes"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Chertrg_Tsiolkovsky.jpg"
+
 - id: moore-chart-1965
   title: Gordon Moore's chart of components per chip
   date: '1965'
@@ -21,43 +26,82 @@
   date: '1972'
   rights: to-check
 - id: boccioni-city-rises
-  title: Umberto Boccioni, The City Rises
-  date: '1910'
-  rights: public-domain
+  title: "Umberto Boccioni, The City Rises"
+  date: "1910"
+  creator: "Umberto Boccioni"
+  rights: "public-domain"
+  file: "boccioni-city-rises.jpg"
+  alt: "Futurist painting of horses and workers dissolving into swirling red and blue motion"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg"
+
 - id: hoover-dam-1934
-  title: Hoover Dam under construction
-  date: '1934'
-  rights: public-domain
-  holder: US government
+  title: "Intake towers under construction, Hoover Dam"
+  date: "1934"
+  holder: "US National Archives"
+  rights: "public-domain"
+  file: "hoover-dam-1934.jpg"
+  alt: "Concrete intake towers wrapped in scaffolding in a rocky canyon"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Construction_Intake_Towers_Hoover_Dam_1934.jpg"
 
 # Cards: themes
 - id: atoms-for-peace-stamp
-  title: “Atoms for Peace” stamp, US Post Office
-  date: '1955'
-  rights: public-domain
-- id: leviathan-frontispiece
-  title: Frontispiece of Hobbes's Leviathan
-  date: '1651'
-  rights: public-domain
-- id: engelbart-1968
-  title: Douglas Engelbart's demonstration
-  date: '1968'
-  holder: SRI International
-  rights: to-check
-- id: perceptron-1958
-  title: Mark I Perceptron, Cornell Aeronautical Laboratory
-  date: '1958'
-  rights: to-check
-- id: udhr-1948
-  title: Universal Declaration of Human Rights
-  date: '1948'
-  rights: to-check
-- id: kleroterion
-  title: Kleroterion, Athenian allotment machine
-  date: 4th century BCE
-  rights: to-check
-- id: luddites-1812
-  title: “The Leader of the Luddites”, engraving
-  date: '1812'
-  rights: public-domain
+  title: "“Atoms for Peace” stamp, US Post Office"
+  date: "1955"
+  creator: "Bureau of Engraving and Printing"
+  rights: "public-domain"
+  file: "atoms-for-peace-stamp.jpg"
+  alt: "Blue three-cent stamp showing two globes ringed by atomic orbits"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Atoms_for_Peace_stamp.jpg"
 
+- id: leviathan-frontispiece
+  title: "Frontispiece of Hobbes's Leviathan, British Library copy"
+  date: "1651"
+  creator: "Abraham Bosse"
+  rights: "open-licence"
+  licence: "CC0"
+  file: "leviathan-frontispiece.jpg"
+  alt: "Engraving of a crowned giant made of many small people, rising over a landscape"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Leviathan_frontispiece_cropped_British_Library.jpg"
+
+- id: engelbart-1968
+  title: "Douglas Engelbart's prototype mouse, Computer History Museum"
+  date: "1964"
+  rights: "open-licence"
+  licence: "CC BY 2.0, photo Michael Hicks"
+  file: "engelbart-1968.jpg"
+  alt: "A small wooden box with a red button and a cable, in a museum case"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart%27s_prototype_mouse_-_Computer_History_Museum.jpg"
+
+- id: perceptron-1958
+  title: "Mark I Perceptron, figure from its operator's manual"
+  date: "1960"
+  creator: "John C. Hay, Albert E. Murray"
+  rights: "public-domain"
+  file: "perceptron-1958.jpg"
+  alt: "Labelled diagram of the Mark I Perceptron cabinet, camera and plugboard"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Mark_I_Perceptron,_Figure_2_of_operator%27s_manual.png"
+
+- id: udhr-1948
+  title: "The Universal Declaration of Human Rights, United Nations"
+  date: "1948"
+  rights: "public-domain"
+  file: "udhr-1948.jpg"
+  alt: "Printed sheet of the Universal Declaration of Human Rights with the UN emblem"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:The_universal_declaration_of_human_rights_10_December_1948.jpg"
+
+- id: kleroterion
+  title: "Kleroterion, Museum of the Ancient Agora, Athens"
+  date: "4th century BCE"
+  rights: "open-licence"
+  licence: "CC BY-SA 3.0, photo Dorieo"
+  file: "kleroterion.jpg"
+  alt: "A marble slab pierced with rows of narrow slots, used to choose citizens by lot"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:AGMA_Kleroterion_2.jpg"
+
+- id: luddites-1812
+  title: "“The Leader of the Luddites”, engraving"
+  date: "1812"
+  rights: "public-domain"
+  file: "luddites-1812.jpg"
+  alt: "Coloured engraving of a figure in a dress pointing ahead while a mill burns behind"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Luddite.jpg"

@@ -14,7 +14,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
   - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [ ] **4. Themes.** In progress 20 Nov 15:10: agent A (branch `themes/a`: Abundance revision, Power, The tool, Scale) and agent B (branch `themes/b`: Rights and dignity, Self-determination, Critique), then a checker each. Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
-- [ ] **5. Images.** Batch 1 (17 files) approved by the owner on 20 Nov but blocked: image hosts are not in the network allowlist; owner is adding them. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
+- [ ] **5. Images.** Batch 1 (17 files) approved and downloaded 20 Nov into the owner's folder (batch-01/), resized to 1800 px JPEGs in public/images/, records filled. Network access now allows these hosts. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
 
@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Image batch 1 downloaded and on the site (17 images).
 - 2026-11-20: Techno-optimism checked and merged. All six isms done.
 - 2026-11-20: Effective accelerationism checked and merged.
 - 2026-11-20: Effective altruism checked and merged; card summary narrowed to longtermists.

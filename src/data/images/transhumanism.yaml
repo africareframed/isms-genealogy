@@ -39,14 +39,22 @@
   date: c. 1900
   rights: to-check
 - id: condorcet-1795-title
-  title: Condorcet, Esquisse, title page of the first edition
-  date: '1795'
-  rights: public-domain
+  title: "Condorcet, Esquisse, title page of the first edition"
+  date: "1795"
+  rights: "public-domain"
+  file: "condorcet-1795-title.jpg"
+  alt: "Title page reading Esquisse d'un tableau historique des progrès de l'esprit humain"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Esquisse_d%27un_tableau_historique_des_progres_de_l%27esprit_humain,_1795.png"
+
 - id: pico-1496-page
   title: Page from a 1496 printing of Pico's works
   date: '1496'
   rights: public-domain
 - id: gilgamesh-tablet-xi
-  title: Tablet XI of the Epic of Gilgamesh, 7th century BCE, British Museum
-  rights: open-licence
-  licence: CC BY-NC-SA 4.0
+  title: "The Flood Tablet, Tablet XI of the Epic of Gilgamesh, British Museum"
+  date: "7th century BCE"
+  rights: "open-licence"
+  licence: "CC0"
+  file: "gilgamesh-tablet-xi.jpg"
+  alt: "A broken clay tablet covered in cuneiform script"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"

@@ -6,13 +6,14 @@
   rights: to-check
   sourceUrl: https://blog.samaltman.com/the-gentle-singularity
 - id: sing-nasa-ames-aerial-2008
-  title: Aerial view of NASA Ames Research Center and NASA Research Park, Moffett Field, California
-  date: '2008-05-20'
-  creator: Dominic Hart, NASA
-  holder: NASA Ames Research Center
-  rights: public-domain
-  licence: NASA media guidelines, generally not subject to copyright in the United States; aerial view, no identifiable people
-  sourceUrl: https://images.nasa.gov/details/ARC-2008-ACD08-0105-028
+  title: "Aerial view of NASA Ames Research Center and NASA Research Park"
+  date: "2008"
+  creator: "NASA / Dominic Hart"
+  rights: "public-domain"
+  file: "sing-nasa-ames-aerial-2008.jpg"
+  alt: "Aerial photograph of research buildings, hangars and an airfield by San Francisco Bay"
+  sourceUrl: "https://images.nasa.gov/details/ARC-2008-ACD08-0105-028"
+
 - id: sing-singularity-near-cover
   title: The Singularity Is Near, first edition cover
   date: '2005'
@@ -45,11 +46,12 @@
   date: '1965'
   rights: to-check
 - id: sing-ias-computer
-  title: The IAS computer, built under John von Neumann at Princeton, Smithsonian National Museum of American History
-  date: 1946–1951
-  holder: Smithsonian Institution
-  rights: to-check
-  sourceUrl: https://www.si.edu/object/nmah_334741
+  title: "The IAS computer, Smithsonian Institution"
+  rights: "public-domain"
+  file: "sing-ias-computer.jpg"
+  alt: "A long machine cabinet lined with rows of vacuum tubes"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
+
 - id: sing-turing-typescript-1951
   title: Turing, “Intelligent machinery, a heretical theory”, typescript, King's College Cambridge
   date: c. 1951
@@ -57,9 +59,9 @@
   rights: to-check
   sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
 - id: sing-erewhon-1872
-  title: Erewhon, or Over the Range, title page, Trübner, London, 1872
-  date: '1872'
-  creator: Samuel Butler
-  holder: Duke University Libraries, via the Internet Archive
-  rights: public-domain
-  sourceUrl: https://archive.org/details/erewhonoroverra00butl
+  title: "Samuel Butler, Erewhon, first edition binding"
+  date: "1872"
+  rights: "public-domain"
+  file: "erewhon-1872.jpg"
+  alt: "Red cloth book cover with the title Erewhon, or Over the Range"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Erewhon-1872-001.jpg"
