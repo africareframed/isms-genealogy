@@ -7,7 +7,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 - [x] **1. Repository and skeleton.** Astro static site, design from the mockup, flat relative pages.
 - [x] **2. Content structure.** Isms, themes, entries, figures, images; per-ism files; references checked at build.
 - [x] **3. Isms.** For each: research agent drafts (branch `ism/<ism>`), checker agent verifies, merge, `ready: true`.
-  - [ ] Transhumanism — drafted from the mockup; checker running on `ism/transhumanism-check` (20 Nov 16:00)
+  - [x] Transhumanism — 14 entries, 12 figures, checked and merged (20 Nov)
   - [x] Singularitarianism (incl. successionism) — 14 entries, 11 figures, checked and merged
   - [x] Rationalism (incl. the call to pause) — 16 entries, 12 figures, checked and merged
   - [x] Effective altruism and longtermism — 16 entries, 10 figures, checked and merged
@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Transhumanism checked and merged; every ism and theme is now checked.
 - 2026-11-20: Owner approved going public: repository public, GitHub Pages live from `gh-pages` (noindex for now).
 - 2026-11-20: Themes Power, The tool, Scale, Abundance checked and merged.
 - 2026-11-20: Themes Rights and dignity, Self-determination, Critique checked and merged.
