@@ -121,7 +121,7 @@ def render(spec):
 
 
 ISM, THEME, PAGE = (1600, 1200), (1500, 1000), (1200, 1500)   # PAGE: the vertical image at the top of a page, 4:5, 12 x 15 squares
-HISTORY = (1600, 900)   # the full-width History of AI card, 16:9, 16 x 9 squares
+HISTORY = (2200, 800)   # the History of AI card, side to side at the height of a movement card: 11:4, 22 x 8 squares
 SPECS = [
     dict(id='collage-transhumanism', size=ISM, colour=GREEN, seed=3,
          fields=[(0, 1, 9, 10), (10, 0, 6, 5)], black=[(9, 0, 1, 1), (15, 7, 1, 1)],
@@ -198,11 +198,11 @@ SPECS = [
          shift=[(3, 7, 1, 1, 1, 0)], invert=[(1, 2, 1, 1)],
          labels=[('1960 · "THE PURPOSE PUT INTO THE MACHINE"', 760, 400), ('NORBERT WIENER', 760, 442), ("1788 · THE LAP ENGINE'S GOVERNOR · BOULTON AND WATT", 40, 960)]),
     dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
-         fields=[(0, 0, 9, 8)], black=[(9, 0, 1, 1), (15, 8, 1, 1)],
-         fragments=[dict(img='turk-racknitz-1789.jpg', box=(829, 790), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 30))],
-         shift=[(2, 6, 1, 1, 1, 0)], invert=[(7, 1, 1, 1)],
-         type=[dict(slab=(9, 3, 7, 3), parts=[('1997', 290, 940, 305)])],
-         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 948, 650), ("1770 · VON KEMPELEN'S CHESS-PLAYING TURK · ENGRAVING, 1789", 40, 860)]),
+         fields=[(0, 0, 9, 7)], black=[(9, 0, 1, 1), (21, 7, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(724, 690), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(60, 30))],
+         shift=[(2, 5, 1, 1, 1, 0)], invert=[(7, 1, 1, 1)],
+         type=[dict(slab=(11, 2, 9, 4), parts=[('1997', 330, 1160, 205)])],
+         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 1168, 640), ("1770 · VON KEMPELEN'S CHESS-PLAYING TURK · ENGRAVING, 1789", 40, 760)]),
     dict(id='collage-history-tall', size=PAGE, colour=GREY, seed=1770,
          fields=[(0, 0, 11, 10)], black=[(11, 0, 1, 1), (0, 14, 1, 1)],
          fragments=[dict(img='turk-racknitz-1789.jpg', box=(1050, 1001), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.4, at=(40, 40))],

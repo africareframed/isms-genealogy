@@ -78,8 +78,8 @@ const num = (n: number) => String(n).padStart(2, '0');
       <div class="themes-head">
         <h2 id="hist-h">History of AI</h2>
       </div>
-      <a class={historyImage ? 'hcard' : 'hcard noimg'} href={pageHref('history')}>
-        {historyImage && <Picture image={{ collection: 'images', id: historyImage.id }} ratio="16 / 9" />}
+      <a class="hcard" href={pageHref('history')}>
+        {historyImage && <Picture image={{ collection: 'images', id: historyImage.id }} ratio="11 / 4" />}
         <div class="hc-side">
           <div class="hc-body">
             <p class="hc-t">From ancient automata to the generative race</p>
