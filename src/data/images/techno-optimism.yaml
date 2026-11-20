@@ -3,8 +3,10 @@
 # No portraits or photographs of people.
 - id: techopt-nadella-post-2025
   title: “Looking Ahead to 2026”, Satya Nadella's blog post on sn scratchpad, web page (text only)
-  date: '2025'
+  date: '2025-12-29'
+  holder: Satya Nadella
   rights: to-check
+  sourceUrl: https://snscratchpad.com/posts/looking-ahead-2026/
 - id: techopt-superagency-cover-2025
   title: Superagency, first edition cover, Authors Equity
   date: '2025'
@@ -58,7 +60,7 @@
   creator: Apple Computer
   holder: Smithsonian Institution, National Museum of American History (1990.0167.01.1)
   rights: to-check
-  licence: 'Smithsonian record: metadata CC0; “Usage conditions apply” to the image'
+  licence: 'Smithsonian record: metadata CC0; the page says there are restrictions for re-using the image (Smithsonian Terms of Use)'
   sourceUrl: https://si.edu/object/nmah_334638
 - id: techopt-augmenting-1962
   title: Engelbart, Augmenting Human Intellect, SRI Summary Report AFOSR-3223, title page
@@ -80,7 +82,7 @@
 - id: techopt-as-we-may-think-1945
   title: Bush, “As We May Think”, The Atlantic Monthly, July 1945, opening page
   date: 1945-07
-  holder: Computer History Museum copy (062303004); copyright The Atlantic Monthly
+  holder: Computer History Museum copy (062303004); the record names The Atlantic Monthly as copyright owner
   rights: to-check
   sourceUrl: https://www.computerhistory.org/chess/doc-431614f6900af/
 - id: techopt-figaro-1909
@@ -97,5 +99,5 @@
   creator: Francis Bacon; engraving signed “Sim. Pass. sculp.” (Simon de Passe)
   holder: Thomas Fisher Rare Book Library, University of Toronto, via the Internet Archive (instauratiomagna00baco)
   rights: public-domain
-  licence: Published 1620; no rights statement on the Internet Archive page
+  licence: Published 1620, long out of copyright; the Internet Archive page gives no rights statement
   sourceUrl: https://archive.org/details/instauratiomagna00baco
