@@ -40,7 +40,8 @@ a:hover { color: var(--muted); }
 .site-nav { display: flex; gap: 28px; font-size: 16px; line-height: 24px; }
 .site-nav a { text-decoration: none; }
 .hero { padding-top: 72px; padding-bottom: 72px; display: flex; flex-direction: column; gap: 24px; }
-.hero h1 { margin: 0; max-width: 1100px; font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -0.025em; }
+.hero h1 { margin: 0; max-width: 1300px; font-size: 104px; line-height: 104px; font-weight: 600; letter-spacing: -0.035em; }
+.hero .hk { font-family: var(--mono); font-size: 13px; line-height: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .hero p { margin: 0; max-width: 780px; font-size: 20px; line-height: 30px; color: var(--ink-3); }
 .hero .asof { font-family: var(--mono); font-size: 13px; line-height: 18px; color: var(--muted); }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -191,6 +192,7 @@ a.hist:hover .ht { text-decoration: underline; }
   .item .pic { grid-column: 2; max-width: 520px; }
 }
 @media (max-width: 900px) {
+  .hero h1 { font-size: 72px; line-height: 74px; }
   .intro { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .intro h1 { font-size: 72px; line-height: 76px; }
   .actors { grid-template-columns: minmax(0, 1fr); }
@@ -206,7 +208,7 @@ a.hist:hover .ht { text-decoration: underline; }
 }
 @media (max-width: 640px) {
   .wrap { padding-left: 20px; padding-right: 20px; }
-  .hero h1 { font-size: 36px; line-height: 40px; }
+  .hero h1 { font-size: 44px; line-height: 46px; }
   .hero p { font-size: 17px; line-height: 26px; }
   .fam, .tgrid { grid-template-columns: minmax(0, 1fr); }
   .sec-h { font-size: 32px; line-height: 36px; }
