@@ -3,6 +3,8 @@ title: Alignment
 order: 8
 ready: true
 summary: The effort to make AI systems do what their makers intend.
+image: collage-alignment
+pageImage: collage-alignment-tall
 lead: The work of making AI pursue the goals people intend, contested over how hard it is, how urgent, and whose goals should count.
 isms:
   - ism: transhumanism

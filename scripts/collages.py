@@ -82,6 +82,7 @@ def render(spec):
     col = hexrgb(spec['colour'])
     for c, r, w, h in spec.get('fields', []):            # bold colour fields, misregistered
         m = np.roll(np.roll(rect(c, r, w, h), 6, axis=0), -5, axis=1)
+        m[:6] = 0; m[:, -5:] = 0                           # no wrap-around at the edges
         edge = ndimage.gaussian_filter(m, 2.2) + rng.normal(0, 0.06, m.shape)
         paint((edge > 0.5).astype(float), col)
     for c, r, w, h in spec.get('black', []):
@@ -120,6 +121,7 @@ def render(spec):
 
 
 ISM, THEME, PAGE = (1600, 1200), (1500, 1000), (1200, 1500)   # PAGE: the vertical image at the top of a page, 4:5, 12 x 15 squares
+HISTORY = (1600, 900)   # the full-width History of AI card, 16:9, 16 x 9 squares
 SPECS = [
     dict(id='collage-transhumanism', size=ISM, colour=GREEN, seed=3,
          fields=[(0, 1, 9, 10), (10, 0, 6, 5)], black=[(9, 0, 1, 1), (15, 7, 1, 1)],
@@ -190,6 +192,23 @@ SPECS = [
                     dict(img='sing-ias-computer.jpg', box=(760, 456), crop=(0.0, 0.05, 1.0, 0.95), how='screen', level=0.5, at=(740, 357))],
          shift=[(2, 3, 2, 2, 1, 0), (4, 6, 2, 2, 0, -1)], invert=[(5, 1, 1, 1)],
          labels=[('1812 · THE LEADER OF THE LUDDITES', 780, 880)]),
+    dict(id='collage-alignment', size=THEME, colour=GREY, seed=1788,
+         fields=[(0, 1, 7, 8)], black=[(7, 0, 1, 1), (14, 8, 1, 1)],
+         fragments=[dict(img='governor-boulton-watt.jpg', box=(373, 800), crop=(0.53, 0.29, 0.885, 0.745), channel='R', how='screen', level=0.36, detail=1.2, blur=0.8, at=(300, 90))],
+         shift=[(3, 7, 1, 1, 1, 0)], invert=[(1, 2, 1, 1)],
+         labels=[('1960 · "THE PURPOSE PUT INTO THE MACHINE"', 760, 400), ('NORBERT WIENER', 760, 442), ("1788 · THE LAP ENGINE'S GOVERNOR · BOULTON AND WATT", 40, 960)]),
+    dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
+         fields=[(0, 0, 9, 8)], black=[(9, 0, 1, 1), (15, 8, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(829, 790), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 30))],
+         shift=[(2, 6, 1, 1, 1, 0)], invert=[(7, 1, 1, 1)],
+         type=[dict(slab=(9, 3, 7, 3), parts=[('1997', 290, 940, 305)])],
+         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 948, 650), ("1770 · VON KEMPELEN'S CHESS-PLAYING TURK · ENGRAVING, 1789", 40, 860)]),
+    dict(id='collage-history-tall', size=PAGE, colour=GREY, seed=1770,
+         fields=[(0, 0, 11, 10)], black=[(11, 0, 1, 1), (0, 14, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(1050, 1001), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.4, at=(40, 40))],
+         shift=[(2, 8, 1, 1, 1, 0)], invert=[(9, 1, 1, 1)],
+         type=[dict(slab=(4, 11, 8, 3), parts=[('1997', 290, 440, 1105)])],
+         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 448, 1440), ("1770 · VON KEMPELEN'S TURK · 1789", 40, 1085)]),
     # Vertical page images (4:5), one per theme: the same object and fact, composed for the tall frame
     dict(id='collage-scale-tall', size=PAGE, colour=GREY, seed=233,
          fields=[(0, 0, 9, 8)], black=[(11, 1, 1, 1), (0, 12, 1, 2)],
@@ -222,6 +241,11 @@ SPECS = [
          fragments=[dict(img='kleroterion.jpg', box=(1120, 739), how='screen', level=0.47, at=(40, 360))],
          shift=[(4, 5, 2, 2, 1, 0), (8, 8, 2, 2, 0, 1)], invert=[(3, 4, 2, 2)],
          labels=[('4TH CENTURY BCE · KLEROTERION, ATHENS', 40, 1440)]),
+    dict(id='collage-alignment-tall', size=PAGE, colour=GREY, seed=1788,
+         fields=[(0, 2, 8, 10)], black=[(8, 1, 1, 1), (11, 13, 1, 1)],
+         fragments=[dict(img='governor-boulton-watt.jpg', box=(513, 1100), crop=(0.53, 0.29, 0.885, 0.745), channel='R', how='screen', level=0.36, detail=1.2, blur=0.8, at=(80, 140))],
+         shift=[(1, 10, 1, 1, 1, 0)], invert=[(6, 4, 1, 1)],
+         labels=[('1960 · "THE PURPOSE PUT', 860, 560), ('INTO THE MACHINE"', 860, 602), ('NORBERT WIENER', 860, 644), ("1788 · THE LAP ENGINE'S GOVERNOR · BOULTON AND WATT", 40, 1440)]),
     dict(id='collage-critique-tall', size=PAGE, colour=GREY, seed=987,
          fields=[(0, 0, 7, 12), (8, 0, 4, 4)], black=[(7, 0, 1, 2), (11, 5, 1, 1)],
          fragments=[dict(img='luddites-1812.jpg', box=(916, 1101), crop=(0.05, 0.04, 0.95, 0.86), how='screen', level=0.55, at=(0, 0)),
