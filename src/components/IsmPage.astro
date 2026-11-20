@@ -13,7 +13,7 @@ const allThemes = await getCollection('themes');
 const themeById = new Map(allThemes.map((t) => [t.id, t]));
 
 const entries = (await getCollection('entries', (e) => e.data.ism.id === ism.id)).sort(
-  (a, b) => b.data.year - a.data.year,
+  (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0),
 );
 const anchor = (id: string) => 'entry-' + id.split('/')[1];
 const groups: { era: string; id: string; items: typeof entries }[] = [];
