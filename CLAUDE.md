@@ -23,6 +23,7 @@ A website, built first to pitch funders for an exhibition. It maps the isms of t
 - **Key-word page:** Introduction (what it means, who coined it) · How the movements see it (one line each, only where a movement has a view) · Strands · Related words · In the movements' histories (built from tags) · Who disputes it. The section menu lists only the sections a page has.
 - **Navigation:** grid → page → back to the grid. No sideways scrolling, no scroll-jacking. Theme tags are the only links between pages.
 - Design follows the mockup (canvas "AI philosophies — website mockup"): white, Inter Tight + IBM Plex Mono, one accent `#D8461C`. Super clean, large type with presence, short texts.
+- **One grid** (owner, 21 Nov 2026): 12 columns with one gutter inside the 1312 px container (`--g` 40 px; 32 px under 1100 px, 20 px under 640 px). Every layout is built from spans, so column edges fall on the same vertical lines on every page: movement rows 6 + 6, hero and history card 5 + 7, page introductions 7 + 5, key-word cards and the era index 3 + 3 + 3 + 3, figures 4 + 4 + 4, the movements' rows on a key-word page 4 + 8. A span of n columns is `calc(var(--c) * n + var(--g) * (n - 1))`; equal splits use `repeat(n, 1fr)` with `column-gap: var(--g)`.
 
 ## Where content lives
 
