@@ -50,6 +50,7 @@ a:hover { color: var(--muted); }
 .chips label:hover { border-color: var(--ink); }
 /* Families as rows: the family on the left, its two movements side by side. */
 .sec-h { margin: 0 0 40px; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; }
+.mov-sec { display: flex; flex-direction: column; gap: 48px; }
 .fams { display: flex; flex-direction: column; row-gap: 72px; }
 .fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; row-gap: 28px; align-items: start; padding-top: 18px; border-top: 2px solid var(--ink); }
 .fh { grid-column: 1 / -1; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 20px; row-gap: 4px; }

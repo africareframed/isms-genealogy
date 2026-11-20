@@ -42,8 +42,10 @@ const num = (n: number) => String(n).padStart(2, '0');
     <p class="asof">Map as of {MAP_DATE}</p>
   </section>
 
-  <main id="main" class="wrap">
-    <h2 class="vh">Six movements, in three families</h2>
+  <main id="main" class="wrap mov-sec" aria-labelledby="mov-h">
+    <div class="themes-head">
+      <h2 id="mov-h">Movements</h2>
+    </div>
     <div class="fams">
       {FAMILIES.map((fam) => (
         <section class="fam" aria-labelledby={`fam-${fam.id}`}>
