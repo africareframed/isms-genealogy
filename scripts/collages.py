@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from scipy import ndimage
 
-import os
+import os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG = os.path.join(ROOT, 'public/images/')
 OUT = os.path.join(ROOT, 'public/images/')
@@ -28,6 +28,9 @@ def gray(name, box, crop=None, channel=None, detail=0):
     if crop:
         w, h = im.size
         im = im.crop((int(crop[0] * w), int(crop[1] * h), int(crop[2] * w), int(crop[3] * h)))
+    ratio = (im.size[0] / im.size[1]) / (box[0] / box[1])
+    if abs(ratio - 1) > 0.03:
+        print(f'WARNING {name}: box {box} stretches the crop by {abs(ratio - 1):.0%}; keep its aspect ratio', file=sys.stderr)
     im = im.resize(box, Image.LANCZOS)
     a = np.asarray(im, float) / 255
     if detail:                                            # local contrast, so fine ribs and grooves survive
@@ -116,7 +119,7 @@ def render(spec):
     return img
 
 
-ISM, THEME = (1600, 1200), (1500, 1000)
+ISM, THEME, PAGE = (1600, 1200), (1500, 1000), (1200, 1500)   # PAGE: the vertical image at the top of a page, 4:5, 12 x 15 squares
 SPECS = [
     dict(id='collage-transhumanism', size=ISM, colour=GREEN,
          fields=[(0, 1, 8, 9), (9, 0, 7, 6)], black=[(8, 0, 1, 2), (0, 10, 1, 2), (15, 7, 1, 1)],
@@ -162,12 +165,12 @@ SPECS = [
          labels=[('1954 · "TOO CHEAP TO METER" · LEWIS STRAUSS', 830, 222), ('AN ELECTRICITY METER', 40, 960)]),
     dict(id='collage-power', size=THEME, colour=GREY, seed=89,
          fields=[(0, 0, 9, 8)], black=[(12, 0, 1, 1), (14, 7, 1, 1)],
-         fragments=[dict(img='gpu-h100.jpg', box=(1080, 723), crop=(0.065, 0.13, 0.775, 0.945), how='screen', level=0.55, detail=3, blur=0.5, at=(40, 80))],
+         fragments=[dict(img='gpu-h100.jpg', box=(1080, 698), crop=(0.065, 0.13, 0.775, 0.945), how='screen', level=0.55, detail=3, blur=0.5, at=(40, 92))],
          shift=[(3, 2, 2, 2, 1, 0), (8, 5, 1, 2, 0, 1)], invert=[(1, 6, 1, 1)],
          labels=[('26 AUG 2022 · THE US REQUIRES A LICENCE TO SELL THE H100 TO CHINA', 40, 930)]),
     dict(id='collage-the-tool', size=THEME, colour=GREY, seed=144,
          fields=[(0, 0, 6, 6), (10, 6, 5, 4)], black=[(6, 0, 1, 1), (14, 9, 1, 1)],
-         fragments=[dict(img='engelbart-1968.jpg', box=(1240, 820), crop=(0.12, 0.34, 0.88, 0.92), how='screen', level=0.42, at=(130, 120))],
+         fragments=[dict(img='engelbart-1968.jpg', box=(1240, 631), crop=(0.12, 0.34, 0.88, 0.92), how='screen', level=0.42, at=(130, 180))],
          shift=[(8, 3, 2, 2, 1, 0), (4, 6, 2, 1, 0, 1)], invert=[(11, 2, 1, 1)],
          labels=[('1964 · THE FIRST MOUSE', 40, 960)]),
     dict(id='collage-scale', size=THEME, colour=GREY, seed=233,
@@ -178,7 +181,7 @@ SPECS = [
          labels=[('1960 · MARK I PERCEPTRON', 40, 960), ('FLOP · THE EU AI ACT THRESHOLD', 850, 900)]),
     dict(id='collage-rights-and-dignity', size=THEME, colour=GREY, seed=377,
          fields=[(0, 2, 8, 7)], black=[(8, 1, 1, 1), (14, 8, 1, 1)],
-         fragments=[dict(img='facial-recognition-camera.jpg', box=(860, 460), crop=(0.23, 0.69, 0.79, 0.90), channel='B', how='screen', level=0.42, at=(0, 300))],
+         fragments=[dict(img='facial-recognition-camera.jpg', box=(860, 430), crop=(0.23, 0.69, 0.79, 0.90), channel='B', how='screen', level=0.42, at=(0, 315))],
          shift=[(3, 6, 1, 1, -1, 0)], invert=[(6, 3, 1, 1)],
          labels=[("2 FEB 2025 · THE EU AI ACT'S BANS APPLY", 930, 525), ('POLICE FACIAL-RECOGNITION CAMERA · LONDON · 2026', 40, 960)]),
     dict(id='collage-self-determination', size=THEME, colour=GREY, seed=610,
@@ -188,10 +191,48 @@ SPECS = [
          labels=[('4TH CENTURY BCE · KLEROTERION, ATHENS', 40, 960)]),
     dict(id='collage-critique', size=THEME, colour=GREY, seed=987,
          fields=[(0, 0, 7, 10), (10, 0, 5, 4)], black=[(7, 0, 1, 2), (14, 4, 1, 1)],
-         fragments=[dict(img='luddites-1812.jpg', box=(760, 1000), crop=(0.05, 0.04, 0.95, 0.86), how='screen', level=0.55, at=(0, 0)),
-                    dict(img='sing-ias-computer.jpg', box=(760, 510), crop=(0.0, 0.05, 1.0, 0.95), how='screen', level=0.5, at=(740, 330))],
+         fragments=[dict(img='luddites-1812.jpg', box=(832, 1000), crop=(0.05, 0.04, 0.95, 0.86), how='screen', level=0.55, at=(0, 0)),
+                    dict(img='sing-ias-computer.jpg', box=(760, 456), crop=(0.0, 0.05, 1.0, 0.95), how='screen', level=0.5, at=(740, 357))],
          shift=[(2, 3, 2, 2, 1, 0), (4, 6, 2, 2, 0, -1)], invert=[(5, 1, 1, 1)],
          labels=[('1812 · THE LEADER OF THE LUDDITES', 780, 880)]),
+    # Vertical page images (4:5), one per theme: the same object and fact, composed for the tall frame
+    dict(id='collage-scale-tall', size=PAGE, colour=GREY, seed=233,
+         fields=[(0, 0, 9, 8)], black=[(11, 1, 1, 1), (0, 12, 1, 2)],
+         fragments=[dict(img='perceptron-1958.jpg', box=(1040, 843), how='screen', level=0.55, at=(0, 100))],
+         shift=[(3, 2, 2, 2, 1, 0), (5, 6, 2, 1, -1, 0)],
+         type=[dict(slab=(5, 10, 7, 4), parts=[('10', 300, 560, 1030), ('25', 140, 885, 1010)])],
+         labels=[('FLOP · THE EU AI ACT THRESHOLD', 565, 1345), ('1960 · MARK I PERCEPTRON', 40, 1440)]),
+    dict(id='collage-power-tall', size=PAGE, colour=GREY, seed=89,
+         fields=[(0, 2, 9, 10)], black=[(10, 0, 1, 1), (11, 13, 1, 1)],
+         fragments=[dict(img='gpu-h100.jpg', box=(1120, 724), crop=(0.065, 0.13, 0.775, 0.945), how='screen', level=0.55, detail=3, blur=0.5, at=(40, 380))],
+         shift=[(3, 5, 2, 2, 1, 0), (8, 8, 1, 2, 0, 1)], invert=[(1, 9, 1, 1)],
+         labels=[('26 AUG 2022 · THE US REQUIRES A LICENCE TO SELL THE H100 TO CHINA', 40, 1440)]),
+    dict(id='collage-rights-and-dignity-tall', size=PAGE, colour=GREY, seed=377,
+         fields=[(0, 4, 7, 7)], black=[(7, 3, 1, 1), (11, 12, 1, 1)],
+         fragments=[dict(img='facial-recognition-camera.jpg', box=(800, 400), crop=(0.23, 0.69, 0.79, 0.90), channel='B', how='screen', level=0.42, at=(0, 560))],
+         shift=[(3, 9, 1, 1, -1, 0)], invert=[(5, 5, 1, 1)],
+         labels=[('2 FEB 2025', 830, 700), ("THE EU AI ACT'S BANS APPLY", 830, 742), ('POLICE FACIAL-RECOGNITION CAMERA · LONDON · 2026', 40, 1440)]),
+    dict(id='collage-abundance-tall', size=PAGE, colour=GREY, seed=55,
+         fields=[(0, 1, 8, 10)], black=[(8, 0, 1, 2), (11, 9, 1, 1)],
+         fragments=[dict(img='electricity-meter.jpg', box=(760, 760), crop=(0.04, 0.06, 0.96, 0.86), how='screen', level=0.5, at=(40, 220))],
+         shift=[(3, 5, 2, 2, 1, 0), (6, 3, 1, 2, 0, 1)], invert=[(1, 8, 1, 1)],
+         labels=[('1954 · "TOO CHEAP TO METER"', 820, 365), ('LEWIS STRAUSS', 820, 407), ('AN ELECTRICITY METER', 40, 1440)]),
+    dict(id='collage-the-tool-tall', size=PAGE, colour=GREY, seed=144,
+         fields=[(0, 3, 7, 7), (8, 10, 4, 3)], black=[(7, 2, 1, 1), (11, 14, 1, 1)],
+         fragments=[dict(img='engelbart-1968.jpg', box=(1100, 560), crop=(0.12, 0.34, 0.88, 0.92), how='screen', level=0.42, at=(50, 470))],
+         shift=[(8, 6, 2, 2, 1, 0), (4, 8, 2, 1, 0, 1)], invert=[(10, 5, 1, 1)],
+         labels=[('1964 · THE FIRST MOUSE', 40, 1440)]),
+    dict(id='collage-self-determination-tall', size=PAGE, colour=GREY, seed=610,
+         fields=[(0, 1, 6, 8), (8, 10, 4, 4)], black=[(11, 1, 1, 1), (0, 13, 1, 1)],
+         fragments=[dict(img='kleroterion.jpg', box=(1120, 739), how='screen', level=0.47, at=(40, 360))],
+         shift=[(4, 5, 2, 2, 1, 0), (8, 8, 2, 2, 0, 1)], invert=[(3, 4, 2, 2)],
+         labels=[('4TH CENTURY BCE · KLEROTERION, ATHENS', 40, 1440)]),
+    dict(id='collage-critique-tall', size=PAGE, colour=GREY, seed=987,
+         fields=[(0, 0, 7, 12), (8, 0, 4, 4)], black=[(7, 0, 1, 2), (11, 5, 1, 1)],
+         fragments=[dict(img='luddites-1812.jpg', box=(916, 1101), crop=(0.05, 0.04, 0.95, 0.86), how='screen', level=0.55, at=(0, 0)),
+                    dict(img='sing-ias-computer.jpg', box=(700, 420), crop=(0.0, 0.05, 1.0, 0.95), how='screen', level=0.5, at=(500, 980))],
+         shift=[(2, 4, 2, 2, 1, 0), (4, 8, 2, 2, 0, -1)], invert=[(5, 2, 1, 1)],
+         labels=[('1812 · THE LEADER OF THE LUDDITES', 40, 1440)]),
 ]
 
 if __name__ == '__main__':

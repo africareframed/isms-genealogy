@@ -4,6 +4,7 @@ order: 4
 ready: true
 summary: The belief that intelligence comes from more data and computing power, not cleverer design.
 image: collage-scale
+pageImage: collage-scale-tall
 lead: The belief that intelligence grows with data, computing power and energy, and the isms differ on whether that growth is promise or danger.
 isms:
   - ism: transhumanism

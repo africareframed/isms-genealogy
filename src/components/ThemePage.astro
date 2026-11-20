@@ -38,7 +38,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
         {theme.data.lead && <p class="lead">{theme.data.lead}</p>}
         <div class="body"><Content /></div>
       </div>
-      <Picture image={theme.data.image} ratio="3 / 2" />
+      <Picture image={theme.data.pageImage ?? theme.data.image} ratio={theme.data.pageImage ? '4 / 5' : '3 / 2'} />
     </section>
 
     <section id="isms" class="wrap sec" aria-labelledby="isms-h">

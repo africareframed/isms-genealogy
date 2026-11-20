@@ -5,6 +5,7 @@ ready: true
 summary: The voices outside the isms, and what they see that the isms miss.
 includes: [AI ethics, political economy, normal technology]
 image: collage-critique
+pageImage: collage-critique-tall
 lead: Critics outside the isms say AI's harms are present, its gains unevenly shared and its future ordinary; the isms divide over how to answer.
 isms:
   - ism: transhumanism

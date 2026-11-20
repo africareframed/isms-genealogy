@@ -5,6 +5,7 @@ ready: true
 summary: AI as an instrument that extends people rather than replacing them.
 includes: [open-source AI]
 image: collage-the-tool
+pageImage: collage-the-tool-tall
 lead: AI as a tool that extends people rather than replacing them, and the isms split on whether powerful AI can stay one.
 isms:
   - ism: transhumanism

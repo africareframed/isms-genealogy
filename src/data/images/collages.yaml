@@ -93,3 +93,56 @@
   licence: "from public-domain sources"
   file: "collage-critique.jpg"
   alt: "A cut-up collage: a Luddite figure pointing towards an early computer, over grey fields"
+
+# Vertical page images (4:5), shown at the top of each theme page
+
+- id: collage-scale-tall
+  title: "Collage from the Mark I Perceptron operator's manual (1960)"
+  rights: open-licence
+  licence: "from a public-domain manual figure"
+  file: "collage-scale-tall.jpg"
+  alt: "The Mark I Perceptron, cut along a grid, above 10 to the 25th, the EU AI Act's compute threshold"
+
+- id: collage-power-tall
+  title: "Collage from a photograph of four NVIDIA H100 AI chips (2023)"
+  rights: open-licence
+  licence: "CC BY 3.0, after a photo by 极客湾 Geekerwan"
+  file: "collage-power-tall.jpg"
+  alt: "Four stacked H100 AI chips, cut along a grid; since August 2022 the US has required a licence to sell them to China"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_024.png"
+
+- id: collage-rights-and-dignity-tall
+  title: "Collage from a photograph of a police facial-recognition camera, London (2026)"
+  rights: open-licence
+  licence: "CC BY-SA 4.0, after a photo by gruntzooki"
+  file: "collage-rights-and-dignity-tall.jpg"
+  alt: "A surveillance camera pointing into empty space, towards the date the EU AI Act's bans began to apply, 2 February 2025"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Camera,_Police_Facial_Recognition_checkpoint,_Charing_Cross_Station,_the_Strand,_Westminster,_2026-04-27.jpg"
+
+- id: collage-abundance-tall
+  title: "Collage from a photograph of a Siemens electricity meter"
+  rights: open-licence
+  licence: "CC BY-SA 4.0, after a photo by Bicycle Tourer"
+  file: "collage-abundance-tall.jpg"
+  alt: "A cut-up collage of an electricity meter, its counter beside the 1954 promise of power too cheap to meter"
+
+- id: collage-the-tool-tall
+  title: "Collage from Engelbart's prototype mouse (1964)"
+  rights: open-licence
+  licence: "CC BY 2.0, after a photo by Michael Hicks"
+  file: "collage-the-tool-tall.jpg"
+  alt: "Engelbart's prototype mouse of 1964, cut along a grid on grey fields"
+
+- id: collage-self-determination-tall
+  title: "Collage from a photograph of the kleroterion, Museum of the Ancient Agora"
+  rights: open-licence
+  licence: "CC BY-SA 3.0, after a photo by Dorieo"
+  file: "collage-self-determination-tall.jpg"
+  alt: "The kleroterion, the Athenian allotment machine, cut along a grid on grey fields"
+
+- id: collage-critique-tall
+  title: "Collage from The Leader of the Luddites (1812) and the IAS machine"
+  rights: open-licence
+  licence: "from public-domain sources"
+  file: "collage-critique-tall.jpg"
+  alt: "The Leader of the Luddites, an 1812 engraving, beside the IAS computer, cut along a grid"

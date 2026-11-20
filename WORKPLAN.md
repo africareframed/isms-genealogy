@@ -42,6 +42,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 ## Log
 
 - 2026-11-20: Collage set made for all 13 cards; Abundance rebuilt around an electricity meter (batch 3, 1 image, CC BY-SA 4.0).
+- 2026-11-20: Vertical page images (4:5, 1200 × 1500) for the seven themes, shown at the top of each theme page (`pageImage`). Fixed stretched photos on The tool, Rights and dignity, Critique and Power; the engine now warns when a box stretches its crop (ism cards still have some, to fix in their rework).
 - 2026-11-20: Illustration guide made as a design system, "Made Minds Illustration", from the seven theme cards and the owner's feedback. Ism cards to be reworked next, then added.
 - 2026-11-20: Site named Made Minds (owner). Power and Rights and dignity collages rebuilt around objects (batch 4: four NVIDIA H100 cards, CC BY 3.0; a London police facial-recognition camera, CC BY-SA 4.0). Then, at the owner's request, fewer big numbers: Power is the chips alone (label: the 2022 US licence for H100 sales to China); Rights and dignity shows EU. Then no big type on Abundance or Rights and dignity either: type stays only where it comes from another time than the object (2045, 10²⁵, e/acc, BUILD).
 - 2026-11-20: Image batch 2 (3 card images) downloaded; every ism card now has an image. Home grid rows aligned.

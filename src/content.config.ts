@@ -19,6 +19,7 @@ const isms = defineCollection({
     includes: z.array(z.string()).default([]),
     aka: z.string().optional(),
     image: reference('images').optional(),
+    pageImage: reference('images').optional(), // the vertical (4:5) image at the top of the page
     lead: z.string().optional(),
     holders: z.array(z.object({ name: z.string(), note: z.string() })).default([]),
     words: z.array(z.string()).default([]),
@@ -38,6 +39,7 @@ const themes = defineCollection({
     summary: z.string(),
     includes: z.array(z.string()).default([]),
     image: reference('images').optional(),
+    pageImage: reference('images').optional(), // the vertical (4:5) image at the top of the page
     lead: z.string().optional(),
     isms: z.array(z.object({ ism: reference('isms'), text: z.string() })).default([]),
     strands: z

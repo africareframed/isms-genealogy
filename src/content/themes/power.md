@@ -5,6 +5,7 @@ ready: true
 summary: Who controls AI. Companies, states, or no one at all.
 includes: [AI nationalism, state-led AI, the populist right]
 image: collage-power
+pageImage: collage-power-tall
 lead: The question of who controls AI, which the isms answer with markets, nations, a global treaty, exit from the state, or the machines themselves.
 isms:
   - ism: transhumanism
