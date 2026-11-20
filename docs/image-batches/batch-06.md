@@ -1,6 +1,6 @@
 # Image batch 6 — 20 November 2026
 
-Status: **waiting for the owner's yes.** Nothing downloaded. Candidates for the card of the new key word **Alignment** (one strong object: a machine that keeps another machine to its intended purpose). Pick one or two; the collage is made after download. Licences and sizes were read through the Wikimedia Commons API and the Met's open-access API, not by eye on the file pages; confirm on the page before downloading. No real people shown.
+Status: **approved by the owner on 20 November 2026: option 1 only.** Downloaded to batch-06 and used for the Alignment card. Candidates for the card of the new key word **Alignment** (one strong object: a machine that keeps another machine to its intended purpose). Pick one or two; the collage is made after download. Licences and sizes were read through the Wikimedia Commons API and the Met's open-access API, not by eye on the file pages; confirm on the page before downloading. No real people shown.
 
 | # | Image id (proposed) | What it shows | File page | File | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- | --- |
