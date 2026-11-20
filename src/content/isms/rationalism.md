@@ -33,7 +33,7 @@ words:
   - instrumental convergence
   - updating
   - the Sequences
-themes: [scale, power, critique]
+themes: [compute, luddite]
 disputes: AI ethics researchers, among them the authors of “Stochastic Parrots”, say extinction fears distract from present harms and from the companies' responsibility (2023). Timnit Gebru and Émile P. Torres place rationalism in their TESCREAL bundle, which they tie to the history of eugenics (2024). Marc Andreessen calls AI risk a cult with “all the hallmarks of a millenarian apocalypse cult” (“Why AI Will Save the World”, 2023). Yann LeCun finds the idea of an AI takeover absurd (2023).
 status: checked
 ---

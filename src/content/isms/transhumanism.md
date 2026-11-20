@@ -29,7 +29,7 @@ words:
   - longevity escape velocity
   - mind uploading
   - cryonics
-themes: [abundance, the-tool, rights-and-dignity, self-determination, critique]
+themes: [abundance, augmentation]
 disputes: "Bioconservatives see a threat to human dignity and equality. In 2004 Foreign Policy asked one of them, Francis Fukuyama, to name one of the world's most dangerous ideas, and he chose transhumanism. “The first victim of transhumanism might be equality,” he wrote. The disability scholar Gregor Wolbring sees in it an ableism that treats every body as lacking and in need of endless improvement (2008). The acronym TESCREAL, coined by Émile P. Torres with Timnit Gebru, entered debate in 2023. Its T stands for transhumanism, first in a bundle of ideologies that the two trace to twentieth-century eugenics (2024)."
 status: checked
 ---

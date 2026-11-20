@@ -11,7 +11,6 @@ entries:
     text: In mid-September a US Department of War account posted the slogan on X, and a senior Pentagon official called EA's ideology dangerous. Anthropic, many of whose co-founders have EA ties, became a particular target, though it does not publicly align with the movement. In November Zachary Robinson, head of the Centre for Effective Altruism, said EA is not the same as AI safety. Global health, he noted, has long received much more of its money than AI.
     source: Beatrice Nolan and Emily Forlini, “How ‘Effective Altruism’ went from fringe philosophy to Trump's AI villain”, Fortune, 23 September 2026; Peter Singer, “Trump's Misguided War Against Effective Altruism”, Project Syndicate, 13 October 2026; Thomas Urbain, “Under fire over AI, effective altruism wants to tell its own story”, AFP, 9 November 2026
     sourceUrl: https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/
-    themes: [power]
     image: ea-dow-post-2026
     status: checked
 
@@ -35,7 +34,6 @@ entries:
     text: "OpenAI's non-profit board removed its chief executive, Sam Altman, saying he had not been consistently candid with it. Two directors had ties to effective altruism: Helen Toner had worked at Open Philanthropy, and Tasha McCauley sat on the board of Effective Ventures. Critics blamed the movement, though in September OpenAI had said none of its board members were effective altruists. After nearly all staff threatened to leave, Altman returned within days, and both women left the board."
     source: Matt O'Brien, “OpenAI's ex-chairman accuses board of going rogue in firing Altman”, Associated Press via Fortune, 18 November 2023; Matt O'Brien, “OpenAI brings back Sam Altman as CEO just days after his firing unleashed chaos”, Associated Press, 22 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023; Center for Security and Emerging Technology, “Helen Toner”, staff page
     sourceUrl: https://www.semafor.com/article/11/21/2023/how-effective-altruism-led-to-a-crisis-at-openai
-    themes: [power]
     image: ea-openai-board-2023
     status: checked
 
@@ -48,7 +46,6 @@ entries:
     text: In 2012 MacAskill had pitched earning to give to Sam Bankman-Fried, then a student, who became a leading funder of the movement's causes. In November 2022 his crypto exchange, FTX, collapsed. The team of its Future Fund, which funded work on AI and humanity's long-term prospects, resigned, MacAskill among them. Bankman-Fried was convicted of fraud in 2023 and sentenced to 25 years, and the episode badly damaged the movement's reputation.
     source: Hillary Hoffower, “Sam Bankman-Fried was an effective altruism evangelist, pledging to give away most of his $26 billion fortune…”, Fortune, 15 November 2022; Justin Weinberg, “Cryptocurrency Chaos Affects Academic Grants (updated)”, Daily Nous, 11 November 2022; Ken Sweet and Larry Neumeister, “FTX founder Sam Bankman-Fried sentenced to 25 years in prison”, Associated Press, 28 March 2024; Thomas Urbain, “Under fire over AI, effective altruism wants to tell its own story”, AFP, 9 November 2026
     sourceUrl: https://fortune.com/2022/11/15/what-is-effective-altruism-sam-bankman-fried-wealth-career/
-    themes: [power]
     image: ea-future-fund-2022
     status: checked
 
@@ -61,7 +58,6 @@ entries:
     text: "MacAskill rests longtermism on three claims: future people count, there could be very many of them, and we can make their lives better. Among the risks he weighs are man-made pathogens and advanced AI. AI, he warns, could also lock in one set of values for a very long time. TIME ran a cover story on the book and the movement."
     source: William MacAskill, What We Owe the Future, Basic Books, 16 August 2022; Krister Bykvist, review, Notre Dame Philosophical Reviews, 7 July 2023; Naina Bajekal, “Want to Do More Good? This Movement Might Have the Answer”, TIME, 10 August 2022
     sourceUrl: https://www.hachettebookgroup.com/titles/william-macaskill/what-we-owe-the-future/9781541618626/
-    themes: [rights-and-dignity]
     image: ea-wwotf-cover-2022
     status: checked
 
@@ -85,7 +81,6 @@ entries:
     text: Ord's book in progress lent urgency to a search for a name. In October 2017 MacAskill proposed “longtermism”, for the view that our actions matter most through their effects on the very long-run future. With Hilary Greaves he later made the case for strong longtermism, putting the expected number of future beings at a trillion trillion or more. Among the ways to shape that future, they discuss guiding the development of superintelligence.
     source: William MacAskill, “‘Longtermism’”, Effective Altruism Forum, 25 July 2019; Hilary Greaves and William MacAskill, “The Case for Strong Longtermism”, GPI Working Paper, Global Priorities Institute, June 2021
     sourceUrl: https://forum.effectivealtruism.org/posts/qZyshHCNkjs3TvSem/longtermism
-    themes: [rights-and-dignity]
     image: ea-longtermism-post-2017
     status: checked
 
@@ -97,7 +92,6 @@ entries:
     text: GiveWell's offshoot, which advises the foundation of Dustin Moskovitz and Cari Tuna, makes potential risks from advanced AI “a major priority”. Karnofsky gives at least a one-in-ten chance of transformative AI within twenty years, and finds the cause important, neglected and tractable. In March 2017 it granted OpenAI $30 million over three years, and Karnofsky joined OpenAI's board.
     source: "Holden Karnofsky, “Potential Risks from Advanced Artificial Intelligence: The Philanthropic Opportunity”, Open Philanthropy, 6 May 2016; Open Philanthropy, “OpenAI — General Support”, March 2017; GiveWell, “Our story”, givewell.org"
     sourceUrl: https://coefficientgiving.org/blog/potential-risks-advanced-artificial-intelligence-philanthropic-opportunity
-    themes: [power]
     image: ea-open-philanthropy-ai-2016
     status: checked
 
@@ -142,7 +136,6 @@ entries:
     text: On a cautious count, Bostrom estimates, each second's delay in settling our local supercluster loses over ten trillion potential human lives. Yet a single percentage point less existential risk would be worth more than ten million years of delay. For utilitarians, he concludes, the rule becomes “Minimize existential risk!” Greaves and MacAskill cite the paper in their case for strong longtermism.
     source: "Nick Bostrom, “Astronomical Waste: The Opportunity Cost of Delayed Technological Development”, Utilitas 15(3), 2003, pp. 308–314; Hilary Greaves and William MacAskill, “The Case for Strong Longtermism”, GPI Working Paper, June 2021"
     sourceUrl: https://nickbostrom.com/astronomical/waste.pdf
-    themes: [abundance]
     image: ea-virgo-cluster-hubble
     status: checked
 
@@ -165,7 +158,6 @@ entries:
     text: "Parfit compares three outcomes: peace, a nuclear war that kills 99% of the world's people, and a war that kills everyone. The gap between the last two is far greater, he argues, because extinction would also end all the generations to come. Destroying mankind, he writes, would be “much worse than most people think”. The passage has led many effective altruists to work on extinction risk."
     source: Derek Parfit, Reasons and Persons, Clarendon Press, Oxford, 1984, pp. 453–454; Effective Altruism Forum, “Derek Parfit” and “Ethics of existential risk”, wiki entries
     sourceUrl: https://forum.effectivealtruism.org/topics/derek-parfit
-    themes: [rights-and-dignity]
     image: ea-reasons-and-persons-1984
     status: checked
 
@@ -177,7 +169,6 @@ entries:
     text: Writing in November 1971, as people die in East Bengal for lack of food, Singer imagines a child drowning in a shallow pond. He ought to wade in, he says, even at the cost of muddy clothes. If we can prevent something bad without sacrificing “anything of comparable moral importance”, he argues, we ought to, however far away the suffering. Giving What We Can credits the essay with inspiring the modern effective giving movement.
     source: Peter Singer, “Famine, Affluence, and Morality”, Philosophy & Public Affairs 1(3), 1972, pp. 229–243; full text and introduction on the Giving What We Can website
     sourceUrl: https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/famine-affluence-and-morality-peter-singer
-    themes: [rights-and-dignity]
     image: ea-ppa-1972
     status: checked
 

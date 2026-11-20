@@ -32,7 +32,7 @@ words:
   - astronomical waste
   - value lock-in
   - the long reflection
-themes: [abundance, power, rights-and-dignity, critique]
+themes: [scaling-laws, compute, augmentation]
 disputes: Amia Srinivasan argued that the movement “leaves everything just as it is”, ignoring power and the deep sources of global misery (2015). Jim Holt warned that refusing to discount the future could make us “moral slaves to that future” (2021). Émile P. Torres called longtermism possibly “the most dangerous secular belief system” (2021); with Timnit Gebru, Torres placed it in the TESCREAL bundle (2024). David Sacks, then Trump's AI adviser, called EA-linked groups a “Doomer Industrial Complex” pushing for tougher AI rules (2025).
 status: checked
 ---

@@ -30,7 +30,7 @@ words:
   - takeoff
   - mind children
   - AI succession
-themes: [abundance, scale, rights-and-dignity, critique]
+themes: [scaling-laws, compute, abundance, augmentation, luddite]
 disputes: "Sceptics doubt the curve: in 2011 Paul Allen and Mark Greaves argued that a “complexity brake” in brain science puts any singularity far off. The scholar of religion Robert Geraci (2010) traces it to the apocalyptic traditions of Judaism and Christianity. Émile P. Torres calls the successionist wish for posthuman heirs “pro-extinctionism” (2025). With Timnit Gebru, Torres places singularitarianism in the TESCREAL bundle, which they tie to twentieth-century eugenics (2024)."
 status: checked
 ---

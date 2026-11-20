@@ -13,7 +13,6 @@ entries:
     text: Srinivasan opened the Network School in 2024 at Forest City in Johor, Malaysia, across the strait from Singapore. It is a co-living community for founders and creators, part of his effort to build a network state. In July 2026 the local council revoked its business licence, citing breaches of licensing and premises rules. The next day Srinivasan signed a five-year memorandum with Kazakhstan's Ministry of Artificial Intelligence and Digital Development, and announced a new campus there.
     source: "Angelica Ang, “Booted from Malaysia, tech guru Balaji Srinivasan finds a new patron for his ‘nomad’ commune: Kazakhstan”, Fortune, 26 July 2026; Nan Hidayat Nan Azmie, “Network School heading to Kazakhstan after Johor operations halted”, The Star, 22 July 2026"
     sourceUrl: https://www.fortune.com/2026/07/26/network-school-balaji-srinivasan-malaysia-johor-israel-kazakhstan/
-    themes: [power, self-determination]
     image: eacc-network-school-2026
     status: checked
 
@@ -25,7 +24,7 @@ entries:
     text: Verdon's start-up, founded in 2022 with Trevor McCourt, unveils its first chips and a development platform already tested by early partners. The chips are built from probabilistic bits, circuits whose output wanders at random between 1 and 0 with programmable odds. In simulations on small benchmarks, Extropic claims, its approach could be up to 10,000 times more energy-efficient than GPUs. Once it succeeds, it says, “energy constraints will no longer limit AI scaling”.
     source: Extropic, “Thermodynamic computing from zero to one” and “Inside X0 and XTR-0”, extropic.ai, 2025; Extropic, “Thermodynamic Hardware”, extropic.ai; Maximilian Schreiner, “Startup Extropic plans to revolutionize AI hardware by embracing the power of randomness”, The Decoder, 2 April 2024
     sourceUrl: https://extropic.ai/writing/thermodynamic-computing-from-zero-to-one
-    themes: [scale]
+    themes: [compute]
     image: eacc-extropic-x0-2025
     status: checked
 
@@ -50,7 +49,6 @@ entries:
     text: In point-form notes on Substack, the two set out the thinking behind e/acc. Life arose through dissipative adaptation, they argue, and intelligence is a faster form of the same process, capitalism a form of intelligence. Against top-down control they favour competition, and welcome Balaji Srinivasan's network states as tests of how to govern. Some in e/acc, Beff among them, call themselves post-humanists, and their summary says to stop fighting “the thermodynamic will of the universe”.
     source: Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets”, Beff's Newsletter, Substack, 10 July 2022
     sourceUrl: https://beff.substack.com/p/notes-on-eacc-principles-and-tenets
-    themes: [abundance]
     image: eacc-tenets-2022
     status: checked
 
@@ -65,7 +63,6 @@ entries:
     text: The former chief technology officer of Coinbase publishes his book on 4 July, also free to read online. A network state, he writes, is “a highly aligned online community with a capacity for collective action”. It crowdfunds territory around the world and in time wins diplomatic recognition from existing states. Six days later, e/acc's tenets said the idea particularly excited them.
     source: Balaji Srinivasan, The Network State, 2022, thenetworkstate.com; Balaji Srinivasan, “The Network State Book”, balajis.com, 19 March 2022, updated 4 July 2022; Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets”, 10 July 2022
     sourceUrl: https://thenetworkstate.com/the-network-state-in-one-sentence
-    themes: [self-determination, power]
     image: eacc-network-state-2022
     status: checked
 
@@ -92,7 +89,6 @@ entries:
     text: At Y Combinator's Startup School, a founder of the genetic-testing company Counsyl contrasts two responses to a declining system. Voice means changing it from within, and exit means leaving to build something new. “Exit amplifies voice,” he argues, and technology should help people opt out peacefully. Reason noted that he was echoing Albert O. Hirschman's 1970 book Exit, Voice, and Loyalty.
     source: Balaji Srinivasan, “Silicon Valley's Ultimate Exit”, Startup School, Y Combinator, October 2013; J. D. Tuccille, “Tech Should Make It Easier To Escape Government Control, Says Startup Veteran Balaji Srinivasan”, Reason, 30 October 2013; Y Combinator, “Videos from Startup School 2013 are now online”, 27 October 2013
     sourceUrl: https://reason.com/2013/10/30/tech-should-make-it-easier-to-escape-the/printer/
-    themes: [self-determination, power]
     image: eacc-startup-school-2013
     status: checked
 
@@ -117,7 +113,6 @@ entries:
     text: In a long essay posted online in parts, Land surveys the blogger Mencius Moldbug and his readers, whom he calls neo-reactionaries. Its first part is headed “Neo-reactionaries head for the exit”. Against democratic voice it sets exit, the freedom to leave, and it adopts Moldbug's name for the ruling order, the Cathedral. It also quotes Peter Thiel's doubt that freedom and democracy are compatible.
     source: Nick Land, “The Dark Enlightenment”, thedarkenlightenment.com, 2012, archived copy
     sourceUrl: https://www.gwern.net/docs/www/www.thedarkenlightenment.com/8fb594d142764625b62157ff0c8f51bae346da3b.html
-    themes: [power]
     image: eacc-dark-enlightenment-2012
     status: checked
 
@@ -130,7 +125,6 @@ entries:
     text: In an essay for Cato Unbound, the PayPal co-founder writes, “I no longer believe that freedom and democracy are compatible.” The great task for libertarians, he argues, is to find a way out of politics altogether. He looks to cyberspace, outer space and the sea, and backs Patri Friedman's seasteading experiment. Nick Land quotes the line in The Dark Enlightenment and calls the exchange a milestone.
     source: Peter Thiel, “The Education of a Libertarian”, Cato Unbound, 13 April 2009; quoted in Nick Land, “The Dark Enlightenment”, 2012
     sourceUrl: https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian
-    themes: [power, self-determination]
     image: eacc-cato-unbound-2009
     status: checked
 
@@ -143,7 +137,6 @@ entries:
     text: A software developer opens a blog under a pen name with “A Formalist Manifesto”. Over the next years he argues that democracy should give way to rule by a monarch, perhaps modelled on a corporate chief executive. He calls the universities and press that, he says, really hold power “the Cathedral”. In 2013 Peter Thiel invests in his software company, Tlon.
     source: Mencius Moldbug [Curtis Yarvin], “A Formalist Manifesto”, Unqualified Reservations, 2007; George Michael, “An antidemocratic philosophy called ‘neoreaction’ is creeping into GOP politics”, The Conversation, July 2022; Harrison Smith and Roger Burrows, “Software, Sovereignty and the Post-Neoliberal Politics of Exit”, Theory, Culture & Society 38 (6), 2021
     sourceUrl: https://www.theconversation.com/an-antidemocratic-philosophy-called-neoreaction-is-creeping-into-gop-politics-182581
-    themes: [power]
     image: eacc-unqualified-reservations-2007
     status: checked
 
@@ -156,7 +149,6 @@ entries:
     text: Its authors predict that the internet and digital money will let the richest and most able slip free of the nation state. Citizenship will become obsolete, they argue, and the welfare state will collapse. Peter Thiel wrote the preface to a 2020 edition. The scholars Harrison Smith and Roger Burrows argue that it prefigured neoreaction's politics of exit.
     source: James Dale Davidson and William Rees-Mogg, The Sovereign Individual, Simon & Schuster, 1997; review, Publishers Weekly, February 1997; Quinn Slobodian, “The sovereign individual in Downing Street”, New Statesman, 2 November 2022; Harrison Smith and Roger Burrows, “Software, Sovereignty and the Post-Neoliberal Politics of Exit”, Theory, Culture & Society 38 (6), 2021
     sourceUrl: https://www.newstatesman.com/ideas/2023/06/rishi-sunak-silicon-valley-sovereign-individual
-    themes: [self-determination, power]
     image: eacc-sovereign-individual-1997
     status: checked
 
@@ -190,7 +182,6 @@ entries:
     text: Writing on how alien civilisations might send signals, a Soviet astrophysicist ranks them by the power they command. Type I commands roughly the power of a planet, Type II that of its star, Type III that of its galaxy. The e/acc newsletter's first goal is to harness more energy and climb “the Kardashev gradient”. Another is to build AI.
     source: N. S. Kardashev, “Transmission of Information by Extraterrestrial Civilizations”, Astronomicheskii Zhurnal, 1964, translated in Soviet Astronomy 8, 1964, p. 217; e/acc, “What the F* is e/acc”, e/acc newsletter, Substack, 26 December 2022
     sourceUrl: https://effectiveaccelerationism.substack.com/p/what-the-f-is-eacc
-    themes: [abundance, scale]
     image: eacc-kardashev-1964
     status: checked
 
