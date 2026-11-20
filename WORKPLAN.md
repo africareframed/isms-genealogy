@@ -9,7 +9,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 - [ ] **3. Isms.** For each: research agent drafts (branch `ism/<ism>`), checker agent verifies, merge, `ready: true`.
   - [ ] Transhumanism — drafted from the mockup; needs checking and more figures' sources
   - [ ] Singularitarianism (incl. successionism) — research agent drafting on branch `ism/singularitarianism`
-  - [ ] Rationalism (incl. the call to pause) — research agent drafting on branch `ism/rationalism`
+  - [ ] Rationalism (incl. the call to pause) — drafted (16 entries, 12 figures) on `ism/rationalism`; checker agent running
   - [ ] Effective altruism and longtermism
   - [ ] Effective accelerationism (incl. neoreaction and the network state)
   - [ ] Techno-optimism (incl. augmentation)
@@ -18,7 +18,14 @@ Every session starts here: find the first stage that is not done, do the next pi
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
 
+## Notes
+
+- WebFetch cannot open Wikimedia Commons file pages. Image research on Commons is done in the main conversation with the built-in browser, which runs on the owner's Mac.
+- Same-year entries: give `month` so they sort newest first.
+
 ## Waiting on the owner
+
+- Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
 - Image batch approvals (sent as lists when ready).
 - Portraits for notable figures (owner adds them to `public/portraits/`).
@@ -34,4 +41,5 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Rationalism drafted by a research agent; check started. Month field added.
 - 2026-11-20: Skeleton, content structure, Transhumanism and Abundance drafted from the mockup. Repository created.
