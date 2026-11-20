@@ -1,0 +1,75 @@
+# Notable figures for Techno-optimism (one file per ism). Portraits are added by the project team only:
+# put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+# Ids carry the prefix techopt- so they stay unique across the site.
+- id: techopt-satya-nadella
+  name: Satya Nadella
+  lifespan: born 1967
+  isms: [techno-optimism]
+  note: Chief executive of Microsoft, who calls AI a cognitive amplifier and sells it as Copilot.
+  entry: techno-optimism/2025-nadella-bicycles
+- id: techopt-reid-hoffman
+  name: Reid Hoffman
+  lifespan: born 1967
+  isms: [techno-optimism]
+  note: Co-founder of LinkedIn and investor. Argues in Superagency that AI gives people new powers.
+  entry: techno-optimism/2025-superagency
+- id: techopt-marc-andreessen
+  name: Marc Andreessen
+  lifespan: born 1971
+  isms: [techno-optimism]
+  note: Co-founder of Andreessen Horowitz and author of “The Techno-Optimist Manifesto”.
+  entry: techno-optimism/2023-techno-optimist-manifesto
+- id: techopt-peter-diamandis
+  name: Peter Diamandis
+  lifespan: born 1961
+  isms: [techno-optimism]
+  note: Entrepreneur and co-founder of Singularity University, who argues that exponential technologies will end scarcity.
+  entry: techno-optimism/2012-abundance
+- id: techopt-kevin-kelly
+  name: Kevin Kelly
+  lifespan: born 1952
+  isms: [techno-optimism]
+  note: A founding editor of Wired. Named the system of all human technology the technium.
+  entry: techno-optimism/2010-what-technology-wants
+- id: techopt-steve-jobs
+  name: Steve Jobs
+  lifespan: 1955–2011
+  isms: [techno-optimism]
+  note: Co-founder of Apple, who called the personal computer a bicycle for the mind.
+  entry: techno-optimism/1980-bicycle-for-the-mind
+- id: techopt-douglas-engelbart
+  name: Douglas Engelbart
+  lifespan: 1925–2013
+  isms: [techno-optimism]
+  note: Computing pioneer at the Stanford Research Institute who set out a programme for augmenting human intellect.
+  entry: techno-optimism/1962-augmenting-human-intellect
+- id: techopt-jcr-licklider
+  name: J. C. R. Licklider
+  lifespan: 1915–1990
+  isms: [techno-optimism]
+  note: Psychologist and computing pioneer who imagined a close partnership of people and computers.
+  entry: techno-optimism/1960-man-computer-symbiosis
+- id: techopt-friedrich-hayek
+  name: Friedrich Hayek
+  lifespan: 1899–1992
+  isms: [techno-optimism]
+  note: Economist who argued that prices carry knowledge no planner can gather.
+  entry: techno-optimism/1945-hayek-knowledge
+- id: techopt-vannevar-bush
+  name: Vannevar Bush
+  lifespan: 1890–1974
+  isms: [techno-optimism]
+  note: Director of the US wartime Office of Scientific Research and Development, who imagined the memex.
+  entry: techno-optimism/1945-as-we-may-think
+- id: techopt-filippo-tommaso-marinetti
+  name: Filippo Tommaso Marinetti
+  lifespan: 1876–1944
+  isms: [techno-optimism]
+  note: Poet and founder of Futurism, named a patron saint in Andreessen's manifesto.
+  entry: techno-optimism/1909-futurist-manifesto
+- id: techopt-francis-bacon
+  name: Francis Bacon
+  lifespan: 1561–1626
+  isms: [techno-optimism]
+  note: Philosopher and statesman who tied human knowledge to power over nature.
+  entry: techno-optimism/1620-novum-organum

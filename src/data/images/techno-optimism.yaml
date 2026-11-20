@@ -1,0 +1,101 @@
+# Images for the Techno-optimism timeline (one file per ism). Ids carry the prefix techopt-.
+# No file yet = a labelled placeholder. Downloads only after the owner approves a batch.
+# No portraits or photographs of people.
+- id: techopt-nadella-post-2025
+  title: “Looking Ahead to 2026”, Satya Nadella's blog post on sn scratchpad, web page (text only)
+  date: '2025'
+  rights: to-check
+- id: techopt-superagency-cover-2025
+  title: Superagency, first edition cover, Authors Equity
+  date: '2025'
+  holder: Authors Equity
+  rights: to-check
+  sourceUrl: https://www.reidhoffman.org/books
+- id: techopt-manifesto-2023
+  title: “The Techno-Optimist Manifesto”, a16z web page (text only)
+  date: '2023'
+  holder: Andreessen Horowitz
+  rights: to-check
+  sourceUrl: https://a16z.com/the-techno-optimist-manifesto/
+- id: techopt-save-the-world-2023
+  title: “Why AI Will Save the World”, a16z web page (text only)
+  date: '2023'
+  holder: Andreessen Horowitz
+  rights: to-check
+  sourceUrl: https://a16z.com/ai-will-save-the-world/
+- id: techopt-copilot-2023
+  title: “Introducing Microsoft 365 Copilot – your copilot for work”, launch post, web page (text and product screens only, no people)
+  date: '2023'
+  holder: Microsoft
+  rights: to-check
+  sourceUrl: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
+- id: techopt-time-to-build-2020
+  title: “It's Time to Build”, a16z web page (text only)
+  date: '2020'
+  holder: Andreessen Horowitz
+  rights: to-check
+  sourceUrl: https://a16z.com/its-time-to-build/
+- id: techopt-progress-studies-2019
+  title: “We Need a New Science of Progress”, The Atlantic, web page (headline and text only)
+  date: '2019'
+  holder: The Atlantic
+  rights: to-check
+  sourceUrl: https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/
+- id: techopt-abundance-cover-2012
+  title: Abundance, first edition cover, Free Press
+  date: '2012'
+  holder: Free Press / Simon & Schuster
+  rights: to-check
+  sourceUrl: https://www.simonandschuster.co.uk/books/Abundance/Peter-H-Diamandis/Exponential-Technology-Series/9781451616842
+- id: techopt-what-technology-wants-cover-2010
+  title: What Technology Wants, first edition cover, Viking
+  date: '2010'
+  holder: Viking
+  rights: to-check
+- id: techopt-apple-ii
+  title: Apple II microcomputer, central unit and keyboard, Smithsonian National Museum of American History (object photograph)
+  date: 1977–1987
+  creator: Apple Computer
+  holder: Smithsonian Institution, National Museum of American History (1990.0167.01.1)
+  rights: to-check
+  licence: 'Smithsonian record: metadata CC0; “Usage conditions apply” to the image'
+  sourceUrl: https://si.edu/object/nmah_334638
+- id: techopt-augmenting-1962
+  title: Engelbart, Augmenting Human Intellect, SRI Summary Report AFOSR-3223, title page
+  date: 1962-10
+  creator: Douglas C. Engelbart, Stanford Research Institute
+  holder: Computer History Museum (102776493)
+  rights: to-check
+  sourceUrl: https://www.computerhistory.org/collections/catalog/102776493
+- id: techopt-symbiosis-1960
+  title: Licklider, “Man-Computer Symbiosis”, first page, IRE Transactions on Human Factors in Electronics
+  date: 1960-03
+  holder: IEEE
+  rights: to-check
+- id: techopt-hayek-1945
+  title: Hayek, “The Use of Knowledge in Society”, first page, American Economic Review
+  date: 1945-09
+  holder: American Economic Association
+  rights: to-check
+- id: techopt-as-we-may-think-1945
+  title: Bush, “As We May Think”, The Atlantic Monthly, July 1945, opening page
+  date: 1945-07
+  holder: Computer History Museum copy (062303004); copyright The Atlantic Monthly
+  rights: to-check
+  sourceUrl: https://www.computerhistory.org/chess/doc-431614f6900af/
+- id: techopt-figaro-1909
+  title: Le Figaro, front page, 20 February 1909, with Marinetti's “Le Futurisme”
+  date: '1909-02-20'
+  creator: Filippo Tommaso Marinetti (text); Le Figaro
+  holder: MIT Libraries, Dome (1721.3/18321)
+  rights: to-check
+  licence: The 1909 page is out of copyright; MIT's scan is marked “All rights reserved”. A Gallica (BnF) or Commons copy may be cleaner.
+  sourceUrl: https://dome.mit.edu/handle/1721.3/18321
+- id: techopt-instauratio-1620
+  title: Bacon, Instauratio Magna (with the Novum Organum), engraved title page with a ship passing the Pillars of Hercules
+  date: '1620'
+  creator: Francis Bacon; engraving signed “Sim. Pass. sculp.” (Simon de Passe)
+  holder: Thomas Fisher Rare Book Library, University of Toronto, via the Internet Archive (instauratiomagna00baco)
+  rights: public-domain
+  licence: Published 1620; no rights statement on the Internet Archive page
+  sourceUrl: https://archive.org/details/instauratiomagna00baco
