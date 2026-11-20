@@ -45,5 +45,30 @@ const fontCss = faces
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <slot />
+    {/* DEV ONLY (owner, 21 Nov 2026): a switch that shows the 12-column grid. Delete before launch. */}
+    <div class="dev-grid" aria-hidden="true">
+      <div class="wrap">{Array.from({ length: 12 }, () => <span></span>)}</div>
+    </div>
+    <button type="button" class="dev-grid-toggle" aria-pressed="false" title="Show the grid (G)">Grid</button>
+    <script is:inline>
+      (function () {
+        var root = document.documentElement, btn = document.querySelector('.dev-grid-toggle');
+        function set(on) {
+          root.classList.toggle('show-grid', on);
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+          try { localStorage.setItem('mm-grid', on ? '1' : '0'); } catch (e) {}
+        }
+        var start = false;
+        try { start = localStorage.getItem('mm-grid') === '1'; } catch (e) {}
+        set(start);
+        btn.addEventListener('click', function () { set(!root.classList.contains('show-grid')); });
+        document.addEventListener('keydown', function (e) {
+          var t = e.target && e.target.tagName;
+          if ((e.key === 'g' || e.key === 'G') && !e.metaKey && !e.ctrlKey && !e.altKey && t !== 'INPUT' && t !== 'TEXTAREA') {
+            set(!root.classList.contains('show-grid'));
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

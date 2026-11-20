@@ -318,3 +318,12 @@ a.hist:hover .ht { text-decoration: underline; }
   .card { transition: none; }
 }
 
+
+/* DEV ONLY: the grid overlay and its switch (delete before launch) */
+.dev-grid { position: fixed; inset: 0; z-index: 9998; pointer-events: none; display: none; }
+.show-grid .dev-grid { display: block; }
+.dev-grid .wrap { height: 100%; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--g); }
+.dev-grid span { background: rgba(216, 70, 28, 0.07); border-left: 1px solid rgba(216, 70, 28, 0.35); border-right: 1px solid rgba(216, 70, 28, 0.35); }
+.dev-grid-toggle { position: fixed; right: 16px; bottom: 16px; z-index: 9999; padding: 7px 12px; border: 1px solid var(--ink); background: #fff; color: var(--ink); font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; }
+.dev-grid-toggle[aria-pressed="true"] { background: var(--ink); color: #fff; }
+@media print { .dev-grid, .dev-grid-toggle { display: none; } }
