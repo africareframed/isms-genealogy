@@ -38,11 +38,14 @@ a:hover { color: var(--muted); }
 .site-head { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-top: 28px; padding-bottom: 28px; }
 .site-name { font-size: 18px; line-height: 24px; font-weight: 600; text-decoration: none; letter-spacing: -0.01em; }
 .site-nav { display: flex; gap: 28px; font-size: 16px; line-height: 24px; }
-.site-nav a { text-decoration: none; }
+.site-nav a { text-decoration: none; white-space: nowrap; }
+.site-name { white-space: nowrap; }
 .hero { padding-top: 72px; padding-bottom: 72px; display: flex; flex-direction: column; gap: 24px; }
 .hero h1 { margin: 0; max-width: 1300px; font-size: 104px; line-height: 104px; font-weight: 600; letter-spacing: -0.035em; }
 .hero .hk { font-family: var(--mono); font-size: 13px; line-height: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .hero p { margin: 0; max-width: 780px; font-size: 20px; line-height: 30px; color: var(--ink-3); }
+.hero-text { display: flex; flex-direction: column; gap: 16px; max-width: 780px; }
+.hero .stand { font-size: 30px; line-height: 40px; font-weight: 600; letter-spacing: -0.015em; color: var(--ink); }
 .hero p a { color: inherit; text-decoration: underline; text-decoration-color: currentColor; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 .hero p a:hover { color: var(--ink); text-decoration-thickness: 2px; }
 .hero .asof { font-family: var(--mono); font-size: 13px; line-height: 18px; color: var(--muted); }
@@ -268,6 +271,9 @@ a.hist:hover .ht { text-decoration: underline; }
   .ph-site { display: none; }
 }
 @media (max-width: 640px) {
+  .site-head { flex-wrap: wrap; row-gap: 12px; }
+  .site-nav { flex-wrap: wrap; column-gap: 18px; row-gap: 6px; font-size: 15px; }
+  .hero .stand { font-size: 24px; line-height: 32px; }
   .eras { grid-template-columns: minmax(0, 1fr); }
   .hm summary { grid-template-columns: minmax(0, 1fr) 24px; }
   .hm-y { grid-column: 1; }

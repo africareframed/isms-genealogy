@@ -38,7 +38,12 @@ const num = (n: number) => String(n).padStart(2, '0');
   <section class="wrap hero">
     <p class="hk">{SITE_TITLE}</p>
     <h1>Transcend. Pause. Accelerate.</h1>
-    <p>ChatGPT arrived in November 2022 and felt like year zero. It wasn't. Many of the ideas racing to shape AI are older than the computer. Made Minds maps the <a href="#main">six movements</a> that carry them, the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'} they grew out of, and the <a href="#vocabulary">vocabulary</a> they fight over.</p>
+    <div class="hero-text">
+      <p class="stand">ChatGPT arrived in November 2022 and felt like year zero.<br />It wasn't.</p>
+      <p>The AI world was already divided into camps, each with its own founding texts, institutions and language. Their arguments now shape what the labs build, what investors fund and what governments write into law.</p>
+      <p>Many of their ideas are older than the computer. A rule for updating belief dates from 1763, a dream of perfecting humanity from 1795, a warning that machines would overtake us from 1863.</p>
+      <p>Made Minds maps the <a href="#main">six movements</a>, the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'} they grew out of, and the <a href="#vocabulary">vocabulary</a> they fight over.</p>
+    </div>
     <p class="asof">Map as of {MAP_DATE}</p>
   </section>
 
