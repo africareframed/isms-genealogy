@@ -14,7 +14,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
   - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [x] **4. Themes.** All seven written, checked and merged (20 Nov).
-- [ ] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). About 80 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, newest first, each folding open on `history.html`. Three drafting agents (branches `history/recent`, `history/middle`, `history/early`, local to the coordinating conversation) also add history words to `src/data/words/history-*.yaml`; then a separate checker. Card image: batch 7.
+- [ ] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). About 80 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, newest first, each folding open on `history.html`. Three drafting agents (branches `history/recent`, `history/middle`, `history/early`, local to the coordinating conversation) also add history words to `src/data/words/history-*.yaml`; then a separate checker. Card image: von Kempelen's Turk (batch 7) with 1997, the year Deep Blue beat Kasparov; full-width card 1600 × 900 (`HISTORY` in the engine) and a 4:5 page image.
 - [ ] **5. Images.** Batch 1 (17 files) approved and downloaded 20 Nov into the owner's folder (batch-01/), resized to 1800 px JPEGs in public/images/, records filled. Network access now allows these hosts. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
@@ -30,7 +30,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
-- Image batch approvals (sent as lists when ready). **Batch 7** (`docs/image-batches/batch-07.md`): the History of AI card (von Kempelen's Turk in Racknitz's 1789 engraving, or Talos on a coin of Phaistos). Nothing downloaded. Batch 6 was approved (option 1, Watt's governor) and used.
+- Image batch approvals (sent as lists when ready). Batches 6 and 7 were approved and used (Watt's governor for Alignment; von Kempelen's Turk with 1997 for the History of AI).
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag). The name Made Minds was decided on 20 November 2026.
 
 ## How a session continues the build

@@ -35,6 +35,7 @@ const eras = ERAS.map((era) => {
 }).filter((e) => e.items.length > 0);
 
 const oldest = moments[moments.length - 1];
+const pageImage = (await getCollection('images')).find((i) => i.id === 'collage-history-tall');
 const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: e.name }))];
 ---
 <Base title={`History of AI · ${SITE_NAME}`} description="The history of artificial intelligence, from ancient automata to the generative race, newest first.">
@@ -51,6 +52,7 @@ const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) =
           <p>All six movements read the same history in their own way, and each was named at a moment in it. Every moment opens to its source.</p>
         </div>
       </div>
+      {pageImage && <Picture image={{ collection: 'images', id: pageImage.id }} ratio="4 / 5" />}
     </section>
 
     {eras.length > 0 && (

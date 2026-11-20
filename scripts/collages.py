@@ -121,6 +121,7 @@ def render(spec):
 
 
 ISM, THEME, PAGE = (1600, 1200), (1500, 1000), (1200, 1500)   # PAGE: the vertical image at the top of a page, 4:5, 12 x 15 squares
+HISTORY = (1600, 900)   # the full-width History of AI card, 16:9, 16 x 9 squares
 SPECS = [
     dict(id='collage-transhumanism', size=ISM, colour=GREEN, seed=3,
          fields=[(0, 1, 9, 10), (10, 0, 6, 5)], black=[(9, 0, 1, 1), (15, 7, 1, 1)],
@@ -196,6 +197,18 @@ SPECS = [
          fragments=[dict(img='governor-boulton-watt.jpg', box=(373, 800), crop=(0.53, 0.29, 0.885, 0.745), channel='R', how='screen', level=0.36, detail=1.2, blur=0.8, at=(300, 90))],
          shift=[(3, 7, 1, 1, 1, 0)], invert=[(1, 2, 1, 1)],
          labels=[('1960 · "THE PURPOSE PUT INTO THE MACHINE"', 760, 400), ('NORBERT WIENER', 760, 442), ("1788 · THE LAP ENGINE'S GOVERNOR · BOULTON AND WATT", 40, 960)]),
+    dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
+         fields=[(0, 0, 9, 8)], black=[(9, 0, 1, 1), (15, 8, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(829, 790), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 30))],
+         shift=[(2, 6, 1, 1, 1, 0)], invert=[(7, 1, 1, 1)],
+         type=[dict(slab=(9, 3, 7, 3), parts=[('1997', 290, 940, 305)])],
+         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 948, 650), ("1770 · VON KEMPELEN'S CHESS-PLAYING TURK · ENGRAVING, 1789", 40, 860)]),
+    dict(id='collage-history-tall', size=PAGE, colour=GREY, seed=1770,
+         fields=[(0, 0, 11, 10)], black=[(11, 0, 1, 1), (0, 14, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(1050, 1001), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.4, at=(40, 40))],
+         shift=[(2, 8, 1, 1, 1, 0)], invert=[(9, 1, 1, 1)],
+         type=[dict(slab=(4, 11, 8, 3), parts=[('1997', 290, 440, 1105)])],
+         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 448, 1440), ("1770 · VON KEMPELEN'S TURK · 1789", 40, 1085)]),
     # Vertical page images (4:5), one per theme: the same object and fact, composed for the tall frame
     dict(id='collage-scale-tall', size=PAGE, colour=GREY, seed=233,
          fields=[(0, 0, 9, 8)], black=[(11, 1, 1, 1), (0, 12, 1, 2)],

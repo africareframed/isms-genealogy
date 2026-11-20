@@ -1,6 +1,6 @@
 # Image batch 7 — 20 November 2026
 
-Status: **waiting for the owner's yes.** Nothing downloaded. Candidates for the full-width card of the **History of AI** and its vertical page image (the same object, composed again). Licences and sizes were read through the Wikimedia Commons API and checked on the file pages. No photographs of real people.
+Status: **approved by the owner on 20 November 2026: option 1, the Turk.** Downloaded to batch-07 and used for the History of AI card and page image, with 1997. Candidates for the full-width card of the **History of AI** and its vertical page image (the same object, composed again). Licences and sizes were read through the Wikimedia Commons API and checked on the file pages. No photographs of real people.
 
 | # | Image id (proposed) | What it shows | File page | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- |
