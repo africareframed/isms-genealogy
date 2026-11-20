@@ -15,10 +15,12 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [x] **4. Themes.** All seven written, checked and merged (20 Nov).
 - [x] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). 97 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, each with one of nine threads (`THREADS`), newest first, folding open on `history.html`. Drafted by three agents and checked by three others; 16 history words added to the vocabulary (`src/data/words/history-*.yaml`). Card: von Kempelen's Turk with 1997 (batch 7), a panorama from side to side at the height of a movement card (`HISTORY`, 2200 × 800, 11:4; owner, 20 Nov) and a 4:5 page image.
-- [ ] **5. Images.** Batch 1 (17 files) approved and downloaded 20 Nov into the owner's folder (batch-01/), resized to 1800 px JPEGs in public/images/, records filled. Network access now allows these hosts. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
+- [ ] **5. Images.** Every movement, key word and the History of AI has its collage card (batches 1–7). New cards follow the illustration guide: a session lists candidates as a batch in `docs/image-batches/batch-NN.md` (file, what it shows, file page, licence, size); the owner approves in the main conversation; only then is anything downloaded and the collage made there.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **6b. Phone pass** (owner, 21 Nov: later). A hamburger menu on phones; until then the menu wraps onto a second line. Also: the history panorama is small on phones (consider its 4:5 page image there), and the sticky section menus on long pages.
-- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
+- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("Made Minds: A genealogy of the ideas behind AI"; get its current version with get_artifact first, and use `remove` for pages that no longer exist).
+- [ ] **8. New key words** (owner, 20 Nov), one at a time, each drafted on a branch `keyword/<id>` by a research agent and checked by a separate agent, then merged with the next `order`: **Open weights** (9), **AGI** (10), **The pause** (11), **p(doom)** (12). Each needs a card: the research agent proposes one concrete object for it (see the illustration guide), and the session lists candidates as an image batch. Until the card is made the page shows without an image. Tag the history moments and movement entries that belong to the word (`themes:`), and add or update its vocabulary entry.
+- [ ] **9. Keep the history and the vocabulary current.** New moments in the newest era (`src/data/history/01-generative.yaml`) for events since the last update, and new words as they enter the debate, each drafted and then checked by a separate agent. Keep each narrow; ask the owner before adding an era, a thread or a movement.
 
 ## Notes
 
@@ -36,13 +38,18 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## How a session continues the build
 
-1. `git fetch origin` and look at `ism/*` branches. A branch whose ism has `status: draft` entries needs checking: run a checker agent that has not seen the drafting. It opens every source, fixes or removes what does not hold, and sets `status: checked`. Then build, merge into `main`, push, delete the branch.
-2. Otherwise start the next unstarted ism in stage 3 with a research agent in its own worktree (`git worktree add -b ism/<ism> ../wt-<ism> main`, link node_modules), using the brief in `docs/agent-brief.md`.
-3. After the isms, the themes (stage 4), each written from the finished isms.
-4. Collect image candidates from the agents' reports into one list per few isms, and send it to the owner as a download batch.
-5. Run `npm run deploy` to update the live site, republish the preview, tick this file, add a line to the log, commit, push.
+The site now has three tracks: **Movements** (the six, done), **History of AI** (97 moments, done) and **Vocabulary** (key words with cards and pages, plus the plain word list). What remains is stages 8 and 9, image batches for new cards, and the checks in stage 6. The framework, the design, the illustration style, the home page and its copy are the owner's: a session never changes them on its own.
+
+1. `git fetch origin`. Look for branches with drafts (`keyword/*`, `history/*`, `words/*`, `ism/*`). A branch with `status: draft` items needs a checker that has not seen the drafting (`docs/agent-brief.md`). It opens every source, fixes or removes what does not hold, and sets `status: checked`. Then merge `main` into the branch, build with no warnings, merge into `main`, push.
+2. Otherwise draft the next key word in stage 8 with a research agent in its own worktree (`git worktree add -b keyword/<id> ../wt-<id> main`, then `ln -s "$PWD/node_modules" ../wt-<id>/node_modules`), using the key-word brief in `docs/agent-brief.md`. Do not merge a draft: it is checked first, in this run or the next.
+3. When stage 8 is done, add new history moments or words (stage 9) with the history brief, then check them.
+4. Collect the image candidates the agents propose into one batch file in `docs/image-batches/`. Never download, never make or change a collage: that happens in the main conversation after the owner says yes.
+5. Republish the private preview (stage 7). Scheduled runs do not run `npm run deploy`: the live site is updated in the owner's conversation, after the owner has seen the preview.
+6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-21: The scheduled task's instructions and this procedure rewritten for the new direction (three tracks, key words, history, image batches only, no deploy from scheduled runs). The scheduled task is paused until the owner resumes it.
 
 - 2026-11-20: History of AI merged and live: 97 checked moments (antiquity to 2026) and 16 history words, from three drafting agents and three separate checkers (corrections listed in their commits on `history/*`). The owner suggested Longview's podcast The Last Invention as a lead; it gave the threads, with symbols against networks the most frequent. Google's 2012 cat network moved to the deep-learning file. Section menu on the history page uses the years of each era.
 
