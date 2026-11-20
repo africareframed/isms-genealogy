@@ -33,7 +33,9 @@ const isms = defineCollection({
 const themes = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/themes' }),
   schema: z.object({
-    title: z.string(),
+    title: z.string(), // the question, e.g. "Who controls it?"
+    topic: z.string().optional(), // a one-word label above it, e.g. "Power"
+    kind: z.enum(['question', 'critics']).default('question'),
     order: z.number(),
     ready: z.boolean().default(false),
     summary: z.string(),
@@ -125,6 +127,22 @@ const listLoader = (folder: string): Loader => ({
   },
 });
 
+/* Vocabulary: the movements' own words, src/data/words/*.yaml. */
+const words = defineCollection({
+  loader: listLoader('words'),
+  schema: z.object({
+    word: z.string(),
+    definition: z.string(), // one or two plain sentences
+    coinedBy: z.string().optional(), // who coined it or first used it in this sense
+    year: z.number().optional(), // year of coinage or earliest documented use
+    yearLabel: z.string().optional(), // e.g. "c. 1960" when the year is approximate
+    origin: z.string(), // the source that documents the coinage or first use
+    sourceUrl: z.string().optional(),
+    isms: z.array(reference('isms')).default([]),
+    status,
+  }),
+});
+
 /* Notable figures: src/data/figures/<ism>.yaml. Portraits are added by the project team only. */
 const figures = defineCollection({
   loader: listLoader('figures'),
@@ -157,4 +175,4 @@ const images = defineCollection({
   }),
 });
 
-export const collections = { isms, themes, entries, figures, images };
+export const collections = { isms, themes, entries, figures, images, words };
