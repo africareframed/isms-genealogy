@@ -25,6 +25,7 @@ for (const e of entries) {
 }
 
 const yearOf = new Map(entries.map((e) => [e.id, e.data.year]));
+const entryById = new Map(entries.map((e) => [e.id, e]));
 const figures = (await getCollection('figures', (f) => f.data.isms.some((r) => r.id === ism.id))).sort(
   (a, b) => (yearOf.get(b.data.entry?.id ?? '') ?? 0) - (yearOf.get(a.data.entry?.id ?? '') ?? 0),
 );
@@ -66,25 +67,23 @@ const first = entries[0];
     {figures.length > 0 && (
       <section class="wrap sec" aria-labelledby="figures-h">
         <h2 class="kick" id="figures-h">Notable figures</h2>
-        <div class="figs">
+        <div class="names">
           {figures.map((f) => {
             const d = f.data;
-            const inner = (
-              <Fragment>
-                {d.portrait ? (
-                  <img src={`portraits/${d.portrait}`} alt={`Portrait of ${d.name}`} loading="lazy" />
-                ) : (
-                  <div class="ph" aria-hidden="true"><span class="cap">Portrait to be added</span></div>
-                )}
-                <h3 class="fig-n">{d.name}</h3>
-                {d.lifespan && <span class="fig-y">{d.lifespan}</span>}
-                <p class="fig-d">{d.note}</p>
-                {d.portrait && d.portraitCredit && (
-                  <span class="fig-c">Portrait: {d.portraitCredit}{d.portraitLicence ? ` · ${d.portraitLicence}` : ''}</span>
-                )}
-              </Fragment>
+            const e = d.entry ? entryById.get(d.entry.id) : undefined;
+            return (
+              <details class="nm">
+                <summary>
+                  <span class="nm-y">{e ? yearText(e.data.year, e.data.yearLabel) : ''}</span>
+                  <span class="nm-n">{d.name}</span>
+                  {d.lifespan && <span class="nm-l">{d.lifespan}</span>}
+                </summary>
+                <div class="nm-b">
+                  <p>{d.note}</p>
+                  {e && <a href={`#${anchor(e.id)}`}>In the history · {yearText(e.data.year, e.data.yearLabel)} · {e.data.title}</a>}
+                </div>
+              </details>
             );
-            return d.entry ? <a class="fig" href={`#${anchor(d.entry.id)}`}>{inner}</a> : <div class="fig">{inner}</div>;
           })}
         </div>
       </section>

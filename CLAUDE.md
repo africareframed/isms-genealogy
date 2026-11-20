@@ -15,9 +15,10 @@ A website, built first to pitch funders for an exhibition. It maps the isms of t
   - Transcendence: Transhumanism · Singularitarianism (includes successionism)
   - Risk: Rationalism (often called the doomers; includes the call to pause) · Effective altruism (includes longtermism)
   - Acceleration: Effective accelerationism (includes neoreaction and the network state) · Techno-optimism (includes augmentation)
-- **Seven themes**, with no timeline of their own: Abundance (incl. post-work) · Power (AI nationalism, state-led AI, the populist right) · The tool (open-source AI) · Scale · Rights and dignity (rights-based regulation, religious voices) · Self-determination (data sovereignty, democratic plurality) · Critique (AI ethics, political economy, normal technology).
+- **Below the six: key words and the word book** (owner, 20 Nov 2026). The broad themes are gone. Instead, narrow terms people hear again and again in the debate. Every term is in the **word book** (`src/data/words/`: what it means, who coined it and when, which isms use it). About a dozen are **key words** with an illustrated card and their own page (`src/content/themes/`, the old theme files): Scaling laws (Perceptron card), Compute (H100 chips), Abundance (meter), Augmentation (mouse), Facial recognition (camera), Citizens' assemblies (kleroterion), Luddite (the Luddite engraving); to come with new cards: Open weights, Alignment, AGI, The pause, p(doom). No separate critics section: criticism sits in each page's "Who disputes it" and in narrow words of its own. More key words are added over time; each stays narrow.
+- **Headings say "movements"**; the subtitle keeps "isms". The home page shows the six in three family rows (01–06), then the key words, then the word book (the only place with a filter, by family).
 - **Ism page:** Introduction · Who holds it now · Notable figures · Its words · Its themes · Who disputes it · then the history, newest first, back to the oldest root.
-- **Theme page:** Introduction · How the isms see it (one line per ism) · Strands · Its words · In the isms' histories (built automatically from theme tags) · Who disputes it.
+- **Key-word page:** Introduction (what it means, who coined it) · How the movements see it (one line each, only where a movement has a view) · Strands · Related words · In the movements' histories (built from tags) · Who disputes it. The section menu lists only the sections a page has.
 - **Navigation:** grid → page → back to the grid. No sideways scrolling, no scroll-jacking. Theme tags are the only links between pages.
 - Design follows the mockup (canvas "AI philosophies — website mockup"): white, Inter Tight + IBM Plex Mono, one accent `#D8461C`. Super clean, large type with presence, short texts.
 
@@ -49,7 +50,7 @@ Schemas are in `src/content.config.ts`; the build fails on a broken reference. S
 ## Image rules
 
 - **Never AI-generated.** Human-made images only: documents, title pages, diagrams, machines, places, artworks, photographs of objects or events.
-- **No portraits or photographs of real people** downloaded or added by Claude, whatever their licence. Figures get an empty portrait slot; the owner fills it.
+- **No portraits or photographs of real people**, whatever their licence (owner, 20 Nov 2026: too many people, too many images). Notable figures appear as names only: an index on each ism page where each name folds open to a short note and a link to its moment in the history.
 - Record every image in `src/data/images/` with title, date, rights (`public-domain`, `open-licence` + licence, `cleared`, `to-check`) and `sourceUrl` of the page where the licence was read.
 - Prefer Wikimedia Commons, the Library of Congress, the Internet Archive and museum open-access collections. Copyrighted items (book covers, press photos, film stills) stay `to-check` placeholders until the owner clears them.
 - Downloads happen only after the owner approves a batch (a list of files with source, size and licence). They go to the owner's connected folder `isms-genealogy-images` and are then copied into `public/images/`.
