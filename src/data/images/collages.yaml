@@ -48,7 +48,7 @@
   rights: open-licence
   licence: "CC BY-SA 4.0, after a photo by Bicycle Tourer"
   file: "collage-abundance.jpg"
-  alt: "A cut-up collage: an electricity meter with its counter and disc, beside a large 0 kWh"
+  alt: "A cut-up collage of an electricity meter, its counter beside the 1954 promise of power too cheap to meter"
 
 - id: collage-power
   title: "Collage from a photograph of four NVIDIA H100 AI chips (2023)"
@@ -77,7 +77,7 @@
   rights: open-licence
   licence: "CC BY-SA 4.0, after a photo by gruntzooki"
   file: "collage-rights-and-dignity.jpg"
-  alt: "A surveillance camera pointing at the letters EU, whose AI Act bans practices such as untargeted face scraping from 2 February 2025"
+  alt: "A surveillance camera pointing into empty space, towards the date the EU AI Act's bans began to apply, 2 February 2025"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Camera,_Police_Facial_Recognition_checkpoint,_Charing_Cross_Station,_the_Strand,_Westminster,_2026-04-27.jpg"
 
 - id: collage-self-determination
