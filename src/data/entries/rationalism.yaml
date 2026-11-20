@@ -62,7 +62,7 @@ entries:
     text: A week after the pause letter, Yudkowsky wrote in TIME that it asked for too little. He called for an indefinite, worldwide moratorium on large training runs, a cap on computing power and the tracking of every GPU sold. States should be ready to enforce it, he wrote, even by destroying a rogue data centre from the air.
     source: Eliezer Yudkowsky, “Pausing AI Developments Isn't Enough. We Need to Shut it All Down”, TIME, 29 March 2023
     sourceUrl: https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/
-    themes: [scale, power, alignment]
+    themes: [scale, power]
     image: rationalism-time-2023
     status: checked
 
