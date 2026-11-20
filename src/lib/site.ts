@@ -8,6 +8,19 @@ export const FAMILIES = [
   { id: 'acceleration', name: 'Acceleration', colour: '#D8461C', text: 'The conviction that the answer is more technology, faster.' },
 ] as const;
 
+/* The eras of the history of AI, newest first. Each history moment names one. */
+export const ERAS = [
+  { id: 'generative', name: 'The generative race', span: '2022 to now', from: 2022 },
+  { id: 'scale', name: 'Transformers and scale', span: '2017 to 2022', from: 2017 },
+  { id: 'deep-learning', name: 'Deep learning', span: '2012 to 2017', from: 2012 },
+  { id: 'learning', name: 'Learning from data', span: '1993 to 2012', from: 1993 },
+  { id: 'winters', name: 'Expert systems and the winters', span: '1974 to 1993', from: 1974 },
+  { id: 'birth', name: 'The birth of AI', span: '1943 to 1974', from: 1943 },
+  { id: 'reckoning', name: 'Reckoning machines', span: '1642 to 1943', from: 1642 },
+  { id: 'automata', name: 'Myths and automata', span: 'Antiquity to 1642', from: -10000 },
+] as const;
+export const ERA_IDS = ERAS.map((e) => e.id) as [string, ...string[]];
+
 export const RELATIONS: Record<string, string> = {
   milestone: 'Milestone',
   'institutional-root': 'Institutional root',

@@ -4,6 +4,7 @@ import { z } from 'astro/zod';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parse } from 'yaml';
+import { ERA_IDS } from './lib/site';
 
 const status = z.enum(['draft', 'checked']).default('draft');
 
@@ -25,6 +26,7 @@ const isms = defineCollection({
     words: z.array(z.string()).default([]),
     themes: z.array(reference('themes')).default([]),
     disputes: z.string().optional(),
+    born: reference('entries').optional(), // the moment the movement got its name, shown in the history of AI
     status,
   }),
 });
@@ -143,6 +145,28 @@ const words = defineCollection({
   }),
 });
 
+/* The history of AI: src/data/history/<nn>-<era>.yaml, one file per era. Newest first on the page.
+   Years before the common era are negative, with a yearLabel such as "c. 750 BCE". */
+const history = defineCollection({
+  loader: listLoader('history'),
+  schema: z.object({
+    era: z.enum(ERA_IDS),
+    year: z.number().int(),
+    month: z.number().int().min(1).max(12).optional(),
+    yearLabel: z.string().optional(),
+    title: z.string(),
+    line: z.string(), // one short line shown before the moment is opened
+    who: z.string().optional(),
+    text: z.string(), // two to four sentences
+    source: z.string(),
+    sourceUrl: z.string().optional(),
+    isms: z.array(reference('isms')).default([]), // movements this moment shaped or that reacted to it
+    themes: z.array(reference('themes')).default([]), // key words
+    image: reference('images').optional(),
+    status,
+  }),
+});
+
 /* Notable figures: src/data/figures/<ism>.yaml. Portraits are added by the project team only. */
 const figures = defineCollection({
   loader: listLoader('figures'),
@@ -175,4 +199,4 @@ const images = defineCollection({
   }),
 });
 
-export const collections = { isms, themes, entries, figures, images, words };
+export const collections = { isms, themes, entries, figures, images, words, history };
