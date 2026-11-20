@@ -14,17 +14,18 @@ const caption = d
   ? [d.title, d.date].filter(Boolean).join(', ') + ' · ' + rightsLabel(d.rights, d.licence)
   : 'Image to come';
 ---
-{
-  d?.file ? (
-    <figure class={`pic ${cls}`}>
-      <img src={`images/${d.file}`} alt={d.alt ?? ''} style={`aspect-ratio:${ratio}`} loading="lazy" decoding="async" />
-      <figcaption class="cap">{caption}</figcaption>
-    </figure>
+<figure class={`pic ${cls}`}>
+  {d?.file ? (
+    <img
+      src={`images/${d.file}`}
+      alt={d.alt ?? ''}
+      class={d.fit === 'contain' ? 'contain' : undefined}
+      style={`aspect-ratio:${ratio}`}
+      loading="lazy"
+      decoding="async"
+    />
   ) : (
-    <figure class={`pic ${cls}`}>
-      <div class="ph" style={`aspect-ratio:${ratio}`} role="img" aria-label={`Placeholder: ${caption}`}>
-        <span class="cap">{caption}</span>
-      </div>
-    </figure>
-  )
-}
+    <div class="ph" style={`aspect-ratio:${ratio}`} aria-hidden="true"></div>
+  )}
+  <figcaption class="cap">{d && !d.file ? `Image to come: ${caption}` : caption}</figcaption>
+</figure>

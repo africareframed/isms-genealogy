@@ -26,6 +26,10 @@ a:hover { color: var(--muted); }
 .ph { background: var(--ph); display: flex; align-items: flex-end; padding: 14px; width: 100%; }
 .pic { margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .pic img { width: 100%; height: auto; object-fit: cover; display: block; background: var(--ph); }
+.pic img.contain { object-fit: contain; padding: 4%; }
+.pic .cap { min-height: 30px; }
+.tgrid .pic .cap { min-height: 45px; }
+.item .pic .cap, .intro .pic .cap { min-height: 0; }
 .inc { margin: 0; font-family: var(--mono); font-size: 12px; line-height: 18px; color: var(--muted); }
 .sr { position: absolute; width: 1px; height: 1px; opacity: 0; margin: 0; pointer-events: none; }
 
@@ -42,8 +46,9 @@ a:hover { color: var(--muted); }
 .chips .lbl { font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-right: 8px; }
 .chips label { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border: 1px solid var(--rule-2); border-radius: 999px; font-size: 15px; line-height: 20px; cursor: pointer; user-select: none; }
 .chips label:hover { border-color: var(--ink); }
-.fams { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 40px; row-gap: 72px; margin-top: 48px; }
-.fam { display: flex; flex-direction: column; gap: 56px; }
+/* Families share rows (subgrid), so the cards line up across the three columns. */
+.fams { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: auto auto auto; column-gap: 40px; margin-top: 48px; }
+.fam { display: grid; grid-row: span 3; grid-template-rows: subgrid; row-gap: 48px; }
 .fh { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 2px solid var(--ink); }
 .fn { margin: 0; font-size: 15px; line-height: 20px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
 .fd { margin: 0; font-size: 16px; line-height: 24px; color: var(--muted); }
@@ -150,8 +155,8 @@ a.hist:hover .ht { text-decoration: underline; }
 .prose ul { margin: 0; padding-left: 24px; display: flex; flex-direction: column; gap: 10px; }
 
 @media (max-width: 1100px) {
-  .fams { grid-template-columns: minmax(0, 1fr); }
-  .fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 24px; }
+  .fams { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; row-gap: 72px; }
+  .fam { grid-row: auto; grid-template-rows: none; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 24px; }
   .fh { grid-column: 1 / -1; }
   .tgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .figs { grid-template-columns: repeat(3, minmax(0, 1fr)); }

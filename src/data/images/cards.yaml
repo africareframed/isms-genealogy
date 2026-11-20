@@ -10,6 +10,7 @@
   creator: "Konstantin Tsiolkovsky"
   rights: "public-domain"
   file: "tsiolkovsky-free-space.jpg"
+  fit: contain
   alt: "Pen drawing of a spherical vessel in free space, with figures floating inside and handwritten notes"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Chertrg_Tsiolkovsky.jpg"
 
@@ -50,6 +51,7 @@
   creator: "Bureau of Engraving and Printing"
   rights: "public-domain"
   file: "atoms-for-peace-stamp.jpg"
+  fit: contain
   alt: "Blue three-cent stamp showing two globes ringed by atomic orbits"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Atoms_for_Peace_stamp.jpg"
 
@@ -60,6 +62,7 @@
   rights: "open-licence"
   licence: "CC0"
   file: "leviathan-frontispiece.jpg"
+  fit: contain
   alt: "Engraving of a crowned giant made of many small people, rising over a landscape"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Leviathan_frontispiece_cropped_British_Library.jpg"
 
@@ -78,6 +81,7 @@
   creator: "John C. Hay, Albert E. Murray"
   rights: "public-domain"
   file: "perceptron-1958.jpg"
+  fit: contain
   alt: "Labelled diagram of the Mark I Perceptron cabinet, camera and plugboard"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Mark_I_Perceptron,_Figure_2_of_operator%27s_manual.png"
 
@@ -86,6 +90,7 @@
   date: "1948"
   rights: "public-domain"
   file: "udhr-1948.jpg"
+  fit: contain
   alt: "Printed sheet of the Universal Declaration of Human Rights with the UN emblem"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:The_universal_declaration_of_human_rights_10_December_1948.jpg"
 
@@ -103,5 +108,6 @@
   date: "1812"
   rights: "public-domain"
   file: "luddites-1812.jpg"
+  fit: contain
   alt: "Coloured engraving of a figure in a dress pointing ahead while a mill burns behind"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Luddite.jpg"

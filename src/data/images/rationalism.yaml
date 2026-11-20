@@ -81,6 +81,7 @@
   date: "1872"
   rights: "public-domain"
   file: "erewhon-1872.jpg"
+  fit: contain
   alt: "Red cloth book cover with the title Erewhon, or Over the Range"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Erewhon-1872-001.jpg"
 
@@ -89,6 +90,7 @@
   date: "1763"
   rights: "public-domain"
   file: "rationalism-bayes-1763.jpg"
+  fit: contain
   alt: "Printed page headed An Essay towards solving a Problem in the Doctrine of Chances"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:An_Essay_towards_Solving_a_Problem_in_the_Doctrine_of_Chances._By_the_Late_Rev._Mr._Bayes,_F._R._S._Communicated_by_Mr._Price,_in_a_Letter_to_John_Canton,_A._M._F._R._S._(IA_jstor-105741).pdf"
 
@@ -98,5 +100,6 @@
   creator: "Ferdinand Barth"
   rights: "public-domain"
   file: "sorcerers-apprentice-1882.jpg"
+  fit: contain
   alt: "Engraving of a young man casting a spell over a broom amid smoke and spilled water"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Tovenaarsleerling_S_Barth.png"

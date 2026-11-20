@@ -46,6 +46,7 @@
   date: "1795"
   rights: "public-domain"
   file: "condorcet-1795-title.jpg"
+  fit: contain
   alt: "Title page reading Esquisse d'un tableau historique des progrès de l'esprit humain"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Esquisse_d%27un_tableau_historique_des_progres_de_l%27esprit_humain,_1795.png"
 
@@ -59,5 +60,6 @@
   rights: "open-licence"
   licence: "CC0"
   file: "gilgamesh-tablet-xi.jpg"
+  fit: contain
   alt: "A broken clay tablet covered in cuneiform script"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"
