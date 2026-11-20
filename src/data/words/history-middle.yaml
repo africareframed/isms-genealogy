@@ -10,7 +10,7 @@
   origin: "Norbert Wiener, Cybernetics: Or Control and Communication in the Animal and the Machine, Hermann & Cie, Paris, and MIT Press, 1948. He took the name from the Greek for steersman (MIT Libraries, “MIT 150 Books”). André Ampère had earlier used “cybernétique” for the art of government (Frank R. Tangherlini, letter, Physics Today, April 2008)."
   sourceUrl: https://libraries.mit.edu/150books/2011/04/04/1948/
   isms: []
-  status: draft
+  status: checked
 
 - id: turing-test
   word: Turing test
@@ -18,9 +18,9 @@
   coinedBy: Alan Turing, who called it the imitation game
   year: 1950
   origin: A. M. Turing, “Computing Machinery and Intelligence”, Mind 59 (236), October 1950. Turing called it the imitation game. The name Turing test came later, and its first use is not traced here.
-  sourceUrl: https://courses.cs.umbc.edu/471/papers/turing.shtml
+  sourceUrl: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
   isms: []
-  status: draft
+  status: checked
 
 - id: artificial-intelligence
   word: artificial intelligence
@@ -30,7 +30,7 @@
   origin: "John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon, “A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence”, 31 August 1955, apparently the phrase's first appearance (Computer History Museum). McCarthy led the writing and later gave his reasons for the name (Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 3)."
   sourceUrl: https://computerhistory.org/?p=3246
   isms: []
-  status: draft
+  status: checked
 
 - id: machine-learning
   word: machine learning
@@ -40,15 +40,15 @@
   origin: Arthur L. Samuel, “Some Studies in Machine Learning Using the Game of Checkers”, IBM Journal of Research and Development 3 (3), July 1959. The paper is widely credited with coining the term (for example Gil Press, “Inventing Machine Learning”, 1 April 2025). Earlier uses, if any, are not traced here.
   sourceUrl: https://people.csail.mit.edu/brooks/idocs/Samuel.pdf
   isms: []
-  status: draft
+  status: checked
 
 - id: ai-winter
   word: AI winter
   definition: A period when sponsors, disappointed by what AI has delivered, cut funding and interest in the field cools. The best-known came in the late 1980s, after the expert-systems boom.
-  coinedBy: earliest documented use here, Drew McDermott, chairing a panel at the 1984 AAAI conference
+  coinedBy: Drew McDermott, chairing a panel at the 1984 AAAI conference (earliest use found)
   year: 1984
   yearLabel: by 1984
   origin: "Drew McDermott, M. Mitchell Waldrop, B. Chandrasekaran, John McDermott and Roger Schank, “The Dark Ages of AI: A Panel Discussion at AAAI-84”, AI Magazine 6 (3), Fall 1985, pp. 122–134. Opening the panel, McDermott urged steps to make sure the “AI Winter” did not happen. Quoted in Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 24."
   sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
   isms: []
-  status: draft
+  status: checked

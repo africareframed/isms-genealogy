@@ -3,20 +3,22 @@
 # each moment belongs to most (validated after merge). status: draft until a checker agent
 # has verified every claim against its source.
 
+# 2012 falls in the deep-learning era (eraBounds: from 2012), so this moment is tagged
+# deep-learning. The coordinator may move it or merge it with the 2012-onwards file.
 - id: 2012-google-cat
-  era: learning
+  era: deep-learning
   year: 2012
   month: 6
   title: The Google Brain cat
   line: A network trained on YouTube frames learns to detect cats without labels.
   who: Quoc Le, Andrew Ng, Jeff Dean and colleagues, Google and Stanford
-  text: The team trained a neural network with a billion connections on 10 million unlabelled images from the internet. Training ran for three days on 1,000 machines with 16,000 processor cores. Without being told what to look for, the network grew detectors for faces, human bodies and cat faces. On 20,000 ImageNet categories it reached 15.8 per cent accuracy, a 70 per cent relative gain on the previous best.
+  text: The team trained a neural network with a billion connections on 10 million unlabelled images, frames taken from YouTube videos. Training ran for three days on 1,000 machines with 16,000 processor cores. Without being told what to look for, the network grew detectors for faces, human bodies and cat faces. On 20,000 ImageNet categories it reached 15.8 per cent accuracy, a 70 per cent relative gain on the previous best.
   source: "Quoc V. Le, Marc'Aurelio Ranzato, Rajat Monga and others, “Building High-level Features Using Large Scale Unsupervised Learning”, arXiv:1112.6209, 2011, presented at ICML 2012; Jeff Dean and Andrew Ng, “Using large-scale brain simulations for machine learning and A.I.”, Google blog, 26 June 2012"
   sourceUrl: https://arxiv.org/abs/1112.6209v1
   thread: compute
   isms: []
   themes: [compute]
-  status: draft
+  status: checked
 
 - id: 2011-siri
   era: learning
@@ -31,7 +33,7 @@
   thread: talking
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 2011-watson-jeopardy
   era: learning
@@ -46,7 +48,7 @@
   thread: games
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 2010-deepmind
   era: learning
@@ -54,13 +56,13 @@
   title: DeepMind is founded
   line: A small start-up sets out to understand and recreate intelligence.
   who: Demis Hassabis, Shane Legg and Mustafa Suleyman
-  text: Hassabis, Legg and Suleyman founded DeepMind in 2010, with the stated mission of understanding and recreating intelligence itself. Hassabis later called it a tiny start-up in a very unfashionable area. In August 2010 he met the investor Peter Thiel at his home, after the Singularity Summit. Thiel went on to invest £1.4 million, and let the company stay in London.
+  text: Hassabis, Legg and Suleyman founded DeepMind in 2010, aiming to answer big questions by understanding and recreating intelligence. Hassabis later called it a tiny start-up working in a very unfashionable area. In August 2010 he met the investor Peter Thiel at his home, after the Singularity Summit. Thiel went on to invest £1.4 million, and let the company stay in London.
   source: "Demis Hassabis, “Entering our tenth year at DeepMind”, DeepMind blog, 5 December 2019; CNBC, “DeepMind's Demis Hassabis used chess to get Peter Thiel's attention”, 7 December 2020, reporting The Sunday Times"
   sourceUrl: https://deepmind.google/blog/announcements/entering-our-tenth-year-at-deepmind
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 2009-imagenet
   era: learning
@@ -74,7 +76,7 @@
   thread: compute
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 2006-cuda
   era: learning
@@ -83,13 +85,13 @@
   title: CUDA opens graphics chips to computing
   line: Nvidia lets programmers use its graphics chips for general calculation.
   who: Nvidia
-  text: On 16 November 2006 Nvidia unveiled CUDA, with a C compiler for programming its graphics processors. It ran on the new GeForce 8800, whose hundreds of cores could work on one problem together. In 2009 a Stanford team reported training deep belief nets up to 70 times faster on such chips than on a dual-core processor.
+  text: On 16 November 2006 Nvidia unveiled CUDA, with a C compiler for programming its graphics processors. It ran on the new GeForce 8800, whose 128 processor cores could cooperate on one problem. In 2009 a Stanford team reported training deep belief nets up to 70 times faster on such chips than on a dual-core processor.
   source: "Nvidia, press release on CUDA, 16 November 2006, in Computer Graphics World; Rajat Raina, Anand Madhavan and Andrew Y. Ng, “Large-scale Deep Unsupervised Learning using Graphics Processors”, ICML 2009"
   sourceUrl: https://www.cgw.com/Press-Center/News/2006/Nvidia-Introduces-CUDA-Architecture-for-Computin.aspx
   thread: compute
   isms: []
   themes: [compute]
-  status: draft
+  status: checked
 
 - id: 2006-deep-belief-nets
   era: learning
@@ -104,7 +106,7 @@
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 2005-stanley
   era: learning
@@ -118,7 +120,7 @@
   thread: made-beings
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1998-lenet-mnist
   era: learning
@@ -132,7 +134,7 @@
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1997-lstm
   era: learning
@@ -147,7 +149,7 @@
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1997-deep-blue
   era: learning
@@ -162,7 +164,7 @@
   thread: games
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1993-vinge-singularity
   era: learning
@@ -177,4 +179,4 @@
   thread: warnings
   isms: [singularitarianism]
   themes: []
-  status: draft
+  status: checked

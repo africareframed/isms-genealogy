@@ -15,7 +15,7 @@
   thread: games
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1988-mind-children
   era: winters
@@ -29,7 +29,7 @@
   thread: made-beings
   isms: [singularitarianism]
   themes: []
-  status: draft
+  status: checked
 
 - id: 1987-second-winter
   era: winters
@@ -43,7 +43,7 @@
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1986-backpropagation
   era: winters
@@ -58,7 +58,7 @@
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1984-cyc
   era: winters
@@ -67,12 +67,12 @@
   line: A project sets out to type common sense into a computer, fact by fact.
   who: Douglas Lenat, at MCC in Austin, Texas
   text: In the autumn of 1984 Lenat left Stanford for MCC, the American consortium formed in answer to Japan's Fifth Generation project. His team set out to enter millions of everyday facts and rules of thumb by hand. The name comes from the middle of “encyclopedia”, since Cyc should know enough to read one. Lenat first thought it needed a couple of million general assertions, and later put the figure nearer 200 million.
-  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 26, quoting Douglas Lenat; Douglas B. Lenat and R. V. Guha, Building Large Knowledge-Based Systems, Addison-Wesley, 1990; “‘Fifth Generation’ Became Japan's Lost Generation”, The New York Times, 5 June 1992"
+  source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 22 and 26, quoting Douglas Lenat"
   sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1983-strategic-computing
   era: winters
@@ -87,7 +87,7 @@
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1982-fifth-generation
   era: winters
@@ -101,7 +101,7 @@
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1980-xcon
   era: winters
@@ -115,7 +115,7 @@
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1976-mycin
   era: winters
@@ -129,7 +129,7 @@
   thread: symbols-networks
   isms: []
   themes: []
-  status: draft
+  status: checked
 
 - id: 1975-darpa-heilmeier
   era: winters
@@ -137,10 +137,10 @@
   title: DARPA demands military payoffs
   line: The Pentagon's research agency turns AI work towards military needs.
   who: George Heilmeier and J. C. R. Licklider, DARPA
-  text: The Mansfield Amendment of 1969 had already tied Defense Department research to specific military purposes. When Heilmeier became DARPA's director in 1975, he asked for roadmaps and shorter-term results. In an April 1975 email, Licklider warned AI leaders that university work was being redirected. Heilmeier declined to continue DARPA's speech-understanding programme, which he judged to be basic research.
+  text: The Mansfield Amendment of 1969 had already tied Defense Department research to specific military purposes. When Heilmeier became DARPA's director in 1975, he asked for roadmaps and shorter-term results. In an April 1975 email, Licklider warned AI leaders of pressure to redirect university work to military problems. Heilmeier declined to continue DARPA's speech-understanding programme, which he judged to be basic research.
   source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 16 and 19, quoting J. C. R. Licklider's email of 2 April 1975"
   sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
   thread: booms-winters
   isms: []
   themes: []
-  status: draft
+  status: checked
