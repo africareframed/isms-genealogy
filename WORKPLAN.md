@@ -6,13 +6,13 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - [x] **1. Repository and skeleton.** Astro static site, design from the mockup, flat relative pages.
 - [x] **2. Content structure.** Isms, themes, entries, figures, images; per-ism files; references checked at build.
-- [ ] **3. Isms.** For each: research agent drafts (branch `ism/<ism>`), checker agent verifies, merge, `ready: true`.
+- [x] **3. Isms.** For each: research agent drafts (branch `ism/<ism>`), checker agent verifies, merge, `ready: true`.
   - [ ] Transhumanism — drafted from the mockup; needs checking and more figures' sources
   - [x] Singularitarianism (incl. successionism) — 14 entries, 11 figures, checked and merged
   - [x] Rationalism (incl. the call to pause) — 16 entries, 12 figures, checked and merged
   - [x] Effective altruism and longtermism — 16 entries, 10 figures, checked and merged
   - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
-  - [ ] Techno-optimism (incl. augmentation) — drafted (16 entries) on `ism/techno-optimism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
+  - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [ ] **4. Themes.** Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
 - [ ] **5. Images.** Batch 1 (17 files) approved by the owner on 20 Nov but blocked: image hosts are not in the network allowlist; owner is adding them. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Techno-optimism checked and merged. All six isms done.
 - 2026-11-20: Effective accelerationism checked and merged.
 - 2026-11-20: Effective altruism checked and merged; card summary narrowed to longtermists.
 - 2026-11-20: The last three isms drafted; checks running.

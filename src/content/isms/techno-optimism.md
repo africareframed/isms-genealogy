@@ -15,7 +15,7 @@ holders:
   - name: Reid Hoffman
     note: Co-founder of LinkedIn and investor. His 2025 book Superagency, with Greg Beato, argues that AI gives people new powers. He calls himself a bloomer.
   - name: Satya Nadella
-    note: Chief executive of Microsoft, which sells its AI assistants as Copilot. In December 2025 he wrote of AI as “a scaffolding for human potential vs a substitute”.
+    note: Chief executive of Microsoft, which sells its AI assistants as Copilot. In December 2025 he wrote that AI should be a scaffold for human potential, not a substitute for it.
   - name: Patrick Collison and Tyler Cowen
     note: Entrepreneur and economist. In 2019 they called for Progress Studies, a field to learn how progress happens and how to speed it up.
   - name: Jason Crawford
