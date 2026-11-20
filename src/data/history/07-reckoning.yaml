@@ -1,0 +1,180 @@
+# The history of AI, era "reckoning": Reckoning machines, 1642 to 1943. Newest first.
+# Fields: see the history collection in src/content.config.ts. thread: the line of the
+# story the moment belongs to most. status: draft until a checker agent has verified it.
+
+- id: 1942-three-laws-of-robotics
+  era: reckoning
+  year: 1942
+  month: 3
+  title: Asimov's Three Laws of Robotics
+  line: A science-fiction writer sets out rules to stop robots harming people.
+  who: Isaac Asimov, with his editor John W. Campbell
+  text: In the story “Runaround”, in Astounding Science Fiction, Isaac Asimov formally states three laws built into his fictional robots. The first forbids a robot to injure a human being or, through inaction, let one come to harm. Asimov credited his editor, John W. Campbell, with formulating the laws in a conversation in December 1940. Britannica notes that the laws later found a place in discussions of robotics and AI.
+  source: "Isaac Asimov, “Runaround”, Astounding Science Fiction, March 1942; “Laws of Robotics”, The Encyclopedia of Science Fiction, ed. John Clute and David Langford; Encyclopaedia Britannica, “Three Laws of Robotics”"
+  sourceUrl: https://sf-encyclopedia.com/entry/laws_of_robotics
+  themes: [alignment]
+  thread: warnings
+  status: draft
+
+- id: 1941-zuse-z3
+  era: reckoning
+  year: 1941
+  month: 5
+  title: Zuse's Z3
+  line: A Berlin engineer shows a programmable computer built from about 2,000 relays.
+  who: Konrad Zuse
+  text: On 12 May 1941 Konrad Zuse presented his Z3 to a small group of experts in Berlin. It was built from about 2,000 relays and worked in binary. Germany's patent office calls it the world's first working, freely programmable computer. The machine was later destroyed in a wartime bombing raid; a replica stands in the Deutsches Museum.
+  source: "Deutsches Patent- und Markenamt (German Patent and Trademark Office), “Making history in the living room”, on Konrad Zuse, dpma.de, 8 December 2025"
+  sourceUrl: https://www.dpma.de/en/explore/milestones/computer-pioneers/konrad-zuse
+  thread: compute
+  status: draft
+
+- id: 1940-bletchley-bombe
+  era: reckoning
+  year: 1940
+  month: 3
+  title: The bombe at Bletchley Park
+  line: Turing's codebreaking machine starts searching for each day's Enigma settings.
+  who: Alan Turing, Gordon Welchman
+  text: Before the war, three Polish mathematicians had broken the German Enigma cipher, using an earlier machine, the bomba. At Bletchley Park, Alan Turing designed the bombe to find each day's Enigma settings, and Gordon Welchman added a diagonal board. The first bombe, named Victory, began codebreaking on 14 March 1940. Around 211 were built during the war.
+  source: "The National Museum of Computing, Bletchley Park, page on the Bombe and its rebuild, tnmoc.org"
+  sourceUrl: https://tnmoc.org/bombe
+  thread: compute
+  status: draft
+
+- id: 1936-on-computable-numbers
+  era: reckoning
+  year: 1936
+  title: On Computable Numbers
+  line: Turing describes an imaginary machine, and the limits of what machines can compute.
+  who: Alan Turing
+  text: Turing imagines a machine that reads and writes symbols on a tape, one square at a time, following a table of rules. He shows that there could be “a single machine which can be used to compute any computable sequence”. He also proves that no general mechanical method can solve the Entscheidungsproblem, a central question of logic. Alonzo Church reached the same result independently, and in 1937 named the devices Turing machines.
+  source: "A. M. Turing, “On Computable Numbers, with an Application to the Entscheidungsproblem”, Proceedings of the London Mathematical Society, s2-42, 1936–37 (received 28 May 1936); Liesbeth De Mol, “Turing Machines”, Stanford Encyclopedia of Philosophy, revised 2025"
+  sourceUrl: https://plato.stanford.edu/entries/turing-machine/
+  thread: reasoning
+  status: draft
+
+- id: 1920-rur
+  era: reckoning
+  year: 1920
+  month: 11
+  title: R.U.R. gives the world “robot”
+  line: A Czech play calls its artificial workers robots, and they rise up.
+  who: Karel Čapek, Josef Čapek
+  text: Karel Čapek's play R.U.R. (Rossum's Universal Robots) is published in Prague in November 1920 and first staged in January 1921. Its robots are artificial workers made by chemistry, not machines, and in the end they overthrow their makers. Karel's brother Josef, a painter, suggested the name, from a Slavic root for labour with overtones of serfdom. Within three years the play reached New York and London.
+  source: "Karel Čapek, R.U.R. (Rossum's Universal Robots), Aventinum, Prague, 1920; Embassy of the Czech Republic in Tirana, on the centenary of the word robot, mzv.gov.cz, 2021; Embassy of the Czech Republic in Copenhagen, on the same centenary, mzv.gov.cz, 2021; John M. Jordan, “The Czech Play That Gave Us the Word ‘Robot’”, The MIT Press Reader, 29 July 2019"
+  sourceUrl: https://mzv.gov.cz/tirana/en/about_the_czech_republic/x100_year_ago_robot_was_born.html
+  thread: made-beings
+  status: draft
+
+- id: 1914-el-ajedrecista
+  era: reckoning
+  year: 1914
+  title: El Ajedrecista plays chess
+  line: A Spanish engineer's machine plays a chess endgame, with nobody hidden inside.
+  who: Leonardo Torres Quevedo
+  text: Leonardo Torres Quevedo built his electromechanical chess player in 1912 and showed it in public at the University of Paris in 1914. Playing a king and rook against a human's lone king, it chose and made its own moves. He built it to demonstrate his ideas about machines that “think”. Nick Montfort, in a 2005 history of interactive fiction, called it the first computer game.
+  source: "Allison Marsh, “This 1920 Chess Automaton Was Wired to Win”, IEEE Spectrum, 29 June 2023, citing Nick Montfort, Twisty Little Passages, MIT Press, 2005"
+  sourceUrl: https://spectrum.ieee.org/this-1920-chess-automaton-was-wired-to-win
+  thread: games
+  status: draft
+
+- id: 1863-darwin-among-the-machines
+  era: reckoning
+  year: 1863
+  month: 6
+  title: Darwin among the Machines
+  line: A letter warns that machines are evolving and may one day replace us.
+  who: Samuel Butler
+  text: In a letter to The Press in Christchurch, signed Cellarius, Butler applies Darwin's theory to machines. Machines evolve too, he argues, and one day humans may be to them what horses and dogs are to us. His remedy is war to the death against them, declared at once. He reworked the idea as the Book of the Machines in his novel Erewhon (1872).
+  source: "Cellarius [Samuel Butler], “Darwin among the Machines”, The Press, Christchurch, 13 June 1863; reprinted in Samuel Butler, Canterbury Pieces, ed. R. A. Streatfeild, A. C. Fifield, London, 1914"
+  sourceUrl: https://gutenberg.org/files/3279/3279-h/3279-h.htm
+  isms: [rationalism]
+  themes: [luddite]
+  thread: warnings
+  status: draft
+
+- id: 1854-laws-of-thought
+  era: reckoning
+  year: 1854
+  title: The Laws of Thought
+  line: Boole turns the rules of reasoning into an algebra of 0 and 1.
+  who: George Boole
+  text: In An Investigation of the Laws of Thought, George Boole applies the methods of symbolic algebra to logic. Arguments of any complexity can then be worked out by calculation. His symbols, he writes, take “the values 0 and 1, and of these values alone”. In a master's thesis completed at MIT in 1940, Claude Shannon used Boolean algebra to lay the theoretical basis of digital circuits.
+  source: "George Boole, An Investigation of the Laws of Thought, Walton and Maberly, London, and Macmillan, Cambridge, 1854; Marcel Jackson and Stanley Burris, “George Boole”, Stanford Encyclopedia of Philosophy, revised 2026; Claude E. Shannon, A Symbolic Analysis of Relay and Switching Circuits, MS thesis, Massachusetts Institute of Technology, 1940 (DSpace@MIT); Encyclopaedia Britannica, “A Symbolic Analysis of Relay and Switching Circuits”"
+  sourceUrl: https://plato.stanford.edu/entries/boole/
+  thread: reasoning
+  status: draft
+
+- id: 1843-lovelace-notes
+  era: reckoning
+  year: 1843
+  title: Lovelace's notes on the Analytical Engine
+  line: Notes on Babbage's planned engine set out a program, and its limits.
+  who: Ada Lovelace, Charles Babbage
+  text: Ada Lovelace translates Luigi Menabrea's article on Babbage's planned Analytical Engine and adds notes of her own. They show how the engine could be set to compute Bernoulli numbers. Like the Jacquard loom, it would be fed punched cards, and she wrote that it “weaves algebraic patterns”. She also held that it could not originate anything, a view Turing answered in 1950 as “Lady Lovelace's Objection”.
+  source: "Ada Lovelace, translation of and notes to L. F. Menabrea, “Notions sur la machine analytique de Charles Babbage” (1842), 1843; Encyclopaedia Britannica, “Ada Lovelace” and “Jacquard loom”; Computer History Museum, “The Engines”; A. M. Turing, “Computing Machinery and Intelligence”, Mind 59, 1950, section 6"
+  sourceUrl: https://www.britannica.com/biography/Ada-Lovelace
+  thread: reasoning
+  status: draft
+
+- id: 1822-difference-engine
+  era: reckoning
+  year: 1822
+  title: Babbage's Difference Engine
+  line: Babbage wins government money for a machine to calculate mathematical tables.
+  who: Charles Babbage, Joseph Clement
+  text: To end the errors in tables worked out by human “computers”, Babbage designed a machine to calculate them. In 1822 he received government funding for it, but work stopped in 1832 after a dispute with his engineer, Joseph Clement. Funding was cut off in 1842, after more than £17,000 had been spent. A working engine to his second design was completed by London's Science Museum in 1991.
+  source: "Whipple Museum of the History of Science, University of Cambridge, “Charles Babbage's Difference Engine”; Computer History Museum, “The Engines”; Science Museum Group, Babbage's Difference Engine No. 2, object 1992-556"
+  sourceUrl: https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/charles-babbages-difference-engine
+  thread: reasoning
+  status: draft
+
+- id: 1770-the-turk
+  era: reckoning
+  year: 1770
+  title: The chess-playing Turk
+  line: An automaton beats chess players across Europe, with a man hidden inside.
+  who: Wolfgang von Kempelen
+  text: Wolfgang von Kempelen, a Hungarian civil servant, presents a chess-playing automaton at the court of Empress Maria Theresa. It seemed to play by itself, but a chess player concealed in the cabinet worked its moves with levers. It toured for decades, and Benjamin Franklin played it in Paris. In 2005 Amazon named a platform for paid online tasks after it; its workers are often hired to label AI training data.
+  source: "Encyclopaedia Britannica, “The Mechanical Turk: AI Marvel or Parlor Trick?”; Abigail Geiger, “What is Mechanical Turk?”, Pew Research Center, 11 July 2016; Oscar Schwartz, “Untold History of AI: How Amazon's Mechanical Turkers Got Squeezed Inside the Machine”, IEEE Spectrum, 22 April 2019"
+  sourceUrl: https://www.britannica.com/story/the-mechanical-turk-ai-marvel-or-parlor-trick
+  thread: games
+  status: draft
+
+- id: 1673-leibniz-calculator
+  era: reckoning
+  year: 1673
+  month: 2
+  title: Leibniz's calculating machine
+  line: Leibniz shows London a machine that can also multiply and divide.
+  who: Gottfried Wilhelm Leibniz
+  text: On 1 February 1673 Leibniz showed the Royal Society in London a working model of his calculating machine. Its stepped drums, turned by a crank, could add, subtract, multiply and divide. He held that outstanding people should not waste their time on menial calculation. As early as 1666 he had aimed to reduce all reasoning to combinations of basic elements.
+  source: "Landeshauptstadt Hannover, “The baroque ancestor of the calculator”, hannover.de, on the machine in the Gottfried Wilhelm Leibniz Library; J. J. O'Connor and E. F. Robertson, “Gottfried Wilhelm von Leibniz”, MacTutor History of Mathematics, University of St Andrews, 1998"
+  sourceUrl: https://www.hannover.de/en/view/content/542574/full/0/602624
+  thread: reasoning
+  status: draft
+
+- id: 1651-leviathan
+  era: reckoning
+  year: 1651
+  title: Reason is reckoning
+  line: Hobbes writes that reasoning is nothing but adding and subtracting.
+  who: Thomas Hobbes
+  text: In Leviathan, Hobbes defines reason as “nothing but Reckoning”, the adding and subtracting of names. In De Corpore (1655) he puts it more plainly still, saying that by reasoning he understands computation. In 1985 the philosopher John Haugeland cast Hobbes as a prophet of artificial intelligence. The Stanford Encyclopedia of Philosophy finds that claim over-dramatic.
+  source: "Thomas Hobbes, Leviathan, printed for Andrew Crooke, London, 1651, ch. 5 (Project Gutenberg); Stewart Duncan, “Thomas Hobbes”, Stanford Encyclopedia of Philosophy, revised 2025, citing John Haugeland, Artificial Intelligence: The Very Idea, MIT Press, 1985, p. 23"
+  sourceUrl: https://plato.stanford.edu/entries/hobbes/
+  thread: reasoning
+  status: draft
+
+- id: 1642-pascaline
+  era: reckoning
+  year: 1642
+  title: Pascal's calculator
+  line: Pascal builds an adding machine to help his father, a tax collector.
+  who: Blaise Pascal
+  text: Blaise Pascal designed and built a calculating machine between 1642 and 1644, to help his father, a tax collector. Numbers were entered by turning its dials, and it could only add and subtract. He built 50 of them over the next ten years.
+  source: "Encyclopaedia Britannica, “Pascaline”"
+  sourceUrl: https://www.britannica.com/technology/Pascaline
+  thread: reasoning
+  status: draft

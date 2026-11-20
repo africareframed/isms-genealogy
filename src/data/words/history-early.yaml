@@ -1,0 +1,51 @@
+# Words born in the early history of AI (myths and automata, reckoning machines), for the
+# vocabulary. Same fields as words.yaml; ordered by year of coinage or earliest use, oldest first.
+# yearLabel "by …" means only an earliest documented use is known; origin says so.
+# status: draft until a checker agent has verified every claim against its source.
+
+- id: algorithm
+  word: algorithm
+  definition: A well-defined set of instructions for carrying out a task, step by step. Today the word often stands for the automated systems that rank, recommend and decide.
+  coinedBy: From the name of Muhammad ibn Musa al-Khwarizmi
+  year: 1230
+  yearLabel: c. 1230
+  origin: "The ninth-century Persian mathematician al-Khwarizmi popularised Hindu-Arabic numerals. His arithmetic was translated into Latin in the 12th century as Algoritmi de numero Indorum. English “algorism” is first recorded about 1230, and the word took its modern sense only in the late 19th century (Oxford English Dictionary, cited in Wikipedia, “Algorism”; NPR, “How ‘algorithm’ got its name from a 9th-century Persian mathematician”, 2026)."
+  sourceUrl: https://en.wikipedia.org/wiki/Algorism
+  status: draft
+
+- id: computer
+  word: computer
+  definition: A machine that carries out calculations and stored instructions. For centuries the word was a job title, for a person who did calculations by hand.
+  coinedBy: Richard Brathwait (earliest known use)
+  year: 1613
+  yearLabel: by 1613
+  origin: "Earliest use found, for a person who calculates: Richard Brathwait, The Yong Mans Gleanings, 1613. The sense of a calculating machine appears by 1869, and of an electronic machine shortly after the Second World War (David Wilton, Wordorigins.org)."
+  sourceUrl: https://www.wordorigins.org/big-list-entries/computer
+  status: draft
+
+- id: robot
+  word: robot
+  definition: A machine that senses, decides and acts on its own, often built to do human work. In the play that named them, robots were artificial workers who rose up against their makers.
+  coinedBy: Josef Čapek, for his brother Karel's play
+  year: 1920
+  origin: "Karel Čapek, R.U.R. (Rossum's Universal Robots), Aventinum, Prague, November 1920, where the word first appeared. Karel's brother Josef, a painter, suggested it; it comes from a Slavic root for labour with overtones of serfdom (Embassy of the Czech Republic in Tirana, mzv.gov.cz, 2021)."
+  sourceUrl: https://mzv.gov.cz/tirana/en/about_the_czech_republic/x100_year_ago_robot_was_born.html
+  status: draft
+
+- id: turing-machine
+  word: Turing machine
+  definition: An imaginary machine that reads and writes symbols on a tape, one square at a time, following a table of rules. It is the standard model for asking what can and cannot be computed.
+  coinedBy: Alonzo Church
+  year: 1937
+  origin: "Alan Turing described the machines in “On Computable Numbers”, Proceedings of the London Mathematical Society, 1936–37. Alonzo Church first called them Turing machines, in his 1937 review of the paper (Liesbeth De Mol, “Turing Machines”, Stanford Encyclopedia of Philosophy, 2025)."
+  sourceUrl: https://plato.stanford.edu/entries/turing-machine/
+  status: draft
+
+- id: robotics
+  word: robotics
+  definition: The science and technology of designing, building and using robots. It began as a science-fiction word and is now the name of an engineering field.
+  coinedBy: Isaac Asimov
+  year: 1941
+  origin: "Isaac Asimov, “Liar!”, Astounding Science-Fiction, May 1941, the earliest citation in the Historical Dictionary of Science Fiction. His Three Laws of Robotics followed in “Runaround”, March 1942."
+  sourceUrl: https://sfdictionary.com/view/101/
+  status: draft
