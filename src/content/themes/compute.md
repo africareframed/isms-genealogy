@@ -8,7 +8,7 @@ pageImage: collage-power-tall
 lead: "Compute is the computing power that trains and runs AI: states ration it, companies race to build it and laws measure models by it."
 isms:
   - ism: singularitarianism
-    text: Sam Altman treats compute as the main limit on what AI can do. In September 2025 he set OpenAI the aim of a factory producing “a gigawatt of new AI infrastructure every week”.
+    text: Sam Altman ties what AI can do to how much compute is built. With 10 gigawatts, he wrote in September 2025, AI might work out how to cure cancer. He set OpenAI the aim of a factory producing “a gigawatt of new AI infrastructure every week”.
   - ism: rationalism
     text: Compute is what rationalists would cap. In 2023 Eliezer Yudkowsky called for shutting down large GPU clusters and tracking every GPU sold. The draft treaty on the website of his 2025 book with Nate Soares bans training runs above 10²⁴ FLOP.
   - ism: effective-altruism
@@ -33,23 +33,23 @@ words:
   - compute threshold
   - gigawatt
   - Moore's law
-disputes: Sara Hooker argues that compute thresholds are a poor guide to risk. The link between compute and what a model can do, she says, is uncertain and shifting (2024). Nvidia's chief executive, Jensen Huang, called US export controls “a failure” in May 2025, saying they spurred Chinese rivals (Fortune). In December 2024 DeepSeek reported training its V3 model on only 2.788 million GPU hours. When its R1 model drew attention in January 2025, Nvidia's shares fell more than 17% in a day (Axios).
+disputes: Sara Hooker finds compute thresholds a poor guide to risk, as the link between compute and risk is highly uncertain and changing fast (2024). Nvidia's chief executive, Jensen Huang, called US export controls “a failure” in May 2025, saying they spurred Chinese rivals (Fortune). In December 2024 DeepSeek reported training its V3 model on only 2.788 million GPU hours. When its R1 model drew attention in January 2025, Nvidia's shares fell about 17% in a day (Axios).
 # Sources for the introduction, rows and disputes (for the checker):
 # - Amazon Web Services, "Announcing Amazon Elastic Compute Cloud (Amazon EC2) - beta", 24 August 2006
 # - Dario Amodei and Danny Hernandez, "AI and Compute", OpenAI, 16 May 2018
-# - Sam Altman, "Abundant Intelligence", blog.samaltman.com/abundant-intelligence (dated 24 September 2025 by PYMNTS)
+# - Sam Altman, "Abundant Intelligence", blog.samaltman.com/abundant-intelligence, 23 September 2025 (post timestamp; 10 gigawatts and cancer, gigawatt a week)
 # - Eliezer Yudkowsky, "Pausing AI Developments Isn't Enough. We Need to Shut it All Down", TIME, 29 March 2023
 # - "A Draft of a Treaty, with Annotations", ifanyonebuildsit.com/treaty, Article IV
 # - Ajeya Cotra, "Draft report on AI timelines", LessWrong, 18 September 2020
 # - Extropic, "Thermodynamic computing from zero to one", extropic.ai; Verdon as Beff Jezos: entry effective-accelerationism/2023-beff-jezos-named
 # - Sara Hooker, "On the Limitations of Compute Thresholds as a Governance Strategy", arXiv:2407.05694, July 2024
 # - Stuart Dyos, "Jensen Huang blasts U.S. curbs on the sale of Nvidia chips to China", Fortune, 22 May 2025
-# - DeepSeek-AI, "DeepSeek-V3 Technical Report", arXiv:2412.19437, 27 December 2024; Axios, "Nvidia shares plunge as DeepSeek promises new AI path", 27 January 2025
-status: draft
+# - DeepSeek-AI, "DeepSeek-V3 Technical Report", arXiv:2412.19437, 27 December 2024 (2.788M H800 GPU hours); Axios, "Nvidia shares plunge as DeepSeek promises new AI path", 27 January 2025 (down more than 17% at 3:45 pm; the close was about 17%)
+status: checked
 ---
 
 In AI, compute means the computation used to train or run a model, counted in floating-point operations, or FLOP. It comes from specialised chips, such as Nvidia's H100, housed in data centres.
 
 The word comes from computing jargon. In 2006 Amazon launched its Elastic Compute Cloud, renting out “resizable compute capacity”.
 
-It entered the AI debate in 2018, when Dario Amodei and Danny Hernandez of OpenAI measured the compute used in the largest training runs. Since 2012 it had doubled every 3.4 months, a rise of more than 300,000 times. Compute became the input to watch, and soon the one to control.
+In 2018 Dario Amodei and Danny Hernandez of OpenAI measured the compute used in the largest AI training runs. Since 2012 it had doubled every 3.4 months, a rise of more than 300,000 times. Compute became the input to watch, and soon the one to control.
