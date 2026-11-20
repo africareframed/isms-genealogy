@@ -10,7 +10,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [ ] Transhumanism — drafted from the mockup; needs checking and more figures' sources
   - [x] Singularitarianism (incl. successionism) — 14 entries, 11 figures, checked and merged
   - [x] Rationalism (incl. the call to pause) — 16 entries, 12 figures, checked and merged
-  - [ ] Effective altruism and longtermism — drafted (16 entries) on `ism/effective-altruism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
+  - [x] Effective altruism and longtermism — 16 entries, 10 figures, checked and merged
   - [ ] Effective accelerationism (incl. neoreaction and the network state) — drafted (16 entries) on `ism/effective-accelerationism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
   - [ ] Techno-optimism (incl. augmentation) — drafted (16 entries) on `ism/techno-optimism`; checker running. If the branch still has `status: draft` entries at the next run, run a checker on it.
 - [ ] **4. Themes.** Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Effective altruism checked and merged; card summary narrowed to longtermists.
 - 2026-11-20: The last three isms drafted; checks running.
 - 2026-11-20: Singularitarianism checked and merged. Research agents started for the last three isms.
 - 2026-11-20: Rationalism checked and merged (Wiener root set to attributed; Barlach NC image swapped for Barth, public domain). Image batch 1 approved; download blocked by allowlist.
