@@ -1,0 +1,75 @@
+# Notable figures for Rationalism (one file per ism). Portraits are added by the project team only:
+# put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+# Ids carry a -rationalism suffix so they stay unique when other isms add the same people.
+- id: nate-soares-rationalism
+  name: Nate Soares
+  lifespan: born 1989
+  isms: [rationalism]
+  note: President of MIRI and co-author of If Anyone Builds It, Everyone Dies.
+  entry: rationalism/2025-if-anyone-builds-it
+- id: max-tegmark-rationalism
+  name: Max Tegmark
+  lifespan: born 1967
+  isms: [rationalism]
+  note: MIT physicist who co-founded and chairs the Future of Life Institute, which organised the pause letter.
+  entry: rationalism/2023-six-month-pause-letter
+- id: nick-bostrom-rationalism
+  name: Nick Bostrom
+  lifespan: born 1973
+  isms: [rationalism]
+  note: Philosopher. His Superintelligence set out the control problem for a wide public.
+  entry: rationalism/2014-superintelligence
+- id: eliezer-yudkowsky-rationalism
+  name: Eliezer Yudkowsky
+  lifespan: born 1979
+  isms: [rationalism]
+  note: Writer and AI theorist. Founded LessWrong, co-founded MIRI, and now calls for a worldwide halt.
+  entry: rationalism/2009-lesswrong
+- id: robin-hanson-rationalism
+  name: Robin Hanson
+  lifespan: born 1959
+  isms: [rationalism]
+  note: Economist at George Mason University and, with Yudkowsky, the main writer of Overcoming Bias.
+  entry: rationalism/2006-overcoming-bias
+- id: daniel-kahneman-rationalism
+  name: Daniel Kahneman
+  lifespan: 1934–2024
+  isms: [rationalism]
+  note: Psychologist and Nobel laureate in economics, who mapped the biases of human judgement.
+  entry: rationalism/1974-heuristics-and-biases
+- id: amos-tversky-rationalism
+  name: Amos Tversky
+  lifespan: 1937–1996
+  isms: [rationalism]
+  note: Psychologist and Kahneman's partner in the study of heuristics and biases.
+  entry: rationalism/1974-heuristics-and-biases
+- id: ij-good-rationalism
+  name: I. J. Good
+  lifespan: 1916–2009
+  isms: [rationalism]
+  note: Statistician and Bletchley Park codebreaker who described the intelligence explosion.
+  entry: rationalism/1965-good
+- id: norbert-wiener-rationalism
+  name: Norbert Wiener
+  lifespan: 1894–1964
+  isms: [rationalism]
+  note: Mathematician and founder of cybernetics, who warned that machines may pursue the wrong purpose.
+  entry: rationalism/1960-wiener
+- id: alan-turing-rationalism
+  name: Alan Turing
+  lifespan: 1912–1954
+  isms: [rationalism]
+  note: Mathematician and computing pioneer, who expected machines one day to take control.
+  entry: rationalism/1951-turing
+- id: samuel-butler-rationalism
+  name: Samuel Butler
+  lifespan: 1835–1902
+  isms: [rationalism]
+  note: Novelist who imagined machines evolving to replace their makers.
+  entry: rationalism/1863-butler
+- id: thomas-bayes-rationalism
+  name: Thomas Bayes
+  lifespan: c. 1701–1761
+  isms: [rationalism]
+  note: Presbyterian minister whose theorem on probability the rationalists made their model of reasoning.
+  entry: rationalism/1763-bayes
