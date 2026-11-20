@@ -16,7 +16,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 - [ ] **4. Themes.** In progress 20 Nov 15:10: agent A (branch `themes/a`: Abundance revision, Power, The tool, Scale) and agent B (branch `themes/b`: Rights and dignity, Self-determination, Critique), then a checker each. Abundance drafted; then Power, The tool, Scale, Rights and dignity, Self-determination, Critique. Each needs one line per ism, strands, words, disputes.
 - [ ] **5. Images.** Batch 1 (17 files) approved and downloaded 20 Nov into the owner's folder (batch-01/), resized to 1800 px JPEGs in public/images/, records filled. Network access now allows these hosts. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
-- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
+- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
 
 ## Notes
 
