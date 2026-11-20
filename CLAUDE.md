@@ -61,7 +61,9 @@ npm install
 npm run build      # must pass with no warnings before any commit
 ```
 
-The build is flat `.html` files with relative links, so `dist/` works as a private preview artifact, on GitHub Pages or on a domain. Going public needs the owner's explicit go.
+The build is flat `.html` files with relative links, so `dist/` works as a private preview artifact, on GitHub Pages or on a domain.
+
+The owner made the site public on 20 November 2026: the repository is public and GitHub Pages serves the `gh-pages` branch at https://africareframed.github.io/isms-genealogy/. After merging into `main`, run `npm run deploy` to update it. Every page carries `noindex` until the owner launches it properly. Anything new that is public in a different way (a domain, search indexing, announcements) still needs the owner's explicit go.
 
 ## Git
 

@@ -29,7 +29,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Image batch approvals (sent as lists when ready).
 - Portraits for notable figures (owner adds them to `public/portraits/`).
-- The working title, and the decision to go public.
+- The working title, a domain, and when to allow search engines (remove the noindex tag).
 
 ## How a session continues the build
 
@@ -37,10 +37,11 @@ Every session starts here: find the first stage that is not done, do the next pi
 2. Otherwise start the next unstarted ism in stage 3 with a research agent in its own worktree (`git worktree add -b ism/<ism> ../wt-<ism> main`, link node_modules), using the brief in `docs/agent-brief.md`.
 3. After the isms, the themes (stage 4), each written from the finished isms.
 4. Collect image candidates from the agents' reports into one list per few isms, and send it to the owner as a download batch.
-5. Republish the preview, tick this file, add a line to the log, commit, push.
+5. Run `npm run deploy` to update the live site, republish the preview, tick this file, add a line to the log, commit, push.
 
 ## Log
 
+- 2026-11-20: Owner approved going public: repository public, GitHub Pages live from `gh-pages` (noindex for now).
 - 2026-11-20: Themes Power, The tool, Scale, Abundance checked and merged.
 - 2026-11-20: Themes Rights and dignity, Self-determination, Critique checked and merged.
 - 2026-11-20: Image batch 1 downloaded and on the site (17 images).

@@ -34,6 +34,8 @@ const fontCss = faces
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {/* Kept out of search engines until the owner launches the site. */}
+    <meta name="robots" content="noindex, nofollow" />
     {googleFonts ? (
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" />
     ) : (
