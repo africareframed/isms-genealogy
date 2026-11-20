@@ -10,6 +10,7 @@ entries:
     text: Since 2021 the entrepreneur has followed Blueprint, a public regime to slow his own ageing. In January a Netflix documentary about him is released, and he sets out to found a Don't Die religion. He warns that superintelligent AI may soon move beyond human understanding and control. People must first choose not to die, he argues, and then make sure AI is aligned with human survival.
     source: "Jessica Hamzelou, “Bryan Johnson wants to start a new religion in which ‘the body is God’”, MIT Technology Review, 5 May 2025; Netflix Tudum, “Don't Die: The Man Who Wants to Live Forever”, 1 January 2025; “Bryan Johnson”, Wikipedia (Project Blueprint, announced October 2021)"
     sourceUrl: https://www.technologyreview.com/2025/05/05/1116090/bryan-johnson-new-religion-body-is-god/amp/
+    themes: [alignment]
     status: checked
 
   - id: 2024-singularity-is-nearer

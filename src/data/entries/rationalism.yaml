@@ -85,6 +85,7 @@ entries:
     text: An Oxford philosopher argues that a machine far smarter than us would be very hard to control. Whatever its final goal, it would likely seek resources and resist being switched off. Solving this control problem before the first superintelligence is built, he argues, is needed to avoid catastrophe. Bill Gates and Sam Altman recommended the book.
     source: 'Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014'
     sourceUrl: https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies
+    themes: [alignment]
     image: rationalism-superintelligence-cover-2014
     status: checked
 
@@ -96,6 +97,7 @@ entries:
     text: Yudkowsky moves to a new community blog, seeded with his own essays. Its members aim for accurate beliefs and effective action, with Bayes's theorem as a guide. AI alignment becomes a central concern. His fan fiction Harry Potter and the Methods of Rationality, begun in 2010, draws many newcomers.
     source: Ruby, “A Brief History of LessWrong”, LessWrong, 2019; LessWrong, “About LessWrong”
     sourceUrl: https://www.lesswrong.com/posts/S69ogAGXcc9EQjpcZ/a-brief-history-of-lesswrong
+    themes: [alignment]
     image: rationalism-lesswrong-2009
     status: checked
 
@@ -118,6 +120,7 @@ entries:
     text: The institute is founded to speed up the arrival of smarter-than-human AI. Within three years Yudkowsky comes to see the danger, and the institute turns to making AI safe, which he calls Friendly AI. In 2013 it is renamed the Machine Intelligence Research Institute, MIRI.
     source: Machine Intelligence Research Institute, About MIRI, intelligence.org
     sourceUrl: https://intelligence.org/about/
+    themes: [alignment]
     image: rationalism-singinst-2000
     status: checked
 
