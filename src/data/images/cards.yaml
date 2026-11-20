@@ -111,3 +111,31 @@
   fit: contain
   alt: "Coloured engraving of a figure in a dress pointing ahead while a mill burns behind"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Luddite.jpg"
+# Batch 2 (20 Nov 2026): replacements for card images still under copyright
+- id: frankenstein-1831
+  title: "Theodor von Holst, frontispiece to Frankenstein, 1831 edition"
+  date: "1831"
+  creator: "Theodor von Holst"
+  rights: public-domain
+  file: "frankenstein-1831.jpg"
+  fit: contain
+  alt: "Engraving of Victor Frankenstein recoiling as his creature wakes in a gothic laboratory"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Frontispiece_to_Frankenstein_1831.jpg"
+- id: moores-law-chart
+  title: "Transistor counts per chip, 1970–2020, Our World in Data"
+  date: "2020"
+  rights: open-licence
+  licence: "CC BY 4.0, Max Roser and Hannah Ritchie"
+  file: "moores-law-chart.jpg"
+  fit: contain
+  alt: "Chart on a log scale showing transistor counts per microchip doubling roughly every two years"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Moore%27s_Law_Transistor_Count_1970-2020.png"
+- id: blue-marble-1972
+  title: "The Earth seen from Apollo 17, “The Blue Marble”"
+  date: "1972"
+  creator: "NASA / Apollo 17 crew"
+  rights: public-domain
+  file: "blue-marble-1972.jpg"
+  fit: contain
+  alt: "The whole Earth seen from space, with Africa and the Antarctic ice cap"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"

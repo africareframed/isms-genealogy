@@ -1,6 +1,6 @@
 # Image batch 2 — 20 November 2026
 
-Status: waiting for the owner's yes. For the three ism cards that still had placeholders (their first choices are copyrighted). Licences read via the Wikimedia Commons API.
+Status: approved and downloaded 20 Nov 2026 into batch-02/; checked by eye, no real people shown. For the three ism cards that still had placeholders (their first choices are copyrighted). Licences read via the Wikimedia Commons API.
 
 | # | Image id (site) | For | What it shows | File page | File | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
