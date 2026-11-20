@@ -1,0 +1,152 @@
+# The history of AI, era "deep-learning" (2012 to 2017), newest first.
+# Fields: see src/content.config.ts (history). thread: one of the story lines (validated after merge).
+# status: draft until a checker agent has verified every claim against its source.
+
+- id: 2017-asilomar-principles
+  era: deep-learning
+  year: 2017
+  month: 1
+  title: The Asilomar AI Principles
+  line: AI researchers and others agree on 23 principles for beneficial AI.
+  who: Future of Life Institute
+  text: At a conference at Asilomar in January 2017, participants drew up 23 principles for beneficial AI. Each won the support of at least 90% of participants, in a survey after group discussions. They included aligning highly autonomous systems with human values, and avoiding an arms race in lethal autonomous weapons.
+  source: The FLI Team, “A Principled AI Discussion in Asilomar”, Future of Life Institute, 18 January 2017
+  sourceUrl: https://futureoflife.org/2017/01/17/principled-ai-discussion-asilomar/
+  isms: []
+  themes: [alignment]
+  thread: warnings
+  status: draft
+
+- id: 2016-alphago
+  era: deep-learning
+  year: 2016
+  month: 3
+  title: AlphaGo beats Lee Sedol
+  line: A program defeats one of the world's best Go players, four games to one.
+  who: DeepMind; Lee Sedol
+  text: In Seoul, from 9 to 15 March 2016, DeepMind's AlphaGo beat Lee Sedol by four games to one. Lee was a nine-dan professional with 18 world titles. In the second game AlphaGo played a move that had a one-in-10,000 chance of being played by a human. Lee won the fourth game with a move just as unlikely.
+  source: Demis Hassabis, “What we learned in Seoul with AlphaGo”, Google, 16 March 2016; British Go Association, “Google DeepMind Challenge Match – Lee Sedol v AlphaGo – match report”
+  sourceUrl: https://blog.google/technology/ai/what-we-learned-in-seoul-with-alphago/
+  isms: []
+  themes: []
+  thread: games
+  status: draft
+
+- id: 2015-openai-founded
+  era: deep-learning
+  year: 2015
+  month: 12
+  title: OpenAI is founded
+  line: A non-profit lab launches with $1 billion pledged to make AI benefit everyone.
+  who: Sam Altman, Elon Musk, Greg Brockman, Ilya Sutskever
+  text: OpenAI launched as a non-profit research company, free of any need to make a financial return. Its aim was to advance digital intelligence in the way most likely to benefit humanity as a whole. Backers including Sam Altman, Elon Musk, Greg Brockman, Reid Hoffman and Peter Thiel committed $1 billion. Altman and Musk were co-chairs, and Ilya Sutskever was research director.
+  source: OpenAI, “Introducing OpenAI”, 11 December 2015
+  sourceUrl: https://openai.com/index/introducing-openai/
+  isms: []
+  themes: []
+  thread: booms-winters
+  status: draft
+
+- id: 2015-puerto-rico-conference
+  era: deep-learning
+  year: 2015
+  month: 1
+  title: The Puerto Rico conference
+  line: AI builders meet on safety, and an open letter calls for beneficial AI.
+  who: Future of Life Institute; Elon Musk
+  text: In January 2015 the Future of Life Institute brought leading AI researchers from academia and industry to Puerto Rico. An open letter that followed called for research to make increasingly capable AI robust and beneficial. Stuart Russell, Demis Hassabis and Stephen Hawking were among its signers. Within two weeks of the meeting Elon Musk gave the institute $10 million for such research.
+  source: "Future of Life Institute, AI conference page, Puerto Rico, 2–5 January 2015; Future of Life Institute, “Research Priorities for Robust and Beneficial Artificial Intelligence: An Open Letter”, January 2015; Devindra Hardawar, “Elon Musk donates $10M to keep AI from going full Skynet”, Engadget, 15 January 2015"
+  sourceUrl: https://futureoflife.org/open-letter/ai-open-letter/
+  isms: []
+  themes: [alignment]
+  thread: warnings
+  status: draft
+
+- id: 2014-superintelligence
+  era: deep-learning
+  year: 2014
+  month: 7
+  title: Bostrom's Superintelligence
+  line: A philosopher argues that a machine smarter than us could decide our fate.
+  who: Nick Bostrom
+  text: The Oxford philosopher Nick Bostrom argued that machines may one day surpass humans in general intelligence. Such a superintelligence could become very powerful, and humanity's fate could depend on it, as the fate of gorillas now depends on us. Its makers have one advantage, he wrote, which is that they get the first move. The book asks how to use it to make an intelligence explosion survivable.
+  source: "Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 3 July 2014; Oxford Martin School, University of Oxford, publication page"
+  sourceUrl: https://www.oxfordmartin.ox.ac.uk/publications/superintelligence-paths-dangers-strategies
+  isms: [rationalism]
+  themes: [alignment]
+  thread: warnings
+  status: draft
+
+- id: 2014-gans
+  era: deep-learning
+  year: 2014
+  month: 6
+  title: Generative adversarial networks
+  line: Two networks compete, one forging data and the other spotting fakes.
+  who: Ian Goodfellow, Yoshua Bengio and colleagues, Université de Montréal
+  text: Ian Goodfellow and colleagues at the Université de Montréal proposed a new way to train networks that generate data. A generator makes samples, while a discriminator tries to tell them apart from real training data. The generator is trained to make the discriminator err, in a two-player game.
+  source: Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza and others, “Generative Adversarial Networks”, arXiv:1406.2661, 10 June 2014
+  sourceUrl: https://arxiv.org/abs/1406.2661v1
+  isms: []
+  themes: []
+  thread: symbols-networks
+  status: draft
+
+- id: 2014-google-deepmind
+  era: deep-learning
+  year: 2014
+  month: 1
+  title: Google buys DeepMind
+  line: Google buys the London AI start-up, reportedly for more than $500 million.
+  who: Google; Demis Hassabis, Shane Legg, Mustafa Suleyman
+  text: Google bought DeepMind, a London company founded by Demis Hassabis, Shane Legg and Mustafa Suleyman. The Information reported a price of more than $500 million. Google reportedly agreed to set up an ethics board, so that DeepMind's technology would not be abused. Facebook had reportedly held talks to buy it in late 2013.
+  source: Catherine Shu, “Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M”, TechCrunch, 26 January 2014
+  sourceUrl: https://techcrunch.com/2014/01/26/google-deepmind/
+  isms: []
+  themes: []
+  thread: booms-winters
+  status: draft
+
+- id: 2013-dnnresearch
+  era: deep-learning
+  year: 2013
+  month: 3
+  title: Google buys DNNresearch
+  line: Google hires the ImageNet winners by buying their start-up.
+  who: Google; Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
+  text: Google bought DNNresearch, the start-up Geoffrey Hinton had formed in 2012 with his students Alex Krizhevsky and Ilya Sutskever. It wanted their work on deep neural networks for image and voice search. Krizhevsky and Sutskever moved to Google, while Hinton split his time between Google and the University of Toronto. The terms were not disclosed.
+  source: University of Toronto News, “Google acquires U of T neural networks company”, 12 March 2013; Rip Empson, “Google Scoops Up Neural Networks Startup DNNresearch To Boost Its Voice And Image Search Tech”, TechCrunch, 12 March 2013
+  sourceUrl: https://www.utoronto.ca/news/google-acquires-u-t-neural-networks-company
+  isms: []
+  themes: []
+  thread: booms-winters
+  status: draft
+
+- id: 2013-word-vectors
+  era: deep-learning
+  year: 2013
+  month: 1
+  title: Words as vectors
+  line: Google researchers turn words into numbers that capture their meaning.
+  who: Tomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean, Google
+  text: Tomas Mikolov and colleagues at Google showed how to learn a list of numbers, a vector, for each word from huge amounts of text. Training on 1.6 billion words took less than a day. Simple sums on the vectors captured meaning, so that king minus man plus woman landed closest to queen.
+  source: Tomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean, “Efficient Estimation of Word Representations in Vector Space”, arXiv:1301.3781, 16 January 2013
+  sourceUrl: https://arxiv.org/abs/1301.3781v1
+  isms: []
+  themes: []
+  thread: symbols-networks
+  status: draft
+
+- id: 2012-imagenet
+  era: deep-learning
+  year: 2012
+  title: A deep network wins ImageNet
+  line: A neural network wins an image-recognition contest by a wide margin.
+  who: Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton, University of Toronto
+  text: A University of Toronto team, Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton, won the 2012 ImageNet image-recognition challenge. Its deep convolutional network missed the right label in its top five guesses for 15.3% of test images, against 26.2% for the runner-up. The network had 60 million parameters and took five to six days to train on two GTX 580 graphics cards.
+  source: Alex Krizhevsky, Ilya Sutskever and Geoffrey E. Hinton, “ImageNet Classification with Deep Convolutional Neural Networks”, Advances in Neural Information Processing Systems 25 (NIPS 2012); ImageNet, “ImageNet Large Scale Visual Recognition Competition 2012 (ILSVRC2012)”, results
+  sourceUrl: https://www.image-net.org/challenges/LSVRC/2012/results
+  isms: []
+  themes: [compute]
+  thread: symbols-networks
+  status: draft
