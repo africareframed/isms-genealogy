@@ -9,13 +9,13 @@
   title: GPT-6 and “the AGI era”
   line: OpenAI's president greets its new model with talk of AGI.
   who: OpenAI; Greg Brockman
-  text: On 3 September 2026 OpenAI released GPT-6 Astra, trained on more than 100,000 GPUs at its Stargate site in Texas. It had slowed the release for safety tests, after finding that its cyber skills could reach the “critical” level in OpenAI's own framework. Its president, Greg Brockman, told reporters, “Welcome to the AGI era.” He said he personally believed OpenAI had reached AGI, but made no formal declaration.
-  source: Axios, “‘Welcome to the AGI era,’ OpenAI says as GPT-6 Astra debuts”, 3 September 2026; Camila Nogueira, “OpenAI launches GPT-6 Astra, claims AGI era has begun”, BetaNews, September 2026
+  text: On 3 September 2026 OpenAI began releasing GPT-6 Astra, first to selected organisations. It was trained on more than 100,000 GPUs at OpenAI's Stargate site in Texas. OpenAI had slowed the release for extra safety tests, after finding that its cyber skills could reach the “critical” level of its own framework. Its president, Greg Brockman, told reporters “Welcome to the AGI era”, a personal view rather than a formal declaration.
+  source: Axios, “‘Welcome to the AGI era,’ OpenAI says as GPT-6 Astra debuts”, 3 September 2026; Camila Nogueira, “OpenAI launches GPT-6 Astra, claims AGI era has begun”, BetaNews, September 2026; Jess Kinghorn, “Jensen Huang says 100,000 Nvidia GPUs were used to train OpenAI's latest model, GPT-6 Astra …”, PC Gamer, 7 September 2026
   sourceUrl: https://axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman
   isms: []
   themes: []
   thread: talking
-  status: draft
+  status: checked
 
 - id: 2026-anthropic-pentagon
   era: generative
@@ -24,13 +24,13 @@
   title: Anthropic and the Pentagon
   line: A lab refuses two military uses, and the Pentagon labels it a supply-chain risk.
   who: Anthropic; Pete Hegseth, US defence secretary; OpenAI
-  text: "In early 2026 the Pentagon asked AI companies to allow any lawful military use of their models. Anthropic refused to drop two limits: no mass surveillance of Americans, and no weapons that fire without human control. On 27 February the defence secretary, Pete Hegseth, said it would be named a supply-chain risk, a label usually kept for foreign adversaries. Within hours OpenAI announced a deal to replace it in classified settings, and the designation became official in March."
-  source: "Axios, “Trump blacklists Anthropic: Here's what being a ‘supply chain risk’ means”, 27 February 2026; NPR, “Pentagon labels AI company Anthropic a supply chain risk”, 6 March 2026"
+  text: "In early 2026 the Pentagon sought any lawful use of AI models, but Anthropic ruled out mass surveillance of Americans and fully autonomous weapons. On 27 February the defence secretary, Pete Hegseth, moved to label it a supply-chain risk, a tag usually kept for foreign adversaries. Within hours OpenAI announced its own deal with the Pentagon, and the designation was made official on 5 March. Anthropic sued: in August a federal judge ruled the designation unlawful, but in September an appeals court upheld a parallel one."
+  source: "Axios, “Trump blacklists Anthropic: Here's what being a ‘supply chain risk’ means”, 27 February 2026; NPR, “OpenAI announces Pentagon deal after Trump bans Anthropic”, 27 February 2026; NPR, “Pentagon labels AI company Anthropic a supply chain risk”, March 2026; Rebecca Bellan, “It's official: The Pentagon has labeled Anthropic a supply-chain risk”, TechCrunch, 5 March 2026; Associated Press, “Judge says Pentagon's measures against Anthropic were ‘illegal and baseless’”, PBS News, 28 August 2026; Axios, “Judge blocks Pentagon's Anthropic blacklist”, 28 August 2026; Al Jazeera, “US court upholds Pentagon's blacklisting of Anthropic”, 25 September 2026"
   sourceUrl: https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk
   isms: []
   themes: []
   thread: law
-  status: draft
+  status: checked
 
 - id: 2025-stargate
   era: generative
@@ -45,7 +45,7 @@
   isms: []
   themes: [compute]
   thread: compute
-  status: draft
+  status: checked
 
 - id: 2025-deepseek-r1
   era: generative
@@ -54,13 +54,13 @@
   title: DeepSeek-R1
   line: A Chinese lab gives away a reasoning model, and Nvidia's shares fall 17%.
   who: DeepSeek
-  text: On 20 January 2025 the Chinese company DeepSeek released R1, a reasoning model it said performed on par with OpenAI's o1. Its weights were free to download and adapt under the MIT licence. The accompanying paper reported that reasoning can be taught through reinforcement learning, without human-labelled examples of reasoning. A week later Nvidia's shares fell 16.9% in one trading day, losing nearly $600 billion in market value.
+  text: On 20 January 2025 the Chinese company DeepSeek released R1, a reasoning model it said performed on par with OpenAI's o1. Its weights were free to download and adapt under the MIT licence. Its paper reported that strong reasoning emerged in a sibling model, R1-Zero, trained by reinforcement learning without first studying labelled examples. A week later Nvidia's shares fell 16.9% in one trading day, losing nearly $600 billion in market value.
   source: "DeepSeek, “DeepSeek-R1 Release”, DeepSeek API Docs, 20 January 2025; DeepSeek-AI, “DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning”, arXiv:2501.12948, 22 January 2025; Rebecca Szkutak, “Nvidia drops $600B off its market cap amid the rise of DeepSeek”, TechCrunch, 27 January 2025"
   sourceUrl: https://api-docs.deepseek.com/news/news250120
   isms: []
   themes: [compute]
   thread: compute
-  status: draft
+  status: checked
 
 - id: 2024-nobel-prizes
   era: generative
@@ -75,7 +75,7 @@
   isms: []
   themes: []
   thread: symbols-networks
-  status: draft
+  status: checked
 
 - id: 2024-o1-reasoning
   era: generative
@@ -90,7 +90,7 @@
   isms: []
   themes: [scaling-laws]
   thread: reasoning
-  status: draft
+  status: checked
 
 - id: 2024-eu-ai-act
   era: generative
@@ -105,7 +105,7 @@
   isms: []
   themes: [facial-recognition]
   thread: law
-  status: draft
+  status: checked
 
 - id: 2023-openai-board-crisis
   era: generative
@@ -115,34 +115,34 @@
   line: OpenAI's board removes Sam Altman, and within two weeks he is back.
   who: OpenAI's board; Sam Altman
   text: On 17 November 2023 OpenAI's board removed Sam Altman as chief executive, saying he had been “not consistently candid” with it. Nearly all the company's staff threatened to quit and join him at Microsoft unless the directors resigned. By the end of the month Altman was back, under a new board chaired by Bret Taylor. Two departing directors, Helen Toner and Tasha McCauley, had ties to effective altruism.
-  source: OpenAI, “OpenAI announces leadership transition”, 17 November 2023; OpenAI, “Sam Altman returns as CEO, OpenAI has a new initial board”, 29 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023
+  source: OpenAI, “OpenAI announces leadership transition”, 17 November 2023; OpenAI, “Sam Altman returns as CEO, OpenAI has a new initial board”, 29 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023 (staff threat and the two directors' ties to effective altruism)
   sourceUrl: https://openai.com/index/openai-announces-leadership-transition/
   isms: [effective-altruism]
   themes: []
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2023-bletchley-summit
   era: generative
   year: 2023
   month: 11
   title: The Bletchley Park summit
-  line: Twenty-eight countries and the EU sign a declaration on the risks of frontier AI.
+  line: Twenty-eight countries and the EU agree a declaration on the risks of frontier AI.
   who: UK government; 28 countries and the European Union
-  text: On 1 and 2 November 2023 the British government hosted an AI Safety Summit at Bletchley Park. Twenty-eight countries and the European Union, the United States and China among them, signed the Bletchley Declaration. It warned of the potential for “serious, even catastrophic, harm” from the most capable frontier models. The signers pledged to support shared research on frontier AI safety, and to meet again in 2024.
+  text: On 1 and 2 November 2023 the British government hosted an AI Safety Summit at Bletchley Park. Twenty-eight countries and the European Union, the United States and China among them, agreed the Bletchley Declaration. It warned of the potential for “serious, even catastrophic, harm” from the most capable frontier models. They pledged to support shared research on frontier AI safety, and to meet again in 2024.
   source: UK Government, “The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023”, GOV.UK, 1 November 2023
   sourceUrl: https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023
   isms: []
   themes: []
   thread: law
-  status: draft
+  status: checked
 
 - id: 2023-us-executive-order
   era: generative
   year: 2023
   month: 10
   title: Biden's executive order on AI
-  line: The White House makes developers of the largest models report to it.
+  line: The White House requires developers of the largest models to report to the government.
   who: President Joe Biden; revoked by President Donald Trump
   text: On 30 October 2023 President Biden signed Executive Order 14110, on the safe, secure and trustworthy development of AI. Under the Defense Production Act, developers of the most powerful models had to report their training and red-team test results. The threshold was training with more than 10²⁶ operations. President Trump revoked the order on 20 January 2025.
   source: Executive Order 14110, “Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence”, 30 October 2023, Federal Register 88 FR 75191, 1 November 2023, revoked by Executive Order 14148, 20 January 2025
@@ -150,7 +150,7 @@
   isms: []
   themes: [compute]
   thread: law
-  status: draft
+  status: checked
 
 - id: 2023-extinction-statement
   era: generative
@@ -160,12 +160,12 @@
   line: Lab leaders and pioneers rank AI's extinction risk with pandemics and nuclear war.
   who: Center for AI Safety; Geoffrey Hinton
   text: In May 2023 the Center for AI Safety published a single sentence. “Mitigating the risk of extinction from AI should be a global priority,” it said, alongside pandemics and nuclear war. Signers included Yoshua Bengio, Geoffrey Hinton and the heads of OpenAI, Google DeepMind and Anthropic. Weeks earlier Hinton had left Google, so that he could speak freely about the risks of AI.
-  source: Center for AI Safety, “Statement on AI Risk”, 30 May 2023; Katyanna Quach, “Top Google boffin Hinton quits, warns of AI danger, partly regrets life's work”, The Register, 1 May 2023
+  source: Center for AI Safety, “Statement on AI Risk”, and its press release, 30 May 2023; Katyanna Quach, “Top Google boffin Hinton quits, warns of AI danger, partly regrets life's work”, The Register, 1 May 2023
   sourceUrl: https://safe.ai/work/statement-on-ai-risk
   isms: [rationalism]
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2023-pause-letter
   era: generative
@@ -180,7 +180,7 @@
   isms: [rationalism]
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2023-gpt-4
   era: generative
@@ -195,14 +195,14 @@
   isms: []
   themes: []
   thread: talking
-  status: draft
+  status: checked
 
 - id: 2023-llama
   era: generative
   year: 2023
   month: 2
   title: Meta's Llama and open weights
-  line: Meta shares its models' weights, first through a leak, then by choice.
+  line: Meta's LLaMA leaks online, and Llama 2 is released with its weights.
   who: Meta
   text: On 24 February 2023 Meta announced LLaMA, large language models of up to 65 billion parameters, for approved researchers only. Within two weeks the full model had leaked, after instructions for downloading it were posted on 4chan. In July Meta released Llama 2 free for research and commercial use, with its weights. Meta argued that openness made models safer, because developers could stress-test them.
   source: "Meta AI, “Introducing LLaMA: A foundational, 65-billion-parameter large language model”, 24 February 2023; Katyanna Quach, “LLaMA drama as Meta's mega language model leaks”, The Register, 8 March 2023; Meta, “Meta and Microsoft Introduce the Next Generation of Llama”, 18 July 2023"
@@ -210,7 +210,7 @@
   isms: []
   themes: []
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2022-chatgpt
   era: generative
@@ -219,10 +219,10 @@
   title: ChatGPT is released
   line: OpenAI's free chatbot reaches an estimated 100 million users in two months.
   who: OpenAI
-  text: On 30 November 2022 OpenAI released ChatGPT, a chatbot fine-tuned from a GPT-3.5 model, as a free research preview. Feedback from human trainers taught it to answer follow-up questions, admit mistakes and decline inappropriate requests. OpenAI warned that its answers could sound plausible yet be wrong. By January it had about 100 million monthly users, according to Similarweb data.
+  text: On 30 November 2022 OpenAI released ChatGPT, a chatbot fine-tuned from a GPT-3.5 model, as a free research preview. Trained with feedback from human trainers, it could answer follow-up questions, admit mistakes and decline inappropriate requests. OpenAI warned that its answers could sound plausible yet be wrong. By January it had about 100 million monthly users, according to Similarweb data.
   source: OpenAI, “Introducing ChatGPT”, 30 November 2022; Andrew R. Chow, “How ChatGPT Managed to Grow Faster Than TikTok or Instagram”, TIME, 8 February 2023
   sourceUrl: https://openai.com/index/chatgpt/
   isms: []
   themes: []
   thread: talking
-  status: draft
+  status: checked

@@ -15,7 +15,7 @@
   isms: []
   themes: []
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2022-chinchilla
   era: scale
@@ -30,7 +30,7 @@
   isms: []
   themes: [scaling-laws, compute]
   thread: compute
-  status: draft
+  status: checked
 
 - id: 2021-anthropic-founded
   era: scale
@@ -39,20 +39,20 @@
   title: Anthropic is founded
   line: A former OpenAI research chief starts a company focused on AI safety.
   who: Dario Amodei, Daniela Amodei
-  text: Dario Amodei, formerly OpenAI's vice-president of research, founded Anthropic with his sister Daniela. They set it up as a public benefit corporation and called it an AI safety and research company. In May 2021 it raised $124 million, led by Jaan Tallinn, with Dustin Moskovitz and Eric Schmidt among the backers. It aimed to make large AI systems more reliable, interpretable and steerable.
+  text: Dario Amodei, formerly OpenAI's vice-president of research, founded Anthropic with his sister Daniela. They set it up as a public benefit corporation and called it an AI safety and research company. In May 2021 it raised $124 million, led by Jaan Tallinn, with Dustin Moskovitz and Eric Schmidt among the backers. It aimed to build large AI systems that are steerable, interpretable and robust.
   source: Anthropic, “Anthropic raises $124 million to build more reliable, general AI systems”, 28 May 2021; Devin Coldewey, “Anthropic is the new AI research outfit from OpenAI's Dario Amodei, and it has $124M to burn”, TechCrunch, 28 May 2021
   sourceUrl: https://anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems
   isms: []
   themes: [alignment]
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2020-alphafold-2
   era: scale
   year: 2020
   month: 11
   title: AlphaFold 2 at CASP14
-  line: DeepMind's AlphaFold predicts protein shapes about as well as laboratory methods.
+  line: DeepMind's AlphaFold predicts protein shapes with accuracy rivalling laboratory methods.
   who: DeepMind
   text: Predicting a protein's 3D shape from its sequence of amino acids had challenged biologists for about 50 years. At the CASP14 prediction contest, DeepMind's AlphaFold reached a median score of 92.4 GDT across all targets. A score of around 90 is informally considered competitive with experimental methods.
   source: "DeepMind, “AlphaFold: a solution to a 50-year-old grand challenge in biology”, 30 November 2020"
@@ -60,7 +60,7 @@
   isms: []
   themes: []
   thread: symbols-networks
-  status: draft
+  status: checked
 
 - id: 2020-gpt-3
   era: scale
@@ -75,7 +75,7 @@
   isms: []
   themes: [scaling-laws]
   thread: talking
-  status: draft
+  status: checked
 
 - id: 2020-scaling-laws
   era: scale
@@ -83,14 +83,14 @@
   month: 1
   title: Scaling laws
   line: OpenAI researchers find that language models improve along smooth, predictable curves.
-  who: Jared Kaplan, Sam McCandlish and colleagues, OpenAI
-  text: Jared Kaplan, Sam McCandlish and colleagues measured how language models improve as they grow. The models' error fell along smooth power laws in model size, data and training compute. Some trends held across more than seven orders of magnitude. The curves showed how best to spend a fixed computing budget, on very large models trained on modest data.
+  who: Jared Kaplan (Johns Hopkins University and OpenAI), Sam McCandlish and colleagues at OpenAI
+  text: Jared Kaplan, Sam McCandlish and colleagues measured how language models improve as they grow. The models' prediction error fell along smooth power laws in model size, data and training compute. Some trends held across more than seven orders of magnitude. The curves showed how best to spend a fixed computing budget, on very large models trained on modest data.
   source: Jared Kaplan, Sam McCandlish and others, “Scaling Laws for Neural Language Models”, arXiv:2001.08361, 23 January 2020
   sourceUrl: https://arxiv.org/abs/2001.08361v1
   isms: []
   themes: [scaling-laws, compute]
   thread: compute
-  status: draft
+  status: checked
 
 - id: 2019-openai-capped-profit
   era: scale
@@ -105,7 +105,7 @@
   isms: []
   themes: [compute]
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2019-gpt-2
   era: scale
@@ -120,7 +120,7 @@
   isms: []
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2018-bert
   era: scale
@@ -135,7 +135,7 @@
   isms: []
   themes: []
   thread: symbols-networks
-  status: draft
+  status: checked
 
 - id: 2017-transformer
   era: scale
@@ -150,4 +150,4 @@
   isms: []
   themes: []
   thread: symbols-networks
-  status: draft
+  status: checked

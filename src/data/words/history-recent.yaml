@@ -3,26 +3,15 @@
 # yearLabel "by …" means only an earliest documented use is known; origin says so.
 # status: draft until a checker agent has verified every claim against its source.
 
-- id: large-language-model
-  word: large language model
-  definition: A language model trained on vast amounts of text. Today the phrase usually means a neural network with billions of parameters that learns to predict the next piece of text, such as the GPT models behind ChatGPT.
-  coinedBy: Thorsten Brants and colleagues at Google (earliest use found)
-  year: 2007
-  yearLabel: by 2007
-  origin: "Earliest use found here: Thorsten Brants, Ashok C. Popat, Peng Xu, Franz J. Och and Jeffrey Dean, “Large Language Models in Machine Translation”, Proceedings of EMNLP-CoNLL 2007, Prague, Association for Computational Linguistics, pp. 858–867. Meta's announcement of LLaMA (24 February 2023) calls it a large language model. The GPT-4 technical report (2023) describes a model pre-trained to predict the next token."
-  sourceUrl: https://aclanthology.org/D07-1090/
-  isms: []
-  status: draft
-
 - id: hallucination
   word: hallucination
   definition: False or made-up output that an AI system presents as if it were true, such as an invented fact, quotation or link. Cambridge Dictionary added this sense in 2023.
   year: 2015
-  yearLabel: by 2015
-  origin: "In computer vision the word was used from 1986 in a positive sense, for adding plausible detail to an image, and machine-translation researchers used it for a failure mode in the 2000s (Wikipedia, “Hallucination (artificial intelligence)”). Earliest dated use found here for an invented output: Andrej Karpathy, “The Unreasonable Effectiveness of Recurrent Neural Networks”, blog post, 21 May 2015, of a web link his model made up. After ChatGPT's release in 2022 it became the usual word. Cambridge Dictionary made “hallucinate” its word of the year (University of Cambridge, 15 November 2023)."
+  yearLabel: 2010s
+  origin: "No single coiner; the sense shifted over decades. Computer-vision researchers used the word from 1986 in a positive sense, for adding plausible detail to an image, and machine-translation researchers used it for a failure mode in the 2000s. Since the 2010s it has meant false output: on 21 May 2015 Andrej Karpathy wrote that his model had hallucinated a web link, and in 2017 Google researchers used it of neural machine translation. Cambridge Dictionary made “hallucinate” its word of the year on 15 November 2023. Sources: Wikipedia, “Hallucination (artificial intelligence)”; Andrej Karpathy, “The Unreasonable Effectiveness of Recurrent Neural Networks”, blog post, 21 May 2015; University of Cambridge, 15 November 2023."
   sourceUrl: https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
   isms: []
-  status: draft
+  status: checked
 
 - id: transformer
   word: transformer
@@ -32,7 +21,17 @@
   origin: "Ashish Vaswani and seven co-authors, most of them at Google Brain and Google Research, “Attention Is All You Need”, arXiv:1706.03762, 12 June 2017, which names the architecture the Transformer. BERT (2018) is short for Bidirectional Encoder Representations from Transformers. The GPT-4 technical report (2023) calls GPT-4 a Transformer-based model."
   sourceUrl: https://arxiv.org/abs/1706.03762v1
   isms: []
-  status: draft
+  status: checked
+
+- id: large-language-model
+  word: large language model
+  definition: A language model trained on vast amounts of text. Today the phrase usually means a neural network with billions of parameters that learns to predict the next piece of text, such as the GPT models behind ChatGPT.
+  year: 2018
+  yearLabel: by 2018
+  origin: "No single coiner. Merriam-Webster dates the first known use in today's sense, a language model built with deep learning on an extremely large data set, to 2018. The phrase is older: in the 2000s it described very large statistical models of word sequences, as in Thorsten Brants, Ashok C. Popat, Peng Xu, Franz J. Och and Jeffrey Dean, “Large Language Models in Machine Translation”, EMNLP-CoNLL 2007, Prague, pp. 858–867. The GPT-4 technical report (2023) describes a model pre-trained to predict the next token."
+  sourceUrl: https://www.merriam-webster.com/dictionary/large%20language%20model
+  isms: []
+  status: checked
 
 - id: foundation-model
   word: foundation model
@@ -42,24 +41,24 @@
   origin: "Rishi Bommasani and others, with Percy Liang as corresponding author, “On the Opportunities and Risks of Foundation Models”, arXiv:2108.07258, 16 August 2021. More than 100 people at Stanford's Center for Research on Foundation Models contributed. The authors weighed other names, such as pretrained model, and chose one that conveys both incompleteness and high stakes. The Bletchley Declaration (2023) counts foundation models among frontier AI."
   sourceUrl: https://arxiv.org/abs/2108.07258v1
   isms: []
-  status: draft
+  status: checked
 
 - id: stochastic-parrot
   word: stochastic parrot
-  definition: A critics' image of a large language model as a system that stitches together sequences of words it has seen, by probability, without any reference to meaning.
+  definition: A critics' image of a large language model as a system that stitches together sequences of words it has seen, guided by probability, with no regard for what they mean.
   coinedBy: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Margaret Mitchell (as Shmargaret Shmitchell)
   year: 2021
-  origin: "“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, FAccT '21, ACM, March 2021, section 6.1. The paper was submitted in late 2020. Google asked its employees to retract it or remove their names, and Gebru's employment there ended that December. Shortly after ChatGPT's release, Sam Altman posted “i am a stochastic parrot, and so r u”. Source: Wikipedia, “Stochastic parrot”."
+  origin: "“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, FAccT '21, ACM, March 2021, section 6.1. Before it appeared, Google asked its employees to retract it or remove their names, and Gebru's employment there ended in December 2020. Shortly after ChatGPT's release, Sam Altman posted “i am a stochastic parrot, and so r u”. Source: Wikipedia, “Stochastic parrot”."
   sourceUrl: https://en.wikipedia.org/wiki/Stochastic_parrot
   isms: []
-  status: draft
+  status: checked
 
 - id: frontier-model
   word: frontier model
   definition: One of the most capable AI models of its time. In policy use, frontier AI means highly capable foundation models whose dangerous capabilities could pose severe risks to public safety.
   coinedBy: Markus Anderljung and colleagues (first definition)
   year: 2023
-  origin: "Markus Anderljung, Joslyn Barnhart, Anton Korinek and others, “Frontier AI Regulation: Managing Emerging Risks to Public Safety”, arXiv:2307.03718, 6 July 2023, which Seán Ó hÉigeartaigh called the first proper definition. On 26 July 2023 OpenAI, Anthropic, Google and Microsoft launched the Frontier Model Forum. In September the UK renamed its Foundation Model Taskforce the Frontier AI Taskforce. “Frontier AI” appears from 2018 in a neutral sense of advanced research. Source: Brigitte Nerlich, “Frontier AI: tracing the origin of a concept”, Making Science Public, 20 October 2023."
+  origin: "Markus Anderljung, Joslyn Barnhart, Jade Leung, Anton Korinek and others, “Frontier AI Regulation: Managing Emerging Risks to Public Safety”, arXiv:2307.03718, 6 July 2023, which Seán Ó hÉigeartaigh called the first proper definition. On 26 July 2023 OpenAI, Anthropic, Google and Microsoft launched the Frontier Model Forum. On 7 September 2023 the UK renamed its Foundation Model Taskforce the Frontier AI Taskforce. Nerlich found earlier uses of “frontier AI”, from 2018, in a neutral sense of advanced research. Source: Brigitte Nerlich, “Frontier AI: tracing the origin of a concept”, Making Science Public, 20 October 2023."
   sourceUrl: https://makingsciencepublic.com/2023/10/20/frontier-ai-tracing-the-origin-of-a-concept/
   isms: []
-  status: draft
+  status: checked
