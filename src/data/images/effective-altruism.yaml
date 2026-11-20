@@ -1,0 +1,95 @@
+# Images for the Effective altruism and longtermism timeline (one file per ism). Ids carry the
+# prefix ea-. No file yet = a labelled placeholder. Downloads only after the owner approves a batch.
+# No portraits or photographs of people.
+- id: ea-dow-post-2026
+  title: “Americanism, not effective altruism”, US Department of War post, September 2026 (text only)
+  date: '2026'
+  holder: US Department of War
+  rights: to-check
+- id: ea-80000-hours-agi-2025
+  title: “We're shifting our strategic approach to focus more on AGI”, 80,000 Hours, web page (text only)
+  date: '2025'
+  holder: 80,000 Hours
+  rights: to-check
+  sourceUrl: https://80000hours.org/2025/04/strategic-approach
+- id: ea-openai-board-2023
+  title: OpenAI's announcement of its leadership change, November 2023, web page (text only)
+  date: '2023'
+  holder: OpenAI
+  rights: to-check
+- id: ea-future-fund-2022
+  title: The FTX Future Fund's website, 2022, via the Internet Archive (text only)
+  date: '2022'
+  rights: to-check
+- id: ea-wwotf-cover-2022
+  title: What We Owe the Future, first US edition cover, Basic Books
+  date: '2022'
+  holder: Basic Books (Hachette Book Group)
+  rights: to-check
+  sourceUrl: https://www.hachettebookgroup.com/titles/william-macaskill/what-we-owe-the-future/9781541618626/
+- id: ea-trinity-1945
+  title: The Trinity test, the first atomic explosion, near Alamogordo, New Mexico, 16 July 1945
+  date: '1945-07-16'
+  creator: United States Department of Energy
+  holder: US Department of Energy
+  rights: public-domain
+  licence: Work of the US federal government, credited to the US Department of Energy. World History Encyclopedia lists it as public domain. A Commons copy (“Trinity_Detonation_T&B.jpg”) has not been opened.
+  alt: The fireball of the Trinity test, the first nuclear explosion, July 1945.
+  sourceUrl: https://www.worldhistory.org/image/22133/trinity-test-explosion--1945/
+- id: ea-longtermism-post-2017
+  title: William MacAskill, “‘Longtermism’”, Effective Altruism Forum, web page (text only)
+  date: '2019'
+  holder: Centre for Effective Altruism
+  rights: to-check
+  sourceUrl: https://forum.effectivealtruism.org/posts/qZyshHCNkjs3TvSem/longtermism
+- id: ea-open-philanthropy-ai-2016
+  title: “Potential Risks from Advanced Artificial Intelligence”, Open Philanthropy blog post, web page (text only)
+  date: '2016'
+  holder: Coefficient Giving (formerly Open Philanthropy)
+  rights: to-check
+  sourceUrl: https://coefficientgiving.org/blog/potential-risks-advanced-artificial-intelligence-philanthropic-opportunity
+- id: ea-cea-website-2011
+  title: The Centre for Effective Altruism's early website, via the Internet Archive
+  date: 2010s
+  rights: to-check
+- id: ea-gwwc-website-2009
+  title: Giving What We Can's early website, via the Internet Archive
+  date: 2009–2010
+  rights: to-check
+- id: ea-givewell-website-2007
+  title: GiveWell's early website, via the Internet Archive
+  date: 2007–2008
+  rights: to-check
+- id: ea-virgo-cluster-hubble
+  title: Hubble images of 100 galaxies in the Virgo cluster, part of our local supercluster
+  date: '2008'
+  creator: NASA, ESA and E. Peng (Peking University, Beijing)
+  holder: NASA Science
+  rights: to-check
+  licence: Credit “NASA, ESA, and E. Peng”. NASA media guidelines and ESA's terms not yet read.
+  alt: Composite of Hubble images of 100 galaxies in the Virgo cluster.
+  sourceUrl: https://science.nasa.gov/asset/hubble/hubble-acs-image-of-100-virgo-cluster-galaxies/
+- id: ea-jet-2002
+  title: “Existential Risks”, Journal of Evolution and Technology, volume 9, first page
+  date: '2002'
+  holder: Journal of Evolution and Technology
+  rights: to-check
+  sourceUrl: https://nickbostrom.com/existential/risks
+- id: ea-reasons-and-persons-1984
+  title: Reasons and Persons, first edition, Clarendon Press, Oxford
+  date: '1984'
+  holder: Oxford University Press
+  rights: to-check
+- id: ea-ppa-1972
+  title: “Famine, Affluence, and Morality”, first page, Philosophy & Public Affairs 1(3)
+  date: '1972'
+  holder: Wiley
+  rights: to-check
+- id: ea-sidgwick-1874
+  title: Henry Sidgwick, The Methods of Ethics, first edition, Macmillan, London, title page
+  date: '1874'
+  creator: Henry Sidgwick
+  holder: Darwin Online (a 1980 University Microfilms facsimile)
+  rights: to-check
+  licence: The work itself is public domain (published 1874; author died 1900). Darwin Online asks for written permission to publish its images, so this scan needs clearance, or a public-domain scan from another library.
+  sourceUrl: https://darwin-online.org.uk/converted/pdf/1874_Sidgwick_methods_of_ethics_DlibD_A5921.pdf

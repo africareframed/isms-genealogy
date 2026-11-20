@@ -1,0 +1,60 @@
+# Notable figures for Effective altruism and longtermism (one file per ism). Portraits are added
+# by the project team only: put the file in public/portraits/ and fill portrait, portraitCredit
+# and portraitLicence. Ids carry the prefix ea- so they stay unique across the site.
+- id: ea-william-macaskill
+  name: William MacAskill
+  lifespan: born 1987
+  isms: [effective-altruism]
+  note: Philosopher who co-founded Giving What We Can, 80,000 Hours and the Centre for Effective Altruism, and named longtermism.
+  entry: effective-altruism/2022-what-we-owe-the-future
+- id: ea-toby-ord
+  name: Toby Ord
+  lifespan: born 1979
+  isms: [effective-altruism]
+  note: Philosopher and co-founder of Giving What We Can, who puts the risk of existential catastrophe this century at one in six.
+  entry: effective-altruism/2020-the-precipice
+- id: ea-hilary-greaves
+  name: Hilary Greaves
+  isms: [effective-altruism]
+  note: Philosopher who, with MacAskill, set out the case for strong longtermism at Oxford's Global Priorities Institute.
+  entry: effective-altruism/2017-longtermism
+- id: ea-holden-karnofsky
+  name: Holden Karnofsky
+  isms: [effective-altruism]
+  note: Co-founder of GiveWell and Open Philanthropy, who made risks from advanced AI a major priority there. Since 2025 he has worked at Anthropic.
+  entry: effective-altruism/2016-open-philanthropy-ai
+- id: ea-dustin-moskovitz
+  name: Dustin Moskovitz
+  lifespan: born 1984
+  isms: [effective-altruism]
+  note: Co-founder of Facebook and Asana. With his wife, Cari Tuna, he founded Good Ventures, the main funder behind Open Philanthropy.
+  entry: effective-altruism/2016-open-philanthropy-ai
+- id: ea-elie-hassenfeld
+  name: Elie Hassenfeld
+  isms: [effective-altruism]
+  note: Co-founder of GiveWell with Karnofsky, and its sole head from 2017.
+  entry: effective-altruism/2007-givewell
+- id: ea-nick-bostrom
+  name: Nick Bostrom
+  lifespan: born 1973
+  isms: [effective-altruism]
+  note: Philosopher who defined existential risk and argued that utilitarians should put reducing it first.
+  entry: effective-altruism/2003-astronomical-waste
+- id: ea-derek-parfit
+  name: Derek Parfit
+  lifespan: 1942–2017
+  isms: [effective-altruism]
+  note: Philosopher whose comparison of nuclear wars shaped the case against extinction. Late in life he supported effective altruism.
+  entry: effective-altruism/1984-reasons-and-persons
+- id: ea-peter-singer
+  name: Peter Singer
+  lifespan: born 1946
+  isms: [effective-altruism]
+  note: Philosopher whose drowning child is often cited within effective altruism. A founding member of Giving What We Can.
+  entry: effective-altruism/1972-famine-affluence-morality
+- id: ea-henry-sidgwick
+  name: Henry Sidgwick
+  lifespan: 1838–1900
+  isms: [effective-altruism]
+  note: Cambridge philosopher who held that the time at which a person lives does not change the value of their happiness.
+  entry: effective-altruism/1874-methods-of-ethics
