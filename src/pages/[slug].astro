@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import IsmPage from '../components/IsmPage.astro';
+import ThemePage from '../components/ThemePage.astro';
+
+export async function getStaticPaths() {
+  const isms = await getCollection('isms', (i) => i.data.ready);
+  const themes = await getCollection('themes', (t) => t.data.ready);
+  return [
+    ...isms.map((i) => ({ params: { slug: i.id }, props: { kind: 'ism' as const, entry: i } })),
+    ...themes.map((t) => ({ params: { slug: t.id }, props: { kind: 'theme' as const, entry: t } })),
+  ];
+}
+const { kind, entry } = Astro.props;
+---
+{kind === 'ism' ? <IsmPage ism={entry} /> : <ThemePage theme={entry} />}

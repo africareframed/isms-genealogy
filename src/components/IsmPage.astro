@@ -1,0 +1,167 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Picture from './Picture.astro';
+import PageHeader from './PageHeader.astro';
+import { FAMILIES, RELATIONS, eraOf, eraId, yearText, pageHref } from '../lib/site';
+
+const { ism } = Astro.props;
+const { Content } = await render(ism);
+const family = FAMILIES.find((f) => f.id === ism.data.family);
+
+const allThemes = await getCollection('themes');
+const themeById = new Map(allThemes.map((t) => [t.id, t]));
+
+const entries = (await getCollection('entries', (e) => e.data.ism.id === ism.id)).sort(
+  (a, b) => b.data.year - a.data.year,
+);
+const anchor = (id: string) => 'entry-' + id.split('/')[1];
+const groups: { era: string; id: string; items: typeof entries }[] = [];
+for (const e of entries) {
+  const era = eraOf(e.data.year);
+  let g = groups.find((x) => x.era === era);
+  if (!g) groups.push((g = { era, id: eraId(era), items: [] }));
+  g.items.push(e);
+}
+
+const yearOf = new Map(entries.map((e) => [e.id, e.data.year]));
+const figures = (await getCollection('figures', (f) => f.data.isms.some((r) => r.id === ism.id))).sort(
+  (a, b) => (yearOf.get(b.data.entry?.id ?? '') ?? 0) - (yearOf.get(a.data.entry?.id ?? '') ?? 0),
+);
+
+const nav = [
+  { href: '#introduction', label: 'Introduction' },
+  ...groups.map((g) => ({ href: `#${g.id}`, label: g.era })),
+];
+const first = entries[0];
+---
+<Base title={`${ism.data.title} · A genealogy of the isms behind AI`} description={ism.data.summary}>
+  <PageHeader title={ism.data.title} kind="Ism" nav={nav} navLabel="Periods" />
+
+  <main id="main">
+    <section id="introduction" class="wrap intro">
+      <div class="intro-text">
+        <span class="kick">{family?.name} · Introduction</span>
+        <h1>{ism.data.title}</h1>
+        {ism.data.lead && <p class="lead">{ism.data.lead}</p>}
+        <div class="body"><Content /></div>
+      </div>
+      <Picture image={ism.data.image} ratio="4 / 5" />
+    </section>
+
+    {ism.data.holders.length > 0 && (
+      <section class="wrap sec" aria-labelledby="holders-h">
+        <h2 class="kick" id="holders-h">Who holds it now</h2>
+        <div class="actors">
+          {ism.data.holders.map((h) => (
+            <div><h3 class="an">{h.name}</h3><p class="ad">{h.note}</p></div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {figures.length > 0 && (
+      <section class="wrap sec" aria-labelledby="figures-h">
+        <h2 class="kick" id="figures-h">Notable figures</h2>
+        <div class="figs">
+          {figures.map((f) => {
+            const d = f.data;
+            const inner = (
+              <Fragment>
+                {d.portrait ? (
+                  <img src={`portraits/${d.portrait}`} alt={`Portrait of ${d.name}`} loading="lazy" />
+                ) : (
+                  <div class="ph" aria-hidden="true"><span class="cap">Portrait to be added</span></div>
+                )}
+                <h3 class="fig-n">{d.name}</h3>
+                {d.lifespan && <span class="fig-y">{d.lifespan}</span>}
+                <p class="fig-d">{d.note}</p>
+                {d.portrait && d.portraitCredit && (
+                  <span class="fig-c">Portrait: {d.portraitCredit}{d.portraitLicence ? ` · ${d.portraitLicence}` : ''}</span>
+                )}
+              </Fragment>
+            );
+            return d.entry ? <a class="fig" href={`#${anchor(d.entry.id)}`}>{inner}</a> : <div class="fig">{inner}</div>;
+          })}
+        </div>
+      </section>
+    )}
+
+    {ism.data.words.length > 0 && (
+      <section class="wrap sec" aria-labelledby="words-h">
+        <h2 class="kick" id="words-h">Its words</h2>
+        <p class="words">{ism.data.words.join(' · ')}</p>
+      </section>
+    )}
+
+    {ism.data.themes.length > 0 && (
+      <section class="wrap sec" aria-labelledby="themes-h">
+        <h2 class="kick" id="themes-h">Its themes</h2>
+        <p class="tchips lg">
+          {ism.data.themes.map((r) => {
+            const t = themeById.get(r.id);
+            return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
+          })}
+        </p>
+      </section>
+    )}
+
+    {ism.data.disputes && (
+      <section class="wrap sec" aria-labelledby="disputes-h">
+        <h2 class="kick" id="disputes-h">Who disputes it</h2>
+        <p class="body" style="max-width: 900px">{ism.data.disputes}</p>
+      </section>
+    )}
+
+    {first && (
+      <a href={`#${groups[0].id}`} class="wrap nudge">
+        <span class="nudge-t">Scroll back in time</span>
+        <svg aria-hidden="true" width="28" height="44" viewBox="0 0 28 44" fill="none" stroke="#D8461C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2V40"></path><path d="M5 31L14 40L23 31"></path></svg>
+        <span class="nudge-n">Next · {yearText(first.data.year, first.data.yearLabel)} · {first.data.title}</span>
+      </a>
+    )}
+
+    <section class="wrap" aria-label="History">
+      <div class="thread">
+        {groups.map((g) => (
+          <Fragment>
+            <h2 id={g.id} class="era-h">{g.era}</h2>
+            {g.items.map((e) => (
+              <article class="item" id={anchor(e.id)}>
+                <div class="meta">
+                  <span class="yr">{yearText(e.data.year, e.data.yearLabel)}</span>
+                  <span class="tag">{e.data.tagLabel ?? RELATIONS[e.data.relation]}</span>
+                  {e.data.status === 'draft' && <span class="draft">Draft · to be checked</span>}
+                </div>
+                <div class="txt">
+                  <h3 class="it">{e.data.title}</h3>
+                  {e.data.who && <p class="who">{e.data.who}</p>}
+                  <p class="ib">{e.data.text}</p>
+                  <p class="src">{e.data.sourceUrl ? <a href={e.data.sourceUrl}>{e.data.source}</a> : e.data.source}</p>
+                  {e.data.themes.length > 0 && (
+                    <p class="tchips">
+                      <span class="lbl">Themes</span>
+                      {e.data.themes.map((r) => {
+                        const t = themeById.get(r.id);
+                        return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
+                      })}
+                    </p>
+                  )}
+                </div>
+                <Picture image={e.data.image} />
+              </article>
+            ))}
+          </Fragment>
+        ))}
+      </div>
+    </section>
+
+    <section class="wrap end">
+      <p>The oldest root traced so far.</p>
+      <div class="end-links">
+        <a href="#introduction">Back to the introduction</a>
+        <a href={pageHref()}>All isms and themes</a>
+      </div>
+    </section>
+  </main>
+</Base>

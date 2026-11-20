@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref } from '../lib/site';
+
+const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
+const themes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
+
+const chipOn = (id: string) =>
+  `#f-${id}:checked ~ .chips label[for="f-${id}"]{background:#111;border-color:#111;color:#fff}` +
+  `#f-${id}:focus-visible ~ .chips label[for="f-${id}"]{outline:2px solid #D8461C;outline-offset:3px}`;
+const filterCss = [
+  chipOn('all'),
+  ...themes.map((t) => chipOn(t.id) + `#f-${t.id}:checked ~ .fams .card:not(.t-${t.id}){opacity:.2}`),
+].join('');
+---
+<Base title={SITE_TITLE}>
+  <Fragment set:html={`<style>${filterCss}</style>`} />
+
+  <header class="wrap site-head">
+    <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="#themes">Themes</a>
+      <a href={pageHref('about')}>About</a>
+      <a href={pageHref('method')}>Method</a>
+    </nav>
+  </header>
+
+  <section class="wrap hero">
+    <h1>{SITE_TITLE}.</h1>
+    <p>Six isms from the heart of the AI industry, in three families, and the themes they all argue about. Open an ism and scroll back through its history, or enter through a theme.</p>
+    <p class="asof">Map as of {MAP_DATE}</p>
+  </section>
+
+  <main id="main" class="wrap">
+    <input class="sr" type="radio" name="theme" id="f-all" checked aria-label="All isms" />
+    {themes.map((t) => <input class="sr" type="radio" name="theme" id={`f-${t.id}`} aria-label={`Isms that speak to ${t.data.title}`} />)}
+
+    <div class="chips" role="group" aria-label="Show the isms that speak to a theme">
+      <span class="lbl">Filter by theme</span>
+      <label for="f-all">All</label>
+      {themes.map((t) => <label for={`f-${t.id}`}>{t.data.title}</label>)}
+    </div>
+
+    <div class="fams">
+      {FAMILIES.map((fam) => (
+        <section class="fam" aria-labelledby={`fam-${fam.id}`}>
+          <div class="fh">
+            <h2 class="fn" id={`fam-${fam.id}`}>{fam.name}</h2>
+            <p class="fd">{fam.text}</p>
+          </div>
+          {isms
+            .filter((i) => i.data.family === fam.id)
+            .map((i) => {
+              const cls = ['card', ...i.data.themes.map((t) => `t-${t.id}`)].join(' ');
+              const inner = (
+                <Fragment>
+                  <Picture image={i.data.image} />
+                  <h3 class="ct">{i.data.title}</h3>
+                  <p class="cd">{i.data.summary}</p>
+                  {i.data.includes.length > 0 && <p class="inc">Includes {i.data.includes.join(', ').toLowerCase()}</p>}
+                  {!i.data.ready && <span class="soon">In preparation</span>}
+                </Fragment>
+              );
+              return i.data.ready ? <a class={cls} href={pageHref(i.id)}>{inner}</a> : <div class={cls}>{inner}</div>;
+            })}
+        </section>
+      ))}
+    </div>
+  </main>
+
+  <section id="themes" class="wrap themes-sec" aria-labelledby="themes-h">
+    <div class="themes-head">
+      <h2 id="themes-h">Themes</h2>
+      <p>Seven subjects every ism has a view on. Open a theme to compare how they answer it.</p>
+    </div>
+    <div class="tgrid">
+      {themes.map((t) => {
+        const inner = (
+          <Fragment>
+            <Picture image={t.data.image} ratio="3 / 2" />
+            <span class="tl">Theme</span>
+            <h3 class="tt">{t.data.title}</h3>
+            <p class="td">{t.data.summary}</p>
+            {t.data.includes.length > 0 && <p class="inc">Includes {t.data.includes.join(', ')}</p>}
+            {!t.data.ready && <span class="soon">In preparation</span>}
+          </Fragment>
+        );
+        return t.data.ready ? <a class="card" href={pageHref(t.id)}>{inner}</a> : <div class="card">{inner}</div>;
+      })}
+    </div>
+  </section>
+
+  <footer class="wrap site-foot">
+    <span>{SITE_NAME} · A shared framework for how we speak about AI, and the history behind it</span>
+    <nav aria-label="Footer">
+      <a href={pageHref('about')}>About</a>
+      <a href={pageHref('method')}>Method</a>
+    </nav>
+  </footer>
+</Base>

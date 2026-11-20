@@ -1,0 +1,115 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Picture from './Picture.astro';
+import PageHeader from './PageHeader.astro';
+import { FAMILIES, yearText, pageHref } from '../lib/site';
+
+const { theme } = Astro.props;
+const { Content } = await render(theme);
+
+const isms = await getCollection('isms');
+const ismById = new Map(isms.map((i) => [i.id, i]));
+const famName = (id: string) => FAMILIES.find((f) => f.id === id)?.name ?? '';
+
+// "In the isms' histories" is built from the theme tags on timeline entries.
+const tagged = (await getCollection('entries', (e) => e.data.themes.some((r) => r.id === theme.id))).sort(
+  (a, b) => b.data.year - a.data.year,
+);
+
+const nav = [
+  { href: '#introduction', label: 'Introduction' },
+  { href: '#isms', label: 'How the isms see it' },
+  ...(theme.data.strands.length ? [{ href: '#strands', label: 'Strands' }] : []),
+  ...(theme.data.words.length ? [{ href: '#words', label: 'Words' }] : []),
+  ...(tagged.length ? [{ href: '#histories', label: 'In the histories' }] : []),
+  ...(theme.data.disputes ? [{ href: '#disputes', label: 'Who disputes it' }] : []),
+];
+const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
+---
+<Base title={`${theme.data.title} · A genealogy of the isms behind AI`} description={theme.data.summary}>
+  <PageHeader title={theme.data.title} kind="Theme" nav={nav} navLabel="On this page" />
+
+  <main id="main">
+    <section id="introduction" class="wrap intro">
+      <div class="intro-text">
+        <span class="kick">Theme · Introduction</span>
+        <h1>{theme.data.title}</h1>
+        {theme.data.lead && <p class="lead">{theme.data.lead}</p>}
+        <div class="body"><Content /></div>
+      </div>
+      <Picture image={theme.data.image} ratio="4 / 5" />
+    </section>
+
+    <section id="isms" class="wrap sec" aria-labelledby="isms-h">
+      <h2 class="kick" id="isms-h">How the isms see it</h2>
+      <div>
+        {theme.data.isms.map((row) => {
+          const i = ismById.get(row.ism.id)!;
+          const inner = (
+            <Fragment>
+              <div class="rf"><span class="rfam">{famName(i.data.family)}</span><h3 class="rn">{i.data.title}</h3></div>
+              <p class="rt">{row.text}</p>
+            </Fragment>
+          );
+          return i.data.ready ? <a class="row" href={pageHref(i.id)}>{inner}</a> : <div class="row">{inner}</div>;
+        })}
+      </div>
+    </section>
+
+    {theme.data.strands.length > 0 && (
+      <section id="strands" class="wrap sec" aria-labelledby="strands-h">
+        <h2 class="kick" id="strands-h">Strands</h2>
+        <div class="strands">
+          {theme.data.strands.map((s) => (
+            <div><h3 class="sn">{s.name}</h3><p class="sd">{s.text}</p>{s.source && <p class="src">{s.source}</p>}</div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {theme.data.words.length > 0 && (
+      <section id="words" class="wrap sec" aria-labelledby="words-h">
+        <h2 class="kick" id="words-h">Its words</h2>
+        <p class="words">{theme.data.words.join(' · ')}</p>
+      </section>
+    )}
+
+    {tagged.length > 0 && (
+      <section id="histories" class="wrap sec" aria-labelledby="hist-h">
+        <h2 class="kick" id="hist-h">In the isms' histories</h2>
+        <div>
+          {tagged.map((e) => {
+            const i = ismById.get(e.data.ism.id)!;
+            const inner = (
+              <Fragment>
+                <span class="hy">{yearText(e.data.year, e.data.yearLabel)}</span>
+                <span class="ht">{e.data.who ? `${e.data.who}, ` : ''}{e.data.title}</span>
+                <span class="hi">{i.data.title}{i.data.ready && <Fragment set:html={arrow} />}</span>
+              </Fragment>
+            );
+            return i.data.ready ? (
+              <a class="hist" href={`${pageHref(i.id)}#entry-${e.id.split('/')[1]}`}>{inner}</a>
+            ) : (
+              <div class="hist">{inner}</div>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    {theme.data.disputes && (
+      <section id="disputes" class="wrap sec" aria-labelledby="disputes-h">
+        <h2 class="kick" id="disputes-h">Who disputes it</h2>
+        <p class="body" style="max-width: 900px">{theme.data.disputes}</p>
+      </section>
+    )}
+
+    <section class="wrap end">
+      <div class="end-links">
+        <a href="#introduction">Back to the introduction</a>
+        <a href={pageHref()}>All isms and themes</a>
+      </div>
+    </section>
+  </main>
+</Base>

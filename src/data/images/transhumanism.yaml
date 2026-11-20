@@ -1,0 +1,52 @@
+# Images for the Transhumanism timeline (one file per ism).
+- id: singularity-nearer-cover
+  title: The Singularity Is Nearer, book cover
+  date: '2024'
+  rights: to-check
+- id: neuralink-2019
+  title: Neuralink launch presentation, still
+  date: '2019'
+  rights: to-check
+- id: bostrom-2005-page
+  title: “A History of Transhumanist Thought”, first page
+  date: '2005'
+  rights: to-check
+- id: wta-website
+  title: The World Transhumanist Association's early website, via the Internet Archive
+  rights: to-check
+- id: extropy-1990-cover
+  title: Extropy magazine, cover
+  date: '1990'
+  rights: to-check
+- id: ettinger-1964-cover
+  title: The Prospect of Immortality, first edition cover
+  date: '1964'
+  rights: to-check
+- id: huxley-1957-book
+  title: New Bottles for New Wine, first edition
+  date: '1957'
+  rights: to-check
+- id: bernal-1929-book
+  title: The World, the Flesh and the Devil, first edition
+  date: '1929'
+  rights: to-check
+- id: haldane-1924-book
+  title: Daedalus, or Science and the Future, first edition
+  date: '1924'
+  rights: to-check
+- id: rumyantsev-reading-room
+  title: Rumyantsev Museum reading room, Moscow
+  date: c. 1900
+  rights: to-check
+- id: condorcet-1795-title
+  title: Condorcet, Esquisse, title page of the first edition
+  date: '1795'
+  rights: public-domain
+- id: pico-1496-page
+  title: Page from a 1496 printing of Pico's works
+  date: '1496'
+  rights: public-domain
+- id: gilgamesh-tablet-xi
+  title: Tablet XI of the Epic of Gilgamesh, 7th century BCE, British Museum
+  rights: open-licence
+  licence: CC BY-NC-SA 4.0

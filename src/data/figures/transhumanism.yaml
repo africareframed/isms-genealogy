@@ -1,0 +1,68 @@
+# Notable figures for Transhumanism (one file per ism). Portraits are added by the project team only:
+# put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+- id: ray-kurzweil
+  name: Ray Kurzweil
+  lifespan: born 1948
+  isms: [transhumanism]
+  note: Inventor and futurist, the best-known forecaster of the merger of human and machine intelligence.
+  entry: transhumanism/2024-singularity-is-nearer
+- id: nick-bostrom
+  name: Nick Bostrom
+  lifespan: born 1973
+  isms: [transhumanism]
+  note: Philosopher. Co-founded the World Transhumanist Association and wrote the movement's own history.
+  entry: transhumanism/2005-bostrom-history
+- id: david-pearce
+  name: David Pearce
+  lifespan: born 1959
+  isms: [transhumanism]
+  note: Philosopher. Co-founded the World Transhumanist Association and argues for abolishing suffering through technology.
+  entry: transhumanism/1998-wta
+- id: max-more
+  name: Max More
+  lifespan: born 1964
+  isms: [transhumanism]
+  note: Philosopher. Gave transhumanism its modern definition and led the Extropians.
+  entry: transhumanism/1990-more
+- id: robert-ettinger
+  name: Robert Ettinger
+  lifespan: 1918–2011
+  isms: [transhumanism]
+  note: Physics teacher who founded cryonics.
+  entry: transhumanism/1962-ettinger
+- id: julian-huxley
+  name: Julian Huxley
+  lifespan: 1887–1975
+  isms: [transhumanism]
+  note: Biologist and first director-general of UNESCO. Gave the word its modern sense.
+  entry: transhumanism/1957-huxley
+- id: jd-bernal
+  name: J. D. Bernal
+  lifespan: 1901–1971
+  isms: [transhumanism]
+  note: Crystallographer who imagined humans replacing their bodies with machines.
+  entry: transhumanism/1929-bernal
+- id: jbs-haldane
+  name: J. B. S. Haldane
+  lifespan: 1892–1964
+  isms: [transhumanism]
+  note: Geneticist who predicted that biology would remake human nature.
+  entry: transhumanism/1923-haldane
+- id: nikolai-fedorov
+  name: Nikolai Fedorov
+  lifespan: 1829–1903
+  isms: [transhumanism]
+  note: Moscow librarian and founder of Russian Cosmism, who called for the defeat of death.
+  entry: transhumanism/1906-fedorov
+- id: condorcet
+  name: Condorcet
+  lifespan: 1743–1794
+  isms: [transhumanism]
+  note: Mathematician and revolutionary who foresaw the indefinite improvement of humanity.
+  entry: transhumanism/1795-condorcet
+- id: pico-della-mirandola
+  name: Giovanni Pico della Mirandola
+  lifespan: 1463–1494
+  isms: [transhumanism]
+  note: Renaissance philosopher of human self-making.
+  entry: transhumanism/1486-pico

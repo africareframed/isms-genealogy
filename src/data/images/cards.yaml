@@ -1,0 +1,63 @@
+# Every image on the site. No `file` yet = a labelled placeholder.
+# rights: public-domain | open-licence (give licence) | cleared (give licence) | to-check
+# Files go in public/images/. Human-made images only. No portraits of people here:
+# those belong to figures (see figures.yaml).
+
+# Cards: isms
+- id: tsiolkovsky-free-space
+  title: Konstantin Tsiolkovsky, sketch from Free Space
+  date: '1883'
+  rights: public-domain
+- id: moore-chart-1965
+  title: Gordon Moore's chart of components per chip
+  date: '1965'
+  rights: to-check
+- id: good-1965
+  title: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”
+  date: '1965'
+  rights: to-check
+- id: singer-1972
+  title: Peter Singer, “Famine, Affluence, and Morality”
+  date: '1972'
+  rights: to-check
+- id: boccioni-city-rises
+  title: Umberto Boccioni, The City Rises
+  date: '1910'
+  rights: public-domain
+- id: hoover-dam-1934
+  title: Hoover Dam under construction
+  date: '1934'
+  rights: public-domain
+  holder: US government
+
+# Cards: themes
+- id: atoms-for-peace-stamp
+  title: “Atoms for Peace” stamp, US Post Office
+  date: '1955'
+  rights: public-domain
+- id: leviathan-frontispiece
+  title: Frontispiece of Hobbes's Leviathan
+  date: '1651'
+  rights: public-domain
+- id: engelbart-1968
+  title: Douglas Engelbart's demonstration
+  date: '1968'
+  holder: SRI International
+  rights: to-check
+- id: perceptron-1958
+  title: Mark I Perceptron, Cornell Aeronautical Laboratory
+  date: '1958'
+  rights: to-check
+- id: udhr-1948
+  title: Universal Declaration of Human Rights
+  date: '1948'
+  rights: to-check
+- id: kleroterion
+  title: Kleroterion, Athenian allotment machine
+  date: 4th century BCE
+  rights: to-check
+- id: luddites-1812
+  title: “The Leader of the Luddites”, engraving
+  date: '1812'
+  rights: public-domain
+

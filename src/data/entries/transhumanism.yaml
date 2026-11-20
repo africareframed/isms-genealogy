@@ -1,0 +1,130 @@
+# Timeline of Transhumanism, newest first. Each entry: id, year (negative = BCE),
+# relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
+ism: transhumanism
+entries:
+  - id: 2024-singularity-is-nearer
+    year: 2024
+    title: The Singularity Is Nearer
+    who: Ray Kurzweil
+    relation: milestone
+    text: Twenty years after The Singularity Is Near, Kurzweil restates his timeline. AI reaches human level by 2029, and by 2045 human minds merge with it and extend into the cloud. On the way, he argues, medicine will begin to outrun ageing itself.
+    source: Ray Kurzweil, The Singularity Is Nearer, Viking, 2024
+    themes: [abundance, scale]
+    image: singularity-nearer-cover
+
+  - id: 2019-neuralink
+    year: 2019
+    title: A stated aim for brain implants
+    who: Neuralink
+    relation: milestone
+    text: At its first public presentation, Neuralink showed flexible threads of electrodes designed to be implanted in the brain. Elon Musk said the long-term goal was a symbiosis with artificial intelligence, so that people could keep up with it.
+    source: Neuralink launch presentation, San Francisco, 16 July 2019
+    themes: [the-tool]
+    image: neuralink-2019
+
+  - id: 2005-bostrom-history
+    year: 2005
+    title: The movement writes its own history
+    who: Nick Bostrom
+    relation: milestone
+    tagLabel: Milestone · its own genealogy
+    text: In “A History of Transhumanist Thought”, Bostrom traces the idea from the Epic of Gilgamesh through Pico della Mirandola and Condorcet to the Extropians. Many of the older roots on this page are ones the movement claims for itself in this essay.
+    source: Nick Bostrom, Journal of Evolution and Technology 14(1), 2005
+    image: bostrom-2005-page
+
+  - id: 1998-wta
+    year: 1998
+    title: The World Transhumanist Association
+    who: Nick Bostrom and David Pearce
+    relation: institutional-root
+    text: Two philosophers found an association to make transhumanism a serious academic and public movement. Its Transhumanist Declaration calls for widening human potential through technology. In 2008 the association renames itself Humanity+.
+    source: The Transhumanist Declaration, 1998
+    themes: [self-determination]
+    image: wta-website
+
+  - id: 1990-more
+    year: 1990
+    title: '“Transhumanism: Toward a Futurist Philosophy”'
+    who: Max More
+    relation: definition
+    text: Two years after co-founding the magazine Extropy, More defines transhumanism as a philosophy that seeks to continue the evolution of intelligent life beyond its current human form, by means of science and technology, guided by life-promoting values.
+    source: Max More, Extropy no. 6, 1990
+    themes: [abundance, self-determination]
+    image: extropy-1990-cover
+
+  - id: 1962-ettinger
+    year: 1962
+    title: The Prospect of Immortality
+    who: Robert Ettinger
+    relation: claimed
+    text: A physics teacher from Michigan proposes freezing the bodies of the dead until medicine can repair and revive them. The book launches cryonics. Ten years later Ettinger follows it with Man into Superman.
+    source: Robert Ettinger, The Prospect of Immortality, 1962; Doubleday, 1964
+    image: ettinger-1964-cover
+
+  - id: 1957-huxley
+    year: 1957
+    title: “Transhumanism”
+    who: Julian Huxley
+    relation: coined
+    text: The biologist and first director-general of UNESCO uses the word for humanity “remaining man, but transcending himself” by realising its own new possibilities. Huxley was also a leading advocate of eugenics, and president of the Eugenics Society from 1959 to 1962, a link the movement's critics stress.
+    source: Julian Huxley, New Bottles for New Wine, Chatto & Windus, 1957
+    themes: [critique]
+    image: huxley-1957-book
+
+  - id: 1929-bernal
+    year: 1929
+    title: The World, the Flesh and the Devil
+    who: J. D. Bernal
+    relation: claimed
+    text: A young crystallographer imagines people replacing their bodies with machinery, living on as brains in mechanical frames, and settling space in vast hollow spheres. Later transhumanists cite it as a founding text.
+    source: J. D. Bernal, The World, the Flesh and the Devil, Kegan Paul, 1929
+    themes: [the-tool]
+    image: bernal-1929-book
+
+  - id: 1923-haldane
+    year: 1923
+    title: Daedalus, or Science and the Future
+    who: J. B. S. Haldane
+    relation: claimed
+    text: In a Cambridge lecture, published the following year, Haldane predicts children grown outside the womb and argues that biology will remake human nature. The essay fed directly into Aldous Huxley's Brave New World.
+    source: J. B. S. Haldane, Daedalus, or Science and the Future, Kegan Paul, 1924
+    image: haldane-1924-book
+
+  - id: 1906-fedorov
+    year: 1906
+    title: The Philosophy of the Common Task
+    who: Nikolai Fedorov
+    relation: attributed
+    text: Published after his death, the writings of a Moscow librarian argue that humanity's moral duty is to overcome death and to use science to resurrect every ancestor. His Russian Cosmism inspired Konstantin Tsiolkovsky and is read today as an early transhumanism.
+    source: N. F. Fedorov, Philosophy of the Common Task, 1906–1913
+    image: rumyantsev-reading-room
+
+  - id: 1795-condorcet
+    year: 1795
+    title: Sketch for a Historical Picture of the Progress of the Human Mind
+    who: Condorcet
+    relation: claimed
+    text: Written while hiding from the Terror and published after his death, the essay predicts the indefinite improvement of humanity, including a human lifespan with no fixed limit.
+    source: Condorcet, Esquisse d'un tableau historique des progrès de l'esprit humain, 1795
+    themes: [abundance]
+    image: condorcet-1795-title
+
+  - id: 1486-pico
+    year: 1486
+    title: Oration on the Dignity of Man
+    who: Giovanni Pico della Mirandola
+    relation: claimed
+    text: Pico imagines God telling Adam that humans alone have no fixed nature. They may shape themselves into whatever form they choose.
+    source: Pico della Mirandola, Oratio de hominis dignitate, written 1486, printed 1496
+    themes: [self-determination]
+    image: pico-1496-page
+
+  - id: gilgamesh
+    year: -2100
+    yearLabel: c. 2100 BCE
+    title: The Epic of Gilgamesh
+    who: Anonymous, Mesopotamia
+    relation: claimed
+    text: After the death of his friend Enkidu, the king of Uruk searches for the secret of eternal life. He finds a plant that restores youth, and loses it to a snake.
+    source: Sumerian poems c. 2100 BCE; standard Babylonian version c. 1200 BCE
+    image: gilgamesh-tablet-xi

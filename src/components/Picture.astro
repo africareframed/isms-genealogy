@@ -1,0 +1,30 @@
+---
+import { getEntry } from 'astro:content';
+import { rightsLabel } from '../lib/site';
+
+interface Props {
+  image?: { collection: 'images'; id: string };
+  ratio?: string;
+  class?: string;
+}
+const { image, ratio = '4 / 3', class: cls = '' } = Astro.props;
+const img = image ? await getEntry(image) : undefined;
+const d = img?.data;
+const caption = d
+  ? [d.title, d.date].filter(Boolean).join(', ') + ' · ' + rightsLabel(d.rights, d.licence)
+  : 'Image to come';
+---
+{
+  d?.file ? (
+    <figure class={`pic ${cls}`}>
+      <img src={`images/${d.file}`} alt={d.alt ?? ''} style={`aspect-ratio:${ratio}`} loading="lazy" decoding="async" />
+      <figcaption class="cap">{caption}</figcaption>
+    </figure>
+  ) : (
+    <figure class={`pic ${cls}`}>
+      <div class="ph" style={`aspect-ratio:${ratio}`} role="img" aria-label={`Placeholder: ${caption}`}>
+        <span class="cap">{caption}</span>
+      </div>
+    </figure>
+  )
+}
