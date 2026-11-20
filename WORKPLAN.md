@@ -14,6 +14,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
   - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [x] **4. Themes.** All seven written, checked and merged (20 Nov).
+- [ ] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). About 80 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, newest first, each folding open on `history.html`. Three drafting agents (branches `history/recent`, `history/middle`, `history/early`, local to the coordinating conversation) also add history words to `src/data/words/history-*.yaml`; then a separate checker. Card image: batch 7.
 - [ ] **5. Images.** Batch 1 (17 files) approved and downloaded 20 Nov into the owner's folder (batch-01/), resized to 1800 px JPEGs in public/images/, records filled. Network access now allows these hosts. Candidate lists per ism → owner approves a batch → download to the owner's folder → `public/images/`.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("A genealogy of the isms behind AI — preview"; get its current version with get_artifact first).
@@ -29,7 +30,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
-- Image batch approvals (sent as lists when ready). **Batch 6** (`docs/image-batches/batch-06.md`): candidates for the Alignment card (a 1788 flyball governor, two more governors, an Iron Age horse bit). Nothing downloaded.
+- Image batch approvals (sent as lists when ready). **Batch 7** (`docs/image-batches/batch-07.md`): the History of AI card (von Kempelen's Turk in Racknitz's 1789 engraving, or Talos on a coin of Phaistos). Nothing downloaded. Batch 6 was approved (option 1, Watt's governor) and used.
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag). The name Made Minds was decided on 20 November 2026.
 
 ## How a session continues the build
@@ -41,6 +42,8 @@ Every session starts here: find the first stage that is not done, do the next pi
 5. Run `npm run deploy` to update the live site, republish the preview, tick this file, add a line to the log, commit, push.
 
 ## Log
+
+- 2026-11-20: History of AI started (owner): `history` collection and eras, `history.html` with an era index and folding moments, each era showing the movements named in it and the vocabulary words coined in it; a full-width card on the home page between the movements and the vocabulary (shown once moments exist); menu Movements · History of AI · Vocabulary; "In the history of AI" on movement and key-word pages, built from tags. Each movement's naming moment is set with `born`. Alignment card made from batch 6 (Watt's governor, 1788, with Wiener's 1960 words). Collage engine: colour fields no longer wrap round to the opposite edge.
 
 - 2026-11-20 (scheduled run): Key word **Alignment** drafted, checked by a separate agent and merged (`order: 8`, card image to come; 6 history entries tagged, 3 held back, see Notes). Checker removed Russell's reported denial of coining the word (single unverifiable source; the vocabulary entry for "alignment" still carries it) and moved the DAIR statement out (better on The pause). Image batch 6 listed for its card. Preview republished (version 24); not deployed to GitHub Pages.
 
