@@ -8,34 +8,21 @@ import { FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref } from '../lib/site
 
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
 const allThemes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
-const questions = allThemes.filter((t) => t.data.kind === 'question');
-const critics = allThemes.filter((t) => t.data.kind === 'critics');
+const questions = allThemes;
 // The vocabulary shows once src/data/words/words.yaml holds entries (an empty collection makes the build warn).
 const hasWords = (parse(readFileSync('src/data/words/words.yaml', 'utf8')) ?? []).length > 0;
 const words = hasWords ? (await getCollection('words')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0)) : [];
 
 const ismById = new Map(isms.map((i) => [i.id, i]));
 const num = (n: number) => String(n).padStart(2, '0');
-const familiesOf = (ids: string[]) => [...new Set(ids.map((id) => ismById.get(id)?.data.family).filter(Boolean))];
 
-// The vocabulary filter: CSS only, one radio per family.
-const wordFilterCss = [
-  ...['all', ...FAMILIES.map((f) => f.id)].map(
-    (id) =>
-      `#w-${id}:checked ~ .chips label[for="w-${id}"]{background:#111;border-color:#111;color:#fff}` +
-      `#w-${id}:focus-visible ~ .chips label[for="w-${id}"]{outline:2px solid #D8461C;outline-offset:3px}`,
-  ),
-  ...FAMILIES.map((f) => `#w-${f.id}:checked ~ .wlist .word:not(.f-${f.id}){display:none}`),
-].join('');
 ---
 <Base title={`${SITE_NAME}: ${SITE_TITLE}`}>
-  {words.length > 0 && <Fragment set:html={`<style>${wordFilterCss}</style>`} />}
-
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
-      <a href="#questions">Questions</a>
-      {words.length > 0 && <a href="#words">Vocabulary</a>}
+      <a href="#key-words">Key words</a>
+      {words.length > 0 && <a href={pageHref('vocabulary')}>Vocabulary</a>}
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
     </nav>
@@ -43,7 +30,7 @@ const wordFilterCss = [
 
   <section class="wrap hero">
     <h1>{SITE_TITLE}.</h1>
-    <p>Six movements from the heart of the AI industry, in three families, and the questions they answer differently. Open a movement and scroll back through its history, or enter through a question.</p>
+    <p>Six movements from the heart of the AI industry, in three families, and the words their debate keeps returning to. Open a movement and scroll back through its history, or start from a word.</p>
     <p class="asof">Map as of {MAP_DATE}</p>
   </section>
 
@@ -78,17 +65,17 @@ const wordFilterCss = [
     </div>
   </main>
 
-  <section id="questions" class="wrap themes-sec" aria-labelledby="questions-h">
+  <section id="key-words" class="wrap themes-sec" aria-labelledby="key-words-h">
     <div class="themes-head">
-      <h2 id="questions-h">The questions</h2>
-      <p>What the movements answer differently. Open a question to compare their answers, one line each.</p>
+      <h2 id="key-words-h">Key words</h2>
+      <p>The terms the debate keeps returning to. Open one to see what it means, where it comes from and how each movement sees it.</p>
     </div>
     <div class="tgrid">
       {questions.map((t) => {
         const inner = (
           <Fragment>
             <Picture image={t.data.image} ratio="3 / 2" />
-            <span class="tl">{t.data.topic ?? 'Question'}</span>
+            <span class="tl">Key word</span>
             <h3 class="tt">{t.data.title}</h3>
             <p class="td">{t.data.summary}</p>
             {!t.data.ready && <span class="soon">In preparation</span>}
@@ -99,58 +86,16 @@ const wordFilterCss = [
     </div>
   </section>
 
-  {critics.length > 0 && (
-    <section id="critics" class="wrap themes-sec" aria-labelledby="critics-h">
-      <div class="themes-head">
-        <h2 id="critics-h">The critics</h2>
-        <p>The voices who reject the premises the six movements share.</p>
-      </div>
-      {critics.map((t) => {
-        const inner = (
-          <Fragment>
-            <Picture image={t.data.image} ratio="3 / 2" />
-            <div class="crt">
-              <span class="tl">{t.data.topic ?? 'Critique'}</span>
-              <h3 class="tt">{t.data.title}</h3>
-              <p class="td">{t.data.summary}</p>
-            </div>
-          </Fragment>
-        );
-        return t.data.ready ? <a class="card crit" href={pageHref(t.id)}>{inner}</a> : <div class="card crit">{inner}</div>;
-      })}
-    </section>
-  )}
-
   {words.length > 0 && (
-    <section id="words" class="wrap themes-sec" aria-labelledby="words-h">
+    <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
       <div class="themes-head">
-        <h2 id="words-h">Vocabulary</h2>
-        <p>The movements' own vocabulary, with who coined each word and when.</p>
+        <h2 id="vocab-h">Vocabulary</h2>
+        <p>{words.length} words of the movements, with who coined each one and when.</p>
       </div>
-      <div class="wsec">
-        <input class="sr" type="radio" name="wf" id="w-all" checked aria-label="All words" />
-        {FAMILIES.map((f) => <input class="sr" type="radio" name="wf" id={`w-${f.id}`} aria-label={`Words of ${f.name}`} />)}
-        <div class="chips" role="group" aria-label="Show the words of one family">
-          <span class="lbl">Filter by family</span>
-          <label for="w-all">All</label>
-          {FAMILIES.map((f) => <label for={`w-${f.id}`}>{f.name}</label>)}
-        </div>
-        <ul class="wlist">
-          {words.map((w) => (
-            <li class={['word', ...familiesOf(w.data.isms.map((r) => r.id)).map((f) => `f-${f}`)].join(' ')}>
-              <span class="wy">{w.data.yearLabel ?? w.data.year ?? ''}</span>
-              <div>
-                <h3 class="ww">{w.data.word}</h3>
-                <p class="wd">{w.data.definition}</p>
-                <p class="wo">{w.data.coinedBy && <Fragment>{w.data.coinedBy} · </Fragment>}{w.data.sourceUrl ? <a href={w.data.sourceUrl}>{w.data.origin}</a> : w.data.origin}</p>
-                {w.data.isms.length > 0 && (
-                  <p class="wi">{w.data.isms.map((r) => ismById.get(r.id)?.data.title).filter(Boolean).join(' · ')}</p>
-                )}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <p class="vteaser">
+        {words.slice(-12).reverse().map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}
+        <a class="vall" href={pageHref('vocabulary')}>All {words.length} words →</a>
+      </p>
     </section>
   )}
 

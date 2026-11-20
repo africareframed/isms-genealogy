@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
+import Base from '../layouts/Base.astro';
+import { FAMILIES, SITE_NAME, pageHref } from '../lib/site';
+
+// The page fills once src/data/words/words.yaml holds entries (an empty collection makes the build warn).
+const hasWords = (parse(readFileSync('src/data/words/words.yaml', 'utf8')) ?? []).length > 0;
+const words = hasWords ? (await getCollection('words')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0)) : [];
+const isms = await getCollection('isms');
+const ismById = new Map(isms.map((i) => [i.id, i]));
+const keyWords = new Map((await getCollection('themes')).map((t) => [t.data.title.toLowerCase(), t]));
+const familiesOf = (ids: string[]) => [...new Set(ids.map((id) => ismById.get(id)?.data.family).filter(Boolean))];
+
+// The filter: CSS only, one radio per family.
+const filterCss = [
+  ...['all', ...FAMILIES.map((f) => f.id)].map(
+    (id) =>
+      `#w-${id}:checked ~ .chips label[for="w-${id}"]{background:#111;border-color:#111;color:#fff}` +
+      `#w-${id}:focus-visible ~ .chips label[for="w-${id}"]{outline:2px solid #D8461C;outline-offset:3px}`,
+  ),
+  ...FAMILIES.map((f) => `#w-${f.id}:checked ~ .wlist .word:not(.f-${f.id}){display:none}`),
+].join('');
+---
+<Base title={`Vocabulary · ${SITE_NAME}`} description="The movements' own words, with who coined each one and when.">
+  <Fragment set:html={`<style>${filterCss}</style>`} />
+  <header class="wrap site-head">
+    <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href={pageHref()}>All movements and key words</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap vocab">
+    <h1>Vocabulary</h1>
+    <p class="vlead">The words of the six movements, oldest first, with who coined each one and when. Where an origin is disputed, the note says so.</p>
+
+    <input class="sr" type="radio" name="wf" id="w-all" checked aria-label="All words" />
+    {FAMILIES.map((f) => <input class="sr" type="radio" name="wf" id={`w-${f.id}`} aria-label={`Words of ${f.name}`} />)}
+    <div class="chips" role="group" aria-label="Show the words of one family">
+      <span class="lbl">Filter by family</span>
+      <label for="w-all">All</label>
+      {FAMILIES.map((f) => <label for={`w-${f.id}`}>{f.name}</label>)}
+    </div>
+
+    <ul class="wlist">
+      {words.map((w) => {
+        const key = keyWords.get(w.data.word.toLowerCase());
+        return (
+          <li id={w.id} class={['word', ...familiesOf(w.data.isms.map((r) => r.id)).map((f) => `f-${f}`)].join(' ')}>
+            <span class="wy">{w.data.yearLabel ?? w.data.year ?? ''}</span>
+            <div>
+              <h2 class="ww">{key?.data.ready ? <a href={pageHref(key.id)}>{w.data.word}</a> : w.data.word}</h2>
+              <p class="wd">{w.data.definition}</p>
+              <p class="wo">{w.data.coinedBy && <Fragment>{w.data.coinedBy} · </Fragment>}{w.data.sourceUrl ? <a href={w.data.sourceUrl}>{w.data.origin}</a> : w.data.origin}</p>
+              {w.data.isms.length > 0 && <p class="wi">{w.data.isms.map((r) => ismById.get(r.id)?.data.title).filter(Boolean).join(' · ')}</p>}
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  </main>
+
+  <footer class="wrap site-foot">
+    <span>{SITE_NAME} · A shared framework for how we speak about AI, and the history behind it</span>
+    <nav aria-label="Footer">
+      <a href={pageHref('about')}>About</a>
+      <a href={pageHref('method')}>Method</a>
+    </nav>
+  </footer>
+</Base>
