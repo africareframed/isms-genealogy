@@ -1,2 +1,411 @@
 # The movements' own words. One list; see src/content.config.ts for the fields.
-[]
+# Ordered by year of coinage or earliest documented use, oldest first.
+# yearLabel "by …" means only an earliest documented use is known; origin says so.
+# status: draft until a checker agent has verified every claim against its source.
+
+- id: transhumanism
+  word: transhumanism
+  definition: The view that humans can and should use science and technology to go beyond their biological limits, such as ageing and death. Its holders see today's humanity as one stage on a longer path.
+  coinedBy: Julian Huxley
+  year: 1957
+  origin: Julian Huxley, “Transhumanism”, in New Bottles for New Wine, Chatto & Windus, 1957, the essay that made the word known. It appears earlier, in a 1940 paper by the Canadian philosopher W. D. Lighthall. Max More gave it its modern definition in 1990.
+  sourceUrl: https://en.wikipedia.org/wiki/Transhumanism
+  isms: [transhumanism]
+  status: draft
+
+- id: augmentation
+  word: augmentation
+  definition: Using computers to extend what people can do, so that person and machine work together and the person stays in charge. Techno-optimists use it for AI that amplifies human skill rather than replacing it.
+  coinedBy: Douglas Engelbart
+  year: 1962
+  origin: "Douglas C. Engelbart, Augmenting Human Intellect: A Conceptual Framework, SRI Summary Report AFOSR-3223, Stanford Research Institute, for the Air Force Office of Scientific Research, October 1962. He builds on Vannevar Bush's memex (1945) and J. C. R. Licklider's man-computer symbiosis (1960)."
+  sourceUrl: https://dougengelbart.org/content/view/138
+  isms: [techno-optimism]
+  status: draft
+
+- id: intelligence-explosion
+  word: intelligence explosion
+  definition: A runaway process in which a machine cleverer than any human designs still better machines, each improving on the last. Good called the first such machine an ultraintelligent machine.
+  coinedBy: I. J. Good
+  year: 1965
+  origin: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965. Vinge, Kurzweil and MIRI all cite the passage.
+  sourceUrl: https://quoteinvestigator.com/?p=440994
+  isms: [singularitarianism, rationalism]
+  status: draft
+
+- id: cryonics
+  word: cryonics
+  definition: Keeping the bodies or brains of the legally dead at very low temperatures, in the hope that future medicine can repair and revive them.
+  coinedBy: Karl Werner
+  year: 1965
+  origin: "Karl Werner, a New York industrial designer, coined the word in 1965. That year he founded the Cryonics Society of New York with Saul Kent and Curtis Henderson. The idea came from Robert Ettinger's The Prospect of Immortality (1962). Source: Ben Best, “A History of Cryonics”, benbest.com."
+  sourceUrl: https://benbest.com/cryonics/history.html
+  isms: [transhumanism]
+  status: draft
+
+- id: exit
+  word: exit
+  definition: Leaving a failing institution or state to build something new, instead of trying to reform it from within, which Hirschman called voice. Neoreaction and the network state turn it into a political programme.
+  coinedBy: Albert O. Hirschman
+  year: 1970
+  origin: "Albert O. Hirschman, Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States, Harvard University Press, 1970. Nick Land's “The Dark Enlightenment” (2012) and Balaji Srinivasan's talk “Silicon Valley's Ultimate Exit” (2013) took it up."
+  sourceUrl: https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: the-drowning-child
+  word: the drowning child
+  definition: "A thought experiment: a passer-by ought to wade into a shallow pond to save a drowning child, even at the cost of muddy clothes. Effective altruists use it to argue that distance does not lessen the duty to help."
+  coinedBy: Peter Singer
+  year: 1972
+  origin: Peter Singer, “Famine, Affluence, and Morality”, Philosophy & Public Affairs 1(3), 1972, pp. 229–243, written in November 1971 during the famine in East Bengal. Full text on the Giving What We Can website.
+  sourceUrl: https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/famine-affluence-and-morality-peter-singer
+  isms: [effective-altruism]
+  status: draft
+
+- id: bicycle-for-the-mind
+  word: bicycle for the mind
+  definition: Steve Jobs's image of the personal computer as a tool that multiplies human ability, as a bicycle multiplies the efficiency of a walker. Microsoft's Satya Nadella has applied it to AI.
+  coinedBy: Steve Jobs
+  year: 1980
+  yearLabel: c. 1980
+  origin: "Steve Jobs used the image in a presentation filmed around 1980 (Philip Elmer-DeWitt, Fortune, 14 December 2011). He repeats it in the film Memory & Imagination: New Pathways to the Library of Congress, 1990. Satya Nadella took it up for AI in 2023 and 2025."
+  sourceUrl: https://www.themarginalian.org/2011/12/21/steve-jobs-bicycle-for-the-mind-1990/
+  isms: [techno-optimism]
+  status: draft
+
+- id: the-singularity
+  word: the Singularity
+  definition: A coming point when machines surpass human intelligence and change the world so fast that what follows cannot be foreseen. Ray Kurzweil dates it to around 2045.
+  coinedBy: Vernor Vinge
+  year: 1983
+  origin: Vernor Vinge, “First Word”, Omni 5(4), January 1983, p. 10, the citation the Historical Dictionary of Science Fiction lists for this sense. In 1958 Stanisław Ulam had recalled John von Neumann speaking of an “essential singularity”. Vinge's 1993 essay made the term known.
+  sourceUrl: https://quoteinvestigator.com/2026/01/20/singularity-butterfly/
+  isms: [singularitarianism, transhumanism]
+  status: draft
+
+- id: mind-children
+  word: mind children
+  definition: Moravec's name for the intelligent robots he expected to succeed humanity. Like children, they would make their own way while their human parents faded.
+  coinedBy: Hans Moravec
+  year: 1988
+  origin: "Hans Moravec, Mind Children: The Future of Robot and Human Intelligence, Harvard University Press, 1988. Reviewed by Noel Perrin, The Washington Post, 23 October 1988."
+  sourceUrl: https://frc.ri.cmu.edu/~hpm/book88/reviews/881023.WashPost.html
+  isms: [singularitarianism]
+  status: draft
+
+- id: singularitarian
+  word: singularitarian
+  definition: At first, someone who believes the Singularity is possible. Later, someone who works to bring it about, and to make it go well.
+  coinedBy: Mark Plus (Mark Potts)
+  year: 1991
+  origin: Defined in 1991 by the Extropian thinker Mark Plus (Mark Potts) as one who believes in the concept of a Singularity. Eliezer Yudkowsky's The Singularitarian Principles (2000) gave it the sense of an activist. Ray Kurzweil claimed the name in 2005.
+  sourceUrl: https://en.wikipedia.org/wiki/Singularitarianism
+  isms: [singularitarianism]
+  status: draft
+
+- id: morphological-freedom
+  word: morphological freedom
+  definition: The freedom to change one's own body at will, through surgery, genetic engineering, nanotechnology or uploading.
+  coinedBy: Max More
+  year: 1993
+  origin: "Max More, “Technological Self-Transformation: Expanding Personal Extropy”, Extropy, 1993, where Wikipedia says the term may have been coined. Anders Sandberg later developed it in “Morphological Freedom – Why We Not Just Want It, but Need It” (2001)."
+  sourceUrl: https://en.wikipedia.org/wiki/Morphological_freedom
+  isms: [transhumanism]
+  status: draft
+
+- id: technocapital-singularity
+  word: the technocapital singularity
+  definition: Land's name for a point where capitalism and technology fuse into one self-driving process, beyond human control. The first e/acc post says its practices aim to raise the odds of one.
+  coinedBy: Nick Land
+  year: 1994
+  origin: "Nick Land, “Meltdown”, a talk at the Virtual Futures conference, University of Warwick, 1994. Its opening has Earth captured by a technocapital singularity. e/acc's 2022 tenets link to the text."
+  sourceUrl: https://dataswamp.org/~john/sites/ccru/swarm1/1_melt.htm
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: agi
+  word: AGI
+  definition: Artificial general intelligence, AI that matches or surpasses humans across almost every intellectual task rather than in one narrow field.
+  coinedBy: Mark Gubrud
+  year: 1997
+  origin: "Mark Gubrud, “Nanotechnology and International Security”, a paper for the Fifth Foresight Conference on Molecular Nanotechnology, 1997. Around 2002 Shane Legg proposed the name again, for a book edited by Ben Goertzel and Cassio Pennachin. That book spread it (Goertzel, “Who coined the term ‘AGI’?”, goertzel.org, 28 August 2011)."
+  sourceUrl: https://www.foresight.org/Conference/MNT05/Papers/Gubrud/index.html
+  isms: [singularitarianism, rationalism, effective-altruism, effective-accelerationism]
+  status: draft
+
+- id: superintelligence
+  word: superintelligence
+  definition: An intellect much smarter than the best human brains in practically every field, including science, general wisdom and social skills. Whether one can be built safely is the central question for rationalists and effective altruists.
+  coinedBy: Nick Bostrom (this definition)
+  year: 1998
+  origin: Nick Bostrom, “How Long Before Superintelligence?”, International Journal of Futures Studies 2, 1998 (dated 1997), which gives the definition still in use. He expanded it in Superintelligence (2014). Earlier uses of the word itself are not traced here.
+  sourceUrl: https://nickbostrom.com/superintelligence
+  isms: [singularitarianism, rationalism, effective-altruism]
+  status: draft
+
+- id: law-of-accelerating-returns
+  word: the law of accelerating returns
+  definition: Kurzweil's claim that technology advances at an exponential, not a linear, pace, because each advance speeds up the next. Moore's law is, for him, one case among many.
+  coinedBy: Ray Kurzweil
+  year: 1999
+  origin: Ray Kurzweil, The Age of Spiritual Machines, Viking, 1999; developed in his essay “The Law of Accelerating Returns”, KurzweilAI.net, 7 March 2001.
+  sourceUrl: https://en.wikipedia.org/wiki/The_Law_of_Accelerating_Returns
+  isms: [singularitarianism, transhumanism]
+  status: draft
+
+- id: friendly-ai
+  word: Friendly AI
+  definition: An advanced AI whose goals are reliably good for humanity and stay so as it improves itself. It was the rationalists' main term until “aligned AI” took its place in 2014.
+  coinedBy: Eliezer Yudkowsky
+  year: 2001
+  yearLabel: by 2001
+  origin: "Earliest text found here: Eliezer Yudkowsky, Creating Friendly AI 1.0, Singularity Institute for Artificial Intelligence, 2001. The LessWrong wiki calls Friendly AI a term invented by Yudkowsky. MIRI's drafts switched to “aligned AI” in late 2014."
+  sourceUrl: https://lesswrong.com/w/creating-friendly-ai
+  isms: [rationalism, singularitarianism]
+  status: draft
+
+- id: existential-risk
+  word: existential risk
+  definition: A risk that could wipe out intelligent life from Earth, or permanently and drastically limit its future. Often shortened to x-risk.
+  coinedBy: Nick Bostrom
+  year: 2002
+  origin: "Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards”, Journal of Evolution and Technology 9(1), 2002. A first version dates from 2001. In it he writes “I shall call these existential risks”."
+  sourceUrl: https://nickbostrom.com/existential/risks
+  isms: [effective-altruism, rationalism]
+  status: draft
+
+- id: paperclip-maximiser
+  word: paperclip maximiser
+  definition: A thought experiment about an AI whose only goal is making paperclips, and which turns Earth and then space into paperclip factories. It shows that a harmless goal can end in catastrophe without any malice.
+  coinedBy: Nick Bostrom and Eliezer Yudkowsky
+  year: 2003
+  origin: "Nick Bostrom, “Ethical Issues in Advanced Artificial Intelligence”, in I. Smit et al. (eds), Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence, vol. 2, 2003. Disputed: the LessWrong wiki says Yudkowsky first mentioned it, on the Extropians mailing list (March 2003). LessWrong now calls it the squiggle maximiser."
+  sourceUrl: https://nickbostrom.com/ethics/ai
+  isms: [rationalism]
+  status: draft
+
+- id: proactionary-principle
+  word: the proactionary principle
+  definition: The principle that people's freedom to innovate with technology is of great, even critical, value to humanity. More offered it as an alternative to the precautionary principle.
+  coinedBy: Max More
+  year: 2004
+  yearLabel: c. 2004
+  origin: "Max More, The Proactionary Principle, version 1.0, a draft for public comment, Extropy Institute. It is based on the institute's Vital Progress Summit of 2004, and the page is dated 2005."
+  sourceUrl: http://www.extropy.org/proactionaryprinciple.htm
+  isms: [transhumanism]
+  status: draft
+
+- id: longevity-escape-velocity
+  word: longevity escape velocity
+  definition: The point at which therapies against ageing improve faster than people age, adding at least a year of life for every year lived.
+  coinedBy: Aubrey de Grey, from an idea credited to David Gobel
+  year: 2004
+  origin: "Aubrey de Grey, “Escape Velocity: Why the Prospect of Extreme Human Life Extension Matters Now”, PLoS Biology 2(6), 15 June 2004. The paper calls it “actuarial escape velocity”. Wikipedia credits the idea to David Gobel of the Methuselah Foundation. Kurzweil uses the longer name."
+  sourceUrl: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020187
+  isms: [transhumanism, singularitarianism]
+  status: draft
+
+- id: neoreaction
+  word: neoreaction
+  definition: A current of bloggers and theorists who argue that democracy should give way to rule by a single sovereign, perhaps run like a company. It is often abbreviated NRx.
+  coinedBy: Curtis Yarvin (as Mencius Moldbug)
+  year: 2008
+  origin: "Yarvin first called his project neoreactionary on 19 June 2008, as cited by Wikipedia. The post is “Chapter X: A Simple Sovereign Bankruptcy Procedure”, in An Open Letter to Open-Minded Progressives, Unqualified Reservations. Arnold Kling used “neo-reactionary” as a label of his own on EconLog, 18 July 2010. Nick Land's “The Dark Enlightenment” (2012) spread it."
+  sourceUrl: https://en.wikipedia.org/wiki/Curtis_Yarvin
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: foom
+  word: foom
+  definition: A sudden, local jump in an AI's capability, over weeks or hours rather than years, to far beyond anything else around. It is also called a hard takeoff.
+  coinedBy: Robin Hanson and Eliezer Yudkowsky
+  year: 2008
+  origin: "Earliest dated use found: Robin Hanson, “AI Go Foom”, Overcoming Bias, 10 November 2008, with Yudkowsky's reply. Their debate is collected in The Hanson-Yudkowsky AI-Foom Debate, Machine Intelligence Research Institute, 2013. Who said it first is unclear."
+  sourceUrl: https://intelligence.org/files/AIFoomDebate.pdf
+  isms: [rationalism]
+  status: draft
+
+- id: accelerationism
+  word: accelerationism
+  definition: The idea that the forces of capitalism and technology should be intensified rather than resisted or slowed. Noys coined it as a critic, and e/acc later built its own name on it.
+  coinedBy: Benjamin Noys
+  year: 2010
+  origin: "Benjamin Noys, The Persistence of the Negative: A Critique of Contemporary Continental Theory, Edinburgh University Press, 2010. He applied it to thinkers such as Deleuze and Guattari, Lyotard and Baudrillard. Noys says he first coined the term (e-flux, 2025). The word appears earlier in Roger Zelazny's novel Lord of Light (1967)."
+  sourceUrl: https://en.wikipedia.org/wiki/Accelerationism
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: p-doom
+  word: p(doom)
+  definition: "Shorthand for the probability of doom: a person's estimate of the chance that AI ends in human extinction or a similar catastrophe. Asking for someone's p(doom) became common in Silicon Valley in 2023."
+  coinedBy: Tim Tyler (earliest use found)
+  year: 2010
+  yearLabel: by 2010
+  origin: "Earliest use found: a comment by Tim Tyler writing “p(DOOM)” on the LessWrong post “Best career models for doing research?”, December 2010. Tyler says he coined it in 2009, which is not confirmed. Fast Company (Clint Rainey, 7 December 2023) traces it to a half-serious joke on tech message boards."
+  sourceUrl: https://www.lesswrong.com/posts/rNkFLv9tXzq8Lrvrc/best-career-models-for-doing-research?commentId=CYzX5HKNL7dX3gTnA
+  isms: [rationalism]
+  status: draft
+
+- id: effective-altruism
+  word: effective altruism
+  definition: Using evidence and careful reasoning to find the ways to do the most good, then acting on them through careers and donations. Its causes range from global health to AI risk.
+  coinedBy: William MacAskill and the Oxford founders
+  year: 2011
+  origin: "The staff of Giving What We Can and 80,000 Hours chose it by vote on 5 December 2011. It named their umbrella charity, the Centre for Effective Altruism. Source: William MacAskill, “The history of the term ‘effective altruism’”, Effective Altruism Forum, 11 March 2014."
+  sourceUrl: https://forum.effectivealtruism.org/posts/9a7xMXoSiQs3EYPA2/the-history-of-the-term-effective-altruism
+  isms: [effective-altruism]
+  status: draft
+
+- id: earning-to-give
+  word: earning to give
+  definition: "Taking a high-paying job in order to give a large share of the income to the most effective causes. In its early years, 80,000 Hours recommended it as a high-impact career."
+  coinedBy: Brian Tomasik (the name), taken up by Jeff Kaufman
+  year: 2012
+  yearLabel: by 2012
+  origin: "Jeff Kaufman, “History of ‘Earning to Give’”, jefftk.com, 18 September 2012, updated 2013. The idea goes back to Tomasik's 2006 essay “Why Activists Should Consider Making Lots of Money”. 80,000 Hours had called it professional philanthropy. Tomasik suggested the new name on a mailing list, and Kaufman took it up."
+  sourceUrl: https://www.jefftk.com/p/history-of-earning-to-give
+  isms: [effective-altruism]
+  status: draft
+
+- id: orthogonality-thesis
+  word: orthogonality thesis
+  definition: The claim that intelligence and final goals vary independently, so a mind of any intelligence could pursue almost any goal. A superintelligence need not share human values.
+  coinedBy: Nick Bostrom
+  year: 2012
+  origin: "Nick Bostrom, “The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents”, Minds and Machines 22(2), May 2012."
+  sourceUrl: https://nickbostrom.com/superintelligentwill.pdf
+  isms: [rationalism]
+  status: draft
+
+- id: instrumental-convergence
+  word: instrumental convergence
+  definition: "The claim that agents with very different final goals will pursue the same means, such as staying alive, keeping their goals and gaining resources. An AI might resist being switched off for this reason alone."
+  coinedBy: Nick Bostrom
+  year: 2012
+  origin: Nick Bostrom, “The Superintelligent Will”, Minds and Machines 22(2), May 2012, which states the instrumental convergence thesis. It builds on Stephen Omohundro's “The Basic AI Drives” (2008), which Bostrom calls pioneering.
+  sourceUrl: https://nickbostrom.com/superintelligentwill.pdf
+  isms: [rationalism]
+  status: draft
+
+- id: importance-neglectedness-tractability
+  word: importance, neglectedness, tractability
+  definition: "Three tests for a cause: how big the problem is, how little is already spent on it, and how much more effort can achieve. Effective altruists use them to compare causes."
+  coinedBy: Holden Karnofsky
+  year: 2013
+  yearLabel: c. 2013
+  origin: First developed by Karnofsky around 2013 at GiveWell Labs, as importance, tractability and uncrowdedness. Owen Cotton-Barratt made a quantitative version for 80,000 Hours in late 2014, as scale, solvability and neglectedness. Effective Altruism Forum, “ITN framework”.
+  sourceUrl: https://forum.effectivealtruism.org/topics/itn-framework
+  isms: [effective-altruism]
+  status: draft
+
+- id: alignment
+  word: alignment
+  definition: Making an AI system's goals and behaviour match what its makers, and humanity, actually intend. For rationalists, aligning a superintelligence is the central unsolved problem.
+  coinedBy: Machine Intelligence Research Institute
+  year: 2014
+  origin: "The first MIRI paper to use it was “Aligning Superintelligence with Human Interests: A Technical Research Agenda” (2014). Rob Bensinger of MIRI recalls Stuart Russell suggesting the term that year; asked later, Russell said he did not coin it. Norbert Wiener described the problem in 1960. LessWrong, “When was the term ‘AI alignment’ coined?”, 2020."
+  sourceUrl: https://lesswrong.com/posts/ZxWzCGKzX84S7DBZ9/when-was-the-term-ai-alignment-coined
+  isms: [rationalism, effective-altruism]
+  status: draft
+
+- id: longtermism
+  word: longtermism
+  definition: The view that shaping the very long-run future is a key moral priority of our time. Future people count, its holders argue, and there could be vast numbers of them.
+  coinedBy: William MacAskill
+  year: 2017
+  origin: Proposed by MacAskill in October 2017, to replace clumsier phrases such as “people interested in x-risk reduction”. William MacAskill, “‘Longtermism’”, Effective Altruism Forum, 25 July 2019.
+  sourceUrl: https://forum.effectivealtruism.org/posts/qZyshHCNkjs3TvSem/longtermism
+  isms: [effective-altruism]
+  status: draft
+
+- id: progress-studies
+  word: Progress Studies
+  definition: A proposed field that studies how economic, technological, scientific and cultural progress happens, and how to speed it up.
+  coinedBy: Patrick Collison and Tyler Cowen
+  year: 2019
+  origin: "Patrick Collison and Tyler Cowen, “We Need a New Science of Progress”, The Atlantic, July 2019. Cowen excerpted it on Marginal Revolution, 31 July 2019."
+  sourceUrl: https://marginalrevolution.com/marginalrevolution/2019/07/we-need-a-new-science-of-progress.html
+  isms: [techno-optimism]
+  status: draft
+
+- id: scaling-laws
+  word: scaling laws
+  definition: Regular relations between an AI model's error and its size, training data and computing power. As these grow, the error falls along a smooth, predictable curve.
+  coinedBy: Jared Kaplan and colleagues at OpenAI
+  year: 2020
+  origin: Jared Kaplan, Sam McCandlish and others, “Scaling Laws for Neural Language Models”, arXiv:2001.08361, 23 January 2020. Joel Hestness and colleagues at Baidu had fitted similar curves in “Deep Learning Scaling is Predictable, Empirically” (2017).
+  sourceUrl: https://arxiv.org/abs/2001.08361v1
+  isms: []
+  status: draft
+
+- id: e-acc
+  word: e/acc
+  definition: Short for effective accelerationism, the movement to speed up technology and AI as far and as fast as possible. Its name plays on effective altruism.
+  coinedBy: “swarthy” (@zestular), with @BasedBeffJezos, @bayeslord and @creatine_cycle
+  year: 2022
+  origin: Announced on Twitter at the end of May 2022 by four pseudonymous users; the earliest post embedded in their text is dated 30 May. Their post “Effective Accelerationism — e/acc” was reposted on the e/acc newsletter, Substack, 31 October 2022.
+  sourceUrl: https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: network-state
+  word: network state
+  definition: An online community with a strong shared purpose that crowdfunds territory around the world and seeks diplomatic recognition from existing states.
+  coinedBy: Balaji Srinivasan
+  year: 2022
+  origin: "Balaji Srinivasan, The Network State: How To Start a New Country, 4 July 2022, free to read at thenetworkstate.com. Drafts appeared on balajis.com from March 2022. Wiktionary credits the coinage to the book."
+  sourceUrl: https://en.wiktionary.com/wiki/network_state
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: pause
+  word: pause
+  definition: The call to halt, for a time, the training of AI systems more powerful than today's most advanced, until they can be made safe. Many of its supporters want it agreed between countries.
+  coinedBy: Future of Life Institute (in this sense)
+  year: 2023
+  origin: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023, which asks for at least six months. PauseAI, founded in Utrecht in May 2023 by Joep Meindertsma, took the word as its name."
+  sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+  isms: [rationalism]
+  status: draft
+
+- id: tescreal
+  word: TESCREAL
+  definition: An acronym for transhumanism, extropianism, singularitarianism, cosmism, rationalism, effective altruism and longtermism. Its coiners, both critics, argue that these ideologies form one bundle rooted in twentieth-century eugenics.
+  coinedBy: Timnit Gebru and Émile P. Torres
+  year: 2023
+  origin: Proposed in a draft paper in 2023 and popularised by Émile P. Torres, “The Acronym Behind Our Wildest AI Dreams and Nightmares”, Truthdig, 15 June 2023. The paper appeared as “The TESCREAL bundle”, First Monday 29(4), April 2024.
+  sourceUrl: https://en.wikipedia.org/wiki/TESCREAL
+  isms: []
+  status: draft
+
+- id: decel
+  word: decel
+  definition: "Short for decelerationist: e/acc's dismissive label for anyone who wants to slow AI down. It covers safety campaigners and cautious builders alike."
+  year: 2023
+  yearLabel: by 2023
+  origin: Coiner unknown. e/acc's tenets (10 July 2022) already argue against proponents of deceleration. Alex Wilhelm explains the label in “Effective accelerationism, doomers, decels, and how to flaunt your AI priors”, TechCrunch, 20 November 2023.
+  sourceUrl: https://techcrunch.com/2023/11/20/e-acc-doomers-decels-openai-altman
+  isms: [effective-accelerationism]
+  status: draft
+
+- id: doomer
+  word: doomer
+  definition: A label for people who expect advanced AI to end in catastrophe, rationalists above all. Accelerationists and techno-optimists use it, often dismissively.
+  year: 2023
+  yearLabel: by 2023
+  origin: "As slang for a pessimist, the word was reported in 2008 on internet forums about peak oil. The source is The Globe and Mail, 7 March 2008, cited by Wikipedia. Marc Andreessen's “Why AI Will Save the World” (6 June 2023) uses it of AI risk. Reid Hoffman's Superagency (2025) sets doomers beside gloomers, zoomers and bloomers."
+  sourceUrl: https://en.wikipedia.org/wiki/Doomer
+  isms: [effective-accelerationism, techno-optimism]
+  status: draft
+
+- id: superagency
+  word: superagency
+  definition: Hoffman's word for the state in which many people gain AI-given powers at once, so the benefits compound across society. He presents it as a hopeful answer to fears about AI.
+  coinedBy: Reid Hoffman, with Greg Beato
+  year: 2024
+  yearLabel: by 2024
+  origin: "Hoffman presented “super agency” at the TED AI conference in San Francisco in October 2024 (Michael Nuñez, VentureBeat, 25 October 2024). He set it out with Greg Beato in Superagency: What Could Possibly Go Right with Our AI Future, Authors Equity, January 2025."
+  sourceUrl: https://venturebeat.com/ai/linkedin-founder-reid-hoffman-unveils-super-agency-vision-at-ted-ai-conference-takes-subtle-shot-at-elon-musk
+  isms: [techno-optimism]
+  status: draft
