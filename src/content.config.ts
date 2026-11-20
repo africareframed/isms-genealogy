@@ -4,7 +4,7 @@ import { z } from 'astro/zod';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parse } from 'yaml';
-import { ERA_IDS } from './lib/site';
+import { ERA_IDS, THREAD_IDS } from './lib/site';
 
 const status = z.enum(['draft', 'checked']).default('draft');
 
@@ -151,6 +151,7 @@ const history = defineCollection({
   loader: listLoader('history'),
   schema: z.object({
     era: z.enum(ERA_IDS),
+    thread: z.enum(THREAD_IDS).optional(), // the line of the story it belongs to most
     year: z.number().int(),
     month: z.number().int().min(1).max(12).optional(),
     yearLabel: z.string().optional(),

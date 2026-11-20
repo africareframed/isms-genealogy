@@ -211,7 +211,8 @@ a.hist:hover .ht { text-decoration: underline; }
 .hm[open] summary::after { content: '\2212'; }
 .hm summary:hover .hm-n { text-decoration: underline; text-underline-offset: 4px; }
 .hm summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
-.hm-y { font-family: var(--mono); font-size: 16px; line-height: 24px; font-weight: 500; }
+.hm-y { display: flex; flex-direction: column; gap: 6px; font-family: var(--mono); font-size: 16px; line-height: 24px; font-weight: 500; }
+.hm-th { font-size: 11px; line-height: 15px; font-weight: 400; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
 .hm-t { display: flex; flex-direction: column; gap: 4px; }
 .hm-n { font-size: 24px; line-height: 30px; font-weight: 600; letter-spacing: -0.01em; }
 .hm-l { font-size: 17px; line-height: 25px; color: var(--muted); }

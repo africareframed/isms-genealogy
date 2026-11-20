@@ -21,6 +21,21 @@ export const ERAS = [
 ] as const;
 export const ERA_IDS = ERAS.map((e) => e.id) as [string, ...string[]];
 
+/* The threads that run through the history of AI. Each moment names the one it belongs to most. */
+export const THREADS = [
+  { id: 'made-beings', name: 'Made beings' },
+  { id: 'reasoning', name: 'Logic and calculation' },
+  { id: 'symbols-networks', name: 'Symbols or networks' },
+  { id: 'talking', name: 'Machines that talk' },
+  { id: 'games', name: 'Machines at play' },
+  { id: 'booms-winters', name: 'Booms and winters' },
+  { id: 'compute', name: 'Chips and data' },
+  { id: 'warnings', name: 'Warnings' },
+  { id: 'law', name: 'Laws and states' },
+] as const;
+export const THREAD_IDS = THREADS.map((t) => t.id) as [string, ...string[]];
+export const threadName = (id?: string) => THREADS.find((t) => t.id === id)?.name;
+
 export const RELATIONS: Record<string, string> = {
   milestone: 'Milestone',
   'institutional-root': 'Institutional root',
