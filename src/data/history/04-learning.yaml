@@ -3,23 +3,6 @@
 # each moment belongs to most (validated after merge). status: draft until a checker agent
 # has verified every claim against its source.
 
-# 2012 falls in the deep-learning era (eraBounds: from 2012), so this moment is tagged
-# deep-learning. The coordinator may move it or merge it with the 2012-onwards file.
-- id: 2012-google-cat
-  era: deep-learning
-  year: 2012
-  month: 6
-  title: The Google Brain cat
-  line: A network trained on YouTube frames learns to detect cats without labels.
-  who: Quoc Le, Andrew Ng, Jeff Dean and colleagues, Google and Stanford
-  text: The team trained a neural network with a billion connections on 10 million unlabelled images, frames taken from YouTube videos. Training ran for three days on 1,000 machines with 16,000 processor cores. Without being told what to look for, the network grew detectors for faces, human bodies and cat faces. On 20,000 ImageNet categories it reached 15.8 per cent accuracy, a 70 per cent relative gain on the previous best.
-  source: "Quoc V. Le, Marc'Aurelio Ranzato, Rajat Monga and others, “Building High-level Features Using Large Scale Unsupervised Learning”, arXiv:1112.6209, 2011, presented at ICML 2012; Jeff Dean and Andrew Ng, “Using large-scale brain simulations for machine learning and A.I.”, Google blog, 26 June 2012"
-  sourceUrl: https://arxiv.org/abs/1112.6209v1
-  thread: compute
-  isms: []
-  themes: [compute]
-  status: checked
-
 - id: 2011-siri
   era: learning
   year: 2011

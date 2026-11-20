@@ -36,7 +36,9 @@ const eras = ERAS.map((era) => {
 
 const oldest = moments[moments.length - 1];
 const pageImage = (await getCollection('images')).find((i) => i.id === 'collage-history-tall');
-const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: e.name }))];
+// Short labels keep the section menu on one line: the years of each era.
+const navLabel = (e: (typeof eras)[number]) => (e.from < 0 ? 'Before 1642' : e.span.replace(' to ', '–'));
+const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: navLabel(e) }))];
 ---
 <Base title={`History of AI · ${SITE_NAME}`} description="The history of artificial intelligence, from ancient automata to the generative race, newest first.">
   <PageHeader title="History of AI" kind="History" nav={nav} navLabel="Eras" />
