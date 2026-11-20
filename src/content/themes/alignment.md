@@ -1,6 +1,5 @@
 ---
 title: Alignment
-topic: Key word
 order: 8
 ready: true
 summary: The effort to make AI pursue the goals its makers intend, and not goals of its own.
