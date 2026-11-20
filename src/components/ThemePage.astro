@@ -19,7 +19,7 @@ const tagged = (await getCollection('entries', (e) => e.data.themes.some((r) => 
 
 const nav = [
   { href: '#introduction', label: 'Introduction' },
-  { href: '#isms', label: 'How the movements see it' },
+  ...(theme.data.isms.length ? [{ href: '#isms', label: 'How the movements see it' }] : []),
   ...(theme.data.strands.length ? [{ href: '#strands', label: 'Strands' }] : []),
   ...(theme.data.words.length ? [{ href: '#words', label: 'Related words' }] : []),
   ...(tagged.length ? [{ href: '#histories', label: 'In the histories' }] : []),
@@ -41,6 +41,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
       <Picture image={theme.data.pageImage ?? theme.data.image} ratio={theme.data.pageImage ? '4 / 5' : '3 / 2'} />
     </section>
 
+    {theme.data.isms.length > 0 && (
     <section id="isms" class="wrap sec" aria-labelledby="isms-h">
       <h2 class="kick" id="isms-h">How the movements see it</h2>
       <div>
@@ -56,6 +57,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
         })}
       </div>
     </section>
+    )}
 
     {theme.data.strands.length > 0 && (
       <section id="strands" class="wrap sec" aria-labelledby="strands-h">
