@@ -1,0 +1,131 @@
+# The history of AI, era "automata": Myths and automata, antiquity to 1642. Newest first.
+# Fields: see the history collection in src/content.config.ts. thread: the line of the
+# story the moment belongs to most. status: checked by a separate checker agent, 20 Nov 2026.
+
+- id: 1637-discourse-on-method
+  era: automata
+  year: 1637
+  title: Descartes's two tests
+  line: Descartes argues that a machine could never use words as a person does.
+  who: René Descartes
+  text: In Part V of his Discourse on the Method, Descartes imagines machines shaped like an ape, or like our own bodies. A machine like an animal, he says, could not be told apart from it. But two tests would always expose a human-shaped machine. It could never “use words or other signs” as we do, and it would act from the arrangement of its organs, not knowledge.
+  source: "René Descartes, Discours de la méthode, Leiden, Ian Maire, 1637, Part V, trans. John Veitch (Project Gutenberg); Smithsonian Libraries, catalogue record of the 1637 edition"
+  sourceUrl: https://www.gutenberg.org/files/59/59-h/59-h.htm
+  thread: talking
+  status: checked
+
+- id: 1305-llull-ars
+  era: automata
+  year: 1305
+  yearLabel: 1305–08
+  title: Llull's Ultimate General Art
+  line: Rotating circles combine principles into a method for finding the truth.
+  who: Ramon Llull
+  text: Ramon Llull writes his Ars generalis ultima between 1305 and 1308, the last version of an Art revealed to him in 1274. Its figures include circles that rotate, combining a fixed set of principles. He meant it as a method by which any Jewish, Catholic or Muslim scholar could reach the truth, and so to convert unbelievers. His Ars Magna later caught the imagination of Leibniz.
+  source: "Ernesto Priani, “Ramon Llull”, Stanford Encyclopedia of Philosophy, revised 24 February 2025; Ivo Thomas, “Precursors of Modern Logic: Leibniz”, Encyclopedia of Philosophy, 1967 (Encyclopedia.com)"
+  sourceUrl: https://plato.stanford.edu/entries/llull/
+  thread: reasoning
+  status: checked
+
+- id: 1206-al-jazari
+  era: automata
+  year: 1206
+  title: Al-Jazari's Book of Knowledge
+  line: An engineer's book shows clocks, fountains and a band of mechanical musicians.
+  who: Ismail al-Jazari
+  text: Al-Jazari, an engineer to the Artuqid kings, presents his Book of Knowledge of Ingenious Mechanical Devices in 1206. It describes water clocks, fountains and automata, among them servants that offer guests a towel. A boat carries four mechanical musicians, and the drummers could be set to play different beats. A folio showing his elephant clock, from a copy dated 1315, is now in the Metropolitan Museum of Art.
+  source: "Jorge Elices, “Medieval robots? They were just one of this Muslim inventor's creations”, National Geographic, 30 July 2020; The Metropolitan Museum of Art, “The Elephant Clock”, folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari, dated 1315, 57.51.23"
+  sourceUrl: https://www.nationalgeographic.com/history/history-magazine/article/ismail-al-jazari-muslim-inventor-called-father-robotics
+  thread: made-beings
+  status: checked
+
+- id: 1200-golem-rite
+  era: automata
+  year: 1200
+  yearLabel: c. 1200
+  title: Rites for making a golem
+  line: Jewish mystics describe bringing a figure to life with letters and a holy name.
+  who: The Hasidei Ashkenaz; Eleazar of Worms
+  text: Among the Hasidei Ashkenaz, the Jewish pietists of 12th- and 13th-century Germany, making a golem became a mystical rite. A commentary by Eleazar of Worms gives instructions for combining the letters of the alphabet and the secret name of God. The idea goes back to a Talmud story in which the sage Rava creates a man who does not answer when spoken to. The golem of Prague is a much later legend, attached to Rabbi Judah Loew apparently in the late 18th century.
+  source: "Gershom Scholem and Moshe Idel, “Golem”, Encyclopaedia Judaica, 2nd edn, 2007 (Encyclopedia.com); Babylonian Talmud, Sanhedrin 65b"
+  sourceUrl: https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/golem
+  thread: made-beings
+  status: checked
+
+- id: 850-banu-musa
+  era: automata
+  year: 850
+  yearLabel: c. 850
+  title: The Book of Ingenious Devices
+  line: Three brothers in Baghdad describe a hundred machines and a self-playing flute.
+  who: The Banū Mūsā brothers
+  text: Three brothers working in the House of Wisdom in Baghdad write The Book of Ingenious Devices. It describes some 100 small machines, most of them trick vessels, along with fountains and lamps. They also designed a water-powered flute player whose tune was set by raised pins on a rotating cylinder. It has been called the first programmable machine.
+  source: "MacTutor History of Mathematics, University of St Andrews, “Banu Musa”; Islamic Scientific Manuscripts Initiative, Max Planck Institute for the History of Science, record of the Kitāb al-ḥiyal (Banū Mūsá); Cem Nizamoglu, review of Atilla Bir's study of the Kitāb al-Hiyal (IRCICA, 1990), Muslim Heritage (FSTC), 10 August 2007; Christophe Levaux, “The Forgotten History of Repetitive Audio Technologies”, Organised Sound 22 (2), 2017, 187–194; Jeremy Norman, “The Musa Brothers Build the First Programmable Machine & the Earliest Known Mechanical Musical Instrument”, HistoryofInformation.com"
+  sourceUrl: https://ismi.mpiwg-berlin.mpg.de/index.php/text/125021
+  thread: made-beings
+  status: checked
+
+- id: 350-liezi-yan-shi
+  era: automata
+  year: 350
+  yearLabel: c. 4th century CE
+  title: Yan Shi's artificial man
+  line: A Daoist tale tells of a craftsman's lifelike figure that sings and flirts.
+  who: Yan Shi, in the Liezi
+  text: The Liezi, a Daoist book whose surviving text dates from around the fourth century CE, tells of the craftsman Yan Shi. He presents King Mu of Zhou with a figure that moves and sings like a man. When it winks at the king's ladies, the king flies into a rage. Yan Shi saves himself by taking it apart, showing it is made of leather, wood, glue and paint.
+  source: "Liezi, book V, “The Questions of T'ang” (Tang wen), in Lionel Giles, Taoist Teachings from the Book of Lieh Tzŭ, John Murray, London, 1912, pp. 90–92 (Internet Archive, University of California Libraries copy); Steve Coutinho, “Liezi”, Internet Encyclopedia of Philosophy, on the text's dating"
+  sourceUrl: https://archive.org/details/taoistteachingsf00liezrich
+  thread: made-beings
+  status: checked
+
+- id: 62-hero-automata
+  era: automata
+  year: 62
+  yearLabel: 1st century CE
+  title: Hero of Alexandria's automata
+  line: An Alexandrian inventor describes self-moving displays driven by falling weights.
+  who: Hero (Heron) of Alexandria
+  text: Hero, a Greek geometer and inventor in Alexandria, writes the Pneumatica and a treatise on making automata. Its two displays are both driven by a falling weight. One rolls forward on wheels turned by an unwinding cord; the other, a box like a small theatre, stages a myth in five scenes. Some modern accounts call the rolling one a programmable robot.
+  source: "Encyclopaedia Britannica, “Heron of Alexandria”; Francesco Grillo, Hero of Alexandria's Automata: A Critical Edition and Translation, Including a Commentary on Book One, PhD thesis, University of Glasgow, 2019; Robert W. Lebling, “Robots of Ages Past”, AramcoWorld, 5 November 2019"
+  sourceUrl: https://theses.gla.ac.uk/76774/
+  thread: made-beings
+  status: checked
+
+- id: bce100-antikythera
+  era: automata
+  year: -100
+  yearLabel: c. 100 BCE
+  title: The Antikythera mechanism
+  line: Bronze gears from a shipwreck turn out to predict eclipses.
+  who: Unknown Greek makers
+  text: Sponge divers found a shipwreck off the Greek island of Antikythera in 1900, and the mechanism came to light in 1901. Its 30 surviving bronze gears calculated and displayed the cycles of the heavens and predicted eclipses. Its date is debated; a 2006 study in Nature placed it around the end of the second century BCE. The study judged it more complex than any known device for at least a thousand years after.
+  source: "T. Freeth et al., “Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism”, Nature 444, 587–591, 2006; “The Antikythera Mechanism”, review article, Communications of the ACM"
+  sourceUrl: https://www.nature.com/articles/nature05357/fig
+  thread: reasoning
+  status: checked
+
+- id: bce250-talos
+  era: automata
+  year: -250
+  yearLabel: 3rd century BCE
+  title: Talos, the man of bronze
+  line: In an epic poem, a bronze giant guards Crete until a sorceress undoes him.
+  who: Apollonius of Rhodes
+  text: In the Argonautica, Apollonius of Rhodes tells of Talos, “the man of bronze”, who strides round Crete three times a day to guard it. His weak point is a vein by his ankle, and when Medea bewitches him he grazes it and his ichor pours out. Other tellings make him the work of Hephaestus, the smith god. Adrienne Mayor counts him among the ancient world's imagined robots.
+  source: "Apollonius of Rhodes, Argonautica, Book 4, lines 1638–1693 (sacred-texts.com); Adrienne Mayor, Gods and Robots: Myths, Machines, and Ancient Dreams of Technology, Princeton University Press, 2018; Stanford News Service, “Ancient myths reveal early fantasies about artificial life”, 28 February 2019"
+  sourceUrl: https://sacred-texts.com/cla/argo/argo57.htm
+  thread: made-beings
+  status: checked
+
+- id: bce750-iliad-handmaidens
+  era: automata
+  year: -750
+  yearLabel: 8th century BCE
+  title: Hephaestus's golden handmaidens
+  line: Homer imagines golden servants who can think, speak and work.
+  who: Homer
+  text: In Book 18 of the Iliad, the smith god Hephaestus is helped by “handmaidens wrought of gold in the semblance of living maids”. They have understanding, speech and strength, and skill in handiwork from the gods. He has also made tripods on golden wheels that go of themselves to the gods' gatherings. Adrienne Mayor reads such myths as early dreams of artificial life; one reviewer worries this makes ancient devices seem too like modern ones.
+  source: "Homer, Iliad 18.373–377 and 18.417–421, trans. A. T. Murray, Loeb Classical Library, 1924 (Perseus); Encyclopaedia Britannica, “Homer”, on the date of the Iliad; Adrienne Mayor, Gods and Robots: Myths, Machines, and Ancient Dreams of Technology, Princeton University Press, 2018, as reported by Stanford News Service, 28 February 2019; Clara Bosak-Schroeder, review, Bryn Mawr Classical Review 2019.08.09"
+  sourceUrl: https://cts.perseids.org/read/greekLit/tlg0012/tlg001/perseus-eng3/18.360-19.309
+  thread: made-beings
+  status: checked
