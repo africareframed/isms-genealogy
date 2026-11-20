@@ -41,6 +41,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 ## Log
 
+- 2026-11-20: Collage set made for all 13 cards; Abundance rebuilt around an electricity meter (batch 3, 1 image, CC BY-SA 4.0).
 - 2026-11-20: Image batch 2 (3 card images) downloaded; every ism card now has an image. Home grid rows aligned.
 - 2026-11-20: Transhumanism checked and merged; every ism and theme is now checked.
 - 2026-11-20: Owner approved going public: repository public, GitHub Pages live from `gh-pages` (noindex for now).

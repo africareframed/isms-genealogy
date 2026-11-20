@@ -44,11 +44,11 @@
   alt: "A cut-up collage: dam towers in scaffolding over orange fields, with the word BUILD"
 
 - id: collage-abundance
-  title: "Collage from the Atoms for Peace stamp (1955)"
+  title: "Collage from a photograph of a Siemens electricity meter"
   rights: open-licence
-  licence: "from a public-domain stamp"
+  licence: "CC BY-SA 4.0, after a photo by Bicycle Tourer"
   file: "collage-abundance.jpg"
-  alt: "A cut-up collage: an atomic stamp in halftone with the words too cheap to meter"
+  alt: "A cut-up collage: an electricity meter with its counter and disc, beside a large 0 kWh"
 
 - id: collage-power
   title: "Collage from the frontispiece of Hobbes's Leviathan (1651)"

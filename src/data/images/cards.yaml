@@ -139,3 +139,12 @@
   fit: contain
   alt: "The whole Earth seen from space, with Africa and the Antarctic ice cap"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"
+- id: electricity-meter
+  title: "Siemens three-phase electricity meter"
+  date: "2019"
+  creator: "Bicycle Tourer"
+  rights: open-licence
+  licence: "CC BY-SA 4.0, photo Bicycle Tourer"
+  file: "electricity-meter.jpg"
+  alt: "An electricity meter with a counter reading in kilowatt hours"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Drehstromz%C3%A4hler_Siemens.JPG"
