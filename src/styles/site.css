@@ -49,7 +49,9 @@ a:hover { color: var(--muted); }
 .hero-top p { margin: 0; font-family: var(--mono); font-size: 13px; line-height: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .hero-grid { padding-top: 64px; }
 .hero h1 { margin: 0; font-size: clamp(64px, 8.9vw, 128px); line-height: 0.94; font-weight: 600; letter-spacing: -0.035em; }
-.hero-side { display: grid; grid-template-columns: calc(var(--c) * 5 + var(--g) * 4) minmax(0, 1fr); column-gap: var(--g); margin-top: 72px; align-items: start; } /* the same columns as the history card */
+.hero-side { display: grid; grid-template-columns: calc(var(--c) * 4 + var(--g) * 3) var(--c) minmax(0, 1fr); column-gap: var(--g); margin-top: 72px; align-items: start; } /* standfirst on columns 1-4, column 5 left as air, text from column 6 as on the history card */
+.hero-side .stand { grid-column: 1; }
+.hero-side .hero-body { grid-column: 3; }
 .hero-body { max-width: 680px; }
 .hero .stand { margin: 0; font-size: 30px; line-height: 38px; font-weight: 600; letter-spacing: -0.015em; color: var(--ink); }
 .hero .stand .nb { white-space: nowrap; }
@@ -265,6 +267,7 @@ a.hist:hover .ht { text-decoration: underline; }
   .hm-dots { display: none; }
   .hm-b { padding-left: 100px; padding-right: 0; }
   .hero-side { grid-template-columns: minmax(0, 1fr); row-gap: 32px; margin-top: 48px; max-width: 640px; }
+  .hero-side .stand, .hero-side .hero-body { grid-column: 1; }
   .intro { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .intro h1 { font-size: 72px; line-height: 76px; }
   .actors { grid-template-columns: minmax(0, 1fr); }
