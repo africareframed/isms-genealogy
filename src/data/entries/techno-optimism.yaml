@@ -1,0 +1,206 @@
+# Timeline of Techno-optimism (including augmentation), newest first. Each entry: id, year,
+# relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
+# Augmentation entries carry the theme the-tool and a tagLabel ending in "· augmentation".
+ism: techno-optimism
+entries:
+  - id: 2025-nadella-bicycles
+    year: 2025
+    month: 12
+    title: “Bicycles for the mind”, again
+    who: Satya Nadella
+    relation: milestone
+    tagLabel: Milestone · augmentation
+    text: Microsoft's chief executive starts a personal blog with a post on the year ahead. He calls for a new concept that evolves Steve Jobs's bicycles for the mind. People will be equipped with “cognitive amplifier” tools, he writes, and AI should support human potential, not substitute for it. The Register noted that getting customers to pay for Copilot and Microsoft's other AI services remained “a work in progress”.
+    source: Satya Nadella, “Looking Ahead to 2026”, sn scratchpad, 29 December 2025; quoted by Julie Bort, TechCrunch, 5 January 2026, and dated by Luis Rijo, PPC Land, 2 January 2026; Thomas Claburn, The Register, 2 January 2026
+    sourceUrl: https://techcrunch.com/2026/01/05/microsofts-nadella-wants-us-to-stop-thinking-of-ai-as-slop
+    themes: [the-tool]
+    image: techopt-nadella-post-2025
+    status: checked
+
+  - id: 2025-superagency
+    year: 2025
+    month: 1
+    title: Superagency
+    who: Reid Hoffman and Greg Beato
+    relation: milestone
+    tagLabel: Milestone · augmentation
+    text: The co-founder of LinkedIn argues, with Greg Beato, that AI will give people new superpowers. When many people gain them at once, everyone benefits, a state the book calls superagency. Hoffman sorts views of AI into doomers, gloomers, zoomers and bloomers. Bloomers, like him, are cautious optimists who want AI in many hands and shaped by its users' feedback.
+    source: "Reid Hoffman and Greg Beato, Superagency: What Could Possibly Go Right with Our AI Future, Authors Equity, 28 January 2025; Angie Basiouny, “Embracing AI: Are You a Doomer, Gloomer, Zoomer or Bloomer?”, Knowledge at Wharton, 4 February 2025; Anthony Ha, TechCrunch, 26 January 2025"
+    sourceUrl: https://knowledge.wharton.upenn.edu/article/embracing-ai-are-you-a-doomer-gloomer-zoomer-or-bloomer/
+    themes: [the-tool]
+    image: techopt-superagency-cover-2025
+    status: checked
+
+  - id: 2023-techno-optimist-manifesto
+    year: 2023
+    month: 10
+    title: “The Techno-Optimist Manifesto”
+    who: Marc Andreessen
+    relation: definition
+    text: In fifteen sections, mostly statements of belief, the co-founder of Andreessen Horowitz argues that progress comes from technology combined with free markets. Together they form what Nick Land called the techno-capital machine. On AI, it states that “any deceleration of AI will cost lives”. Its enemies include stagnation, central planning and the precautionary principle, and it counts tech ethics among the names of a demoralisation campaign.
+    source: Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023
+    sourceUrl: https://a16z.com/the-techno-optimist-manifesto/
+    themes: [abundance, power, critique]
+    image: techopt-manifesto-2023
+    status: checked
+
+  - id: 2023-why-ai-will-save-the-world
+    year: 2023
+    month: 6
+    title: “Why AI Will Save the World”
+    who: Marc Andreessen
+    relation: milestone
+    text: Andreessen argues that AI will not destroy the world and may save it, by augmenting human intelligence. “Every child will have an AI tutor that is infinitely patient,” he writes. AI has no goals of its own, he says, and he calls the fear that it will kill us a cult. The greatest risk, he argues, is that China wins, so the West should build fast and keep open source free.
+    source: Marc Andreessen, “Why AI Will Save the World”, Andreessen Horowitz (a16z.com), 6 June 2023
+    sourceUrl: https://a16z.com/ai-will-save-the-world/
+    themes: [power]
+    image: techopt-save-the-world-2023
+    status: checked
+
+  - id: 2023-microsoft-365-copilot
+    year: 2023
+    month: 3
+    title: “Your copilot for work”
+    who: Microsoft
+    relation: milestone
+    tagLabel: Milestone · augmentation
+    text: Microsoft builds an AI assistant called Copilot into Word, Excel, PowerPoint, Outlook and Teams. It is meant to work alongside people, who decide what to keep. “With Copilot, you're always in control,” the launch post promises. GitHub had previewed its Copilot in 2021, an AI “pair programmer” built on OpenAI's Codex.
+    source: "Jared Spataro, “Introducing Microsoft 365 Copilot – your copilot for work”, Official Microsoft Blog, 16 March 2023; Nat Friedman, “Introducing GitHub Copilot: your AI pair programmer”, GitHub Blog, 29 June 2021"
+    sourceUrl: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
+    themes: [the-tool]
+    image: techopt-copilot-2023
+    status: checked
+
+  - id: 2020-its-time-to-build
+    year: 2020
+    title: “It's Time to Build”
+    who: Marc Andreessen
+    relation: milestone
+    text: Early in the coronavirus pandemic, Andreessen blames the West's lack of tests, ventilators and masks on “our widespread inability to build”. He calls for housing, highly automated factories, nuclear reactors and high-speed trains, and for new ways to deliver education and health care. The problem, he argues, is a lack of desire and will, along with inertia and regulatory capture.
+    source: Marc Andreessen, “It's Time to Build”, Andreessen Horowitz (a16z.com), 18 April 2020
+    sourceUrl: https://a16z.com/its-time-to-build/
+    themes: [abundance]
+    image: techopt-time-to-build-2020
+    status: checked
+
+  - id: 2019-progress-studies
+    year: 2019
+    title: A new science of progress
+    who: Patrick Collison and Tyler Cowen
+    relation: milestone
+    text: An entrepreneur and an economist call for a field that studies how progress happens and how to speed it up. By progress they mean economic, technological, scientific, cultural and organisational advance. Such advances, they note, arose in tiny pockets, from Renaissance Florence to Silicon Valley. “We suggest inaugurating the discipline of ‘Progress Studies’,” they write.
+    source: Patrick Collison and Tyler Cowen, “We Need a New Science of Progress”, The Atlantic, 30 July 2019; excerpted by Tyler Cowen on Marginal Revolution, 31 July 2019
+    sourceUrl: https://marginalrevolution.com/marginalrevolution/2019/07/we-need-a-new-science-of-progress.html
+    image: techopt-progress-studies-2019
+    status: checked
+
+  - id: 2012-abundance
+    year: 2012
+    title: Abundance
+    who: Peter Diamandis and Steven Kotler
+    relation: milestone
+    text: A co-founder of Singularity University and his co-author argue that exponential technologies will soon end scarcity. AI, robotics, digital manufacturing and synthetic biology will let humanity “meet and exceed the basic needs of every person on the planet”. The book takes water, food, energy, health care, education and freedom in turn.
+    source: "Peter H. Diamandis and Steven Kotler, Abundance: The Future Is Better Than You Think, Free Press, 21 February 2012; publisher's description, Simon & Schuster"
+    sourceUrl: https://www.simonandschuster.co.uk/books/Abundance/Peter-H-Diamandis/Exponential-Technology-Series/9781451616842
+    themes: [abundance]
+    image: techopt-abundance-cover-2012
+    status: checked
+
+  - id: 2010-what-technology-wants
+    year: 2010
+    title: What Technology Wants
+    who: Kevin Kelly
+    relation: claimed
+    text: The founding executive editor of Wired calls the whole system of human technology the technium. It grows almost like a living thing, he argues, with tendencies of its own. Each invention adds options and choices, and that growth of possibility is his definition of progress. Andreessen names Kelly among the patron saints of techno-optimism.
+    source: Kevin Kelly, What Technology Wants, Viking, 18 October 2010; Kevin Kelly, “The Positive Balance of Technology”, The Technium, 1 March 2011; Kirkus Reviews, 2010; Marc Andreessen, “The Techno-Optimist Manifesto”, 2023 (patron saints)
+    sourceUrl: https://kk.org/thetechnium/?p=5138
+    image: techopt-what-technology-wants-cover-2010
+    status: checked
+
+  - id: 1980-bicycle-for-the-mind
+    year: 1980
+    yearLabel: c. 1980
+    title: A bicycle for the mind
+    who: Steve Jobs
+    relation: claimed
+    tagLabel: Claimed ancestor · augmentation
+    text: "In a presentation filmed around 1980, Apple's co-founder compares the personal computer to a bicycle. In a study of how efficiently species move, he recalls, the condor beat humans, but a human on a bicycle beat the condor. A computer, he says in a 1990 film, is “the equivalent of a bicycle for our minds”. Microsoft's Satya Nadella took up the image for AI in 2023 and again in 2025."
+    source: "Philip Elmer-DeWitt, “Video: Steve Jobs in 1980 on PCs as bicycles for the mind”, Fortune, 14 December 2011; Steve Jobs in Memory & Imagination: New Pathways to the Library of Congress, 1990, excerpted by Maria Popova, The Marginalian, 21 December 2011; Satya Nadella, Build keynote, May 2023, reported by Ben Thompson, Stratechery, 24 May 2023; Satya Nadella, “Looking Ahead to 2026”, 2025"
+    sourceUrl: https://www.themarginalian.org/2011/12/21/steve-jobs-bicycle-for-the-mind-1990/
+    themes: [the-tool]
+    image: techopt-apple-ii
+    status: checked
+
+  - id: 1962-augmenting-human-intellect
+    year: 1962
+    title: “Augmenting Human Intellect”
+    who: Douglas Engelbart
+    relation: claimed
+    tagLabel: Claimed ancestor · augmentation
+    text: In a report for the US Air Force Office of Scientific Research, Engelbart of the Stanford Research Institute sets out a programme. To augment human intellect is “increasing the capability of a man to approach a complex problem situation”. He builds on Vannevar Bush's memex and J. C. R. Licklider's man-computer symbiosis. His lab presented the mouse in 1968, and Andreessen names him a patron saint.
+    source: "Douglas C. Engelbart, Augmenting Human Intellect: A Conceptual Framework, SRI Summary Report AFOSR-3223, Stanford Research Institute, October 1962 (text at the Doug Engelbart Institute; copy in the Computer History Museum, 102776493); Smithsonian National Museum of American History, replica of Engelbart's first mouse prototype; Marc Andreessen, “The Techno-Optimist Manifesto”, 2023 (patron saints)"
+    sourceUrl: https://dougengelbart.org/content/view/138
+    themes: [the-tool]
+    image: techopt-augmenting-1962
+    status: checked
+
+  - id: 1960-man-computer-symbiosis
+    year: 1960
+    title: “Man-Computer Symbiosis”
+    who: J. C. R. Licklider
+    relation: attributed
+    tagLabel: Attributed by historians · augmentation
+    text: A psychologist then at Bolt Beranek and Newman hopes that human brains and computers will soon be “coupled together very tightly”. People would set the goals and judge the results, and machines would do the routine work. He grants that machines alone may one day do the thinking, but only after a long interim. Engelbart cites the paper in 1962.
+    source: "J. C. R. Licklider, “Man-Computer Symbiosis”, IRE Transactions on Human Factors in Electronics HFE-1, March 1960, pp. 4–11; IEEE Computer Society, “Joseph C. R. Licklider”, Computer Pioneers; Douglas C. Engelbart, Augmenting Human Intellect, 1962, section III.A.5; Howard Rheingold, Tools for Thought, Simon & Schuster, 1985, chapter 9"
+    sourceUrl: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
+    themes: [the-tool]
+    image: techopt-symbiosis-1960
+    status: checked
+
+  - id: 1945-hayek-knowledge
+    year: 1945
+    month: 9
+    title: “The Use of Knowledge in Society”
+    who: Friedrich Hayek
+    relation: claimed
+    text: The Austrian-born economist argues that no central planner can gather the knowledge an economy needs. It exists only as “dispersed bits of incomplete and frequently contradictory knowledge” held by many people. Prices pass it on, like a system of telecommunications. The Techno-Optimist Manifesto invokes Hayek's knowledge problem against any centralised economy.
+    source: F. A. Hayek, “The Use of Knowledge in Society”, American Economic Review 35(4), September 1945, pp. 519–530; Marc Andreessen, “The Techno-Optimist Manifesto”, 2023 (Hayek's Knowledge Problem; patron saints)
+    sourceUrl: https://www.econlib.org/library/Essays/hykKnw.html
+    image: techopt-hayek-1945
+    status: checked
+
+  - id: 1945-as-we-may-think
+    year: 1945
+    month: 7
+    title: “As We May Think”
+    who: Vannevar Bush
+    relation: attributed
+    tagLabel: Attributed by historians · augmentation
+    text: The magazine introduces Bush as coordinator of some six thousand leading American scientists in the war. He asks what scientists should do next, and answers that the growing store of knowledge must be easier to reach. He imagines the memex, a desk holding a person's books and records, “an enlarged intimate supplement to his memory”. Engelbart's 1962 report devotes a section to the idea.
+    source: Vannevar Bush, “As We May Think”, The Atlantic Monthly, July 1945; Douglas C. Engelbart, Augmenting Human Intellect, 1962, sections III.A.1–2; Howard Rheingold, Tools for Thought, Simon & Schuster, 1985, chapter 9
+    sourceUrl: https://www.w3.org/History/1945/vbush/vbush.txt
+    themes: [the-tool]
+    image: techopt-as-we-may-think-1945
+    status: checked
+
+  - id: 1909-futurist-manifesto
+    year: 1909
+    title: The Manifesto of Futurism
+    who: Filippo Tommaso Marinetti
+    relation: claimed
+    text: On the front page of Le Figaro, an Italian poet glorifies speed, struggle and war, “the world's only hygiene”. A racing car, he declares, is more beautiful than the Victory of Samothrace. The 2023 Techno-Optimist Manifesto names him a patron saint and adapts his seventh point, putting technology where he wrote poetry. Marinetti went on to co-write the Fascist Manifesto of 1919.
+    source: "F. T. Marinetti, “The Founding and Manifesto of Futurism”, Le Figaro, 20 February 1909, trans. R. W. Flint, in Marinetti: Selected Writings, 1971 (Encyclopaedia Britannica primary source); Marc Andreessen, “The Techno-Optimist Manifesto”, 2023; Janus Rose, Vice, 17 October 2023"
+    sourceUrl: https://cdn.britannica.com/primary_source/eb/435828.html
+    image: techopt-figaro-1909
+    status: checked
+
+  - id: 1620-novum-organum
+    year: 1620
+    title: Novum Organum
+    who: Francis Bacon
+    relation: claimed
+    text: England's Lord Chancellor proposes a new method for the sciences, to give people power over nature. “Human knowledge and human power meet in one,” runs his third aphorism, and nature must be obeyed to be commanded. The title page shows a ship sailing past the Pillars of Hercules, the old limit of the known world. Jason Crawford of the progress movement cites him in 2024.
+    source: Francis Bacon, Novum Organum, in Instauratio Magna, London, John Bill, 1620, Book I, aphorism III (Internet Modern History Sourcebook, Fordham University); Thomas Fisher Rare Book Library, University of Toronto, on the title page; Jason Crawford, “Why harmony with nature is a myth”, The Techno-Humanist Manifesto, Big Think, 7 August 2024
+    sourceUrl: https://sourcebooks.web.fordham.edu/mod/bacon-aphor.asp
+    image: techopt-instauratio-1620
+    status: checked
