@@ -15,7 +15,7 @@ const filterCss = [
   ...themes.map((t) => chipOn(t.id) + `#f-${t.id}:checked ~ .fams .card:not(.t-${t.id}){opacity:.2}`),
 ].join('');
 ---
-<Base title={SITE_TITLE}>
+<Base title={`${SITE_NAME}: ${SITE_TITLE}`}>
   <Fragment set:html={`<style>${filterCss}</style>`} />
 
   <header class="wrap site-head">

@@ -29,7 +29,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Image batch approvals (sent as lists when ready).
 - Portraits for notable figures (owner adds them to `public/portraits/`).
-- The working title, a domain, and when to allow search engines (remove the noindex tag).
+- The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag). The name Made Minds was decided on 20 November 2026.
 
 ## How a session continues the build
 
@@ -42,6 +42,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 ## Log
 
 - 2026-11-20: Collage set made for all 13 cards; Abundance rebuilt around an electricity meter (batch 3, 1 image, CC BY-SA 4.0).
+- 2026-11-20: Site named Made Minds (owner). Power and Rights and dignity collages rebuilt around objects (batch 4: four NVIDIA H100 cards, CC BY 3.0; a London police facial-recognition camera, CC BY-SA 4.0).
 - 2026-11-20: Image batch 2 (3 card images) downloaded; every ism card now has an image. Home grid rows aligned.
 - 2026-11-20: Transhumanism checked and merged; every ism and theme is now checked.
 - 2026-11-20: Owner approved going public: repository public, GitHub Pages live from `gh-pages` (noindex for now).

@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
-import { FAMILIES, yearText, pageHref } from '../lib/site';
+import { FAMILIES, SITE_NAME, yearText, pageHref } from '../lib/site';
 
 const { theme } = Astro.props;
 const { Content } = await render(theme);
@@ -27,7 +27,7 @@ const nav = [
 ];
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
 ---
-<Base title={`${theme.data.title} · A genealogy of the isms behind AI`} description={theme.data.summary}>
+<Base title={`${theme.data.title} · ${SITE_NAME}`} description={theme.data.summary}>
   <PageHeader title={theme.data.title} kind="Theme" nav={nav} navLabel="On this page" />
 
   <main id="main">

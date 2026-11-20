@@ -4,7 +4,7 @@ Instructions for every Claude session and agent working in this repository. Read
 
 ## The project
 
-A website, built first to pitch funders for an exhibition. It maps the isms of the AI industry and traces each one back in time. Owner: Thomas (GitHub account `africareframed`). The working title of the site is still open: write `[Working title]`.
+A website, built first to pitch funders for an exhibition. It maps the isms of the AI industry and traces each one back in time. Owner: Thomas (GitHub account `africareframed`). The site is called **Made Minds** (owner, 20 November 2026), always with the subtitle "A genealogy of the isms behind artificial intelligence". The domain mademinds.org is the owner's to check and buy.
 
 **Never open, read, clone or change `africareframed/africareframed-site` or any other repository.** Only this one.
 

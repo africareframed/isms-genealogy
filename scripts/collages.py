@@ -22,13 +22,16 @@ def hexrgb(h):
     return np.array([int(h[i:i + 2], 16) for i in (1, 3, 5)], float) / 255
 
 
-def gray(name, box, crop=None):
-    im = Image.open(IMG + name).convert('L')
+def gray(name, box, crop=None, channel=None, detail=0):
+    im = Image.open(IMG + name).convert('RGB')
+    im = im.getchannel(channel) if channel else im.convert('L')   # a colour channel works like a filter in black-and-white photography
     if crop:
         w, h = im.size
         im = im.crop((int(crop[0] * w), int(crop[1] * h), int(crop[2] * w), int(crop[3] * h)))
     im = im.resize(box, Image.LANCZOS)
     a = np.asarray(im, float) / 255
+    if detail:                                            # local contrast, so fine ribs and grooves survive
+        a = a + detail * (a - ndimage.gaussian_filter(a, 4))
     lo, hi = np.percentile(a, 2), np.percentile(a, 98)
     return np.clip((a - lo) / max(hi - lo, 1e-3), 0, 1)
 
@@ -83,8 +86,8 @@ def render(spec):
 
     ink = np.zeros((H, W))
     for f in spec['fragments']:
-        g = gray(f['img'], f['box'], f.get('crop'))
-        m = halftone(g, f.get('period', 9)) if f['how'] == 'halftone' else screen(g, f.get('level', 0.5))
+        g = gray(f['img'], f['box'], f.get('crop'), f.get('channel'), f.get('detail', 0))
+        m = halftone(g, f.get('period', 9)) if f['how'] == 'halftone' else screen(g, f.get('level', 0.5), blur=f.get('blur', 1.1))
         ink = np.clip(ink + place(m, *f['at']), 0, 1)
     base = ink.copy()
     for c, r, w, h, dx, dy in spec.get('shift', []):      # cut-up squares
@@ -159,10 +162,11 @@ SPECS = [
          type=[dict(slab=(8, 5, 7, 4), parts=[('0', 330, 860, 520), ('kWh', 150, 1080, 690)])],
          labels=[('1954 · "TOO CHEAP TO METER" · LEWIS STRAUSS', 820, 930), ('AN ELECTRICITY METER', 40, 960)]),
     dict(id='collage-power', size=THEME, colour=GREY, seed=89,
-         fields=[(0, 1, 9, 9)], black=[(9, 0, 1, 1), (14, 8, 1, 2)],
-         fragments=[dict(img='leviathan-frontispiece.jpg', box=(1240, 700), crop=(0.1, 0.0, 0.9, 0.27), how='screen', level=0.52, at=(60, 140))],
-         shift=[(8, 4, 2, 2, 1, 0)], invert=[(4, 7, 1, 1)],
-         labels=[('1651 · LEVIATHAN · A BODY MADE OF ITS SUBJECTS', 40, 960)]),
+         fields=[(1, 1, 8, 7)], black=[(9, 0, 1, 1), (14, 2, 1, 1)],
+         fragments=[dict(img='gpu-h100.jpg', box=(840, 563), crop=(0.065, 0.13, 0.775, 0.945), how='screen', level=0.55, detail=3, blur=0.5, at=(30, 110))],
+         shift=[(3, 2, 2, 2, 1, 0), (6, 4, 1, 2, 0, 1)], invert=[(1, 5, 1, 1)],
+         type=[dict(slab=(9, 5, 6, 4), parts=[('$500', 230, 915, 545), ('billion', 100, 925, 790)])],
+         labels=[('UP TO', 925, 530), ('21 JAN 2025 · STARGATE, AT THE WHITE HOUSE', 850, 930), ('2023 · NVIDIA H100 AI CHIPS', 40, 960)]),
     dict(id='collage-the-tool', size=THEME, colour=GREY, seed=144,
          fields=[(0, 0, 6, 6), (10, 6, 5, 4)], black=[(6, 0, 1, 1), (14, 9, 1, 1)],
          fragments=[dict(img='engelbart-1968.jpg', box=(1240, 820), crop=(0.12, 0.34, 0.88, 0.92), how='screen', level=0.42, at=(130, 120))],
@@ -175,11 +179,11 @@ SPECS = [
          type=[dict(slab=(8, 5, 7, 4), parts=[('10', 300, 850, 560), ('25', 140, 1210, 540)])],
          labels=[('1960 · MARK I PERCEPTRON', 40, 960), ('FLOP · THE EU AI ACT THRESHOLD', 850, 900)]),
     dict(id='collage-rights-and-dignity', size=THEME, colour=GREY, seed=377,
-         fields=[(0, 0, 7, 8)], black=[(7, 0, 1, 1), (14, 3, 1, 1)],
-         fragments=[dict(img='udhr-1948.jpg', box=(700, 640), crop=(0.09, 0.012, 0.285, 0.13), how='screen', level=0.5, at=(0, 0))],
-         shift=[(2, 2, 2, 2, 1, 0)],
-         type=[dict(slab=(8, 5, 7, 4), parts=[('48–0', 250, 850, 570)])],
-         labels=[('10 DECEMBER 1948 · 48 FOR, 0 AGAINST, 8 ABSTENTIONS', 760, 930), ('THE UNIVERSAL DECLARATION OF HUMAN RIGHTS', 40, 960)]),
+         fields=[(0, 2, 8, 7)], black=[(8, 1, 1, 1), (14, 8, 1, 1)],
+         fragments=[dict(img='facial-recognition-camera.jpg', box=(860, 460), crop=(0.23, 0.69, 0.79, 0.90), channel='B', how='screen', level=0.42, at=(0, 300))],
+         shift=[(3, 6, 1, 1, -1, 0)], invert=[(6, 3, 1, 1)],
+         type=[dict(slab=(9, 4, 6, 3), parts=[('2.2.2025', 130, 920, 455)])],
+         labels=[("2 FEB 2025 · THE EU AI ACT'S BANS APPLY", 918, 640), ('POLICE FACIAL-RECOGNITION CAMERA · LONDON · 2026', 40, 960)]),
     dict(id='collage-self-determination', size=THEME, colour=GREY, seed=610,
          fields=[(0, 3, 6, 7), (11, 0, 4, 4)], black=[(6, 8, 1, 2), (14, 6, 1, 1)],
          fragments=[dict(img='kleroterion.jpg', box=(1200, 790), how='screen', level=0.47, at=(150, 100))],

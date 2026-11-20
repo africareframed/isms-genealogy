@@ -51,11 +51,12 @@
   alt: "A cut-up collage: an electricity meter with its counter and disc, beside a large 0 kWh"
 
 - id: collage-power
-  title: "Collage from the frontispiece of Hobbes's Leviathan (1651)"
+  title: "Collage from a photograph of four NVIDIA H100 AI chips (2023)"
   rights: open-licence
-  licence: "from a CC0 scan, British Library"
+  licence: "CC BY 3.0, after a photo by 极客湾 Geekerwan"
   file: "collage-power.jpg"
-  alt: "A tight crop of the crowned giant of Leviathan, whose body is made of many small people"
+  alt: "Four stacked H100 accelerator cards beside the words: up to $500 billion, the Stargate investment announced on 21 January 2025"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_024.png"
 
 - id: collage-the-tool
   title: "Collage from Engelbart's prototype mouse (1964)"
@@ -72,11 +73,12 @@
   alt: "A cut-up collage: a diagram of the Mark I Perceptron with the number ten to the twenty-fifth"
 
 - id: collage-rights-and-dignity
-  title: "Collage from the Universal Declaration of Human Rights (1948)"
+  title: "Collage from a photograph of a police facial-recognition camera, London (2026)"
   rights: open-licence
-  licence: "from a public-domain UN document"
+  licence: "CC BY-SA 4.0, after a photo by gruntzooki"
   file: "collage-rights-and-dignity.jpg"
-  alt: "The UN emblem in white on black beside the vote 48–0, by which the Declaration was adopted in 1948"
+  alt: "A surveillance camera pointing at the date 2.2.2025, when the EU AI Act's bans on practices such as untargeted face scraping began to apply"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Camera,_Police_Facial_Recognition_checkpoint,_Charing_Cross_Station,_the_Strand,_Westminster,_2026-04-27.jpg"
 
 - id: collage-self-determination
   title: "Collage from a photograph of the kleroterion, Museum of the Ancient Agora"

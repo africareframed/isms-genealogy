@@ -1,4 +1,4 @@
-export const SITE_NAME = '[Working title]';
+export const SITE_NAME = 'Made Minds';
 export const SITE_TITLE = 'A genealogy of the isms behind artificial intelligence';
 export const MAP_DATE = '20 November 2026';
 

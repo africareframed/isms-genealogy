@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
-import { FAMILIES, RELATIONS, eraOf, eraId, yearText, pageHref } from '../lib/site';
+import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref } from '../lib/site';
 
 const { ism } = Astro.props;
 const { Content } = await render(ism);
@@ -35,7 +35,7 @@ const nav = [
 ];
 const first = entries[0];
 ---
-<Base title={`${ism.data.title} · A genealogy of the isms behind AI`} description={ism.data.summary}>
+<Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary}>
   <PageHeader title={ism.data.title} kind="Ism" nav={nav} navLabel="Periods" />
 
   <main id="main">

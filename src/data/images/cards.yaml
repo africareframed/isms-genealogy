@@ -148,3 +148,21 @@
   file: "electricity-meter.jpg"
   alt: "An electricity meter with a counter reading in kilowatt hours"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Drehstromz%C3%A4hler_Siemens.JPG"
+- id: gpu-h100
+  title: "Four NVIDIA H100 AI accelerator cards, stacked"
+  date: "2023"
+  creator: "极客湾 Geekerwan"
+  rights: open-licence
+  licence: "CC BY 3.0, photo 极客湾 Geekerwan"
+  file: "gpu-h100.jpg"
+  alt: "Four NVIDIA H100 accelerator cards stacked on top of one another, their cooling fins in rows"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_024.png"
+- id: facial-recognition-camera
+  title: "Camera at a police facial-recognition checkpoint, Charing Cross, London"
+  date: "2026"
+  creator: "gruntzooki"
+  rights: open-licence
+  licence: "CC BY-SA 4.0, photo gruntzooki"
+  file: "facial-recognition-camera.jpg"
+  alt: "A camera on a pole pointed at the street, against sky and trees"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Camera,_Police_Facial_Recognition_checkpoint,_Charing_Cross_Station,_the_Strand,_Westminster,_2026-04-27.jpg"
