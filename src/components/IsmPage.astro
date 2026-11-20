@@ -36,7 +36,7 @@ const nav = [
 const first = entries[0];
 ---
 <Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary}>
-  <PageHeader title={ism.data.title} kind="Ism" nav={nav} navLabel="Periods" />
+  <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" />
 
   <main id="main">
     <section id="introduction" class="wrap intro">
@@ -99,7 +99,7 @@ const first = entries[0];
 
     {ism.data.themes.length > 0 && (
       <section class="wrap sec" aria-labelledby="themes-h">
-        <h2 class="kick" id="themes-h">Its themes</h2>
+        <h2 class="kick" id="themes-h">Its questions</h2>
         <p class="tchips lg">
           {ism.data.themes.map((r) => {
             const t = themeById.get(r.id);
@@ -143,7 +143,7 @@ const first = entries[0];
                   <p class="src">{e.data.sourceUrl ? <a href={e.data.sourceUrl}>{e.data.source}</a> : e.data.source}</p>
                   {e.data.themes.length > 0 && (
                     <p class="tchips">
-                      <span class="lbl">Themes</span>
+                      <span class="lbl">Questions</span>
                       {e.data.themes.map((r) => {
                         const t = themeById.get(r.id);
                         return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
@@ -163,7 +163,7 @@ const first = entries[0];
       <p>The oldest root traced so far.</p>
       <div class="end-links">
         <a href="#introduction">Back to the introduction</a>
-        <a href={pageHref()}>All isms and themes</a>
+        <a href={pageHref()}>All movements and questions</a>
       </div>
     </section>
   </main>

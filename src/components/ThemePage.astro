@@ -19,7 +19,7 @@ const tagged = (await getCollection('entries', (e) => e.data.themes.some((r) => 
 
 const nav = [
   { href: '#introduction', label: 'Introduction' },
-  { href: '#isms', label: 'How the isms see it' },
+  { href: '#isms', label: theme.data.kind === 'critics' ? 'On each movement' : 'How the movements answer' },
   ...(theme.data.strands.length ? [{ href: '#strands', label: 'Strands' }] : []),
   ...(theme.data.words.length ? [{ href: '#words', label: 'Words' }] : []),
   ...(tagged.length ? [{ href: '#histories', label: 'In the histories' }] : []),
@@ -28,12 +28,12 @@ const nav = [
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
 ---
 <Base title={`${theme.data.title} · ${SITE_NAME}`} description={theme.data.summary}>
-  <PageHeader title={theme.data.title} kind="Theme" nav={nav} navLabel="On this page" />
+  <PageHeader title={theme.data.title} kind={theme.data.kind === 'critics' ? 'Critics' : 'Question'} nav={nav} navLabel="On this page" />
 
   <main id="main">
     <section id="introduction" class="wrap intro">
       <div class="intro-text">
-        <span class="kick">Theme · Introduction</span>
+        <span class="kick">{theme.data.topic ?? (theme.data.kind === 'critics' ? 'Critique' : 'Question')} · Introduction</span>
         <h1>{theme.data.title}</h1>
         {theme.data.lead && <p class="lead">{theme.data.lead}</p>}
         <div class="body"><Content /></div>
@@ -42,7 +42,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
     </section>
 
     <section id="isms" class="wrap sec" aria-labelledby="isms-h">
-      <h2 class="kick" id="isms-h">How the isms see it</h2>
+      <h2 class="kick" id="isms-h">{theme.data.kind === 'critics' ? 'On each movement' : 'How the movements answer'}</h2>
       <div>
         {theme.data.isms.map((row) => {
           const i = ismById.get(row.ism.id)!;
@@ -77,7 +77,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
 
     {tagged.length > 0 && (
       <section id="histories" class="wrap sec" aria-labelledby="hist-h">
-        <h2 class="kick" id="hist-h">In the isms' histories</h2>
+        <h2 class="kick" id="hist-h">In the movements' histories</h2>
         <div>
           {tagged.map((e) => {
             const i = ismById.get(e.data.ism.id)!;
@@ -108,7 +108,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
     <section class="wrap end">
       <div class="end-links">
         <a href="#introduction">Back to the introduction</a>
-        <a href={pageHref()}>All isms and themes</a>
+        <a href={pageHref()}>All movements and questions</a>
       </div>
     </section>
   </main>

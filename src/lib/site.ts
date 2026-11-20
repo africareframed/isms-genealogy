@@ -3,9 +3,9 @@ export const SITE_TITLE = 'A genealogy of the isms behind artificial intelligenc
 export const MAP_DATE = '20 November 2026';
 
 export const FAMILIES = [
-  { id: 'transcendence', name: 'Transcendence', text: 'The vision of a future beyond human limits.' },
-  { id: 'risk', name: 'Risk', text: 'The fear that AI could end us, and the work to prevent it.' },
-  { id: 'acceleration', name: 'Acceleration', text: 'The conviction that the answer is more technology, faster.' },
+  { id: 'transcendence', name: 'Transcendence', colour: '#C9F25B', text: 'The vision of a future beyond human limits.' },
+  { id: 'risk', name: 'Risk', colour: '#F5A3BC', text: 'The fear that AI could end us, and the work to prevent it.' },
+  { id: 'acceleration', name: 'Acceleration', colour: '#D8461C', text: 'The conviction that the answer is more technology, faster.' },
 ] as const;
 
 export const RELATIONS: Record<string, string> = {
