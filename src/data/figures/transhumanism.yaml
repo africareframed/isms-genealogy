@@ -1,16 +1,22 @@
 # Notable figures for Transhumanism (one file per ism). Portraits are added by the project team only:
 # put the file in public/portraits/ and fill portrait, portraitCredit and portraitLicence.
+- id: bryan-johnson
+  name: Bryan Johnson
+  lifespan: born 1977
+  isms: [transhumanism]
+  note: Entrepreneur who founded Blueprint and leads the Don't Die movement.
+  entry: transhumanism/2025-dont-die
 - id: ray-kurzweil
   name: Ray Kurzweil
   lifespan: born 1948
   isms: [transhumanism]
-  note: Inventor and futurist, the best-known forecaster of the merger of human and machine intelligence.
+  note: Inventor and futurist who forecasts a merger of human and machine intelligence by 2045.
   entry: transhumanism/2024-singularity-is-nearer
 - id: nick-bostrom
   name: Nick Bostrom
   lifespan: born 1973
   isms: [transhumanism]
-  note: Philosopher. Co-founded the World Transhumanist Association and wrote the movement's own history.
+  note: Philosopher. Co-founded the World Transhumanist Association and wrote a history of transhumanist thought.
   entry: transhumanism/2005-bostrom-history
 - id: david-pearce
   name: David Pearce
@@ -22,19 +28,19 @@
   name: Max More
   lifespan: born 1964
   isms: [transhumanism]
-  note: Philosopher. Gave transhumanism its modern definition and led the Extropians.
+  note: Philosopher. Gave transhumanism its modern definition and co-founded the Extropy Institute.
   entry: transhumanism/1990-more
 - id: robert-ettinger
   name: Robert Ettinger
   lifespan: 1918–2011
   isms: [transhumanism]
-  note: Physics teacher who founded cryonics.
+  note: Physics teacher known as the father of cryonics, who founded the Cryonics Institute.
   entry: transhumanism/1962-ettinger
 - id: julian-huxley
   name: Julian Huxley
   lifespan: 1887–1975
   isms: [transhumanism]
-  note: Biologist and first director-general of UNESCO. Gave the word its modern sense.
+  note: Biologist and first director-general of UNESCO. Popularised the word transhumanism in 1957.
   entry: transhumanism/1957-huxley
 - id: jd-bernal
   name: J. D. Bernal
@@ -46,19 +52,19 @@
   name: J. B. S. Haldane
   lifespan: 1892–1964
   isms: [transhumanism]
-  note: Geneticist who predicted that biology would remake human nature.
+  note: Geneticist who predicted children grown outside the womb.
   entry: transhumanism/1923-haldane
 - id: nikolai-fedorov
   name: Nikolai Fedorov
   lifespan: 1829–1903
   isms: [transhumanism]
-  note: Moscow librarian and founder of Russian Cosmism, who called for the defeat of death.
+  note: Moscow librarian, seen as the founder of Russian cosmism, who called for the defeat of death.
   entry: transhumanism/1906-fedorov
 - id: condorcet
   name: Condorcet
   lifespan: 1743–1794
   isms: [transhumanism]
-  note: Mathematician and revolutionary who foresaw the indefinite improvement of humanity.
+  note: Mathematician, philosopher and revolutionary who foresaw the indefinite improvement of humanity.
   entry: transhumanism/1795-condorcet
 - id: pico-della-mirandola
   name: Giovanni Pico della Mirandola

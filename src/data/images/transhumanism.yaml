@@ -4,9 +4,12 @@
   date: '2024'
   rights: to-check
 - id: neuralink-2019
-  title: Neuralink launch presentation, still
+  title: Neuralink's packaged sensor device and polymer threads, figure from its 2019 white paper
   date: '2019'
+  creator: Elon Musk and Neuralink
+  holder: Journal of Medical Internet Research
   rights: to-check
+  sourceUrl: https://jmir.org/2019/10/e16194
 - id: bostrom-2005-page
   title: “A History of Transhumanist Thought”, first page
   date: '2005'
@@ -49,7 +52,7 @@
 - id: pico-1496-page
   title: Page from a 1496 printing of Pico's works
   date: '1496'
-  rights: public-domain
+  rights: to-check
 - id: gilgamesh-tablet-xi
   title: "The Flood Tablet, Tablet XI of the Epic of Gilgamesh, British Museum"
   date: "7th century BCE"
