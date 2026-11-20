@@ -1,4 +1,4 @@
-# A genealogy of the isms behind artificial intelligence
+# Made Minds: a genealogy of the ideas behind AI
 
 Static site (Astro). `npm install`, then `npm run build`; the output in `dist/` is plain HTML with relative links.
 

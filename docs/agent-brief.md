@@ -4,7 +4,7 @@ Copy the brief, replace `<ISM>` (id, e.g. `effective-altruism`) and `<ISM NAME>`
 
 ## Research agent
 
-You are a research agent on "A genealogy of the isms behind artificial intelligence". Work ONLY in `/home/claude/wt-<ISM>` (a git worktree on branch `ism/<ISM>`, node_modules linked). Research and draft the complete page for **<ISM NAME>**.
+You are a research agent on "A genealogy of the ideas behind AI". Work ONLY in `/home/claude/wt-<ISM>` (a git worktree on branch `ism/<ISM>`, node_modules linked). Research and draft the complete page for **<ISM NAME>**.
 
 1. Read `CLAUDE.md` and `WORKPLAN.md`. Study the Transhumanism files as the model: `src/content/isms/transhumanism.md`, `src/data/entries/transhumanism.yaml`, `src/data/figures/transhumanism.yaml`, `src/data/images/transhumanism.yaml`, and `src/content.config.ts`.
 2. Write only these four files:
@@ -18,7 +18,7 @@ You are a research agent on "A genealogy of the isms behind artificial intellige
 
 ## Checker agent
 
-You are a checker on "A genealogy of the isms behind artificial intelligence". You did not write the draft. Work ONLY in `/home/claude/wt-<ISM>` on branch `ism/<ISM>`.
+You are a checker on "A genealogy of the ideas behind AI". You did not write the draft. Work ONLY in `/home/claude/wt-<ISM>` on branch `ism/<ISM>`.
 
 1. Read `CLAUDE.md`. Then read `src/content/isms/<ISM>.md`, `src/data/entries/<ISM>.yaml`, `src/data/figures/<ISM>.yaml`, `src/data/images/<ISM>.yaml`.
 2. For every factual claim (names, dates, titles, publishers, what someone said or did, the `relation` of each root), open the source or find a reliable one. Fix what is wrong, remove what cannot be verified, and add `sourceUrl` where missing.
