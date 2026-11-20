@@ -17,18 +17,19 @@
   sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
 
 - id: collage-rationalism
-  title: "Collage from von Holst's Frankenstein frontispiece (1831) and Barth's Sorcerer's Apprentice (c. 1882)"
-  rights: open-licence
-  licence: "from public-domain sources"
+  title: "Collage from an 1893 advertisement for the Gem paper clip"
+  rights: public-domain
   file: "collage-rationalism.jpg"
-  alt: "A cut-up collage: Frankenstein recoiling from his creature and the sorcerer's apprentice over pink fields"
+  alt: "A single Gem paper clip, drawn in 1893, over pink fields; the paperclip maximiser thought experiment dates from 2003"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
 
 - id: collage-effective-altruism
-  title: "Collage from The Blue Marble, Apollo 17 (1972)"
+  title: "Collage from a photograph of bed nets ready for distribution"
   rights: open-licence
-  licence: "from a public-domain NASA photograph"
+  licence: "CC BY 2.0, after a photo by the Department of Foreign Affairs and Trade (Australia)"
   file: "collage-effective-altruism.jpg"
-  alt: "A cut-up collage: the whole Earth in halftone with one square missing, over pink fields"
+  alt: "Stacked bales of bed nets receding down a corridor, over pink fields; GiveWell reckons about $5 a net and $5,500 per life saved"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
 
 - id: collage-effective-accelerationism
   title: "Collage from Boccioni's The City Rises (1910)"
@@ -179,3 +180,18 @@
   file: "collage-techno-optimism-tall.jpg"
   alt: "Hoover Dam's intake towers in scaffolding over orange fields; the dam was handed over more than two years ahead of schedule"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Construction_Intake_Towers_Hoover_Dam_1934.jpg"
+
+- id: collage-rationalism-tall
+  title: "Collage from an 1893 advertisement for the Gem paper clip"
+  rights: public-domain
+  file: "collage-rationalism-tall.jpg"
+  alt: "A single Gem paper clip, drawn in 1893, over pink fields; the paperclip maximiser thought experiment dates from 2003"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
+
+- id: collage-effective-altruism-tall
+  title: "Collage from a photograph of bed nets ready for distribution"
+  rights: open-licence
+  licence: "CC BY 2.0, after a photo by the Department of Foreign Affairs and Trade (Australia)"
+  file: "collage-effective-altruism-tall.jpg"
+  alt: "Stacked bales of bed nets receding down a corridor, over pink fields; GiveWell reckons about $5 a net and $5,500 per life saved"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"

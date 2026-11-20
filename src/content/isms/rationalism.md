@@ -7,6 +7,7 @@ summary: A superintelligence built before alignment is solved would likely end h
 includes: [The call to pause]
 aka: Often called the doomers
 image: collage-rationalism
+pageImage: collage-rationalism-tall
 lead: Rationalism holds that superhuman AI built before its goals can be made safe would likely end humanity, so building it should wait.
 holders:
   - name: Eliezer Yudkowsky

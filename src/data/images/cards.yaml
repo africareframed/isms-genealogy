@@ -166,3 +166,19 @@
   file: "facial-recognition-camera.jpg"
   alt: "A camera on a pole pointed at the street, against sky and trees"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Camera,_Police_Facial_Recognition_checkpoint,_Charing_Cross_Station,_the_Strand,_Westminster,_2026-04-27.jpg"
+- id: gem-paper-clip-1893
+  title: "Advertisement for the Gem paper clip, Cushman & Denison"
+  date: "1893"
+  rights: public-domain
+  file: "gem-paper-clip-1893.jpg"
+  alt: "A drawing of a Gem paper clip beside an 1893 advertisement for it"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
+- id: bednets-stacked
+  title: "Bed nets ready for distribution"
+  date: "2011"
+  creator: "Department of Foreign Affairs and Trade (Australia)"
+  rights: open-licence
+  licence: "CC BY 2.0, photo Department of Foreign Affairs and Trade"
+  file: "bednets-stacked.jpg"
+  alt: "Packaged insecticide-treated bed nets stacked high along a corridor"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
