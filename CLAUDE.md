@@ -39,7 +39,7 @@ Schemas are in `src/content.config.ts`; the build fails on a broken reference. S
 
 - British English. Plain words, sentences under 25 words, paragraphs of at most three sentences.
 - Introduction: a lead sentence of what the ism holds today, then two short paragraphs that may reach into the past. Fulfilling, never long.
-- Timeline entries: a title, who, and two to four sentences. Ten to sixteen entries per ism, from today back to its oldest documented root.
+- Timeline entries: a title, who, and two to four sentences. Give `month` (1–12) when two entries share a year, so they sort newest first. Ten to sixteen entries per ism, from today back to its oldest documented root.
 - Every entry has a real, specific source (author, title, publisher or venue, year) and, where possible, `sourceUrl` to a page you actually opened. Never invent a source.
 - Mark each root's relation: `claimed` (the movement cites it as an ancestor), `attributed` (historians link it, the movement does not), `coined`, `definition`, `institutional-root`, `milestone`, `reacted-against`.
 - Neutral and fair. Describe what people said and did; give critics their own section. No verdicts.

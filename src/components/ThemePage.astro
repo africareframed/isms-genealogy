@@ -14,7 +14,7 @@ const famName = (id: string) => FAMILIES.find((f) => f.id === id)?.name ?? '';
 
 // "In the isms' histories" is built from the theme tags on timeline entries.
 const tagged = (await getCollection('entries', (e) => e.data.themes.some((r) => r.id === theme.id))).sort(
-  (a, b) => b.data.year - a.data.year,
+  (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0),
 );
 
 const nav = [

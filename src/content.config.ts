@@ -77,6 +77,7 @@ const entries = defineCollection({
   schema: z.object({
     ism: reference('isms'),
     year: z.number().int(),
+    month: z.number().int().min(1).max(12).optional(),
     yearLabel: z.string().optional(),
     title: z.string(),
     who: z.string().optional(),
