@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: Hover stutter removed from the History card (owner): it moves only when the reader scrolls.
+
 - 2026-11-21: History card animation live as an experiment (owner): squares glitch on scroll from a second state of the card, a black square ratchets into place one way only, still at rest, off for reduced motion. Script and layer in `src/pages/index.astro` and `site.css`, marked EXPERIMENT; second states `collage-history-b`, `collage-history-tall-b`; the home page's vertical card is `collage-history-tall-home`.
 
 - 2026-11-21: History card made taller, 11:4 to 11:5 (owner): at movement-card height its three subjects came out smaller than the single objects above it. 2:1 was tried and crowded the panels.

@@ -182,7 +182,7 @@ const num = (n: number) => String(n).padStart(2, '0');
       dial();
       const cfg = JSON.parse(fig.dataset.glitch), img = fig.querySelector('img'), layer = fig.querySelector('.gl');
       const PAPER = 'rgb(226, 223, 215)', state = {};
-      let on = false, hover = false, timer = 0;
+      let on = false;
       const rnd = (a, b) => a + Math.random() * (b - a);
       const pick = (a) => a[Math.floor(Math.random() * a.length)];
       const fmt = () => ((img.currentSrc || img.src).includes('-tall') ? cfg.tall : cfg.wide);
@@ -257,11 +257,6 @@ const num = (n: number) => String(n).padStart(2, '0');
       };
       addEventListener('scroll', onScroll, { passive: true });
       new IntersectionObserver(([e]) => { on = e.isIntersecting; if (on) load(fmt()); }, { rootMargin: '800px 0px' }).observe(fig);
-      // resting the pointer on the card wakes it a little
-      const card = fig.closest('a') || fig;
-      const idle = () => { clearTimeout(timer); if (!hover || document.hidden) return; burst(false); timer = setTimeout(idle, rnd(450, 1100)); };
-      card.addEventListener('pointerenter', (e) => { if (e.pointerType !== 'mouse') return; hover = true; load(fmt()); timer = setTimeout(idle, 120); });
-      card.addEventListener('pointerleave', () => { hover = false; clearTimeout(timer); });
     })();
   </script>
 </Base>
