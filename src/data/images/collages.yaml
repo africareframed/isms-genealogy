@@ -213,14 +213,16 @@
 - id: collage-history
   title: "Collage of three machines at play: the Turk (1770), Kasparov against Deep Blue (1997) and Lee Sedol against AlphaGo (2016)"
   rights: cleared
-  licence: "Turk engraving public domain; the 1997 and 2016 stills cleared by the owner (21 Nov 2026)"
+  licence: "Turk engraving public domain; stills from the official live streams of the 1997 and 2016 matches"
+  note: "The two stills cleared by the owner on 21 November 2026 as fair use"
   file: "collage-history.jpg"
   alt: "A cut-up collage in three panels: the chess-playing Turk with a man hidden inside, Garry Kasparov walking away from the board in 1997, and Lee Sedol with his hand to his head over a Go board in 2016, on grey, paper and orange"
 
 - id: collage-history-tall
   title: "Collage of three machines at play: the Turk (1770), Kasparov against Deep Blue (1997) and Lee Sedol against AlphaGo (2016)"
   rights: cleared
-  licence: "Turk engraving public domain; the 1997 and 2016 stills cleared by the owner (21 Nov 2026)"
+  licence: "Turk engraving public domain; stills from the official live streams of the 1997 and 2016 matches"
+  note: "The two stills cleared by the owner on 21 November 2026 as fair use"
   file: "collage-history-tall.jpg"
   alt: "The Turk, Garry Kasparov and Lee Sedol stacked in a cut-up collage on grey, paper and orange"
 
@@ -240,6 +242,7 @@
 - id: collage-moment-alphago
   title: "Collage from a still of Lee Sedol against AlphaGo, Seoul, March 2016"
   rights: cleared
-  licence: "Still cleared by the owner (21 Nov 2026)"
+  licence: "Still from the official live stream of the match"
+  note: "Cleared by the owner on 21 November 2026 as fair use"
   file: "collage-moment-alphago.jpg"
   alt: "Lee Sedol with his hand to his forehead over the Go board, screened in ink on orange"

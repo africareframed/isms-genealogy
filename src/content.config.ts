@@ -192,7 +192,8 @@ const images = defineCollection({
     creator: z.string().optional(),
     holder: z.string().optional(),
     rights: z.enum(['public-domain', 'open-licence', 'cleared', 'to-check']),
-    licence: z.string().optional(),
+    licence: z.string().optional(), // shown to readers as the credit
+    note: z.string().optional(), // for the project only, never shown
     file: z.string().optional(),
     fit: z.enum(['cover', 'contain']).default('cover'),
     alt: z.string().optional(),

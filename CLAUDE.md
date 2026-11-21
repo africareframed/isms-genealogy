@@ -55,7 +55,7 @@ Schemas are in `src/content.config.ts`; the build fails on a broken reference. S
 
 - **Never AI-generated.** Human-made images only: documents, title pages, diagrams, machines, places, artworks, photographs of objects or events.
 - **No portraits or photographs of real people**, whatever their licence (owner, 20 Nov 2026: too many people, too many images). Notable figures appear as names only: an index on each ism page where each name folds open to a short note and a link to its moment in the history. One exception (owner, 21 Nov 2026): the History of AI card and its timeline moments show Garry Kasparov (1997) and Lee Sedol (2016) from broadcast stills, which the owner cleared as fair use; no other images of people without the owner's say.
-- Record every image in `src/data/images/` with title, date, rights (`public-domain`, `open-licence` + licence, `cleared`, `to-check`) and `sourceUrl` of the page where the licence was read.
+- Record every image in `src/data/images/` with title, date, rights (`public-domain`, `open-licence` + licence, `cleared`, `to-check`) and `sourceUrl` of the page where the licence was read. `licence` is the credit readers see in the caption, so it names the source, never who cleared it; clearance notes go in `note`, which is never shown (owner, 21 Nov 2026).
 - Prefer Wikimedia Commons, the Library of Congress, the Internet Archive and museum open-access collections. Copyrighted items (book covers, press photos, film stills) stay `to-check` placeholders until the owner clears them.
 - Downloads happen only after the owner approves a batch (a list of files with source, size and licence). They go to the owner's connected folder `isms-genealogy-images` and are then copied into `public/images/`.
 
