@@ -20,16 +20,15 @@ const moments = await getHistory();
 const historyEras = ERAS.filter((e) => moments.some((m) => m.data.era === e.id));
 const oldest = moments[moments.length - 1];
 const historyImage = (await getCollection('images')).find((i) => i.id === 'collage-history');
-// EXPERIMENT (21 Nov 2026): the history card glitches. Squares of the card swap for the same squares of its
-// second state (scripts/collages.py, collage-history-b), on the collage's own 100 px grid. Zones and reveals
-// are in grid squares: [first column, last column, first row, last row] and [column, row, width, height].
+// EXPERIMENT (21 Nov 2026): pieces of the card's second state (scripts/collages.py, collage-history-b) arrive
+// on the collage's own 100 px grid as the reader scrolls, once the black square has clicked into place, and stay.
+// Clicking a piece takes it away. Pieces are [column, row, width, height] in squares, in the order they arrive:
+// Deep Blue over Kasparov's face, a grey slip beside the square, the man inside the Turk, an orange slip, Lee Sedol.
 const GLITCH = {
-  // faces: squares the small glitches never touch (Kasparov's and Lee Sedol's heads). The first reveal
-  // is Deep Blue over Kasparov's face (owner, 21 Nov); reveals are not held back by faces.
   wide: { src: 'images/collage-history-b.jpg', cols: 22, rows: 10,
-    zones: [[0, 6, 1, 8], [9, 13, 0, 8], [14, 21, 0, 8]], faces: [[10, 0, 3, 3], [16, 1, 4, 4]], reveals: [[9, 1, 4, 5], [2, 3, 3, 4], [2, 4, 3, 4]] },
+    pieces: [[9, 1, 4, 5], [7, 1, 1, 2], [3, 4, 2, 3], [14, 6, 1, 2], [18, 5, 2, 2]] },
   tall: { src: 'images/collage-history-tall-b.jpg', cols: 12, rows: 15,
-    zones: [[0, 5, 0, 5], [6, 10, 0, 8], [4, 11, 9, 13]], faces: [[7, 0, 3, 4], [7, 9, 4, 3]], reveals: [[6, 1, 4, 5], [1, 1, 3, 4]] },
+    pieces: [[6, 1, 4, 5], [3, 0, 2, 1], [2, 2, 2, 2], [4, 11, 1, 2], [9, 12, 2, 2]] },
 };
 const num = (n: number) => String(n).padStart(2, '0');
 
@@ -162,123 +161,77 @@ const num = (n: number) => String(n).padStart(2, '0');
     </nav>
   </footer>
   <script is:inline>
-    // EXPERIMENT: the history card's glitch. Mechanical, stepped, never smooth. Off for reduced motion.
+    // EXPERIMENT: the history card. Everything on it moves one way only (owner, 21 Nov): the black square slides in
+    // smoothly as the reader scrolls and clicks into place at the middle of the screen; then pieces of the second state
+    // arrive, one per stretch of scrolling, and stay; the reader can click a piece away, and it never comes back.
+    // Nothing moves when the page is still. Off for reduced motion.
     (() => {
       const fig = document.querySelector('[data-glitch]');
-      if (!fig || !window.IntersectionObserver || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      // The registration square moves like a ratchet, smoothly and with no glitch, so the reader sees the motion
-      // is theirs: it creeps in from one and a half squares to the left as they scroll down, never moves back,
-      // and locks onto the grid for good as the card reaches the middle of the screen (owner, 21 Nov).
-      // Nothing glitches until the square has locked: the reader turns the dial, it clicks into place, and
-      // then the machine wakes, starting with Deep Blue taking Kasparov's face beside the square (owner, 21 Nov).
-      const reg = fig.querySelector('.gl-reg');
-      let regFrame = 0, least = 1, locked = false, first = true;
-      const seen = () => { const b = fig.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; };
-      const wakeUp = (n = 0) => {
-        if (!seen()) return;
-        const f = fmt();
-        if (state[f.src] === 'ready') return burst(true, 0);
-        load(f);
-        if (n < 30) setTimeout(() => wakeUp(n + 1), 100);
-      };
-      const dial = () => {
-        regFrame = 0;
-        const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2;
-        least = Math.min(least, Math.max(0, Math.min(1, (mid - innerHeight / 2) / (innerHeight * 0.55))));
-        reg.style.transform = least ? `translateX(${(-least * 150).toFixed(2)}%)` : '';
-        if (!least && !locked) {
-          locked = true;
-          removeEventListener('scroll', dialSoon); removeEventListener('resize', dialSoon);
-          if (!first) setTimeout(wakeUp, 180); // a page opened below the card starts locked and quiet
-        }
-        first = false;
-      };
-      const dialSoon = () => { if (!regFrame) regFrame = requestAnimationFrame(dial); };
-      addEventListener('scroll', dialSoon, { passive: true });
-      addEventListener('resize', dialSoon);
-      dial();
-      const cfg = JSON.parse(fig.dataset.glitch), img = fig.querySelector('img'), layer = fig.querySelector('.gl');
-      const PAPER = 'rgb(226, 223, 215)', state = {};
-      let on = false;
-      const rnd = (a, b) => a + Math.random() * (b - a);
-      const pick = (a) => a[Math.floor(Math.random() * a.length)];
+      if (!fig || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const cfg = JSON.parse(fig.dataset.glitch), img = fig.querySelector('img');
+      const layer = fig.querySelector('.gl'), reg = fig.querySelector('.gl-reg'), ready = {};
       const fmt = () => ((img.currentSrc || img.src).includes('-tall') ? cfg.tall : cfg.wide);
       const load = (f) => {
-        if (state[f.src]) return;
-        state[f.src] = 'loading';
+        if (f.src in ready) return;
+        ready[f.src] = false;
         const i = new Image();
-        i.onload = () => { state[f.src] = 'ready'; };
+        i.onload = () => { ready[f.src] = true; };
         i.src = f.src;
       };
-      const tile = (f, c, r, w, h, mode) => {
-        const t = document.createElement('i'), st = t.style;
+      const seen = () => { const b = fig.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; };
+      const STEP = 260; // px of scrolling, with the card on screen, per piece
+      let f = fmt(), next = 0, least = 1, locked = false, first = true, travel = 0, lastY = scrollY, frame = 0;
+      const place = () => {
+        if (next >= f.pieces.length || !ready[f.src]) return;
+        const [c, r, w, h] = f.pieces[next++], t = document.createElement('i'), st = t.style;
         st.left = (c / f.cols) * 100 + '%'; st.top = (r / f.rows) * 100 + '%';
         st.width = (w / f.cols) * 100 + '%'; st.height = (h / f.rows) * 100 + '%';
-        if (mode === 'blank') st.background = PAPER;
-        else {
-          // swap: the same squares of the second state; shift: this card's own squares, one column along
-          const sc = mode === 'shift' ? Math.max(0, Math.min(f.cols - w, c + pick([-1, 1]))) : c;
-          st.backgroundImage = `url("${mode === 'shift' ? img.currentSrc || img.src : f.src}")`;
-          st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
-          st.backgroundPosition = `${f.cols === w ? 0 : (sc / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
-        }
-        st.visibility = 'hidden';
+        st.backgroundImage = `url("${f.src}")`;
+        st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
+        st.backgroundPosition = `${f.cols === w ? 0 : (c / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
+        // a click on a piece takes it away and does not follow the card's link
+        t.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); t.remove(); });
         layer.appendChild(t);
-        return t;
       };
-      // durations alternate shown, hidden, shown ... then the square is gone
-      const flicker = (t, steps) => {
-        let k = 0;
-        const next = () => {
-          if (k === steps.length) return t.remove();
-          t.style.visibility = k % 2 ? 'hidden' : 'visible';
-          setTimeout(next, steps[k++]);
-        };
-        next();
+      const firstPiece = (n = 0) => {
+        if (!seen()) return;
+        if (ready[f.src]) return place();
+        load(f);
+        if (n < 30) setTimeout(() => firstPiece(n + 1), 100);
       };
-      const burst = (big, which) => {
-        const f = fmt();
-        if (state[f.src] !== 'ready') return load(f);
-        if (big) {
-          const [c, r, w, h] = which === undefined ? pick(f.reveals) : f.reveals[which];
-          return flicker(tile(f, c, r, w, h, 'swap'), [60, 50, rnd(650, 1100), 40, 70]);
+      const tick = () => {
+        frame = 0;
+        const dy = Math.abs(scrollY - lastY);
+        lastY = scrollY;
+        const b = fig.getBoundingClientRect();
+        if (b.top < innerHeight + 800) load(f);
+        if (!locked) {
+          const mid = (b.top + b.bottom) / 2;
+          least = Math.min(least, Math.max(0, Math.min(1, (mid - innerHeight / 2) / (innerHeight * 0.55))));
+          reg.style.transform = least ? `translateX(${(-least * 150).toFixed(2)}%)` : '';
+          if (!least) {
+            locked = true;
+            if (!first) setTimeout(firstPiece, 180); // the click, then the first piece; a page opened below starts quiet
+          }
+          first = false;
+          return;
         }
-        // mostly one square, sometimes two side by side or one above the other; never on a face
-        const hits = (c, r, w, h) => f.faces.some(([fc, fr, fw, fh]) => c < fc + fw && fc < c + w && r < fr + fh && fr < r + h);
-        for (let tries = 0; tries < 12; tries++) {
-          const [c0, c1, r0, r1] = pick(f.zones), s = Math.random();
-          const w = s < 0.15 ? 2 : 1, h = s >= 0.15 && s < 0.3 ? 2 : 1;
-          const c = c0 + Math.floor(Math.random() * (c1 - c0 + 2 - w));
-          const r = r0 + Math.floor(Math.random() * (r1 - r0 + 2 - h));
-          if (hits(c, r, w, h)) continue;
-          const m = Math.random(), mode = m < 0.6 ? 'swap' : m < 0.85 ? 'shift' : 'blank';
-          return flicker(tile(f, c, r, w, h, mode), pick([[90], [70, 50, 80], [110, 40, 60]]));
-        }
+        if (next >= f.pieces.length || !seen()) return;
+        travel += Math.min(dy, 400);
+        if (travel >= STEP) { travel = 0; place(); }
       };
-      // Driven by scroll (owner, 21 Nov), once the square has locked: a few single squares as the reader scrolls,
-      // a reveal each later time the card crosses the middle of the screen, still when the page is still.
-      let lastY = scrollY, energy = 0, armed = true, frame = 0, armedAfterLock = false;
-      const STEP = 320; // px of scroll per burst: four or five as the card goes by
-      const onScroll = () => {
-        if (frame) return;
-        frame = requestAnimationFrame(() => {
-          frame = 0;
-          const dy = Math.abs(scrollY - lastY);
-          lastY = scrollY;
-          if (!on) return;
-          load(fmt());
-          if (!locked || !seen()) return;
-          if (!armedAfterLock) { armedAfterLock = true; armed = false; energy = 0; return; }
-          energy += Math.min(dy, 600);
-          let n = 0;
-          while (energy >= STEP && n < 1) { energy -= STEP; n++; setTimeout(() => burst(false), n * rnd(30, 90)); }
-          const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2, band = innerHeight * 0.18;
-          if (Math.abs(mid - innerHeight / 2) < band) { if (armed) { armed = false; setTimeout(() => burst(true), 60); } }
-          else armed = true;
-        });
-      };
-      addEventListener('scroll', onScroll, { passive: true });
-      new IntersectionObserver(([e]) => { on = e.isIntersecting; if (on) load(fmt()); }, { rootMargin: '800px 0px' }).observe(fig);
+      const soon = () => { if (!frame) frame = requestAnimationFrame(tick); };
+      addEventListener('scroll', soon, { passive: true });
+      addEventListener('resize', soon);
+      // crossing 640 px swaps the wide card for the tall one: start its pieces afresh
+      img.addEventListener('load', () => {
+        const g = fmt();
+        if (g === f) return;
+        f = g; next = 0; travel = 0;
+        layer.replaceChildren();
+        load(f);
+      });
+      tick();
     })();
   </script>
 </Base>

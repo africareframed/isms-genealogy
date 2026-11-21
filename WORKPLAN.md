@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: History card glitches replaced by pieces that stay (owner): after the square clicks into place, five chosen squares of the second state arrive with scrolling and stay; a click takes one away. Calmer and less confusing than flicker.
+
 - 2026-11-21: History card animation calmed and ordered (owner): the square locks first, then Deep Blue takes Kasparov's face, then four or five single squares per pass, never on a face.
 
 - 2026-11-21: Hover stutter removed from the History card (owner): it moves only when the reader scrolls.
