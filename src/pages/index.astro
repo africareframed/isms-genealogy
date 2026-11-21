@@ -24,10 +24,11 @@ const historyImage = (await getCollection('images')).find((i) => i.id === 'colla
 // second state (scripts/collages.py, collage-history-b), on the collage's own 100 px grid. Zones and reveals
 // are in grid squares: [first column, last column, first row, last row] and [column, row, width, height].
 const GLITCH = {
+  // faces: [column, row, width, height] squares the glitch never touches (Kasparov's and Lee Sedol's heads)
   wide: { src: 'images/collage-history-b.jpg', cols: 22, rows: 10,
-    zones: [[0, 6, 1, 8], [9, 13, 0, 8], [14, 21, 0, 8]], reveals: [[2, 3, 3, 4], [2, 4, 3, 4], [9, 1, 4, 5]] },
+    zones: [[0, 6, 1, 8], [9, 13, 0, 8], [14, 21, 0, 8]], faces: [[10, 0, 3, 3], [16, 1, 4, 4]], reveals: [[2, 3, 3, 4], [2, 4, 3, 4]] },
   tall: { src: 'images/collage-history-tall-b.jpg', cols: 12, rows: 15,
-    zones: [[0, 5, 0, 5], [6, 10, 0, 8], [4, 11, 9, 13]], reveals: [[1, 1, 3, 4], [6, 1, 4, 5]] },
+    zones: [[0, 5, 0, 5], [6, 10, 0, 8], [4, 11, 9, 13]], faces: [[7, 0, 3, 4], [7, 9, 4, 3]], reveals: [[1, 1, 3, 4]] },
 };
 const num = (n: number) => String(n).padStart(2, '0');
 
@@ -226,19 +227,22 @@ const num = (n: number) => String(n).padStart(2, '0');
           const [c, r, w, h] = pick(f.reveals);
           return flicker(tile(f, c, r, w, h, 'swap'), [60, 50, rnd(650, 1100), 40, 70]);
         }
-        const [c0, c1, r0, r1] = pick(f.zones), s = Math.random();
-        let w = 1, h = 1;
-        if (s < 0.35) w = pick([2, 3]); else if (s < 0.7) h = pick([2, 3]); else if (s < 0.85) w = h = 2;
-        w = Math.min(w, c1 - c0 + 1); h = Math.min(h, r1 - r0 + 1);
-        const c = c0 + Math.floor(Math.random() * (c1 - c0 + 2 - w));
-        const r = r0 + Math.floor(Math.random() * (r1 - r0 + 2 - h));
-        const m = Math.random(), mode = m < 0.6 ? 'swap' : m < 0.85 ? 'shift' : 'blank';
-        flicker(tile(f, c, r, w, h, mode), pick([[90], [70, 50, 80], [120, 40, 60], [60, 60, 60, 40, 90]]));
+        // mostly one square, sometimes two side by side or one above the other; never on a face
+        const hits = (c, r, w, h) => f.faces.some(([fc, fr, fw, fh]) => c < fc + fw && fc < c + w && r < fr + fh && fr < r + h);
+        for (let tries = 0; tries < 12; tries++) {
+          const [c0, c1, r0, r1] = pick(f.zones), s = Math.random();
+          const w = s < 0.15 ? 2 : 1, h = s >= 0.15 && s < 0.3 ? 2 : 1;
+          const c = c0 + Math.floor(Math.random() * (c1 - c0 + 2 - w));
+          const r = r0 + Math.floor(Math.random() * (r1 - r0 + 2 - h));
+          if (hits(c, r, w, h)) continue;
+          const m = Math.random(), mode = m < 0.6 ? 'swap' : m < 0.85 ? 'shift' : 'blank';
+          return flicker(tile(f, c, r, w, h, mode), pick([[90], [70, 50, 80], [110, 40, 60]]));
+        }
       };
-      // Driven by scroll (owner, 21 Nov): bursts in proportion to how far the reader scrolls past, one reveal
-      // as the card crosses the middle of the screen, still when the page is still. The page scrolls natively.
+      // Driven by scroll (owner, 21 Nov): a few single squares as the reader scrolls past, one reveal of the
+      // man hidden in the Turk as the card crosses the middle of the screen, still when the page is still.
       let lastY = scrollY, energy = 0, armed = true, frame = 0;
-      const STEP = 140; // px of scroll per burst
+      const STEP = 320; // px of scroll per burst: four or five as the card goes by
       const onScroll = () => {
         if (frame) return;
         frame = requestAnimationFrame(() => {
@@ -249,7 +253,7 @@ const num = (n: number) => String(n).padStart(2, '0');
           load(fmt());
           energy += Math.min(dy, 600);
           let n = 0;
-          while (energy >= STEP && n < 3) { energy -= STEP; n++; setTimeout(() => burst(false), n * rnd(30, 90)); }
+          while (energy >= STEP && n < 1) { energy -= STEP; n++; setTimeout(() => burst(false), n * rnd(30, 90)); }
           const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2, band = innerHeight * 0.18;
           if (Math.abs(mid - innerHeight / 2) < band) { if (armed) { armed = false; setTimeout(() => burst(true), 60); } }
           else armed = true;
