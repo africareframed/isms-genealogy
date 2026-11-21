@@ -33,7 +33,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
-- Image batch approvals (sent as lists when ready). Batches 6 and 7 were approved and used (Watt's governor for Alignment; von Kempelen's Turk with 1997 for the History of AI).
+- Image batch approvals (sent as lists when ready). Batches 6, 7 and 8 were approved and used (Watt's governor for Alignment; von Kempelen's Turk for the History of AI; Deep Blue at the Computer History Museum for its moment). Still needed from the owner: the source of the Kasparov and Lee Sedol stills.
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag).
 - Hosting (owner, 21 Nov: later): move the site from GitHub Pages to Cloudflare, likely Workers static assets serving `dist/` (no adapter needed for a static Astro build), with the domain mademinds.org. Needs the owner's Cloudflare account and explicit go; no session starts it on its own.
 - Before launch: delete the dev grid switch (owner, 21 Nov: the "Grid" button and G key in `src/layouts/Base.astro`, and the "DEV ONLY" block at the end of `src/styles/site.css`). The name Made Minds was decided on 20 November 2026.
@@ -50,6 +50,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-21: History of AI card redesigned (owner): three machines at play, the Turk (1770), Kasparov walking away from Deep Blue (1997) and Lee Sedol against AlphaGo (2016), no big type, labels along the bottom; grey, paper and orange. A vertical version for phones and the history page, and three variations as images on those moments in the timeline (the Turk's hidden player, Deep Blue's towers from batch 8, Lee Sedol). The two stills are an owner exception to the no-people rule, cleared by the owner as fair use; their source is still to be recorded. Engine: fragments can be cut out along the grid (`keep`), and a field can carry its own colour.
 
 - 2026-11-21: The scheduled task's instructions and this procedure rewritten for the new direction (three tracks, key words, history, image batches only, no deploy from scheduled runs). The scheduled task is paused until the owner resumes it.
 

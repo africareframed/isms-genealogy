@@ -30,6 +30,7 @@
   isms: []
   themes: []
   thread: games
+  image: collage-moment-alphago
   status: checked
 
 - id: 2015-openai-founded

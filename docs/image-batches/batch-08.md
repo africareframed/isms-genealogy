@@ -1,6 +1,6 @@
 # Image batch 8 — 21 November 2026
 
-Status: **waiting for the owner's yes.** Nothing downloaded. For the redesigned **History of AI** card: three machines at play, from a fake mind to brute force to a move no human would play. No photographs of people: the owner's suggested stills of Garry Kasparov (1997) and Lee Sedol (2016) show real people and are press or broadcast images, so the card uses the machines and the board instead. Licences read through the Wikimedia Commons API and on the file pages.
+Status: **approved by the owner on 21 November 2026: Deep Blue (1) only.** Used for the Deep Blue moment in the timeline. The owner chose his own stills of Kasparov (1997) and Lee Sedol (2016) for the card itself, cleared by him as fair use; the Go stones were not needed. For the redesigned **History of AI** card: three machines at play, from a fake mind to brute force to a move no human would play. No photographs of people: the owner's suggested stills of Garry Kasparov (1997) and Lee Sedol (2016) show real people and are press or broadcast images, so the card uses the machines and the board instead. Licences read through the Wikimedia Commons API and on the file pages.
 
 | # | Image id (proposed) | What it shows | File page | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- |

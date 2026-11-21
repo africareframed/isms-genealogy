@@ -80,11 +80,13 @@ def render(spec):
         canvas = canvas * (1 - mask[..., None]) + rgb * mask[..., None]
 
     col = hexrgb(spec['colour'])
-    for c, r, w, h in spec.get('fields', []):            # bold colour fields, misregistered
+    for fld in spec.get('fields', []):                    # bold colour fields, misregistered
+        c, r, w, h = fld[:4]
+        fcol = hexrgb(fld[4]) if len(fld) > 4 else col    # a field may carry its own colour
         m = np.roll(np.roll(rect(c, r, w, h), 6, axis=0), -5, axis=1)
         m[:6] = 0; m[:, -5:] = 0                           # no wrap-around at the edges
         edge = ndimage.gaussian_filter(m, 2.2) + rng.normal(0, 0.06, m.shape)
-        paint((edge > 0.5).astype(float), col)
+        paint((edge > 0.5).astype(float), fcol)
     for c, r, w, h in spec.get('black', []):
         paint(rect(c, r, w, h), INK)
 
@@ -92,7 +94,13 @@ def render(spec):
     for f in spec['fragments']:
         g = gray(f['img'], f['box'], f.get('crop'), f.get('channel'), f.get('detail', 0))
         m = halftone(g, f.get('period', 9)) if f['how'] == 'halftone' else screen(g, f.get('level', 0.5), blur=f.get('blur', 1.1))
-        ink = np.clip(ink + place(m, *f['at']), 0, 1)
+        pm = place(m, *f['at'])
+        if f.get('keep'):                                  # cut the fragment out along the grid: keep only these squares
+            k = np.zeros((H, W))
+            for kc, kr, kw, kh in f['keep']:
+                k = np.maximum(k, rect(kc, kr, kw, kh))
+            pm = pm * k
+        ink = np.clip(ink + pm, 0, 1)
     base = ink.copy()
     for c, r, w, h, dx, dy in spec.get('shift', []):      # cut-up squares
         m = rect(c, r, w, h)
@@ -197,18 +205,44 @@ SPECS = [
          fragments=[dict(img='governor-boulton-watt.jpg', box=(373, 800), crop=(0.53, 0.29, 0.885, 0.745), channel='R', how='screen', level=0.36, detail=1.2, blur=0.8, at=(300, 90))],
          shift=[(3, 7, 1, 1, 1, 0)], invert=[(1, 2, 1, 1)],
          labels=[('1960 · "THE PURPOSE PUT INTO THE MACHINE"', 760, 400), ('NORBERT WIENER', 760, 442), ("1788 · THE LAP ENGINE'S GOVERNOR · BOULTON AND WATT", 40, 960)]),
+    # History of AI: three machines at play (owner, 21 Nov 2026). The two stills of people are the owner's exception to the
+    # no-people rule, cleared by the owner; the Turk is public domain.
     dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
-         fields=[(0, 0, 9, 7)], black=[(9, 0, 1, 1), (21, 7, 1, 1)],
-         fragments=[dict(img='turk-racknitz-1789.jpg', box=(724, 690), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(60, 30))],
-         shift=[(2, 5, 1, 1, 1, 0)], invert=[(7, 1, 1, 1)],
-         type=[dict(slab=(11, 2, 9, 4), parts=[('1997', 330, 1160, 205)])],
-         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 1168, 640), ("1770 · VON KEMPELEN'S CHESS-PLAYING TURK · ENGRAVING, 1789", 40, 760)]),
+         fields=[(0, 1, 7, 6), (15, 1, 7, 6, ORANGE)], black=[(7, 0, 1, 1), (21, 7, 1, 1)],
+         fragments=[
+             dict(img='turk-racknitz-1789.jpg', box=(587, 560), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(60, 100)),
+             dict(img='kasparov-1997-still.jpg', box=(681, 680), crop=(0.0, 0.04, 0.53, 1.0), how='screen', level=0.36, detail=1.2, blur=1.0, at=(760, 50),
+                  keep=[(10, 0, 3, 8), (13, 3, 1, 2)]),
+             dict(img='lee-sedol-2016-still.jpg', box=(733, 640), crop=(0.33, 0.0, 1.0, 1.0), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(1440, 80),
+                  keep=[(14, 5, 6, 3), (17, 0, 5, 8)])],
+         shift=[(6, 2, 1, 3, 1, 0)], invert=[(4, 6, 1, 1)],
+         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 760), ('MAY 1997 · DEEP BLUE WINS THE REMATCH 3½–2½', 780, 760), ("MARCH 2016 · ALPHAGO'S ONE-IN-10,000 MOVE", 1500, 760)]),
     dict(id='collage-history-tall', size=PAGE, colour=GREY, seed=1770,
-         fields=[(0, 0, 11, 10)], black=[(11, 0, 1, 1), (0, 14, 1, 1)],
-         fragments=[dict(img='turk-racknitz-1789.jpg', box=(1050, 1001), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.4, at=(40, 40))],
-         shift=[(2, 8, 1, 1, 1, 0)], invert=[(9, 1, 1, 1)],
-         type=[dict(slab=(4, 11, 8, 3), parts=[('1997', 290, 440, 1105)])],
-         labels=[('11 MAY 1997 · DEEP BLUE BEATS KASPAROV', 448, 1440), ("1770 · VON KEMPELEN'S TURK · 1789", 40, 1085)]),
+         fields=[(0, 1, 6, 5), (5, 10, 7, 4, ORANGE)], black=[(11, 0, 1, 1), (1, 11, 1, 1)],
+         fragments=[
+             dict(img='turk-racknitz-1789.jpg', box=(545, 520), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 80)),
+             dict(img='kasparov-1997-still.jpg', box=(821, 820), crop=(0.0, 0.04, 0.53, 1.0), how='screen', level=0.36, detail=1.2, blur=1.0, at=(380, 40),
+                  keep=[(6, 0, 4, 9), (10, 3, 1, 2)]),
+             dict(img='lee-sedol-2016-still.jpg', box=(733, 640), crop=(0.33, 0.0, 1.0, 1.0), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(430, 860),
+                  keep=[(4, 13, 6, 2), (7, 9, 5, 6)])],
+         shift=[(5, 2, 1, 2, 1, 0)], invert=[(3, 4, 1, 1)],
+         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 640), ('MAY 1997 · DEEP BLUE WINS', 40, 760), ('THE REMATCH 3½–2½', 40, 802), ("MARCH 2016 · ALPHAGO'S", 40, 1400), ('ONE-IN-10,000 MOVE', 40, 1442)]),
+    # Variations for the three moments in the history timeline (4:3, as the timeline shows them)
+    dict(id='collage-moment-turk', size=ISM, colour=GREY, seed=1789,
+         fields=[(0, 1, 9, 10)], black=[(9, 0, 1, 1), (15, 11, 1, 1)],
+         fragments=[dict(img='turk-racknitz-1789.jpg', box=(757, 1000), crop=(0.42, 0.40, 0.78, 0.92), how='screen', level=0.34, blur=1.4, at=(120, 100))],
+         shift=[(2, 7, 1, 2, -1, 0)], invert=[(7, 3, 1, 1)],
+         labels=[('2005 · AMAZON NAMES A PLATFORM FOR', 960, 520), ('PAID ONLINE TASKS AFTER THE TURK', 960, 562), ('THE MAN INSIDE · RACKNITZ, 1789', 40, 1150)]),
+    dict(id='collage-moment-deep-blue', size=ISM, colour=GREY, seed=1997,
+         fields=[(0, 1, 7, 10)], black=[(7, 0, 1, 1), (15, 11, 1, 1)],
+         fragments=[dict(img='deep-blue-chm.jpg', box=(415, 1000), crop=(0.27, 0.23, 0.65, 0.84), how='screen', level=0.38, detail=1.5, blur=0.8, at=(240, 100))],
+         shift=[(1, 7, 1, 2, -1, 0)], invert=[(5, 2, 1, 1)],
+         labels=[('MAY 1997 · 200 MILLION', 820, 480), ('CHESS POSITIONS A SECOND', 820, 522), ('IBM DEEP BLUE · COMPUTER HISTORY MUSEUM', 40, 1150)]),
+    dict(id='collage-moment-alphago', size=ISM, colour=ORANGE, seed=2016,
+         fields=[(1, 1, 8, 10)], black=[(9, 0, 1, 1), (15, 11, 1, 1)],
+         fragments=[dict(img='lee-sedol-2016-still.jpg', box=(767, 1000), crop=(0.55, 0.0, 0.9, 0.78), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(160, 100))],
+         shift=[(2, 8, 1, 2, -1, 0)], invert=[(7, 2, 1, 1)],
+         labels=[('MARCH 2016 · ALPHAGO WINS', 1000, 480), ('FOUR GAMES TO ONE', 1000, 522), ('LEE SEDOL · SEOUL', 40, 1150)]),
     # Vertical page images (4:5), one per theme: the same object and fact, composed for the tall frame
     dict(id='collage-scale-tall', size=PAGE, colour=GREY, seed=233,
          fields=[(0, 0, 9, 8)], black=[(11, 1, 1, 1), (0, 12, 1, 2)],

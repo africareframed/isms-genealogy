@@ -211,13 +211,35 @@
   alt: "Watt's flyball governor of 1788, cut along a grid on a grey field"
 
 - id: collage-history
-  title: "Collage from Racknitz's engraving of von Kempelen's Turk (1789)"
-  rights: public-domain
+  title: "Collage of three machines at play: the Turk (1770), Kasparov against Deep Blue (1997) and Lee Sedol against AlphaGo (2016)"
+  rights: cleared
+  licence: "Turk engraving public domain; the 1997 and 2016 stills cleared by the owner (21 Nov 2026)"
   file: "collage-history.jpg"
-  alt: "A cut-up collage: the chess-playing Turk of 1770 with a man hidden in its cabinet, over a grey field, beside the year 1997, when Deep Blue beat Kasparov"
+  alt: "A cut-up collage in three panels: the chess-playing Turk with a man hidden inside, Garry Kasparov walking away from the board in 1997, and Lee Sedol with his hand to his head over a Go board in 2016, on grey, paper and orange"
 
 - id: collage-history-tall
-  title: "Collage from Racknitz's engraving of von Kempelen's Turk (1789)"
-  rights: public-domain
+  title: "Collage of three machines at play: the Turk (1770), Kasparov against Deep Blue (1997) and Lee Sedol against AlphaGo (2016)"
+  rights: cleared
+  licence: "Turk engraving public domain; the 1997 and 2016 stills cleared by the owner (21 Nov 2026)"
   file: "collage-history-tall.jpg"
-  alt: "The chess-playing Turk of 1770, cut along a grid on a grey field, above the year 1997"
+  alt: "The Turk, Garry Kasparov and Lee Sedol stacked in a cut-up collage on grey, paper and orange"
+
+- id: collage-moment-turk
+  title: "Collage from Racknitz's engraving of the hidden player inside the Turk (1789)"
+  rights: public-domain
+  file: "collage-moment-turk.jpg"
+  alt: "Racknitz's drawing of a man hidden inside the Turk's cabinet, working the machine, on a grey field"
+
+- id: collage-moment-deep-blue
+  title: "Collage from a photograph of IBM's Deep Blue at the Computer History Museum"
+  rights: open-licence
+  licence: "CC BY 2.0, after a photo by Anton Chiang"
+  file: "collage-moment-deep-blue.jpg"
+  alt: "Deep Blue's two black towers on their plinth, screened in ink on a grey field"
+
+- id: collage-moment-alphago
+  title: "Collage from a still of Lee Sedol against AlphaGo, Seoul, March 2016"
+  rights: cleared
+  licence: "Still cleared by the owner (21 Nov 2026)"
+  file: "collage-moment-alphago.jpg"
+  alt: "Lee Sedol with his hand to his forehead over the Go board, screened in ink on orange"

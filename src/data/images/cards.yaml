@@ -202,3 +202,27 @@
   file: "turk-racknitz-1789.jpg"
   alt: "An engraving of the Turk, a turbaned figure seated at a cabinet, with its doors cut away to show a man hidden inside playing chess by candlelight"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:%E2%80%9CThe_Turk.%E2%80%9D_Engraving_in_Joseph_Friedrich_Racknitz,_Ueber_den_schachspieler_des_herrn_von_Kempelen_und_dessen_nachbildung_(2919837469).jpg"
+- id: kasparov-1997-still
+  title: "Garry Kasparov walks away from the board against Deep Blue, New York, May 1997 (broadcast still)"
+  date: "1997"
+  rights: cleared
+  licence: "Cleared by the owner on 21 November 2026 as fair use, as used by news outlets at the time; source of the still to be added"
+  file: "kasparov-1997-still.jpg"
+  alt: "Garry Kasparov walking away from the chessboard, gesturing, with Deep Blue's operator at the board behind him"
+- id: lee-sedol-2016-still
+  title: "Lee Sedol at the board against AlphaGo, Seoul, March 2016 (broadcast still)"
+  date: "2016"
+  rights: cleared
+  licence: "Cleared by the owner on 21 November 2026 as fair use, as used by news outlets at the time; source of the still to be added"
+  file: "lee-sedol-2016-still.jpg"
+  alt: "Lee Sedol with his hand to his forehead over a Go board, a clock beside him"
+- id: deep-blue-chm
+  title: "IBM's Deep Blue at the Computer History Museum, Mountain View"
+  date: "photographed 2011"
+  creator: "Anton Chiang"
+  holder: "Computer History Museum"
+  rights: open-licence
+  licence: "CC BY 2.0, photo Anton Chiang"
+  file: "deep-blue-chm.jpg"
+  alt: "Deep Blue's two black towers on a plinth in a museum gallery"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg"

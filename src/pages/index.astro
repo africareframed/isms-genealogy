@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
-import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText } from '../lib/site';
+import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel } from '../lib/site';
 import { getHistory } from '../lib/history';
 
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
@@ -92,7 +92,15 @@ const num = (n: number) => String(n).padStart(2, '0');
         <h2 id="hist-h">History of AI</h2>
       </div>
       <a class="hcard" href={pageHref('history')}>
-        {historyImage && <Picture image={{ collection: 'images', id: historyImage.id }} ratio="11 / 4" />}
+        {historyImage && (
+          <figure class="pic hpano">
+            <picture>
+              <source media="(max-width: 640px)" srcset="images/collage-history-tall.jpg" />
+              <img src={`images/${historyImage.data.file}`} alt={historyImage.data.alt ?? ''} loading="lazy" decoding="async" />
+            </picture>
+            <figcaption class="cap">{historyImage.data.title} · {rightsLabel(historyImage.data.rights, historyImage.data.licence)}</figcaption>
+          </figure>
+        )}
         <div class="hc-side">
           <div class="hc-body">
             <p class="hc-t">From ancient automata to the generative race</p>

@@ -147,6 +147,7 @@
   thread: games
   isms: []
   themes: []
+  image: collage-moment-deep-blue
   status: checked
 
 - id: 1993-vinge-singularity
