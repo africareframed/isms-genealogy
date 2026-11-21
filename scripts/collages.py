@@ -129,7 +129,7 @@ def render(spec):
 
 
 ISM, THEME, PAGE = (1600, 1200), (1500, 1000), (1200, 1500)   # PAGE: the vertical image at the top of a page, 4:5, 12 x 15 squares
-HISTORY = (2200, 800)   # the History of AI card, side to side at the height of a movement card: 11:4, 22 x 8 squares
+HISTORY = (2200, 1000)  # the History of AI card, side to side and a quarter taller than a movement card: 11:5, 22 x 10 squares (owner, 21 Nov)
 SPECS = [
     dict(id='collage-transhumanism', size=ISM, colour=GREEN, seed=3,
          fields=[(0, 1, 9, 10), (10, 0, 6, 5)], black=[(9, 0, 1, 1), (15, 7, 1, 1)],
@@ -208,15 +208,15 @@ SPECS = [
     # History of AI: three machines at play (owner, 21 Nov 2026). The two stills of people are the owner's exception to the
     # no-people rule, cleared by the owner; the Turk is public domain.
     dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
-         fields=[(0, 1, 7, 6), (15, 1, 7, 6, ORANGE)], black=[(7, 0, 1, 1), (21, 7, 1, 1)],
+         fields=[(0, 1, 7, 8), (15, 1, 7, 8, ORANGE)], black=[(7, 0, 1, 1), (21, 9, 1, 1)],
          fragments=[
-             dict(img='turk-racknitz-1789.jpg', box=(587, 560), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(60, 100)),
-             dict(img='kasparov-1997-still.jpg', box=(681, 680), crop=(0.0, 0.04, 0.53, 1.0), how='screen', level=0.36, detail=1.2, blur=1.0, at=(760, 50),
-                  keep=[(10, 0, 3, 8), (13, 3, 1, 2)]),
-             dict(img='lee-sedol-2016-still.jpg', box=(733, 640), crop=(0.33, 0.0, 1.0, 1.0), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(1440, 80),
-                  keep=[(14, 5, 6, 3), (17, 0, 5, 8)])],
-         shift=[(6, 2, 1, 3, 1, 0)], invert=[(4, 6, 1, 1)],
-         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 760), ('MAY 1997 · DEEP BLUE WINS THE REMATCH 3½–2½', 780, 760), ("MARCH 2016 · ALPHAGO'S ONE-IN-10,000 MOVE", 1500, 760)]),
+             dict(img='turk-racknitz-1789.jpg', box=(735, 700), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 150)),
+             dict(img='kasparov-1997-still.jpg', box=(860, 859), crop=(0.0, 0.04, 0.53, 1.0), how='screen', level=0.36, detail=1.2, blur=1.0, at=(620, 60),
+                  keep=[(9, 0, 4, 10), (13, 4, 1, 2)]),
+             dict(img='lee-sedol-2016-still.jpg', box=(880, 769), crop=(0.33, 0.0, 1.0, 1.0), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(1310, 130),
+                  keep=[(16, 0, 6, 10), (15, 6, 5, 3)])],
+         shift=[(6, 3, 1, 3, 1, 0)], invert=[(4, 7, 1, 1)],
+         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 960), ('MAY 1997 · DEEP BLUE WINS THE REMATCH 3½–2½', 700, 960), ("MARCH 2016 · ALPHAGO'S ONE-IN-10,000 MOVE", 1500, 960)]),
     dict(id='collage-history-tall', size=PAGE, colour=GREY, seed=1770,
          fields=[(0, 1, 6, 5), (5, 10, 7, 4, ORANGE)], black=[(11, 0, 1, 1), (1, 11, 1, 1)],
          fragments=[

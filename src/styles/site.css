@@ -244,7 +244,7 @@ a.hist:hover .ht { text-decoration: underline; }
 .hcard:hover img { filter: brightness(0.96); }
 .hcard:hover .hc-t { text-decoration: underline; text-underline-offset: 6px; }
 .hcard:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
-.hpano img { aspect-ratio: 11 / 4; }
+.hpano img { aspect-ratio: 11 / 5; }
 .hc-side { display: grid; grid-template-columns: calc(var(--c) * 5 + var(--g) * 4) minmax(0, 1fr); column-gap: var(--g); row-gap: 28px; align-items: start; margin-top: 12px; }
 .hc-body { display: flex; flex-direction: column; gap: 12px; }
 .hc-t { margin: 0; font-size: 32px; line-height: 36px; font-weight: 600; letter-spacing: -0.015em; }

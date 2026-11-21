@@ -14,7 +14,7 @@ Every session starts here: find the first stage that is not done, do the next pi
   - [x] Effective accelerationism (incl. neoreaction and the network state) — 16 entries, 10 figures, checked and merged
   - [x] Techno-optimism (incl. augmentation) — 16 entries, 12 figures, checked and merged
 - [x] **4. Themes.** All seven written, checked and merged (20 Nov).
-- [x] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). 97 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, each with one of nine threads (`THREADS`), newest first, folding open on `history.html`. Drafted by three agents and checked by three others; 16 history words added to the vocabulary (`src/data/words/history-*.yaml`). Card: von Kempelen's Turk with 1997 (batch 7), a panorama from side to side at the height of a movement card (`HISTORY`, 2200 × 800, 11:4; owner, 20 Nov) and a 4:5 page image.
+- [x] **4b. History of AI** (owner, 20 Nov: the third track, between the movements and the vocabulary). 97 moments in eight eras (`ERAS` in `src/lib/site.ts`), one file per era in `src/data/history/`, each with one of nine threads (`THREADS`), newest first, folding open on `history.html`. Drafted by three agents and checked by three others; 16 history words added to the vocabulary (`src/data/words/history-*.yaml`). Card: three machines at play, the Turk (1770), Kasparov (1997) and Lee Sedol (2016), a panorama from side to side, a quarter taller than a movement card so it reads as the biggest card (`HISTORY`, 2200 × 1000, 11:5; owner, 21 Nov; it was 11:4 at movement-card height), and a 4:5 version for phones and the page.
 - [ ] **5. Images.** Every movement, key word and the History of AI has its collage card (batches 1–7). New cards follow the illustration guide: a session lists candidates as a batch in `docs/image-batches/batch-NN.md` (file, what it shows, file page, licence, size); the owner approves in the main conversation; only then is anything downloaded and the collage made there.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **6b. Phone pass** (owner, 21 Nov: later). A hamburger menu on phones; until then the menu wraps onto a second line. Also: the history panorama is small on phones (consider its 4:5 page image there), and the sticky section menus on long pages.
@@ -33,7 +33,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
-- Image batch approvals (sent as lists when ready). Batches 6, 7 and 8 were approved and used (Watt's governor for Alignment; von Kempelen's Turk for the History of AI; Deep Blue at the Computer History Museum for its moment). Still needed from the owner: the source of the Kasparov and Lee Sedol stills.
+- Image batch approvals (sent as lists when ready). Batches 6, 7 and 8 were approved and used (Watt's governor for Alignment; von Kempelen's Turk for the History of AI; Deep Blue at the Computer History Museum for its moment).
 - The domain (mademinds.org: owner checks and buys it), and when to allow search engines (remove the noindex tag).
 - Hosting (owner, 21 Nov: later): move the site from GitHub Pages to Cloudflare, likely Workers static assets serving `dist/` (no adapter needed for a static Astro build), with the domain mademinds.org. Needs the owner's Cloudflare account and explicit go; no session starts it on its own.
 - Before launch: delete the dev grid switch (owner, 21 Nov: the "Grid" button and G key in `src/layouts/Base.astro`, and the "DEV ONLY" block at the end of `src/styles/site.css`). The name Made Minds was decided on 20 November 2026.
@@ -51,7 +51,9 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
-- 2026-11-21: History of AI card redesigned (owner): three machines at play, the Turk (1770), Kasparov walking away from Deep Blue (1997) and Lee Sedol against AlphaGo (2016), no big type, labels along the bottom; grey, paper and orange. A vertical version for phones and the history page, and three variations as images on those moments in the timeline (the Turk's hidden player, Deep Blue's towers from batch 8, Lee Sedol). The two stills are an owner exception to the no-people rule, cleared by the owner as fair use; their source is still to be recorded. Engine: fragments can be cut out along the grid (`keep`), and a field can carry its own colour.
+- 2026-11-21: History card made taller, 11:4 to 11:5 (owner): at movement-card height its three subjects came out smaller than the single objects above it. 2:1 was tried and crowded the panels.
+
+- 2026-11-21: History of AI card redesigned (owner): three machines at play, the Turk (1770), Kasparov walking away from Deep Blue (1997) and Lee Sedol against AlphaGo (2016), no big type, labels along the bottom; grey, paper and orange. A vertical version for phones and the history page, and three variations as images on those moments in the timeline (the Turk's hidden player, Deep Blue's towers from batch 8, Lee Sedol). The two stills are an owner exception to the no-people rule, cleared by the owner as fair use; both are screenshots from the official live streams of the matches. Engine: fragments can be cut out along the grid (`keep`), and a field can carry its own colour.
 
 - 2026-11-21: The scheduled task's instructions and this procedure rewritten for the new direction (three tracks, key words, history, image batches only, no deploy from scheduled runs). The scheduled task is paused until the owner resumes it.
 
