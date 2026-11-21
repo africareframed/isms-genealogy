@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: History card animation live as an experiment (owner): squares glitch on scroll from a second state of the card, a black square ratchets into place one way only, still at rest, off for reduced motion. Script and layer in `src/pages/index.astro` and `site.css`, marked EXPERIMENT; second states `collage-history-b`, `collage-history-tall-b`; the home page's vertical card is `collage-history-tall-home`.
+
 - 2026-11-21: History card made taller, 11:4 to 11:5 (owner): at movement-card height its three subjects came out smaller than the single objects above it. 2:1 was tried and crowded the panels.
 
 - 2026-11-21: History of AI card redesigned (owner): three machines at play, the Turk (1770), Kasparov walking away from Deep Blue (1997) and Lee Sedol against AlphaGo (2016), no big type, labels along the bottom; grey, paper and orange. A vertical version for phones and the history page, and three variations as images on those moments in the timeline (the Turk's hidden player, Deep Blue's towers from batch 8, Lee Sedol). The two stills are an owner exception to the no-people rule, cleared by the owner as fair use; both are screenshots from the official live streams of the matches. Engine: fragments can be cut out along the grid (`keep`), and a field can carry its own colour.
