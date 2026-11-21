@@ -119,7 +119,9 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .ph-kind { font-family: var(--mono); font-size: 12px; font-weight: 400; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
 .ph-site { font-size: 16px; line-height: 22px; color: var(--muted); text-decoration: none; }
 .secnav { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 8px; padding-top: 6px; padding-bottom: 14px; font-size: 15px; line-height: 22px; }
-.secnav a { text-decoration: none; padding-bottom: 4px; border-bottom: 2px solid transparent; }
+.secnav a { text-decoration: none; padding-bottom: 4px; border-bottom: 2px solid transparent; display: inline-flex; flex-direction: column; }
+/* the bold width is reserved, so the menu does not shift when the underline moves */
+.secnav a::after { content: attr(data-label); font-weight: 600; height: 0; overflow: hidden; visibility: hidden; pointer-events: none; }
 .secnav a:hover { border-bottom-color: #bbbbb6; }
 .secnav a[aria-current='true'] { border-bottom-color: var(--accent); font-weight: 600; }
 .intro { display: grid; grid-template-columns: calc(var(--c) * 7 + var(--g) * 6) minmax(0, 1fr); column-gap: var(--g); row-gap: 40px; align-items: start; padding-top: 80px; padding-bottom: 72px; }

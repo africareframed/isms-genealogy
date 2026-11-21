@@ -19,28 +19,44 @@ const { title, kind, nav, navLabel } = Astro.props;
     <a class="ph-site" href={pageHref()}>{SITE_NAME}</a>
   </div>
   <nav class="wrap secnav" aria-label={navLabel}>
-    {nav.map((n, i) => <a href={n.href} aria-current={i === 0 ? 'true' : undefined}>{n.label}</a>)}
+    {nav.map((n, i) => <a href={n.href} data-label={n.label} aria-current={i === 0 ? 'true' : undefined}>{n.label}</a>)}
   </nav>
 </header>
 <script is:inline>
+  // The orange underline follows the reader: it marks the section whose heading has last passed just under the
+  // sticky menu, and the last section once the page is at its end. Runs after the page has loaded, so every
+  // section exists (it used to run before them, found none and stopped).
   (function () {
-    var links = Array.prototype.slice.call(document.querySelectorAll('.secnav a'));
-    var targets = links
-      .map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); })
-      .filter(Boolean);
-    if (!('IntersectionObserver' in window) || !targets.length) return;
-    var obs = new IntersectionObserver(
-      function (items) {
-        items.forEach(function (it) {
-          if (!it.isIntersecting) return;
-          links.forEach(function (a) {
-            if (a.getAttribute('href') === '#' + it.target.id) a.setAttribute('aria-current', 'true');
-            else a.removeAttribute('aria-current');
-          });
+    function init() {
+      var nav = document.querySelector('.secnav');
+      if (!nav) return;
+      var head = document.querySelector('.ph-head');
+      var pairs = Array.prototype.slice.call(nav.querySelectorAll('a'))
+        .map(function (a) { return { a: a, t: document.getElementById(a.getAttribute('href').slice(1)) }; })
+        .filter(function (p) { return p.t; });
+      if (!pairs.length) return;
+      var current = null, frame = 0;
+      function update() {
+        frame = 0;
+        var line = (head ? head.getBoundingClientRect().bottom : 0) + 24;
+        var pick = pairs[0];
+        pairs.forEach(function (p) { if (p.t.getBoundingClientRect().top <= line) pick = p; });
+        var root = document.documentElement;
+        if (window.innerHeight + window.scrollY >= root.scrollHeight - 2) pick = pairs[pairs.length - 1];
+        if (pick === current) return;
+        current = pick;
+        pairs.forEach(function (p) {
+          if (p === pick) p.a.setAttribute('aria-current', 'true');
+          else p.a.removeAttribute('aria-current');
         });
-      },
-      { rootMargin: '-20% 0px -70% 0px' }
-    );
-    targets.forEach(function (t) { obs.observe(t); });
+      }
+      function soon() { if (!frame) frame = requestAnimationFrame(update); }
+      window.addEventListener('scroll', soon, { passive: true });
+      window.addEventListener('resize', soon);
+      document.addEventListener('toggle', soon, true); // a history moment folding open moves what follows
+      update();
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
   })();
 </script>
