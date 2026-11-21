@@ -227,6 +227,24 @@ SPECS = [
                   keep=[(4, 13, 6, 2), (7, 9, 5, 6)])],
          shift=[(5, 2, 1, 2, 1, 0)], invert=[(3, 4, 1, 1)],
          labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 640), ('MAY 1997 · DEEP BLUE WINS', 40, 760), ('THE REMATCH 3½–2½', 40, 802), ("MARCH 2016 · ALPHAGO'S", 40, 1400), ('ONE-IN-10,000 MOVE', 40, 1442)]),
+    # Second states of the History card for its glitch animation (experiment, 21 Nov): the same grid, so any square can swap in.
+    # The Turk shows the man hidden inside, Kasparov's columns show Deep Blue, Lee Sedol comes closer, the fields slip one square.
+    dict(id='collage-history-b', size=HISTORY, colour=GREY, seed=1771,
+         fields=[(1, 0, 7, 8), (14, 2, 7, 8, ORANGE)], black=[(7, 0, 1, 1), (21, 9, 1, 1)],
+         fragments=[
+             dict(img='turk-racknitz-1789.jpg', box=(530, 700), crop=(0.42, 0.40, 0.78, 0.92), how='screen', level=0.34, blur=1.4, at=(150, 190)),
+             dict(img='deep-blue-chm.jpg', box=(373, 900), crop=(0.27, 0.23, 0.65, 0.84), how='screen', level=0.38, detail=1.5, blur=0.8, at=(912, 40), keep=[(9, 0, 4, 10)]),
+             dict(img='lee-sedol-2016-still.jpg', box=(676, 800), crop=(0.5, 0.0, 0.92, 0.85), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(1500, 110))],
+         shift=[(3, 5, 1, 2, 1, 0)],
+         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 960), ('MAY 1997 · DEEP BLUE WINS THE REMATCH 3½–2½', 700, 960), ("MARCH 2016 · ALPHAGO'S ONE-IN-10,000 MOVE", 1500, 960)]),
+    dict(id='collage-history-tall-b', size=PAGE, colour=GREY, seed=1771,
+         fields=[(1, 0, 6, 5), (4, 11, 7, 4, ORANGE)], black=[(11, 0, 1, 1), (1, 11, 1, 1)],
+         fragments=[
+             dict(img='turk-racknitz-1789.jpg', box=(379, 500), crop=(0.42, 0.40, 0.78, 0.92), how='screen', level=0.34, blur=1.4, at=(110, 100)),
+             dict(img='deep-blue-chm.jpg', box=(373, 900), crop=(0.27, 0.23, 0.65, 0.84), how='screen', level=0.38, detail=1.5, blur=0.8, at=(612, 0), keep=[(6, 0, 4, 9)]),
+             dict(img='lee-sedol-2016-still.jpg', box=(473, 560), crop=(0.5, 0.0, 0.92, 0.85), channel='B', how='screen', level=0.27, detail=1.0, blur=1.0, at=(712, 900))],
+         shift=[(2, 3, 1, 2, 1, 0)],
+         labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 640), ('MAY 1997 · DEEP BLUE WINS', 40, 760), ('THE REMATCH 3½–2½', 40, 802), ("MARCH 2016 · ALPHAGO'S", 40, 1400), ('ONE-IN-10,000 MOVE', 40, 1442)]),
     # Variations for the three moments in the history timeline (4:3, as the timeline shows them)
     dict(id='collage-moment-turk', size=ISM, colour=GREY, seed=1789,
          fields=[(0, 1, 9, 10)], black=[(9, 0, 1, 1), (15, 11, 1, 1)],

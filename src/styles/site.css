@@ -245,6 +245,10 @@ a.hist:hover .ht { text-decoration: underline; }
 .hcard:hover .hc-t { text-decoration: underline; text-underline-offset: 6px; }
 .hcard:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .hpano img { aspect-ratio: 11 / 5; }
+/* EXPERIMENT: the history card's glitch layer, squares laid over the image */
+.gl-frame { position: relative; }
+.gl { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.gl i { position: absolute; display: block; background-repeat: no-repeat; }
 .hc-side { display: grid; grid-template-columns: calc(var(--c) * 5 + var(--g) * 4) minmax(0, 1fr); column-gap: var(--g); row-gap: 28px; align-items: start; margin-top: 12px; }
 .hc-body { display: flex; flex-direction: column; gap: 12px; }
 .hc-t { margin: 0; font-size: 32px; line-height: 36px; font-weight: 600; letter-spacing: -0.015em; }

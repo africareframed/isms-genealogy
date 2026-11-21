@@ -20,6 +20,15 @@ const moments = await getHistory();
 const historyEras = ERAS.filter((e) => moments.some((m) => m.data.era === e.id));
 const oldest = moments[moments.length - 1];
 const historyImage = (await getCollection('images')).find((i) => i.id === 'collage-history');
+// EXPERIMENT (21 Nov 2026): the history card glitches. Squares of the card swap for the same squares of its
+// second state (scripts/collages.py, collage-history-b), on the collage's own 100 px grid. Zones and reveals
+// are in grid squares: [first column, last column, first row, last row] and [column, row, width, height].
+const GLITCH = {
+  wide: { src: 'images/collage-history-b.jpg', cols: 22, rows: 10,
+    zones: [[0, 6, 1, 8], [9, 13, 0, 8], [14, 21, 0, 8]], reveals: [[2, 3, 3, 4], [2, 4, 3, 4], [9, 1, 4, 5]] },
+  tall: { src: 'images/collage-history-tall-b.jpg', cols: 12, rows: 15,
+    zones: [[0, 5, 0, 5], [6, 10, 0, 8], [4, 11, 9, 13]], reveals: [[1, 1, 3, 4], [6, 1, 4, 5]] },
+};
 const num = (n: number) => String(n).padStart(2, '0');
 
 ---
@@ -93,11 +102,14 @@ const num = (n: number) => String(n).padStart(2, '0');
       </div>
       <a class="hcard" href={pageHref('history')}>
         {historyImage && (
-          <figure class="pic hpano">
-            <picture>
-              <source media="(max-width: 640px)" srcset="images/collage-history-tall.jpg" />
-              <img src={`images/${historyImage.data.file}`} alt={historyImage.data.alt ?? ''} loading="lazy" decoding="async" />
-            </picture>
+          <figure class="pic hpano" data-glitch={JSON.stringify(GLITCH)}>
+            <div class="gl-frame">
+              <picture>
+                <source media="(max-width: 640px)" srcset="images/collage-history-tall.jpg" />
+                <img src={`images/${historyImage.data.file}`} alt={historyImage.data.alt ?? ''} loading="lazy" decoding="async" />
+              </picture>
+              <span class="gl" aria-hidden="true"></span>
+            </div>
             <figcaption class="cap">{historyImage.data.title} · {rightsLabel(historyImage.data.rights, historyImage.data.licence)}</figcaption>
           </figure>
         )}
@@ -146,4 +158,93 @@ const num = (n: number) => String(n).padStart(2, '0');
       <a href={pageHref('method')}>Method</a>
     </nav>
   </footer>
+  <script is:inline>
+    // EXPERIMENT: the history card's glitch. Mechanical, stepped, never smooth. Off for reduced motion.
+    (() => {
+      const fig = document.querySelector('[data-glitch]');
+      if (!fig || !window.IntersectionObserver || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const cfg = JSON.parse(fig.dataset.glitch), img = fig.querySelector('img'), layer = fig.querySelector('.gl');
+      const PAPER = 'rgb(226, 223, 215)', state = {};
+      let on = false, hover = false, timer = 0;
+      const rnd = (a, b) => a + Math.random() * (b - a);
+      const pick = (a) => a[Math.floor(Math.random() * a.length)];
+      const fmt = () => ((img.currentSrc || img.src).includes('-tall') ? cfg.tall : cfg.wide);
+      const load = (f) => {
+        if (state[f.src]) return;
+        state[f.src] = 'loading';
+        const i = new Image();
+        i.onload = () => { state[f.src] = 'ready'; };
+        i.src = f.src;
+      };
+      const tile = (f, c, r, w, h, mode) => {
+        const t = document.createElement('i'), st = t.style;
+        st.left = (c / f.cols) * 100 + '%'; st.top = (r / f.rows) * 100 + '%';
+        st.width = (w / f.cols) * 100 + '%'; st.height = (h / f.rows) * 100 + '%';
+        if (mode === 'blank') st.background = PAPER;
+        else {
+          // swap: the same squares of the second state; shift: this card's own squares, one column along
+          const sc = mode === 'shift' ? Math.max(0, Math.min(f.cols - w, c + pick([-1, 1]))) : c;
+          st.backgroundImage = `url("${mode === 'shift' ? img.currentSrc || img.src : f.src}")`;
+          st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
+          st.backgroundPosition = `${f.cols === w ? 0 : (sc / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
+        }
+        st.visibility = 'hidden';
+        layer.appendChild(t);
+        return t;
+      };
+      // durations alternate shown, hidden, shown ... then the square is gone
+      const flicker = (t, steps) => {
+        let k = 0;
+        const next = () => {
+          if (k === steps.length) return t.remove();
+          t.style.visibility = k % 2 ? 'hidden' : 'visible';
+          setTimeout(next, steps[k++]);
+        };
+        next();
+      };
+      const burst = (big) => {
+        const f = fmt();
+        if (state[f.src] !== 'ready') return load(f);
+        if (big) {
+          const [c, r, w, h] = pick(f.reveals);
+          return flicker(tile(f, c, r, w, h, 'swap'), [60, 50, rnd(650, 1100), 40, 70]);
+        }
+        const [c0, c1, r0, r1] = pick(f.zones), s = Math.random();
+        let w = 1, h = 1;
+        if (s < 0.35) w = pick([2, 3]); else if (s < 0.7) h = pick([2, 3]); else if (s < 0.85) w = h = 2;
+        w = Math.min(w, c1 - c0 + 1); h = Math.min(h, r1 - r0 + 1);
+        const c = c0 + Math.floor(Math.random() * (c1 - c0 + 2 - w));
+        const r = r0 + Math.floor(Math.random() * (r1 - r0 + 2 - h));
+        const m = Math.random(), mode = m < 0.6 ? 'swap' : m < 0.85 ? 'shift' : 'blank';
+        flicker(tile(f, c, r, w, h, mode), pick([[90], [70, 50, 80], [120, 40, 60], [60, 60, 60, 40, 90]]));
+      };
+      // Driven by scroll (owner, 21 Nov): bursts in proportion to how far the reader scrolls past, one reveal
+      // as the card crosses the middle of the screen, still when the page is still. The page scrolls natively.
+      let lastY = scrollY, energy = 0, armed = true, frame = 0;
+      const STEP = 140; // px of scroll per burst
+      const onScroll = () => {
+        if (frame) return;
+        frame = requestAnimationFrame(() => {
+          frame = 0;
+          const dy = Math.abs(scrollY - lastY);
+          lastY = scrollY;
+          if (!on) return;
+          load(fmt());
+          energy += Math.min(dy, 600);
+          let n = 0;
+          while (energy >= STEP && n < 3) { energy -= STEP; n++; setTimeout(() => burst(false), n * rnd(30, 90)); }
+          const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2, band = innerHeight * 0.18;
+          if (Math.abs(mid - innerHeight / 2) < band) { if (armed) { armed = false; setTimeout(() => burst(true), 60); } }
+          else armed = true;
+        });
+      };
+      addEventListener('scroll', onScroll, { passive: true });
+      new IntersectionObserver(([e]) => { on = e.isIntersecting; if (on) load(fmt()); }, { rootMargin: '800px 0px' }).observe(fig);
+      // resting the pointer on the card wakes it a little
+      const card = fig.closest('a') || fig;
+      const idle = () => { clearTimeout(timer); if (!hover || document.hidden) return; burst(false); timer = setTimeout(idle, rnd(450, 1100)); };
+      card.addEventListener('pointerenter', (e) => { if (e.pointerType !== 'mouse') return; hover = true; load(fmt()); timer = setTimeout(idle, 120); });
+      card.addEventListener('pointerleave', () => { hover = false; clearTimeout(timer); });
+    })();
+  </script>
 </Base>
