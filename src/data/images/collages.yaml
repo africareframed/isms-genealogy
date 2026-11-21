@@ -226,6 +226,14 @@
   file: "collage-history-tall.jpg"
   alt: "The Turk, Garry Kasparov and Lee Sedol stacked in a cut-up collage on grey, paper and orange"
 
+- id: collage-history-tall-home
+  title: "Collage of three machines at play: the Turk (1770), Kasparov against Deep Blue (1997) and Lee Sedol against AlphaGo (2016)"
+  rights: cleared
+  licence: "Turk engraving public domain; stills from the official live streams of the 1997 and 2016 matches"
+  note: "The home page's vertical card, without its top-right square, which the page draws and moves. Stills cleared by the owner on 21 November 2026 as fair use."
+  file: "collage-history-tall-home.jpg"
+  alt: "The Turk, Garry Kasparov and Lee Sedol stacked in a cut-up collage on grey, paper and orange"
+
 - id: collage-history-b
   title: "Second state of the History card, for its glitch: the man hidden in the Turk, Deep Blue, Lee Sedol closer"
   rights: cleared

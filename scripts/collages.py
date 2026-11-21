@@ -208,7 +208,7 @@ SPECS = [
     # History of AI: three machines at play (owner, 21 Nov 2026). The two stills of people are the owner's exception to the
     # no-people rule, cleared by the owner; the Turk is public domain.
     dict(id='collage-history', size=HISTORY, colour=GREY, seed=1770,
-         fields=[(0, 1, 7, 8), (15, 1, 7, 8, ORANGE)], black=[(7, 0, 1, 1), (21, 9, 1, 1)],
+         fields=[(0, 1, 7, 8), (15, 1, 7, 8, ORANGE)], black=[(21, 9, 1, 1)],
          fragments=[
              dict(img='turk-racknitz-1789.jpg', box=(735, 700), crop=(0.13, 0.115, 0.94, 0.96), how='screen', level=0.33, blur=1.3, at=(40, 150)),
              dict(img='kasparov-1997-still.jpg', box=(860, 859), crop=(0.0, 0.04, 0.53, 1.0), how='screen', level=0.36, detail=1.2, blur=1.0, at=(620, 60),
@@ -230,7 +230,7 @@ SPECS = [
     # Second states of the History card for its glitch animation (experiment, 21 Nov): the same grid, so any square can swap in.
     # The Turk shows the man hidden inside, Kasparov's columns show Deep Blue, Lee Sedol comes closer, the fields slip one square.
     dict(id='collage-history-b', size=HISTORY, colour=GREY, seed=1771,
-         fields=[(1, 0, 7, 8), (14, 2, 7, 8, ORANGE)], black=[(7, 0, 1, 1), (21, 9, 1, 1)],
+         fields=[(1, 0, 7, 8), (14, 2, 7, 8, ORANGE)], black=[(21, 9, 1, 1)],
          fragments=[
              dict(img='turk-racknitz-1789.jpg', box=(530, 700), crop=(0.42, 0.40, 0.78, 0.92), how='screen', level=0.34, blur=1.4, at=(150, 190)),
              dict(img='deep-blue-chm.jpg', box=(373, 900), crop=(0.27, 0.23, 0.65, 0.84), how='screen', level=0.38, detail=1.5, blur=0.8, at=(912, 40), keep=[(9, 0, 4, 10)]),
@@ -238,7 +238,7 @@ SPECS = [
          shift=[(3, 5, 1, 2, 1, 0)],
          labels=[('1770 · A MAN HIDDEN IN THE CABINET', 40, 960), ('MAY 1997 · DEEP BLUE WINS THE REMATCH 3½–2½', 700, 960), ("MARCH 2016 · ALPHAGO'S ONE-IN-10,000 MOVE", 1500, 960)]),
     dict(id='collage-history-tall-b', size=PAGE, colour=GREY, seed=1771,
-         fields=[(1, 0, 6, 5), (4, 11, 7, 4, ORANGE)], black=[(11, 0, 1, 1), (1, 11, 1, 1)],
+         fields=[(1, 0, 6, 5), (4, 11, 7, 4, ORANGE)], black=[(1, 11, 1, 1)],
          fragments=[
              dict(img='turk-racknitz-1789.jpg', box=(379, 500), crop=(0.42, 0.40, 0.78, 0.92), how='screen', level=0.34, blur=1.4, at=(110, 100)),
              dict(img='deep-blue-chm.jpg', box=(373, 900), crop=(0.27, 0.23, 0.65, 0.84), how='screen', level=0.38, detail=1.5, blur=0.8, at=(612, 0), keep=[(6, 0, 4, 9)]),
@@ -338,6 +338,11 @@ SPECS = [
          shift=[(3, 4, 2, 2, 1, 0), (7, 8, 1, 2, 0, -1)], invert=[(8, 2, 1, 1)],
          labels=[('ABOUT $5 A NET', 40, 1150), ('$5,500 PER LIFE SAVED · GIVEWELL, 2021–23', 40, 1192), ('BED NETS READY FOR DISTRIBUTION', 40, 1440)]),
 ]
+
+# The home page's vertical card: the same as the history page's, without its top-right square, which the page
+# draws and slides into place as the reader scrolls (the registration square, experiment 21 Nov).
+_tall = next(x for x in SPECS if x['id'] == 'collage-history-tall')
+SPECS.append(dict(_tall, id='collage-history-tall-home', black=[(1, 11, 1, 1)]))
 
 if __name__ == '__main__':
     import os, sys

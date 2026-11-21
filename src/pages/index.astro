@@ -105,10 +105,11 @@ const num = (n: number) => String(n).padStart(2, '0');
           <figure class="pic hpano" data-glitch={JSON.stringify(GLITCH)}>
             <div class="gl-frame">
               <picture>
-                <source media="(max-width: 640px)" srcset="images/collage-history-tall.jpg" />
+                <source media="(max-width: 640px)" srcset="images/collage-history-tall-home.jpg" />
                 <img src={`images/${historyImage.data.file}`} alt={historyImage.data.alt ?? ''} loading="lazy" decoding="async" />
               </picture>
               <span class="gl" aria-hidden="true"></span>
+              <span class="gl-reg" aria-hidden="true"></span>
             </div>
             <figcaption class="cap">{historyImage.data.title} · {rightsLabel(historyImage.data.rights, historyImage.data.licence)}</figcaption>
           </figure>
@@ -163,6 +164,21 @@ const num = (n: number) => String(n).padStart(2, '0');
     (() => {
       const fig = document.querySelector('[data-glitch]');
       if (!fig || !window.IntersectionObserver || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      // The registration square moves like a dial, smoothly and with no glitch, so the reader sees the motion is
+      // theirs: it slides in from one and a half squares to the left and locks onto the grid as the card reaches
+      // the middle of the screen. Scrolling back slides it out again.
+      const reg = fig.querySelector('.gl-reg');
+      let regFrame = 0;
+      const dial = () => {
+        regFrame = 0;
+        const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2;
+        const d = Math.max(0, Math.min(1, (mid - innerHeight / 2) / (innerHeight * 0.55)));
+        reg.style.transform = d ? `translateX(${(-d * 150).toFixed(2)}%)` : '';
+      };
+      const dialSoon = () => { if (!regFrame) regFrame = requestAnimationFrame(dial); };
+      addEventListener('scroll', dialSoon, { passive: true });
+      addEventListener('resize', dialSoon);
+      dial();
       const cfg = JSON.parse(fig.dataset.glitch), img = fig.querySelector('img'), layer = fig.querySelector('.gl');
       const PAPER = 'rgb(226, 223, 215)', state = {};
       let on = false, hover = false, timer = 0;

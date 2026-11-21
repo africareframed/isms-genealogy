@@ -249,6 +249,9 @@ a.hist:hover .ht { text-decoration: underline; }
 .gl-frame { position: relative; }
 .gl { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
 .gl i { position: absolute; display: block; background-repeat: no-repeat; }
+/* the registration square: drawn by the page, in place without script or with reduced motion */
+.gl-reg { position: absolute; left: calc(100% * 7 / 22); top: 0; width: calc(100% / 22); height: 10%; background: rgb(20, 19, 19); will-change: transform; }
+@media (max-width: 640px) { .gl-reg { left: calc(100% * 11 / 12); width: calc(100% / 12); height: calc(100% / 15); } }
 .hc-side { display: grid; grid-template-columns: calc(var(--c) * 5 + var(--g) * 4) minmax(0, 1fr); column-gap: var(--g); row-gap: 28px; align-items: start; margin-top: 12px; }
 .hc-body { display: flex; flex-direction: column; gap: 12px; }
 .hc-t { margin: 0; font-size: 32px; line-height: 36px; font-weight: 600; letter-spacing: -0.015em; }
