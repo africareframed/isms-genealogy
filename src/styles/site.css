@@ -245,10 +245,10 @@ a.hist:hover .ht { text-decoration: underline; }
 .hcard:hover .hc-t { text-decoration: underline; text-underline-offset: 6px; }
 .hcard:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .hpano img { aspect-ratio: 11 / 5; }
-/* EXPERIMENT: the history card's pieces, squares of its second state laid over the image; a click takes one away */
+/* EXPERIMENT: the history card's pieces, squares of its second state laid over the image; clicks pass through to the card's link */
 .gl-frame { position: relative; }
 .gl { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
-.gl i { position: absolute; display: block; background-repeat: no-repeat; pointer-events: auto; cursor: crosshair; }
+.gl i { position: absolute; display: block; background-repeat: no-repeat; }
 /* the registration square: drawn by the page, in place without script or with reduced motion */
 .gl-reg { position: absolute; left: calc(100% * 7 / 22); top: 0; width: calc(100% / 22); height: 10%; background: rgb(20, 19, 19); will-change: transform; }
 @media (max-width: 640px) { .gl-reg { left: calc(100% * 11 / 12); width: calc(100% / 12); height: calc(100% / 15); } }

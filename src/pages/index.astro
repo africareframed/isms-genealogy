@@ -22,7 +22,7 @@ const oldest = moments[moments.length - 1];
 const historyImage = (await getCollection('images')).find((i) => i.id === 'collage-history');
 // EXPERIMENT (21 Nov 2026): pieces of the card's second state (scripts/collages.py, collage-history-b) arrive
 // on the collage's own 100 px grid, each at its own scroll position once the black square has clicked into place.
-// Clicking a piece takes it away. Pieces are [column, row, width, height] in squares, in the order they arrive:
+// Pieces are [column, row, width, height] in squares, in the order they arrive:
 // Deep Blue over Kasparov's face, a grey slip beside the square, the man inside the Turk, an orange slip, Lee Sedol.
 const GLITCH = {
   wide: { src: 'images/collage-history-b.jpg', cols: 22, rows: 10,
@@ -164,7 +164,7 @@ const num = (n: number) => String(n).padStart(2, '0');
     // EXPERIMENT: the history card (owner, 21 Nov). The black square slides in smoothly as the reader scrolls, one way
     // only, from the moment the card enters the screen, and clicks into place once the whole card is in view. After that, each piece of the second state belongs to a
     // scroll position, close together, so a scroll brings them 1, 2, 3; scrolling back takes them away, last first.
-    // A click takes a piece away until the reader scrolls back past it. Nothing moves when the page is still.
+    // A click anywhere on the card, pieces included, opens the history (owner). Nothing moves when the page is still.
     // Off for reduced motion.
     (() => {
       const fig = document.querySelector('[data-glitch]');
@@ -191,8 +191,6 @@ const num = (n: number) => String(n).padStart(2, '0');
           st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
           st.backgroundPosition = `${f.cols === w ? 0 : (c / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
           st.visibility = 'hidden';
-          // a click takes the piece away (and does not follow the card's link) until the reader scrolls back past it
-          t.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); t.dataset.gone = '1'; st.visibility = 'hidden'; });
           layer.appendChild(t);
           return t;
         });
@@ -213,10 +211,7 @@ const num = (n: number) => String(n).padStart(2, '0');
         // all five pieces land while the whole card is still on screen: the gap fits the room the screen leaves
         const room = innerHeight - b.height, gap = Math.max(24, Math.min(innerHeight * GAP, (room * 0.75) / (els.length - 1)));
         const past = (innerHeight - b.bottom) / gap; // pieces' worth of scrolling past the click point
-        els.forEach((t, k) => {
-          if (past < k) delete t.dataset.gone;
-          t.style.visibility = past >= k && !t.dataset.gone ? 'visible' : 'hidden';
-        });
+        els.forEach((t, k) => { t.style.visibility = past >= k ? 'visible' : 'hidden'; });
       };
       const soon = () => { if (!frame) frame = requestAnimationFrame(tick); };
       addEventListener('scroll', soon, { passive: true });

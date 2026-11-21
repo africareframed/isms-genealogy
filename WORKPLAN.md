@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: Click-to-remove taken off the History card pieces (owner): a click on the image always opens the history.
+
 - 2026-11-21: History card motion starts earlier (owner): the square moves from the moment the card enters and locks once it is fully in view; the five pieces land before it starts to leave, checked on five screen sizes.
 
 - 2026-11-21: History card pieces follow scroll position, reversible (owner): each piece about 6% of the screen apart after the click point, so readers can scroll back and forth; the square stays a one-way ratchet.
