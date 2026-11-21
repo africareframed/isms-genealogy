@@ -11,6 +11,7 @@
   origin: "No single coiner; the sense shifted over decades. Computer-vision researchers used the word from 1986 in a positive sense, for adding plausible detail to an image, and machine-translation researchers used it for a failure mode in the 2000s. Since the 2010s it has meant false output: on 21 May 2015 Andrej Karpathy wrote that his model had hallucinated a web link, and in 2017 Google researchers used it of neural machine translation. Cambridge Dictionary made “hallucinate” its word of the year on 15 November 2023. Sources: Wikipedia, “Hallucination (artificial intelligence)”; Andrej Karpathy, “The Unreasonable Effectiveness of Recurrent Neural Networks”, blog post, 21 May 2015; University of Cambridge, 15 November 2023."
   sourceUrl: https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
   isms: []
+  technical: true
   status: checked
 
 - id: transformer
@@ -21,6 +22,7 @@
   origin: "Ashish Vaswani and seven co-authors, most of them at Google Brain and Google Research, “Attention Is All You Need”, arXiv:1706.03762, 12 June 2017, which names the architecture the Transformer. BERT (2018) is short for Bidirectional Encoder Representations from Transformers. The GPT-4 technical report (2023) calls GPT-4 a Transformer-based model."
   sourceUrl: https://arxiv.org/abs/1706.03762v1
   isms: []
+  technical: true
   status: checked
 
 - id: large-language-model
@@ -31,6 +33,7 @@
   origin: "No single coiner. Merriam-Webster dates the first known use in today's sense, a language model built with deep learning on an extremely large data set, to 2018. The phrase is older: in the 2000s it described very large statistical models of word sequences, as in Thorsten Brants, Ashok C. Popat, Peng Xu, Franz J. Och and Jeffrey Dean, “Large Language Models in Machine Translation”, EMNLP-CoNLL 2007, Prague, pp. 858–867. The GPT-4 technical report (2023) describes a model pre-trained to predict the next token."
   sourceUrl: https://www.merriam-webster.com/dictionary/large%20language%20model
   isms: []
+  technical: true
   status: checked
 
 - id: foundation-model
@@ -41,6 +44,7 @@
   origin: "Rishi Bommasani and others, with Percy Liang as corresponding author, “On the Opportunities and Risks of Foundation Models”, arXiv:2108.07258, 16 August 2021. More than 100 people at Stanford's Center for Research on Foundation Models contributed. The authors weighed other names, such as pretrained model, and chose one that conveys both incompleteness and high stakes. The Bletchley Declaration (2023) counts foundation models among frontier AI."
   sourceUrl: https://arxiv.org/abs/2108.07258v1
   isms: []
+  technical: true
   status: checked
 
 - id: stochastic-parrot
@@ -61,4 +65,5 @@
   origin: "Markus Anderljung, Joslyn Barnhart, Jade Leung, Anton Korinek and others, “Frontier AI Regulation: Managing Emerging Risks to Public Safety”, arXiv:2307.03718, 6 July 2023, which Seán Ó hÉigeartaigh called the first proper definition. On 26 July 2023 OpenAI, Anthropic, Google and Microsoft launched the Frontier Model Forum. On 7 September 2023 the UK renamed its Foundation Model Taskforce the Frontier AI Taskforce. Nerlich found earlier uses of “frontier AI”, from 2018, in a neutral sense of advanced research. Source: Brigitte Nerlich, “Frontier AI: tracing the origin of a concept”, Making Science Public, 20 October 2023."
   sourceUrl: https://makingsciencepublic.com/2023/10/20/frontier-ai-tracing-the-origin-of-a-concept/
   isms: []
+  technical: true
   status: checked

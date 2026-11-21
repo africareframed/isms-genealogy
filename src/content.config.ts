@@ -141,6 +141,7 @@ const words = defineCollection({
     origin: z.string(), // the source that documents the coinage or first use
     sourceUrl: z.string().optional(),
     isms: z.array(reference('isms')).default([]),
+    technical: z.boolean().default(false), // a term for how AI is built or behaves: the 'Technical terms' filter
     status,
   }),
 });

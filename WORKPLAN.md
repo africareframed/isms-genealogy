@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: Vocabulary gets technical terms (owner): a "Technical terms" filter beside the families (`technical: true` on a word), ten existing words tagged, and 23 new words in `src/data/words/technical.yaml`, from neural network (1943) to test-time compute (2024), draft until checked. Training, inference and benchmark left out as separate words: ordinary words with no traceable first use.
+
 - 2026-11-21: The section menu's underline now follows scrolling on every page with a menu (owner). Its script ran before the sections existed and stopped; it now runs after load and tracks scroll position. Bold width reserved so the menu never shifts.
 
 - 2026-11-21: Humanist AI added as a strand of Rationalism (owner): card line, Microsoft AI as a holder, a 2026 timeline entry, three words (Tool AI, humanist superintelligence, Humanist AI) and a History of AI moment, all draft until checked. Rationalism now has 17 timeline entries, one over the guide of sixteen. Strand lines now keep their own capitals.

@@ -11,6 +11,7 @@
   yearLabel: c. 1230
   origin: "The ninth-century Persian mathematician al-Khwarizmi popularised Hindu-Arabic numerals in the West (NPR, “How ‘algorithm’ got its name from a 9th-century Persian mathematician”, 11 June 2026). His arithmetic was translated into Latin in the 12th century as Algoritmi de numero Indorum (Encyclopaedia Britannica, “Algorithm”). The word, in its older form algorism, is first recorded in English about 1230 (Oxford English Dictionary, as cited in Wikipedia, “Algorism”)."
   sourceUrl: https://en.wikipedia.org/wiki/Algorism
+  technical: true
   status: checked
 
 - id: computer
@@ -39,6 +40,7 @@
   year: 1937
   origin: "Alan Turing described the machines in “On Computable Numbers”, Proceedings of the London Mathematical Society, 1936–37. Alonzo Church first called them Turing machines, in his 1937 review of the paper (Liesbeth De Mol, “Turing Machines”, Stanford Encyclopedia of Philosophy, 2025)."
   sourceUrl: https://plato.stanford.edu/entries/turing-machine/
+  technical: true
   status: checked
 
 - id: robotics

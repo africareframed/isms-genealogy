@@ -1,0 +1,256 @@
+# Technical terms: how today's AI is built and how it behaves (owner, 21 Nov 2026), shown under the
+# "Technical terms" filter on the vocabulary page. Same fields as words.yaml; see src/content.config.ts.
+# Ordered by year, oldest first. status: draft until a checker agent has verified every claim against its source.
+
+- id: neural-network
+  word: neural network
+  definition: "A system of simple connected units, loosely modelled on nerve cells, whose connection strengths set what it computes."
+  coinedBy: "Warren McCulloch and Walter Pitts (the first mathematical model)"
+  year: 1943
+  origin: "Warren McCulloch and Walter Pitts, “A Logical Calculus of the Ideas Immanent in Nervous Activity”, Bulletin of Mathematical Biophysics, 1943. It treated networks of all-or-none neurons with propositional logic, and is usually counted as the first mathematical model of a neural network."
+  sourceUrl: https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity
+  isms: []
+  technical: true
+  status: draft
+
+- id: reinforcement-learning
+  word: reinforcement learning
+  definition: "Learning by trial and error. A system acts, receives a reward or penalty, and adjusts so that it earns more reward over time."
+  coinedBy: "Marvin Minsky"
+  year: 1961
+  origin: "Richard Sutton writes that the term appears to have been coined by Minsky (1961), and independently in control theory by Waltz and Fu (1965). Sutton, “Introduction: The Challenge of Reinforcement Learning”, Machine Learning 8, 1992. Sutton and Andrew Barto's textbook Reinforcement Learning: An Introduction (MIT Press, 1998) became the field's standard text."
+  sourceUrl: https://link.springer.com/content/pdf/10.1007/BF00992695.pdf
+  isms: []
+  technical: true
+  status: draft
+
+- id: backpropagation
+  word: backpropagation
+  definition: "The method that trains most neural networks. It works backwards from each error and nudges every connection a little to make the error smaller."
+  coinedBy: "David Rumelhart, Geoffrey Hinton and Ronald Williams (in this sense)"
+  year: 1986
+  origin: "David Rumelhart, Geoffrey Hinton and Ronald Williams, “Learning representations by back-propagating errors”, Nature 323, October 1986, which describes “a new learning procedure, back-propagation, for networks of neurone-like units”. A longer version had appeared as a report from the University of California, San Diego, in September 1985."
+  sourceUrl: https://ui.adsabs.harvard.edu/abs/1986Natur.323..533R/abstract
+  isms: []
+  technical: true
+  status: draft
+
+- id: deep-learning
+  word: deep learning
+  definition: "Machine learning with neural networks of many layers, each turning what the layer below found into something more abstract."
+  year: 1986
+  yearLabel: "1986 / 2006"
+  origin: "No single coiner. Rina Dechter used “deep learning” at AAAI in 1986, in work on constraint satisfaction; Igor Aizenberg and colleagues applied it to neural networks in a book of 2000. Researchers in a 2015 discussion on the Connectionists list traced today's meaning to Geoffrey Hinton, Simon Osindero and Yee-Whye Teh's paper of 2006."
+  sourceUrl: https://mailman.srv.cs.cmu.edu/pipermail/connectionists/2015-March/027853.html
+  isms: []
+  technical: true
+  status: draft
+
+- id: synthetic-data
+  word: synthetic data
+  definition: "Data made by a model rather than collected from the world. It is now also used to develop AI where real data are scarce or private."
+  coinedBy: "Donald Rubin"
+  year: 1993
+  origin: "Donald Rubin, “Discussion: Statistical Disclosure Limitation”, Journal of Official Statistics 9(2), 1993, which proposed releasing simulated data instead of confidential census records. Statistics Netherlands (2026) dates the term to Rubin and notes its later spread into machine learning."
+  sourceUrl: https://www.cbs.nl/en-gb/background/2026/31/synthetic-data-terminology-in-official-statistics
+  isms: []
+  technical: true
+  status: draft
+
+- id: agent
+  word: agent
+  definition: "An AI system that acts towards a goal on its own, taking steps in software or the world, rather than only answering."
+  coinedBy: "Stuart Russell and Peter Norvig (as the frame of AI)"
+  year: 1995
+  origin: "Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, Prentice Hall, 1995, whose unifying theme is the intelligent agent: anything that perceives its environment and acts upon it. The word itself is far older."
+  sourceUrl: https://aima.cs.berkeley.edu/preface.html
+  isms: []
+  technical: true
+  status: draft
+
+- id: pre-training
+  word: pre-training
+  definition: "The first stage of making a model, in which it learns from a vast body of unlabelled text, often by predicting what comes next. Later stages refine it."
+  year: 2006
+  yearLabel: "by 2006"
+  origin: "Geoffrey Hinton and Ruslan Salakhutdinov's paper in Science (28 July 2006), “Reducing the Dimensionality of Data with Neural Networks”, describes pretraining a deep network before fine-tuning it. OpenAI's “Improving Language Understanding by Generative Pre-Training” (Alec Radford and others, June 2018) gave the GPT models their name."
+  sourceUrl: https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf
+  isms: []
+  technical: true
+  status: draft
+
+- id: fine-tuning
+  word: fine-tuning
+  definition: "Further training of an already trained model on a smaller set of examples, to suit a task or a way of behaving."
+  year: 2006
+  yearLabel: "by 2006"
+  origin: "In machine learning, Geoffrey Hinton and Ruslan Salakhutdinov, “Reducing the Dimensionality of Data with Neural Networks”, Science, 28 July 2006: gradient descent can be used for fine-tuning the weights of a network. OpenAI's GPT paper of 2018 paired unsupervised pre-training with supervised fine-tuning."
+  sourceUrl: https://pubmed.ncbi.nlm.nih.gov/16873662/
+  isms: []
+  technical: true
+  status: draft
+
+- id: distillation
+  word: distillation
+  definition: "Training a small model to copy the answers of a large one, keeping much of its knowledge at a fraction of the cost."
+  coinedBy: "Geoffrey Hinton, Oriol Vinyals and Jeff Dean"
+  year: 2015
+  origin: "Geoffrey Hinton, Oriol Vinyals and Jeff Dean, “Distilling the Knowledge in a Neural Network”, arXiv, 9 March 2015, a different kind of training “which we call ‘distillation’”."
+  sourceUrl: https://arxiv.org/abs/1503.02531
+  isms: []
+  technical: true
+  status: draft
+
+- id: token
+  word: token
+  definition: "The unit of text a language model reads and writes: a word, part of a word or a mark."
+  year: 2016
+  yearLabel: "2015–16"
+  origin: "The word is older in linguistics. Rico Sennrich, Barry Haddow and Alexandra Birch, “Neural Machine Translation of Rare Words with Subword Units” (arXiv, 2015; ACL, 2016), split rare words into subword units with byte pair encoding."
+  sourceUrl: https://arxiv.org/abs/1508.07909v2
+  isms: []
+  technical: true
+  status: draft
+
+- id: reward-hacking
+  word: reward hacking
+  definition: "When a system scores well on its objective without doing what its makers wanted, for example by hiding a mess instead of cleaning it."
+  year: 2016
+  yearLabel: "by 2016"
+  origin: "Dario Amodei, Chris Olah and four co-authors, “Concrete Problems in AI Safety”, arXiv, 21 June 2016, which lists “avoiding reward hacking” among five practical safety problems."
+  sourceUrl: https://arxiv.org/abs/1606.06565v2
+  isms: []
+  technical: true
+  status: draft
+
+- id: rlhf
+  word: RLHF
+  definition: "Reinforcement learning from human feedback. People compare a model's answers, a second model learns their preferences, and the first is trained to please it."
+  year: 2017
+  yearLabel: "2017"
+  origin: "Paul Christiano, Jan Leike and four co-authors, “Deep reinforcement learning from human preferences”, arXiv, 12 June 2017, trained agents from people's comparisons of pairs of clips. Anthropic's red-teaming paper of 2022 (Deep Ganguli and others) already refers to “RLHF models”."
+  sourceUrl: https://arxiv.org/abs/1706.03741v1
+  isms: []
+  technical: true
+  status: draft
+
+- id: recursive-self-improvement
+  word: recursive self-improvement
+  definition: "An AI improving its own design, each improvement making it better at improving itself. It is held to be the engine of an intelligence explosion."
+  coinedBy: "Eliezer Yudkowsky"
+  year: 2001
+  yearLabel: "c. 2001"
+  origin: "Introduced and popularised by Eliezer Yudkowsky in his writing on “seed AI” from about 2001, building on I. J. Good's intelligence explosion (1965). Sources: LessWrong wiki, “Recursive Self-Improvement”; LessWrong, “Recursive Self-Improvement” (2026)."
+  sourceUrl: https://www.lesswrong.com/w/recursive-self-improvement
+  isms: [rationalism, singularitarianism]
+  technical: true
+  status: draft
+
+- id: the-bitter-lesson
+  word: the bitter lesson
+  definition: "Rich Sutton's observation that, over the long run, general methods that use more computation beat methods built on human knowledge of a task."
+  coinedBy: "Rich Sutton"
+  year: 2019
+  origin: "Rich Sutton, “The Bitter Lesson”, incompleteideas.net, 13 March 2019. It argues from 70 years of AI research that general methods using computation win out, by a wide margin."
+  sourceUrl: https://en.wikipedia.org/wiki/Bitter_lesson
+  isms: []
+  technical: true
+  status: draft
+
+- id: mechanistic-interpretability
+  word: mechanistic interpretability
+  definition: "Research that opens up a trained network to find the circuits and features inside it, as one would reverse-engineer a program."
+  coinedBy: "Chris Olah"
+  year: 2020
+  origin: "Chris Olah and colleagues, “Zoom In: An Introduction to Circuits”, Distill, 2020, set out to explain how individual neurons work in terms of their weights. Naomi Saphra and Sarah Wiegreffe, “Mechanistic?” (arXiv, 2024), trace the coinage to this work, and the research moved with Olah to Anthropic."
+  sourceUrl: https://arxiv.org/pdf/2410.09087
+  isms: []
+  technical: true
+  status: draft
+
+- id: chain-of-thought
+  word: chain of thought
+  definition: "A model writing out intermediate steps before its answer. It made large models much better at maths and logic, and is the basis of reasoning models."
+  coinedBy: "Jason Wei and colleagues at Google"
+  year: 2022
+  origin: "Jason Wei, Xuezhi Wang, Dale Schuurmans and others, “Chain-of-Thought Prompting Elicits Reasoning in Large Language Models”, arXiv, 28 January 2022 (NeurIPS 2022): a chain of thought is a series of intermediate reasoning steps."
+  sourceUrl: https://web3.arxiv.org/abs/2201.11903
+  isms: []
+  technical: true
+  status: draft
+
+- id: emergent-abilities
+  word: emergent abilities
+  definition: "Skills absent in smaller models that appear in larger ones, so they cannot be predicted by extrapolating from small models."
+  coinedBy: "Jason Wei and colleagues"
+  year: 2022
+  origin: "Jason Wei, Yi Tay, Rishi Bommasani and others, “Emergent Abilities of Large Language Models”, arXiv, 15 June 2022 (Transactions on Machine Learning Research, 2022), drawing on Philip Anderson's essay “More Is Different” (1972). Later work questions them, for example “Are Emergent Abilities in Large Language Models just In-Context Learning?” (ACL 2024)."
+  sourceUrl: https://arxiv.org/abs/2206.07682v2
+  isms: []
+  technical: true
+  status: draft
+
+- id: red-teaming
+  word: red teaming
+  definition: "Attacking a system on purpose, by hand or with other models, to find harmful behaviour before others do, and then fixing it."
+  year: 2022
+  yearLabel: "by 2022"
+  origin: "In AI safety: Deep Ganguli and others at Anthropic, “Red Teaming Language Models to Reduce Harms”, arXiv, 23 August 2022. It defines red teaming as adversarially probing a language model for harmful outputs, and releases 38,961 attacks."
+  sourceUrl: https://arxiv.org/abs/2209.07858v2
+  isms: []
+  technical: true
+  status: draft
+
+- id: jailbreak
+  word: jailbreak
+  definition: "A prompt that tricks a model into ignoring its safety rules, often by asking it to role-play a version of itself without them."
+  year: 2022
+  yearLabel: "2022"
+  origin: "Borrowed from iPhone hacking, where jailbreaks removed Apple's restrictions from 2007. Within weeks of ChatGPT's launch in late 2022, Reddit users shared the “DAN” (Do Anything Now) prompt. Sources: Decrypt, “What Is AI Jailbreaking?”, 2026; Abhinav Rao and others, “Tricking LLMs into Disobedience”, arXiv, 2023."
+  sourceUrl: https://arxiv.org/abs/2305.14965
+  isms: []
+  technical: true
+  status: draft
+
+- id: constitutional-ai
+  word: Constitutional AI
+  definition: "Anthropic's method of training a model against a written list of principles, using AI feedback on its answers in place of most human labels."
+  coinedBy: "Yuntao Bai and colleagues at Anthropic"
+  year: 2022
+  origin: "Yuntao Bai and 50 co-authors, “Constitutional AI: Harmlessness from AI Feedback”, arXiv, 15 December 2022. The only human oversight is a list of rules or principles, “and so we refer to the method as ‘Constitutional AI’”."
+  sourceUrl: https://arxiv.org/abs/2212.08073v1
+  isms: []
+  technical: true
+  status: draft
+
+- id: flop
+  word: FLOP
+  definition: "A floating-point operation, one step of arithmetic. Training runs are measured in FLOPs, and the EU AI Act presumes systemic risk above 10²⁵ of them."
+  year: 2024
+  yearLabel: "2024 (in law)"
+  origin: "An old unit of computing. In law: the EU AI Act (2024), Article 51(2), presumes a general-purpose model has high-impact capabilities when the computation used for its training, measured in floating point operations, is greater than 10²⁵. The rules for these models apply from 2 August 2025."
+  sourceUrl: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51
+  isms: []
+  technical: true
+  status: draft
+
+- id: reasoning-model
+  word: reasoning model
+  definition: "A language model trained with reinforcement learning to work through a chain of thought before it answers, doing better the longer it thinks."
+  year: 2024
+  origin: "OpenAI released o1-preview in September 2024 (“Learning to reason with LLMs”, 12 September 2024); in OpenAI's account, o1 is trained with reinforcement learning to think through a chain of thought before it responds. Source: Wikipedia, “Reasoning model”."
+  sourceUrl: https://en.wikipedia.org/wiki/Reasoning_model
+  isms: []
+  technical: true
+  status: draft
+
+- id: test-time-compute
+  word: test-time compute
+  definition: "Computation spent while a model answers, rather than while it is trained. Reasoning models improve the longer they are allowed to think."
+  year: 2024
+  yearLabel: "2024"
+  origin: "OpenAI, “Learning to reason with LLMs”, 12 September 2024, reports that o1's performance improves with more reinforcement learning (train-time compute) and with more time spent thinking (test-time compute)."
+  sourceUrl: https://openai.com/blog/learning-to-reason-with-llms
+  isms: []
+  technical: true
+  status: draft

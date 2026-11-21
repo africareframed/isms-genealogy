@@ -309,6 +309,7 @@
   origin: "The first MIRI paper to use it was “Aligning Superintelligence with Human Interests: A Technical Research Agenda” (2014). Rob Bensinger of MIRI recalls Stuart Russell suggesting the term that year; Russell has reportedly said he did not coin it. Norbert Wiener described the problem in Science in 1960. LessWrong, “When was the term ‘AI alignment’ coined?”, 2020."
   sourceUrl: https://lesswrong.com/posts/ZxWzCGKzX84S7DBZ9/when-was-the-term-ai-alignment-coined
   isms: [rationalism, effective-altruism]
+  technical: true
   status: checked
 
 - id: longtermism
@@ -339,6 +340,7 @@
   origin: Jared Kaplan, Sam McCandlish and others, “Scaling Laws for Neural Language Models”, arXiv:2001.08361, 23 January 2020. Joel Hestness and colleagues at Baidu had fitted similar curves in “Deep Learning Scaling is Predictable, Empirically” (2017). Epoch AI's review dates the modern study of scaling laws from that paper.
   sourceUrl: https://arxiv.org/abs/2001.08361v1
   isms: []
+  technical: true
   status: checked
 
 - id: e-acc

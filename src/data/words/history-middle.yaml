@@ -40,6 +40,7 @@
   origin: Arthur L. Samuel, “Some Studies in Machine Learning Using the Game of Checkers”, IBM Journal of Research and Development 3 (3), July 1959. The paper is widely credited with coining the term (for example Gil Press, “Inventing Machine Learning”, 1 April 2025). Earlier uses, if any, are not traced here.
   sourceUrl: https://people.csail.mit.edu/brooks/idocs/Samuel.pdf
   isms: []
+  technical: true
   status: checked
 
 - id: ai-winter
