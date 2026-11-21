@@ -7,15 +7,15 @@
   year: 2026
   month: 9
   title: Humanist AI
-  line: Microsoft drafts rules to keep its own models under human control.
+  line: Microsoft sets out rules to keep its own models under human control.
   who: Microsoft AI; Mustafa Suleyman
-  text: Microsoft AI published a draft code of conduct for its own models and opened six weeks of public consultation. It says people must keep meaningful control, and that models should stay subordinate and never set their own goals. It rejects the race to an all-purpose superintelligence, and Microsoft expects the final version to guide its models from 2027.
+  text: Microsoft published a Humanist AI code of conduct for its own models and put it to a six-week public consultation. It says people must keep meaningful control, and that models should stay subordinate and never set their own goals. It rejects the race to an all-purpose superintelligence, and Microsoft plans to use the revised code to guide model development from 2027.
   source: "Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026"
   sourceUrl: https://axios.com/2026/09/14/microsoft-ai-people-code
   isms: [rationalism]
   themes: [alignment]
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2026-gpt-6-astra
   era: generative

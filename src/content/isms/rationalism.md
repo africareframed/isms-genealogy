@@ -23,7 +23,7 @@ holders:
   - name: Future of Life Institute
     note: Non-profit co-founded by the physicist Max Tegmark, who chairs its board. Organised the 2023 pause letter and the 2025 call to prohibit superintelligence.
   - name: Microsoft AI
-    note: Mustafa Suleyman's division at Microsoft. Its Humanist AI wants AI kept subordinate to people and rejects the race to superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
+    note: Mustafa Suleyman's division at Microsoft. Its Humanist AI wants AI kept subordinate to people and rejects the race to an all-purpose superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
 words:
   - alignment
   - Friendly AI
@@ -40,7 +40,7 @@ words:
 themes: [compute, luddite]
 disputes: AI ethics researchers, among them the authors of “Stochastic Parrots”, say extinction fears distract from present harms and from the companies' responsibility (2023). Timnit Gebru and Émile P. Torres place rationalism in their TESCREAL bundle, which they tie to the history of eugenics (2024). Marc Andreessen calls AI risk a cult with “all the hallmarks of a millenarian apocalypse cult” (“Why AI Will Save the World”, 2023). Yann LeCun finds the idea of an AI takeover absurd (2023).
 born: rationalism/2009-lesswrong
-status: draft
+status: checked
 ---
 
 The fear is old: Samuel Butler, Alan Turing, Norbert Wiener and I. J. Good all warned that machines might escape human control. From 2006, Eliezer Yudkowsky's essays on bias, probability and AI drew a community to Overcoming Bias, then LessWrong. Its members call themselves rationalists; critics often call them doomers.

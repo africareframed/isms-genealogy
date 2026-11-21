@@ -414,30 +414,30 @@
 
 - id: tool-ai
   word: Tool AI
-  definition: AI built to give people information and options rather than to pursue goals of its own, as a map app suggests routes but chooses none. Proposed as a safer alternative to agents.
+  definition: AI that gives people information and options rather than pursuing goals of its own, like a map app that suggests routes. Proposed as a safer alternative to agents.
   coinedBy: Holden Karnofsky (in this sense)
   year: 2012
-  origin: "Holden Karnofsky, co-executive director of GiveWell, “Thoughts on the Singularity Institute (SI)”, LessWrong, 11 May 2012, his Objection 2: the Singularity Institute neglects the distinction between “tool” and “agent” AI, with Google Maps as the example. Anthony Aguirre of the Future of Life Institute made Tool AI the alternative to AGI and superintelligence in Keep The Future Human (2025)."
+  origin: "Holden Karnofsky, co-executive director of GiveWell, “Thoughts on the Singularity Institute (SI)”, LessWrong, 11 May 2012, his Objection 2: the Singularity Institute appears to neglect the distinction between “tool” and “agent” AI, with Google Maps as the example. Anthony Aguirre of the Future of Life Institute made Tool AI the alternative to AGI and superintelligence in Keep The Future Human (2025)."
   sourceUrl: https://www.lesswrong.com/lw/cbs/thoughts_on_the_singularity_institute_si/6lc8
   isms: [rationalism]
-  status: draft
+  status: checked
 
 - id: humanist-superintelligence
   word: humanist superintelligence
-  definition: Microsoft AI's name for very capable AI that is meant to stay subordinate to people and focused on set problems, such as medicine and clean energy, rather than unbounded and autonomous.
+  definition: Microsoft AI's name for very advanced AI that is meant to stay subordinate to people. It would work on set problems, such as medicine and clean energy, with real limits on its autonomy.
   coinedBy: Mustafa Suleyman
   year: 2025
-  origin: "Mustafa Suleyman, “Towards Humanist Superintelligence”, Microsoft AI, 6 November 2025, announcing the MAI Superintelligence Team. It is often shortened to HSI."
+  origin: "Mustafa Suleyman, “Towards Humanist Superintelligence”, Microsoft AI, 6 November 2025, announcing the MAI Superintelligence Team. The essay shortens it to HSI."
   sourceUrl: https://microsoft.ai/blog/towards-humanist-superintelligence
   isms: [rationalism]
-  status: draft
+  status: checked
 
 - id: humanist-ai
   word: Humanist AI
-  definition: Microsoft AI's banner for AI that stays under meaningful human control, is built as a tool rather than a person, and should increase human agency rather than foster dependence.
-  coinedBy: Microsoft AI
+  definition: Microsoft AI's banner for AI that keeps people in meaningful control. It is to be built as a tool, not a person, and to strengthen human agency rather than breed dependence.
+  coinedBy: Microsoft AI (in this sense)
   year: 2026
-  origin: "Microsoft AI's draft Humanist AI code of conduct, published for public consultation in September 2026 (Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026). Microsoft AI also funds a quarterly, The Humanist Review of AI."
+  origin: "The Humanist AI code of conduct for Microsoft AI's models, published in September 2026 and put to a six-week public consultation (Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026). Microsoft AI also funds a quarterly, The Humanist Review of AI (humanistreview.ai)."
   sourceUrl: https://axios.com/2026/09/14/microsoft-ai-people-code
   isms: [rationalism]
-  status: draft
+  status: checked

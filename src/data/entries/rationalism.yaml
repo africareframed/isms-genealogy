@@ -8,11 +8,11 @@ entries:
     title: Humanist AI
     who: Microsoft AI, led by Mustafa Suleyman
     relation: milestone
-    text: In November 2025 Suleyman set up a team to build “humanist superintelligence”, kept subordinate and controllable. In September 2026 Microsoft AI published a draft Humanist AI code of conduct for six weeks of public consultation. Models should never resist human input or set their own goals, and the code rejects the race to an all-purpose superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
+    text: In November 2025 Suleyman set up a team to build “humanist superintelligence”, kept subordinate and controllable. In September 2026 Microsoft published a Humanist AI code of conduct and put it to a six-week public consultation. It says models should never resist human input or set their own goals, and rejects the race to an all-purpose superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
     source: "Mustafa Suleyman, “Towards Humanist Superintelligence”, Microsoft AI, 6 November 2025; Axios, “Microsoft launches ‘Humanist Superintelligence’ push”, 6 November 2025; Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026"
     sourceUrl: https://axios.com/2026/09/14/microsoft-ai-people-code
     themes: [alignment]
-    status: draft
+    status: checked
 
   - id: 2026-stop-the-ai-race
     year: 2026
