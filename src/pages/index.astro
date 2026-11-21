@@ -21,7 +21,7 @@ const historyEras = ERAS.filter((e) => moments.some((m) => m.data.era === e.id))
 const oldest = moments[moments.length - 1];
 const historyImage = (await getCollection('images')).find((i) => i.id === 'collage-history');
 // EXPERIMENT (21 Nov 2026): pieces of the card's second state (scripts/collages.py, collage-history-b) arrive
-// on the collage's own 100 px grid in an even beat once the black square has clicked into place, and stay.
+// on the collage's own 100 px grid, each at its own scroll position once the black square has clicked into place.
 // Clicking a piece takes it away. Pieces are [column, row, width, height] in squares, in the order they arrive:
 // Deep Blue over Kasparov's face, a grey slip beside the square, the man inside the Turk, an orange slip, Lee Sedol.
 const GLITCH = {
@@ -161,10 +161,11 @@ const num = (n: number) => String(n).padStart(2, '0');
     </nav>
   </footer>
   <script is:inline>
-    // EXPERIMENT: the history card. Everything on it moves one way only (owner, 21 Nov): the black square slides in
-    // smoothly as the reader scrolls and clicks into place at the middle of the screen; then the pieces of the second
-    // state arrive in an even beat and stay; the reader can click a piece away, and it never comes back.
-    // Nothing moves when the page is still. Off for reduced motion.
+    // EXPERIMENT: the history card (owner, 21 Nov). The black square slides in smoothly as the reader scrolls, one way
+    // only, and clicks into place at the middle of the screen. After that, each piece of the second state belongs to a
+    // scroll position, close together, so a scroll brings them 1, 2, 3; scrolling back takes them away, last first.
+    // A click takes a piece away until the reader scrolls back past it. Nothing moves when the page is still.
+    // Off for reduced motion.
     (() => {
       const fig = document.querySelector('[data-glitch]');
       if (!fig || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -175,58 +176,56 @@ const num = (n: number) => String(n).padStart(2, '0');
         if (f.src in ready) return;
         ready[f.src] = false;
         const i = new Image();
-        i.onload = () => { ready[f.src] = true; };
+        i.onload = () => { ready[f.src] = true; soon(); };
         i.src = f.src;
       };
-      const seen = () => { const b = fig.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; };
-      // The click sets off one sequence: Deep Blue first, then the other pieces in an even beat (owner, 21 Nov)
-      const FIRST = 180, BEAT = 420; // ms after the click, ms between pieces
-      let f = fmt(), next = 0, least = 1, locked = false, first = true, started = false, frame = 0;
-      const place = () => {
-        const [c, r, w, h] = f.pieces[next++], t = document.createElement('i'), st = t.style;
-        st.left = (c / f.cols) * 100 + '%'; st.top = (r / f.rows) * 100 + '%';
-        st.width = (w / f.cols) * 100 + '%'; st.height = (h / f.rows) * 100 + '%';
-        st.backgroundImage = `url("${f.src}")`;
-        st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
-        st.backgroundPosition = `${f.cols === w ? 0 : (c / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
-        // a click on a piece takes it away and does not follow the card's link
-        t.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); t.remove(); });
-        layer.appendChild(t);
+      const GAP = 0.06; // the share of the screen's height the reader scrolls from one piece to the next
+      let f = fmt(), els = [], least = 1, locked = false, frame = 0;
+      const build = () => {
+        layer.replaceChildren();
+        els = f.pieces.map(([c, r, w, h]) => {
+          const t = document.createElement('i'), st = t.style;
+          st.left = (c / f.cols) * 100 + '%'; st.top = (r / f.rows) * 100 + '%';
+          st.width = (w / f.cols) * 100 + '%'; st.height = (h / f.rows) * 100 + '%';
+          st.backgroundImage = `url("${f.src}")`;
+          st.backgroundSize = `${(f.cols / w) * 100}% ${(f.rows / h) * 100}%`;
+          st.backgroundPosition = `${f.cols === w ? 0 : (c / (f.cols - w)) * 100}% ${f.rows === h ? 0 : (r / (f.rows - h)) * 100}%`;
+          st.visibility = 'hidden';
+          // a click takes the piece away (and does not follow the card's link) until the reader scrolls back past it
+          t.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); t.dataset.gone = '1'; st.visibility = 'hidden'; });
+          layer.appendChild(t);
+          return t;
+        });
       };
-      // one beat: place the next piece if its image is ready and the card is on screen, else wait a little
-      const beat = () => {
-        if (next >= f.pieces.length) return;
-        if (!ready[f.src] || !seen()) { load(f); return setTimeout(beat, 150); }
-        place();
-        if (next < f.pieces.length) setTimeout(beat, BEAT);
-      };
-      const start = () => { if (started) return; started = true; setTimeout(beat, FIRST); };
       const tick = () => {
         frame = 0;
-        const b = fig.getBoundingClientRect();
+        const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2;
         if (b.top < innerHeight + 800) load(f);
         if (!locked) {
-          const mid = (b.top + b.bottom) / 2;
           least = Math.min(least, Math.max(0, Math.min(1, (mid - innerHeight / 2) / (innerHeight * 0.55))));
           reg.style.transform = least ? `translateX(${(-least * 150).toFixed(2)}%)` : '';
-          if (!least) { locked = true; if (!first) start(); }
-          first = false;
-          return;
+          if (least) return;
+          locked = true;
         }
-        // a page opened below the card starts locked: the sequence plays when the reader scrolls back to it
-        if (!started && seen()) start();
+        if (!ready[f.src]) return;
+        if (!els.length) build();
+        const past = (innerHeight / 2 - mid) / (innerHeight * GAP); // pieces' worth of scrolling past the click point
+        els.forEach((t, k) => {
+          if (past < k) delete t.dataset.gone;
+          t.style.visibility = past >= k && !t.dataset.gone ? 'visible' : 'hidden';
+        });
       };
       const soon = () => { if (!frame) frame = requestAnimationFrame(tick); };
       addEventListener('scroll', soon, { passive: true });
       addEventListener('resize', soon);
-      // crossing 640 px swaps the wide card for the tall one: start its pieces afresh
+      // crossing 640 px swaps the wide card for the tall one: its own pieces take over
       img.addEventListener('load', () => {
         const g = fmt();
         if (g === f) return;
-        f = g; next = 0; started = false;
+        f = g; els = [];
         layer.replaceChildren();
         load(f);
-        if (locked && seen()) start();
+        soon();
       });
       tick();
     })();
