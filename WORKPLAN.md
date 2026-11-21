@@ -51,6 +51,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-21: Humanist AI added as a strand of Rationalism (owner): card line, Microsoft AI as a holder, a 2026 timeline entry, three words (Tool AI, humanist superintelligence, Humanist AI) and a History of AI moment, all draft until checked. Rationalism now has 17 timeline entries, one over the guide of sixteen. Strand lines now keep their own capitals.
+
 - 2026-11-21: Click-to-remove taken off the History card pieces (owner): a click on the image always opens the history.
 
 - 2026-11-21: History card motion starts earlier (owner): the square moves from the moment the card enters and locks once it is fully in view; the five pieces land before it starts to leave, checked on five screen sizes.

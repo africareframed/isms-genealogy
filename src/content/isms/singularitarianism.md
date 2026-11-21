@@ -4,7 +4,7 @@ family: transcendence
 order: 2
 ready: true
 summary: Technological change compounds. At some point machine intelligence surpasses ours, and history crosses a threshold beyond which it can no longer be predicted.
-includes: [Successionism]
+includes: [successionism]
 image: collage-singularitarianism
 pageImage: collage-singularitarianism-tall
 lead: Singularitarianism holds that machine intelligence will soon overtake ours and keep improving itself, carrying history past a threshold no one can see beyond.

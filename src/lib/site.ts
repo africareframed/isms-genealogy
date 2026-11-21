@@ -49,6 +49,12 @@ export const RELATIONS: Record<string, string> = {
 /** Pages sit flat at the root, so every link is relative and works under any base path. */
 export const pageHref = (slug?: string) => (slug ? `${slug}.html` : 'index.html');
 
+// The line under a movement's name: "Often called the doomers · includes the call to pause and Humanist AI".
+// Strands are written in the case they are shown in (common nouns lower case, names such as Humanist AI capitalised).
+const andList = (xs: string[]) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`);
+export const strandsLine = (aka: string | undefined, includes: string[]) =>
+  [aka, includes.length ? `${aka ? 'includes' : 'Includes'} ${andList(includes)}` : ''].filter(Boolean).join(' · ');
+
 export const eraOf = (year: number) => (year >= 1800 ? `${Math.floor(year / 10) * 10}s` : 'Before 1800');
 export const eraId = (era: string) => 'era-' + era.toLowerCase().replace(/\s+/g, '-');
 

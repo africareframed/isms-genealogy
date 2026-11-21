@@ -4,7 +4,7 @@ family: acceleration
 order: 5
 ready: true
 summary: Growth in energy, intelligence and capital is the direction of the universe. Technology should be accelerated, not slowed, and fear of it is the real danger.
-includes: [Neoreaction and the network state]
+includes: [neoreaction and the network state]
 image: collage-effective-accelerationism
 pageImage: collage-effective-accelerationism-tall
 lead: Effective accelerationism holds that the universe favours the growth of energy and intelligence, so AI should be accelerated, not slowed.

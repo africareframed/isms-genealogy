@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
-import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref } from '../lib/site';
+import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref , strandsLine } from '../lib/site';
 import { getHistory, momentAnchor } from '../lib/history';
 
 const { ism } = Astro.props;
@@ -50,7 +50,7 @@ const first = entries[0];
         <span class="kick">{family?.name} · Introduction</span>
         <h1>{ism.data.title}</h1>
         {(ism.data.aka || ism.data.includes.length > 0) && (
-          <p class="inc" style="font-size: 14px; line-height: 20px; margin-top: -12px">{[ism.data.aka, ism.data.includes.length ? `${ism.data.aka ? "includes" : "Includes"} ${ism.data.includes.join(', ').toLowerCase()}` : ''].filter(Boolean).join(' · ')}</p>
+          <p class="inc" style="font-size: 14px; line-height: 20px; margin-top: -12px">{strandsLine(ism.data.aka, ism.data.includes)}</p>
         )}
         {ism.data.lead && <p class="lead">{ism.data.lead}</p>}
         <div class="body"><Content /></div>

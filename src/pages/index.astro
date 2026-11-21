@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
-import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel } from '../lib/site';
+import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel , strandsLine } from '../lib/site';
 import { getHistory } from '../lib/history';
 
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
@@ -84,7 +84,7 @@ const num = (n: number) => String(n).padStart(2, '0');
                   <h4 class="ct">{i.data.title}</h4>
                   <p class="cd">{i.data.summary}</p>
                   {(i.data.aka || i.data.includes.length > 0) && (
-                    <p class="inc">{[i.data.aka, i.data.includes.length ? `${i.data.aka ? "includes" : "Includes"} ${i.data.includes.join(', ').toLowerCase()}` : ''].filter(Boolean).join(' · ')}</p>
+                    <p class="inc">{strandsLine(i.data.aka, i.data.includes)}</p>
                   )}
                   {!i.data.ready && <span class="soon">In preparation</span>}
                 </Fragment>
