@@ -162,7 +162,7 @@ const num = (n: number) => String(n).padStart(2, '0');
   </footer>
   <script is:inline>
     // EXPERIMENT: the history card (owner, 21 Nov). The black square slides in smoothly as the reader scrolls, one way
-    // only, and clicks into place at the middle of the screen. After that, each piece of the second state belongs to a
+    // only, from the moment the card enters the screen, and clicks into place once the whole card is in view. After that, each piece of the second state belongs to a
     // scroll position, close together, so a scroll brings them 1, 2, 3; scrolling back takes them away, last first.
     // A click takes a piece away until the reader scrolls back past it. Nothing moves when the page is still.
     // Off for reduced motion.
@@ -199,17 +199,20 @@ const num = (n: number) => String(n).padStart(2, '0');
       };
       const tick = () => {
         frame = 0;
-        const b = fig.getBoundingClientRect(), mid = (b.top + b.bottom) / 2;
+        const b = fig.getBoundingClientRect();
         if (b.top < innerHeight + 800) load(f);
+        // the square starts as the card's top edge enters the screen and locks once the whole card is in view
         if (!locked) {
-          least = Math.min(least, Math.max(0, Math.min(1, (mid - innerHeight / 2) / (innerHeight * 0.55))));
+          least = Math.min(least, Math.max(0, Math.min(1, (b.bottom - innerHeight) / b.height)));
           reg.style.transform = least ? `translateX(${(-least * 150).toFixed(2)}%)` : '';
           if (least) return;
           locked = true;
         }
         if (!ready[f.src]) return;
         if (!els.length) build();
-        const past = (innerHeight / 2 - mid) / (innerHeight * GAP); // pieces' worth of scrolling past the click point
+        // all five pieces land while the whole card is still on screen: the gap fits the room the screen leaves
+        const room = innerHeight - b.height, gap = Math.max(24, Math.min(innerHeight * GAP, (room * 0.75) / (els.length - 1)));
+        const past = (innerHeight - b.bottom) / gap; // pieces' worth of scrolling past the click point
         els.forEach((t, k) => {
           if (past < k) delete t.dataset.gone;
           t.style.visibility = past >= k && !t.dataset.gone ? 'visible' : 'hidden';
