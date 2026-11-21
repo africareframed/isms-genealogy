@@ -7,22 +7,22 @@
   definition: "A system of simple connected units, loosely modelled on nerve cells, whose connection strengths set what it computes."
   coinedBy: "Warren McCulloch and Walter Pitts (the first mathematical model)"
   year: 1943
-  origin: "Warren McCulloch and Walter Pitts, “A Logical Calculus of the Ideas Immanent in Nervous Activity”, Bulletin of Mathematical Biophysics, 1943. It treated networks of all-or-none neurons with propositional logic, and is usually counted as the first mathematical model of a neural network."
-  sourceUrl: https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity
+  origin: "Warren McCulloch and Walter Pitts, “A Logical Calculus of the Ideas Immanent in Nervous Activity”, Bulletin of Mathematical Biophysics 5, 1943. It treated networks of all-or-none neurons with propositional logic. HistoryofInformation.com calls its McCulloch–Pitts neuron the first mathematical model of a neural network."
+  sourceUrl: https://link.springer.com/article/10.1007/BF02478259
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: reinforcement-learning
   word: reinforcement learning
   definition: "Learning by trial and error. A system acts, receives a reward or penalty, and adjusts so that it earns more reward over time."
   coinedBy: "Marvin Minsky"
   year: 1961
-  origin: "Richard Sutton writes that the term appears to have been coined by Minsky (1961), and independently in control theory by Waltz and Fu (1965). Sutton, “Introduction: The Challenge of Reinforcement Learning”, Machine Learning 8, 1992. Sutton and Andrew Barto's textbook Reinforcement Learning: An Introduction (MIT Press, 1998) became the field's standard text."
+  origin: "Richard Sutton writes that the term appears to have been coined by Minsky (1961), and independently in control theory by Waltz and Fu (1965). Sutton, “Introduction: The Challenge of Reinforcement Learning”, Machine Learning 8, 1992. Sutton and Andrew Barto's textbook Reinforcement Learning: An Introduction (MIT Press, 1998) is still the field's standard reference, the ACM said in 2025."
   sourceUrl: https://link.springer.com/content/pdf/10.1007/BF00992695.pdf
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: backpropagation
   word: backpropagation
@@ -33,29 +33,29 @@
   sourceUrl: https://ui.adsabs.harvard.edu/abs/1986Natur.323..533R/abstract
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: deep-learning
   word: deep learning
   definition: "Machine learning with neural networks of many layers, each turning what the layer below found into something more abstract."
   year: 1986
   yearLabel: "1986 / 2006"
-  origin: "No single coiner. Rina Dechter used “deep learning” at AAAI in 1986, in work on constraint satisfaction; Igor Aizenberg and colleagues applied it to neural networks in a book of 2000. Researchers in a 2015 discussion on the Connectionists list traced today's meaning to Geoffrey Hinton, Simon Osindero and Yee-Whye Teh's paper of 2006."
+  origin: "No single coiner. Rina Dechter used “deep learning” at AAAI in 1986, in work on constraint satisfaction; Igor Aizenberg and colleagues applied it to neural networks in a book of 2000. On the Connectionists list in 2015, Geoffrey Hinton traced the term's current popularity to his 2006 paper with Simon Osindero and Yee-Whye Teh."
   sourceUrl: https://mailman.srv.cs.cmu.edu/pipermail/connectionists/2015-March/027853.html
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: synthetic-data
   word: synthetic data
   definition: "Data made by a model rather than collected from the world. It is now also used to develop AI where real data are scarce or private."
-  coinedBy: "Donald Rubin"
+  coinedBy: "Donald Rubin (the idea, in statistics)"
   year: 1993
-  origin: "Donald Rubin, “Discussion: Statistical Disclosure Limitation”, Journal of Official Statistics 9(2), 1993, which proposed releasing simulated data instead of confidential census records. Statistics Netherlands (2026) dates the term to Rubin and notes its later spread into machine learning."
+  origin: "Donald Rubin first proposed releasing synthetic data instead of the real, confidential data, in “Discussion: Statistical Disclosure Limitation”, Journal of Official Statistics 9, 1993. So say Jörg Drechsler and Anna-Carolina Haensch, “30 Years of Synthetic Data” (arXiv, 2023). Statistics Netherlands (2026) says Rubin formalised the technique and notes its later use in machine learning."
   sourceUrl: https://www.cbs.nl/en-gb/background/2026/31/synthetic-data-terminology-in-official-statistics
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: agent
   word: agent
@@ -63,21 +63,33 @@
   coinedBy: "Stuart Russell and Peter Norvig (as the frame of AI)"
   year: 1995
   origin: "Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, Prentice Hall, 1995, whose unifying theme is the intelligent agent: anything that perceives its environment and acts upon it. The word itself is far older."
-  sourceUrl: https://aima.cs.berkeley.edu/preface.html
+  sourceUrl: https://people.eecs.berkeley.edu/~russell/aima1e/preface.html
   isms: []
   technical: true
-  status: draft
+  status: checked
+
+- id: recursive-self-improvement
+  word: recursive self-improvement
+  definition: "An AI improving its own design, each improvement making it better at improving itself. It is held to be the engine of an intelligence explosion."
+  coinedBy: "Eliezer Yudkowsky"
+  year: 2000
+  yearLabel: "c. 2000"
+  origin: "Eliezer Yudkowsky wrote of “seed AI” from 1998, in “Coding a Transhuman AI”. Its version of May 2000 explains how to build a self-improving AI. A LessWrong essay of 2026 credits him with introducing the term and later popularising it. The phrase appears in his “Levels of Organization in General Intelligence” (2007). I. J. Good had proposed an intelligence explosion in 1965. Sources: Extropians mailing list archive, 1998 and 2000; aashish, “Recursive, Self, Improvement”, LessWrong, 16 November 2026; LessWrong wiki, “Recursive Self-Improvement”."
+  sourceUrl: https://www.lesswrong.com/posts/7Ncd3ZqFD9iqrAiSu/recursive-self-improvement-1
+  isms: [rationalism, singularitarianism]
+  technical: true
+  status: checked
 
 - id: pre-training
   word: pre-training
   definition: "The first stage of making a model, in which it learns from a vast body of unlabelled text, often by predicting what comes next. Later stages refine it."
   year: 2006
   yearLabel: "by 2006"
-  origin: "Geoffrey Hinton and Ruslan Salakhutdinov's paper in Science (28 July 2006), “Reducing the Dimensionality of Data with Neural Networks”, describes pretraining a deep network before fine-tuning it. OpenAI's “Improving Language Understanding by Generative Pre-Training” (Alec Radford and others, June 2018) gave the GPT models their name."
+  origin: "Geoffrey Hinton and Ruslan Salakhutdinov's paper in Science (28 July 2006), “Reducing the Dimensionality of Data with Neural Networks”, describes pretraining a deep network before fine-tuning it. OpenAI's “Improving Language Understanding by Generative Pre-Training” (Alec Radford and others, June 2018) introduced the first GPT, a generative pre-trained transformer."
   sourceUrl: https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: fine-tuning
   word: fine-tuning
@@ -88,7 +100,7 @@
   sourceUrl: https://pubmed.ncbi.nlm.nih.gov/16873662/
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: distillation
   word: distillation
@@ -99,18 +111,18 @@
   sourceUrl: https://arxiv.org/abs/1503.02531
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: token
   word: token
   definition: "The unit of text a language model reads and writes: a word, part of a word or a mark."
   year: 2016
   yearLabel: "2015–16"
-  origin: "The word is older in linguistics. Rico Sennrich, Barry Haddow and Alexandra Birch, “Neural Machine Translation of Rare Words with Subword Units” (arXiv, 2015; ACL, 2016), split rare words into subword units with byte pair encoding."
+  origin: "The word is far older: Charles Sanders Peirce distinguished types from tokens in 1906. Rico Sennrich, Barry Haddow and Alexandra Birch, “Neural Machine Translation of Rare Words with Subword Units” (arXiv, 2015; ACL, 2016), split rare words into subword units with byte pair encoding."
   sourceUrl: https://arxiv.org/abs/1508.07909v2
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: reward-hacking
   word: reward hacking
@@ -121,30 +133,18 @@
   sourceUrl: https://arxiv.org/abs/1606.06565v2
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: rlhf
   word: RLHF
   definition: "Reinforcement learning from human feedback. People compare a model's answers, a second model learns their preferences, and the first is trained to please it."
   year: 2017
-  yearLabel: "2017"
+  yearLabel: "2017 (the method)"
   origin: "Paul Christiano, Jan Leike and four co-authors, “Deep reinforcement learning from human preferences”, arXiv, 12 June 2017, trained agents from people's comparisons of pairs of clips. Anthropic's red-teaming paper of 2022 (Deep Ganguli and others) already refers to “RLHF models”."
   sourceUrl: https://arxiv.org/abs/1706.03741v1
   isms: []
   technical: true
-  status: draft
-
-- id: recursive-self-improvement
-  word: recursive self-improvement
-  definition: "An AI improving its own design, each improvement making it better at improving itself. It is held to be the engine of an intelligence explosion."
-  coinedBy: "Eliezer Yudkowsky"
-  year: 2001
-  yearLabel: "c. 2001"
-  origin: "Introduced and popularised by Eliezer Yudkowsky in his writing on “seed AI” from about 2001, building on I. J. Good's intelligence explosion (1965). Sources: LessWrong wiki, “Recursive Self-Improvement”; LessWrong, “Recursive Self-Improvement” (2026)."
-  sourceUrl: https://www.lesswrong.com/w/recursive-self-improvement
-  isms: [rationalism, singularitarianism]
-  technical: true
-  status: draft
+  status: checked
 
 - id: the-bitter-lesson
   word: the bitter lesson
@@ -152,21 +152,32 @@
   coinedBy: "Rich Sutton"
   year: 2019
   origin: "Rich Sutton, “The Bitter Lesson”, incompleteideas.net, 13 March 2019. It argues from 70 years of AI research that general methods using computation win out, by a wide margin."
-  sourceUrl: https://en.wikipedia.org/wiki/Bitter_lesson
+  sourceUrl: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: mechanistic-interpretability
   word: mechanistic interpretability
   definition: "Research that opens up a trained network to find the circuits and features inside it, as one would reverse-engineer a program."
   coinedBy: "Chris Olah"
   year: 2020
-  origin: "Chris Olah and colleagues, “Zoom In: An Introduction to Circuits”, Distill, 2020, set out to explain how individual neurons work in terms of their weights. Naomi Saphra and Sarah Wiegreffe, “Mechanistic?” (arXiv, 2024), trace the coinage to this work, and the research moved with Olah to Anthropic."
+  origin: "Chris Olah and colleagues, “Zoom In: An Introduction to Circuits”, Distill, 2020, set out to explain how individual neurons work in terms of their weights. It opened the Circuits thread. Naomi Saphra and Sarah Wiegreffe (“Mechanistic?”, arXiv, 2024) say Olah coined the term and first used it publicly there. It became mainstream after those researchers moved to Anthropic."
   sourceUrl: https://arxiv.org/pdf/2410.09087
   isms: []
   technical: true
-  status: draft
+  status: checked
+
+- id: test-time-compute
+  word: test-time compute
+  definition: "Computation spent while a model answers, rather than while it is trained. Reasoning models improve the longer they are allowed to think."
+  year: 2021
+  yearLabel: "by 2021"
+  origin: "Andy L. Jones, “Scaling Scaling Laws with Board Games”, arXiv, 7 April 2021, found an agent's test-time and train-time compute can be traded off. OpenAI, “Learning to reason with LLMs”, 12 September 2024, reports that o1's performance improves with more reinforcement learning (train-time compute) and with more time spent thinking (test-time compute)."
+  sourceUrl: https://openai.com/blog/learning-to-reason-with-llms
+  isms: []
+  technical: true
+  status: checked
 
 - id: chain-of-thought
   word: chain of thought
@@ -177,18 +188,18 @@
   sourceUrl: https://web3.arxiv.org/abs/2201.11903
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: emergent-abilities
   word: emergent abilities
   definition: "Skills absent in smaller models that appear in larger ones, so they cannot be predicted by extrapolating from small models."
-  coinedBy: "Jason Wei and colleagues"
+  coinedBy: "Jason Wei and colleagues (the definition)"
   year: 2022
   origin: "Jason Wei, Yi Tay, Rishi Bommasani and others, “Emergent Abilities of Large Language Models”, arXiv, 15 June 2022 (Transactions on Machine Learning Research, 2022), drawing on Philip Anderson's essay “More Is Different” (1972). Later work questions them, for example “Are Emergent Abilities in Large Language Models just In-Context Learning?” (ACL 2024)."
   sourceUrl: https://arxiv.org/abs/2206.07682v2
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: red-teaming
   word: red teaming
@@ -199,29 +210,29 @@
   sourceUrl: https://arxiv.org/abs/2209.07858v2
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: jailbreak
   word: jailbreak
   definition: "A prompt that tricks a model into ignoring its safety rules, often by asking it to role-play a version of itself without them."
   year: 2022
   yearLabel: "2022"
-  origin: "Borrowed from iPhone hacking, where jailbreaks removed Apple's restrictions from 2007. Within weeks of ChatGPT's launch in late 2022, Reddit users shared the “DAN” (Do Anything Now) prompt. Sources: Decrypt, “What Is AI Jailbreaking?”, 2026; Abhinav Rao and others, “Tricking LLMs into Disobedience”, arXiv, 2023."
+  origin: "Borrowed from hacking: from 2007, iPhone jailbreaks let users bypass Apple's restrictions. Within weeks of ChatGPT's launch in late 2022, Reddit users shared the “DAN” (Do Anything Now) prompt. Sources: Decrypt, “What Is AI Jailbreaking?”, 2026; Abhinav Rao and others, “Tricking LLMs into Disobedience”, arXiv, 2023."
   sourceUrl: https://arxiv.org/abs/2305.14965
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: constitutional-ai
   word: Constitutional AI
-  definition: "Anthropic's method of training a model against a written list of principles, using AI feedback on its answers in place of most human labels."
+  definition: "Anthropic's method of training a model against a written list of principles, using AI feedback in place of human labels of harm."
   coinedBy: "Yuntao Bai and colleagues at Anthropic"
   year: 2022
   origin: "Yuntao Bai and 50 co-authors, “Constitutional AI: Harmlessness from AI Feedback”, arXiv, 15 December 2022. The only human oversight is a list of rules or principles, “and so we refer to the method as ‘Constitutional AI’”."
   sourceUrl: https://arxiv.org/abs/2212.08073v1
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: flop
   word: FLOP
@@ -232,7 +243,7 @@
   sourceUrl: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51
   isms: []
   technical: true
-  status: draft
+  status: checked
 
 - id: reasoning-model
   word: reasoning model
@@ -242,15 +253,4 @@
   sourceUrl: https://en.wikipedia.org/wiki/Reasoning_model
   isms: []
   technical: true
-  status: draft
-
-- id: test-time-compute
-  word: test-time compute
-  definition: "Computation spent while a model answers, rather than while it is trained. Reasoning models improve the longer they are allowed to think."
-  year: 2024
-  yearLabel: "2024"
-  origin: "OpenAI, “Learning to reason with LLMs”, 12 September 2024, reports that o1's performance improves with more reinforcement learning (train-time compute) and with more time spent thinking (test-time compute)."
-  sourceUrl: https://openai.com/blog/learning-to-reason-with-llms
-  isms: []
-  technical: true
-  status: draft
+  status: checked
