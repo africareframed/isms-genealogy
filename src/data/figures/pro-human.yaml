@@ -1,0 +1,60 @@
+# Notable figures for Pro-human (one file per ism). Names only: no portraits (owner, 20 Nov 2026).
+# Ids carry a -pro-human suffix so they stay unique when other isms add the same people.
+- id: anthony-aguirre-pro-human
+  name: Anthony Aguirre
+  isms: [pro-human]
+  note: Physicist, co-founder and chief executive of the Future of Life Institute, and author of Keep the Future Human.
+  entry: pro-human/2025-keep-the-future-human
+- id: max-tegmark-pro-human
+  name: Max Tegmark
+  lifespan: born 1967
+  isms: [pro-human]
+  note: MIT physicist who co-founded and chairs the Future of Life Institute. He helped coordinate the Pro-Human AI Declaration.
+  entry: pro-human/2026-pro-human-declaration
+- id: bernie-sanders-pro-human
+  name: Bernie Sanders
+  lifespan: born 1941
+  isms: [pro-human]
+  note: Independent senator from Vermont. Spoke at the Pro-Human Assembly, then proposed a bill to ban superintelligence.
+  entry: pro-human/2026-pro-human-assembly
+- id: steve-bannon-pro-human
+  name: Steve Bannon
+  lifespan: born 1953
+  isms: [pro-human]
+  note: Former Trump White House strategist and host of War Room. Signed the declaration and shared the Assembly stage with Sanders.
+  entry: pro-human/2026-pro-human-assembly
+- id: tomicah-tillemann-pro-human
+  name: Tomicah Tillemann
+  isms: [pro-human]
+  note: Chief executive of the Pro-Human AI Coalition, launched in Washington in September 2026.
+  entry: pro-human/2026-pro-human-assembly
+- id: megan-garcia-pro-human
+  name: Megan Garcia
+  isms: [pro-human]
+  note: Mother who sued a chatbot company after her son's death. Spokesperson for the Protect What's Human campaign.
+  entry: pro-human/2026-protect-what-is-human
+- id: amy-kremer-pro-human
+  name: Amy Kremer
+  isms: [pro-human]
+  note: Tea Party veteran and Republican National Committee member who chairs the conservative group Humans First.
+  entry: pro-human/2026-data-center-revolt
+- id: joe-allen-pro-human
+  name: Joe Allen
+  isms: [pro-human]
+  note: Writer on technology for Steve Bannon's War Room. He summed up his views as Humans First in 2025 and helped start the group.
+  entry: pro-human/2026-data-center-revolt
+- id: phil-aroneanu-pro-human
+  name: Phil Aroneanu
+  isms: [pro-human]
+  note: Co-founder of the climate group 350.org and executive director of Irreplaceable.
+  entry: pro-human/2026-freeze-ai-now
+- id: michael-toscano-pro-human
+  name: Michael Toscano
+  isms: [pro-human]
+  note: Directs the Family First Technology Initiative at the Institute for Family Studies. Argues that AI must work for the good of the family.
+  entry: pro-human/2024-family-first-technology
+- id: tristan-harris-pro-human
+  name: Tristan Harris
+  isms: [pro-human]
+  note: Former design ethicist at Google and co-founder of the Center for Humane Technology. Signed the Pro-Human AI Declaration.
+  entry: pro-human/2018-center-for-humane-technology
