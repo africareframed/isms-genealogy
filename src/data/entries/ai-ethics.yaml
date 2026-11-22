@@ -1,0 +1,176 @@
+# Timeline of AI ethics (incl. AI as normal technology), newest first. Each entry: id, year,
+# relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
+ism: ai-ethics
+entries:
+  - id: 2026-head-cameras
+    year: 2026
+    title: Cameras on workers' heads
+    who: Garment and data workers in India, as reported by Scroll.in, AFP and NPR
+    relation: milestone
+    text: In April a video showed Indian garment workers sewing with cameras on their heads. Scroll.in traced it to a Pearl Global factory in Gurugram, where workers said nobody asked for their consent. AFP and NPR reported from Karur, where Objectways pays about 250 rupees an hour for such footage, sold to firms building robots. Astha Kapoor of the Aapti Institute, a Bengaluru research group, told NPR it was exploitation of labour.
+    source: "Ayush Tiwari and Raghav Kakkar, “How Big Tech is harnessing the data of Indian factory workers to train robots”, Scroll.in, 20 May 2026; Aishwarya Kumar, “The Indian workers training AI robots to take their jobs”, AFP, 11 June 2026 (as published by The Star); Diaa Hadid and Omkar Khandekar, “These workers help train robots who could one day steal their jobs”, NPR, 14 October 2026 (as published by KPBS)"
+    sourceUrl: https://scroll.in/article/1092960/how-big-tech-is-harnessing-the-data-of-indian-factory-workers-to-train-robots
+    status: draft
+
+  - id: 2025-the-ai-con
+    year: 2025
+    month: 5
+    title: The AI Con
+    who: Emily M. Bender and Alex Hanna
+    relation: milestone
+    text: A linguist and a sociologist argue that “AI” is a marketing term, one that “doesn't refer to a coherent set of technologies”. Its hype sells products and draws investment, they write, while the costs fall on workers and the public. They are sceptical of doomers and boosters alike, and see the danger in cheapened labour, data theft and surveillance.
+    source: "Emily M. Bender and Alex Hanna, The AI Con: How to Fight Big Tech's Hype and Create the Future We Want, Harper, May 2025, sample chapter published by Penguin; review in Publishers Weekly, 15 April 2025"
+    sourceUrl: https://cdn.penguin.co.uk/dam-assets/books/9781847928610/9781847928610-sample.pdf
+    themes: [luddite]
+    status: draft
+
+  - id: 2025-normal-technology
+    year: 2025
+    month: 4
+    title: AI as Normal Technology
+    who: Arvind Narayanan and Sayash Kapoor
+    relation: milestone
+    text: Narayanan and Kapoor argue that AI is a normal technology, like electricity or the internet, transformative but a tool people can control. New methods may come fast, they write, but adoption takes decades, as electrification did. They doubt that superintelligence, as usually framed, is a coherent idea, and put resilience rather than nonproliferation at the centre of policy.
+    source: Arvind Narayanan and Sayash Kapoor, “AI as Normal Technology”, Knight First Amendment Institute at Columbia University, 15 April 2025
+    sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
+    themes: [alignment]
+    status: draft
+
+  - id: 2024-ai-snake-oil
+    year: 2024
+    month: 9
+    title: AI Snake Oil
+    who: Arvind Narayanan and Sayash Kapoor
+    relation: milestone
+    text: Two Princeton computer scientists use the name for AI products that do not work and probably never will. They single out predictive AI, sold for decisions in hiring, banking, insurance and criminal justice. Generative AI has real uses, they grant, but they warn against control of AI by a few unaccountable companies. People's misuse of AI worries them more than AI acting on its own.
+    source: "Arvind Narayanan and Sayash Kapoor, AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, Princeton University Press, 24 September 2024"
+    sourceUrl: https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil
+    status: draft
+
+  - id: 2024-tescreal
+    year: 2024
+    month: 4
+    title: The TESCREAL bundle
+    who: Timnit Gebru and Émile P. Torres
+    relation: milestone
+    text: Gebru and Torres argue that the race to build AGI rests on a bundle of ideologies. Their acronym joins transhumanism, extropianism, singularitarianism, cosmism, rationalism, effective altruism and longtermism, which they trace to twentieth-century eugenics. A system as undefined as AGI cannot be tested for safety, they argue, so builders should work on well-defined tasks instead.
+    source: "Timnit Gebru and Émile P. Torres, “The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence”, First Monday 29(4), April 2024"
+    sourceUrl: https://firstmonday.org/ojs/index.php/fm/article/view/13636
+    status: draft
+
+  - id: 2023-reply-to-the-pause
+    year: 2023
+    month: 3
+    title: Answering the pause letter
+    who: Timnit Gebru, Emily M. Bender, Angelina McMillan-Major and Margaret Mitchell
+    relation: milestone
+    text: Nine days after the pause letter, the listed authors of Stochastic Parrots replied. They called its fears of “powerful digital minds” hype, and longtermism a dangerous ideology. The harms, they wrote, are real and present, from exploited workers and data theft to synthetic media and power in few hands. Regulation should demand transparency and hold companies accountable for what their systems produce.
+    source: "Statement from the listed authors of Stochastic Parrots on the “AI pause” letter, DAIR Institute, 31 March 2023; Devin Coldewey, TechCrunch, 31 March 2023 (names the four authors)"
+    sourceUrl: https://www.dair-institute.org/blog/letter-statement-March2023/
+    status: draft
+
+  - id: 2023-kenyan-data-labellers
+    year: 2023
+    month: 1
+    title: Less than $2 an hour
+    who: Data labellers in Kenya, as reported by Billy Perrigo in TIME
+    relation: milestone
+    text: TIME reported that Sama, OpenAI's outsourcing partner in Kenya, paid data labellers about $1.32 to $2 an hour. They labelled passages describing violence, hate speech and sexual abuse, to train a filter built into ChatGPT. Four workers said the work left them mentally scarred. Sama disputed the pay figures.
+    source: "Billy Perrigo, “Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic”, TIME, 18 January 2023"
+    sourceUrl: https://time.com/6247678/openai-chatgpt-kenya-workers/
+    status: draft
+
+  - id: 2021-stochastic-parrots
+    year: 2021
+    month: 3
+    title: On the Dangers of Stochastic Parrots
+    who: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Margaret Mitchell
+    relation: milestone
+    text: The four asked whether language models can be too big. They warned of environmental and financial costs, training data too vast to document, and fluent text that seems to mean more than it does. Google asked its employees on the paper to withdraw it or remove their names. Gebru says she was fired in December 2020; Google said it had accepted her resignation.
+    source: "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Shmargaret Shmitchell (Margaret Mitchell), “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, FAccT '21, ACM, March 2021; Karen Hao, “We read the paper that forced Timnit Gebru out of Google. Here's what it says.”, MIT Technology Review, 4 December 2020; Wikipedia, “Timnit Gebru”"
+    sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
+    themes: [scaling-laws, compute]
+    status: draft
+
+  - id: 2018-gender-shades
+    year: 2018
+    title: Gender Shades
+    who: Joy Buolamwini and Timnit Gebru
+    relation: milestone
+    text: Buolamwini, then a graduate student at MIT, and Gebru tested three commercial systems that classify gender from faces, from IBM, Microsoft and Face++. Darker-skinned women were misclassified up to 34.7% of the time, lighter-skinned men at most 0.8%. They presented the study at the first conference on fairness, accountability and transparency, in New York.
+    source: "Joy Buolamwini and Timnit Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”, Proceedings of the 1st Conference on Fairness, Accountability and Transparency, PMLR 81, 2018, pp. 77–91; Wikipedia, “Joy Buolamwini” (the three companies)"
+    sourceUrl: https://proceedings.mlr.press/v81/buolamwini18a.html
+    themes: [facial-recognition]
+    status: draft
+
+  - id: 2017-ai-now
+    year: 2017
+    title: The AI Now Institute
+    who: Kate Crawford and Meredith Whittaker
+    relation: institutional-root
+    text: Crawford and Whittaker launched the AI Now Institute at New York University in November 2017. It set out to study the social implications of AI, from civil rights and biased data to labour and automation. Today, led by Amba Kak and Sarah Myers West, it opposes commercial surveillance and power consolidated in very few companies.
+    source: "NYU Tandon School of Engineering, “New Artificial Intelligence Research Institute Launches”, 20 November 2017; AI Now Institute, “About”, ainowinstitute.org"
+    sourceUrl: https://engineering.nyu.edu/news/new-artificial-intelligence-research-institute-launches
+    status: draft
+
+  - id: 2016-weapons-of-math-destruction
+    year: 2016
+    month: 9
+    title: Weapons of Math Destruction
+    who: Cathy O'Neil
+    relation: milestone
+    text: The mathematician Cathy O'Neil, who had left finance, named the harmful algorithms of her book's title. Models now decide on school places, jobs, loans and health insurance, she argued, yet they are unregulated and hard to contest. They reinforce discrimination, rewarding the advantaged and punishing the poor.
+    source: "Cathy O'Neil, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy, Crown, September 2016"
+    sourceUrl: https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/
+    status: draft
+
+  - id: 2016-machine-bias
+    year: 2016
+    month: 5
+    title: Machine Bias
+    who: Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, ProPublica
+    relation: milestone
+    text: ProPublica examined COMPAS, software that scores how likely defendants are to reoffend, using records of over 7,000 people in Broward County, Florida. Black defendants who did not reoffend were almost twice as likely as white ones to have been labelled high risk. Northpointe, the maker, disputed the analysis.
+    source: Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, “Machine Bias”, ProPublica, 23 May 2016
+    sourceUrl: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+    status: draft
+
+  - id: 2014-fairness-accountability-transparency
+    year: 2014
+    title: Fairness, accountability, transparency
+    who: Solon Barocas and Moritz Hardt
+    relation: institutional-root
+    text: Barocas and Hardt organised a one-day workshop in Montreal, at the NIPS machine-learning conference, on fairness, accountability and transparency in machine learning. It addressed growing anxiety about machine learning in decisions on jobs, health care, education and policing. Workshops followed each year to 2018, when a first conference under the same three words met in New York.
+    source: "“Fairness, Accountability, and Transparency in Machine Learning”, workshop at NIPS 2014, organised by Moritz Hardt and Solon Barocas (nips.cc; fatml.org); Cathy O'Neil, “Fairness, accountability, and transparency in big data models”, mathbabe.org, 16 December 2014"
+    sourceUrl: https://nips.cc/virtual/2014/workshop/4290
+    status: draft
+
+  - id: 1996-bias-in-computer-systems
+    year: 1996
+    title: Bias in Computer Systems
+    who: Batya Friedman and Helen Nissenbaum
+    relation: claimed
+    text: Friedman and Nissenbaum called a system biased if it discriminates against some people, systematically and unfairly, in favour of others. From actual cases they drew three kinds, preexisting bias from society, technical bias from design and emergent bias from use. Freedom from bias, they argued, should rank with reliability and accuracy. The field's textbook, Fairness and Machine Learning, cites it as an early work on algorithmic fairness.
+    source: "Batya Friedman and Helen Nissenbaum, “Bias in Computer Systems”, ACM Transactions on Information Systems 14(3), 1996, pp. 330–347; Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning, fairmlbook.org, introduction, bibliographic notes"
+    sourceUrl: https://humanrights.uchicago.edu/virtual-library/citation/bias-computer-systems
+    status: draft
+
+  - id: 1976-computer-power-and-human-reason
+    year: 1976
+    title: Computer Power and Human Reason
+    who: Joseph Weizenbaum
+    relation: claimed
+    text: Weizenbaum, who wrote the ELIZA chatbot at MIT, was dismayed at how fast its users treated it as a thinking agent. In this book he argued that whether a computer can do a task is a separate question from whether it should. Deciding can be programmed, he wrote, but choosing takes human judgement. Emily M. Bender and Alex Hanna cite his alarm as an early warning against AI hype.
+    source: "Joseph Weizenbaum, Computer Power and Human Reason: From Judgment to Calculation, W. H. Freeman, 1976; Emily M. Bender and Alex Hanna, The AI Con, Harper, 2025, excerpted as “On the Very Real Dangers of the Artificial Intelligence Hype Machine”, Literary Hub, 13 May 2025"
+    sourceUrl: https://en.wikipedia.org/wiki/Joseph_Weizenbaum
+    status: draft
+
+  - id: 1950-human-use-of-human-beings
+    year: 1950
+    title: The Human Use of Human Beings
+    who: Norbert Wiener
+    relation: attributed
+    text: Two years after Cybernetics, Wiener turned to what automatic machines would mean for society. He foresaw them taking over assembly-line work, and warned that many workers could soon lose their jobs. Machines, he argued, must serve human benefit, not merely profit. The philosopher Terrell Bynum calls him the founder of computer ethics, though Wiener did not coin the term.
+    source: "Norbert Wiener, The Human Use of Human Beings: Cybernetics and Society, Houghton Mifflin, 1950; Terrell Bynum, “Computer and Information Ethics”, Stanford Encyclopedia of Philosophy, 2001, revised 2015"
+    sourceUrl: https://plato.stanford.edu/archives/sum2020/entries/ethics-computer/
+    status: draft
