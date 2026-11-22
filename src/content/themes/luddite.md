@@ -13,6 +13,10 @@ isms:
     text: Those who would slow AI reject the label. Katja Grace of AI Impacts wrote in 2022 that “Technological choice is not luddism”. PauseAI's FAQ says most of its members consider themselves techno-optimists.
   - ism: techno-optimism
     text: Its manifesto uses the word for its opponents. Progress has continued, Marc Andreessen wrote in 2023, despite “continuous howling from Communists and Luddites”.
+  - ism: ai-ethics
+    text: AI ethics writers reclaim the word. In The AI Con (2025) Emily M. Bender and Alex Hanna treat “Luddite” as a caution rather than an insult.
+  - ism: pro-human
+    text: Its leaders reject the label, though some allies embrace it. Bernie Sanders has said “I am not a Luddite”; in 2026 John Nichols of The Nation called for a Luddite renaissance.
 strands:
   - name: Frame-breaking
     text: In February 1812 Parliament debated a bill making the breaking of stocking frames a capital crime. In his maiden speech in the Lords, Lord Byron argued that the frame-breakers acted from desperate poverty, not wickedness. The bill became law, and 17 men were executed the following year.

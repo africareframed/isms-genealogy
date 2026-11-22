@@ -15,6 +15,10 @@ isms:
     text: Effective altruists have tried to date AI by the compute it would need. Ajeya Cotra's 2020 draft report, written at Open Philanthropy, anchored its estimates on the human brain and on evolution. Its median for transformative AI was about 2050.
   - ism: effective-accelerationism
     text: One of its founders works on the hardware itself. Guillaume Verdon, who posted as Beff Jezos, runs Extropic, which builds chips meant to use far less energy than GPUs. Once it succeeds, it says, “energy constraints will no longer limit AI scaling”.
+  - ism: ai-ethics
+    text: AI ethics sees compute as a source of corporate power. In 2023 the AI Now Institute called it “profoundly monopolized at key points in the supply chain”, so that a few firms decide who can build AI.
+  - ism: pro-human
+    text: The pro-human movement would cap compute and challenge the data centres. Anthony Aguirre's Keep the Future Human (2025) proposes hard limits on the computing power used for AI. In 2026 the conservative group Humans First toured an “AI Data Center Revolt” bus.
 strands:
   - name: Export controls
     text: On 26 August 2022 the US government told Nvidia it needed a licence to export its A100 and H100 chips to China and Russia. That October the Commerce Department added licence rules for advanced chips and chipmaking tools bound for China. It cited national security.

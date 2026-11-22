@@ -131,7 +131,7 @@
   year: 1997
   origin: "Mark Gubrud, “Nanotechnology and International Security”, a paper for the Fifth Foresight Conference on Molecular Nanotechnology, November 1997. Around 2002 Shane Legg proposed the name again, for a book edited by Ben Goertzel and Cassio Pennachin. Goertzel spread it (“Who coined the term ‘AGI’?”, goertzel.org, 28 August 2011)."
   sourceUrl: https://legacy.foresight.org/Conferences/MNT05/Papers/Gubrud/index.html
-  isms: [singularitarianism, rationalism, effective-altruism, effective-accelerationism]
+  isms: [singularitarianism, rationalism, effective-altruism, effective-accelerationism, pro-human]
   status: checked
 
 - id: superintelligence
@@ -141,7 +141,7 @@
   year: 1998
   origin: Nick Bostrom, “How Long Before Superintelligence?”, International Journal of Futures Studies 2, 1998 (dated 1997), which gives the definition still in use. He expanded it in Superintelligence (2014). Earlier uses of the word itself are not traced here.
   sourceUrl: https://nickbostrom.com/superintelligence
-  isms: [singularitarianism, rationalism, effective-altruism]
+  isms: [singularitarianism, rationalism, effective-altruism, pro-human]
   status: checked
 
 - id: law-of-accelerating-returns
@@ -380,7 +380,7 @@
   year: 2023
   origin: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023, which asks for at least six months. PauseAI, founded in Utrecht in May 2023 by Joep Meindertsma, took the word as its name."
   sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-  isms: [rationalism]
+  isms: [rationalism, pro-human]
   status: checked
 
 - id: tescreal
@@ -390,7 +390,7 @@
   year: 2023
   origin: Gebru and Torres first used it in 2023, in a draft of their paper “The TESCREAL bundle”, published in First Monday 29(4), April 2024. Torres explains it in “The Acronym Behind Our Wildest AI Dreams and Nightmares”, Truthdig, 15 June 2023.
   sourceUrl: https://en.wikipedia.org/wiki/TESCREAL
-  isms: []
+  isms: [ai-ethics]
   status: checked
 
 - id: doomer
@@ -421,7 +421,7 @@
   year: 2012
   origin: "Holden Karnofsky, co-executive director of GiveWell, “Thoughts on the Singularity Institute (SI)”, LessWrong, 11 May 2012, his Objection 2: the Singularity Institute appears to neglect the distinction between “tool” and “agent” AI, with Google Maps as the example. Anthony Aguirre of the Future of Life Institute made Tool AI the alternative to AGI and superintelligence in Keep The Future Human (2025)."
   sourceUrl: https://www.lesswrong.com/lw/cbs/thoughts_on_the_singularity_institute_si/6lc8
-  isms: [rationalism]
+  isms: [rationalism, pro-human]
   status: checked
 
 - id: humanist-superintelligence

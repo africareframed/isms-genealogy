@@ -50,7 +50,7 @@ const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20
     <section id="isms" class="wrap sec" aria-labelledby="isms-h">
       <h2 class="kick" id="isms-h">How the movements see it</h2>
       <div>
-        {theme.data.isms.map((row) => {
+        {[...theme.data.isms].sort((a, b) => (ismById.get(a.ism.id)?.data.order ?? 99) - (ismById.get(b.ism.id)?.data.order ?? 99)).map((row) => {
           const i = ismById.get(row.ism.id)!;
           const inner = (
             <Fragment>

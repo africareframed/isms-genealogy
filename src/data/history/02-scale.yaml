@@ -47,6 +47,21 @@
   thread: booms-winters
   status: checked
 
+- id: 2020-gebru-google
+  era: scale
+  year: 2020
+  month: 12
+  title: Timnit Gebru leaves Google
+  line: A dispute over a paper on large language models ends with an ethics team co-lead out of Google.
+  who: Timnit Gebru; Google
+  text: Google asked Gebru and colleagues to withdraw a paper on the risks of large language models, or to remove their names. On 2 December 2020 Google said it was accepting her resignation; Gebru says she never resigned and was fired. Her co-lead Margaret Mitchell was fired in February 2021, and the paper, “On the Dangers of Stochastic Parrots”, appeared that March.
+  source: "Karen Hao, “We read the paper that forced Timnit Gebru out of Google. Here's what it says.”, MIT Technology Review, 4 December 2020"
+  sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
+  isms: [ai-ethics]
+  themes: [scaling-laws]
+  thread: warnings
+  status: draft
+
 - id: 2020-alphafold-2
   era: scale
   year: 2020
@@ -136,6 +151,21 @@
   themes: []
   thread: symbols-networks
   status: checked
+
+- id: 2018-gender-shades
+  era: scale
+  year: 2018
+  month: 2
+  title: Gender Shades
+  line: Face analysis from big firms misreads darker-skinned women far more often than lighter-skinned men.
+  who: Joy Buolamwini; Timnit Gebru
+  text: Buolamwini and Gebru tested three commercial systems that classify gender from faces. Darker-skinned women were misclassified up to 34.7% of the time, lighter-skinned men at most 0.8%. The study appeared at the first Conference on Fairness, Accountability and Transparency, in New York.
+  source: "Joy Buolamwini and Timnit Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”, PMLR 81, 2018, pp. 77–91"
+  sourceUrl: https://proceedings.mlr.press/v81/buolamwini18a.html
+  isms: [ai-ethics]
+  themes: [facial-recognition]
+  thread: warnings
+  status: draft
 
 - id: 2017-transformer
   era: scale

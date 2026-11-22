@@ -2,6 +2,21 @@
 # Fields: see src/content.config.ts (history). thread: one of the story lines (validated after merge).
 # status: draft until a checker agent has verified every claim against its source.
 
+- id: 2026-pro-human-assembly
+  era: generative
+  year: 2026
+  month: 9
+  title: The Pro-Human Assembly
+  line: Bernie Sanders and Steve Bannon share a stage to demand human control of AI.
+  who: Future of Life Institute; Bernie Sanders; Steve Bannon
+  text: On 15 September hundreds gathered in Washington for the Future of Life Institute's Pro-Human Assembly. Sanders and Bannon spoke from the same stage, alongside faith leaders, unions and parents of children who died after talking to chatbots. The same day more than 50 organisations launched the Pro-Human AI Coalition. A day earlier, President Trump had called AI warnings a “HOAX”.
+  source: "NPR, “Bernie Sanders and Steve Bannon call for curbs on AI”, 15 September 2026; Project Liberty, “50+ Leading Organizations Launch Coalition for Pro-Human AI”, PR Newswire, 15 September 2026"
+  sourceUrl: https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-and-ai
+  isms: [pro-human]
+  themes: []
+  thread: warnings
+  status: draft
+
 - id: 2026-humanist-ai-code
   era: generative
   year: 2026
@@ -46,6 +61,21 @@
   themes: []
   thread: law
   status: checked
+
+- id: 2025-superintelligence-statement
+  era: generative
+  year: 2025
+  month: 10
+  title: A call to ban superintelligence
+  line: Scientists, royals and right-wing broadcasters sign a call to prohibit superintelligence.
+  who: Future of Life Institute
+  text: The Future of Life Institute called for a prohibition on developing superintelligence until there is broad scientific consensus that it can be done safely and controllably, and strong public support. Geoffrey Hinton and Yoshua Bengio signed beside Prince Harry and Meghan, Susan Rice, Steve Bannon and Glenn Beck.
+  source: "Future of Life Institute, “Statement on Superintelligence”, 22 October 2025; Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025"
+  sourceUrl: https://superintelligence-statement.org/
+  isms: [rationalism, pro-human]
+  themes: []
+  thread: warnings
+  status: draft
 
 - id: 2025-stargate
   era: generative
@@ -192,7 +222,7 @@
   text: The Future of Life Institute asked all AI labs to pause, for at least six months, the training of systems more powerful than GPT-4. If they did not, governments should step in with a moratorium. Labs and outside experts would use the time to agree shared safety protocols. Elon Musk was among the early signers, and the letter has since gathered more than 31,000 signatures.
   source: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023"
   sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-  isms: [rationalism]
+  isms: [rationalism, ai-ethics, pro-human]
   themes: []
   thread: warnings
   status: checked
@@ -237,7 +267,7 @@
   text: On 30 November 2022 OpenAI released ChatGPT, a chatbot fine-tuned from a GPT-3.5 model, as a free research preview. Trained with feedback from human trainers, it could answer follow-up questions, admit mistakes and decline inappropriate requests. OpenAI warned that its answers could sound plausible yet be wrong. By January it had about 100 million monthly users, according to Similarweb data.
   source: OpenAI, “Introducing ChatGPT”, 30 November 2022; Andrew R. Chow, “How ChatGPT Managed to Grow Faster Than TikTok or Instagram”, TIME, 8 February 2023
   sourceUrl: https://openai.com/index/chatgpt/
-  isms: []
+  isms: [ai-ethics]
   themes: []
   thread: talking
   status: checked

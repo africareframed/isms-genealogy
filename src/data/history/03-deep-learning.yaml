@@ -12,10 +12,25 @@
   text: At a conference at Asilomar in January 2017, participants drew up 23 principles for beneficial AI. Each won the support of at least 90% of participants, in a survey after group discussions. They included aligning highly autonomous systems with human values, and avoiding an arms race in lethal autonomous weapons.
   source: The FLI Team, “A Principled AI Discussion in Asilomar”, Future of Life Institute, 18 January 2017
   sourceUrl: https://futureoflife.org/2017/01/17/principled-ai-discussion-asilomar/
-  isms: []
+  isms: [pro-human]
   themes: [alignment]
   thread: warnings
   status: checked
+
+- id: 2016-machine-bias
+  era: deep-learning
+  year: 2016
+  month: 5
+  title: “Machine Bias”
+  line: ProPublica finds a risk score wrongly flags Black defendants about twice as often as white ones.
+  who: ProPublica; Julia Angwin
+  text: ProPublica examined COMPAS, software that scores how likely defendants are to reoffend, using records of more than 7,000 people in Broward County, Florida. Black defendants who did not reoffend were almost twice as likely as white ones to have been labelled high risk. Northpointe, its maker, disputed the analysis.
+  source: "Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, “Machine Bias”, ProPublica, 23 May 2016"
+  sourceUrl: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+  isms: [ai-ethics]
+  themes: []
+  thread: warnings
+  status: draft
 
 - id: 2016-alphago
   era: deep-learning

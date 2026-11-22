@@ -11,6 +11,8 @@ isms:
     text: Sam Altman builds his forecasts on them. In February 2025 he wrote that a model's intelligence “roughly equals the log of the resources used to train and run it”.
   - ism: effective-altruism
     text: 80,000 Hours reads the curves as a reason for urgency. In 2025 Benjamin Todd wrote that from GPT-2 to GPT-4 the biggest driver of progress was far more computing power for the same techniques. If current trends hold a few more years, he argued, AGI before 2030 is a serious possibility.
+  - ism: ai-ethics
+    text: AI ethics questions the bigger-is-better path. “On the Dangers of Stochastic Parrots” (2021) asked whether language models can be too big, pointing to their energy costs and to training data too vast to document.
 strands:
   - name: The bitter lesson
     text: Richard Sutton's 2019 essay draws one lesson from seventy years of AI research. General methods that use more computation, such as search and learning, have beaten methods built on human knowledge. He credits the steadily falling cost of computation.

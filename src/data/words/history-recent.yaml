@@ -54,7 +54,7 @@
   year: 2021
   origin: "“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, FAccT '21, ACM, March 2021, section 6.1. Before it appeared, Google asked its employees to retract it or remove their names, and Gebru's employment there ended in December 2020. Shortly after ChatGPT's release, Sam Altman posted “i am a stochastic parrot, and so r u”. Source: Wikipedia, “Stochastic parrot”."
   sourceUrl: https://en.wikipedia.org/wiki/Stochastic_parrot
-  isms: []
+  isms: [ai-ethics]
   status: checked
 
 - id: frontier-model

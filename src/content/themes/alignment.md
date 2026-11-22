@@ -19,6 +19,8 @@ isms:
     text: Competition, not central control, is its answer. Guillaume Verdon, who posts as “Beff Jezos”, argued in 2023 that the market will select for AI that is safer and better aligned. One of the biggest risks, he said, is AI power concentrated in very few hands.
   - ism: techno-optimism
     text: In “Why AI Will Save the World” (2023), Marc Andreessen argues that AI has no goals of its own. He reads alignment as a push to control what AI may say, and asks “Whose human values?”
+  - ism: ai-ethics
+    text: The normal-technology strand doubts alignment can carry the weight. Arvind Narayanan and Sayash Kapoor (2025) find model alignment “extremely brittle” against misuse, and put the main defences further downstream.
 strands:
   - name: Friendly AI
     text: Eliezer Yudkowsky's name for an AI whose goals stay benevolent as it improves itself. His Creating Friendly AI (2001) argued that fixed rules are not enough. The AI must want to learn friendliness, and keep it as it changes itself.

@@ -15,6 +15,8 @@ isms:
     text: e/acc treats abundance as a matter of will. Its newsletter wrote in 2022 that only will stands between us and abundance for every human alive.
   - ism: techno-optimism
     text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure.
+  - ism: pro-human
+    text: It wants AI's gains shared. Its 2026 declaration includes a principle of shared prosperity, and in 2026 Bernie Sanders proposed a sovereign wealth fund paid for by the largest AI companies.
 strands:
   - name: Too cheap to meter
     text: In 1954 Lewis Strauss, head of the US Atomic Energy Commission, told science writers the next generation would enjoy electricity “too cheap to meter”. Critics later made the phrase a byword for over-optimistic promises about nuclear power.

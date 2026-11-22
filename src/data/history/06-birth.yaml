@@ -57,7 +57,7 @@
   source: "Joseph Weizenbaum, “ELIZA: A Computer Program for the Study of Natural Language Communication Between Man and Machine”, Communications of the ACM 9 (1), January 1966"
   sourceUrl: https://courses.cs.umbc.edu/331/papers/eliza.html
   thread: talking
-  isms: []
+  isms: [ai-ethics]
   themes: []
   status: checked
 

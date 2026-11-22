@@ -6,8 +6,9 @@ summary: Software that identifies a person from their face, and the bans and lim
 image: collage-rights-and-dignity
 pageImage: collage-rights-and-dignity-tall
 lead: Facial recognition software identifies people from their faces, and police use of it has led to bans from San Francisco to the EU.
-# No movement has a documented view of facial recognition yet, so there are no rows (owner to decide).
-isms: []
+isms:
+  - ism: ai-ethics
+    text: For AI ethics, facial recognition is the textbook case of bias. In Gender Shades (2018) Joy Buolamwini and Timnit Gebru found commercial systems misread darker-skinned women far more often than lighter-skinned men.
 strands:
   - name: Gender Shades
     text: In 2018 Joy Buolamwini and Timnit Gebru tested commercial systems that classify gender from faces. Darker-skinned women were misclassified at rates of up to 34.7%, lighter-skinned men at no more than 0.8%. In 2019 a US government study of 189 face recognition algorithms found demographic differences in most, though results varied widely between them.
