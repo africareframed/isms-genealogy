@@ -4,66 +4,69 @@
 - id: keep-the-future-human
   word: keep the future human
   definition: Anthony Aguirre's call to stop building smarter-than-human general AI and to build trustworthy AI tools instead. The Future of Life Institute used it as the rallying call of its 2026 Pro-Human Assembly.
-  coinedBy: Anthony Aguirre
-  year: 2025
-  origin: "Anthony Aguirre, Keep the Future Human: Why and How We Should Close the Gates to AGI and Superintelligence, and What We Should Build Instead, arXiv:2311.09452v4, 7 March 2025. Its first version (November 2023) was titled Close the Gates to an Inhuman Future. On the Assembly: the Future of Life Institute's posts on X, September 2026, collected by Digg."
-  sourceUrl: https://keepthefuturehuman.ai/
+  coinedBy: Anthony Aguirre (earliest use found)
+  year: 2024
+  yearLabel: by 2024
+  origin: "Anthony Aguirre, “Close the Gates: How we can keep the future human by choosing not to develop superhuman general-purpose artificial intelligence”, arXiv:2311.09452v3, 14 September 2024. The first version (November 2023) was titled Close the Gates to an Inhuman Future; the version of 7 March 2025 (v4) took the title Keep the Future Human. On the Assembly: the Future of Life Institute's post on X of 18 September 2026, collected by Digg."
+  sourceUrl: https://arxiv.org/abs/2311.09452v3
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: humans-first
   word: Humans First
-  definition: A motto for putting people ahead of machines and the companies that build them. It is also the name of a conservative group that campaigns against AI's harms to jobs, children and communities.
-  coinedBy: Joe Allen (as a motto)
+  definition: Joe Allen's summary of his views on AI, putting people before machines. Since 2026 it is also the name of a conservative group that campaigns against AI's harms to jobs, children and communities.
+  coinedBy: Joe Allen (earliest use found)
   year: 2025
-  origin: "Veronica Irwin, “The Jan 6 organizer getting conservatives riled up about AI”, Transformer, 13 August 2026: Allen summed up his views as “Humans First” in May 2025 and helped start the group, incorporated in January 2026."
+  yearLabel: by 2025
+  origin: "Veronica Irwin, “The Jan 6 organizer getting conservatives riled up about AI”, Transformer, 13 August 2026: Allen summed up his beliefs about AI as “Humans First” as early as May 2025, and took part in the talks that led to the group, incorporated in January 2026."
   sourceUrl: https://transformernews.ai/p/the-jan-6-organizer-getting-conservatives-angry-about-ai
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: pro-human
   word: pro-human
   definition: The stance that AI should serve people rather than replace them, with humans kept in charge. Its holders use it to say they are not against technology.
-  coinedBy: Future of Life Institute (in this sense)
+  coinedBy: Future of Life Institute (earliest use found)
   year: 2026
   yearLabel: by 2026
   origin: "Earliest use found here: Anthony Aguirre, launching the Protect What's Human campaign, said it “isn't anti-tech, it's pro-human” (Future of Life Institute, press release, 9 February 2026). The Pro-Human AI Declaration of 4 March 2026 used it to name an emerging movement."
   sourceUrl: https://futureoflife.org/press-release/fli-launches-multimillion-dollar-nationwide-ai-regulation-campaign/
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: race-to-replace
   word: race to replace
   definition: The movement's name for the AI industry's drive to build machines that take over human roles. In the declaration's account, people are replaced first as creators, counsellors, carers and companions, then in most jobs and decisions.
-  coinedBy: The Pro-Human AI Declaration
+  coinedBy: The Pro-Human AI Declaration (earliest use found)
   year: 2026
-  origin: "Preamble of the Pro-Human AI Declaration, Future of Life Institute, March 2026. In October 2025 Anthony Aguirre had already accused AI companies of building AI designed to replace people (AFP, 22 October 2025)."
+  yearLabel: by 2026
+  origin: "Preamble of the Pro-Human AI Declaration, Future of Life Institute, ratified in New Orleans in January and published on 4 March 2026. In October 2025 Anthony Aguirre had already accused AI companies of building AI designed to replace people (AFP, 22 October 2025)."
   sourceUrl: https://futureoflife.org/pro-human-ai-declaration
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: bot-or-not
   word: bot-or-not
   definition: The rule that AI-generated content that could pass for a person's work must be clearly labelled as made by AI.
   coinedBy: The Pro-Human AI Declaration (as a named principle)
   year: 2026
-  origin: "“Bot-or-Not Labeling”, a principle of the Pro-Human AI Declaration, Future of Life Institute, March 2026. The idea is older: in 2018 the Center for Humane Technology backed a California bill to ban bots that do not identify themselves (The New York Times, via CNBC, 4 February 2018)."
+  origin: "“Bot-or-Not Labeling”, a principle of the Pro-Human AI Declaration, Future of Life Institute, March 2026. The phrase is older: BotOrNot, a research service for spotting Twitter bots, was released in May 2014 (Clayton A. Davis and others, “BotOrNot: A System to Evaluate Social Bots”, arXiv:1602.00975, 2016). So is the idea: in 2018 the Center for Humane Technology planned to lobby for a California bill to ban bots that do not identify themselves (The New York Times, via CNBC, 4 February 2018)."
   sourceUrl: https://futureoflife.org/pro-human-ai-declaration
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: no-ai-personhood
   word: no AI personhood
-  definition: The principle that AI systems must never be given legal personhood, nor be designed so that they would deserve it. Pope Leo XIV argued the same in 2026, calling machines tools, not persons.
+  definition: The principle that AI systems must never be given legal personhood, nor be designed so that they would deserve it. In 2026 Pope Leo XIV also warned against legal personhood for AI, calling machines tools, not persons.
   coinedBy: The Pro-Human AI Declaration (as a named principle)
   year: 2026
   origin: "“No AI Personhood”, a principle of the Pro-Human AI Declaration, Future of Life Institute, March 2026; Pope Leo XIV, address to “The Future of AI” dialogue, 30 October 2026."
   sourceUrl: https://futureoflife.org/pro-human-ai-declaration
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
