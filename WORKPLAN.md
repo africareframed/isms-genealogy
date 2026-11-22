@@ -14,10 +14,10 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - [x] CLAUDE.md, this file; build without warnings; screenshots; merged, pushed, deployed, preview artifact updated, owner told (23 Nov, 00:01). The design guide is updated once, at the end of the night run, for phase A and the Protection family together (tokens.json for the colours, 02-cards, 03-decisions, the card images)
 
 **Night run** (owner approved: the Protection family, highlighter blue `#73C7F2`, verb "Protect."). AFP photos are kept out of `public/` (anything there is published): they live in `/home/claude/img-work/batch09` and on the owner's Mac (`isms-genealogy-images/batch-09`) until he clears them.
-- [ ] Framework: family Protection after Risk; rule widened to "born in or against the tech world"; CLAUDE.md
+- [x] Framework: family Protection after Risk; rule widened to "born in or against the tech world"; CLAUDE.md
 - [ ] AI ethics (includes AI as normal technology), branch `ism/ai-ethics`: drafted, then checked by a separate agent
 - [ ] Pro-human, branch `ism/pro-human`: drafted, then checked by a separate agent. Humanist AI stays in Rationalism (owner, 22 Nov)
-- [ ] Collages: Protection = the water banner (Unsplash, batch 9) + the owner's Sanders still (cleared by the owner) + a "Sanders · Bannon · same stage" strip. AI ethics = the AFP head-cam photos (batch 9), recorded `to-check`: not live until the owner clears them; the live card uses cleared images meanwhile
+- [x] Collages: Protection = the water banner (Unsplash, batch 9) + the owner's Sanders still (cleared by the owner) + a "Sanders · Bannon · same stage" strip. AI ethics = the AFP head-cam photos (batch 9): the owner cleared them at 00:03 on 23 Nov, so they go live. Made on `exp/protection` (5a7b15d), with the hero "Protect." and "eight movements"
 - [ ] History moments tagged, new moments where missing; new words in the vocabulary; key-word lines where the new movements hold a view
 - [ ] Design guide (artifact 4b7a91e1…, read its SKILL.md first): highlighter colours and Protection blue in tokens.json; 02-cards (EA arithmometer, 2045 on Singularitarianism, the two new cards); 03-decisions (22 Nov); card images; `lastChange` last
 - [ ] Build, screenshots desktop and phone, merge, deploy, preview artifact, morning note to the owner
