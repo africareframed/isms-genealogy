@@ -7,12 +7,13 @@
   word: weapons of math destruction
   definition: O'Neil's name for mathematical models that make decisions about people's lives at scale while staying opaque, unregulated and hard to contest. She argues that they reinforce discrimination against the poor.
   coinedBy: Cathy O'Neil
-  year: 2016
-  origin: "Cathy O'Neil, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy, Crown, September 2016, the book that made the phrase known. It was longlisted for the National Book Award for Nonfiction in 2016 (Wikipedia, “Weapons of Math Destruction”)."
-  sourceUrl: https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/
+  year: 2012
+  yearLabel: by 2012
+  origin: "Cathy O'Neil, “It's May Day!”, mathbabe.org, 1 May 2012, announcing her talk “Weapons of Math Destruction” at the Free University in Madison Square Park, New York: the earliest use found. Her book Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy (Crown, September 2016) made the phrase known; it was longlisted for the National Book Award for Nonfiction in 2016 (Wikipedia, “Weapons of Math Destruction”)."
+  sourceUrl: https://mathbabe.org/2012/05/01/its-may-day/
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: coded-gaze
   word: the coded gaze
@@ -23,41 +24,41 @@
   sourceUrl: https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: fauxtomation
   word: fauxtomation
-  definition: Work presented as done by machines but in fact done by people, often unpaid or poorly paid, whose labour the technology hides. Taylor's examples include self-service kiosks and the moderators behind seemingly automatic filters.
+  definition: Work presented as done by machines but in fact done by people, often unpaid or poorly paid, whose labour the technology hides. Taylor's examples include self-service kiosks and the content moderators who screen social media feeds.
   coinedBy: Astra Taylor
   year: 2018
   origin: "Astra Taylor, “The Automation Charade”, Logic, issue 5 (“Failure”), 1 August 2018, which proposes the word in place of automation."
   sourceUrl: https://logicmag.io/failure/the-automation-charade/
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: ghost-work
   word: ghost work
-  definition: Work done by people that customers believe is done by an automated process, such as labelling data or checking content behind AI systems. Its coiners warn that it is building a hidden global underclass.
+  definition: Work done by people that customers believe is done by an automated process, such as flagging content or proofreading for online services. The book that named it warns against Silicon Valley building a new global underclass.
   coinedBy: Mary L. Gray and Siddharth Suri
   year: 2019
-  origin: "Mary L. Gray and Siddharth Suri, Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass, Houghton Mifflin Harcourt, Boston, 2019. Gray is an anthropologist and Suri a computer scientist (ghostwork.info; Wikipedia, “Ghost work”)."
+  origin: "Mary L. Gray and Siddharth Suri, Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass, Houghton Mifflin Harcourt, Boston, 2019 (Wikipedia, “Mary L. Gray”; library catalogue). Gray is an anthropologist and Suri a computer scientist (Wikipedia, “Ghost work”). The examples are from the book's description (Bookshop.org)."
   sourceUrl: https://en.wikipedia.org/wiki/Ghost_work
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: ai-snake-oil
   word: AI snake oil
-  definition: AI sold for what it does not and cannot do. Narayanan's chief example is software that claims to predict social outcomes, such as reoffending or job performance, little better than simple scoring.
+  definition: AI sold for what it does not and cannot do. Narayanan's main target was software that claims to predict social outcomes, such as reoffending or job performance, yet does little better than simple scoring.
   coinedBy: Arvind Narayanan
   year: 2019
   yearLabel: by 2019
-  origin: "Arvind Narayanan, “How to recognize AI snake oil”, a talk at MIT in November 2019; Princeton's computer science department reported on it on 22 January 2021. He developed it with Sayash Kapoor into the book AI Snake Oil, Princeton University Press, September 2024."
+  origin: "Arvind Narayanan, “How to recognize AI snake oil”, slides of a talk at MIT in November 2019, the earliest use of the phrase found; Princeton's computer science department reported on it on 22 January 2021. He developed it with Sayash Kapoor into the book AI Snake Oil, Princeton University Press, September 2024."
   sourceUrl: https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: normal-technology
   word: normal technology
@@ -68,4 +69,4 @@
   sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
