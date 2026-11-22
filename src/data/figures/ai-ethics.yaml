@@ -19,7 +19,7 @@
 - id: sayash-kapoor-ai-ethics
   name: Sayash Kapoor
   isms: [ai-ethics]
-  note: Computer scientist at Princeton and Narayanan's co-author on AI Snake Oil and “AI as Normal Technology”.
+  note: Computer scientist with a Princeton doctorate, who joins UC Berkeley's School of Information in 2027. Co-wrote AI Snake Oil and “AI as Normal Technology” with Narayanan.
   entry: ai-ethics/2024-ai-snake-oil
 - id: timnit-gebru-ai-ethics
   name: Timnit Gebru
@@ -54,7 +54,7 @@
 - id: julia-angwin-ai-ethics
   name: Julia Angwin
   isms: [ai-ethics]
-  note: Journalist. Led ProPublica's Machine Bias investigation and co-founded The Markup in 2018.
+  note: Journalist. Lead author of ProPublica's Machine Bias investigation, she co-founded The Markup in 2018.
   entry: ai-ethics/2016-machine-bias
 - id: batya-friedman-ai-ethics
   name: Batya Friedman
@@ -65,5 +65,5 @@
   name: Joseph Weizenbaum
   lifespan: 1923–2008
   isms: [ai-ethics]
-  note: MIT computer scientist who fled Nazi Germany as a boy, wrote ELIZA, and then spent his life as a critic of AI.
+  note: MIT computer scientist who fled Nazi Germany as a boy, wrote ELIZA, and then became one of the leading critics of AI.
   entry: ai-ethics/1976-computer-power-and-human-reason
