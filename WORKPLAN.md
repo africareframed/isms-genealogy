@@ -13,10 +13,12 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - [x] EA card: the arithmometer (batch 10, public domain) with 10⁵⁸; "2045" moved to the Singularitarianism card; Transhumanism card without big type
 - [x] CLAUDE.md, this file; build without warnings; screenshots; merged, pushed, deployed, preview artifact updated, owner told (23 Nov, 00:01). The design guide is updated once, at the end of the night run, for phase A and the Protection family together (tokens.json for the colours, 02-cards, 03-decisions, the card images)
 
+- Owner, 00:41: keep 2014 FAT/ML as AI ethics' naming moment; add Magnifica Humanitas to the History of AI (untagged; checker on `check/weave`); no introduction for the History of AI header.
+
 **Night run** (owner approved: the Protection family, highlighter blue `#73C7F2`, verb "Protect."). AFP photos are kept out of `public/` (anything there is published): they live in `/home/claude/img-work/batch09` and on the owner's Mac (`isms-genealogy-images/batch-09`) until he clears them.
 - [x] Framework: family Protection after Risk; rule widened to "born in or against the tech world"; CLAUDE.md
-- [ ] AI ethics (includes AI as normal technology), branch `ism/ai-ethics`: drafted (2c0336f, 16 entries) ✓; checker running (worktree /home/claude/wt-ai-ethics)
-- [ ] Pro-human, branch `ism/pro-human`: drafted (dff3602, 14 entries) ✓; checker running (worktree /home/claude/wt-pro-human). Humanist AI stays in Rationalism (owner, 22 Nov)
+- [x] AI ethics (includes AI as normal technology), branch `ism/ai-ethics`: drafted (2c0336f, 16 entries), checked (a9dbf8d), merged, ready
+- [x] Pro-human, branch `ism/pro-human`: drafted (dff3602, 14 entries), checked (c4da67b), merged, ready. Humanist AI stays in Rationalism (owner, 22 Nov)
 - [x] Collages: Protection = the water banner (Unsplash, batch 9) + the owner's Sanders still (cleared by the owner) + a "Sanders · Bannon · same stage" strip. AI ethics = the AFP head-cam photos (batch 9): the owner cleared them at 00:03 on 23 Nov, so they go live. Made on `exp/protection` (5a7b15d), with the hero "Protect." and "eight movements"
 - [x] (00:40, checked 90af05a, merged) History moments tagged, new moments where missing; new words in the vocabulary; key-word lines where the new movements hold a view: drafted on exp/protection (ae0f2e1); checker running on branch `check/weave` (worktree /home/claude/wt-weave). After all three checks: merge the three branches into exp/protection, set `ready: true` on both, build, look, merge to main, deploy
 - [x] (00:12) Design guide (artifact 4b7a91e1…, read its SKILL.md first): highlighter colours and Protection blue in tokens.json; 02-cards (EA arithmometer, 2045 on Singularitarianism, the two new cards); 03-decisions (22 Nov); card images; `lastChange` last

@@ -2,7 +2,7 @@
 title: AI ethics
 family: protection
 order: 7
-ready: false
+ready: true
 summary: AI already harms people living now, through bias, surveillance, hidden labour, hype and the power of a few companies. Those harms, not a future superintelligence, come first.
 includes: [AI as normal technology]
 image: collage-ai-ethics
