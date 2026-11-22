@@ -1,0 +1,71 @@
+# Words of AI ethics (incl. AI as normal technology). Same fields as words.yaml; see src/content.config.ts.
+# Ordered by year of coinage or earliest documented use, oldest first.
+# yearLabel "by …" means only an earliest documented use is known; origin says so.
+# status: draft until a checker agent has verified every claim against its source.
+
+- id: weapons-of-math-destruction
+  word: weapons of math destruction
+  definition: O'Neil's name for mathematical models that make decisions about people's lives at scale while staying opaque, unregulated and hard to contest. She argues that they reinforce discrimination against the poor.
+  coinedBy: Cathy O'Neil
+  year: 2016
+  origin: "Cathy O'Neil, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy, Crown, September 2016, the book that made the phrase known. It was longlisted for the National Book Award for Nonfiction in 2016 (Wikipedia, “Weapons of Math Destruction”)."
+  sourceUrl: https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
+- id: coded-gaze
+  word: the coded gaze
+  definition: Buolamwini's name for the way algorithmic systems reflect the biases of the people who build them. She came to it after face-analysis software she worked with at MIT failed to detect her own face.
+  coinedBy: Joy Buolamwini
+  year: 2016
+  origin: "Joy Buolamwini, “How I'm fighting bias in algorithms”, TEDxBeaconStreet, November 2016, where she describes a phenomenon she calls the coded gaze. A short film of the same year is called The Coded Gaze, and she founded the Algorithmic Justice League in 2016 (Wikipedia, “Joy Buolamwini”; ajl.org/about)."
+  sourceUrl: https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
+- id: fauxtomation
+  word: fauxtomation
+  definition: Work presented as done by machines but in fact done by people, often unpaid or poorly paid, whose labour the technology hides. Taylor's examples include self-service kiosks and the moderators behind seemingly automatic filters.
+  coinedBy: Astra Taylor
+  year: 2018
+  origin: "Astra Taylor, “The Automation Charade”, Logic, issue 5 (“Failure”), 1 August 2018, which proposes the word in place of automation."
+  sourceUrl: https://logicmag.io/failure/the-automation-charade/
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
+- id: ghost-work
+  word: ghost work
+  definition: Work done by people that customers believe is done by an automated process, such as labelling data or checking content behind AI systems. Its coiners warn that it is building a hidden global underclass.
+  coinedBy: Mary L. Gray and Siddharth Suri
+  year: 2019
+  origin: "Mary L. Gray and Siddharth Suri, Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass, Houghton Mifflin Harcourt, Boston, 2019. Gray is an anthropologist and Suri a computer scientist (ghostwork.info; Wikipedia, “Ghost work”)."
+  sourceUrl: https://en.wikipedia.org/wiki/Ghost_work
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
+- id: ai-snake-oil
+  word: AI snake oil
+  definition: AI sold for what it does not and cannot do. Narayanan's chief example is software that claims to predict social outcomes, such as reoffending or job performance, little better than simple scoring.
+  coinedBy: Arvind Narayanan
+  year: 2019
+  yearLabel: by 2019
+  origin: "Arvind Narayanan, “How to recognize AI snake oil”, a talk at MIT in November 2019; Princeton's computer science department reported on it on 22 January 2021. He developed it with Sayash Kapoor into the book AI Snake Oil, Princeton University Press, September 2024."
+  sourceUrl: https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
+- id: normal-technology
+  word: normal technology
+  definition: The view that AI is a technology like electricity or the internet. It is transformative, but spreads over decades and remains a tool people can control, not a superintelligent agent.
+  coinedBy: Arvind Narayanan and Sayash Kapoor (in this sense)
+  year: 2025
+  origin: "Arvind Narayanan and Sayash Kapoor, “AI as Normal Technology”, Knight First Amendment Institute at Columbia University, 15 April 2025. Their newsletter now carries the same name (normaltech.ai)."
+  sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
+  isms: [ai-ethics]
+  technical: false
+  status: draft

@@ -1,0 +1,69 @@
+# Notable figures for AI ethics (one file per ism). Names only: no portraits (owner, 20 Nov 2026).
+# Ids carry an -ai-ethics suffix so they stay unique when other isms add the same people.
+- id: emily-m-bender-ai-ethics
+  name: Emily M. Bender
+  lifespan: born 1973
+  isms: [ai-ethics]
+  note: Linguist at the University of Washington. Co-wrote Stochastic Parrots and, with Alex Hanna, The AI Con.
+  entry: ai-ethics/2025-the-ai-con
+- id: alex-hanna-ai-ethics
+  name: Alex Hanna
+  isms: [ai-ethics]
+  note: Sociologist and director of research at DAIR. Co-hosts Mystery AI Hype Theater 3000 with Emily M. Bender.
+  entry: ai-ethics/2025-the-ai-con
+- id: arvind-narayanan-ai-ethics
+  name: Arvind Narayanan
+  isms: [ai-ethics]
+  note: Princeton computer scientist who directs its Center for Information Technology Policy. Co-wrote AI Snake Oil and “AI as Normal Technology”.
+  entry: ai-ethics/2025-normal-technology
+- id: sayash-kapoor-ai-ethics
+  name: Sayash Kapoor
+  isms: [ai-ethics]
+  note: Computer scientist at Princeton and Narayanan's co-author on AI Snake Oil and “AI as Normal Technology”.
+  entry: ai-ethics/2024-ai-snake-oil
+- id: timnit-gebru-ai-ethics
+  name: Timnit Gebru
+  lifespan: born 1983
+  isms: [ai-ethics]
+  note: Computer scientist. Co-led Google's ethical AI team until December 2020, then founded DAIR. Co-wrote Gender Shades and Stochastic Parrots.
+  entry: ai-ethics/2021-stochastic-parrots
+- id: margaret-mitchell-ai-ethics
+  name: Margaret Mitchell
+  lifespan: born 1983
+  isms: [ai-ethics]
+  note: Computer scientist who co-led Google's ethical AI team with Gebru and was fired in February 2021. Proposed model cards, for more transparent reporting on trained models.
+  entry: ai-ethics/2021-stochastic-parrots
+- id: joy-buolamwini-ai-ethics
+  name: Joy Buolamwini
+  lifespan: born 1990
+  isms: [ai-ethics]
+  note: Computer scientist who named the coded gaze and founded the Algorithmic Justice League in 2016.
+  entry: ai-ethics/2018-gender-shades
+- id: kate-crawford-ai-ethics
+  name: Kate Crawford
+  lifespan: born 1974
+  isms: [ai-ethics]
+  note: Researcher at Microsoft Research and co-founder of AI Now. Her Atlas of AI (2021) is about the power, politics and planetary costs of AI.
+  entry: ai-ethics/2017-ai-now
+- id: cathy-oneil-ai-ethics
+  name: Cathy O'Neil
+  lifespan: born 1972
+  isms: [ai-ethics]
+  note: Mathematician who left finance and wrote Weapons of Math Destruction. Founded an algorithmic auditing firm, ORCAA.
+  entry: ai-ethics/2016-weapons-of-math-destruction
+- id: julia-angwin-ai-ethics
+  name: Julia Angwin
+  isms: [ai-ethics]
+  note: Journalist. Led ProPublica's Machine Bias investigation and co-founded The Markup in 2018.
+  entry: ai-ethics/2016-machine-bias
+- id: batya-friedman-ai-ethics
+  name: Batya Friedman
+  isms: [ai-ethics]
+  note: Professor at the University of Washington Information School, known for value sensitive design. Co-wrote Bias in Computer Systems with Helen Nissenbaum.
+  entry: ai-ethics/1996-bias-in-computer-systems
+- id: joseph-weizenbaum-ai-ethics
+  name: Joseph Weizenbaum
+  lifespan: 1923–2008
+  isms: [ai-ethics]
+  note: MIT computer scientist who fled Nazi Germany as a boy, wrote ELIZA, and then spent his life as a critic of AI.
+  entry: ai-ethics/1976-computer-power-and-human-reason
