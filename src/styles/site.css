@@ -65,7 +65,7 @@ a:hover { color: var(--muted); }
 .chips label:hover { border-color: var(--ink); }
 /* Families as rows: the family on the left, its two movements side by side. */
 .sec-h { margin: 0 0 40px; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; }
-.mov-sec { display: flex; flex-direction: column; gap: 48px; }
+.mov-sec { margin-top: 128px; display: flex; flex-direction: column; gap: 48px; } /* the home page runs History of AI, Movements, Vocabulary (owner, 22 Nov 2026) */
 .fams { display: flex; flex-direction: column; row-gap: 72px; }
 .fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--g); row-gap: 28px; align-items: start; padding-top: 18px; border-top: 2px solid var(--ink); }
 .fh { grid-column: 1 / -1; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 20px; row-gap: 4px; }
@@ -240,7 +240,7 @@ a.hist:hover .ht { text-decoration: underline; }
 .hm:target summary .hm-n { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px; }
 
 /* The history card on the home page: a panorama from side to side, the text in columns under it */
-.hist-sec { margin-top: 128px; display: flex; flex-direction: column; gap: 48px; }
+.hist-sec { display: flex; flex-direction: column; gap: 48px; }
 .hcard { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: var(--ink); }
 .hcard:hover { color: var(--ink); }
 .hcard:hover img { filter: brightness(0.96); }

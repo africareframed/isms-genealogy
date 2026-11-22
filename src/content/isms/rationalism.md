@@ -1,7 +1,7 @@
 ---
 title: Rationalism
 family: risk
-order: 3
+order: 5
 ready: true
 summary: A superintelligence built before alignment is solved would likely end humanity. Getting it right first is the most important problem there is.
 includes: [the call to pause, Humanist AI]

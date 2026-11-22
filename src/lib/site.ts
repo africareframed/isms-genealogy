@@ -3,9 +3,11 @@ export const SITE_TITLE = 'A genealogy of the ideas behind AI';
 export const MAP_DATE = '20 November 2026';
 
 export const FAMILIES = [
+  // In the order of the home page (owner, 22 Nov 2026): from the farthest future towards the present,
+  // from the most eager about the machine to the most wary. Family colours are highlighter colours.
   { id: 'transcendence', name: 'Transcendence', colour: '#C9F25B', text: 'The vision of a future beyond human limits.' },
+  { id: 'acceleration', name: 'Acceleration', colour: '#FF9F4F', text: 'The conviction that the answer is more technology, faster.' },
   { id: 'risk', name: 'Risk', colour: '#F5A3BC', text: 'The fear that AI could end us, and the work to prevent it.' },
-  { id: 'acceleration', name: 'Acceleration', colour: '#D8461C', text: 'The conviction that the answer is more technology, faster.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */

@@ -6,14 +6,14 @@
   rights: open-licence
   licence: "CC0, after the British Museum's photograph"
   file: "collage-transhumanism.jpg"
-  alt: "The cuneiform Flood Tablet of the Epic of Gilgamesh over acid-green fields, beside 2045, Kurzweil's date for the Singularity"
+  alt: "The cuneiform Flood Tablet of the Epic of Gilgamesh, the oldest story of a quest for eternal life, over acid-green fields"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"
 
 - id: collage-singularitarianism
   title: "Collage from a photograph of the IAS machine, von Neumann's computer"
   rights: public-domain
   file: "collage-singularitarianism.jpg"
-  alt: "The IAS machine, an early valve computer, over green fields; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
+  alt: "The IAS machine, an early valve computer, over green fields, beside 2045, Kurzweil's date for the Singularity; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
 
 - id: collage-rationalism
@@ -24,12 +24,12 @@
   sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
 
 - id: collage-effective-altruism
-  title: "Collage from a photograph of bed nets ready for distribution"
-  rights: open-licence
-  licence: "CC BY 2.0, after a photo by the Department of Foreign Affairs and Trade (Australia)"
+  title: "Collage from a photograph of a Thomas de Colmar arithmometer (1860)"
+  rights: public-domain
   file: "collage-effective-altruism.jpg"
-  alt: "Stacked bales of bed nets receding down a corridor, over pink fields; GiveWell reckons about $5 a net and $5,500 per life saved"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
+  alt: "A brass arithmometer of 1860, the first commercially successful calculating machine, in its open wooden case over pink fields, beside 10 to the power 58, Bostrom's 2014 count of possible future lives"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
+  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted."
 
 - id: collage-effective-accelerationism
   title: "Collage from Boccioni's The City Rises (1910)"
@@ -155,14 +155,14 @@
   rights: open-licence
   licence: "CC0, after the British Museum's photograph"
   file: "collage-transhumanism-tall.jpg"
-  alt: "The Flood Tablet of the Epic of Gilgamesh above 2045, Kurzweil's date for the Singularity"
+  alt: "The Flood Tablet of the Epic of Gilgamesh, the oldest story of a quest for eternal life, over acid-green fields"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg"
 
 - id: collage-singularitarianism-tall
   title: "Collage from a photograph of the IAS machine, von Neumann's computer"
   rights: public-domain
   file: "collage-singularitarianism-tall.jpg"
-  alt: "The IAS machine over green fields; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
+  alt: "2045, Kurzweil's date for the Singularity, above the IAS machine over green fields; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
 
 - id: collage-effective-accelerationism-tall
@@ -189,12 +189,12 @@
   sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
 
 - id: collage-effective-altruism-tall
-  title: "Collage from a photograph of bed nets ready for distribution"
-  rights: open-licence
-  licence: "CC BY 2.0, after a photo by the Department of Foreign Affairs and Trade (Australia)"
+  title: "Collage from a photograph of a Thomas de Colmar arithmometer (1860)"
+  rights: public-domain
   file: "collage-effective-altruism-tall.jpg"
-  alt: "Stacked bales of bed nets receding down a corridor, over pink fields; GiveWell reckons about $5 a net and $5,500 per life saved"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
+  alt: "A brass arithmometer of 1860, the first commercially successful calculating machine, in its open wooden case over pink fields, beside 10 to the power 58, Bostrom's 2014 count of possible future lives"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
+  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted."
 
 - id: collage-alignment
   title: "Collage from a photograph of Watt's centrifugal governor (1788)"

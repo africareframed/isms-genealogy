@@ -2,6 +2,25 @@
 
 Every session starts here: find the first stage that is not done, do the next piece, update this file, commit, push. Rules are in `CLAUDE.md`.
 
+## Night of 22–23 November 2026 (owner's go at 23:49; he reads the result in the morning)
+
+Tick each line as it is done, commit, push. A resumed session picks up at the first open line.
+
+**Phase A** (branch `exp/phase-a`; tell the owner when done, by SendUserMessage)
+- [x] Home page order: History of AI, Movements, Vocabulary (menu and hero links too)
+- [x] Families in the order Transcendence, Acceleration, Risk; movements renumbered 01–06; hero "Transcend. Accelerate. Pause."
+- [x] Acceleration in highlighter orange `#FF9F4F` (cards re-rendered; the site accent `#D8461C` and the History card stay)
+- [x] EA card: the arithmometer (batch 10, public domain) with 10⁵⁸; "2045" moved to the Singularitarianism card; Transhumanism card without big type
+- [ ] CLAUDE.md, the design guide, this file; build without warnings; screenshots; merge, push, deploy, preview artifact
+
+**Night run** (owner approved: the Protection family, highlighter blue `#73C7F2`, verb "Protect.")
+- [ ] Framework: family Protection after Risk; rule widened to "born in or against the tech world"; CLAUDE.md
+- [ ] AI ethics (includes AI as normal technology), branch `ism/ai-ethics`: drafted, then checked by a separate agent
+- [ ] Pro-human, branch `ism/pro-human`: drafted, then checked by a separate agent. Humanist AI stays in Rationalism (owner, 22 Nov)
+- [ ] Collages: Protection = the water banner (Unsplash, batch 9) + the owner's Sanders still (cleared by the owner) + a "Sanders · Bannon · same stage" strip. AI ethics = the AFP head-cam photos (batch 9), recorded `to-check`: not live until the owner clears them; the live card uses cleared images meanwhile
+- [ ] History moments tagged, new moments where missing; new words in the vocabulary; key-word lines where the new movements hold a view
+- [ ] Build, screenshots desktop and phone, merge, deploy, preview artifact, morning note to the owner
+
 ## Stages
 
 - [x] **1. Repository and skeleton.** Astro static site, design from the mockup, flat relative pages.

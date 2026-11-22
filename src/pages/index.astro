@@ -37,8 +37,8 @@ const num = (n: number) => String(n).padStart(2, '0');
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
-      <a href="#main">Movements</a>
       {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
+      <a href="#movements">Movements</a>
       <a href="#vocabulary">Vocabulary</a>
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
@@ -51,51 +51,19 @@ const num = (n: number) => String(n).padStart(2, '0');
       <p class="asof">Map as of {MAP_DATE}</p>
     </div>
     <div class="hero-grid">
-      <h1><span>Transcend.</span> <span>Pause.</span> <span>Accelerate.</span></h1>
+      <h1><span>Transcend.</span> <span>Accelerate.</span> <span>Pause.</span></h1>
       <div class="hero-side">
         <p class="stand">ChatGPT arrived in November 2022 and felt like year zero.<br /><span class="nb">It wasn't.</span></p>
         <div class="hero-body">
           <p>The AI world was already divided into camps, each with its own founding texts, institutions and language. Their arguments now shape what the labs build, what investors fund and what governments write into law.</p>
           <p>Many of their ideas are older than the computer. A rule for updating belief dates from 1763, a dream of perfecting humanity from 1795, a warning that machines would overtake us from 1863.</p>
-          <p>Made Minds maps the <a href="#main">six movements</a>, the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'} they grew out of, and the <a href="#vocabulary">vocabulary</a> they fight over.</p>
+          <p>Made Minds tells the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'}, maps the <a href="#movements">six movements</a> that grew out of it, and gathers the <a href="#vocabulary">vocabulary</a> they fight over.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <main id="main" class="wrap mov-sec" aria-labelledby="mov-h">
-    <div class="themes-head">
-      <h2 id="mov-h">Movements</h2>
-    </div>
-    <div class="fams">
-      {FAMILIES.map((fam) => (
-        <section class="fam" aria-labelledby={`fam-${fam.id}`}>
-          <div class="fh">
-            <h3 class="fn" id={`fam-${fam.id}`}><span class="fsw" style={`background:${fam.colour}`} aria-hidden="true"></span>{fam.name}</h3>
-            <p class="fd">{fam.text}</p>
-          </div>
-          {isms
-            .filter((i) => i.data.family === fam.id)
-            .map((i) => {
-              const inner = (
-                <Fragment>
-                  <Picture image={i.data.image} />
-                  <span class="cn">{num(i.data.order)}</span>
-                  <h4 class="ct">{i.data.title}</h4>
-                  <p class="cd">{i.data.summary}</p>
-                  {(i.data.aka || i.data.includes.length > 0) && (
-                    <p class="inc">{strandsLine(i.data.aka, i.data.includes)}</p>
-                  )}
-                  {!i.data.ready && <span class="soon">In preparation</span>}
-                </Fragment>
-              );
-              return i.data.ready ? <a class="card" href={pageHref(i.id)}>{inner}</a> : <div class="card">{inner}</div>;
-            })}
-        </section>
-      ))}
-    </div>
-  </main>
-
+  <main id="main">
   {moments.length > 0 && (
     <section id="history" class="wrap hist-sec" aria-labelledby="hist-h">
       <div class="themes-head">
@@ -128,6 +96,39 @@ const num = (n: number) => String(n).padStart(2, '0');
     </section>
   )}
 
+  <section id="movements" class="wrap mov-sec" aria-labelledby="mov-h">
+    <div class="themes-head">
+      <h2 id="mov-h">Movements</h2>
+    </div>
+    <div class="fams">
+      {FAMILIES.map((fam) => (
+        <section class="fam" aria-labelledby={`fam-${fam.id}`}>
+          <div class="fh">
+            <h3 class="fn" id={`fam-${fam.id}`}><span class="fsw" style={`background:${fam.colour}`} aria-hidden="true"></span>{fam.name}</h3>
+            <p class="fd">{fam.text}</p>
+          </div>
+          {isms
+            .filter((i) => i.data.family === fam.id)
+            .map((i) => {
+              const inner = (
+                <Fragment>
+                  <Picture image={i.data.image} />
+                  <span class="cn">{num(i.data.order)}</span>
+                  <h4 class="ct">{i.data.title}</h4>
+                  <p class="cd">{i.data.summary}</p>
+                  {(i.data.aka || i.data.includes.length > 0) && (
+                    <p class="inc">{strandsLine(i.data.aka, i.data.includes)}</p>
+                  )}
+                  {!i.data.ready && <span class="soon">In preparation</span>}
+                </Fragment>
+              );
+              return i.data.ready ? <a class="card" href={pageHref(i.id)}>{inner}</a> : <div class="card">{inner}</div>;
+            })}
+        </section>
+      ))}
+    </div>
+  </section>
+
   <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
     <div class="themes-head">
       <h2 id="vocab-h">Vocabulary</h2>
@@ -152,6 +153,7 @@ const num = (n: number) => String(n).padStart(2, '0');
       </p>
     )}
   </section>
+  </main>
 
   <footer class="wrap site-foot">
     <span>{SITE_NAME} · A shared framework for how we speak about AI, and the history behind it</span>

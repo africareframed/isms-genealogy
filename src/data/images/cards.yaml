@@ -182,6 +182,15 @@
   file: "bednets-stacked.jpg"
   alt: "Packaged insecticide-treated bed nets stacked high along a corridor"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Bednets_ready_for_distribution_(10676896376).jpg"
+- id: arithmometer-1860
+  title: "Thomas de Colmar arithmometer of 1860, Helsinki observatory"
+  date: "1860"
+  creator: "MKFI (photograph, 2012)"
+  rights: public-domain
+  file: "arithmometer-1860.jpg"
+  alt: "A brass arithmometer with sliders and dials in its open oak case, in a museum display case"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
+  note: "Batch 10, approved by the owner on 22 Nov 2026. The photographer released the photo into the public domain."
 - id: governor-boulton-watt
   title: "Watt's centrifugal governor of 1788, on the Lap Engine, Science Museum, London"
   date: "1788 (photographed 2008)"
