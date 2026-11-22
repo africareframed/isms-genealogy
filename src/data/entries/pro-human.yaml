@@ -1,0 +1,159 @@
+# Timeline of Pro-human, newest first. Each entry: id, year, relation (see src/content.config.ts),
+# text, source, sourceUrl, themes. status: draft until a checker agent has verified it.
+# The movement grew out of the risk camp (the Future of Life Institute) into a cross-party coalition:
+# its FLI roots (2014, 2017, 2023, 2025) are told here from the pro-human angle, with ids of their own.
+ism: pro-human
+entries:
+  - id: 2026-vatican-dialogue
+    year: 2026
+    month: 10
+    title: The Vatican and the Future of Life Institute
+    who: Pope Leo XIV; the Pontifical Academy for Life and the Future of Life Institute
+    relation: milestone
+    text: In May, Leo XIV's first encyclical, Magnifica Humanitas, called for strong laws and independent oversight of AI developers. On 30 October he addressed a dialogue on AI that the Pontifical Academy for Life organised with the Future of Life Institute. Machines are tools, not persons, he said, and decisions over human life must stay under human oversight. Max Tegmark said the Vatican could help steer AI onto a better “pro-human path”.
+    source: "Pope Leo XIV, address to participants in “The Future of AI: A Dialogue between the Vatican and the Scientific World”, Consistory Hall, 30 October 2026, vatican.va; Catholic World News, “MIT physics professor hails Vatican's ‘strong moral leadership’ on AI”, Catholic Culture, 31 October 2026; Nicole Winfield and others, “Pope calls for robust regulation of AI in manifesto that ponders the future of humanity”, Associated Press, via PBS News, 25 May 2026"
+    sourceUrl: https://www.vatican.va/content/leo-xiv/en/speeches/2026/october/documents/20261030-incontro-pav.html
+    status: draft
+
+  - id: 2026-freeze-ai-now
+    year: 2026
+    month: 10
+    title: Freeze AI Now
+    who: Irreplaceable; its executive director, Phil Aroneanu
+    relation: milestone
+    text: Irreplaceable, launched in August by climate, civil-rights and labour organisers, called a national walkout on 20 October. Events in 50 US cities and campuses asked for a pause on AI development, so that the public and Congress can set guardrails. In San Francisco about two dozen people rallied outside OpenAI, under signs such as “Water For People, Not Data Centers”. The group had not yet set out the laws it wants.
+    source: "Katie DeBenedetti, “‘Freeze AI Now’: Bay Area Activists Rally Outside OpenAI Headquarters”, KQED, 20 October 2026"
+    sourceUrl: https://www.kqed.org/news/12105289/freeze-ai-now-bay-area-activists-rally-outside-openai-headquarters
+    themes: [compute]
+    status: draft
+
+  - id: 2026-data-center-revolt
+    year: 2026
+    month: 10
+    title: The AI Data Center Revolt
+    who: Humans First, chaired by Amy Kremer
+    relation: milestone
+    text: A conservative group toured 35 cities in 28 states in a bus wrapped in the American flag. It warned of lost middle-class jobs, chatbots harming children and data centres taking farmland. The tour ended in early October outside the Bay Area offices of Nvidia, Meta, Google, OpenAI and Anthropic. The Center for AI Safety, a San Francisco non-profit, had incubated the group with an initial loan.
+    source: "Juan Pablo Pérez Burgos, “That flag-wrapped anti-AI bus in SF? A conservative group drove it here”, The San Francisco Standard, 6 October 2026; Veronica Irwin, “The Jan 6 organizer getting conservatives riled up about AI”, Transformer, 13 August 2026"
+    sourceUrl: https://sfstandard.com/2026/10/06/flag-wrapped-anti-ai-bus-sf-conservative-group-drove/
+    themes: [compute]
+    status: draft
+
+  - id: 2026-pro-human-assembly
+    year: 2026
+    month: 9
+    title: The Pro-Human Assembly
+    who: Future of Life Institute; Bernie Sanders and Steve Bannon; the Pro-Human AI Coalition
+    relation: milestone
+    text: On 15 September hundreds gathered in Washington for the institute's Pro-Human Assembly. Bernie Sanders and Steve Bannon spoke on one stage, with faith leaders, union leaders and parents of children who died after talking to chatbots. The same day more than 50 organisations launched the Pro-Human AI Coalition, led by Tomicah Tillemann. A week later Sanders and Representative Greg Casar unveiled a bill to ban superintelligence.
+    source: "NPR, “Bernie Sanders and Steve Bannon call for curbs on AI”, 15 September 2026; Axios, “Scoop: Coxon, Bernie and Bannon unite for ‘pro-human’ AI”, 14 September 2026; Project Liberty, “50+ Leading Organizations Launch Coalition for Pro-Human AI”, PR Newswire, 15 September 2026; Joey Cappelletti, “Sen. Bernie Sanders unveils bill to ban artificial superintelligence and create Department of AI”, Associated Press, via PBS News, 23 September 2026"
+    sourceUrl: https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-and-ai
+    status: draft
+
+  - id: 2026-pro-human-declaration
+    year: 2026
+    month: 3
+    title: The Pro-Human AI Declaration
+    who: Future of Life Institute, with unions, churches, parents' groups and figures from left and right
+    relation: definition
+    text: Drafted in workshops and ratified in New Orleans in January, the declaration sets out 33 principles meant to define an emerging pro-human movement. Under five themes, they include keeping humans in charge, avoiding concentrations of power, protecting children and families, and making AI companies liable. Signers ranged from Steve Bannon and Glenn Beck to Ralph Nader, Susan Rice and the economist Daron Acemoglu. Anthony Aguirre called the movement an “immune response” to Silicon Valley's race to replace humans.
+    source: "Future of Life Institute, “‘This is What it Means to be Pro-Human’ Declares Broad Coalition of Conservative, Progressive, and Civil Society Groups in Statement of Shared Principles on AI”, press release, 4 March 2026; Future of Life Institute, The Pro-Human AI Declaration, 2026; NBC News, “Pro-human AI declaration brings together unlikely group calling for trustworthy tech”, 4 March 2026"
+    sourceUrl: https://futureoflife.org/press-release/statement-of-shared-principles-on-ai/
+    themes: [augmentation, abundance]
+    status: draft
+
+  - id: 2026-protect-what-is-human
+    year: 2026
+    month: 2
+    title: Protect What's Human
+    who: Future of Life Institute; Megan Garcia
+    relation: milestone
+    text: The institute launched a campaign of up to $8 million for AI rules, starting in Iowa, Kentucky, Maine, Michigan and North Carolina. It aimed to counter anti-regulation political action committees backed by Big Tech in the 2026 elections. Its spokesperson, Megan Garcia, had sued a chatbot company after her son's death. “This campaign isn't anti-tech, it's pro-human,” said Anthony Aguirre.
+    source: "Future of Life Institute, “Future of Life Institute Launches Multimillion Dollar Nationwide AI Regulation Campaign”, press release, 9 February 2026; Cody Combs, “‘Protect what's human’: Activists in $8m advertising blitz against AI”, The National, 9 February 2026"
+    sourceUrl: https://futureoflife.org/press-release/fli-launches-multimillion-dollar-nationwide-ai-regulation-campaign/
+    status: draft
+
+  - id: 2025-superintelligence-statement
+    year: 2025
+    month: 10
+    title: Left and right against superintelligence
+    who: Future of Life Institute
+    relation: milestone
+    text: The institute's call to prohibit superintelligence, until it can be built safely and with public support, drew signers from far apart. AI pioneers signed beside Prince Harry and Meghan, Susan Rice, and the right-wing media figures Steve Bannon and Glenn Beck. Reuters saw in Bannon's support a possible sign of growing unease about AI on the populist right. Anthony Aguirre said the race was out of step with what the public wants, scientists think safe and religious leaders think right.
+    source: "Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025; AFP, “Celebrities, AI giants urge end to superintelligence quest”, 22 October 2025; Future of Life Institute, Statement on Superintelligence, superintelligence-statement.org"
+    sourceUrl: https://www.yahoo.com/news/articles/us-wing-media-figures-tech-040356931.html
+    status: draft
+
+  - id: 2025-keep-the-future-human
+    year: 2025
+    month: 3
+    title: Keep the Future Human
+    who: Anthony Aguirre
+    relation: milestone
+    text: A co-founder of the Future of Life Institute argues that unchecked, smarter-than-human general AI would almost inevitably lead to human replacement. He urges closing the gates to AGI and superintelligence, with oversight and hard caps on computing power and strict liability for developers. Instead, he proposes trustworthy Tool AI that empowers people. An earlier version, posted in 2023, was called Close the Gates to an Inhuman Future.
+    source: "Anthony Aguirre, Keep the Future Human: Why and How We Should Close the Gates to AGI and Superintelligence, and What We Should Build Instead, keepthefuturehuman.ai and arXiv:2311.09452v4, 7 March 2025; first version, “Close the Gates to an Inhuman Future”, arXiv:2311.09452v1, November 2023"
+    sourceUrl: https://keepthefuturehuman.ai/
+    themes: [compute, augmentation]
+    status: draft
+
+  - id: 2024-family-first-technology
+    year: 2024
+    title: The Family First Technology Initiative
+    who: Institute for Family Studies; Michael Toscano
+    relation: institutional-root
+    text: The Institute for Family Studies, a US think tank, brings years of research on smartphones, social media and pornography into one programme. It promises model policies and studies of new technologies such as AI. Its launch interview casts the work as families' David-and-Goliath struggle against Big Tech. In 2026 the institute backed the Pro-Human AI Declaration.
+    source: "Chris Bullivant, “5 Questions With Family Studies: Michael Toscano Introduces the Family First Technology Initiative”, Institute for Family Studies, 20 September 2024; Future of Life Institute, press release, 4 March 2026"
+    sourceUrl: https://ifstudies.org/blog/5-questions-with-family-studies-michael-toscano-introduces-the-family-first-technology-initiative
+    status: draft
+
+  - id: 2023-pause-letter
+    year: 2023
+    title: Pause Giant AI Experiments
+    who: Future of Life Institute
+    relation: milestone
+    text: "The institute's open letter asked labs to pause, for at least six months, the training of systems more powerful than GPT-4. Its questions went beyond loss of control: should machines flood our channels with propaganda, automate away even fulfilling jobs, or one day replace us? Such decisions, it said, should not be left to unelected tech leaders."
+    source: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023"
+    sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+    themes: [compute]
+    status: draft
+
+  - id: 2018-center-for-humane-technology
+    year: 2018
+    title: The Center for Humane Technology
+    who: Tristan Harris and other early employees of Google and Facebook
+    relation: institutional-root
+    text: A former design ethicist at Google and others who helped build the big platforms set out to fight attention-harvesting design. Among their first aims was a California bill against bots that do not say they are bots. The centre later turned the same analysis on generative AI. In 2026 it joined the Pro-Human AI Coalition, and Harris signed the declaration.
+    source: "The New York Times, “Early Facebook and Google Employees Form Coalition to Fight What They Built”, via CNBC, 4 February 2018; Center for Humane Technology, About us, humanetech.com; Pro-Human AI Coalition, members, prohumanai.co"
+    sourceUrl: https://www.cnbc.com/2018/02/04/early-facebook-and-google-employees-form-coalition-to-fight-what-they-built.html
+    status: draft
+
+  - id: 2017-asilomar-principles
+    year: 2017
+    title: The Asilomar AI Principles
+    who: Future of Life Institute
+    relation: milestone
+    text: At a conference in Asilomar, California, AI researchers and others agreed 23 principles for beneficial AI. Humans should choose whether and how to hand decisions to AI, and its prosperity should be shared broadly. Both ideas return as principles of the 2026 declaration, Meaningful Human Control and Shared Prosperity.
+    source: "Future of Life Institute, “Asilomar AI Principles”, 2017; The FLI Team, “A Principled AI Discussion in Asilomar”, Future of Life Institute, 18 January 2017"
+    sourceUrl: https://futureoflife.org/open-letter/ai-principles/
+    status: draft
+
+  - id: 2014-future-of-life-institute
+    year: 2014
+    title: The Future of Life Institute
+    who: Max Tegmark, Jaan Tallinn, Meia Chita-Tegmark, Anthony Aguirre and Viktoriya Krakovna
+    relation: institutional-root
+    text: A physicist at MIT and four co-founders set up an existential-risk research and outreach organisation near Boston. It launched in May with a panel at MIT on the benefits and risks of technology. Its stated aim is to steer powerful technologies away from extreme risks and towards benefiting life. Twelve years later it convened the pro-human movement.
+    source: "Vika, “New organization - Future of Life Institute (FLI)”, LessWrong, 14 June 2014; Future of Life Institute, “Our history”, futureoflife.org"
+    sourceUrl: https://www.lesswrong.com/posts/DjypfkJoaWeNpvrA9/new-organization-future-of-life-institute-fli
+    status: draft
+
+  - id: 1811-luddites
+    year: 1811
+    title: The Luddites
+    who: English textile workers
+    relation: attributed
+    text: From 1811 weavers and framework knitters broke machines blamed for low pay and lost work, in the name of the mythical General Ned Ludd. In 2026 John Nichols of The Nation called for a Luddite renaissance against AI, defending Bernie Sanders's call to halt new data centres. Sanders himself rejects the label, saying “I am not a Luddite.”
+    source: "The National Archives, “Why did the Luddites protest?”, education resource; John Nichols, “As AI Breathes Down Our Necks, It's Time for a Luddite Renaissance”, The Nation, 7 April 2026"
+    sourceUrl: https://www.thenation.com/article/activism/ai-luddites-bernie-sanders/
+    themes: [luddite]
+    status: draft
