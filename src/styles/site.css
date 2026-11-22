@@ -84,6 +84,10 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .themes-head { display: flex; flex-direction: column; gap: 16px; padding-top: 40px; border-top: 1px solid var(--rule-2); }
 .themes-head h2 { margin: 0; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; }
 .themes-head p { margin: 0; max-width: 720px; font-size: 20px; line-height: 30px; color: var(--ink-3); }
+/* A section's introduction beside its header, on columns 7-12 like the hero's text (owner, 23 Nov 2026) */
+.themes-head:has(.sec-intro) { display: grid; grid-template-columns: calc(var(--c) * 6 + var(--g) * 5) minmax(0, 1fr); column-gap: var(--g); row-gap: 16px; align-items: start; }
+.themes-head .sec-intro { grid-column: 2; max-width: 560px; padding-top: 6px; font-size: 16px; line-height: 25px; color: var(--ink-3); }
+@media (max-width: 900px) { .themes-head:has(.sec-intro) { grid-template-columns: minmax(0, 1fr); } .themes-head .sec-intro { grid-column: 1; padding-top: 0; } }
 .tgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--g); row-gap: 56px; }
 .tl { font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
 .tt { margin: 0; font-size: 24px; line-height: 28px; font-weight: 600; letter-spacing: -0.01em; }
