@@ -271,20 +271,36 @@
   file: "collage-moment-alphago.jpg"
   alt: "Lee Sedol with his hand to his forehead over the Go board, screened in ink on orange"
 
-# The Protection family (owner, 22 Nov 2026). Placeholders until the collages are made.
+# The Protection family (owner, 22 Nov 2026): recent photographs, all cleared by the owner (22 and 23 Nov 2026).
 - id: collage-ai-ethics
-  title: "AI ethics"
-  rights: to-check
-  alt: "Placeholder for the AI ethics card"
+  title: "Collage from an AFP photograph of a head camera worn to record training data for robots (2026)"
+  rights: cleared
+  licence: "Photo R. Satish Babu / AFP"
+  file: "collage-ai-ethics.jpg"
+  alt: "A camera bar strapped to a woman's forehead, over blue fields; the recording app warns when it cannot see her hands"
+  sourceUrl: "https://www.aljazeera.com/gallery/2026/6/11/photos-indias-workers-are-training-ai-robots-to-take-their-jobs"
+  note: "Owner cleared the AFP head-cam photos on 23 Nov 2026 (an artistic treatment). Karur, Tamil Nadu, May 2026. 'Hands not detected': the app's warning, as a worker told AFP (Dawn, June 2026)."
 - id: collage-ai-ethics-tall
-  title: "AI ethics"
-  rights: to-check
-  alt: "Placeholder for the AI ethics page image"
+  title: "Collage from an AFP photograph of a GoPro being strapped onto a worker's head (2026)"
+  rights: cleared
+  licence: "Photo R. Satish Babu / AFP"
+  file: "collage-ai-ethics-tall.jpg"
+  alt: "Hands strap a GoPro camera onto a worker's head, over blue fields"
+  sourceUrl: "https://www.aljazeera.com/gallery/2026/6/11/photos-indias-workers-are-training-ai-robots-to-take-their-jobs"
+  note: "Owner cleared the AFP head-cam photos on 23 Nov 2026. Karur, Tamil Nadu, May 2026."
 - id: collage-pro-human
-  title: "Pro-human"
-  rights: to-check
-  alt: "Placeholder for the Pro-human card"
+  title: "Collage from a photograph of a protest outside OpenAI (2026) and a still of Bernie Sanders at the Pro-Human Assembly"
+  rights: cleared
+  licence: "Protest photo Nathan Kuczmarski, Unsplash License; still from the recording of the Pro-Human Assembly, Washington, 15 September 2026"
+  file: "collage-pro-human.jpg"
+  alt: "Protesters hold up a banner reading I want water to drink, not AI to think, over blue fields; beside it Bernie Sanders speaks at the Pro-Human Assembly podium"
+  sourceUrl: "https://unsplash.com/photos/protesters-hold-signs-at-a-demonstration-iykn9Qhc3KE"
+  note: "The Sanders still was supplied and cleared by the owner (22 Nov 2026); people's images are allowed here at his say. Bannon spoke after Sanders (Axios, 15 Sep 2026)."
 - id: collage-pro-human-tall
-  title: "Pro-human"
-  rights: to-check
-  alt: "Placeholder for the Pro-human page image"
+  title: "Collage from a photograph of a protest outside OpenAI (2026) and a still of Bernie Sanders at the Pro-Human Assembly"
+  rights: cleared
+  licence: "Protest photo Nathan Kuczmarski, Unsplash License; still from the recording of the Pro-Human Assembly, Washington, 15 September 2026"
+  file: "collage-pro-human-tall.jpg"
+  alt: "A protest banner reading I want water to drink, not AI to think, above Bernie Sanders at the Pro-Human Assembly podium, over blue fields"
+  sourceUrl: "https://unsplash.com/photos/protesters-hold-signs-at-a-demonstration-iykn9Qhc3KE"
+  note: "The Sanders still was supplied and cleared by the owner (22 Nov 2026)."

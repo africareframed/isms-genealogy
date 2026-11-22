@@ -349,6 +349,36 @@ SPECS = [
 _tall = next(x for x in SPECS if x['id'] == 'collage-history-tall')
 SPECS.append(dict(_tall, id='collage-history-tall-home', black=[(1, 11, 1, 1)]))
 
+# The Protection family (owner, 22 Nov 2026): recent photographs, cleared by the owner, in highlighter blue.
+SPECS += [
+    dict(id='collage-ai-ethics', size=ISM, colour=BLUE, seed=707,
+         fields=[(0, 0, 9, 8), (12, 8, 4, 4)], black=[(11, 1, 1, 1), (1, 10, 1, 1)],
+         fragments=[dict(img='headcam-closeup-2026.jpg', box=(1000, 571), crop=(0.12, 0.0, 0.96, 0.72), how='screen', level=0.38, detail=2, at=(40, 140))],
+         shift=[(1, 5, 1, 1, 1, 0)], invert=[(5, 5, 1, 1)],
+         labels=[('2026 · "HANDS NOT DETECTED",', 1070, 470), ('THE RECORDING APP WARNS · AFP', 1070, 512),
+                 ('MAY 2026 · A HEAD CAMERA FOR ROBOT TRAINING DATA · KARUR, INDIA', 40, 1150)]),
+    dict(id='collage-ai-ethics-tall', size=PAGE, colour=BLUE, seed=707,
+         fields=[(0, 2, 8, 9), (8, 12, 4, 3)], black=[(10, 1, 1, 1), (0, 13, 1, 1)],
+         fragments=[dict(img='headcam-strapped-on-2026.jpg', box=(1120, 722), crop=(0.36, 0.04, 0.96, 0.62), how='screen', level=0.5, at=(40, 300))],
+         shift=[(2, 8, 1, 1, 1, 0)], invert=[(9, 5, 1, 1)],
+         labels=[('2026 · "HANDS NOT DETECTED", THE RECORDING APP WARNS · AFP', 40, 1100),
+                 ('MAY 2026 · A GOPRO IS STRAPPED ON · KARUR, TAMIL NADU', 40, 1440)]),
+    dict(id='collage-pro-human', size=ISM, colour=BLUE, seed=808,
+         fields=[(0, 1, 11, 7), (13, 0, 3, 5)], black=[(11, 0, 1, 1), (0, 10, 1, 1)],
+         fragments=[dict(img='protest-water-banner-2026.jpg', box=(1000, 511), crop=(0.20, 0.12, 0.80, 0.58), how='screen', level=0.5, at=(40, 120)),
+                    dict(img='sanders-pro-human-assembly-2026.jpg', box=(380, 373), crop=(0.268, 0.14, 0.646, 0.80), how='screen', level=0.45, at=(1180, 660))],
+         shift=[(3, 5, 1, 1, 1, 0)], invert=[(8, 6, 1, 1)],
+         labels=[('15 SEP 2026 · SANDERS, THEN BANNON, ON ONE STAGE', 905, 1090),
+                 ('2026 · A PROTEST OUTSIDE OPENAI, SAN FRANCISCO', 40, 1150)]),
+    dict(id='collage-pro-human-tall', size=PAGE, colour=BLUE, seed=808,
+         fields=[(0, 1, 10, 9), (9, 11, 3, 4)], black=[(10, 0, 1, 1), (0, 12, 1, 1)],
+         fragments=[dict(img='protest-water-banner-2026.jpg', box=(1120, 572), crop=(0.20, 0.12, 0.80, 0.58), how='screen', level=0.5, at=(40, 140)),
+                    dict(img='sanders-pro-human-assembly-2026.jpg', box=(480, 471), crop=(0.268, 0.14, 0.646, 0.80), how='screen', level=0.45, at=(680, 790))],
+         shift=[(3, 4, 1, 1, 1, 0)], invert=[(8, 5, 1, 1)],
+         labels=[('15 SEP 2026 · SANDERS, THEN BANNON,', 40, 1150), ('ON ONE STAGE', 40, 1192),
+                 ('2026 · A PROTEST OUTSIDE OPENAI, SAN FRANCISCO', 40, 1440)]),
+]
+
 if __name__ == '__main__':
     import os, sys
     os.makedirs(OUT, exist_ok=True)

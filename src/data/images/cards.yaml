@@ -191,6 +191,44 @@
   alt: "A brass arithmometer with sliders and dials in its open oak case, in a museum display case"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
   note: "Batch 10, approved by the owner on 22 Nov 2026. The photographer released the photo into the public domain."
+- id: protest-water-banner-2026
+  title: "Protesters with a banner outside OpenAI, San Francisco"
+  date: "2026"
+  creator: "Nathan Kuczmarski"
+  rights: open-licence
+  licence: "Unsplash License, photo Nathan Kuczmarski"
+  file: "protest-water-banner-2026.jpg"
+  alt: "Protesters hold up a hand-painted banner reading I want water to drink, not AI to think"
+  sourceUrl: "https://unsplash.com/photos/protesters-hold-signs-at-a-demonstration-iykn9Qhc3KE"
+  note: "Batch 9, approved by the owner on 22 Nov 2026. Published on Unsplash on 5 March 2026."
+- id: sanders-pro-human-assembly-2026
+  title: "Bernie Sanders at the Pro-Human Assembly, Washington"
+  date: "2026"
+  rights: cleared
+  licence: "Still from the recording of the Pro-Human Assembly, 15 September 2026"
+  file: "sanders-pro-human-assembly-2026.jpg"
+  alt: "Bernie Sanders speaks at a podium marked The Pro-Human Assembly 2026"
+  note: "Screenshot supplied and cleared by the owner on 22 Nov 2026, for the Pro-human card only."
+- id: headcam-closeup-2026
+  title: "A camera worn on the head to record training data for robots, Karur, Tamil Nadu"
+  date: "2026"
+  creator: "R. Satish Babu, AFP"
+  rights: cleared
+  licence: "Photo R. Satish Babu / AFP"
+  file: "headcam-closeup-2026.jpg"
+  alt: "A camera bar with several lenses strapped to a woman's forehead"
+  sourceUrl: "https://www.aljazeera.com/gallery/2026/6/11/photos-indias-workers-are-training-ai-robots-to-take-their-jobs"
+  note: "Batch 9; the owner cleared the AFP photos on 23 Nov 2026."
+- id: headcam-strapped-on-2026
+  title: "A GoPro strapped onto a worker's head, Karur, Tamil Nadu"
+  date: "2026"
+  creator: "R. Satish Babu, AFP"
+  rights: cleared
+  licence: "Photo R. Satish Babu / AFP"
+  file: "headcam-strapped-on-2026.jpg"
+  alt: "A woman fastens a GoPro camera on a head strap onto another woman's head"
+  sourceUrl: "https://www.aljazeera.com/gallery/2026/6/11/photos-indias-workers-are-training-ai-robots-to-take-their-jobs"
+  note: "Batch 9; the owner cleared the AFP photos on 23 Nov 2026."
 - id: governor-boulton-watt
   title: "Watt's centrifugal governor of 1788, on the Lap Engine, Science Museum, London"
   date: "1788 (photographed 2008)"
