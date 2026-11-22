@@ -16,7 +16,7 @@ isms:
   - ism: techno-optimism
     text: Its leaders describe AI as augmentation. Marc Andreessen wrote in 2023 that AI offers the chance to “profoundly augment human intelligence”, and Microsoft sells its assistants as Copilot.
   - ism: pro-human
-    text: The pro-human movement wants AI as a tool that amplifies people. Its 2026 declaration asks for trustworthy, controllable tools that expand human potential, instead of a race to replace people.
+    text: The pro-human movement wants AI as a tool that serves people. Its 2026 declaration asks for trustworthy, controllable tools that amplify human potential, instead of a race to replace people.
 strands:
   - name: Copilots
     text: GitHub launched Copilot in 2021 as an “AI pair programmer”, built on OpenAI's Codex. In 2023 Microsoft announced Copilot for Word, Excel, Outlook and Teams. Its launch post promised that the user always stays in control.

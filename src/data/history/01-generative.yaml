@@ -7,15 +7,15 @@
   year: 2026
   month: 9
   title: The Pro-Human Assembly
-  line: Bernie Sanders and Steve Bannon share a stage to demand human control of AI.
+  line: Bernie Sanders and Steve Bannon take the same stage to call for curbs on AI.
   who: Future of Life Institute; Bernie Sanders; Steve Bannon
-  text: On 15 September hundreds gathered in Washington for the Future of Life Institute's Pro-Human Assembly. Sanders and Bannon spoke from the same stage, alongside faith leaders, unions and parents of children who died after talking to chatbots. The same day more than 50 organisations launched the Pro-Human AI Coalition. A day earlier, President Trump had called AI warnings a “HOAX”.
-  source: "NPR, “Bernie Sanders and Steve Bannon call for curbs on AI”, 15 September 2026; Project Liberty, “50+ Leading Organizations Launch Coalition for Pro-Human AI”, PR Newswire, 15 September 2026"
+  text: On 15 September hundreds gathered in Washington for the Future of Life Institute's Pro-Human Assembly. Sanders and Bannon shared the stage with faith and union leaders and with parents whose children died by suicide after talking to chatbots. The same day more than 50 organisations launched the Pro-Human AI Coalition. A day earlier, President Trump had called fears of AI destroying humanity a “HOAX”.
+  source: "NPR, “Bernie Sanders and Steve Bannon call for curbs on AI”, 15 September 2026; Axios, “Scoop: Coxon, Bernie and Bannon unite for ‘pro-human’ AI”, 14 September 2026; Project Liberty, “50+ Leading Organizations Launch Coalition for Pro-Human AI”, PR Newswire, 15 September 2026"
   sourceUrl: https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-and-ai
   isms: [pro-human]
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2026-humanist-ai-code
   era: generative
@@ -67,15 +67,15 @@
   year: 2025
   month: 10
   title: A call to ban superintelligence
-  line: Scientists, royals and right-wing broadcasters sign a call to prohibit superintelligence.
+  line: Scientists, royals and right-wing media figures sign a call to prohibit superintelligence.
   who: Future of Life Institute
-  text: The Future of Life Institute called for a prohibition on developing superintelligence until there is broad scientific consensus that it can be done safely and controllably, and strong public support. Geoffrey Hinton and Yoshua Bengio signed beside Prince Harry and Meghan, Susan Rice, Steve Bannon and Glenn Beck.
-  source: "Future of Life Institute, “Statement on Superintelligence”, 22 October 2025; Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025"
+  text: The Future of Life Institute called for a prohibition on developing superintelligence. It would hold until there is broad scientific consensus that it will be done safely and controllably, and strong public support. Geoffrey Hinton and Yoshua Bengio signed beside Prince Harry and Meghan, Susan Rice, Steve Bannon and Glenn Beck.
+  source: "Future of Life Institute, “Statement on Superintelligence”, superintelligence-statement.org, 22 October 2025; Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025; Matt O'Brien, “Prince Harry, Meghan join call for ban on development of AI ‘superintelligence’”, Associated Press, 22 October 2025"
   sourceUrl: https://superintelligence-statement.org/
   isms: [rationalism, pro-human]
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2025-stargate
   era: generative
