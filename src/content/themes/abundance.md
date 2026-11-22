@@ -16,7 +16,7 @@ isms:
   - ism: techno-optimism
     text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure.
   - ism: pro-human
-    text: It wants AI's gains shared. Its 2026 declaration includes a principle of shared prosperity, and in 2026 Bernie Sanders proposed a sovereign wealth fund paid for by the largest AI companies.
+    text: It wants AI's gains shared. Its 2026 declaration has a principle of shared prosperity. In June 2026 Bernie Sanders proposed a sovereign wealth fund, paid for by a one-time tax on the stock of the largest AI companies.
 strands:
   - name: Too cheap to meter
     text: In 1954 Lewis Strauss, head of the US Atomic Energy Commission, told science writers the next generation would enjoy electricity “too cheap to meter”. Critics later made the phrase a byword for over-optimistic promises about nuclear power.

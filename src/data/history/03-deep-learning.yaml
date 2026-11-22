@@ -22,15 +22,15 @@
   year: 2016
   month: 5
   title: “Machine Bias”
-  line: ProPublica finds a risk score wrongly flags Black defendants about twice as often as white ones.
+  line: ProPublica finds a risk score wrongly flags Black defendants almost twice as often as white ones.
   who: ProPublica; Julia Angwin
-  text: ProPublica examined COMPAS, software that scores how likely defendants are to reoffend, using records of more than 7,000 people in Broward County, Florida. Black defendants who did not reoffend were almost twice as likely as white ones to have been labelled high risk. Northpointe, its maker, disputed the analysis.
+  text: ProPublica examined COMPAS, software that rates defendants' risk of reoffending, using the scores of more than 7,000 people arrested in Broward County, Florida. Black defendants who did not reoffend were almost twice as likely as white ones to have been labelled higher risk. Northpointe, its maker, disputed the analysis.
   source: "Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, “Machine Bias”, ProPublica, 23 May 2016"
   sourceUrl: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
   isms: [ai-ethics]
   themes: []
   thread: warnings
-  status: draft
+  status: checked
 
 - id: 2016-alphago
   era: deep-learning
