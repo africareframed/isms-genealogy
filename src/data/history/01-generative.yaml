@@ -47,6 +47,21 @@
   thread: talking
   status: checked
 
+- id: 2026-magnifica-humanitas
+  era: generative
+  year: 2026
+  month: 5
+  title: Magnifica Humanitas
+  line: Pope Leo XIV's first encyclical asks that AI serve humanity, not concentrate power.
+  who: Pope Leo XIV
+  text: Leo XIV signed his first encyclical on 15 May 2026, the 135th anniversary of Rerum Novarum, and published it on 25 May. Its subject is safeguarding the human person in the time of artificial intelligence. It calls for robust regulation of AI, and for its developers to work for the common good rather than profit. Presenting it, the Pope said AI must be “disarmed”; Anthropic's co-founder Christopher Olah attended.
+  source: "Holy See Press Office, “Encyclical Letter Magnifica Humanitas of Pope Leo XIV on safeguarding the human person in the time of Artificial Intelligence”, 25 May 2026; Nicole Winfield, “Pope calls for robust regulation of AI in manifesto that ponders the future of humanity”, Associated Press, 25 May 2026"
+  sourceUrl: https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/05/25/260525e.html
+  isms: []
+  themes: []
+  thread: warnings
+  status: draft
+
 - id: 2026-anthropic-pentagon
   era: generative
   year: 2026
