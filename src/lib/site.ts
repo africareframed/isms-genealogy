@@ -8,6 +8,8 @@ export const FAMILIES = [
   { id: 'transcendence', name: 'Transcendence', colour: '#C9F25B', text: 'The vision of a future beyond human limits.' },
   { id: 'acceleration', name: 'Acceleration', colour: '#FF9F4F', text: 'The conviction that the answer is more technology, faster.' },
   { id: 'risk', name: 'Risk', colour: '#F5A3BC', text: 'The fear that AI could end us, and the work to prevent it.' },
+  // Protection (owner, 22 Nov 2026): protecting people living now from how AI is built and used today.
+  { id: 'protection', name: 'Protection', colour: '#73C7F2', text: 'The demand to protect people now from how AI is built and used.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */

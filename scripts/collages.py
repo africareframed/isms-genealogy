@@ -16,6 +16,7 @@ INK = np.array([20, 19, 19], float) / 255
 GREEN, PINK, ORANGE, GREY = '#C9F25B', '#F5A3BC', '#D8461C', '#B7B3AA'
 # The families' colours are highlighter colours (owner, 22 Nov 2026). ORANGE stays the site accent, used on the History of AI cards.
 ACCEL = '#FF9F4F'
+BLUE = '#73C7F2'  # Protection (owner, 22 Nov 2026)
 SANS = os.path.join(ROOT, 'scripts/collage-fonts/InterTight-600.ttf')
 MONO = os.path.join(ROOT, 'scripts/collage-fonts/PlexMono-500.ttf')
 

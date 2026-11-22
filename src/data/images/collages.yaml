@@ -270,3 +270,21 @@
   note: "Cleared by the owner on 21 November 2026 as fair use"
   file: "collage-moment-alphago.jpg"
   alt: "Lee Sedol with his hand to his forehead over the Go board, screened in ink on orange"
+
+# The Protection family (owner, 22 Nov 2026). Placeholders until the collages are made.
+- id: collage-ai-ethics
+  title: "AI ethics"
+  rights: to-check
+  alt: "Placeholder for the AI ethics card"
+- id: collage-ai-ethics-tall
+  title: "AI ethics"
+  rights: to-check
+  alt: "Placeholder for the AI ethics page image"
+- id: collage-pro-human
+  title: "Pro-human"
+  rights: to-check
+  alt: "Placeholder for the Pro-human card"
+- id: collage-pro-human-tall
+  title: "Pro-human"
+  rights: to-check
+  alt: "Placeholder for the Pro-human page image"
