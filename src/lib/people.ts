@@ -1,4 +1,5 @@
 import { getCollection } from 'astro:content';
+import { readdirSync } from 'node:fs';
 import { getHistory, getWords, eraBounds } from './history';
 import { ERAS, FAMILIES } from './site';
 
@@ -14,6 +15,14 @@ const plain = (name: string) => name.replace(/\s*\(.*?\)\s*/g, ' ').trim();
 
 export const personAnchor = (id: string) => `p-${id}`;
 
+const hasFacts = () => {
+  try {
+    return readdirSync('src/data/people-facts').some((f) => f.endsWith('.yaml'));
+  } catch {
+    return false;
+  }
+};
+
 const eraOfYear = (year: number) => ERAS.find((e) => year >= eraBounds(e.id).from && year < eraBounds(e.id).to)?.id ?? ERAS[0].id;
 
 export const getPeople = async () => {
@@ -23,6 +32,10 @@ export const getPeople = async () => {
   const entries = await getCollection('entries');
   const moments = await getHistory();
   const words = await getWords();
+  // checked facts only (scripts/people_facts.py copies nothing else); an empty folder would make the build warn
+  const facts = new Map(
+    (hasFacts() ? await getCollection('peopleFacts') : []).filter((f) => f.data.status === 'checked').map((f) => [f.id, f.data]),
+  );
   const ismById = new Map(isms.map((i) => [i.id, i]));
   const familyOf = (ismId: string) => FAMILIES.find((f) => f.id === ismById.get(ismId)?.data.family);
 
@@ -48,10 +61,16 @@ export const getPeople = async () => {
     const firstYear = firstMoment?.data.year ?? firstEntry?.data.year;
     const era = firstMoment ? firstMoment.data.era : firstEntry ? eraOfYear(firstEntry.data.year) : undefined;
     const threads = [...new Set(inHistory.map((m) => m.data.thread).filter((t): t is string => Boolean(t)))];
+    const fact = facts.get(p.id);
     return {
       id: p.id,
       name: p.data.name,
-      lifespan: p.data.lifespan ?? figs.find((f) => f.data.lifespan)?.data.lifespan,
+      lifespan: p.data.lifespan ?? figs.find((f) => f.data.lifespan)?.data.lifespan ?? fact?.lifespan,
+      roles: fact?.roles ?? [],
+      labs: fact?.labs ?? [],
+      letters: fact?.letters ?? [],
+      factNote: figs.length ? undefined : fact?.note,
+      sources: fact?.sources ?? [],
       portrait: p.data.portrait,
       isms: ismIds,
       families: [...new Set(ismIds.map((i) => familyOf(i)?.id).filter((f): f is NonNullable<typeof f> => Boolean(f)))],

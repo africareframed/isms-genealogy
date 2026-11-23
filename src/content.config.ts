@@ -4,7 +4,7 @@ import { z } from 'astro/zod';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { parse } from 'yaml';
-import { ERA_IDS, THREAD_IDS } from './lib/site';
+import { ROLE_IDS, LAB_IDS, LETTER_IDS, ERA_IDS, THREAD_IDS } from './lib/site';
 
 const status = z.enum(['draft', 'checked']).default('draft');
 
@@ -224,4 +224,19 @@ const people = defineCollection({
   }),
 });
 
-export const collections = { isms, themes, entries, figures, images, words, history, people };
+/* People facts (owner, 23 Nov 2026): src/data/people-facts/<nn>.yaml, one entry per person (id = the person's id),
+   researched and checked by batch. Only checked entries are copied in (scripts/people_facts.py). */
+const peopleFacts = defineCollection({
+  loader: listLoader('people-facts'),
+  schema: z.object({
+    lifespan: z.string().optional(),
+    note: z.string().optional(), // only for people the site has no figure note for
+    roles: z.array(z.enum(ROLE_IDS)).default([]),
+    labs: z.array(z.object({ lab: z.enum(LAB_IDS), from: z.number().int().optional(), to: z.number().int().optional() })).default([]),
+    letters: z.array(z.enum(LETTER_IDS)).default([]),
+    sources: z.array(z.object({ for: z.string(), source: z.string(), url: z.string().optional() })).default([]),
+    status,
+  }),
+});
+
+export const collections = { isms, themes, entries, figures, images, words, history, people, peopleFacts };

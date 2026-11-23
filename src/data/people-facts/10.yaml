@@ -1,0 +1,439 @@
+# People facts, batch 10: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: isaac-asimov
+  lifespan: c. 1920–1992
+  note: Science fiction writer and professor of biochemistry. His 1942 story Runaround set out the Three Laws of Robotics, a code of ethics for robots.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Isaac Asimov (born c. 2 January 1920, true date unknown, between 4 October 1919 and 2 January 1920; died 6 April 1992), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Isaac_Asimov
+  - for: roles
+    source: Wikipedia, Isaac Asimov (American writer and professor of biochemistry at Boston University; one of the Big Three science fiction writers), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Isaac_Asimov
+  - for: note
+    source: Wikipedia, Three Laws of Robotics (devised by Asimov; debuted in the 1942 short story Runaround), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Three_Laws_of_Robotics
+  - for: note
+    source: Wikipedia, Isaac Asimov (robot stories set out rules of ethics for robots; Runaround in Astounding Science Fiction, March 1942), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Isaac_Asimov
+  status: checked
+- id: konrad-zuse
+  lifespan: 1910–1995
+  note: Civil engineer and computer pioneer. In May 1941 he presented the Z3, credited as the world's first working programmable computer.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Konrad Zuse (22 June 1910 – 18 December 1995), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Konrad_Zuse
+  - for: roles
+    source: Wikipedia, Konrad Zuse (civil engineer, pioneering computer scientist, inventor and businessman), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Konrad_Zuse
+  - for: note
+    source: Wikipedia, Konrad Zuse (presented the Z3 to the public on 12 May 1941), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Konrad_Zuse
+  - for: note
+    source: Wikipedia, Z3 (computer) (the world's first working programmable, fully automatic digital computer; presented in Berlin on 12 May 1941), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Z3_(computer)
+  status: checked
+- id: gordon-welchman
+  lifespan: 1906–1985
+  note: Mathematician and codebreaker at Bletchley Park in the Second World War. He led Hut Six and invented the diagonal board, which made the British bombe far more powerful.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Gordon Welchman (15 June 1906 – 8 October 1985), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gordon_Welchman
+  - for: roles
+    source: Wikipedia, Gordon Welchman (English mathematician; worked at Bletchley Park in the Second World War), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gordon_Welchman
+  - for: note
+    source: Wikipedia, Gordon Welchman (head of Hut Six; invented the Diagonal Board, which made the British Bombe immensely more powerful), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gordon_Welchman
+  status: checked
+- id: alan-turing
+  lifespan: 1912–1954
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Alan Turing (23 June 1912 – 7 June 1954), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alan_Turing
+  - for: roles
+    source: Wikipedia, Alan Turing (English mathematician and logician, father of theoretical computer science), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alan_Turing
+  status: checked
+- id: j-d-bernal
+  lifespan: 1901–1971
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, J. D. Bernal (10 May 1901 – 15 September 1971), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Desmond_Bernal
+  - for: roles
+    source: Wikipedia, J. D. Bernal (pioneered X-ray crystallography in molecular biology; wrote popular books on science and society, incl. The World, the Flesh and the Devil, 1929), accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/John_Desmond_Bernal
+  status: checked
+- id: j-b-s-haldane
+  lifespan: 1892–1964
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, J. B. S. Haldane (5 November 1892 – 1 December 1964), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._B._S._Haldane
+  - for: roles
+    source: Wikipedia, J. B. S. Haldane (scientist and polymath; science populariser; essay Daedalus; or, Science and the Future, 1924), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._B._S._Haldane
+  status: checked
+- id: josef-capek
+  lifespan: 1887–1945
+  note: Czech painter and writer. He suggested the word robot to his brother Karel, who used it in the 1920 play R.U.R.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Josef Čapek (born 23 March 1887; died April 1945 at Bergen-Belsen), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Josef_%C4%8Capek
+  - for: roles
+    source: Wikipedia, Josef Čapek (best known as a painter, also noted as a writer and poet), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Josef_%C4%8Capek
+  - for: note
+    source: Wikipedia, Karel Čapek (wanted to call the creatures laboři; his brother Josef suggested roboti; word first appeared in R.U.R., 1920), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Karel_%C4%8Capek
+  - for: note
+    source: Wikipedia, Josef Čapek (named by his brother as the true inventor of the term robot), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Josef_%C4%8Capek
+  status: checked
+- id: karel-capek
+  lifespan: 1890–1938
+  note: Czech writer, playwright and journalist. His 1920 play R.U.R. introduced the word robot, which his brother Josef had suggested.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Karel Čapek (9 January 1890 – 25 December 1938), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Karel_%C4%8Capek
+  - for: roles
+    source: Wikipedia, Karel Čapek (Czech writer, playwright, critic and journalist), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Karel_%C4%8Capek
+  - for: note
+    source: Wikipedia, Karel Čapek (R.U.R., 1920, introduced the word robot; Josef suggested roboti), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Karel_%C4%8Capek
+  status: checked
+- id: leonardo-torres-quevedo
+  lifespan: 1852–1936
+  note: Spanish civil engineer and inventor whose chess automaton El Ajedrecista, finished in 1912, played a king-and-rook endgame against a human player unaided. It was first shown in Madrid in 1913, then
+    in Paris in 1914.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Leonardo Torres Quevedo (28 December 1852 – 18 December 1936), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo
+  - for: roles
+    source: Wikipedia, Leonardo Torres Quevedo (Spanish civil engineer, mathematician and inventor), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo
+  - for: note
+    source: Wikipedia, Leonardo Torres Quevedo (El Ajedrecista completed 1912; first shown in Madrid, June 1913; official public debut at the University of Paris, May 1914; played a king and rook endgame
+      against a human without human intervention), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo
+  status: checked
+- id: filippo-tommaso-marinetti
+  lifespan: 1876–1944
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Filippo Tommaso Marinetti (22 December 1876 – 2 December 1944), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Filippo_Tommaso_Marinetti
+  - for: roles
+    source: Wikipedia, Filippo Tommaso Marinetti (Italian poet, editor, art theorist and founder of the Futurist movement), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Filippo_Tommaso_Marinetti
+  status: checked
+- id: nikolai-fedorov
+  lifespan: 1829–1903
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Nikolai Fyodorovich Fyodorov (born 9 June 1829 [O.S. 26 May]; died 28 December 1903), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nikolai_Fyodorovich_Fyodorov
+  - for: roles
+    source: Wikipedia, Nikolai Fyodorovich Fyodorov (Russian religious philosopher, futurologist, library scientist and educator), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nikolai_Fyodorovich_Fyodorov
+  status: checked
+- id: henry-sidgwick
+  lifespan: 1838–1900
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Henry Sidgwick (31 May 1838 – 28 August 1900), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Henry_Sidgwick
+  - for: roles
+    source: Wikipedia, Henry Sidgwick (English utilitarian philosopher and economist), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Henry_Sidgwick
+  status: checked
+- id: samuel-butler
+  lifespan: 1835–1902
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Samuel Butler (novelist) (4 December 1835 – 18 June 1902), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Samuel_Butler_(novelist)
+  - for: roles
+    source: Wikipedia, Samuel Butler (novelist) (English novelist and critic; Darwin among the Machines, 1863), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Samuel_Butler_(novelist)
+  status: checked
+- id: george-boole
+  lifespan: 1815–1864
+  note: Mathematician and logician. His Laws of Thought (1854) set out Boolean algebra, which later became the basis of digital circuits and computer science.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, George Boole (2 November 1815 – 8 December 1864), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_Boole
+  - for: roles
+    source: Wikipedia, George Boole (English mathematician and philosopher; logic), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_Boole
+  - for: note
+    source: Wikipedia, George Boole (The Laws of Thought, 1854, contains Boolean algebra; foundation of digital circuit design and modern computer science), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_Boole
+  status: checked
+- id: ada-lovelace
+  lifespan: 1815–1852
+  note: Her 1843 notes on Babbage's Analytical Engine held a method for computing Bernoulli numbers, often called the first published program. She also held that the Engine could not originate anything,
+    an objection Turing later answered.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ada Lovelace (10 December 1815 – 27 November 1852), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ada_Lovelace
+  - for: roles
+    source: Wikipedia, Ada Lovelace (English mathematician and writer, known for her work on the Analytical Engine), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ada_Lovelace
+  - for: note
+    source: 'Wikipedia, Ada Lovelace (notes published September 1843; Note G: Bernoulli numbers, often called the first published computer program; ''Lady Lovelace''s Objection'' named by Alan Turing),
+      accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Ada_Lovelace
+  - for: note
+    source: Wikipedia, Computing Machinery and Intelligence (Turing, 1950, replies to Lady Lovelace's Objection), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence
+  status: checked
+- id: charles-babbage
+  lifespan: 1791–1871
+  note: Mathematician and inventor who began his Difference Engine in 1822. His Analytical Engine, which he kept redesigning until his death, was a plan for a general-purpose computer and was never completed.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Charles Babbage (26 December 1791 – 18 October 1871), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Charles_Babbage
+  - for: roles
+    source: Wikipedia, Charles Babbage (mathematician, philosopher, inventor and mechanical engineer), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Charles_Babbage
+  - for: note
+    source: Wikipedia, Charles Babbage (began the difference engine in 1822; Analytical Engine a series of designs revised until his death in 1871, the move to general-purpose computation; his machines
+      were not completed), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Charles_Babbage
+  status: checked
+- id: nicolas-de-condorcet
+  lifespan: 1743–1794
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Marquis de Condorcet (17 September 1743 – 29 March 1794), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marquis_de_Condorcet
+  - for: roles
+    source: Wikipedia, Marquis de Condorcet (French philosopher, political economist, politician and mathematician), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marquis_de_Condorcet
+  status: checked
+- id: wolfgang-von-kempelen
+  lifespan: 1734–1804
+  note: Engineer and inventor. In 1770 he unveiled the Turk, a chess-playing automaton secretly worked by a hidden human player, to impress Empress Maria Theresa.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Wolfgang von Kempelen (23 January 1734 – 26 March 1804), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Wolfgang_von_Kempelen
+  - for: roles
+    source: Wikipedia, Wolfgang von Kempelen (writer, architect, engineer and inventor), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Wolfgang_von_Kempelen
+  - for: note
+    source: Wikipedia, Mechanical Turk (first displayed in 1770; constructed by Kempelen to impress Empress Maria Theresa; moved by a chess master hidden inside), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mechanical_Turk
+  status: checked
+- id: richard-price
+  lifespan: 1723–1791
+  note: Welsh minister and moral philosopher. After Thomas Bayes died, he edited his essay on probability and sent it to the Royal Society, where it was read in 1763.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: J J O'Connor and E F Robertson, Richard Price, MacTutor History of Mathematics, University of St Andrews (born 23 February 1723, died 19 April 1791)
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Price/
+  - for: roles
+    source: J J O'Connor and E F Robertson, Richard Price, MacTutor History of Mathematics, University of St Andrews (Welsh congregational minister; Review of the Principal Questions in Morals, 1757)
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Price/
+  - for: roles
+    source: Wikipedia, Richard Price (moral philosopher, Nonconformist minister and mathematician), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Richard_Price
+  - for: note
+    source: Wikipedia, Thomas Bayes (notes edited and published posthumously by Richard Price; essay read to the Royal Society in 1763), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Bayes
+  - for: note
+    source: J J O'Connor and E F Robertson, Richard Price, MacTutor History of Mathematics, University of St Andrews (asked to examine Bayes's papers after his death in 1761; sent the essay to the Royal
+      Society with a covering letter)
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Price/
+  - for: note
+    source: Wikipedia, Richard Price (literary executor of Bayes; edited An Essay Towards Solving a Problem in the Doctrine of Chances, published in Philosophical Transactions, 1763), accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/Richard_Price
+  status: checked
+- id: thomas-bayes
+  lifespan: c. 1701–1761
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Thomas Bayes (born c. 1701; died 7 April 1761), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Bayes
+  - for: roles
+    source: Wikipedia, Thomas Bayes (statistician, philosopher and Presbyterian minister), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Bayes
+  status: checked
+- id: gottfried-wilhelm-leibniz
+  lifespan: 1646–1716
+  note: Mathematician and philosopher who showed a model of his calculating machine to the Royal Society in London in 1673. Inspired by Llull, he proposed a universal language of concepts in which reasoning
+    could be done by calculation.
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Gottfried Wilhelm Leibniz (1 July 1646 – 14 November 1716), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+  - for: roles
+    source: 'Wikipedia, Gottfried Wilhelm Leibniz (German polymath: mathematician, philosopher, scientist and diplomat), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+  - for: note
+    source: Wikipedia, Stepped reckoner (wooden model presented to the Royal Society of London on 1 February 1673), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stepped_reckoner
+  - for: note
+    source: Wikipedia, Gottfried Wilhelm Leibniz (De Arte Combinatoria inspired by Llull's Ars Magna; characteristica universalis and calculus ratiocinator), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+  - for: note
+    source: Jonathan Gray, Let us Calculate! Leibniz, Llull, and the Computational Imagination, The Public Domain Review, 10 November 2016 (Leibniz took from Llull the combining of basic concepts; universal
+      language; settling disputes by calculation)
+    url: https://www.publicdomainreview.org/essay/let-us-calculate-leibniz-llull-and-the-computational-imagination
+  status: checked
+- id: thomas-hobbes
+  lifespan: 1588–1679
+  note: Philosopher and political theorist, best known for Leviathan (1651). In it he argued that reasoning is a kind of reckoning, adding and subtracting.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Thomas Hobbes (5 April 1588 – 4 December 1679), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Hobbes
+  - for: roles
+    source: Wikipedia, Thomas Hobbes (English philosopher and political theorist, best known for Leviathan, 1651), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Hobbes
+  - for: note
+    source: 'Thomas Hobbes, Leviathan (1651), Part I, Chapter V: Of Reason, and Science, public-domain edition, Toronto Metropolitan University Pressbooks, 2022'
+    url: https://pressbooks.library.torontomu.ca/leviathan/?p=33
+  status: checked
+- id: blaise-pascal
+  lifespan: 1623–1662
+  note: Mathematician, physicist and philosopher. From 1642, while still a teenager, he built a mechanical calculator to help his father, a tax collector, with his sums.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Blaise Pascal (19 June 1623 – 19 August 1662), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Blaise_Pascal
+  - for: roles
+    source: Wikipedia, Blaise Pascal (French mathematician, physicist, inventor, philosopher and Catholic writer), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Blaise_Pascal
+  - for: note
+    source: Wikipedia, Blaise Pascal (began work on calculating machines in 1642, not yet 19, to ease his father's tax calculations; father a tax collector in Rouen), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Blaise_Pascal
+  status: checked
+- id: rene-descartes
+  lifespan: 1596–1650
+  note: 'Philosopher, mathematician and scientist. His Discourse on the Method (1637) set two tests to tell a machine from a human: free use of language and adaptable action.'
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, René Descartes (31 March 1596 – 11 February 1650), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+  - for: roles
+    source: Wikipedia, René Descartes (French philosopher, scientist, logician and mathematician; Discourse on the Method, 1637), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+  - for: note
+    source: 'University of Pittsburgh web page, Descartes''s two tests for mind (and especially for animal mind), from Discourse on Method (1637), Part V, Massey translation: the language test and the action
+      test'
+    url: https://sites.pitt.edu/~gmas/1800/DESCARTE.htm
+  status: checked
+- id: francis-bacon
+  lifespan: 1561–1626
+  roles:
+  - writer
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Francis Bacon (22 January 1561 – 9 April 1626), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Francis_Bacon
+  - for: roles
+    source: Wikipedia, Francis Bacon (English philosopher and statesman; Attorney General and Lord Chancellor under James I), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Francis_Bacon
+  status: checked
+- id: giovanni-pico-della-mirandola
+  lifespan: 1463–1494
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Giovanni Pico della Mirandola (24 February 1463 – 17 November 1494), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola
+  - for: roles
+    source: Wikipedia, Giovanni Pico della Mirandola (Italian Renaissance nobleman and philosopher), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola
+  status: checked
+- id: ramon-llull
+  lifespan: c. 1232–1316
+  note: Philosopher, theologian and missionary who built a universal logic from general principles combined by letters and diagrams. This Art, finalised as the Ars generalis ultima in 1308, informed Leibniz
+    and is sometimes seen as a precursor of computing.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ramon Llull (c. 1232 – 1316; older sources give 1235; died early 1316), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ramon_Llull
+  - for: lifespan
+    source: Ernesto Priani, Ramon Llull, Stanford Encyclopedia of Philosophy, revised 24 February 2025 (born 1232, possibly 1233; died after March 1316)
+    url: https://plato.stanford.edu/entries/llull/
+  - for: roles
+    source: Wikipedia, Ramon Llull (Catholic philosopher, theologian, poet, missionary, apologist and former knight), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ramon_Llull
+  - for: note
+    source: Wikipedia, Ramon Llull (Art as universal logic of general principles in a combinatorial process, using letters and diagrams; Ars generalis ultima finalised 1308; informed Leibniz's De Arte Combinatoria;
+      sometimes recognised as a precursor to computer science), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ramon_Llull
+  - for: note
+    source: Ernesto Priani, Ramon Llull, Stanford Encyclopedia of Philosophy, revised 24 February 2025 (Ars generalis ultima written between 1305 and 1308)
+    url: https://plato.stanford.edu/entries/llull/
+  status: checked

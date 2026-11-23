@@ -72,3 +72,29 @@ export const rightsLabel = (rights: string, licence?: string) =>
     : rights === 'to-check'
       ? 'rights to check'
       : (licence ?? 'licensed');
+
+/* People (owner, 23 Nov 2026): the tags researched and checked for each person (src/data/people-facts/). */
+export const ROLES = [
+  { id: 'researcher', name: 'Researcher or engineer', line: 'people known in this story for research or engineering' },
+  { id: 'founder', name: 'Founder or executive', line: 'people who founded or ran a company, lab or organisation' },
+  { id: 'writer', name: 'Philosopher or writer', line: 'philosophers, authors, journalists and futurists' },
+  { id: 'critic', name: 'Critic or campaigner', line: 'critics of AI, activists and campaign organisers' },
+  { id: 'official', name: 'Politician or official', line: 'politicians, officials, military and religious leaders acting in public life' },
+  { id: 'judge', name: 'Judge', line: 'judges whose rulings shape AI' },
+] as const;
+export const ROLE_IDS = ROLES.map((r) => r.id) as unknown as [string, ...string[]];
+export const LABS = [
+  { id: 'openai', name: 'OpenAI' },
+  { id: 'google', name: 'Google and DeepMind' },
+  { id: 'anthropic', name: 'Anthropic' },
+  { id: 'meta', name: 'Meta' },
+  { id: 'microsoft', name: 'Microsoft' },
+  { id: 'palantir', name: 'Palantir' },
+] as const;
+export const LAB_IDS = LABS.map((l) => l.id) as unknown as [string, ...string[]];
+export const LETTERS = [
+  { id: 'pause-2023', name: 'The pause letter', when: 'March 2023', line: "the Future of Life Institute's call to pause the training of AI systems more powerful than GPT-4" },
+  { id: 'extinction-2023', name: 'The extinction statement', when: 'May 2023', line: "the Center for AI Safety's one sentence ranking extinction risk from AI with pandemics and nuclear war" },
+  { id: 'superintelligence-2025', name: 'The superintelligence statement', when: 'October 2025', line: 'the call to ban superintelligence until it can be built safely and has public support' },
+] as const;
+export const LETTER_IDS = LETTERS.map((l) => l.id) as unknown as [string, ...string[]];

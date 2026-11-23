@@ -1,0 +1,329 @@
+# People facts, batch 09: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: julian-huxley
+  lifespan: 1887–1975
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Julian Huxley", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Julian_Huxley
+  - for: roles
+    source: Wikipedia, "Julian Huxley" (evolutionary biologist, science populariser, popularised transhumanism in 1957), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Julian_Huxley
+  status: checked
+- id: arthur-samuel
+  lifespan: 1901–1990
+  note: IBM engineer whose checkers program was among the first programs that learned, partly by playing thousands of games against itself. He is credited with coining the term machine learning, used in
+    the title of his 1959 paper.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Arthur Samuel (computer scientist)", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)
+  - for: roles
+    source: Wikipedia, "Arthur Samuel (computer scientist)" (computer scientist, pioneer of computer gaming and AI), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)
+  - for: note
+    source: Wikipedia, "Arthur Samuel (computer scientist)" (IBM from 1949; checkers program on the IBM 701 among the world's first successful self-learning programs; played thousands of games against itself),
+      English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)
+  - for: note
+    source: IBM, "The games that helped AI evolve", IBM History, 10 November 2025 (Samuel Checkers on the IBM 701 learned by playing thousands of games against itself; credits Samuel with coining the term
+      machine learning)
+    url: https://www.ibm.com/history/early-games
+  - for: note
+    source: A. L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers", IBM Journal of Research and Development 3(3), 210–229, July 1959 (citation via UMBC ebiquity)
+    url: https://ebiquity.umbc.edu/paper/html/id/1190/Some-Studies-in-Machine-Learning-Using-the-Game-of-Checkers
+  status: checked
+- id: oliver-selfridge
+  lifespan: 1926–2008
+  note: Pioneer of machine perception and one of the attendees of the Dartmouth workshop. His 1959 Pandemonium paper described pattern recognition as the work of many small agents he called demons.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Oliver Selfridge", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Oliver_Selfridge
+  - for: roles
+    source: Wikipedia, "Oliver Selfridge" (mathematician and computer scientist, pioneer of early AI), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Oliver_Selfridge
+  - for: note
+    source: 'Wikipedia, "Oliver Selfridge" (father of machine perception, one of 11 attendees of the Dartmouth workshop, 1959 paper Pandemonium: A Paradigm for Learning), English Wikipedia, accessed 23
+      November 2026'
+    url: https://en.wikipedia.org/wiki/Oliver_Selfridge
+  - for: note
+    source: Wikipedia, "Pandemonium architecture" (Selfridge's 1959 paper; one of the first computational models in pattern recognition, built of demons), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Pandemonium_architecture
+  status: checked
+- id: ray-solomonoff
+  lifespan: 1926–2009
+  note: Mathematician who invented algorithmic probability and helped found algorithmic information theory. He was one of three people who stayed the whole summer at the 1956 Dartmouth workshop.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Ray Solomonoff", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Solomonoff
+  - for: roles
+    source: Wikipedia, "Ray Solomonoff" (mathematician, algorithmic information theory and AI), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Solomonoff
+  - for: note
+    source: Wikipedia, "Ray Solomonoff" (invented algorithmic probability; with McCarthy and Minsky the only ones to stay all summer at Dartmouth), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Solomonoff
+  - for: note
+    source: Wikipedia, "Dartmouth workshop" (Solomonoff, Minsky and McCarthy the only three who stayed for the full time), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dartmouth_workshop
+  status: checked
+- id: allen-newell
+  lifespan: 1927–1992
+  note: Computer scientist and psychologist who built the Logic Theorist, an early theorem-proving program, with Herbert Simon and Cliff Shaw. They presented it at Dartmouth in 1956.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Allen Newell", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Allen_Newell
+  - for: roles
+    source: Wikipedia, "Allen Newell" (researcher in computer science and cognitive psychology), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Allen_Newell
+  - for: note
+    source: Wikipedia, "Allen Newell" (Logic Theorist with Simon and Shaw, presented at the Dartmouth conference of 1956), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Allen_Newell
+  - for: note
+    source: Wikipedia, "Logic Theorist" (written by Newell, Simon and Cliff Shaw, 1955–1956; proved 38 of the first 52 theorems of Principia Mathematica chapter two; presented at the summer 1956 conference),
+      English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Logic_Theorist
+  status: checked
+- id: herbert-a-simon
+  lifespan: 1916–2001
+  note: Economist and computer scientist who built the Logic Theorist with Allen Newell. In 1965 he predicted machines would do any work a person can do within twenty years.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Herbert A. Simon", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Herbert_A._Simon
+  - for: roles
+    source: Wikipedia, "Herbert A. Simon" (economics, AI, computer science, political science; Nobel 1978, Turing Award 1975), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Herbert_A._Simon
+  - for: note
+    source: Wikipedia, "Herbert A. Simon" (Logic Theory Machine with Newell, 1956; 1965 prediction on machines doing any work a man can do), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Herbert_A._Simon
+  status: checked
+- id: john-mccarthy
+  lifespan: 1927–2011
+  note: Co-wrote the 1955 Dartmouth proposal that introduced the term artificial intelligence, and invented the Lisp language. In 1973 he debated James Lighthill on BBC television, and in 1976 reviewed
+    Joseph Weizenbaum's Computer Power and Human Reason.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "John McCarthy (computer scientist)", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)
+  - for: roles
+    source: Wikipedia, "John McCarthy (computer scientist)" (computer and cognitive scientist, a founder of AI), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)
+  - for: note
+    source: Wikipedia, "John McCarthy (computer scientist)" (co-author of the Dartmouth proposal dated 31 August 1955 that coined the term; developed Lisp, published 1960), English Wikipedia, accessed 23
+      November 2026
+    url: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)
+  - for: note
+    source: Wikipedia, "Dartmouth workshop" (proposal by McCarthy, Minsky, Rochester and Shannon, 1955, credited with introducing the term artificial intelligence), English Wikipedia, accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/Dartmouth_workshop
+  - for: note
+    source: Artificial Intelligence Applications Institute, University of Edinburgh, "BBC TV - June 1973 - Lighthill Controversy Debate at the Royal Institution" (Lighthill, Michie, Gregory, McCarthy),
+      accessed 23 November 2026
+    url: https://www.aiai.ed.ac.uk/events/lighthill1973/
+  - for: note
+    source: Wikipedia, "Lighthill report" (debate at the Royal Institution on 9 May 1973, Lighthill against Michie, McCarthy and Gregory), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Lighthill_report
+  - for: note
+    source: Benjamin Kuipers, "Reactions to Weizenbaum's Book", University of Michigan (McCarthy's review published in ACM SIGART Newsletter No. 58, June 1976), accessed 23 November 2026
+    url: https://web.eecs.umich.edu/~kuipers/opinions/Weizenbaum.html
+  status: checked
+- id: marvin-minsky
+  lifespan: 1927–2016
+  note: Co-wrote the 1955 Dartmouth proposal and co-founded the MIT AI laboratory in 1959. His 1969 book Perceptrons, with Seymour Papert, set out the limits of single-layer neural networks.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Marvin Minsky", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marvin_Minsky
+  - for: roles
+    source: Wikipedia, "Marvin Minsky" (mathematician and AI researcher at MIT), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marvin_Minsky
+  - for: note
+    source: Wikipedia, "Marvin Minsky" (co-founded MIT's AI laboratory with McCarthy, 1959; Perceptrons with Papert, 1969), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marvin_Minsky
+  - for: note
+    source: Wikipedia, "John McCarthy (computer scientist)" (proposal co-authored with Minsky, Rochester and Shannon), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)
+  - for: note
+    source: Wikipedia, "Dartmouth workshop" (proposal by McCarthy, Minsky, Rochester and Shannon, 1955), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dartmouth_workshop
+  - for: note
+    source: Wikipedia, "Perceptrons (book)" (Minsky and Papert, 1969; showed what single-layer perceptrons cannot compute, such as parity), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Perceptrons_(book)
+  status: checked
+- id: nathaniel-rochester
+  lifespan: 1919–2001
+  note: IBM engineer who was chief architect of the IBM 701 and led early simulations of neural networks. He co-wrote the 1955 Dartmouth proposal with John McCarthy, Marvin Minsky and Claude Shannon.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Nathaniel Rochester (computer scientist)", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nathaniel_Rochester_(computer_scientist)
+  - for: roles
+    source: Wikipedia, "Nathaniel Rochester (computer scientist)" (computer pioneer at IBM), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nathaniel_Rochester_(computer_scientist)
+  - for: note
+    source: Wikipedia, "Nathaniel Rochester (computer scientist)" (chief architect of the IBM 701; headed a 1955 IBM group that simulated neural networks on an IBM 704; co-author of the 1955 proposal),
+      English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nathaniel_Rochester_(computer_scientist)
+  - for: note
+    source: Wikipedia, "Dartmouth workshop" (proposal by McCarthy, Minsky, Rochester and Shannon, 1955), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dartmouth_workshop
+  status: checked
+- id: claude-shannon
+  lifespan: 1916–2001
+  note: Applied Boolean logic to switching circuits in 1937 and founded information theory in 1948. In 1950 he set out how a computer could play chess, then co-wrote the Dartmouth proposal.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Claude Shannon", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Claude_Shannon
+  - for: roles
+    source: Wikipedia, "Claude Shannon" (mathematician, electrical engineer, computer scientist, cryptographer, inventor), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Claude_Shannon
+  - for: note
+    source: Wikipedia, "Claude Shannon" (1937 MIT thesis on Boolean algebra and switching circuits; A Mathematical Theory of Communication, 1948; Programming a Computer for Playing Chess, presented March
+      1949, published March 1950; co-author of the 1955 proposal), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Claude_Shannon
+  status: checked
+- id: norbert-wiener
+  lifespan: 1894–1964
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Norbert Wiener", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Norbert_Wiener
+  - for: roles
+    source: Wikipedia, "Norbert Wiener" (computer scientist, mathematician and philosopher; author of Cybernetics, 1948, and The Human Use of Human Beings, 1950), English Wikipedia, accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/Norbert_Wiener
+  status: checked
+- id: j-presper-eckert
+  lifespan: 1919–1995
+  note: Electrical engineer who designed ENIAC with John Mauchly and was its chief engineer; it was unveiled in 1946. That year the two founded the company that became the Eckert–Mauchly Computer Corporation.
+  roles:
+  - researcher
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, "J. Presper Eckert", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._Presper_Eckert
+  - for: roles
+    source: Wikipedia, "J. Presper Eckert" (electrical engineer and computer pioneer; co-founder of the Electronic Control Company, later the Eckert–Mauchly Computer Corporation), English Wikipedia, accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/J._Presper_Eckert
+  - for: note
+    source: Wikipedia, "J. Presper Eckert" (designed ENIAC with Mauchly, chief engineer, unveiled February 1946; left the Moore School in March 1946 to start the Electronic Control Company), English Wikipedia,
+      accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._Presper_Eckert
+  - for: note
+    source: Wikipedia, "Eckert–Mauchly Computer Corporation" (founded March 1946 as the Electronic Control Company; incorporated as Eckert–Mauchly Computer Corporation on 22 December 1947), English Wikipedia,
+      accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Eckert%E2%80%93Mauchly_Computer_Corporation
+  status: checked
+- id: john-mauchly
+  lifespan: 1907–1980
+  note: Physicist who designed ENIAC with J. Presper Eckert, leading its conceptual design; it was announced in 1946. That year the two founded the company that became the Eckert–Mauchly Computer Corporation,
+    with Mauchly as president.
+  roles:
+  - researcher
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, "John Mauchly", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Mauchly
+  - for: roles
+    source: Wikipedia, "John Mauchly" (physicist; with Eckert formed the Eckert–Mauchly Computer Corporation in 1947 and served as its president), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Mauchly
+  - for: note
+    source: Wikipedia, "John Mauchly" (led ENIAC's conceptual design while Eckert led the hardware engineering; president of EMCC), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Mauchly
+  - for: note
+    source: Wikipedia, "J. Presper Eckert" (ENIAC unveiled to the public in February 1946), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._Presper_Eckert
+  - for: note
+    source: Wikipedia, "Eckert–Mauchly Computer Corporation" (founded March 1946 as the Electronic Control Company; incorporated as Eckert–Mauchly Computer Corporation on 22 December 1947; Mauchly company
+      president), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Eckert%E2%80%93Mauchly_Computer_Corporation
+  status: checked
+- id: friedrich-hayek
+  lifespan: 1899–1992
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Friedrich Hayek", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Friedrich_Hayek
+  - for: roles
+    source: Wikipedia, "Friedrich Hayek" (economist and philosopher; Nobel Memorial Prize in Economic Sciences 1974), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Friedrich_Hayek
+  status: checked
+- id: vannevar-bush
+  lifespan: 1890–1974
+  roles:
+  - researcher
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Vannevar Bush", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vannevar_Bush
+  - for: roles
+    source: Wikipedia, "Vannevar Bush" (engineer, inventor and science administrator; director of the Office of Scientific Research and Development, 1941–1947), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vannevar_Bush
+  status: checked
+- id: walter-pitts
+  lifespan: 1923–1969
+  note: Logician who, with Warren McCulloch, published the first mathematical model of a neural network in 1943.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Walter Pitts", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Walter_Pitts
+  - for: roles
+    source: Wikipedia, "Walter Pitts" (logician in computational neuroscience), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Walter_Pitts
+  - for: note
+    source: Wikipedia, "Walter Pitts" (A Logical Calculus of the Ideas Immanent in Nervous Activity, 1943, first mathematical model of a neural network), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Walter_Pitts
+  status: checked
+- id: warren-mcculloch
+  lifespan: 1898–1969
+  note: Neurophysiologist who, with Walter Pitts, modelled the neuron as a basic unit of logic in 1943. He chaired the Macy conferences, which laid the ground for cybernetics.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Warren Sturgis McCulloch", English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch
+  - for: roles
+    source: Wikipedia, "Warren Sturgis McCulloch" (neurophysiologist and cybernetician), English Wikipedia, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch
+  - for: note
+    source: Wikipedia, "Warren Sturgis McCulloch" (1943 paper with Pitts treating the neuron as the basic logic unit of the brain; chaired the Macy conferences on cybernetics), English Wikipedia, accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch
+  status: checked

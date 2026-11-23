@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
-import { ERAS, FAMILIES, THREADS, SITE_NAME, pageHref, yearText } from '../lib/site';
+import { ERAS, FAMILIES, THREADS, ROLES, LABS, LETTERS, SITE_NAME, pageHref, yearText } from '../lib/site';
 import { eraAnchor, momentAnchor } from '../lib/history';
 import { getPeople, personAnchor } from '../lib/people';
 
@@ -17,6 +17,19 @@ const ismColour = (ismId: string) => colour(ismById.get(ismId)?.data.family ?? '
 const eras = ERAS.map((e) => ({ ...e, items: people.filter((p) => p.era === e.id) })).filter((e) => e.items.length > 0);
 const unplaced = people.filter((p) => !p.era);
 const threads = THREADS.map((t) => ({ ...t, n: people.filter((p) => p.threads.includes(t.id)).length })).filter((t) => t.n > 0);
+// Role, Lab and Open letters show once checked facts give them people (stage 2)
+const roles = ROLES.filter((r) => people.some((p) => p.roles.includes(r.id)));
+const labs = LABS.filter((l) => people.some((p) => p.labs.some((x) => x.lab === l.id)));
+const letters = LETTERS.filter((l) => people.some((p) => p.letters.includes(l.id)));
+const roleName = (id: string) => ROLES.find((r) => r.id === id)?.name;
+const labName = (id: string) => LABS.find((l) => l.id === id)?.name;
+// a source as readers see it: one per page, without the checkers' notes in long brackets
+const srcList = (xs: { source: string; url?: string }[]) =>
+  [...new Map(xs.map((x) => [x.url ?? x.source, x])).values()].map((x) => ({
+    url: x.url,
+    text: x.source.replace(/\s*\((?=[^)]{26,}\))[^)]*\)/g, '').replace(/\s+,/g, ',').trim(),
+  }));
+const years = (x: { from?: number; to?: number }) => (x.from && x.to ? (x.from === x.to ? `${x.from}` : `${x.from}–${x.to}`) : x.from ? `since ${x.from}` : x.to ? `until ${x.to}` : '');
 const navLabel = (e: (typeof eras)[number]) => (e.from < 0 ? 'Before 1642' : e.span.replace(' to ', '–'));
 const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: navLabel(e) }))];
 
@@ -25,11 +38,17 @@ const lines: Record<string, Record<string, string>> = {
   movement: Object.fromEntries(isms.map((i) => [i.id, `${i.data.title}: people named among its notable figures`])),
   era: Object.fromEntries(eras.map((e) => [e.id, `${e.name}, ${e.span}: people who first appear in the history in this era`])),
   thread: Object.fromEntries(threads.map((t) => [t.id, `${t.name}: people in the history's moments on this thread`])),
+  role: Object.fromEntries(roles.map((r) => [r.id, `${r.name}: ${r.line}`])),
+  lab: Object.fromEntries(labs.map((l) => [l.id, `${l.name}: people who have worked at ${l.name} or sat on its board`])),
+  letters: Object.fromEntries(letters.map((l) => [l.id, `${l.name}, ${l.when}: signatories of ${l.line}`])),
 };
 const groupLines: Record<string, string> = {
   movement: 'Movement: the eight movements, each with the people named among its notable figures',
   era: 'Era: when people first appear in the History of AI',
   thread: "Thread: the history's story lines, from made beings to machines at war",
+  role: 'Role: what people do in this story, from research to the law',
+  lab: 'Lab: who has worked at the six labs and companies that lead AI today',
+  letters: 'Open letters: who signed the three open letters on the risks of AI',
 };
 const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.test(w)).map((w) => w[0]).slice(0, 3).join('');
 ---
@@ -54,8 +73,11 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
     <section class="wrap pfilters" aria-label="Filters">
       <div class="pf-groups" role="group" aria-label="Filter by">
         <button type="button" class="pf-g" data-group="movement" data-name="Movement" aria-expanded="false" aria-controls="pf-movement">Movement</button>
+        {roles.length > 0 && <button type="button" class="pf-g" data-group="role" data-name="Role" aria-expanded="false" aria-controls="pf-role">Role</button>}
         <button type="button" class="pf-g" data-group="era" data-name="Era" aria-expanded="false" aria-controls="pf-era">Era</button>
         <button type="button" class="pf-g" data-group="thread" data-name="Thread" aria-expanded="false" aria-controls="pf-thread">Thread</button>
+        {labs.length > 0 && <button type="button" class="pf-g" data-group="lab" data-name="Lab" aria-expanded="false" aria-controls="pf-lab">Lab</button>}
+        {letters.length > 0 && <button type="button" class="pf-g" data-group="letters" data-name="Open letters" aria-expanded="false" aria-controls="pf-letters">Open letters</button>}
         <button type="button" class="pf-clear" hidden>Clear filters</button>
       </div>
       <div class="pf-choices" id="pf-movement" data-group="movement" hidden>
@@ -71,6 +93,21 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
       <div class="pf-choices" id="pf-thread" data-group="thread" hidden>
         {threads.map((t) => <button type="button" class="pf-c" data-group="thread" data-value={t.id} aria-pressed="false">{t.name}</button>)}
       </div>
+      {roles.length > 0 && (
+        <div class="pf-choices" id="pf-role" data-group="role" hidden>
+          {roles.map((r) => <button type="button" class="pf-c" data-group="role" data-value={r.id} aria-pressed="false">{r.name}</button>)}
+        </div>
+      )}
+      {labs.length > 0 && (
+        <div class="pf-choices" id="pf-lab" data-group="lab" hidden>
+          {labs.map((l) => <button type="button" class="pf-c" data-group="lab" data-value={l.id} aria-pressed="false">{l.name}</button>)}
+        </div>
+      )}
+      {letters.length > 0 && (
+        <div class="pf-choices" id="pf-letters" data-group="letters" hidden>
+          {letters.map((l) => <button type="button" class="pf-c" data-group="letters" data-value={l.id} aria-pressed="false">{l.name}, {l.when.slice(-4)}</button>)}
+        </div>
+      )}
       <p class="pf-line" aria-live="polite"></p>
     </section>
 
@@ -91,6 +128,9 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
                   data-isms={p.isms.join(' ')}
                   data-era={p.era ?? ''}
                   data-threads={p.threads.join(' ')}
+                  data-roles={p.roles.join(' ')}
+                  data-labs={p.labs.map((x) => x.lab).join(' ')}
+                  data-letters={p.letters.join(' ')}
                   aria-expanded="false"
                   aria-controls={`pp-${p.id}`}
                 >
@@ -109,13 +149,14 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
                 </button>
                 <div class="pp" id={`pp-${p.id}`} role="region" aria-label={p.name} hidden>
                   <div class="pp-l">
-                    <p class="kick">{[p.lifespan, ...p.isms.map((i) => ismById.get(i)?.data.title)].filter(Boolean).join(' · ') || 'In the history of AI'}</p>
+                    <p class="kick">{[p.lifespan, ...p.roles.map(roleName), ...p.isms.map((i) => ismById.get(i)?.data.title)].filter(Boolean).join(' · ') || 'In the history of AI'}</p>
                     <h3 class="pp-n">{p.name}</h3>
                     {p.notes.map((n) => <p class="pp-note">{n.note}</p>)}
-                    {p.notes.length === 0 && (p.named.length > 0 ? p.named : p.moments).slice(0, 2).map((m) => (
+                    {p.factNote && p.factNote.trim().split(/\n+/).map((para) => <p class="pp-note">{para.trim()}</p>)}
+                    {p.notes.length === 0 && !p.factNote && (p.named.length > 0 ? p.named : p.moments).slice(0, 2).map((m) => (
                       <p class="pp-note pp-from"><a href={`${pageHref('history')}#${momentAnchor(m.id)}`}>{yearText(m.data.year, m.data.yearLabel)} · {m.data.title}</a> {m.data.line}</p>
                     ))}
-                    {p.notes.length === 0 && p.moments.length === 0 && p.entries.slice(0, 2).map((e) => (
+                    {p.notes.length === 0 && !p.factNote && p.moments.length === 0 && p.entries.slice(0, 2).map((e) => (
                       <p class="pp-note pp-from"><a href={`${pageHref(e.data.ism.id)}#entry-${e.id.split('/')[1]}`}>{yearText(e.data.year, e.data.yearLabel)} · {e.data.title}</a></p>
                     ))}
                     {p.portrait && (
@@ -136,6 +177,18 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
                         </dd>
                       </div>
                     )}
+                    {p.labs.length > 0 && (
+                      <div>
+                        <dt>Labs</dt>
+                        <dd><ul class="pp-list">{p.labs.map((x) => <li><span class="pp-row"><span class="pp-y">{years(x)}</span><span>{labName(x.lab)}</span></span></li>)}</ul></dd>
+                      </div>
+                    )}
+                    {p.letters.length > 0 && (
+                      <div>
+                        <dt>Open letters</dt>
+                        <dd><ul class="pp-list">{LETTERS.filter((l) => p.letters.includes(l.id)).map((l) => <li><span class="pp-row"><span class="pp-y">{l.when.slice(-4)}</span><span>Signed {l.name.replace(/^The /, 'the ')}</span></span></li>)}</ul></dd>
+                      </div>
+                    )}
                     {p.moments.length > 0 && (
                       <div>
                         <dt>In the history of AI</dt>
@@ -152,6 +205,17 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
                       <div>
                         <dt>Words</dt>
                         <dd class="tchips">{p.words.map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}</dd>
+                      </div>
+                    )}
+                    {p.sources.length > 0 && (
+                      <div>
+                        <dt class="vh">Sources</dt>
+                        <dd>
+                          <details class="pp-srcs">
+                            <summary>Sources · {srcList(p.sources).length}</summary>
+                            <ul class="pp-src">{srcList(p.sources).map((x) => <li>{x.url ? <a href={x.url}>{x.text}</a> : x.text}</li>)}</ul>
+                          </details>
+                        </dd>
                       </div>
                     )}
                   </dl>
@@ -185,15 +249,17 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
       var active = {};
       var open = null;
 
+      // each group reads one data attribute on the tiles, a list of ids separated by spaces
+      var GROUPS = ['movement', 'role', 'era', 'thread', 'lab', 'letters'];
+      var ATTR = { movement: 'isms', role: 'roles', era: 'era', thread: 'threads', lab: 'labs', letters: 'letters' };
       function matches(t) {
-        if (active.movement && (' ' + t.dataset.isms + ' ').indexOf(' ' + active.movement + ' ') < 0) return false;
-        if (active.era && t.dataset.era !== active.era) return false;
-        if (active.thread && (' ' + t.dataset.threads + ' ').indexOf(' ' + active.thread + ' ') < 0) return false;
-        return true;
+        return GROUPS.every(function (g) {
+          return !active[g] || (' ' + (t.dataset[ATTR[g]] || '') + ' ').indexOf(' ' + active[g] + ' ') >= 0;
+        });
       }
       function describe(extra) {
         var parts = [];
-        ['movement', 'era', 'thread'].forEach(function (g) {
+        GROUPS.forEach(function (g) {
           var v = extra && extra.group === g ? extra.value : active[g];
           if (v) parts.push(data.lines[g][v]);
         });
@@ -289,7 +355,7 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
 
       // a link from elsewhere on the site, or a shared address
       var q = new URLSearchParams(location.search), start = location.hash;
-      ['movement', 'era', 'thread'].forEach(function (g) { if (q.get(g)) active[g] = q.get(g); });
+      GROUPS.forEach(function (g) { if (q.get(g) && data.lines[g] && data.lines[g][q.get(g)]) active[g] = q.get(g); });
       apply();
       function fromHash(e) {
         var h = e ? location.hash : start;
