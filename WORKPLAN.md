@@ -28,7 +28,7 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - [x] (02:30) **AI in war** (owner, 02:00–02:07): the target factory (Gaza), the Iran war, drones that steer themselves (AI only), Palantir (2003); thread "Machines at war". All checked and live.
 - [x] (04:08) **Longer moments for outsiders** (owner, 02:29–02:31; rules in CLAUDE.md): all eight eras rewritten, checked by separate agents and live, with the ten statement moments carried over. Merges done: the swarm attack; the Millennium Prize problems; the pro-human campaign; the ImageNet win with DNNresearch; Japan's Fifth Generation with Strategic Computing. Open: 1980-xcon keeps its earlier checked text, because the R1 paper (cdn.aaai.org) was not approved; its rewrite is in `/home/claude/hist-gaps/rewrite/05-winters.yaml` (draft) and needs that page or a cut of three claims.
 - [x] (03:08) **Statement moments**: the ten are checked and live, appended to the live era files. **When the rewritten staging files replace the live ones, carry these ten over** (their source is `/home/claude/hist-gaps/statements.yaml`; ids 2025-ai-2027, 2024-machines-of-loving-grace, 2023-hinton-leaves-google, 2017-putin-ai, 2015-autonomous-weapons-letter, 2000-why-the-future-doesnt-need-us, 1980-chinese-room, 1976-weizenbaum, 1972-dreyfus, 1970-early-promises).
-- [ ] Build, screenshots desktop and phone, merge, deploy, preview artifact, morning note to the owner
+- [x] (04:12) Built, checked on screen, deployed; private preview artifact updated (version 1795403463-970f). Left for later: the phone pass (stage 6b) and the People track (ideas, below).
 
 ## Stages
 
