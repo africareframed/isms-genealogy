@@ -1,0 +1,596 @@
+# People facts, batch 03: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: daniela-amodei
+  lifespan: born 1987
+  note: Former vice president of safety and policy at OpenAI who co-founded Anthropic with her brother Dario in 2021. She is the company's president.
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2018
+    to: 2020
+  - lab: anthropic
+    from: 2021
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Daniela Amodei (born in San Francisco in 1987), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniela_Amodei
+  - for: roles
+    source: Wikipedia, Daniela Amodei (president and co-founder of Anthropic), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniela_Amodei
+  - for: labs
+    source: Wikipedia, Daniela Amodei (moved to OpenAI in 2018; left in 2020 to co-found Anthropic), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniela_Amodei
+  - for: labs
+    source: Wikipedia, Anthropic (founded in January 2021 by former OpenAI employees, including Daniela and Dario Amodei), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Anthropic
+  - for: labs
+    source: Anthropic, Anthropic raises $124 million to build more reliable, general AI systems, 28 May 2021 (Daniela Amodei, President)
+    url: https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 1 (Daniela Amodei, President, Anthropic), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  - for: note
+    source: Wikipedia, Daniela Amodei (vice president of safety and policy at OpenAI; co-founded Anthropic in 2021 with Dario Amodei), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniela_Amodei
+  status: checked
+- id: dario-amodei
+  lifespan: born 1983
+  note: Former vice president of research at OpenAI who co-founded Anthropic in 2021 and leads it as chief executive. His 2024 essay Machines of Loving Grace set out how powerful AI could transform health,
+    the mind, the economy and governance.
+  roles:
+  - founder
+  - researcher
+  labs:
+  - lab: google
+    from: 2015
+    to: 2016
+  - lab: openai
+    from: 2016
+    to: 2020
+  - lab: anthropic
+    from: 2021
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Dario Amodei (born in San Francisco in 1983), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dario_Amodei
+  - for: roles
+    source: Stanford Digital Economy Lab, Dario Amodei (CEO and co-founder of Anthropic; former vice president of research at OpenAI; Google Brain researcher)
+    url: https://digitaleconomy.stanford.edu/people/dario-amodei/
+  - for: labs
+    source: Stanford Digital Economy Lab, Dario Amodei (senior research scientist on the Google Brain team before OpenAI)
+    url: https://digitaleconomy.stanford.edu/people/dario-amodei/
+  - for: labs
+    source: MarketsWiki, Dario Amodei (joined Google in 2015 as a senior research scientist on the Google Brain team; OpenAI announced his hiring in 2016)
+    url: https://www.marketswiki.com/wiki/Dario_Amodei
+  - for: labs
+    source: Alex Kantrowitz, The Making of Dario Amodei, Big Technology, 29 July 2025 (ten months at Google Brain, then joined OpenAI in 2016)
+    url: https://www.bigtechnology.com/p/the-making-of-dario-amodei
+  - for: labs
+    source: Amodei, Olah et al., Concrete Problems in AI Safety, arXiv:1606.06565, June 2016 (Amodei's affiliation printed as Google Brain)
+    url: https://arxiv.org/pdf/1606.06565
+  - for: labs
+    source: OpenAI, Organizational update, 29 December 2020 (Dario Amodei, VP of Research, leaving after nearly five years)
+    url: https://openai.com/index/organizational-update/
+  - for: labs
+    source: Wikipedia, Anthropic (founded in January 2021), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Anthropic
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 1 (Dario Amodei, CEO, Anthropic), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  - for: note
+    source: Wikipedia, Dario Amodei (co-founder and CEO of Anthropic, 2021; Machines of Loving Grace, October 2024), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dario_Amodei
+  - for: note
+    source: Dario Amodei, Machines of Loving Grace, October 2024 (sections on biology and health, neuroscience and mind, economic development, peace and governance, work and meaning)
+    url: https://www.darioamodei.com/essay/machines-of-loving-grace
+  status: checked
+- id: dustin-moskovitz
+  lifespan: born 1984
+  roles:
+  - founder
+  labs:
+  - lab: meta
+    from: 2004
+    to: 2008
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Dustin Moskovitz (born May 22, 1984), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dustin_Moskovitz
+  - for: roles
+    source: Wikipedia, Dustin Moskovitz (co-founder of Facebook and Asana), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dustin_Moskovitz
+  - for: labs
+    source: Wikipedia, Dustin Moskovitz (co-founded Facebook in February 2004; first CTO, then vice president of engineering; announced his departure on 3 October 2008), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Dustin_Moskovitz
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 2 (Dustin Moskovitz, Co-founder and CEO, Asana), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=2
+  status: checked
+- id: jaan-tallinn
+  lifespan: born 1972
+  note: Programmer who helped build Skype, then co-founded the Centre for the Study of Existential Risk and the Future of Life Institute. An early investor and board member of DeepMind, he led Anthropic's
+    first funding round in 2021.
+  roles:
+  - founder
+  labs:
+  - lab: google
+    from: 2011
+    to: 2014
+  letters:
+  - pause-2023
+  - extinction-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Jaan Tallinn (born 14 February 1972), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jaan_Tallinn
+  - for: roles
+    source: Wikipedia, Jaan Tallinn (co-founder of CSER and the Future of Life Institute), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jaan_Tallinn
+  - for: roles
+    source: Future of Life Institute, Jaan Tallinn (founding engineer of Skype and Kazaa; co-founder of CSER and FLI; former investor director of DeepMind)
+    url: https://futureoflife.org/person/jaan-tallinn/
+  - for: labs
+    source: Companies House, DeepMind Technologies Limited (07386350), officers (Jaan Tallinn, director, appointed 23 December 2011, resigned 24 January 2014)
+    url: https://find-and-update.company-information.service.gov.uk/company/07386350/officers
+  - for: labs
+    source: Semafor, Co-founder of Skype invested in hot AI startups but thinks he failed, 28 April 2023 (early financial supporter and board member of DeepMind; declined an Anthropic board seat)
+    url: https://semafor.com/article/04/28/2023/co-founder-of-skype-invested-in-hot-ai-startups-but-thinks-he-failed
+  - for: letters
+    source: Daniel Pereira, In an open letter, Tristan Harris et al. call for a pause on the training of AI systems more powerful than GPT-4, OODA Loop, April 2023 (Jaan Tallinn among the initial signatories)
+    url: https://oodaloop.com/archive/2023/04/08/in-an-open-letter-tristan-harris-et-al-call-for-a-pause-on-the-training-of-ai-systems-more-powerful-than-gpt-4/
+  - for: letters
+    source: 'Wikipedia, Pause Giant AI Experiments: An Open Letter (notable signatories), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 2 (Jaan Tallinn, Co-Founder of Skype), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=2
+  - for: letters
+    source: 'La Carpeta Púrpura, Is Superintelligence Safe for the Future of Humanity? (the FLI statement reproduced with its signatory list: Jaan Tallinn, Co-Founder, Skype & Future of Life Institute),
+      22 October 2025'
+    url: https://lacarpetapurpura.com/is-superintelligence-safe-for-the-future-of-humanity-weve-published-the-future-of-life-institutes-statement-signed-by-world-renowned-figures-and-weve-also-published-what-chatgpts-art/
+  - for: letters
+    source: Wikipedia, Jaan Tallinn (signed the October 2025 FLI superintelligence statement), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jaan_Tallinn
+  - for: note
+    source: Wikipedia, Jaan Tallinn (Skype, CSER, FLI, early investor and board member at DeepMind, led Anthropic's initial Series A in 2021), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jaan_Tallinn
+  - for: note
+    source: Anthropic, Anthropic raises $124 million to build more reliable, general AI systems, 28 May 2021 (round led by Jaan Tallinn)
+    url: https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems
+  status: checked
+- id: emily-m-bender
+  lifespan: born 1973
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, Emily M. Bender (born 1973), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Emily_M._Bender
+  - for: roles
+    source: Wikipedia, Emily M. Bender (professor of linguistics, University of Washington; has taken a stand against hype over large language models), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Emily_M._Bender
+  status: checked
+- id: jared-kaplan
+  note: Physicist at Johns Hopkins who joined OpenAI in 2019 and co-wrote its 2020 paper on scaling laws. He co-founded Anthropic in 2021 and is its chief science officer.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: openai
+    from: 2019
+    to: 2020
+  - lab: anthropic
+    from: 2021
+  letters:
+  - extinction-2023
+  sources:
+  - for: roles
+    source: Hertz Foundation, Jared Kaplan, PhD (Chief Science Officer and Co-Founder, Anthropic; associate professor at Johns Hopkins)
+    url: https://www.hertzfoundation.org/person/jared-kaplan
+  - for: labs
+    source: Wikipedia, Jared Kaplan (joined OpenAI in 2019 as a researcher; co-founded Anthropic), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jared_Kaplan
+  - for: labs
+    source: Kaplan, McCandlish et al., Scaling Laws for Neural Language Models, arXiv:2001.08361, 23 January 2020 (Kaplan's affiliation printed as Johns Hopkins University and OpenAI)
+    url: https://arxiv.org/pdf/2001.08361
+  - for: labs
+    source: Sebastian Moss, Eleven OpenAI employees break off to establish Anthropic, raise $124 million, AI Business, 2 June 2021 (most left OpenAI between December 2020 and January 2021)
+    url: https://www.aibusiness.com/verticals/eleven-openai-employees-break-off-to-establish-anthropic-raise-124m
+  - for: labs
+    source: Wikipedia, Anthropic (founded in January 2021; Jared Kaplan among the founders), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Anthropic
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 3 (Jared Kaplan, Co-Founder, Anthropic), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=3
+  - for: note
+    source: Wikipedia, Jared Kaplan (professor of physics at Johns Hopkins; joined OpenAI in 2019; Scaling Laws for Neural Language Models, 2020; chief science officer of Anthropic), accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/Jared_Kaplan
+  status: checked
+- id: marc-andreessen
+  lifespan: born 1971
+  roles:
+  - founder
+  - writer
+  labs:
+  - lab: meta
+    from: 2008
+  sources:
+  - for: lifespan
+    source: Wikipedia, Marc Andreessen (born July 9, 1971), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marc_Andreessen
+  - for: roles
+    source: Wikipedia, Marc Andreessen (co-founder of Netscape and Andreessen Horowitz; The Techno-Optimist Manifesto, October 2023), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Marc_Andreessen
+  - for: labs
+    source: Meta Investor Relations, Leadership and governance (Marc L. Andreessen, member of the board since June 2008), accessed 23 November 2026
+    url: https://investor.atmeta.com/leadership-and-governance/default.aspx
+  status: checked
+- id: patrick-collison
+  lifespan: born 1988
+  note: Co-founder and chief executive of Stripe. In 2019 he and Tyler Cowen called for a new field of progress studies, and in 2025 he joined Meta's board.
+  roles:
+  - founder
+  labs:
+  - lab: meta
+    from: 2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Patrick Collison (born 9 September 1988), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Patrick_Collison
+  - for: roles
+    source: Wikipedia, Patrick Collison (co-founded Stripe with his brother John in 2010; its CEO), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Patrick_Collison
+  - for: labs
+    source: Meta Investor Relations, Leadership and governance (Patrick Collison, member of the board since April 2025), accessed 23 November 2026
+    url: https://investor.atmeta.com/leadership-and-governance/default.aspx
+  - for: note
+    source: Wikipedia, Patrick Collison (with Cowen argued in The Atlantic in 2019 for a new discipline of Progress Studies; joined Meta's board in April 2025), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Patrick_Collison
+  - for: note
+    source: Tyler Cowen and Patrick Collison, We Need a New Science of Progress, The Atlantic, 30 July 2019, reposted by the Mercatus Center
+    url: https://mercatus.org/commentary/we-need-new-science-progress
+  status: checked
+- id: tyler-cowen
+  lifespan: born 1962
+  note: Economist at George Mason University and co-author of the blog Marginal Revolution. His book Average Is Over (2013) predicted AI would widen inequality; in 2019 he and Patrick Collison called for
+    progress studies.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Tyler Cowen (born January 21, 1962), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tyler_Cowen
+  - for: roles
+    source: Wikipedia, Tyler Cowen (economist, George Mason University; Marginal Revolution blog; author), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tyler_Cowen
+  - for: note
+    source: Wikipedia, Tyler Cowen (Marginal Revolution with Alex Tabarrok since 2003; Average Is Over predicted that AI and automation would widen income inequality), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tyler_Cowen
+  - for: note
+    source: Wikipedia, Patrick Collison (with Cowen proposed Progress Studies in The Atlantic, 2019), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Patrick_Collison
+  - for: note
+    source: Tyler Cowen and Patrick Collison, We Need a New Science of Progress, The Atlantic, 30 July 2019, reposted by the Mercatus Center
+    url: https://mercatus.org/commentary/we-need-new-science-progress
+  status: checked
+- id: aza-raskin
+  lifespan: born 1984
+  note: Co-founder, with Tristan Harris, of the Center for Humane Technology. In 2023 the two gave The AI Dilemma, a talk warning that companies were racing to deploy AI without enough safety.
+  roles:
+  - founder
+  - critic
+  letters:
+  - pause-2023
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Aza Raskin (born February 1, 1984), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aza_Raskin
+  - for: roles
+    source: Wikipedia, Aza Raskin (co-founder of the Center for Humane Technology; founded the Earth Species Project in 2017), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aza_Raskin
+  - for: letters
+    source: Daniel Pereira, In an open letter, Tristan Harris et al. call for a pause on the training of AI systems more powerful than GPT-4, OODA Loop, April 2023 (Aza Raskin among the initial signatories)
+    url: https://oodaloop.com/archive/2023/04/08/in-an-open-letter-tristan-harris-et-al-call-for-a-pause-on-the-training-of-ai-systems-more-powerful-than-gpt-4/
+  - for: letters
+    source: 'Wikipedia, Pause Giant AI Experiments: An Open Letter (notable signatories), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 4 (Aza Raskin, Cofounder, Center for Humane Technology, The Earth Species Project), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=4
+  - for: note
+    source: Center for Humane Technology, Who we are (co-founded in 2018 by Tristan Harris, Aza Raskin and Randima Fernando)
+    url: https://www.humanetech.com/who-we-are
+  - for: note
+    source: Center for Humane Technology, The AI Dilemma (Tristan Harris and Aza Raskin, 9 March 2023)
+    url: https://humanetech.com/insights/the-ai-dilemma
+  status: checked
+- id: jacob-devlin
+  note: Google research scientist and first author of BERT, the 2018 language model built on the transformer. In 2023 he spent a few months at OpenAI before returning to Google.
+  roles:
+  - researcher
+  labs:
+  - lab: microsoft
+    from: 2014
+    to: 2017
+  - lab: google
+    from: 2017
+    to: 2023
+  - lab: openai
+    from: 2023
+    to: 2023
+  - lab: google
+    from: 2023
+  sources:
+  - for: roles
+    source: Stanford NLP Seminar, Jacob Devlin speaker biography (Staff Research Scientist at Google), 17 January 2019
+    url: https://nlp.stanford.edu/seminar/details/jdevlin.shtml
+  - for: labs
+    source: Stanford NLP Seminar, Jacob Devlin speaker biography (Principal Research Scientist at Microsoft Research from 2014 to 2017; now at Google), 17 January 2019
+    url: https://nlp.stanford.edu/seminar/details/jdevlin.shtml
+  - for: labs
+    source: Business Insider, syndicated on Yahoo News, 2023 (left Google in January after over five years there, then joined OpenAI)
+    url: https://news.yahoo.com/top-ai-researcher-reportedly-left-190003999.html
+  - for: labs
+    source: 'Jon Victor and Amir Efrati, AI boomerang: Google''s internal critic returns from rival OpenAI, The Information, 2023 (left Google for OpenAI in January; returned to his old job)'
+    url: https://feature.theinformation.com/articles/ai-boomerang-googles-internal-critic-returns-from-rival-openai
+  - for: labs
+    source: QbitAI, report on Jacob Devlin rejoining Google about three months after joining OpenAI, 24 June 2023
+    url: https://www.qbitai.com/2023/06/63413.html
+  - for: labs
+    source: 'Gemini Team, Google, Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context, arXiv:2403.05530, March to December 2024 (Jacob Devlin in the author list)'
+    url: https://arxiv.org/abs/2403.05530
+  - for: note
+    source: 'Devlin, Chang, Lee and Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, arXiv:1810.04805, 11 October 2018'
+    url: https://arxiv.org/abs/1810.04805
+  - for: note
+    source: QbitAI, report on Jacob Devlin rejoining Google, 24 June 2023
+    url: https://www.qbitai.com/2023/06/63413.html
+  status: checked
+- id: joy-buolamwini
+  lifespan: born 1990
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, Joy Buolamwini (born 23 January 1990), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joy_Buolamwini
+  - for: roles
+    source: Wikipedia, Joy Buolamwini (computer scientist and digital activist; researcher at the MIT Media Lab; founded the Algorithmic Justice League in 2016), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joy_Buolamwini
+  status: checked
+- id: timnit-gebru
+  roles:
+  - researcher
+  - critic
+  labs:
+  - lab: microsoft
+    from: 2017
+    to: 2018
+  - lab: google
+    from: 2018
+    to: 2020
+  sources:
+  - for: roles
+    source: Wikipedia, Timnit Gebru (computer scientist; co-led an ethics of AI team at Google; launched DAIR on 2 December 2021), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Timnit_Gebru
+  - for: labs
+    source: Wikipedia, Timnit Gebru (joined Microsoft's FATE lab as a postdoctoral researcher in summer 2017; joined Google in 2018; employment ended December 2020), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Timnit_Gebru
+  - for: labs
+    source: SXSW 2018, speaker page for Timnit Gebru (Postdoctoral Researcher, Microsoft, FATE group, New York lab), March 2018
+    url: https://schedule.sxsw.com/2018/speakers/1988288
+  status: checked
+- id: tristan-harris
+  roles:
+  - critic
+  - founder
+  letters:
+  - pause-2023
+  - extinction-2023
+  - superintelligence-2025
+  sources:
+  - for: roles
+    source: Wikipedia, Tristan Harris (left Google in December 2015 to co-found Time Well Spent, later the Center for Humane Technology), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tristan_Harris
+  - for: roles
+    source: Center for Humane Technology, Tristan Harris (Co-Founder and President; former Design Ethicist at Google)
+    url: https://www.humanetech.com/team-board/tristan-harris
+  - for: letters
+    source: Connie Loizos, 1,100+ notable signatories just signed an open letter asking all AI labs to immediately pause for at least 6 months, TechCrunch, 28 March 2023 (names Tristan Harris among the
+      signatories)
+    url: https://techcrunch.com/2023/03/28/1100-notable-signatories-just-signed-an-open-letter-asking-all-ai-labs-to-immediately-pause-for-at-least-6-months
+  - for: letters
+    source: 'Wikipedia, Pause Giant AI Experiments: An Open Letter (notable signatories), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 4 (Tristan Harris, Executive Director, Center for Humane Technology), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=4
+  - for: letters
+    source: Zvi Mowshowitz, New Statement Calls For Not Building Superintelligence For Now, Don't Worry About the Vase, 24 October 2025 (quotes Harris's own post on X saying he signed)
+    url: https://thezvi.substack.com/p/new-statement-calls-for-not-building
+  - for: letters
+    source: 'La Carpeta Púrpura, Is Superintelligence Safe for the Future of Humanity? (the FLI statement reproduced with its signatory list: Tristan Harris, Executive Director, Center for Humane Technology),
+      22 October 2025'
+    url: https://lacarpetapurpura.com/is-superintelligence-safe-for-the-future-of-humanity-weve-published-the-future-of-life-institutes-statement-signed-by-world-renowned-figures-and-weve-also-published-what-chatgpts-art/
+  status: checked
+- id: aidan-gomez
+  note: Co-author of Attention Is All You Need, written while he was a 20-year-old intern at Google Brain in 2017. He left Google in 2019 to co-found Cohere, which he leads.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2017
+    to: 2019
+  sources:
+  - for: roles
+    source: Wikipedia, Aidan Gomez (co-author of Attention Is All You Need; co-founder and CEO of Cohere), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aidan_Gomez
+  - for: labs
+    source: Wikipedia, Aidan Gomez (20-year-old intern at Google Brain in 2017; left Google Brain in 2019 to launch Cohere), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aidan_Gomez
+  - for: labs
+    source: 'Vaswani et al., Attention Is All You Need, arXiv:1706.03762, 2017 (Gomez: University of Toronto, work performed while at Google Brain)'
+    url: https://arxiv.org/pdf/1706.03762
+  - for: note
+    source: Wikipedia, Aidan Gomez, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aidan_Gomez
+  status: checked
+- id: ashish-vaswani
+  lifespan: born 1980
+  note: First-listed author of Attention Is All You Need (2017), the Google Brain paper that introduced the transformer. He later co-founded the start-ups Adept and Essential AI.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2016
+    to: 2021
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ashish Vaswani (born 1980), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ashish_Vaswani
+  - for: roles
+    source: Wikipedia, Ashish Vaswani (co-author of Attention Is All You Need; co-founded Adept AI and, with Niki Parmar in December 2022, Essential AI), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ashish_Vaswani
+  - for: labs
+    source: 'Wikipedia, Ashish Vaswani (infobox: Google Brain 2016–2021), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Ashish_Vaswani
+  - for: note
+    source: Vaswani et al., Attention Is All You Need, arXiv:1706.03762, 2017 (Vaswani listed first, affiliation Google Brain; listing order random)
+    url: https://arxiv.org/pdf/1706.03762
+  - for: note
+    source: Wikipedia, Ashish Vaswani, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ashish_Vaswani
+  status: checked
+- id: hilary-greaves
+  lifespan: born 1978
+  roles:
+  - writer
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Hilary Greaves (born 1978), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hilary_Greaves
+  - for: roles
+    source: Wikipedia, Hilary Greaves (British philosopher; professor of philosophy at Oxford; founding director of the Global Priorities Institute 2017–2022), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hilary_Greaves
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, official signatory list, page 4 (Hilary Greaves, Professor of Philosophy, University of Oxford), 30 May 2023
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=4
+  status: checked
+- id: kate-crawford
+  lifespan: born 1974
+  roles:
+  - researcher
+  - critic
+  labs:
+  - lab: microsoft
+  sources:
+  - for: lifespan
+    source: Wikipedia, Kate Crawford (born 1974), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Kate_Crawford
+  - for: roles
+    source: Wikipedia, Kate Crawford (principal researcher at Microsoft Research; established AI Now with Meredith Whittaker in 2017; Atlas of AI, 2021), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Kate_Crawford
+  - for: labs
+    source: Microsoft Research, Kate Crawford, Senior Principal Researcher (current profile, no start year given), accessed 23 November 2026
+    url: https://www.microsoft.com/en-us/research/people/kate/
+  status: checked
+- id: meredith-whittaker
+  note: At Google she helped organise the 2018 staff walkout and the protest against Project Maven, and left the company in 2019. She co-founded the AI Now Institute in 2017 and became president of Signal
+    in 2022.
+  roles:
+  - critic
+  - founder
+  labs:
+  - lab: google
+    from: 2006
+    to: 2019
+  sources:
+  - for: roles
+    source: Wikipedia, Meredith Whittaker (co-founder of AI Now; core organiser of the 2018 Google walkouts; president of Signal), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Meredith_Whittaker
+  - for: labs
+    source: Wikipedia, Meredith Whittaker (joined Google in 2006; founded Google Open Research and co-founded M-Lab; resigned in July 2019), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Meredith_Whittaker
+  - for: labs
+    source: Catherine Shu, Meredith Whittaker, AI researcher and an organizer of last year's Google walkout, is leaving the company, TechCrunch, 15 July 2019
+    url: https://techcrunch.com/2019/07/15/meredith-whittaker-ai-researcher-and-an-organizer-of-last-years-google-walkout-is-leaving-the-company
+  - for: note
+    source: Wikipedia, Meredith Whittaker (walkouts, petition against Project Maven, AI Now 2017 with Kate Crawford, Signal president from September 2022), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Meredith_Whittaker
+  - for: note
+    source: Catherine Shu, TechCrunch, 15 July 2019 (a leader of the November 2018 walkout; leaving Google)
+    url: https://techcrunch.com/2019/07/15/meredith-whittaker-ai-researcher-and-an-organizer-of-last-years-google-walkout-is-leaving-the-company
+  status: checked
+- id: noam-shazeer
+  note: Google engineer from 2000 and co-author of Attention Is All You Need (2017), the paper that introduced the transformer. He co-founded Character.AI in 2021, returned to Google in 2024 to co-lead
+    Gemini, and moved to OpenAI in 2026.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2000
+    to: 2021
+  - lab: google
+    from: 2024
+    to: 2026
+  - lab: openai
+    from: 2026
+  sources:
+  - for: roles
+    source: Wikipedia, Noam Shazeer (co-author of Attention Is All You Need; co-founder of Character.AI), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Noam_Shazeer
+  - for: labs
+    source: Wikipedia, Noam Shazeer (joined Google in 2000; left in 2021 to found Character.AI; reported in August 2024 to be returning to co-lead Gemini; announced in June 2026 he would join OpenAI), accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/Noam_Shazeer
+  - for: labs
+    source: Ben Schoon, Gemini's co-lead is leaving Google to join OpenAI, 9to5Google, 17 June 2026 (software engineer 2000–2021; VP of engineering and Gemini co-lead since August 2024)
+    url: https://9to5google.com/2026/06/17/geminis-co-lead-is-leaving-google-to-join-openai/
+  - for: labs
+    source: Julia Love and Rachel Metz, Star Google researcher joins OpenAI in coup for ChatGPT creator, Bloomberg News via Bloomberg Law, 18 June 2026 (to lead OpenAI's AI architecture research)
+    url: https://news.bloomberglaw.com/capital-markets/star-google-researcher-jumps-to-openai-in-coup-for-startup
+  - for: labs
+    source: Cristian Dina, Google's Gemini co-lead Noam Shazeer is leaving for OpenAI, The Next Web, 18 June 2026
+    url: https://thenextweb.com/news/googles-gemini-co-lead-noam-shazeer-is-leaving-for-openai
+  - for: note
+    source: Wikipedia, Noam Shazeer, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Noam_Shazeer
+  - for: note
+    source: Vaswani et al., Attention Is All You Need, arXiv:1706.03762, 2017 (Shazeer, Google Brain)
+    url: https://arxiv.org/pdf/1706.03762
+  - for: note
+    source: Julia Love and Rachel Metz, Bloomberg News via Bloomberg Law, 18 June 2026
+    url: https://news.bloomberglaw.com/capital-markets/star-google-researcher-jumps-to-openai-in-coup-for-startup
+  status: checked
+- id: vladimir-putin
+  lifespan: born 1952
+  note: President of Russia. In 2017 he told Russian students that whoever leads in AI will rule the world.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Vladimir Putin (born 7 October 1952), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vladimir_Putin
+  - for: roles
+    source: Wikipedia, Vladimir Putin (President of Russia 2000–2008 and since 2012), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vladimir_Putin
+  - for: note
+    source: David Meyer, Fortune, 4 September 2017 (Putin's remarks on AI to students at a science lesson opening the Russian school year, citing RT)
+    url: https://fortune.com/2017/09/04/ai-artificial-intelligence-putin-rule-world/
+  status: checked
