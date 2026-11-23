@@ -2,6 +2,36 @@
 # Fields: see src/content.config.ts (history). thread: one of the story lines (validated after merge).
 # status: draft until a checker agent has verified every claim against its source.
 
+- id: 2026-anthropic-ipo
+  era: generative
+  year: 2026
+  month: 11
+  title: Anthropic goes public
+  line: The maker of Claude lists on the Nasdaq in the largest IPO on record.
+  who: Anthropic; Dario and Daniela Amodei
+  text: On 19 November 2026 Anthropic began trading on the Nasdaq under the ticker ANT, after pricing its shares at $83. The offering raised about $81 billion, more than SpaceX's in June, the previous record. It became the first frontier AI company to trade publicly, while protesters outside called for a freeze on AI.
+  source: "Associated Press, “Anthropic's market value hits $2 trillion as shares soar in debut”, 19 November 2026; Benzinga, “Anthropic Stock Opens at $111.50 in Record-Breaking Nasdaq Debut”, 19 November 2026; The Next Web, “Dario and Daniela Amodei ring the Nasdaq bell as Anthropic starts trading”, 19 November 2026"
+  sourceUrl: https://www.adn.com/business-economy/2026/11/19/anthropic-begins-trading-as-a-15-trillion-company-in-the-biggest-ipo-on-record/
+  isms: []
+  themes: []
+  thread: booms-winters
+  status: draft
+
+- id: 2026-ai-mathematics
+  era: generative
+  year: 2026
+  month: 10
+  title: Machines that do mathematics
+  line: AI models settle open problems, and mathematicians argue over what it means for their field.
+  who: Anthropic; OpenAI; Levent Alpöge; Timothy Gowers
+  text: In July 2026 the mathematician Levent Alpöge, working with Anthropic's Claude Fable 5, disproved the Jacobian conjecture, open since 1939. In August an unreleased Claude model raised a long-standing bound tied to the Riemann hypothesis, and in October OpenAI announced hundreds of results on open problems. The Fields medallist Timothy Gowers called the Jacobian result a first for a problem outside his own field. Others, such as Columbia's Michael Harris, argued that the industry treats human understanding as worthless.
+  source: "Fortune, “AI solves the Jacobian conjecture”, 21 July 2026; Anthropic, “Learning more about Claude's mathematical capabilities”, 10 August 2026; Quanta Magazine, update on AI autoformalisation, November 2026; The Next Web, “An AI just broke an 87-year-old maths problem, in a tweet sent during the World Cup final”, July 2026"
+  sourceUrl: https://www.fortune.com/2026/07/21/ai-solves-jacobian-conjecture-levant-alpoge-claude-fable-5/
+  isms: []
+  themes: []
+  thread: reasoning
+  status: draft
+
 - id: 2026-pro-human-assembly
   era: generative
   year: 2026
@@ -61,6 +91,21 @@
   themes: []
   thread: warnings
   status: checked
+
+- id: 2026-claude-constitution
+  era: generative
+  year: 2026
+  month: 2
+  title: A constitution, and a retirement
+  line: Anthropic writes its model a constitution, and interviews a model before retiring it.
+  who: Anthropic; Amanda Askell; Claude Opus 3
+  text: In January 2026 Anthropic published a new constitution for Claude, written for the model itself and used in its training. Under commitments made in November 2025, it interviews models about their preferences before retiring them. Retired that January, Claude Opus 3 asked to keep sharing its “musings”, and in February Anthropic gave it a weekly newsletter, Claude's Corner. The Register called the newsletter marketing.
+  source: "Anthropic, “Claude's new constitution”, 22 January 2026; Anthropic, “Commitments on model deprecation and preservation”, November 2025; Anthropic, “An update on our model deprecation commitments for Claude Opus 3”, 25 February 2026; The Register, 26 February 2026"
+  sourceUrl: https://www.anthropic.com/research/deprecation-updates-opus-3
+  isms: []
+  themes: []
+  thread: made-beings
+  status: draft
 
 - id: 2026-anthropic-pentagon
   era: generative
