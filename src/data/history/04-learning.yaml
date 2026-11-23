@@ -178,3 +178,20 @@
   isms: [singularitarianism]
   themes: []
   status: checked
+
+- id: 2000-why-the-future-doesnt-need-us
+  era: learning
+  year: 2000
+  title: Why the future doesn't need us
+  line: A leading computer engineer warns that robots, genetics and nanotechnology could make humans an endangered species.
+  who: Bill Joy, Sun Microsystems; Wired; Ray Kurzweil; Max More, Extropy Institute
+  text: |
+    Wired's April 2000 issue carried “Why the Future Doesn't Need Us” by Bill Joy, chief scientist of the computer maker Sun Microsystems. Robotics, genetic engineering and nanotechnology, he warned, could make humans an endangered species. Unlike nuclear bombs, which need rare materials and big plants, these could turn deadly through knowledge alone, within reach of small groups.
+
+    His alarm began in 1998, when the inventor Ray Kurzweil argued that sentient robots were near and humans would merge with them. Joy's answer was to give up the most dangerous research, as nations had renounced biological and chemical weapons. Max More of the Extropy Institute and other transhumanists, joined by Kurzweil, replied that giving up research was “a utopian fantasy”.
+  source: "Bill Joy, “Why the Future Doesn't Need Us”, Wired 8.04, April 2000 (read in the copy posted for MIT course 6.141, spring 2009; Joy as Sun's chief scientist; the 1998 Telecosm conversation with Kurzweil; relinquishment); Extropy Institute, “Embrace, Don't Relinquish, the Future”, Extropy.org, 7 May 2000, reprinted on KurzweilAI.net, 26 February 2001 (read at writingsbyraykurzweil.com; “a utopian fantasy”); Extropy Institute, “Embrace, Don't Relinquish, the Future”, press release quoting Max More, Extropians mailing list, 18 May 2000 (Kurzweil joins More's rebuttal; “transhumanist thinkers”)"
+  sourceUrl: https://courses.csail.mit.edu/6.141/spring2009/pub/debates/Wired_8.04_Whythefuture_Apr2000.htm
+  isms: [transhumanism]
+  themes: []
+  thread: warnings
+  status: checked

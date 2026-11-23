@@ -181,3 +181,22 @@
   themes: []
   thread: symbols-networks
   status: checked
+
+- id: 2017-putin-ai
+  era: scale
+  year: 2017
+  month: 9
+  day: 1
+  title: Whoever leads in AI
+  line: Russia's president tells schoolchildren that whoever leads in AI will rule the world.
+  who: Vladimir Putin; Elon Musk
+  text: |
+    On 1 September 2017 Vladimir Putin spoke to students in Yaroslavl, at a lesson opening the Russian school year. Russia's president called AI the future of all humankind, with vast opportunities and threats that are hard to foresee. Whoever leads in this field, he said, “will become the ruler of the world”.
+
+    No one should hold a monopoly, he added, and a leading Russia would share its know-how, as it did with nuclear technology. He foresaw wars fought by drones, in which a side whose drones were destroyed would have to surrender. Three days later the entrepreneur Elon Musk posted that national rivalry for AI superiority was the likeliest cause of a third world war.
+  source: "David Meyer, “Vladimir Putin Says Whoever Leads in Artificial Intelligence Will Rule the World”, Fortune, 4 September 2017 (from RT and AP: the lesson opening the school year, the future of all humankind, monopoly, nuclear know-how, drones); “After Putin's AI Comments, Elon Musk Imagines World War III”, The Moscow Times, 5 September 2017 (schoolchildren in Yaroslavl; “ruler of the world”; drones; Musk's posts of 4 September)"
+  sourceUrl: https://themoscowtimes.com/news/musk-responds-to-putin-ai-predictions-on-global-dominance-58847
+  isms: []
+  themes: []
+  thread: law
+  status: checked

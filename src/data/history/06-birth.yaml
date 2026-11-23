@@ -233,3 +233,43 @@
   isms: []
   themes: []
   status: checked
+
+- id: 1972-dreyfus
+  era: birth
+  year: 1972
+  title: What Computers Can't Do
+  line: A philosopher argues that AI built from rules cannot capture how people really think and act.
+  who: Hubert Dreyfus; RAND Corporation
+  text: |
+    Hubert Dreyfus, a philosopher at MIT, spent the summer of 1961 studying AI at the RAND Corporation, a think tank in California. In December 1965 RAND issued his paper “Alchemy and Artificial Intelligence”, which judged AI's ultimate goals as far out of reach as the alchemists'. Claiming progress from early successes, he wrote, was like the first man up a tree claiming progress towards the moon.
+
+    Significant progress, the paper concluded, must await a different sort of computer; the only prototype was the little-understood human brain. In 1967 an MIT chess program beat Dreyfus, who had written that no program could play even amateur chess.
+
+    In 1972 he expanded his case into a book, What Computers Can't Do; his exchanges with AI researchers were often contentious. Human expertise, he argued, rests on a body living in the world, not on rules a program could follow.
+  source: "Hubert L. Dreyfus, “Alchemy and Artificial Intelligence”, RAND Corporation paper P-3244, December 1965 (the abstract on rand.org: a different sort of computer, the human brain); Hubert L. Dreyfus, What Computers Can't Do: A Critique of Artificial Reason, Harper & Row, 1972 (as cited by Nilsson); Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, chs. 14 and 24 (teaching at MIT; the summer of 1961; alchemy; the tree; MAC HACK VI and the chess game of 1967; contentious interactions; the body; read in the author's online draft of 13 September 2009)"
+  sourceUrl: https://www.rand.org/pubs/papers/P3244.html
+  isms: []
+  themes: []
+  thread: symbols-networks
+  status: checked
+
+- id: 1970-early-promises
+  era: birth
+  year: 1970
+  month: 11
+  day: 20
+  title: The early promises
+  line: "A magazine quotes Marvin Minsky: within three to eight years, a machine as clever as an average person."
+  who: Marvin Minsky, MIT; Brad Darrach, Life; Herbert Simon; James Lighthill
+  text: |
+    On 20 November 1970 Life magazine introduced Shakey, a robot at the Stanford Research Institute, as “the first electronic person”. In it MIT's Marvin Minsky was quoted as saying that within three to eight years a machine would match an average human's general intelligence. It would read Shakespeare and tell a joke, then teach itself to genius level within months.
+
+    Other researchers told the writer, Brad Darrach, to allow 15 years; Minsky later called the quote made up. Herbert Simon, another AI pioneer, had said in 1960 that within twenty years machines could do any work a man can do. He reprinted it in a 1965 book, though he expected people to keep the jobs where they held an edge.
+
+    In 1973 a review for Britain's Science Research Council by James Lighthill noted “the lamentable failure of such inflated predictions”. Funding was cut in Britain and narrowed in the United States; some histories date the first AI winter from about then.
+  source: "Brad Darrach, “Meet Shaky, the first electronic person”, Life, 20 November 1970 (scan at gwern.net); Luke Muehlhauser, “What Should We Learn from Past AI Forecasts?”, Open Philanthropy, September 2016 (Minsky's denial, after Daniel Crevier, 1993, and David Stork, ed., 1997; dating the first AI winter); “Quote Origin: Machines Will Be Capable, Within Twenty Years, of Doing Any Work That a Man Can Do”, Quote Investigator, 11 November 2020 (Herbert A. Simon, The New Science of Management Decision, Harper & Row, 1960, p. 38, reprinted in The Shape of Automation for Men and Management, Harper & Row, 1965); James Lighthill, “Artificial Intelligence: A General Survey”, in Artificial Intelligence: a paper symposium, Science Research Council, 1973, section 3, “Past Disappointments” (read in the copy at aiai.ed.ac.uk); Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010 (Simon among the “fathers” of AI; ch. 16, the Mansfield Amendment narrowing American military funding to research with a military purpose; read in the author's online draft of 13 September 2009)"
+  sourceUrl: https://gwern.net/doc/reinforcement-learning/robot/1970-darrach.pdf
+  isms: []
+  themes: []
+  thread: booms-winters
+  status: checked

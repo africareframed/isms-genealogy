@@ -182,3 +182,22 @@
   isms: []
   themes: [compute]
   status: checked
+
+- id: 2015-autonomous-weapons-letter
+  era: deep-learning
+  year: 2015
+  month: 7
+  day: 28
+  title: A letter against killer robots
+  line: Over a thousand AI researchers call for a ban on weapons that choose and attack targets on their own.
+  who: Future of Life Institute; Stuart Russell; Stephen Hawking; Elon Musk; Steve Wozniak; Demis Hassabis; Noam Chomsky
+  text: |
+    In late July 2015, as the International Joint Conference on Artificial Intelligence opened in Buenos Aires, AI researchers published an open letter. It called for a ban on offensive autonomous weapons, which pick and attack targets with no human deciding, such as armed quadcopters hunting people. If any major power pushed ahead, it warned, an arms race would make them cheap and everywhere, “the Kalashnikovs of tomorrow”.
+
+    The letter was the idea of Stuart Russell, a Berkeley computer scientist, and the Future of Life Institute organised it. Over 1,000 AI and robotics researchers signed at launch, with Stephen Hawking, Elon Musk, Steve Wozniak, Noam Chomsky and DeepMind's Demis Hassabis. It granted that such weapons might spare soldiers' lives, but feared they would make it easier to go to war.
+  source: "Future of Life Institute, “Autonomous Weapons Open Letter: AI & Robotics Researchers”, futureoflife.org, announced 28 July 2015 at the opening of IJCAI (the text; quadcopters; arms race; fewer casualties against a lower threshold for war); Lucas Matney, “Hawking, Musk Warn Of ‘Virtually Inevitable’ AI Arms Race”, TechCrunch, 27 July 2015 (Buenos Aires; over 1,000 AI and robotics researchers; named signers); Bill Chappell, “Researchers Warn Against ‘Autonomous Weapons’ Arms Race”, NPR, 28 July 2015, as reprinted by GBH (Stuart Russell's idea; organised by the Future of Life Institute)"
+  sourceUrl: https://futureoflife.org/open-letter/open-letter-autonomous-weapons-ai-robotics/
+  isms: []
+  themes: []
+  thread: war
+  status: checked

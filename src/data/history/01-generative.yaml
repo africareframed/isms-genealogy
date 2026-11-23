@@ -582,3 +582,66 @@
   themes: [compute]
   thread: compute
   status: checked
+
+- id: 2025-ai-2027
+  era: generative
+  year: 2025
+  month: 4
+  day: 3
+  title: AI 2027
+  line: A detailed scenario imagines AI overtaking humans by the end of 2027, and millions read it.
+  who: Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean; AI Futures Project; JD Vance; Gary Marcus
+  text: |
+    On 3 April 2025 the AI Futures Project, a non-profit in Berkeley, California, published AI 2027. The project's leader, Daniel Kokotajlo, had quit OpenAI over concerns that it was acting recklessly. The blogger Scott Alexander turned the team's forecast into a story.
+
+    In it a fictional lab, OpenBrain, builds AI agents that speed up their own research and reach superintelligence around the end of 2027. Readers choose an ending: a race with China in which AI destroys humanity, or a slowdown that keeps humans in control. It was read by millions; in May 2025 Vice President JD Vance told the columnist Ross Douthat that he had read it.
+
+    Gary Marcus, an emeritus professor of neuroscience at New York University, called it “a work of fiction, not a work of science”. At the end of 2025 Kokotajlo pushed his forecast for fully automated coding back to about 2030; in April 2026, to mid-2028.
+  source: "Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean, “AI 2027”, AI Futures Project, ai-2027.com, 3 April 2025 (the two endings; Scott Alexander's role); Kevin Roose, “This A.I. Forecast Predicts Storms Ahead”, The New York Times, 3 April 2025, as reprinted by The Star (Malaysia), 7 April 2025 (Berkeley non-profit led by Kokotajlo; why he left OpenAI); 80,000 Hours, “AI 2027's author returns with a plan to change the ending | Daniel Kokotajlo”, interview by Luisa Rodriguez and Elizabeth Cox, 27 August 2026 (read by millions); Zvi Mowshowitz, “AI #117: OpenAI Buys Device Maker IO”, LessWrong, 22 May 2025 (quoting Vance's interview with Ross Douthat of 21 May 2025: he had read it); Gary Marcus, “The ‘AI 2027’ Scenario: How realistic is it?”, Marcus on AI, 22 May 2025; Aisha Down, “AI expert delays timeline for its possible destruction of humanity”, The Guardian, as reprinted by the Irish Examiner, 6 January 2026 (Marcus's post and title); Eli Lifland, Brendan Halstead, Alex Kastner and Daniel Kokotajlo, “AI Futures Timelines and Takeoff Model: Dec 2025 Update”, LessWrong, 31 December 2025 (Kokotajlo's automated-coder median, 2030); Daniel Kokotajlo, Eli Lifland and Brendan Halstead, “Q1 2026 Timelines Update”, LessWrong, 2 April 2026 (moved to mid-2028)"
+  sourceUrl: https://ai-2027.com/
+  isms: []
+  themes: []
+  thread: warnings
+  status: checked
+
+- id: 2024-machines-of-loving-grace
+  era: generative
+  year: 2024
+  month: 10
+  day: 11
+  title: Machines of Loving Grace
+  line: The head of the AI company Anthropic imagines what AI could do if all goes well, then writes a sequel on the risks.
+  who: Dario Amodei, Anthropic; Jeremy Kahn, Fortune
+  text: |
+    On 11 October 2024 Dario Amodei, who runs the AI company Anthropic, posted “Machines of Loving Grace”, titled after a 1967 Richard Brautigan poem. In about 15,000 words it pictured millions of AI copies smarter than Nobel winners in most fields: “a country of geniuses in a datacenter”.
+
+    Such AI might come as early as 2026, he wrote, and squeeze 50 to 100 years of progress in biology into five to ten. TechCrunch called such predictions stretches, and noted that Anthropic was raising billions of dollars from investors.
+
+    On 26 January 2026 a 20,000-word sequel, “The Adolescence of Technology”, said such AI might be only one or two years away. It could help make bioweapons, help autocrats tighten control and disrupt half of entry-level office jobs.
+
+    Amodei urged laws making AI companies open about their safety practices, and curbs on selling advanced chips to China. Fortune's Jeremy Kahn did not doubt his sincerity, but called the essay as much “a novella-length marketing message” as a prophecy.
+  source: "Dario Amodei, “Machines of Loving Grace: How AI Could Transform the World for the Better”, darioamodei.com, October 2024; Kyle Wiggers, “Anthropic CEO goes full techno-optimist in 15,000-word paean to AI”, TechCrunch, 11 October 2024; David Streitfeld, “The Awesome and Alarming AI Visions of Anthropic's CEO”, The New York Times, 17 September 2026, as reprinted by GV Wire (the 1967 Brautigan poem); Dario Amodei, “The Adolescence of Technology: Confronting and Overcoming the Risks of Powerful AI”, darioamodei.com, January 2026 (one or two years; bioweapons; autocracy; 50% of entry-level white-collar jobs; transparency laws; chips); Jeremy Kahn, “Anthropic CEO Dario Amodei's 20,000-word essay on how AI ‘will test’ humanity is a must-read—but more for his remedies than his warnings”, Fortune, 27 January 2026 (published on Monday 26 January; 20,000 words)"
+  sourceUrl: https://www.darioamodei.com/essay/machines-of-loving-grace
+  isms: []
+  themes: []
+  thread: made-beings
+  status: checked
+
+- id: 2023-hinton-leaves-google
+  era: generative
+  year: 2023
+  month: 5
+  day: 1
+  title: Hinton leaves Google
+  line: One of AI's best-known scientists quits Google so that he can warn of its dangers.
+  who: Geoffrey Hinton; Google; Cade Metz, The New York Times; Margaret Mitchell
+  text: |
+    On 1 May 2023 The New York Times reported that Geoffrey Hinton, 75, often called a godfather of AI, had left Google. He said he left so that he could speak freely about AI's dangers, and that Google had “acted very responsibly”. He feared floods of fake text, images and video, lost jobs and, one day, machines smarter than people.
+
+    He had thought such machines 30 to 50 years away, but no longer did; part of him regretted his life's work. Margaret Mitchell, a former leader of Google's AI ethics team, said he had kept quiet at Google and was skipping over harms happening now. Weeks later he signed a one-line statement ranking the risk of extinction from AI with pandemics and nuclear war.
+  source: "Katyanna Quach, “Top Google boffin Hinton quits, warns of AI danger, partly regrets life's work”, The Register, 1 May 2023 (on Cade Metz's report in The New York Times and Hinton's own post); Matt O'Brien, “Scientists warn of AI dangers but don't agree on solutions”, Associated Press, 3 May 2023, as reprinted by News4JAX (“so-called Godfather of AI”; Margaret Mitchell); Center for AI Safety, “Statement on AI Risk”, 30 May 2023 (Hinton the first signatory)"
+  sourceUrl: https://www.theregister.com/2023/05/01/ai_geoffrey_hinton_resigns/
+  isms: []
+  themes: []
+  thread: warnings
+  status: checked
