@@ -1,0 +1,478 @@
+# People facts, batch 02: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: gary-marcus
+  lifespan: born 1970
+  note: Cognitive scientist and critic of deep learning and of the hype around AI. He signed the 2023 call for a pause and dismissed AI 2027 as fiction.
+  roles:
+  - critic
+  - researcher
+  letters:
+  - pause-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Gary Marcus' (born 1970, Baltimore), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gary_Marcus
+  - for: roles
+    source: 'Wikipedia, ''Gary Marcus'': psychologist, cognitive scientist, professor emeritus at NYU, critic of AI hype, founder of Geometric Intelligence and Robust.AI'
+    url: https://en.wikipedia.org/wiki/Gary_Marcus
+  - for: letters
+    source: AFP, 'Human extinction threat overblown says AI expert Gary Marcus', Gulf News, 4 June 2023 (signed the pause letter; declined to sign the extinction statement)
+    url: https://gulfnews.com/amp/story/technology%2Fhuman-extinction-threat-overblown-says-ai-expert-gary-marcus-1.1685856391552
+  - for: letters
+    source: Wikipedia, 'Gary Marcus' (signed the 29 March 2023 open letter for a six-month moratorium)
+    url: https://en.wikipedia.org/wiki/Gary_Marcus
+  - for: note
+    source: Leila Sheridan, 'AI Expert Predicted AI Would End Humanity in 2027 - Now He's Changing His Timeline', Inc., 7 January 2026 (Marcus dismissed AI 2027 as fiction)
+    url: https://www.inc.com/leila-sheridan/ai-expert-predicted-ai-would-end-humanity-in-2027-now-hes-changing-his-timeline/91285636
+  - for: note
+    source: Wikipedia, 'Gary Marcus' (critic of the hype around AI; argues deep-learning techniques cannot be formally verified), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gary_Marcus
+  status: checked
+- id: jd-vance
+  lifespan: born 1984
+  note: Vice President of the United States from 2025, who reportedly read AI 2027. He argued against heavy AI regulation at the 2025 Paris summit and warned that a US pause would favour China.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'JD Vance' (born 2 August 1984), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/JD_Vance
+  - for: roles
+    source: 'Wikipedia, ''JD Vance'': US senator for Ohio 2023-2025, Vice President from 20 January 2025'
+    url: https://en.wikipedia.org/wiki/JD_Vance
+  - for: note
+    source: Leila Sheridan, 'AI Expert Predicted AI Would End Humanity in 2027 - Now He's Changing His Timeline', Inc., 7 January 2026 (Vance reportedly read AI 2027)
+    url: https://www.inc.com/leila-sheridan/ai-expert-predicted-ai-would-end-humanity-in-2027-now-hes-changing-his-timeline/91285636
+  - for: note
+    source: The American Presidency Project (UC Santa Barbara), 'Remarks by the Vice President at the Artificial Intelligence Action Summit in Paris, France', 11 February 2025
+    url: https://presidency.ucsb.edu/documents/remarks-the-vice-president-the-artificial-intelligence-action-summit-paris-france
+  - for: note
+    source: Proiti Seal Acharya, 'J.D. Vance Warns That Pausing US AI Development Could Hand Global Control To China', Benzinga, 26 May 2025 (interview with Ross Douthat, New York Times)
+    url: https://www.benzinga.com/25/05/45605520/do-we-find-ourselves-all-enslaved-to-prc-mediated-ai-jd-vance-warns-that-pausing-us-ai-development-could-hand-glo
+  status: checked
+- id: nate-soares
+  lifespan: born 1989
+  roles:
+  - researcher
+  - writer
+  labs:
+  - lab: microsoft
+  - lab: google
+    to: 2014
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Nate Soares' (born 1989), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nate_Soares
+  - for: roles
+    source: 'Wikipedia, ''Nate Soares'': AI safety researcher and author; president of MIRI'
+    url: https://en.wikipedia.org/wiki/Nate_Soares
+  - for: labs
+    source: 'Wikipedia, ''Nate Soares'': spent time at Microsoft and Google; left Google in 2014 to join MIRI (no years given for Microsoft, a past role)'
+    url: https://en.wikipedia.org/wiki/Nate_Soares
+  - for: labs
+    source: 'Machine Intelligence Research Institute, team page ''Nate Soares'': worked as an engineer at Google and Microsoft before MIRI'
+    url: https://intelligence.org/?p=22184
+  status: checked
+- id: richard-sutton
+  lifespan: born 1957 or 1958
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2017
+    to: 2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Richard S. Sutton' (born 1957 or 1958, Toledo, Ohio), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Richard_S._Sutton
+  - for: lifespan
+    source: The Canadian Encyclopedia, 'Richard Sutton' (born circa 1957)
+    url: https://thecanadianencyclopedia.ca/en/article/richard-sutton
+  - for: roles
+    source: 'Wikipedia, ''Richard S. Sutton'': computer scientist, professor at the University of Alberta, 2024 Turing Award for reinforcement learning'
+    url: https://en.wikipedia.org/wiki/Richard_S._Sutton
+  - for: labs
+    source: 'Wikipedia, ''Richard S. Sutton'': distinguished research scientist at DeepMind 2017-2023, launched DeepMind Alberta'
+    url: https://en.wikipedia.org/wiki/Richard_S._Sutton
+  - for: labs
+    source: 'The Canadian Encyclopedia, ''Richard Sutton'': headed DeepMind''s Edmonton branch from 2017 until it closed in 2023'
+    url: https://thecanadianencyclopedia.ca/en/article/richard-sutton
+  status: checked
+- id: steve-bannon
+  lifespan: born 1953
+  roles:
+  - official
+  - critic
+  letters:
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Steve Bannon' (born 27 November 1953), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Bannon
+  - for: roles
+    source: 'Wikipedia, ''Steve Bannon'': White House chief strategist, January to August 2017; host of the War Room podcast since 2019'
+    url: https://en.wikipedia.org/wiki/Steve_Bannon
+  - for: roles
+    source: Future of Life Institute, 'This is What it Means to be Pro-Human... Statement of Shared Principles on AI', press release, 4 March 2026 (Bannon, The War Room, an endorser)
+    url: https://futureoflife.org/press-release/statement-of-shared-principles-on-ai/
+  - for: letters
+    source: Matt O'Brien, Associated Press, 'Prince Harry, Meghan Markle join with Steve Bannon and Steve Wozniak in calling for ban on AI superintelligence', Fortune, 22 October 2025
+    url: https://fortune.com/2025/10/22/prince-harry-meghan-markle-wozniak-bannon-ban-superintelligence-letter/
+  - for: letters
+    source: James Lynch, 'Hundreds of Public Figures, AI Experts Call for Superintelligence Ban', National Review, 22 October 2025 (Bannon and Glenn Beck among the signatories)
+    url: https://www.nationalreview.com/news/hundreds-of-leading-political-figures-ai-experts-call-for-superintelligence-ban/
+  status: checked
+- id: vince-chhabria
+  lifespan: born 1969
+  note: Federal judge in California who ruled in June 2025 that Meta's training of Llama on authors' books was fair use. He stressed that the ruling did not mean such training was lawful, only that these
+    authors had pressed the wrong arguments.
+  roles:
+  - judge
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Vince Chhabria' (born 27 November 1969), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vince_Chhabria
+  - for: roles
+    source: 'Wikipedia, ''Vince Chhabria'': judge of the US District Court for the Northern District of California since 7 March 2014, appointed by Barack Obama'
+    url: https://en.wikipedia.org/wiki/Vince_Chhabria
+  - for: note
+    source: Matt O'Brien and Barbara Ortutay, Associated Press, 'Judge tosses authors' AI training copyright lawsuit against Meta', PBS NewsHour, 26 June 2025
+    url: https://www.pbs.org/newshour/arts/judge-tosses-authors-ai-training-copyright-lawsuit-against-meta
+  - for: note
+    source: 'Wikipedia, ''Vince Chhabria'' (Kadrey v. Meta order of 25 June 2025: training Llama was fair use)'
+    url: https://en.wikipedia.org/wiki/Vince_Chhabria
+  status: checked
+- id: william-alsup
+  lifespan: born 1945
+  note: Federal judge in San Francisco who ruled in June 2025 that training Anthropic's Claude on books was fair use. He also ruled that Anthropic had no right to keep pirated copies in its central library,
+    and sent that question to trial.
+  roles:
+  - judge
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'William Alsup' (born 27 June 1945), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_Alsup
+  - for: roles
+    source: 'Wikipedia, ''William Alsup'': judge of the US District Court for the Northern District of California from 1999, appointed by Bill Clinton; senior status 2021'
+    url: https://en.wikipedia.org/wiki/William_Alsup
+  - for: note
+    source: Matt O'Brien, Associated Press, 'Anthropic's landmark copyright ruling is a victory for the AI industry - but the company is still on the hook for piracy claims', Fortune, 24 June 2025
+    url: https://fortune.com/2025/06/24/anthropic-ai-copyright-ruling-claude-piracy-trial/
+  - for: note
+    source: Wikipedia, 'William Alsup' (Bartz v. Anthropic summary judgment order, 23 June 2025)
+    url: https://en.wikipedia.org/wiki/William_Alsup
+  status: checked
+- id: arvind-narayanan
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: roles
+    source: 'Wikipedia, ''Arvind Narayanan'': computer scientist, professor at Princeton, director of its Center for Information Technology Policy; co-author of AI Snake Oil (2024), a book debunking overinflated
+      claims about AI'
+    url: https://en.wikipedia.org/wiki/Arvind_Narayanan
+  status: checked
+- id: aviv-kochavi
+  lifespan: born 1964
+  note: Chief of staff of the Israeli army from 2019 to 2023. He said AI let its intelligence directorate produce as many targets in a month as it once did in a year.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Aviv Kochavi' (born 23 April 1964), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Aviv_Kochavi
+  - for: roles
+    source: 'Wikipedia, ''Aviv Kochavi'': 22nd Chief of General Staff of the Israel Defense Forces, 15 January 2019 to 16 January 2023'
+    url: https://en.wikipedia.org/wiki/Aviv_Kochavi
+  - for: note
+    source: Yaakov Lappin, 'IDF identifies as many targets in a month as it did in a year', JNS, 4 December 2022
+    url: https://www.jns.org/israel-news/idf-identifies-as-many-targets-in-a-month-as-it-did-in-a-year
+  - for: note
+    source: Wikipedia, 'AI-assisted targeting in the Gaza Strip' (Kochavi on the targets division and 100 targets a day in May 2021, citing The Guardian, 1 December 2023)
+    url: https://en.wikipedia.org/wiki/AI-assisted_targeting_in_the_Gaza_Strip
+  status: checked
+- id: emile-p-torres
+  lifespan: born 1982
+  note: Philosopher and historian who left the longtermist movement and became a critic of it and of effective altruism. With Timnit Gebru, coined the acronym TESCREAL.
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Émile P. Torres' (born 2 July 1982), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/%C3%89mile_P._Torres
+  - for: roles
+    source: 'Wikipedia, ''Émile P. Torres'': philosopher, intellectual historian, activist; contributing writer for Salon and Truthdig; critic of longtermism'
+    url: https://en.wikipedia.org/wiki/%C3%89mile_P._Torres
+  - for: note
+    source: Wikipedia, 'Émile P. Torres' (left the longtermist, transhumanist and EA communities and became a critic; coined TESCREAL with Timnit Gebru)
+    url: https://en.wikipedia.org/wiki/%C3%89mile_P._Torres
+  status: checked
+- id: john-hopfield
+  lifespan: born 1933
+  note: Physicist who in 1982 described the Hopfield network, a neural network that stores and recalls patterns. Shared the 2024 Nobel Prize in Physics with Geoffrey Hinton.
+  roles:
+  - researcher
+  letters:
+  - pause-2023
+  sources:
+  - for: lifespan
+    source: Nobel Prize Outreach, 'The Nobel Prize in Physics 2024', press release, 8 October 2024 (born 1933, Chicago)
+    url: https://www.nobelprize.org/prizes/physics/2024/press-release/
+  - for: lifespan
+    source: Wikipedia, 'John Hopfield' (born 15 July 1933; no death date), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Hopfield
+  - for: roles
+    source: 'Wikipedia, ''John Hopfield'': physicist, emeritus professor at Princeton'
+    url: https://en.wikipedia.org/wiki/John_Hopfield
+  - for: letters
+    source: Future of Life Institute, 'FLI Statement on Nobel Prize Winners', 10 October 2024 (Hopfield signed the March 2023 pause letter)
+    url: https://futureoflife.org/statement/fli-statement-on-nobel-prize-winners/
+  - for: note
+    source: Nobel Prize Outreach, 'The Nobel Prize in Physics 2024', press release, 8 October 2024
+    url: https://www.nobelprize.org/prizes/physics/2024/press-release/
+  - for: note
+    source: Wikipedia, 'John Hopfield' (Hopfield network introduced in 1982)
+    url: https://en.wikipedia.org/wiki/John_Hopfield
+  status: checked
+- id: john-jumper
+  lifespan: born 1985
+  note: Led the DeepMind team behind AlphaFold, which predicts the shapes of proteins. Shared half the 2024 Nobel Prize in Chemistry with Demis Hassabis; in June 2026 he announced he would leave for Anthropic.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2017
+    to: 2026
+  sources:
+  - for: lifespan
+    source: 'Nobel Prize Outreach, ''John Jumper: Facts'', Nobel Prize in Chemistry 2024 (born 1985, Little Rock)'
+    url: https://www.nobelprize.org/prizes/chemistry/2024/jumper/facts/
+  - for: roles
+    source: 'Wikipedia, ''John M. Jumper'': American chemist and computer scientist'
+    url: https://en.wikipedia.org/wiki/John_M._Jumper
+  - for: labs
+    source: Encyclopaedia Britannica, 'John M. Jumper' (joined DeepMind in 2017 as a research scientist on AlphaFold; shared half the 2024 chemistry prize with Hassabis, the other half to David Baker)
+    url: https://britannica.com/biography/John-M-Jumper
+  - for: labs
+    source: Nathaniel Lacsina, 'Nobel-winning AI scientist quits Google DeepMind for Anthropic in major talent shake-up', Gulf News, 20 June 2026 (leaving DeepMind; to take a short break before starting
+      at Anthropic, role not disclosed)
+    url: https://gulfnews.com/technology/companies/nobel-winning-ai-scientist-quits-google-deepmind-for-anthropic-in-major-talent-shake-up-1.500580793
+  - for: labs
+    source: Wikipedia, 'John M. Jumper' (in June 2026 announced he would leave to join Anthropic after a break; no start date there), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_M._Jumper
+  - for: labs
+    source: Anthony Ha, 'Nobel laureate John Jumper is leaving DeepMind for rival Anthropic', TechCrunch, 20 June 2026
+    url: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic
+  - for: note
+    source: Anthony Ha, TechCrunch, 20 June 2026 (Hassabis let him lead the AlphaFold team; leaving for Anthropic)
+    url: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic
+  - for: note
+    source: Encyclopaedia Britannica, 'John M. Jumper' (shared half the 2024 Nobel Prize in Chemistry with Demis Hassabis)
+    url: https://britannica.com/biography/John-M-Jumper
+  - for: note
+    source: 'Nobel Prize Outreach, ''John Jumper: Facts'' (prize motivation: for protein structure prediction)'
+    url: https://www.nobelprize.org/prizes/chemistry/2024/jumper/facts/
+  status: checked
+- id: megan-garcia
+  roles:
+  - critic
+  sources:
+  - for: roles
+    source: NPR, 'Their teenage sons died by suicide. Now, they are sounding an alarm about AI chatbots', 19 September 2025 (sued Character Technologies, maker of Character.AI; testified to senators, with
+      other parents urging Congress to regulate AI companion apps)
+    url: https://www.npr.org/sections/shots-health-news/2025/09/19/nx-s1-5545749
+  status: checked
+- id: michael-toscano
+  roles:
+  - critic
+  - writer
+  sources:
+  - for: roles
+    source: 'Institute for Family Studies, ''Michael Toscano'' (staff page): senior fellow and director of the Family First Technology Initiative, former executive director, co-author of A Future for the
+      Family, writer for national outlets'
+    url: https://ifstudies.org/about-us/michael-toscano
+  - for: roles
+    source: Future of Life Institute, 'Statement of Shared Principles on AI', press release, 4 March 2026 (Toscano quoted for the Institute for Family Studies)
+    url: https://futureoflife.org/press-release/statement-of-shared-principles-on-ai/
+  status: checked
+- id: sayash-kapoor
+  roles:
+  - researcher
+  - critic
+  labs:
+  - lab: meta
+    from: 2018
+    to: 2020
+  sources:
+  - for: roles
+    source: Sayash Kapoor, personal page and bio, Princeton University (PhD 2026; incoming assistant professor, UC Berkeley School of Information, July 2027; co-author of AI Snake Oil and 'AI as Normal
+      Technology')
+    url: https://www.cs.princeton.edu/~sayashk/
+  - for: labs
+    source: Berkman Klein Center, Harvard, 'Sayash Kapoor' (worked on AI in industry and academia, including at Facebook; no years given, a past role)
+    url: https://cyber.harvard.edu/people/sayash-kapoor
+  - for: labs
+    source: Sayash Kapoor, curriculum vitae (public), Princeton University (Facebook intern May-August 2018; software engineer at Facebook London, July 2019 to December 2020)
+    url: https://www.cs.princeton.edu/~sayashk/sayash-cv-public.pdf
+  status: checked
+- id: donald-trump
+  lifespan: born 1946
+  note: President of the United States from 2017 to 2021 and again from 2025. On his return he revoked Biden's AI executive order and announced the Stargate AI infrastructure project with OpenAI, SoftBank
+    and Oracle.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Donald Trump' (born 14 June 1946), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Donald_Trump
+  - for: roles
+    source: 'Wikipedia, ''Donald Trump'': 45th president 2017-2021; 47th president from 20 January 2025'
+    url: https://en.wikipedia.org/wiki/Donald_Trump
+  - for: note
+    source: 'Justin Hendrix, ''What Just Happened: Trump''s Announcement of the Stargate AI Infrastructure Project'', Just Security, 22 January 2025'
+    url: https://www.justsecurity.org/106688/what-happened-trumps-announcement-stargate-ai-project/
+  - for: note
+    source: Wikipedia, 'Executive Order 14110' (rescinded by Trump on 20 January 2025)
+    url: https://en.wikipedia.org/wiki/Executive_Order_14110
+  status: checked
+- id: guillaume-verdon
+  roles:
+  - founder
+  - researcher
+  labs:
+  - lab: google
+  sources:
+  - for: roles
+    source: 'Wikipedia, ''Guillaume Verdon'': mathematical physicist, quantum computing researcher, entrepreneur; co-founded Extropic AI in 2022'
+    url: https://en.wikipedia.org/wiki/Guillaume_Verdon
+  - for: labs
+    source: Josh Scott, 'Founded by Alphabet alums, Canadian-led AI hardware startup Extropic secures over $14 million', BetaKit, 8 December 2023 (quantum tech lead at X, Alphabet's moonshot factory; helped
+      found Google's TensorFlow Quantum; no years given, a past role)
+    url: https://betakit.com/founded-by-alphabet-alums-canadian-led-ai-hardware-startup-extropic-secures-over-14-million/
+  - for: labs
+    source: Wikipedia, 'Guillaume Verdon' (worked at Google X; key contributor to Google's TensorFlow Quantum)
+    url: https://en.wikipedia.org/wiki/Guillaume_Verdon
+  status: checked
+- id: helen-toner
+  lifespan: born 1992
+  note: AI policy researcher at Georgetown's Center for Security and Emerging Technology, on OpenAI's board from 2021. Voted to remove Sam Altman in November 2023 and left the board when he returned.
+  roles:
+  - researcher
+  labs:
+  - lab: openai
+    from: 2021
+    to: 2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Helen Toner' (born 1992), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Helen_Toner
+  - for: roles
+    source: 'Wikipedia, ''Helen Toner'': director of strategy at CSET from 2019, now its interim executive director'
+    url: https://en.wikipedia.org/wiki/Helen_Toner
+  - for: labs
+    source: 'Wikipedia, ''Helen Toner'': joined OpenAI''s board in late 2021; left in November 2023 under the deal that returned Altman'
+    url: https://en.wikipedia.org/wiki/Helen_Toner
+  - for: labs
+    source: Kyle Wiggers, 'A brief look at the history of OpenAI's board', TechCrunch, 21 November 2023 (joined in 2021)
+    url: https://techcrunch.com/2023/11/21/a-brief-look-at-the-history-of-openais-board
+  - for: note
+    source: Eric Revell, 'Meet the OpenAI board members that ousted Sam Altman', Fox Business, 21 November 2023
+    url: https://www.foxbusiness.com/technology/meet-openai-board-members-ousted-sam-altman
+  - for: note
+    source: Wikipedia, 'Helen Toner' (with three other board members voted on 17 November 2023 to remove Altman; left the board four days later under the deal that returned him)
+    url: https://en.wikipedia.org/wiki/Helen_Toner
+  status: checked
+- id: joe-biden
+  lifespan: born 1942
+  note: President of the United States from 2021 to 2025. In October 2023 he signed a broad executive order on safe, secure and trustworthy AI, which Trump revoked in 2025.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Joe Biden' (born 20 November 1942), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joe_Biden
+  - for: roles
+    source: 'Wikipedia, ''Joe Biden'': 46th president, 20 January 2021 to 20 January 2025; vice president 2009-2017'
+    url: https://en.wikipedia.org/wiki/Joe_Biden
+  - for: note
+    source: Wikipedia, 'Executive Order 14110' (signed 30 October 2023; rescinded 20 January 2025)
+    url: https://en.wikipedia.org/wiki/Executive_Order_14110
+  status: checked
+- id: margaret-mitchell
+  lifespan: born 1983
+  roles:
+  - researcher
+  labs:
+  - lab: microsoft
+    from: 2013
+    to: 2016
+  - lab: google
+    from: 2016
+    to: 2021
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Margaret Mitchell (scientist)' (born 18 November 1983), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Margaret_Mitchell_(scientist)
+  - for: roles
+    source: 'Berkman Klein Center, Harvard, ''Margaret Mitchell'': researcher and Chief Ethics Scientist at Hugging Face; founded and co-led Google''s Ethical AI group'
+    url: https://cyber.harvard.edu/people/margaret-mitchell
+  - for: labs
+    source: 'Wikipedia, ''Margaret Mitchell (scientist)'': Microsoft Research from 2013; senior research scientist at Google from November 2016 (Microsoft end year taken from the move to Google)'
+    url: https://en.wikipedia.org/wiki/Margaret_Mitchell_(scientist)
+  - for: labs
+    source: 'Margaret Mitchell, written testimony, US Senate Judiciary Subcommittee on Privacy, Technology, and the Law, ''Oversight of AI: Insiders'' Perspectives'', 17 September 2024 (a researcher at
+      Microsoft, then started at Google in 2016)'
+    url: https://www.judiciary.senate.gov/download/2024-09-17-pm-testimony-mitchell?download=1
+  - for: labs
+    source: Axios, 'Google fires another AI ethics leader', 19 February 2021
+    url: https://www.axios.com/2021/02/19/google-fires-another-ai-ethics-leader
+  status: checked
+- id: tasha-mccauley
+  note: Technology entrepreneur who sat on OpenAI's board from 2018. Was among the directors who removed Sam Altman in November 2023, left when he returned, and later argued AI firms cannot govern themselves.
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2018
+    to: 2023
+  sources:
+  - for: roles
+    source: Eric Revell, 'Meet the OpenAI board members that ousted Sam Altman', Fox Business, 21 November 2023 (CEO of GeoSim Systems)
+    url: https://www.foxbusiness.com/technology/meet-openai-board-members-ousted-sam-altman
+  - for: roles
+    source: Kyle Wiggers, 'A brief look at the history of OpenAI's board', TechCrunch, 21 November 2023 (tech entrepreneur; co-founder of the Center for the Governance of AI)
+    url: https://techcrunch.com/2023/11/21/a-brief-look-at-the-history-of-openais-board
+  - for: labs
+    source: Eric Revell, Fox Business, 21 November 2023 (an OpenAI board member since 2018)
+    url: https://www.foxbusiness.com/technology/meet-openai-board-members-ousted-sam-altman
+  - for: labs
+    source: Wikipedia, 'Helen Toner' (the November 2023 deal had Toner, McCauley and Sutskever leave the board)
+    url: https://en.wikipedia.org/wiki/Helen_Toner
+  - for: note
+    source: Lloyd Lee and Hannah Getahun, 'Former OpenAI board members say the company can't be trusted to govern itself', Business Insider via AOL, May 2024 (on their op-ed in The Economist; Toner and
+      McCauley stand by their decision to remove Altman)
+    url: https://www.aol.com/former-openai-board-members-company-003035471.html
+  - for: note
+    source: Eric Revell, 'Meet the OpenAI board members that ousted Sam Altman', Fox Business, 21 November 2023 (McCauley among them)
+    url: https://www.foxbusiness.com/technology/meet-openai-board-members-ousted-sam-altman
+  - for: labs
+    source: 'CNBC, ''Sam Altman''s back: Here''s who''s on the new OpenAI board and who''s out'', 22 November 2023 (McCauley joined in 2018; no longer on the board)'
+    url: https://www.cnbc.com/2023/11/22/sam-altmans-back-heres-whos-on-the-new-openai-board-and-whos-out.html
+  status: checked
+- id: sam-bankman-fried
+  lifespan: born 1992
+  note: Founder of the crypto exchange FTX and a backer of effective altruism through its Future Fund. Invested $500 million in Anthropic; convicted of fraud in 2023 after FTX collapsed, and sentenced to
+    25 years.
+  roles:
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Sam Bankman-Fried' (born 5 March 1992), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sam_Bankman-Fried
+  - for: roles
+    source: 'Wikipedia, ''Sam Bankman-Fried'': co-founded Alameda Research (2017) and FTX (2019)'
+    url: https://en.wikipedia.org/wiki/Sam_Bankman-Fried
+  - for: note
+    source: Wikipedia, 'Sam Bankman-Fried' (earning to give and the Future Fund; $500 million in Anthropic; FTX bankrupt 11 November 2022; guilty 2 November 2023; 25 years on 28 March 2024)
+    url: https://en.wikipedia.org/wiki/Sam_Bankman-Fried
+  status: checked
