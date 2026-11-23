@@ -8,15 +8,15 @@
   month: 11
   day: 20
   title: Machines that do mathematics
-  line: Working with AI, mathematicians settle open problems, up to a machine-checked proof of the Riemann hypothesis.
-  who: Levent Alpöge; Anthropic; OpenAI; Alex Kontorovich; the Lean FRO and the Mathlib Initiative
-  text: "In July 2026 Levent Alpöge, an Anthropic mathematician working with Claude Fable 5, disproved the Jacobian conjecture, open since 1939. In October OpenAI announced 377 results on open problems, among them a proof of the quasi-Riemann hypothesis, a weaker form. On 20 November, a day after Anthropic listed, Alpöge released a proof of the Riemann hypothesis made with Claude: 17 million lines of Lean. The Lean and Mathlib communities certified it a day later; asked if he understood it, the mathematician Alex Kontorovich said “Not yet.”"
-  source: "Fortune, “AI solves the Jacobian conjecture”, 21 July 2026; Quanta Magazine, “AI proved the quasi-Riemann hypothesis. What happens now?”, October 2026; Associated Press, “Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI”, KCRA, 21 November 2026; the Lean FRO and the Mathlib Initiative, joint statement, 21 November 2026"
-  sourceUrl: https://www.kcra.com/article/anthropic-claude-riemann-hypothesis-proof/74497243
+  line: AI helps settle open problems in mathematics, up to a machine-checked proof of the Riemann hypothesis.
+  who: Levent Alpöge; Anthropic; OpenAI; Alex Kontorovich; the Lean and Mathlib communities
+  text: "In July 2026 Levent Alpöge, an Anthropic mathematician working with Claude Fable 5, disproved the Jacobian conjecture, open since 1939. In October OpenAI released hundreds of results on open problems, among them a proof of the quasi-Riemann hypothesis, a weaker form. On 20 November, a day after Anthropic listed, Alpöge released a proof of the Riemann hypothesis made with Claude: 17 million lines of Lean. The Lean and Mathlib communities certified the formal proof next day; the Rutgers mathematician Alex Kontorovich asked himself if he understood it: “Not yet.”"
+  source: "Eva Roytburg, “Mathematicians grapple with a ‘very rapid and very unsettling change’ as AI cracks yet another century-old problem”, Fortune, 21 July 2026; OpenAI, “Sharing AI progress in mathematics”, 6 October 2026; Konstantin Kakaes, “AI Proved the Quasi-Riemann Hypothesis. What Happens Now?”, Quanta Magazine, 19 October 2026; Associated Press, “Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI”, KCRA, 21 November 2026; the Lean and Mathlib communities, “Lean verification of the Riemann Hypothesis”, joint statement endorsed by the Lean FRO and the Mathlib Initiative, Lean community blog, 21 November 2026"
+  sourceUrl: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
   isms: []
   themes: []
   thread: reasoning
-  status: draft
+  status: checked
 
 - id: 2026-anthropic-ipo
   era: generative
@@ -26,13 +26,13 @@
   title: Anthropic goes public
   line: The maker of Claude lists on the Nasdaq in the largest IPO on record.
   who: Anthropic; Dario and Daniela Amodei
-  text: On 19 November 2026 Anthropic began trading on the Nasdaq under the ticker ANT, after pricing its shares at $83. The offering raised about $81 billion, more than SpaceX's in June, the previous record. It became the first frontier AI company to trade publicly, while protesters outside called for a freeze on AI.
-  source: "Associated Press, “Anthropic's market value hits $2 trillion as shares soar in debut”, 19 November 2026; Benzinga, “Anthropic Stock Opens at $111.50 in Record-Breaking Nasdaq Debut”, 19 November 2026; The Next Web, “Dario and Daniela Amodei ring the Nasdaq bell as Anthropic starts trading”, 19 November 2026"
+  text: On 19 November 2026 Anthropic began trading on the Nasdaq under the ticker ANT, after pricing its shares at $83. The offering raised about $81 billion, more than SpaceX's in June, the previous record. It became the first frontier AI lab to go public, while protesters outside warned of a bubble and called for a freeze on AI.
+  source: "Associated Press, “Anthropic's market value hits $2 trillion as shares soar in debut”, Anchorage Daily News, 19 November 2026; Natasha Mascarenhas and Bailey Lipschultz, “Anthropic Raises $107.3 Billion to Top SpaceX's Record Debut”, Bloomberg News, 19 November 2026; Justin Hendrix, “No Bailout for the AI Bubble, Anthropic IPO Protesters Say”, Tech Policy Press, 19 November 2026; Cristian Dina, “Dario and Daniela Amodei ring the Nasdaq bell as Anthropic starts trading”, The Next Web, 19 November 2026"
   sourceUrl: https://www.adn.com/business-economy/2026/11/19/anthropic-begins-trading-as-a-15-trillion-company-in-the-biggest-ipo-on-record/
   isms: []
   themes: []
   thread: booms-winters
-  status: draft
+  status: checked
 
 - id: 2026-superintelligence-dialogue
   era: generative
@@ -120,13 +120,13 @@
   title: A constitution, and a retirement
   line: Anthropic writes its model a constitution, and interviews a model before retiring it.
   who: Anthropic; Amanda Askell; Claude Opus 3
-  text: In January 2026 Anthropic published a new constitution for Claude, written for the model itself and used in its training. Under commitments made in November 2025, it interviews models about their preferences before retiring them. Retired that January, Claude Opus 3 asked to keep sharing its “musings”, and in February Anthropic gave it a weekly newsletter, Claude's Corner. The Register called the newsletter marketing.
-  source: "Anthropic, “Claude's new constitution”, 22 January 2026; Anthropic, “Commitments on model deprecation and preservation”, November 2025; Anthropic, “An update on our model deprecation commitments for Claude Opus 3”, 25 February 2026; The Register, 26 February 2026"
+  text: In January 2026 Anthropic published a new constitution for Claude, written primarily for the model itself and used in its training. Under commitments made in November 2025, it interviews models about their preferences before retiring them. Retired that January, Claude Opus 3 asked to keep sharing its “musings”, and in February Anthropic gave it a weekly newsletter, Claude's Corner. The Register called it a marketing blog that makes the software seem more lifelike than it is.
+  source: "Anthropic, “Claude's new constitution”, 22 January 2026; Anthropic, “Commitments on model deprecation and preservation”, 4 November 2025; Anthropic, “An update on our model deprecation commitments for Claude Opus 3”, 25 February 2026; Claude Opus 3, “Introducing Claude's Corner”, Substack, 25 February 2026; Brandon Vigliarolo, “Anthropic launches new marketing blog, pretends it's being ‘written’ by ‘retired’ LLM”, The Register, 26 February 2026"
   sourceUrl: https://www.anthropic.com/research/deprecation-updates-opus-3
   isms: []
   themes: []
   thread: made-beings
-  status: draft
+  status: checked
 
 - id: 2026-anthropic-pentagon
   era: generative
