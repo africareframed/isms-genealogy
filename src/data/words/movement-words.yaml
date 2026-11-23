@@ -11,46 +11,45 @@
   coinedBy: FM-2030 (F. M. Esfandiary), in this sense
   year: 1989
   yearLabel: by 1989
-  origin: "FM-2030, Are You a Transhuman? Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World, Warner Books, 1989, as described in Nick Bostrom, “A History of Transhumanist Thought”, Journal of Evolution and Technology 14(1), April 2005. FM-2030 had taught future studies at the New School in New York in the 1960s. The word transhumanism is older: Bostrom credits it to Julian Huxley, in Religion Without Revelation (1927)."
+  origin: "FM-2030, Are You a Transhuman? Monitoring and Stimulating Your Personal Rate of Growth in a Rapidly Changing World, Warner Books, 1989. Nick Bostrom, “A History of Transhumanist Thought”, Journal of Evolution and Technology 14(1), April 2005, describes its transhuman as a transitional human. FM-2030 taught at the New School in New York in the 1960s; Wikipedia (“Transhumanism”) dates his use of the word to 1966. Wikipedia (“Transhuman”) traces the term itself to Teilhard de Chardin (1949). Bostrom credits the word transhumanism to Julian Huxley, Religion Without Revelation (1927)."
   sourceUrl: https://jetpress.org/volume14/bostrom.html
   isms: [transhumanism]
   technical: false
-  status: draft
+  status: checked
 
 - id: posthuman
   word: posthuman
   definition: A possible future being whose abilities so far exceed ours that it is no longer clearly human. Transhumanists see it as where human enhancement could lead.
-  coinedBy: Max More, in the transhumanist sense
-  year: 1990
-  yearLabel: by 1990
-  origin: "Max More, “Transhumanism: Toward a Futurist Philosophy”, Extropy no. 6, Summer 1990, which defines transhumanism as philosophies that seek to guide us “towards a posthuman condition” (republished on More's Substack, 2023). The word itself is older and is also used in other senses, for instance in cultural theory (Wikipedia, “Posthuman”)."
-  sourceUrl: https://maxmore.substack.com/p/transhumanism-toward-a-futurist-philosophy
+  year: 1916
+  yearLabel: by 1916
+  origin: "The Oxford English Dictionary's earliest use, spelled post-human, is in a discussion of eugenics: Maurice Parmelee, Poverty and Social Progress, 1916. Source: Zoe Jaques, “Posthuman”, Keywords for Children's Literature, NYU Press. In the transhumanist sense, Max More's 1990 definition calls transhumanism philosophies that guide us “towards a posthuman condition” (Wikipedia, “Transhumanism”). It comes from his essay “Transhumanism: Towards a Futurist Philosophy”, Extropy 6, 1990 (cited by More in Journal of Evolution and Technology 21(1), 2010). The word also has other senses, as in cultural theory (Wikipedia, “Posthuman”)."
+  sourceUrl: https://keywords.nyupress.org/childrens-literature/essay/posthuman/
   isms: [transhumanism]
   technical: false
-  status: draft
+  status: checked
 
 - id: enhancement
   word: enhancement
-  definition: Using technology to raise human abilities beyond what is normal, rather than only to treat illness. Transhumanists want such options made safely available to everyone; bioconservatives would limit medicine to therapy.
-  year: 1998
-  yearLabel: by 1998
-  origin: "Nick Bostrom, “A History of Transhumanist Thought”, Journal of Evolution and Technology 14(1), April 2005, on the debate between transhumanists and bioconservatives over therapy and enhancement. Works on it include Erik Parens (ed.), Enhancing Human Traits: Ethical and Social Implications, Georgetown University Press, 1998, and the Transhumanist Declaration (1998, revised 2002), which affirms the right to extend one's mental and physical capacities."
-  sourceUrl: https://jetpress.org/volume14/bostrom.html
+  definition: Using technology to raise human abilities beyond what is normal, rather than only to treat illness. Transhumanists defend a right to it; bioconservatives would limit medicine to therapy.
+  year: 1989
+  yearLabel: by 1989
+  origin: "Earliest use found: W. French Anderson, “Human Gene Therapy: Why Draw a Line?”, Journal of Medicine and Philosophy 14(6), 1989. The Stanford Encyclopedia of Philosophy cites it on enhancement (Eric Juengst and Daniel Moseley, “Human Enhancement”, 2015, revised 2019). That entry treats Erik Parens (ed.), Enhancing Human Traits, Georgetown University Press, 1998, as foundational. Nick Bostrom, “A History of Transhumanist Thought”, Journal of Evolution and Technology 14(1), April 2005, sets out the transhumanist and bioconservative positions. The Transhumanist Declaration, adopted by the World Transhumanist Association in 2002, defends a right to extend mental and physical capacities."
+  sourceUrl: https://plato.stanford.edu/archives/fall2025/entries/enhancement/
   isms: [transhumanism]
   technical: false
-  status: draft
+  status: checked
 
 - id: mind-uploading
   word: mind uploading
   definition: Copying a human mind onto a computer by scanning a brain in detail and running its pattern as software. Transhumanists see it as a possible way to outlive the body.
-  coinedBy: George M. Martin (the proposal); the word came later
+  coinedBy: George M. Martin (the idea); the phrase came later
   year: 1971
-  yearLabel: 1971 (the proposal)
-  origin: "George M. Martin, a biogerontologist at the University of Washington, proposed in 1971 copying the information in a brain to other substrates to reduce its mortality risk. Hans Moravec described the procedure in 1979, and in Mind Children (1988) called it transmigration. Joe Strout started the Mind Uploading Home Page in 1993 (Wikipedia, “Mind uploading”)."
+  yearLabel: 1971 (the idea)
+  origin: "In 1971 the biogerontologist George M. Martin, of the University of Washington, discussed copying a brain's information to other substrates. That would lower its mortality risk. Hans Moravec described the procedure in 1979 and called it transmigration in Mind Children (1988). The phrase was in use by 1993, when Joe Strout started the Mind Uploading Home Page (Wikipedia, “Mind uploading”)."
   sourceUrl: https://en.wikipedia.org/wiki/Mind_uploading
   isms: [transhumanism]
   technical: false
-  status: draft
+  status: checked
 
 # Singularitarianism
 
@@ -59,43 +58,44 @@
   definition: Good's name for a machine that can far surpass all the intellectual activities of any person. Because designing machines is one of those activities, he argued, it could design still better ones.
   coinedBy: I. J. Good
   year: 1965
-  origin: "I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965, pp. 31–88, which calls the first such machine “the last invention that man need ever make”."
+  origin: "I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965, pp. 31–88. It calls the first such machine “the last invention that man need ever make”."
   sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
   isms: [singularitarianism, rationalism]
   technical: false
-  status: draft
+  status: checked
 
 - id: event-horizon
   word: event horizon
   definition: The point after which, on this view, the future cannot be predicted, because minds smarter than ours will shape it. The image is the boundary of a black hole, beyond which nothing can be seen.
-  coinedBy: Eliezer Yudkowsky, naming Vernor Vinge's school of thought
-  year: 2007
-  origin: "Eliezer Yudkowsky, “Three Major Singularity Schools”, Machine Intelligence Research Institute blog, September 2007, which names the Event Horizon school after Vernor Vinge, beside Accelerating Change and the Intelligence Explosion. Sam Altman opened “The Gentle Singularity” (10 June 2025) with “We are past the event horizon; the takeoff has started.”"
-  sourceUrl: https://www.yudkowsky.net/?p=50
+  year: 1999
+  yearLabel: by 1999
+  origin: "Earliest use found: Stewart Brand, “The Singularity”, Long Now Foundation, 16 August 1999, for whom what lies beyond the imagined event horizon is unknowable. Eliezer Yudkowsky's “Three Major Singularity Schools” (Machine Intelligence Research Institute blog, September 2007) describes an Event Horizon school, with Vernor Vinge as its advocate. Sam Altman opened “The Gentle Singularity” (10 June 2025) with “We are past the event horizon; the takeoff has started.”"
+  sourceUrl: https://longnow.org/essays/singularity
   isms: [singularitarianism]
   technical: false
-  status: draft
+  status: checked
 
 - id: takeoff
   word: takeoff
-  definition: The passage from roughly human-level AI to superintelligence. A hard or fast takeoff takes days or months; a soft or slow one takes years or decades.
-  year: 2001
-  yearLabel: by 2001
-  origin: "Eliezer Yudkowsky, Creating Friendly AI 1.0, Singularity Institute for Artificial Intelligence, 2001, which uses “hard takeoff”. Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014, chapter 4, compares slow, moderate and fast takeoffs. Sam Altman wrote in June 2025 that “the takeoff has started”."
+  definition: The passage from roughly human-level AI to superintelligence. A hard or fast takeoff takes minutes to months; a soft or slow one takes years or decades.
+  year: 1996
+  yearLabel: by 1996
+  origin: "Earliest use found: Robin Hanson and Dan Clemmensen debating whether computers would bring a takeoff, “Re: What is Intelligence?”, Extropians mailing list, 14 October 1996. Vernor Vinge contrasted hard and soft takeoffs there on 16 September 1998 (Robin Hanson, selected posts from the Vinge singularity discussion). Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014, chapter 4, compares slow, moderate and fast takeoffs. Sam Altman wrote in June 2025 that the takeoff had begun."
+  sourceUrl: https://diyhpl.us/~bryan/irc/extropians/extracted-extropians-archive/archive/9610/1833.html
   isms: [singularitarianism, rationalism]
   technical: false
-  status: draft
+  status: checked
 
 - id: ai-succession
   word: AI succession
-  definition: Sutton's name for the handover of the world's leading role from humans to digital minds or AI-enhanced humans. He calls it inevitable and urges people to welcome it rather than fear it.
+  definition: Sutton's name for the passing of power from humans to digital minds or AI-enhanced humans. He calls it inevitable and urges people to embrace it rather than fear it.
   coinedBy: Richard Sutton
   year: 2023
-  origin: "Richard Sutton, in a talk of July 2023 reported by OfficeChai, said we should not fear succession by AIs but prepare for it. He set out his four-part case in Dwarkesh Patel's podcast, “Richard Sutton – Father of RL thinks LLMs are a dead end”, 26 September 2025."
-  sourceUrl: https://www.dwarkesh.com/p/richard-sutton
+  origin: "Richard Sutton, “AI Succession”, a talk posted on YouTube, as reported by Jack Clark, Import AI 340, 18 September 2023. OfficeChai (9 March 2025) quotes a talk of July 2023 in which he said succession should not be feared. He set out his four-part case in Dwarkesh Patel's podcast, “Richard Sutton – Father of RL thinks LLMs are a dead end”, 26 September 2025."
+  sourceUrl: https://jack-clark.net/2023/09/18/import-ai-340-drone-vs-human-drone-wins-adepts-small-but-good-ai-model-ai-succession/
   isms: [singularitarianism]
   technical: false
-  status: draft
+  status: checked
 
 # Effective accelerationism
 
@@ -104,45 +104,45 @@
   definition: England's proposed mechanism by which matter driven by an outside energy source reorganises itself to absorb and dissipate more of it. e/acc takes it as the physics behind life, intelligence and growth.
   coinedBy: Jeremy L. England
   year: 2015
-  origin: "Jeremy L. England, “Dissipative adaptation in driven self-assembly”, Nature Nanotechnology 10, 919–923, published 4 November 2015, building on his “Statistical Physics of Self-Replication” (2013). Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets” (Substack, 10 July 2022), say life emerged through it."
+  origin: "Jeremy L. England, “Dissipative adaptation in driven self-assembly”, Nature Nanotechnology 10, 919–923, published online 4 November 2015; no earlier use was found. Beff Jezos and Bayeslord, “Notes on e/acc principles and tenets” (Substack, 10 July 2022), say life emerged through it."
   sourceUrl: https://www.nature.com/articles/nnano.2015.250
   isms: [effective-accelerationism]
   technical: false
-  status: draft
+  status: checked
 
 - id: kardashev-gradient
   word: the Kardashev gradient
-  definition: e/acc's name for the climb towards civilisations that command ever more energy, after Kardashev's scale of planet, star and galaxy. Climbing it is the movement's first stated goal.
-  coinedBy: the e/acc newsletter
+  definition: e/acc's name for the climb towards civilisations that command ever more energy, after Kardashev's scale of planet, star and galaxy. Its founder Guillaume Verdon names climbing it as the movement's aim.
   year: 2022
-  origin: "e/acc, “What the F* is e/acc”, e/acc newsletter, Substack, 26 December 2022, whose first goal is to harness more energy and climb the Kardashev gradient. The scale comes from N. S. Kardashev, “Transmission of Information by Extraterrestrial Civilizations”, Soviet Astronomy 8, 1964."
-  sourceUrl: https://effectiveaccelerationism.substack.com/p/what-the-f-is-eacc
+  yearLabel: by 2022
+  origin: "Earliest use found: Guillaume Verdon (Beff Jezos), a tweet of December 2022 on climbing the Kardashev gradient, linked in Émile P. Torres, “‘Effective Accelerationism’ and the Pursuit of Cosmic Utopia”, Truthdig, 14 December 2023. The scale comes from N. S. Kardashev, “Transmission of Information by Extraterrestrial Civilizations”, 1964, published in English in Soviet Astronomy."
+  sourceUrl: https://www.truthdig.com/articles/effective-accelerationism-and-the-pursuit-of-cosmic-utopia/
   isms: [effective-accelerationism]
   technical: false
-  status: draft
+  status: checked
 
 - id: light-of-consciousness
   word: the light of consciousness
-  definition: e/acc's phrase for awareness and intelligence, which it wants preserved and spread through the universe. That may mean moving them onto machines.
-  coinedBy: swarthy, in the first e/acc post
-  year: 2022
-  origin: "swarthy, newsletter post on Substack, 31 May 2022, reposted as “Effective Accelerationism — e/acc”, e/acc newsletter, 31 October 2022, which names humanity's overarching goal as preserving “the light of consciousness”. Beff Jezos and Bayeslord's tenets (10 July 2022) link it to moving intelligence onto non-biological substrates."
-  sourceUrl: https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
+  definition: A phrase e/acc uses for awareness and intelligence, which it wants preserved and spread through the universe. That may mean moving them onto machines.
+  year: 2014
+  yearLabel: by 2014
+  origin: "Earliest use found in this sense: Elon Musk, interviewed in Ross Andersen, “Exodus”, Aeon, 30 September 2014. He spoke of a duty to maintain the light of consciousness. The first e/acc newsletter post, of 31 May 2022, names preserving it as humanity's overarching goal. It was reposted as “Effective Accelerationism — e/acc”, e/acc newsletter, Substack, 31 October 2022, above a 2018 Musk tweet. Beff Jezos and Bayeslord's tenets (10 July 2022) say it must move to non-biological substrates to reach the stars."
+  sourceUrl: https://aeon.co/essays/elon-musk-puts-his-case-for-a-multi-planet-civilisation
   isms: [effective-accelerationism]
   technical: false
-  status: draft
+  status: checked
 
 - id: the-cathedral
   word: the Cathedral
-  definition: Curtis Yarvin's name for the universities and press that, in his view, really rule a democracy by setting what may be thought. Neoreactionaries and some accelerationists adopted it.
+  definition: Curtis Yarvin's name for the universities and press that, in his view, really rule a democracy by shaping public opinion. Neoreactionaries and some accelerationists adopted it.
   coinedBy: Mencius Moldbug (Curtis Yarvin)
-  year: 2008
-  yearLabel: by 2008
-  origin: "Mencius Moldbug [Curtis Yarvin], Unqualified Reservations, the blog he began in 2007; the name runs through its posts of 2007–2009 (Vincent L., “Curtis Yarvin Contra Mencius Moldbug”, Substack). Nick Land's “The Dark Enlightenment” (2012) adopted it. On its meaning: George Michael, The Conversation, July 2022."
-  sourceUrl: https://www.theconversation.com/an-antidemocratic-philosophy-called-neoreaction-is-creeping-into-gop-politics-182581
+  year: 2009
+  yearLabel: by 2009
+  origin: "Earliest use found: Mencius Moldbug [Curtis Yarvin], “A Gentle Introduction to Unqualified Reservations”, chapter 5, “The Modern Structure”, Unqualified Reservations, 12 February 2009. It refers back to the Cathedral of chapter 1; the blog began in 2007, so the term may be older. On its meaning: Wikipedia, “Curtis Yarvin”. Nick Land and other neoreactionaries took it up (Wikipedia, “Dark Enlightenment”)."
+  sourceUrl: https://www.unqualified-reservations.org/2009/02/gentle-introduction-to-unqualified/
   isms: [effective-accelerationism]
   technical: false
-  status: draft
+  status: checked
 
 # Techno-optimism
 
@@ -151,23 +151,24 @@
   definition: Someone who holds that technology, joined to markets, is the main source of abundance and progress. Andreessen turned it into a name to claim.
   coinedBy: Marc Andreessen, as a name for a movement
   year: 2023
-  yearLabel: 2023 (as a self-name)
-  origin: "Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023, which calls on readers to become Techno-Optimists. The word is older."
+  yearLabel: 2023 (as a movement's name)
+  origin: "Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023, which tells readers it is time to be a Techno-Optimist. The word is older: Franco Cortese wrote of techno-optimists in “Against Relinquishment”, Institute for Ethics and Emerging Technologies, 22 July 2013."
   sourceUrl: https://a16z.com/the-techno-optimist-manifesto/
   isms: [techno-optimism]
   technical: false
-  status: draft
+  status: checked
 
 - id: techno-capital-machine
   word: the techno-capital machine
-  definition: Andreessen's name for technology and markets working together as one engine of growth. He credits the idea to Nick Land, whom he lists among the movement's patron saints.
-  coinedBy: Marc Andreessen, after Nick Land
+  definition: Technology and markets working together as one engine of growth. Andreessen takes the name from Nick Land, whom he lists among the movement's patron saints.
+  coinedBy: Nick Land, as credited by Marc Andreessen
   year: 2023
-  origin: "Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023, section “The Techno-Capital Machine”. For Land's technocapital, see the vocabulary entry on the technocapital singularity."
+  yearLabel: by 2023
+  origin: "Earliest use found: Marc Andreessen, “The Techno-Optimist Manifesto”, Andreessen Horowitz (a16z.com), 16 October 2023, section “The Techno-Capital Machine”, which credits the term to Nick Land. For Land's technocapital, see the vocabulary entry on the technocapital singularity."
   sourceUrl: https://a16z.com/the-techno-optimist-manifesto/
   isms: [techno-optimism, effective-accelerationism]
   technical: false
-  status: draft
+  status: checked
 
 - id: its-time-to-build
   word: It's time to build
@@ -178,40 +179,41 @@
   sourceUrl: https://a16z.com/its-time-to-build/
   isms: [techno-optimism]
   technical: false
-  status: draft
+  status: checked
 
 - id: augmented-intelligence
   word: augmented intelligence
-  definition: AI used to strengthen people's judgement rather than to replace them. Companies and techno-optimists prefer it to artificial intelligence because it puts the human first.
+  definition: AI used to strengthen people's judgement rather than to replace them. IBM put it at the centre of its approach, and techno-optimists share the idea.
   year: 2016
   yearLabel: by 2016
-  origin: "IBM's response to the White House's 2016 request for information on AI declared its emphasis on augmented intelligence (Arizona State University W. P. Carey School, blog, 16 February 2017). The idea goes back to W. Ross Ashby's intelligence amplification (1956) and Douglas Engelbart's Augmenting Human Intellect (1962). Andreessen's manifesto (2023) holds that intelligent machines augment intelligent humans."
+  origin: "Earliest use found: IBM's response to the White House's 2016 request for information on AI framed its approach as augmented intelligence. So reports Raghu Santanam, “Augmented intelligence vs. artificial intelligence”, Arizona State University W. P. Carey School blog, 16 February 2017. The idea is older: W. Ross Ashby wrote of amplifying intelligence in An Introduction to Cybernetics (1956), and Douglas Engelbart wrote Augmenting Human Intellect (1962). Andreessen's manifesto (2023) holds that intelligent machines augment intelligent humans."
   sourceUrl: https://blogs.wpcarey.asu.edu/20170216-augmented-intelligence-vs-artificial-intelligence
   isms: [techno-optimism]
   technical: false
-  status: draft
+  status: checked
 
 - id: copilot
   word: copilot
   definition: An AI assistant that works beside a person, who stays in charge. Microsoft and GitHub made it a product name, and techno-optimists use it for AI that helps rather than replaces.
-  coinedBy: GitHub (Nat Friedman), as a product name
+  coinedBy: GitHub, as a product name
   year: 2021
+  yearLabel: 2021 (as a product name)
   origin: "Nat Friedman, “Introducing GitHub Copilot: your AI pair programmer”, GitHub Blog, 29 June 2021; Jared Spataro, “Introducing Microsoft 365 Copilot – your copilot for work”, Official Microsoft Blog, 16 March 2023."
   sourceUrl: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
   isms: [techno-optimism]
   technical: false
-  status: draft
+  status: checked
 
 - id: bloomers
   word: bloomers
-  definition: Hoffman's name for cautious optimists who want AI developed quickly but steered by its users, between doomers and gloomers on one side and zoomers on the other. He counts himself one.
+  definition: Hoffman's name for cautious optimists who want AI steered by the many people who use it, as it is released step by step. They stand between doomers and gloomers, who fear it, and zoomers, who would race ahead; Hoffman counts himself one.
   coinedBy: Reid Hoffman and Greg Beato
   year: 2025
   origin: "Reid Hoffman and Greg Beato, Superagency: What Could Possibly Go Right with Our AI Future, Authors Equity, 28 January 2025; Angie Basiouny, “Embracing AI: Are You a Doomer, Gloomer, Zoomer or Bloomer?”, Knowledge at Wharton, 4 February 2025."
   sourceUrl: https://knowledge.wharton.upenn.edu/article/embracing-ai-are-you-a-doomer-gloomer-zoomer-or-bloomer/
   isms: [techno-optimism]
   technical: false
-  status: draft
+  status: checked
 
 # Rationalism
 
@@ -220,57 +222,58 @@
   definition: Short for existential risk, a risk that could wipe out humanity or cut its future potential short for good. Rationalists and effective altruists use it for AI above all.
   year: 2007
   yearLabel: by 2007
-  origin: "Earliest use found by Word Spy: “Bostrom talk on X-Risk and AI transcribed”, Institute for Ethics and Emerging Technologies, 8 September 2007. The full term comes from Nick Bostrom, “Existential Risks”, Journal of Evolution and Technology 9(1), 2002."
+  origin: "Earliest use found by Word Spy: “Bostrom talk on X-Risk and AI transcribed”, Institute for Ethics and Emerging Technologies, 8 September 2007. The full term comes from Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards”, Journal of Evolution and Technology 9(1), 2002."
   sourceUrl: https://wordspy.com/words/x-risk
   isms: [rationalism, effective-altruism]
   technical: false
-  status: draft
+  status: checked
 
 - id: updating
   word: updating
   definition: Changing a belief by the right amount when new evidence comes in, as Bayes' theorem prescribes. Rationalists use it of everyday thinking, as in “I've updated towards …”.
-  year: 2007
-  yearLabel: by 2007
-  origin: "Eliezer Yudkowsky, “Update Yourself Incrementally”, Overcoming Bias, August 2007, later collected in Rationality: From AI to Zombies (Machine Intelligence Research Institute, 2015). The rule itself goes back to Thomas Bayes, “An Essay towards solving a Problem in the Doctrine of Chances”, Philosophical Transactions of the Royal Society 53, 1763."
+  year: 2003
+  yearLabel: by 2003
+  origin: "Earliest use found in rationalist writing: Eliezer Yudkowsky, “An Intuitive Explanation of Bayes' Theorem”, 2003, now on LessWrong. It explains how to update a probability given new evidence. His “Update Yourself Incrementally” followed on Overcoming Bias in 2007. Philosophers already used the word of belief change, for instance James M. Joyce, “Bayes' Theorem”, Stanford Encyclopedia of Philosophy, 2003. The rule goes back to Thomas Bayes, “An Essay towards solving a Problem in the Doctrine of Chances”, Philosophical Transactions of the Royal Society 53, 1763."
+  sourceUrl: https://www.lesswrong.com/rationality/an-intuitive-explanation-of-bayes-s-theorem
   isms: [rationalism]
   technical: false
-  status: draft
+  status: checked
 
 - id: the-sequences
   word: the Sequences
-  definition: The several hundred essays on reasoning, science and AI that Yudkowsky wrote in 2006–2009. They remain the rationalist community's founding texts.
-  coinedBy: Eliezer Yudkowsky and LessWrong
+  definition: The several hundred essays on reasoning, science and AI that Yudkowsky wrote in 2006–2009. They are the rationalist community's founding texts.
   year: 2009
-  yearLabel: 2006–2009
-  origin: "Written on Overcoming Bias and LessWrong between 2006 and 2009, and collected as Rationality: From AI to Zombies (Rob Bensinger, Machine Intelligence Research Institute, 12 March 2015). Ruby, “A Brief History of LessWrong”, LessWrong, 2019."
+  yearLabel: written 2006–2009
+  origin: "Written on Overcoming Bias and LessWrong between 2006 and 2009; about half were grouped into themed sequences of posts, hence the name (LessWrong, “Original Sequences”). LessWrong was seeded with them in 2009 (Ruby, “A Brief History of LessWrong”, LessWrong, 1 June 2019). They were collected as Rationality: From AI to Zombies (Machine Intelligence Research Institute, announced by Rob Bensinger, 12 March 2015)."
   sourceUrl: https://intelligence.org/2015/03/12/rationality-ai-zombies/
   isms: [rationalism]
   technical: false
-  status: draft
+  status: checked
 
 # Effective altruism
 
 - id: expected-value
   word: expected value
   definition: The average outcome of a choice, with each possible result weighted by its probability. Effective altruists compare causes by it, even where the odds are small and the stakes vast.
-  coinedBy: Christiaan Huygens
+  coinedBy: Christiaan Huygens (the idea)
   year: 1657
-  origin: "Christiaan Huygens, De ratiociniis in ludo aleae (On Reasoning in Games of Chance), printed in Frans van Schooten's Exercitationum mathematicarum, 1657, after Pascal and Fermat's letters of 1654 (Wikipedia, “Expected value”)."
+  yearLabel: 1657 (the idea)
+  origin: "Christiaan Huygens, De ratiociniis in ludo aleae (On Reasoning in Games of Chance), 1657, after Pascal and Fermat's letters of 1654. Neither used expectation in its modern sense. Laplace defined the concept explicitly in Théorie analytique des probabilités (1814), and W. A. Whitworth first wrote E for it in 1901 (Wikipedia, “Expected value”)."
   sourceUrl: https://en.wikipedia.org/wiki/Expected_value
   isms: [effective-altruism]
   technical: false
-  status: draft
+  status: checked
 
 - id: cause-prioritisation
   word: cause prioritisation
   definition: Comparing whole causes, such as global health, animal welfare or AI risk, to find where extra effort does most good. It is central to effective altruism.
-  year: 2012
-  yearLabel: by 2012
-  origin: "GiveWell Labs, later Open Philanthropy, made “strategic cause selection” its main focus: Holden Karnofsky, “GiveWell Labs Update and Priority Causes”, The GiveWell Blog, 9 May 2012. The importance, neglectedness and tractability framework later gave it a standard form."
-  sourceUrl: https://www.openphilanthropy.org/blog/givewell-labs-update-and-priority-causes
+  year: 2013
+  yearLabel: by 2013
+  origin: "Earliest use of the phrase found: Benjamin Todd, “A framework for strategically selecting a cause”, 80,000 Hours, 19 December 2013. It judges causes as important, tractable and uncrowded, an early form of the importance, neglectedness and tractability framework. GiveWell Labs, later Open Philanthropy, had called the work strategic cause selection: Holden Karnofsky, “Strategic cause selection”, The GiveWell Blog, 2 May 2012."
+  sourceUrl: https://80000hours.org/2013/12/a-framework-for-strategically-selecting-a-cause/
   isms: [effective-altruism]
   technical: false
-  status: draft
+  status: checked
 
 - id: astronomical-waste
   word: astronomical waste
@@ -281,64 +284,66 @@
   sourceUrl: https://nickbostrom.com/astronomical/waste.pdf
   isms: [effective-altruism, rationalism]
   technical: false
-  status: draft
+  status: checked
 
 - id: value-lock-in
   word: value lock-in
   definition: A set of values becoming fixed for a very long time, perhaps for ever, for instance through an AI that enforces them. Longtermists warn that the wrong values could be locked in.
-  year: 2022
-  yearLabel: by 2022
-  origin: "William MacAskill, What We Owe the Future, Basic Books and Oneworld, August 2022, chapter 4, “Value Lock-In”."
+  year: 2020
+  yearLabel: by 2020
+  origin: "Earliest use found: William MacAskill, “Are We Living at the Hinge of History?”, Global Priorities Institute Working Paper No. 12-2020, September 2020. It names a Value Lock-In view. He gave it a chapter, “Value Lock-In” (chapter 4), in What We Owe the Future, Basic Books, August 2022 (Oneworld in the UK)."
+  sourceUrl: https://globalprioritiesinstitute.org/wp-content/uploads/William-MacAskill_Are-we-living-at-the-hinge-of-history.pdf
   isms: [effective-altruism]
   technical: false
-  status: draft
+  status: checked
 
 - id: long-reflection
   word: the long reflection
-  definition: A proposed period, once existential risks are under control, in which humanity takes its time to work out what is truly of value before shaping its long-term future.
+  definition: A proposed period, once existential risks are under control, in which humanity takes its time to work out what truly matters. Only then would it shape its long-term future.
   coinedBy: William MacAskill
   year: 2018
   yearLabel: by 2018
-  origin: "William MacAskill in an interview with Robert Wiblin, “Our descendants will probably see us as moral monsters. What should we do about that?”, 80,000 Hours, 19 January 2018. Toby Ord develops it in The Precipice: Existential Risk and the Future of Humanity, Bloomsbury, 2020, chapter 7."
-  sourceUrl: https://ea.greaterwrong.com/tag/long-reflection
+  origin: "William MacAskill, interviewed by Robert Wiblin, 80,000 Hours podcast no. 17, 19 January 2018: “I call it the long reflection.” Toby Ord develops it in The Precipice: Existential Risk and the Future of Humanity, Bloomsbury, 2020, chapter 7."
+  sourceUrl: https://80000hours.org/podcast/episodes/will-macaskill-moral-philosophy/
   isms: [effective-altruism]
   technical: false
-  status: draft
+  status: checked
 
 # AI ethics
 
 - id: algorithmic-bias
   word: algorithmic bias
   definition: A computer system's systematic tendency to produce unfair outcomes, favouring some groups of people over others. The bias can come from the data, the design or the way the system is used.
-  coinedBy: Batya Friedman and Helen Nissenbaum (the concept)
+  coinedBy: Batya Friedman and Helen Nissenbaum (an early framework)
   year: 1996
-  yearLabel: 1996 (the concept)
-  origin: "Batya Friedman and Helen Nissenbaum, “Bias in Computer Systems”, ACM Transactions on Information Systems 14(3), 1996, pp. 330–347, which names preexisting, technical and emergent bias. Joseph Weizenbaum had already warned in 1976 that bias could come from a program's data and code (Wikipedia, “Algorithmic bias”)."
+  yearLabel: 1996 (the framework)
+  origin: "Batya Friedman and Helen Nissenbaum, “Bias in Computer Systems”, ACM Transactions on Information Systems 14(3), 1996, pp. 330–347, which names preexisting, technical and emergent bias. Joseph Weizenbaum had already suggested in 1976 that bias could come from a program's data and code (Wikipedia, “Algorithmic bias”)."
   sourceUrl: https://en.wikipedia.org/wiki/Algorithmic_bias
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: fairness
   word: fairness
   definition: In AI, the demand that automated decisions treat people and groups justly, and the field that tries to define and measure it. Researchers have proposed many definitions, and some cannot all hold at once.
-  year: 2012
-  yearLabel: by 2012
-  origin: "Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold and Richard Zemel, “Fairness Through Awareness”, Innovations in Theoretical Computer Science, 2012. The workshop Fairness, Accountability, and Transparency in Machine Learning followed at NIPS 2014 (Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning, fairmlbook.org)."
+  year: 2011
+  yearLabel: by 2011
+  origin: "Earliest use found in machine learning: Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold and Richard Zemel, “Fairness Through Awareness”, arXiv, 20 April 2011. The workshop Fairness, Accountability, and Transparency in Machine Learning followed at NIPS 2014. Solon Barocas, Moritz Hardt and Arvind Narayanan's book Fairness and Machine Learning (fairmlbook.org) finds key definitions mutually exclusive."
+  sourceUrl: https://arxiv.org/abs/1104.3913v1
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 - id: ai-hype
   word: AI hype
-  definition: Overblown claims about what AI can do, whether utopian or apocalyptic. Its critics say such claims serve the companies that make them.
-  year: 2022
-  yearLabel: by 2022
-  origin: "The phrase is older; Emily M. Bender and Alex Hanna made it a target in their show Mystery AI Hype Theater 3000, first streamed by the DAIR Institute on 31 August 2022, and in The AI Con (2025)."
-  sourceUrl: https://buttondown.com/maiht3k/archive/mystery-ai-hype-theater-3000-turns-two-years-old
+  definition: Overblown claims about what AI can do, whether utopian or apocalyptic. Critics such as Emily M. Bender and Alex Hanna see it as big tech's doing.
+  year: 2017
+  yearLabel: by 2017
+  origin: "Earliest use found: Andrew Orlowski, “‘Artificial Intelligence’ was 2016's fake news”, The Register, 2 January 2017. Emily M. Bender and Alex Hanna made it the target of Mystery AI Hype Theater 3000, a DAIR Institute project first streamed on 31 August 2022. Their book followed: The AI Con: How to Fight Big Tech's Hype and Create the Future We Want, Harper, 2025."
+  sourceUrl: https://www.theregister.com/2017/01/02/ai_was_the_fake_news_of_2016/
   isms: [ai-ethics]
   technical: false
-  status: draft
+  status: checked
 
 # Pro-human
 
@@ -347,31 +352,30 @@
   definition: A way for people to shut down a powerful AI quickly. Researchers ask whether an AI would let itself be switched off; the Pro-Human AI Declaration makes it a principle.
   year: 2016
   yearLabel: by 2016
-  origin: "Dylan Hadfield-Menell, Anca Dragan, Pieter Abbeel and Stuart Russell, “The Off-Switch Game”, arXiv:1611.08219, 24 November 2016 (IJCAI 2017). “Off-Switch” is a principle under Keeping Humans in Charge in the Pro-Human AI Declaration, Future of Life Institute, 2026."
+  origin: "Dylan Hadfield-Menell, Anca Dragan, Pieter Abbeel and Stuart Russell, “The Off-Switch Game”, arXiv:1611.08219, 24 November 2016. “Off-Switch” is a principle under Keeping Humans in Charge in the Pro-Human AI Declaration, Future of Life Institute, dated New Orleans, 26–28 January 2026."
   sourceUrl: https://arxiv.org/abs/1611.08219
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: enfeeblement
   word: enfeeblement
   definition: People losing skills and independence by handing more and more of their thinking and work to machines. Pro-human campaigners want AI that strengthens its users instead.
-  coinedBy: Stuart Russell, as the enfeeblement problem
   year: 2019
   yearLabel: by 2019
-  origin: "Stuart Russell, Human Compatible: Artificial Intelligence and the Problem of Control, Viking, 2019, discussed as “the enfeeblement problem” in Robert Wiblin's interview with him, 80,000 Hours, 22 June 2020. “Avoiding Enfeeblement” is a principle of the Pro-Human AI Declaration, Future of Life Institute, 2026."
+  origin: "Stuart Russell, Human Compatible: Artificial Intelligence and the Problem of Control, Viking, 8 October 2019. Robert Wiblin discussed its enfeeblement problem with him on the 80,000 Hours podcast, 22 June 2020. “Avoiding Enfeeblement” is a principle under Human Agency and Liberty in the Pro-Human AI Declaration, Future of Life Institute, 2026."
   sourceUrl: https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
 
 - id: no-superintelligence-race
   word: no superintelligence race
-  definition: The demand that the race to build superintelligence stop until there is broad scientific agreement that it can be done safely and controllably, and strong public support.
+  definition: The demand that building superintelligence be prohibited until scientists broadly agree it can be done safely and controllably, and the public strongly backs it.
   coinedBy: the Future of Life Institute
   year: 2026
-  origin: "“No Superintelligence Race”, a principle under Keeping Humans in Charge in the Pro-Human AI Declaration, Future of Life Institute, ratified in New Orleans, 26–28 January 2026. It follows the institute's Statement on Superintelligence of October 2025."
+  origin: "“No Superintelligence Race”, a principle under Keeping Humans in Charge in the Pro-Human AI Declaration, Future of Life Institute, dated New Orleans, 26–28 January 2026. It follows the institute's open statement of 22 October 2025 calling for a prohibition on developing superintelligence (Beatrice Nolan, Fortune, 22 October 2025)."
   sourceUrl: https://futureoflife.org/pro-human-ai-declaration
   isms: [pro-human]
   technical: false
-  status: draft
+  status: checked
