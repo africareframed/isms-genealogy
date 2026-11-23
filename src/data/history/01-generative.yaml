@@ -222,6 +222,7 @@
   era: generative
   year: 2025
   month: 1
+  day: 21
   title: The Stargate Project
   line: OpenAI and partners plan $500 billion of AI infrastructure in the United States.
   who: OpenAI, SoftBank, Oracle and MGX; President Donald Trump
@@ -237,6 +238,7 @@
   era: generative
   year: 2025
   month: 1
+  day: 20
   title: DeepSeek-R1
   line: A Chinese lab gives away a reasoning model, and Nvidia's shares fall 17%.
   who: DeepSeek
@@ -334,6 +336,7 @@
   era: generative
   year: 2023
   month: 11
+  day: 17
   title: The OpenAI board crisis
   line: OpenAI's board removes Sam Altman, and within two weeks he is back.
   who: OpenAI's board; Sam Altman
@@ -349,6 +352,7 @@
   era: generative
   year: 2023
   month: 11
+  day: 1
   title: The Bletchley Park summit
   line: Twenty-eight countries and the EU agree a declaration on the risks of frontier AI.
   who: UK government; 28 countries and the European Union
@@ -394,6 +398,7 @@
   era: generative
   year: 2023
   month: 3
+  day: 22
   title: The pause letter
   line: An open letter asks AI labs to pause their biggest training runs.
   who: Future of Life Institute
@@ -409,6 +414,7 @@
   era: generative
   year: 2023
   month: 3
+  day: 14
   title: GPT-4
   line: OpenAI's GPT-4 takes in images and text and passes a simulated bar exam.
   who: OpenAI
