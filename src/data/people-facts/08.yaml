@@ -1,0 +1,254 @@
+# People facts, batch 08: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: felix-guattari
+  lifespan: 1930–1992
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Félix Guattari, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/F%C3%A9lix_Guattari
+  - for: roles
+    source: Wikipedia, Félix Guattari (psychoanalyst, political philosopher, social activist), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/F%C3%A9lix_Guattari
+  status: checked
+- id: gilles-deleuze
+  lifespan: 1925–1995
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Gilles Deleuze, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gilles_Deleuze
+  - for: roles
+    source: Wikipedia, Gilles Deleuze (French philosopher), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gilles_Deleuze
+  status: checked
+- id: hubert-dreyfus
+  lifespan: 1929–2017
+  note: Philosopher who challenged the claims of AI research, first in a 1965 RAND paper, then in What Computers Can't Do (1972). He argued that human intelligence rests on bodies, context and culture,
+    which formal rules cannot capture.
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, Hubert Dreyfus, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hubert_Dreyfus
+  - for: roles
+    source: Wikipedia, Hubert Dreyfus (philosopher at MIT and UC Berkeley; critic of AI), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hubert_Dreyfus
+  - for: note
+    source: Wikipedia, Hubert Dreyfus, sections on Alchemy and Artificial Intelligence (RAND, 1965) and What Computers Can't Do (1972), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hubert_Dreyfus
+  status: checked
+- id: nick-land
+  lifespan: born 1962
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: National Diet Library of Japan, Web NDL Authorities, name authority record 'Land, Nick, 1962-' (philosopher; linked to Library of Congress n91097615), id.ndl.go.jp, updated 1 July 2024, accessed
+      23 November 2026
+    url: https://id.ndl.go.jp/auth/ndlna/001324333
+  - for: lifespan
+    source: VIAF, Virtual International Authority File, record 112798958, heading 'Land, Nick, 1962-', viaf.org, accessed 23 November 2026
+    url: https://viaf.org/viaf/112798958
+  - for: roles
+    source: Wikipedia, Nick Land (English philosopher who popularised accelerationism), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nick_Land
+  status: checked
+- id: peter-singer
+  lifespan: born 1946
+  roles:
+  - writer
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Peter Singer, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Singer
+  - for: roles
+    source: Wikipedia, Peter Singer (Australian moral philosopher, Princeton), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Singer
+  - for: letters
+    source: Center for AI Safety, Statement on AI Extinction Risk, signatory list page 2 ('Peter Singer, Professor, Princeton University'), aistatement.com, accessed 23 November 2026
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=2
+  status: checked
+- id: james-lighthill
+  lifespan: 1924–1998
+  note: British applied mathematician whose 1973 review for the Science Research Council found AI had fallen short of its promises. The British government then ended support for AI research in all but two
+    universities.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, James Lighthill, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Lighthill
+  - for: roles
+    source: Wikipedia, James Lighthill (British applied mathematician, Lucasian Professor), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Lighthill
+  - for: note
+    source: Wikipedia, James Lighthill, section on the Lighthill report (1973), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Lighthill
+  status: checked
+- id: seymour-papert
+  lifespan: 1928–2016
+  note: Mathematician who co-directed the MIT AI Laboratory and co-invented the Logo language for children. With Marvin Minsky he wrote Perceptrons (1969), which showed the limits of single-layer networks.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Seymour Papert, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Seymour_Papert
+  - for: roles
+    source: Wikipedia, Seymour Papert (mathematician, computer scientist and educator at MIT), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Seymour_Papert
+  - for: note
+    source: Wikipedia, Seymour Papert (co-director of the MIT AI Laboratory 1967–1981; Logo; Perceptrons, MIT Press, 1969), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Seymour_Papert
+  - for: note
+    source: Wikipedia, Perceptron, history section on Minsky and Papert's Perceptrons (1969), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Perceptron
+  status: checked
+- id: joseph-weizenbaum
+  lifespan: 1923–2008
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, Joseph Weizenbaum, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joseph_Weizenbaum
+  - for: roles
+    source: Wikipedia, Joseph Weizenbaum (MIT computer scientist; ELIZA; Computer Power and Human Reason, 1976), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joseph_Weizenbaum
+  status: checked
+- id: nils-nilsson
+  lifespan: 1933–2019
+  note: One of the founding researchers of AI. At SRI he co-led the team that built Shakey the robot from 1966, and his group invented the A* search algorithm.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Nils John Nilsson, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nils_John_Nilsson
+  - for: roles
+    source: Wikipedia, Nils John Nilsson (American computer scientist, SRI and Stanford), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nils_John_Nilsson
+  - for: note
+    source: Wikipedia, Nils John Nilsson, sections on Shakey the Robot and the A* algorithm, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nils_John_Nilsson
+  status: checked
+- id: gordon-moore
+  lifespan: 1929–2023
+  roles:
+  - researcher
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Gordon Moore, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gordon_Moore
+  - for: roles
+    source: Wikipedia, Gordon Moore (businessman, scientist and engineer; co-founder and emeritus chairman of Intel, chairman and CEO from 1979; Moore's law, Electronics, 1965), en.wikipedia.org, accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/Gordon_Moore
+  status: checked
+- id: i-j-good
+  lifespan: 1916–2009
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, I. J. Good, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/I._J._Good
+  - for: roles
+    source: Wikipedia, I. J. Good (British mathematician, statistician and Bletchley Park cryptologist), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/I._J._Good
+  status: checked
+- id: nikolai-kardashev
+  lifespan: 1932–2019
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Nikolai Kardashev, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nikolai_Kardashev
+  - for: roles
+    source: Wikipedia, Nikolai Kardashev (Soviet and Russian astrophysicist), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nikolai_Kardashev
+  status: checked
+- id: douglas-engelbart
+  lifespan: 1925–2013
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Douglas Engelbart, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Douglas_Engelbart
+  - for: roles
+    source: Wikipedia, Douglas Engelbart (engineer, inventor, computing pioneer at SRI), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Douglas_Engelbart
+  status: checked
+- id: robert-ettinger
+  lifespan: 1918–2011
+  roles:
+  - writer
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Robert Ettinger, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Robert_Ettinger
+  - for: roles
+    source: Wikipedia, Robert Ettinger (author of The Prospect of Immortality, 1962/1964; founder and president of the Cryonics Institute and the Immortalist Society until 2003), en.wikipedia.org, accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/Robert_Ettinger
+  status: checked
+- id: frank-rosenblatt
+  lifespan: 1928–1971
+  note: American psychologist who developed the perceptron, an early machine that learned by trial and error, with funding from the US Navy. His claims at a 1958 Navy press conference stirred controversy
+    among AI researchers.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Frank Rosenblatt, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Frank_Rosenblatt
+  - for: roles
+    source: Wikipedia, Frank Rosenblatt (American psychologist notable in artificial intelligence), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Frank_Rosenblatt
+  - for: note
+    source: Wikipedia, Frank Rosenblatt (Mark I Perceptron, first computer to learn by trial and error), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Frank_Rosenblatt
+  - for: note
+    source: Wikipedia, Perceptron, history section (Office of Naval Research funding; 1958 Navy press conference and controversy), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Perceptron
+  status: checked
+- id: john-von-neumann
+  lifespan: 1903–1957
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, John von Neumann, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_von_Neumann
+  - for: roles
+    source: Wikipedia, John von Neumann (mathematician, physicist, computer scientist and engineer; EDVAC report, IAS machine), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_von_Neumann
+  status: checked
+- id: stanislaw-ulam
+  lifespan: 1909–1984
+  note: Mathematician who developed the hydrogen bomb design with Edward Teller in 1951 and invented the Monte Carlo method. In 1958 he recalled von Neumann speaking of technology's accelerating progress
+    towards a singularity in human history.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Stanisław Ulam, en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Ulam
+  - for: roles
+    source: Wikipedia, Stanisław Ulam (Polish and later American mathematician), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Ulam
+  - for: note
+    source: Wikipedia, Stanisław Ulam (Teller–Ulam design, 1951; Monte Carlo method; 1958 recollection of von Neumann on the singularity), en.wikipedia.org, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Ulam
+  status: checked
