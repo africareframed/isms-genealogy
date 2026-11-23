@@ -12,6 +12,29 @@ const family = FAMILIES.find((f) => f.id === ism.data.family);
 
 const allThemes = await getCollection('themes');
 const themeById = new Map(allThemes.map((t) => [t.id, t]));
+// "Its words" (owner, 23 Nov 2026): one row of pills. A key word links to its own page; every other word
+// links to its entry in the vocabulary. Then the other vocabulary words tagged with it, oldest first, and the key words it engages.
+const vocab = await getCollection('words');
+const wordByName = new Map(vocab.map((w) => [w.data.word.toLowerCase(), w]));
+const themeByTitle = new Map(allThemes.map((t) => [t.data.title.toLowerCase(), t]));
+const listed = new Set(ism.data.words.map((w) => w.toLowerCase()));
+const wordPills = [
+  ...ism.data.words.map((w) => {
+    const t = themeByTitle.get(w.toLowerCase());
+    if (t?.data.ready) return { label: w, href: pageHref(t.id) };
+    const v = wordByName.get(w.toLowerCase());
+    return { label: w, href: v ? `${pageHref('vocabulary')}#${v.id}` : undefined };
+  }),
+  // every other vocabulary word tagged with this movement (owner, 23 Nov 2026: all its words, in the vocabulary)
+  ...vocab
+    .filter((w) => w.data.isms.some((r) => r.id === ism.id) && !listed.has(w.data.word.toLowerCase()))
+    .sort((x, y) => (x.data.year ?? 9999) - (y.data.year ?? 9999))
+    .map((w) => ({ label: w.data.word, href: `${pageHref('vocabulary')}#${w.id}` })),
+  ...ism.data.themes
+    .map((r) => themeById.get(r.id))
+    .filter((t) => t && !listed.has(t.data.title.toLowerCase()))
+    .map((t) => ({ label: t!.data.title, href: t!.data.ready ? pageHref(t!.id) : undefined })),
+];
 
 const entries = (await getCollection('entries', (e) => e.data.ism.id === ism.id)).sort(
   (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0),
@@ -94,21 +117,11 @@ const first = entries[0];
       </section>
     )}
 
-    {ism.data.words.length > 0 && (
+    {wordPills.length > 0 && (
       <section class="wrap sec" aria-labelledby="words-h">
         <h2 class="kick" id="words-h">Its words</h2>
-        <p class="words">{ism.data.words.join(' · ')}</p>
-      </section>
-    )}
-
-    {ism.data.themes.length > 0 && (
-      <section class="wrap sec" aria-labelledby="themes-h">
-        <h2 class="kick" id="themes-h">In the vocabulary</h2>
         <p class="tchips lg">
-          {ism.data.themes.map((r) => {
-            const t = themeById.get(r.id);
-            return t?.data.ready ? <a href={pageHref(t.id)}>{t.data.title}</a> : <span class="off">{t?.data.title}</span>;
-          })}
+          {wordPills.map((w) => (w.href ? <a href={w.href}>{w.label}</a> : <span class="off">{w.label}</span>))}
         </p>
       </section>
     )}
