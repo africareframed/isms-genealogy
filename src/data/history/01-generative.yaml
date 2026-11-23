@@ -162,6 +162,22 @@
   thread: warnings
   status: checked
 
+- id: 2026-drone-war
+  era: generative
+  year: 2026
+  month: 7
+  day: 6
+  title: Drones that steer themselves
+  line: In the war in Ukraine, AI begins to steer drones to their targets, and some now choose a target on their own.
+  who: Ukraine and Russia; Ukraine's Ministry of Defence; Kateryna Bondar, CSIS
+  text: "In 2024 Ukraine began buying 10,000 AI-enhanced drones, a fraction of the nearly 2 million it ordered that year, CSIS reported. Such drones can stay on target if the pilot's signal is jammed; Ukrainian sources told CSIS they lift hit rates from 10–20% to 70–80%. On 6 July 2026 a self-targeting Russian drone killed three civilians in Zaporizhzhia, which CSIS's Kateryna Bondar said would be the first documented case. In August 2026 Ukraine's defence ministry said over 70 AI systems were striking targets, and aimed to fit AI to every front-line drone."
+  source: "Kateryna Bondar, “Ukraine’s Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare”, Center for Strategic and International Studies, 6 March 2025 (10,000 drones; jamming; hit rates); Andrew E. Kramer, The New York Times, 24 August 2026, reprinted by The Boston Globe as “A drone killed three Ukrainians. It was guided entirely by AI.” (Zaporizhzhia; Bondar); Ministry of Defence of Ukraine, “Smart weapons: More than 70 systems using AI and computer vision are already striking enemy targets”, MoD News, 18 August 2026 (70 systems; every front-line drone)"
+  sourceUrl: https://www.bostonglobe.com/2026/08/24/world/drone-killed-three-ukrainians-it-was-guided-entirely-by-ai/
+  isms: []
+  themes: []
+  thread: war
+  status: checked
+
 - id: 2026-magnifica-humanitas
   era: generative
   year: 2026
