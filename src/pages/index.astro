@@ -39,6 +39,7 @@ const num = (n: number) => String(n).padStart(2, '0');
     <nav class="site-nav" aria-label="Site">
       {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
       <a href="#movements">Movements</a>
+      <a href={pageHref('people')}>People</a>
       <a href="#vocabulary">Vocabulary</a>
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
@@ -57,7 +58,7 @@ const num = (n: number) => String(n).padStart(2, '0');
         <div class="hero-body">
           <p>The AI world was already divided into camps, each with its own founding texts, institutions and language. Their arguments now shape what the labs build, what investors fund and what governments write into law.</p>
           <p>Many of their ideas are older than the computer. A rule for updating belief dates from 1763, a dream of perfecting humanity from 1795, a warning that machines would overtake us from 1863.</p>
-          <p>Made Minds tells the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'}, maps the <a href="#movements">eight movements</a> that grew out of it, and gathers the <a href="#vocabulary">vocabulary</a> they fight over.</p>
+          <p>Made Minds tells the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'}, maps the <a href="#movements">eight movements</a> that grew out of it and the <a href={pageHref('people')}>people</a> behind them, and gathers the <a href="#vocabulary">vocabulary</a> they fight over.</p>
         </div>
       </div>
     </div>

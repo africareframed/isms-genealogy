@@ -204,4 +204,24 @@ const images = defineCollection({
   }),
 });
 
-export const collections = { isms, themes, entries, figures, images, words, history };
+/* People (owner, 23 Nov 2026): src/data/people/*.yaml, who is on the People page, with portrait and credit.
+   Identity only; movements, moments and words are worked out from the rest of the site (src/lib/people.ts). */
+const people = defineCollection({
+  loader: listLoader('people'),
+  schema: z.object({
+    name: z.string(),
+    aliases: z.array(z.string()).default([]), // other spellings used in the history and the vocabulary
+    lifespan: z.string().optional(),
+    portrait: z
+      .object({
+        file: z.string(), // in public/portraits, 600 x 750
+        credit: z.string().optional(), // photographer or artist
+        licence: z.string(), // shown to readers, naming the source
+        sourceUrl: z.string().optional(),
+        caveat: z.string().optional(), // e.g. a portrait whose sitter historians doubt
+      })
+      .optional(),
+  }),
+});
+
+export const collections = { isms, themes, entries, figures, images, words, history, people };

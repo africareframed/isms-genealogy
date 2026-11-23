@@ -5,6 +5,7 @@ import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
 import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref , strandsLine } from '../lib/site';
 import { getHistory, momentAnchor } from '../lib/history';
+import { namePattern, personAnchor } from '../lib/people';
 
 const { ism } = Astro.props;
 const { Content } = await render(ism);
@@ -54,6 +55,13 @@ const figures = (await getCollection('figures', (f) => f.data.isms.some((r) => r
   (a, b) => (yearOf.get(b.data.entry?.id ?? '') ?? 0) - (yearOf.get(a.data.entry?.id ?? '') ?? 0),
 );
 
+// Each notable figure links to their portrait on the People page (owner, 23 Nov 2026).
+const people = await getCollection('people');
+const personOf = (name: string) => {
+  const n = name.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+  return people.find((p) => n.match(namePattern([p.data.name, ...p.data.aliases]))?.[0] === n);
+};
+
 // "In the history of AI" is built from the movement tags on history moments.
 const inHistory = (await getHistory()).filter((m) => m.data.isms.some((r) => r.id === ism.id));
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
@@ -94,7 +102,7 @@ const first = entries[0];
 
     {figures.length > 0 && (
       <section class="wrap sec" aria-labelledby="figures-h">
-        <h2 class="kick" id="figures-h">Notable figures</h2>
+        <h2 class="kick" id="figures-h">People</h2>
         <div class="names">
           {figures.map((f) => {
             const d = f.data;
@@ -109,6 +117,7 @@ const first = entries[0];
                 <div class="nm-b">
                   <p>{d.note}</p>
                   {e && <a href={`#${anchor(e.id)}`}>In the history · {yearText(e.data.year, e.data.yearLabel)} · {e.data.title}</a>}
+                  {personOf(d.name) && <a href={`${pageHref('people')}#${personAnchor(personOf(d.name)!.id)}`}>On the People page</a>}
                 </div>
               </details>
             );

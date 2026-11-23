@@ -1,0 +1,303 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { ERAS, FAMILIES, THREADS, SITE_NAME, pageHref, yearText } from '../lib/site';
+import { eraAnchor, momentAnchor } from '../lib/history';
+import { getPeople, personAnchor } from '../lib/people';
+
+// The People page (owner, 23 Nov 2026): one page, a portrait grid by era, newest first; each portrait
+// folds open into a panel under its row. Stage 1: everything shown is worked out from checked data.
+const people = await getPeople();
+const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
+const ismById = new Map(isms.map((i) => [i.id, i]));
+const colour = (familyId: string) => FAMILIES.find((f) => f.id === familyId)?.colour ?? '#ccc';
+const ismColour = (ismId: string) => colour(ismById.get(ismId)?.data.family ?? '');
+
+const eras = ERAS.map((e) => ({ ...e, items: people.filter((p) => p.era === e.id) })).filter((e) => e.items.length > 0);
+const unplaced = people.filter((p) => !p.era);
+const threads = THREADS.map((t) => ({ ...t, n: people.filter((p) => p.threads.includes(t.id)).length })).filter((t) => t.n > 0);
+const navLabel = (e: (typeof eras)[number]) => (e.from < 0 ? 'Before 1642' : e.span.replace(' to ', '–'));
+const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: navLabel(e) }))];
+
+// What each filter means, shown under the filters on hover and once chosen (owner: no help button, no hover-only text).
+const lines: Record<string, Record<string, string>> = {
+  movement: Object.fromEntries(isms.map((i) => [i.id, `${i.data.title}: people named among its notable figures`])),
+  era: Object.fromEntries(eras.map((e) => [e.id, `${e.name}, ${e.span}: people who first appear in the history in this era`])),
+  thread: Object.fromEntries(threads.map((t) => [t.id, `${t.name}: people in the history's moments on this thread`])),
+};
+const groupLines: Record<string, string> = {
+  movement: 'Movement: the eight movements, each with the people named among its notable figures',
+  era: 'Era: when people first appear in the History of AI',
+  thread: "Thread: the history's story lines, from made beings to machines at war",
+};
+const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.test(w)).map((w) => w[0]).slice(0, 3).join('');
+---
+<Base title={`People · ${SITE_NAME}`} description="The people who shape AI: what they did, the movements they belong to and their moments in the history.">
+  <Fragment set:html={`<script type="application/json" id="pf-lines">${JSON.stringify({ lines, groupLines }).replace(/</g, '\\u003c')}</script>`} />
+  <PageHeader title="People" kind={`${people.length} people`} nav={nav} navLabel="Eras" />
+
+  <main id="main">
+    <section id="introduction" class="wrap intro">
+      <div class="intro-text">
+        <span class="kick">People · Introduction</span>
+        <h1>People</h1>
+        <p class="lead">A few hundred people shape what AI becomes, and many of them know each other.</p>
+        <div class="body">
+          <p>These are the people named in the history and the movements: who built the machines, who funds them, who warns against them and who writes the laws.</p>
+          <p>Each portrait opens to what the person did, the movements they belong to and their moments in the history.</p>
+        </div>
+      </div>
+      <p class="pcount"><span>{people.length}</span> people in the history and the eight movements</p>
+    </section>
+
+    <section class="wrap pfilters" aria-label="Filters">
+      <div class="pf-groups" role="group" aria-label="Filter by">
+        <button type="button" class="pf-g" data-group="movement" data-name="Movement" aria-expanded="false" aria-controls="pf-movement">Movement</button>
+        <button type="button" class="pf-g" data-group="era" data-name="Era" aria-expanded="false" aria-controls="pf-era">Era</button>
+        <button type="button" class="pf-g" data-group="thread" data-name="Thread" aria-expanded="false" aria-controls="pf-thread">Thread</button>
+        <button type="button" class="pf-clear" hidden>Clear filters</button>
+      </div>
+      <div class="pf-choices" id="pf-movement" data-group="movement" hidden>
+        {isms.map((i) => (
+          <button type="button" class="pf-c" data-group="movement" data-value={i.id} aria-pressed="false">
+            <span class="fsw" style={`background:${ismColour(i.id)}`} aria-hidden="true"></span>{i.data.title}
+          </button>
+        ))}
+      </div>
+      <div class="pf-choices" id="pf-era" data-group="era" hidden>
+        {eras.map((e) => <button type="button" class="pf-c" data-group="era" data-value={e.id} aria-pressed="false">{e.name}</button>)}
+      </div>
+      <div class="pf-choices" id="pf-thread" data-group="thread" hidden>
+        {threads.map((t) => <button type="button" class="pf-c" data-group="thread" data-value={t.id} aria-pressed="false">{t.name}</button>)}
+      </div>
+      <p class="pf-line" aria-live="polite"></p>
+    </section>
+
+    <section class="wrap people" aria-label="People">
+      {[...eras.map((e) => ({ id: e.id, name: e.name, span: e.span, items: e.items })), ...(unplaced.length ? [{ id: 'elsewhere', name: 'Elsewhere on the site', span: '', items: unplaced }] : [])].map((e) => (
+        <div class="pera" data-era={e.id}>
+          <div class="pera-head">
+            <h2 id={eraAnchor(e.id)} class="pera-h">{e.name}</h2>
+            {e.span && <p class="era-span">{e.span}</p>}
+          </div>
+          <div class="pgrid">
+            {e.items.map((p) => (
+              <Fragment>
+                <button
+                  type="button"
+                  class="pt"
+                  id={personAnchor(p.id)}
+                  data-isms={p.isms.join(' ')}
+                  data-era={p.era ?? ''}
+                  data-threads={p.threads.join(' ')}
+                  aria-expanded="false"
+                  aria-controls={`pp-${p.id}`}
+                >
+                  <span class="pt-img">
+                    {p.portrait ? (
+                      <img src={`portraits/${p.portrait.file}`} alt="" width="600" height="750" loading="lazy" decoding="async" />
+                    ) : (
+                      <span class="pt-none" aria-hidden="true">{initials(p.name)}</span>
+                    )}
+                    {p.families.length > 0 && (
+                      <span class="pt-sqs" aria-hidden="true">{p.families.slice(0, 2).map((f) => <span class="pt-sq" style={`background:${colour(f)}`}></span>)}</span>
+                    )}
+                  </span>
+                  <span class="pt-n">{p.name}</span>
+                  {p.lifespan && <span class="pt-l">{p.lifespan}</span>}
+                </button>
+                <div class="pp" id={`pp-${p.id}`} role="region" aria-label={p.name} hidden>
+                  <div class="pp-l">
+                    <p class="kick">{[p.lifespan, ...p.isms.map((i) => ismById.get(i)?.data.title)].filter(Boolean).join(' · ') || 'In the history of AI'}</p>
+                    <h3 class="pp-n">{p.name}</h3>
+                    {p.notes.map((n) => <p class="pp-note">{n.note}</p>)}
+                    {p.notes.length === 0 && (p.named.length > 0 ? p.named : p.moments).slice(0, 2).map((m) => (
+                      <p class="pp-note pp-from"><a href={`${pageHref('history')}#${momentAnchor(m.id)}`}>{yearText(m.data.year, m.data.yearLabel)} · {m.data.title}</a> {m.data.line}</p>
+                    ))}
+                    {p.notes.length === 0 && p.moments.length === 0 && p.entries.slice(0, 2).map((e) => (
+                      <p class="pp-note pp-from"><a href={`${pageHref(e.data.ism.id)}#entry-${e.id.split('/')[1]}`}>{yearText(e.data.year, e.data.yearLabel)} · {e.data.title}</a></p>
+                    ))}
+                    {p.portrait && (
+                      <p class="cap pp-cap">
+                        Portrait{p.portrait.credit ? `: ${p.portrait.credit}` : ''} · {p.portrait.sourceUrl ? <a href={p.portrait.sourceUrl}>{p.portrait.licence}</a> : p.portrait.licence}
+                        {p.portrait.caveat && <Fragment> · {p.portrait.caveat}</Fragment>}
+                      </p>
+                    )}
+                  </div>
+                  <dl class="pp-r">
+                    {p.isms.length > 0 && (
+                      <div>
+                        <dt>Movements</dt>
+                        <dd class="tchips">
+                          {p.isms.map((i) => (
+                            <a href={pageHref(i)}><span class="fsw" style={`background:${ismColour(i)}`} aria-hidden="true"></span>{ismById.get(i)?.data.title}</a>
+                          ))}
+                        </dd>
+                      </div>
+                    )}
+                    {p.moments.length > 0 && (
+                      <div>
+                        <dt>In the history of AI</dt>
+                        <dd><ul class="pp-list">{p.moments.map((m) => <li><a href={`${pageHref('history')}#${momentAnchor(m.id)}`}><span class="pp-y">{yearText(m.data.year, m.data.yearLabel)}</span>{m.data.title}</a></li>)}</ul></dd>
+                      </div>
+                    )}
+                    {p.entries.length > 0 && (
+                      <div>
+                        <dt>In the movements' histories</dt>
+                        <dd><ul class="pp-list">{p.entries.map((e) => <li><a href={`${pageHref(e.data.ism.id)}#entry-${e.id.split('/')[1]}`}><span class="pp-y">{yearText(e.data.year, e.data.yearLabel)}</span><span>{e.data.title}<span class="pp-ism"> · {ismById.get(e.data.ism.id)?.data.title}</span></span></a></li>)}</ul></dd>
+                      </div>
+                    )}
+                    {p.words.length > 0 && (
+                      <div>
+                        <dt>Words</dt>
+                        <dd class="tchips">{p.words.map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}</dd>
+                      </div>
+                    )}
+                  </dl>
+                </div>
+              </Fragment>
+            ))}
+          </div>
+        </div>
+      ))}
+      <p class="pf-none" hidden>No one matches these filters. <button type="button" class="pf-clear2">Clear filters</button></p>
+    </section>
+  </main>
+
+  <footer class="wrap site-foot">
+    <span>{SITE_NAME} · A shared framework for how we speak about AI, and the history behind it</span>
+    <nav aria-label="Footer">
+      <a href={pageHref('about')}>About</a>
+      <a href={pageHref('method')}>Method</a>
+    </nav>
+  </footer>
+
+  <script is:inline>
+    // People (owner, 23 Nov 2026): filters narrow the grid; a portrait opens its panel under its row.
+    // The filters and the open person live in the address, so a link opens the same view. Nothing moves on its own.
+    (function () {
+      var data = JSON.parse(document.getElementById('pf-lines').textContent);
+      var tiles = Array.prototype.slice.call(document.querySelectorAll('.pt'));
+      var eras = Array.prototype.slice.call(document.querySelectorAll('.pera'));
+      var line = document.querySelector('.pf-line');
+      var clear = document.querySelector('.pf-clear'), none = document.querySelector('.pf-none');
+      var active = {};
+      var open = null;
+
+      function matches(t) {
+        if (active.movement && (' ' + t.dataset.isms + ' ').indexOf(' ' + active.movement + ' ') < 0) return false;
+        if (active.era && t.dataset.era !== active.era) return false;
+        if (active.thread && (' ' + t.dataset.threads + ' ').indexOf(' ' + active.thread + ' ') < 0) return false;
+        return true;
+      }
+      function describe(extra) {
+        var parts = [];
+        ['movement', 'era', 'thread'].forEach(function (g) {
+          var v = extra && extra.group === g ? extra.value : active[g];
+          if (v) parts.push(data.lines[g][v]);
+        });
+        return parts;
+      }
+      function count(extra) {
+        var saved = active, n = 0;
+        if (extra) { active = Object.assign({}, active); active[extra.group] = extra.value; }
+        tiles.forEach(function (t) { if (matches(t)) n++; });
+        active = saved;
+        return n;
+      }
+      function say(extra) {
+        var parts = describe(extra);
+        if (!parts.length) { line.textContent = ''; return; }
+        var n = count(extra);
+        line.textContent = parts.join(' · ') + ' · ' + n + (n === 1 ? ' person' : ' people');
+      }
+      function apply() {
+        var shown = 0;
+        tiles.forEach(function (t) {
+          var ok = matches(t);
+          t.hidden = !ok;
+          if (ok) shown++;
+          else if (open === t) close();
+        });
+        eras.forEach(function (e) { e.hidden = !e.querySelector('.pt:not([hidden])'); });
+        document.querySelectorAll('.pf-c').forEach(function (c) {
+          c.setAttribute('aria-pressed', active[c.dataset.group] === c.dataset.value ? 'true' : 'false');
+        });
+        // a group's button shows what is chosen in it, so a closed group still says what it filters
+        document.querySelectorAll('.pf-g').forEach(function (b) {
+          var g = b.dataset.group, c = active[g] && document.querySelector('.pf-c[data-group="' + g + '"][data-value="' + active[g] + '"]');
+          b.textContent = b.dataset.name + (c ? ': ' + c.textContent.trim() : '');
+          b.classList.toggle('on', Boolean(c));
+        });
+        var any = Object.keys(active).length > 0;
+        clear.hidden = !any;
+        none.hidden = shown > 0;
+        say();
+        write();
+      }
+      function write() {
+        var q = new URLSearchParams();
+        Object.keys(active).forEach(function (g) { q.set(g, active[g]); });
+        var s = q.toString();
+        try { history.replaceState(null, '', location.pathname + (s ? '?' + s : '') + (open ? '#' + open.id : '')); } catch (e) {}
+      }
+      function panelOf(t) { return document.getElementById(t.getAttribute('aria-controls')); }
+      function close() {
+        if (!open) return;
+        open.setAttribute('aria-expanded', 'false');
+        panelOf(open).hidden = true;
+        open = null;
+      }
+      function show(t, scroll) {
+        if (open === t) { close(); write(); return; }
+        close();
+        open = t;
+        t.setAttribute('aria-expanded', 'true');
+        var p = panelOf(t);
+        p.hidden = false;
+        if (scroll) t.scrollIntoView({ block: 'start', behavior: 'auto' });
+        write();
+      }
+
+      document.querySelectorAll('.pf-g').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var g = b.dataset.group, box = document.getElementById('pf-' + g), was = b.getAttribute('aria-expanded') === 'true';
+          document.querySelectorAll('.pf-g').forEach(function (o) { o.setAttribute('aria-expanded', 'false'); });
+          document.querySelectorAll('.pf-choices').forEach(function (c) { c.hidden = true; });
+          if (!was) { b.setAttribute('aria-expanded', 'true'); box.hidden = false; }
+        });
+        b.addEventListener('mouseenter', function () { if (!Object.keys(active).length) line.textContent = data.groupLines[b.dataset.group]; });
+        b.addEventListener('mouseleave', function () { say(); });
+      });
+      document.querySelectorAll('.pf-c').forEach(function (c) {
+        c.addEventListener('click', function () {
+          var g = c.dataset.group, v = c.dataset.value;
+          if (active[g] === v) delete active[g]; else active[g] = v;
+          apply();
+        });
+        c.addEventListener('mouseenter', function () { if (active[c.dataset.group] !== c.dataset.value) say({ group: c.dataset.group, value: c.dataset.value }); });
+        c.addEventListener('focus', function () { if (active[c.dataset.group] !== c.dataset.value) say({ group: c.dataset.group, value: c.dataset.value }); });
+        c.addEventListener('mouseleave', function () { say(); });
+        c.addEventListener('blur', function () { say(); });
+      });
+      function clearAll() { active = {}; apply(); }
+      clear.addEventListener('click', clearAll);
+      document.querySelector('.pf-clear2').addEventListener('click', clearAll);
+      tiles.forEach(function (t) { t.addEventListener('click', function () { show(t, false); }); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && open) { var t = open; close(); write(); t.focus(); } });
+
+      // a link from elsewhere on the site, or a shared address
+      var q = new URLSearchParams(location.search), start = location.hash;
+      ['movement', 'era', 'thread'].forEach(function (g) { if (q.get(g)) active[g] = q.get(g); });
+      apply();
+      function fromHash(e) {
+        var h = e ? location.hash : start;
+        var t = h && document.getElementById(h.slice(1));
+        if (t && t.classList.contains('pt')) { if (t.hidden) { active = {}; apply(); } if (open !== t) show(t, true); }
+      }
+      fromHash();
+      window.addEventListener('hashchange', fromHash);
+    })();
+  </script>
+</Base>

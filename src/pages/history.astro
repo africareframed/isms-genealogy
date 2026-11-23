@@ -5,8 +5,11 @@ import Picture from '../components/Picture.astro';
 import PageHeader from '../components/PageHeader.astro';
 import { ERAS, FAMILIES, SITE_NAME, yearText, pageHref, threadName } from '../lib/site';
 import { getHistory, getWords, eraBounds, eraAnchor, momentAnchor } from '../lib/history';
+import { linkNames, personAnchor } from '../lib/people';
 
 const moments = await getHistory();
+// Names in a moment's "who" line link to their portraits on the People page (owner, 23 Nov 2026).
+const people = (await getCollection('people')).map((p) => ({ id: p.id, name: p.data.name, aliases: p.data.aliases }));
 const words = await getWords();
 const isms = (await getCollection('isms')).sort((a, b) => a.data.order - b.data.order);
 const ismById = new Map(isms.map((i) => [i.id, i]));
@@ -123,7 +126,7 @@ const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) =
                     </span>
                   </summary>
                   <div class="hm-b">
-                    {m.data.who && <p class="who">{m.data.who}</p>}
+                    {m.data.who && <p class="who">{linkNames(m.data.who, people).map((x) => ("id" in x ? <a href={`${pageHref('people')}#${personAnchor(x.id)}`}>{x.text}</a> : x.text))}</p>}
                     <div class="ibs">{m.data.text.trim().split(/\n\s*\n/).map((para) => <p class="ib">{para.trim()}</p>)}</div>
                     <p class="src">{m.data.sourceUrl ? <a href={m.data.sourceUrl}>{m.data.source}</a> : m.data.source}</p>
                     {m.data.status === 'draft' && <span class="draft">Draft · to be checked</span>}

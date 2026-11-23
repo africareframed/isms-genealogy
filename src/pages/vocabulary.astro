@@ -4,11 +4,13 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import { FAMILIES, SITE_NAME, pageHref } from '../lib/site';
+import { linkNames, personAnchor } from '../lib/people';
 
 // The page fills once src/data/words/words.yaml holds entries (an empty collection makes the build warn).
 const hasWords = (parse(readFileSync('src/data/words/words.yaml', 'utf8')) ?? []).length > 0;
 const words = hasWords ? (await getCollection('words')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0)) : [];
 const isms = await getCollection('isms');
+const people = (await getCollection('people')).map((p) => ({ id: p.id, name: p.data.name, aliases: p.data.aliases }));
 const ismById = new Map(isms.map((i) => [i.id, i]));
 const keyWords = new Map((await getCollection('themes')).map((t) => [t.data.title.toLowerCase(), t]));
 const familiesOf = (ids: string[]) => [...new Set(ids.map((id) => ismById.get(id)?.data.family).filter(Boolean))];
@@ -56,7 +58,7 @@ const filterCss = [
             <div>
               <h2 class="ww">{key?.data.ready ? <a href={pageHref(key.id)}>{w.data.word}</a> : w.data.word}</h2>
               <p class="wd">{w.data.definition}</p>
-              <p class="wo">{w.data.coinedBy && <Fragment>{w.data.coinedBy} · </Fragment>}{w.data.origin}{w.data.sourceUrl && <Fragment> <a href={w.data.sourceUrl}>Source</a></Fragment>}</p>
+              <p class="wo">{w.data.coinedBy && <Fragment>{linkNames(w.data.coinedBy, people).map((x) => ("id" in x ? <a href={`${pageHref('people')}#${personAnchor(x.id)}`}>{x.text}</a> : x.text))} · </Fragment>}{w.data.origin}{w.data.sourceUrl && <Fragment> <a href={w.data.sourceUrl}>Source</a></Fragment>}</p>
               {w.data.isms.length > 0 && <p class="wi">{w.data.isms.map((r) => ismById.get(r.id)?.data.title).filter(Boolean).join(' · ')}</p>}
             </div>
           </li>

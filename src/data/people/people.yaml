@@ -1,0 +1,1432 @@
+# The People page (owner, 23 Nov 2026): who is on it, with portrait and credit. Identity only:
+# researched facts (roles, labs, connections and so on) live in src/data/people-facts/ and are checked separately.
+# Portraits are the owner's, all cleared (23 Nov 2026); `licence` is the visible credit, naming the source.
+# A person without `portrait` is shown with their name on a plain field (wrong photo or none yet).
+- id: ada-lovelace
+  name: Ada Lovelace
+  portrait:
+    file: ada-lovelace.jpg
+    credit: Antoine Claudet
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png
+- id: aidan-gomez
+  name: Aidan Gomez
+  portrait:
+    file: aidan-gomez.jpg
+    credit: Gabriel Hutchinson
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Aidan_Gomez_at_%22ALL_IN%22_2025_06.jpg
+- id: alan-turing
+  name: Alan Turing
+  portrait:
+    file: alan-turing.jpg
+    credit: Elliott & Fry
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg
+- id: alex-hanna
+  name: Alex Hanna
+  portrait:
+    file: alex-hanna.jpg
+    credit: Alhann1
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Alex_hanna.jpg
+- id: alex-karp
+  name: Alex Karp
+  portrait:
+    file: alex-karp.jpg
+    credit: UK Government
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Alex_Karp_attends_AI_Summit_(53302457013)_4-5_ratio.jpg
+- id: alex-kontorovich
+  name: Alex Kontorovich
+  portrait:
+    file: alex-kontorovich.jpg
+    credit: Katrin Schmid
+    licence: CC BY-SA 2.0 de, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kontorovich_2011.jpg
+- id: alex-krizhevsky
+  name: Alex Krizhevsky
+  portrait:
+    file: alex-krizhevsky.jpg
+    licence: computerhistory.org
+    sourceUrl: https://computerhistory.org/blog/chm-releases-alexnet-source-code/
+- id: allen-newell
+  name: Allen Newell
+  portrait:
+    file: allen-newell.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Allen_Newell.jpg
+- id: amanda-askell
+  name: Amanda Askell
+- id: amos-tversky
+  name: Amos Tversky
+  portrait:
+    file: amos-tversky.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Amos_Tversky.jpg
+- id: amy-kremer
+  name: Amy Kremer
+  portrait:
+    file: amy-kremer.jpg
+    credit: Gage Skidmore
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Amy_Kremer.jpg
+- id: andrew-ng
+  name: Andrew Ng
+  portrait:
+    file: andrew-ng.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg
+- id: anthony-aguirre
+  name: Anthony Aguirre
+  portrait:
+    file: anthony-aguirre.jpg
+    credit: Spadeborks
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Anthony_Aguirre_at_FAS_2026.jpg
+- id: arthur-samuel
+  name: Arthur Samuel
+  portrait:
+    file: arthur-samuel.jpg
+    licence: programming-review.com
+    sourceUrl: https://programming-review.com/machine-learning/history
+- id: arvind-narayanan
+  name: Arvind Narayanan
+  portrait:
+    file: arvind-narayanan.jpg
+    credit: Robert Scoble
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Stanford%27s_privacy_guy_-_Arvind_Narayana.jpg
+- id: ashish-vaswani
+  name: Ashish Vaswani
+  portrait:
+    file: ashish-vaswani.jpg
+    licence: raais.co
+    sourceUrl: https://raais.co/speakers-2019-ashish-vaswani-google-ai
+- id: aviv-kochavi
+  name: Aviv Kochavi
+  portrait:
+    file: aviv-kochavi.jpg
+    credit: IDF Spokesperson's Unit photographer
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Avivcoch.jpeg
+- id: aza-raskin
+  name: Aza Raskin
+  portrait:
+    file: aza-raskin.jpg
+    credit: NEXT Conference from Berlin, Deutschland
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:NEXT14_Day_2,_NEXT_Conference,_Germany_(14118567022).jpg
+- id: balaji-srinivasan
+  name: Balaji Srinivasan
+  portrait:
+    file: balaji-srinivasan.jpg
+    credit: Asalover2004
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Token2049_BalajiSrinivasan_07102026.jpg
+- id: batya-friedman
+  name: Batya Friedman
+  portrait:
+    file: batya-friedman.jpg
+    licence: ischool.uw.edu
+    sourceUrl: https://ischool.uw.edu/people/faculty/profile/batya
+- id: bernie-sanders
+  name: Bernie Sanders
+  portrait:
+    file: bernie-sanders.jpg
+    credit: Anderseidesvik
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg
+- id: bill-joy
+  name: Bill Joy
+  portrait:
+    file: bill-joy.jpg
+    credit: SqueakBox
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bill_Joy_at_World_Economic_Forum_(Davos),_2003-01_(cropped).jpg
+- id: blaise-pascal
+  name: Blaise Pascal
+  portrait:
+    file: blaise-pascal.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG
+- id: bruce-buchanan
+  name: Bruce Buchanan
+- id: bryan-johnson
+  name: Bryan Johnson
+  portrait:
+    file: bryan-johnson.jpg
+    credit: M Robertson
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bryan_Johnson_2026.jpg
+- id: cathy-oneil
+  name: Cathy O'Neil
+  portrait:
+    file: cathy-oneil.jpg
+    credit: GRuban
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cathy_O%27Neil_at_Google_Cambridge.jpg
+- id: charles-babbage
+  name: Charles Babbage
+  portrait:
+    file: charles-babbage.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Charles_Babbage_-_1860.jpg
+- id: chris-olah
+  name: Chris Olah
+  aliases:
+  - Christopher Olah
+  portrait:
+    file: chris-olah.jpg
+    licence: lanacion.com.ar
+    sourceUrl: https://www.lanacion.com.ar/el-mundo/chris-olah-el-joven-guru-de-la-ia-que-acompano-a-leon-xiv-en-una-presentacion-historica-nid25052026/
+- id: claude-shannon
+  name: Claude Shannon
+  portrait:
+    file: claude-shannon.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(2x3_crop).jpg
+- id: curtis-yarvin
+  name: Curtis Yarvin
+  portrait:
+    file: curtis-yarvin.jpg
+    credit: Elekes Andor
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Curtis_Yarvin_(4).jpg
+- id: daniel-kahneman
+  name: Daniel Kahneman
+  portrait:
+    file: daniel-kahneman.jpg
+    credit: nrkbeta
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Daniel_Kahneman_(3283955327)_(cropped).jpg
+- id: daniel-kokotajlo
+  name: Daniel Kokotajlo
+  portrait:
+    file: daniel-kokotajlo.jpg
+    licence: podcast.futureoflife.org
+    sourceUrl: https://podcast.futureoflife.org/why-the-ai-race-ends-in-disaster-with-daniel-kokotajlo/
+- id: daniela-amodei
+  name: Daniela Amodei
+  portrait:
+    file: daniela-amodei.jpg
+    licence: aol.com
+    sourceUrl: https://www.aol.com/articles/dario-daniela-amodei-anthropics-ceo-174718000.html
+- id: dario-amodei
+  name: Dario Amodei
+  portrait:
+    file: dario-amodei.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg
+- id: david-ferrucci
+  name: David Ferrucci
+  portrait:
+    file: david-ferrucci.jpg
+    credit: Jonathan Heisler
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:David_Ferrucci_speaks_at_TEDx_Binghamton_University.jpg
+- id: david-pearce
+  name: David Pearce
+  aliases: []
+  portrait:
+    file: david-pearce.jpg
+    credit: Marco Vega
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:David_Pearce_(transhumanist),_September_2013.jpg
+- id: david-rumelhart
+  name: David Rumelhart
+  portrait:
+    file: david-rumelhart.jpg
+    credit: Rolf Kickuth
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg
+- id: demis-hassabis
+  name: Demis Hassabis
+  portrait:
+    file: demis-hassabis.jpg
+    credit: John Sears
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg
+- id: derek-parfit
+  name: Derek Parfit
+  portrait:
+    file: derek-parfit.jpg
+    credit: Anna Riedl
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Derek_Parfit_at_Harvard-April_21,_2015-Effective_Altruism_(cropped).jpg
+- id: donald-trump
+  name: Donald Trump
+  aliases:
+  - President Trump
+  - Trump
+  portrait:
+    file: donald-trump.jpg
+    credit: Daniel Torok
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
+- id: douglas-engelbart
+  name: Douglas Engelbart
+  portrait:
+    file: douglas-engelbart.jpg
+    credit: SRI International
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:SRI_Douglas_Engelbart_1968_(cropped).jpg
+- id: douglas-lenat
+  name: Douglas Lenat
+  portrait:
+    file: douglas-lenat.jpg
+    credit: LordRedthorn
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dbl4.jpg
+- id: dustin-moskovitz
+  name: Dustin Moskovitz
+  portrait:
+    file: dustin-moskovitz.jpg
+    credit: Dustin Moskovitz
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dustin_Moskovitz_Headshot.jpg
+- id: edward-shortliffe
+  name: Edward Shortliffe
+  portrait:
+    file: edward-shortliffe.jpg
+    credit: Trapwrap
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Edward_H._Shortliffe.jpg
+- id: elie-hassenfeld
+  name: Elie Hassenfeld
+  portrait:
+    file: elie-hassenfeld.jpg
+    licence: howtomoney.com
+    sourceUrl: https://www.howtomoney.com/effective-altruism-giving-well-with-elie-hassenfeld/
+- id: eliezer-yudkowsky
+  name: Eliezer Yudkowsky
+  portrait:
+    file: eliezer-yudkowsky.jpg
+    credit: null0
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Eliezer_Yudkowsky,_Stanford_2006_(square_crop).jpg
+- id: elon-musk
+  name: Elon Musk
+  portrait:
+    file: elon-musk.jpg
+    credit: Gage Skidmore
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg
+- id: emile-p-torres
+  name: Émile P. Torres
+  aliases:
+  - Émile Torres
+  portrait:
+    file: emile-p-torres.jpg
+    credit: Émile P. Torres
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:%C3%89mile_P._Torres_profile_2025_(cropped).png
+- id: emily-m-bender
+  name: Emily M. Bender
+  aliases:
+  - Emily Bender
+  portrait:
+    file: emily-m-bender.jpg
+    credit: King of Hearts
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg
+- id: fei-fei-li
+  name: Fei-Fei Li
+  aliases:
+  - Li Fei-Fei
+  portrait:
+    file: fei-fei-li.jpg
+    credit: ITU Pictures
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg
+- id: felix-guattari
+  name: Félix Guattari
+  portrait:
+    file: felix-guattari.jpg
+    credit: Na5069wv
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:%E3%83%95%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AC%E3%82%BF%E3%83%AA.jpg
+- id: feng-hsiung-hsu
+  name: Feng-hsiung Hsu
+- id: filippo-tommaso-marinetti
+  name: Filippo Tommaso Marinetti
+  aliases:
+  - Marinetti
+  portrait:
+    file: filippo-tommaso-marinetti.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Filippo_Tommaso_Marinetti.jpg
+- id: francis-bacon
+  name: Francis Bacon
+  portrait:
+    file: francis-bacon.jpg
+    credit: Paul van Somer I / Formerly attributed to Frans Pourbus the Younger
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg
+- id: frank-rosenblatt
+  name: Frank Rosenblatt
+  portrait:
+    file: frank-rosenblatt.jpg
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Frank_Rosenblatt.jpg
+- id: friedrich-hayek
+  name: Friedrich Hayek
+  portrait:
+    file: friedrich-hayek.jpg
+    credit: DickClarkMises
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Friedrich_Hayek_portrait.jpg
+- id: garry-kasparov
+  name: Garry Kasparov
+  portrait:
+    file: garry-kasparov.jpg
+    credit: Fryta 73 from Strzegom
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Garri_Kasparow_(18776605665)_(cropped)_2.jpg
+- id: gary-marcus
+  name: Gary Marcus
+  portrait:
+    file: gary-marcus.jpg
+    credit: Web Summit
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Gary_Marcus_at_Web_Summit_2022.jpeg
+- id: geoffrey-hinton
+  name: Geoffrey Hinton
+  portrait:
+    file: geoffrey-hinton.jpg
+    credit: Cmichel67
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg
+- id: george-boole
+  name: George Boole
+  portrait:
+    file: george-boole.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Portrait_of_George_Boole.png
+- id: george-heilmeier
+  name: George Heilmeier
+  portrait:
+    file: george-heilmeier.jpg
+    credit: IEEE Global History Network, © 2009 IEEE
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:George_H._Heilmeier.jpg
+- id: gerald-tesauro
+  name: Gerald Tesauro
+  portrait:
+    file: gerald-tesauro.jpg
+    licence: researchdatapod.com
+    sourceUrl: https://researchdatapod.com/history-reinforcement-learning/
+- id: gilles-deleuze
+  name: Gilles Deleuze
+  portrait:
+    file: gilles-deleuze.jpg
+    credit: Hélène Bamberger
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Gilles_Deleuze.webp
+- id: giovanni-pico-della-mirandola
+  name: Giovanni Pico della Mirandola
+  aliases:
+  - Pico della Mirandola
+  portrait:
+    file: giovanni-pico-della-mirandola.jpg
+    credit: Cristofano dell'Altissimo
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pico1.jpg
+- id: gordon-moore
+  name: Gordon Moore
+  portrait:
+    file: gordon-moore.jpg
+    credit: Intel Free Press
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Gordon_Moore_1978_(cropped).png
+- id: gordon-welchman
+  name: Gordon Welchman
+  portrait:
+    file: gordon-welchman.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Gordon_Welchman.jpg
+- id: gottfried-wilhelm-leibniz
+  name: Gottfried Wilhelm Leibniz
+  aliases:
+  - Leibniz
+  - Gottfried Leibniz
+  portrait:
+    file: gottfried-wilhelm-leibniz.jpg
+    credit: Christoph Bernhard Francke
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg
+- id: greg-brockman
+  name: Greg Brockman
+  portrait:
+    file: greg-brockman.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838200316)_(cropped).jpg
+- id: guillaume-verdon
+  name: Guillaume Verdon
+  portrait:
+    file: guillaume-verdon.jpg
+    licence: blog.joelonsdale.com
+    sourceUrl: https://blog.joelonsdale.com/p/ep-76-accelerate-or-die-guillaume
+- id: hans-moravec
+  name: Hans Moravec
+  portrait:
+    file: hans-moravec.jpg
+    licence: slideserve.com
+    sourceUrl: https://www.slideserve.com/Dimple/transhumans-technology-powered-superhumans
+- id: he-lifeng
+  name: He Lifeng
+  portrait:
+    file: he-lifeng.jpg
+    credit: European Commission (Andrea Verdelli)
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:P-070565_00-19_01-ORIGINAL-168544_He_Lifeng_(cropped).jpg
+- id: helen-nissenbaum
+  name: Helen Nissenbaum
+  portrait:
+    file: helen-nissenbaum.jpg
+    credit: Joe Hall
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Helen%27s_guest_lecture_at_University_of_Berkley.jpg
+- id: helen-toner
+  name: Helen Toner
+  portrait:
+    file: helen-toner.jpg
+    licence: transparencycoalition.ai
+    sourceUrl: https://www.transparencycoalition.ai/
+- id: henry-sidgwick
+  name: Henry Sidgwick
+  portrait:
+    file: henry-sidgwick.jpg
+    credit: Elliott & Fry
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Henry_Sidgwick_Elliott_%26_Fry_1890s_(cropped).jpg
+- id: herbert-a-simon
+  name: Herbert A. Simon
+  aliases:
+  - Herbert Simon
+  portrait:
+    file: herbert-a-simon.jpg
+    credit: Rochester Institute of Technology
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Herbert_Simon,_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg
+- id: hilary-greaves
+  name: Hilary Greaves
+  portrait:
+    file: hilary-greaves.jpg
+    credit: Mal Vickers
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hilary_Greaves_(20613169345).jpg
+- id: holden-karnofsky
+  name: Holden Karnofsky
+  portrait:
+    file: holden-karnofsky.jpg
+    credit: Noah Berger/Open Philanthropy
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Holden_Karnofsky_0.jpg
+- id: hubert-dreyfus
+  name: Hubert Dreyfus
+  portrait:
+    file: hubert-dreyfus.jpg
+    credit: Jörg Noller
+    licence: CC BY-SA 3.0 de, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hubert_Dreyfus_(cropped).jpg
+- id: hugo-duminil-copin
+  name: Hugo Duminil-Copin
+  portrait:
+    file: hugo-duminil-copin.jpg
+    credit: Ruf, Tatjana
+    licence: CC BY-SA 2.5, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hugo_Duminil-Copin_in_Oberwolfach_(cropped).jpg
+- id: i-j-good
+  name: I. J. Good
+  aliases:
+  - Irving John Good
+  - Jack Good
+  portrait:
+    file: i-j-good.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:I._J._Good.jpg
+- id: ian-goodfellow
+  name: Ian Goodfellow
+  portrait:
+    file: ian-goodfellow.jpg
+    credit: Ian Goodfellow
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ian_Goodfellow.jpg
+- id: ilya-sutskever
+  name: Ilya Sutskever
+  portrait:
+    file: ilya-sutskever.jpg
+    credit: Eladkarmel
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU_(cropped).jpg
+- id: isaac-asimov
+  name: Isaac Asimov
+  portrait:
+    file: isaac-asimov.jpg
+    credit: Phillip Leonian from New York World-Telegram & Sun.
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg
+- id: j-b-s-haldane
+  name: J. B. S. Haldane
+  portrait:
+    file: j-b-s-haldane.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Haldane-desk.jpg
+- id: j-c-r-licklider
+  name: J. C. R. Licklider
+  aliases:
+  - Licklider
+  portrait:
+    file: j-c-r-licklider.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Portrait_of_J._C._R._Licklider.jpg
+- id: j-d-bernal
+  name: J. D. Bernal
+  portrait:
+    file: j-d-bernal.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:John_Desmond_Bernal.jpg
+- id: j-presper-eckert
+  name: J. Presper Eckert
+  portrait:
+    file: j-presper-eckert.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Computer_Engineer_J._Presper_Eckert.png
+- id: jaan-tallinn
+  name: Jaan Tallinn
+  portrait:
+    file: jaan-tallinn.jpg
+    credit: Stimqdrmtmob
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Jaan_Tallinn.jpg
+- id: jacob-devlin
+  name: Jacob Devlin
+- id: james-dale-davidson
+  name: James Dale Davidson
+  portrait:
+    file: james-dale-davidson.jpg
+    licence: nobsimreviews.com
+    sourceUrl: https://nobsimreviews.com/james-dale-davidson/
+- id: james-lighthill
+  name: James Lighthill
+  aliases:
+  - Sir James Lighthill
+  - Lighthill
+  portrait:
+    file: james-lighthill.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Lighthill_3.jpeg
+- id: jared-kaplan
+  name: Jared Kaplan
+  portrait:
+    file: jared-kaplan.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Jared_Kaplan_(3%C3%974_cropped).jpg
+- id: jd-vance
+  name: JD Vance
+  portrait:
+    file: jd-vance.jpg
+    credit: Emily J. Higgins
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg
+- id: jeff-dean
+  name: Jeff Dean
+  aliases:
+  - Jeffrey Dean
+  portrait:
+    file: jeff-dean.jpg
+    credit: Cmichel67
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Jeff_Dean_in_2025_x.jpg
+- id: jeremy-england
+  name: Jeremy England
+- id: joe-allen
+  name: Joe Allen
+- id: joe-biden
+  name: Joe Biden
+  aliases:
+  - President Biden
+  - Biden
+  portrait:
+    file: joe-biden.jpg
+    credit: Adam Schultz
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait_(3x4_cropped2).jpg
+- id: joe-lonsdale
+  name: Joe Lonsdale
+  portrait:
+    file: joe-lonsdale.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Joe_Lonsdale.jpg
+- id: john-hopfield
+  name: John Hopfield
+  portrait:
+    file: john-hopfield.jpg
+    credit: Jay Dixit
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:John_J._Hopfield_delivering_his_lecture_at_the_2024_Nobel_Prize_Lectures_in_Stockholm.jpg
+- id: john-jumper
+  name: John Jumper
+  portrait:
+    file: john-jumper.jpg
+    credit: Jay Dixit
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:John_M._Jumper_presenting_his_Nobel_Lecture_at_the_2024_Nobel_Prizes.jpg
+- id: john-mauchly
+  name: John Mauchly
+  portrait:
+    file: john-mauchly.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:John_Mauchly.jpg
+- id: john-mccarthy
+  name: John McCarthy
+  portrait:
+    file: john-mccarthy.jpg
+    credit: null0
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg
+- id: john-mcdermott
+  name: John McDermott
+- id: john-searle
+  name: John Searle
+  portrait:
+    file: john-searle.jpg
+    credit: FranksValli
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:John_Searle_speaking_at_Google_4_(cropped).jpg
+- id: john-von-neumann
+  name: John von Neumann
+  aliases:
+  - von Neumann
+  portrait:
+    file: john-von-neumann.jpg
+    credit: LANL
+    licence: Attribution, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif
+- id: josef-capek
+  name: Josef Čapek
+  aliases:
+  - Josef Capek
+  portrait:
+    file: josef-capek.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Josef_Capek_1937.jpg
+- id: joseph-weizenbaum
+  name: Joseph Weizenbaum
+  portrait:
+    file: joseph-weizenbaum.jpg
+    credit: Rochester Institute of Technology
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Weizenbaum_1982.jpg
+- id: joy-buolamwini
+  name: Joy Buolamwini
+  portrait:
+    file: joy-buolamwini.jpg
+    credit: Niccolò Caranti
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Joy_Buolamwini_-_Wikimania_2018_01.jpg
+- id: julia-angwin
+  name: Julia Angwin
+  portrait:
+    file: julia-angwin.jpg
+    credit: Wikisolipsist
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Julia_Angwin_Headshot.jpg
+- id: julian-huxley
+  name: Julian Huxley
+  portrait:
+    file: julian-huxley.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hux-Oxon-72.jpg
+- id: jurgen-schmidhuber
+  name: Jürgen Schmidhuber
+  aliases:
+  - Jurgen Schmidhuber
+  portrait:
+    file: jurgen-schmidhuber.jpg
+    credit: ITU/R.Farrell
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:J%C3%BCrgen_Schmidhuber,_2017_(cropped).jpg
+- id: karel-capek
+  name: Karel Čapek
+  aliases:
+  - Karel Capek
+  portrait:
+    file: karel-capek.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Karel-capek.jpg
+- id: kate-crawford
+  name: Kate Crawford
+  portrait:
+    file: kate-crawford.jpg
+    credit: Cmichel67
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kate_Crawford_in_2025_05.jpg
+- id: kateryna-bondar
+  name: Kateryna Bondar
+- id: kazuhiro-fuchi
+  name: Kazuhiro Fuchi
+  portrait:
+    file: kazuhiro-fuchi.jpg
+    licence: timetoast.com
+    sourceUrl: https://www.timetoast.com/timelines/historia-de-la-computadora-179cc742-345c-42d5-8f26-279c3d71244d
+- id: kevin-kelly
+  name: Kevin Kelly
+  aliases: []
+  portrait:
+    file: kevin-kelly.jpg
+    credit: Cmichel67
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kevin_Kelly_in_2022.jpg
+- id: konrad-zuse
+  name: Konrad Zuse
+  portrait:
+    file: konrad-zuse.jpg
+    credit: Wolfgang Hunscher, Dortmund
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Konrad_Zuse_(1992).jpg
+- id: larry-page
+  name: Larry Page
+  portrait:
+    file: larry-page.jpg
+    credit: Stansfield PL
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg
+- id: lee-sedol
+  name: Lee Sedol
+  portrait:
+    file: lee-sedol.jpg
+    credit: LG Electronics
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg
+- id: leon-bottou
+  name: Léon Bottou
+  portrait:
+    file: leon-bottou.jpg
+    credit: Xuthoria
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:SD_2025_-_L%C3%A9on_Bottou_02.jpg
+- id: leonardo-torres-quevedo
+  name: Leonardo Torres Quevedo
+  aliases:
+  - Torres Quevedo
+  portrait:
+    file: leonardo-torres-quevedo.jpg
+    credit: Auguste Léon
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:1921_Leonardo_Torres_Quevedo.jpg
+- id: levent-alpoge
+  name: Levent Alpöge
+  portrait:
+    file: levent-alpoge.jpg
+    credit: Marlene Ruf
+    licence: CC BY-SA 2.0 de, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Levent_Alp%C3%B6ge_2024_MFO.jpg
+- id: marc-andreessen
+  name: Marc Andreessen
+  portrait:
+    file: marc-andreessen.jpg
+    credit: JD Lasica
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Marc_Andreessen-9_(cropped).jpg
+- id: margaret-mitchell
+  name: Margaret Mitchell
+  aliases: []
+  portrait:
+    file: margaret-mitchell.jpg
+    credit: AI4LAM
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:MargaretMitchell2022.jpg
+- id: marvin-minsky
+  name: Marvin Minsky
+  portrait:
+    file: marvin-minsky.jpg
+    credit: Sethwoodworth
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg
+- id: matt-schlicht
+  name: Matt Schlicht
+  portrait:
+    file: matt-schlicht.jpg
+    licence: timesbrasil.com.br
+    sourceUrl: https://timesbrasil.com.br/brasil/quem-e-matt-schlicht-criador-moltbook-rede-social-ias-conversam/
+- id: max-more
+  name: Max More
+  portrait:
+    file: max-more.jpg
+    credit: null0
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Max_More,_Stanford_2006_(square_crop).jpg
+- id: max-tegmark
+  name: Max Tegmark
+  portrait:
+    file: max-tegmark.jpg
+    credit: Web Summit
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Partnership_-_CGTN_%26_Razor_Broadcast_Studio_(54919125534)_(cropped).jpg
+- id: megan-garcia
+  name: Megan Garcia
+- id: meia-chita-tegmark
+  name: Meia Chita-Tegmark
+  portrait:
+    file: meia-chita-tegmark.jpg
+    licence: futureoflife.org
+    sourceUrl: https://futureoflife.org/person/meia-chita-tegmark/
+- id: meredith-whittaker
+  name: Meredith Whittaker
+  portrait:
+    file: meredith-whittaker.jpg
+    credit: Martin Kraft
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:MKr30771_Meredith_Whittaker_(Republica_23).jpg
+- id: michael-toscano
+  name: Michael Toscano
+- id: moritz-hardt
+  name: Moritz Hardt
+  portrait:
+    file: moritz-hardt.jpg
+    licence: machine-learning-and-security.github.io
+    sourceUrl: https://machine-learning-and-security.github.io/
+- id: murray-campbell
+  name: Murray Campbell
+  portrait:
+    file: murray-campbell.jpg
+    licence: computerhistory.org
+    sourceUrl: https://www.computerhistory.org/chess/stl-430b9bbc83cb1/
+- id: mustafa-suleyman
+  name: Mustafa Suleyman
+  portrait:
+    file: mustafa-suleyman.jpg
+    credit: Christopher Wilson
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mustafa_Suleyman_photo_(cropped).jpg
+- id: nate-soares
+  name: Nate Soares
+  portrait:
+    file: nate-soares.jpg
+    credit: M bourgon
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nate_Soares_at_Politics_and_Prose_at_The_Wharf,_September_2025_(cropped).jpg
+- id: nathan-gettings
+  name: Nathan Gettings
+  portrait:
+    file: nathan-gettings.jpg
+    licence: ceotodaymagazine.com
+    sourceUrl: https://www.ceotodaymagazine.com/2025/08/the-palantir-founders-where-are-they-now/
+- id: nathaniel-moran
+  name: Nathaniel Moran
+  portrait:
+    file: nathaniel-moran.jpg
+    credit: United States Congress
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Rep._Nathaniel_Moran_official_photo,_118th_Congress.jpg
+- id: nathaniel-rochester
+  name: Nathaniel Rochester
+  portrait:
+    file: nathaniel-rochester.jpg
+    licence: en.wikipedia.org
+    sourceUrl: https://en.wikipedia.org/wiki/File:Nathaniel_Rochester_computer_scientist.png
+- id: nick-bostrom
+  name: Nick Bostrom
+  portrait:
+    file: nick-bostrom.jpg
+    credit: Future of Humanity Institute
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Prof_Nick_Bostrom_324-1.jpg
+- id: nick-land
+  name: Nick Land
+  portrait:
+    file: nick-land.jpg
+    credit: Three Billion Nances
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nick_Land_in_2025.jpg
+- id: nicolas-de-condorcet
+  name: Nicolas de Condorcet
+  aliases:
+  - Condorcet
+  - Marquis de Condorcet
+  portrait:
+    file: nicolas-de-condorcet.jpg
+    credit: Unidentified painter / Formerly attributed to Jean-Baptiste Greuze
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nicolas_de_Condorcet.PNG
+- id: nikolai-fedorov
+  name: Nikolai Fedorov
+  aliases:
+  - Nikolai Fyodorov
+  - Fedorov
+  portrait:
+    file: nikolai-fedorov.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pasternak_fedorov.jpg
+- id: nikolai-kardashev
+  name: Nikolai Kardashev
+  portrait:
+    file: nikolai-kardashev.jpg
+    credit: Rights NRAO/AUI/NSF Photographer Woodruff T. Sullivan III Photo Credit
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nikolai_Kardashev_1980.jpg
+- id: nils-nilsson
+  name: Nils Nilsson
+  portrait:
+    file: nils-nilsson.jpg
+    credit: Nils Nilsson, Personal Web Page Profile Image.
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nils-Nilsson-2013.jpg
+- id: noam-chomsky
+  name: Noam Chomsky
+  portrait:
+    file: noam-chomsky.jpg
+    credit: Σ, retouched by Wugapodes and Jonnmann
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Noam_Chomsky_portrait_2017_retouched.jpg
+- id: noam-shazeer
+  name: Noam Shazeer
+  portrait:
+    file: noam-shazeer.jpg
+    licence: newsbytesapp.com
+    sourceUrl: https://www.newsbytesapp.com/news/science/google-taps-noam-shazeer-for-gemini-ai-project-leadership/story
+- id: norbert-wiener
+  name: Norbert Wiener
+  portrait:
+    file: norbert-wiener.jpg
+    credit: Garry Olsh
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Norbert_Wiener.png
+- id: oliver-selfridge
+  name: Oliver Selfridge
+  portrait:
+    file: oliver-selfridge.jpg
+    credit: Daderot
+    licence: CC0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Oliver_Selfridge_at_BBN.jpg
+- id: patrick-collison
+  name: Patrick Collison
+  portrait:
+    file: patrick-collison.jpg
+    credit: JD Lasica
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Patrick_Collison_(cropped).jpg
+- id: pete-hegseth
+  name: Pete Hegseth
+  portrait:
+    file: pete-hegseth.jpg
+    credit: U.S. Department of Defense
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg
+- id: peter-diamandis
+  name: Peter Diamandis
+  portrait:
+    file: peter-diamandis.jpg
+    credit: Brassfield
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Peter-Diamandis-Headshot.jpg
+- id: peter-singer
+  name: Peter Singer
+  portrait:
+    file: peter-singer.jpg
+    credit: Ula Zarosa
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Peter_Singer_2017_(cropped).jpg
+- id: peter-steinberger
+  name: Peter Steinberger
+  portrait:
+    file: peter-steinberger.jpg
+    credit: dotconferences
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Peter_Steinberger.webp
+- id: peter-thiel
+  name: Peter Thiel
+  portrait:
+    file: peter-thiel.jpg
+    credit: Gage Skidmore
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg
+- id: phil-aroneanu
+  name: Phil Aroneanu
+  portrait:
+    file: phil-aroneanu.jpg
+    licence: tv.cuny.edu
+    sourceUrl: https://tv.cuny.edu/bio/phil_aroneanu
+- id: pope-leo-xiv
+  name: Pope Leo XIV
+  aliases:
+  - Leo XIV
+  portrait:
+    file: pope-leo-xiv.jpg
+    credit: Edgar Beltrán , The Pillar
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pope_Leo_XIV_3_(3x4_cropped).png
+- id: quoc-le
+  name: Quoc Le
+- id: ramon-llull
+  name: Ramon Llull
+  portrait:
+    file: ramon-llull.jpg
+    credit: Francesc Ribalta
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Francisco_Ribalta_-_Ramon_Llull_-_Google_Art_Project.jpg
+- id: ray-kurzweil
+  name: Ray Kurzweil
+  portrait:
+    file: ray-kurzweil.jpg
+    credit: Jay Dixit
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ray-Kurzweil-at-SXSW_2024_7_(cropped).jpg
+- id: ray-solomonoff
+  name: Ray Solomonoff
+- id: reid-hoffman
+  name: Reid Hoffman
+  portrait:
+    file: reid-hoffman.jpg
+    credit: U.S. Secretary of Defense
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:2022_Reid_Hoffman_(cropped).jpg
+- id: rene-descartes
+  name: René Descartes
+  aliases:
+  - Descartes
+  portrait:
+    file: rene-descartes.jpg
+    credit: After Frans Hals
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg
+- id: richard-price
+  name: Richard Price
+  portrait:
+    file: richard-price.jpg
+    credit: Benjamin West
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Richard_Price_West.jpg
+- id: richard-sutton
+  name: Richard Sutton
+  portrait:
+    file: richard-sutton.jpg
+    credit: Xuthoria
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:SD_2025_-_Richard_Sutton_01_(cropped).jpg
+- id: robert-ettinger
+  name: Robert Ettinger
+  portrait:
+    file: robert-ettinger.jpg
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Robert_Ettinger_Soldier_WWII.jpg
+- id: robert-kahn
+  name: Robert Kahn
+  portrait:
+    file: robert-kahn.jpg
+    credit: Вени Марковски | Veni Markovski
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bob_Kahn.jpg
+- id: robin-hanson
+  name: Robin Hanson
+  portrait:
+    file: robin-hanson.jpg
+    credit: KatjaGrace
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Robin_Hanson_in_a_field_2.jpg
+- id: ronald-j-williams
+  name: Ronald J. Williams
+  aliases:
+  - Ronald Williams
+- id: sam-altman
+  name: Sam Altman
+  portrait:
+    file: sam-altman.jpg
+    credit: 首相官邸ホームページ / Office of the Prime Minister of Japan Official Website
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg
+- id: sam-bankman-fried
+  name: Sam Bankman-Fried
+  portrait:
+    file: sam-bankman-fried.jpg
+    credit: Cointelegraph
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sam_Bankman-Fried_(cropped).png
+- id: samuel-butler
+  name: Samuel Butler
+  aliases: []
+  portrait:
+    file: samuel-butler.jpg
+    credit: Charles Gogin (died 1931)
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Samuel_Butler_by_Charles_Gogin.jpg
+- id: satya-nadella
+  name: Satya Nadella
+  portrait:
+    file: satya-nadella.jpg
+    credit: Brian Smale and Microsoft
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg
+- id: sayash-kapoor
+  name: Sayash Kapoor
+  portrait:
+    file: sayash-kapoor.jpg
+    licence: spia.princeton.edu
+    sourceUrl: https://spia.princeton.edu/events/princeton-ai-dialogues-expert-briefings-us-senate
+- id: scott-bessent
+  name: Scott Bessent
+  portrait:
+    file: scott-bessent.jpg
+    credit: U.S. Department of the Treasury
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent_(borderless)_(cropped).jpg
+- id: sebastian-thrun
+  name: Sebastian Thrun
+  portrait:
+    file: sebastian-thrun.jpg
+    credit: Christopher Michel
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sebastian_Thrun_by_Christopher_Michel_-_6.jpg
+- id: sepp-hochreiter
+  name: Sepp Hochreiter
+  portrait:
+    file: sepp-hochreiter.jpg
+    credit: C.Stadler/Bwag
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sepp_Hochreiter_-_Buch_Wien_2025.JPG
+- id: seymour-papert
+  name: Seymour Papert
+  portrait:
+    file: seymour-papert.jpg
+    credit: Matematicamente.it
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg
+- id: shane-legg
+  name: Shane Legg
+  portrait:
+    file: shane-legg.jpg
+    credit: Libor.burian
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shane_Legg.jpg
+- id: solon-barocas
+  name: Solon Barocas
+  portrait:
+    file: solon-barocas.jpg
+    licence: iapp.org
+    sourceUrl: https://iapp.org/conference/iapp-aigg25/agenda/ai-governance-on-the-ground-practices-challenges-and-opportunities-in-industry
+- id: stanislaw-ulam
+  name: Stanisław Ulam
+  aliases:
+  - Stanislaw Ulam
+  - Stan Ulam
+  portrait:
+    file: stanislaw-ulam.jpg
+    credit: Los Alamos National Laboratory
+    licence: Attribution, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Stanislaw_Ulam.tif
+- id: stephen-cohen
+  name: Stephen Cohen
+- id: stephen-hawking
+  name: Stephen Hawking
+  portrait:
+    file: stephen-hawking.jpg
+    credit: NASA
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg
+- id: steve-bannon
+  name: Steve Bannon
+  portrait:
+    file: steve-bannon.jpg
+    credit: Gage Skidmore from Surprise, AZ, United States of America
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Steve_Bannon_in_2025_(3x4_cropped).jpg
+- id: steve-jobs
+  name: Steve Jobs
+  portrait:
+    file: steve-jobs.jpg
+    credit: Matthew Yohe
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_6).jpg
+- id: steve-wozniak
+  name: Steve Wozniak
+  portrait:
+    file: steve-wozniak.jpg
+    credit: Gage Skidmore
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore_3_(cropped).jpg
+- id: stuart-russell
+  name: Stuart Russell
+  portrait:
+    file: stuart-russell.jpg
+    credit: Bengt Oberger
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Stuart_Russell_01.jpg
+- id: tasha-mccauley
+  name: Tasha McCauley
+  portrait:
+    file: tasha-mccauley.jpg
+    licence: wealthypeeps.com
+    sourceUrl: https://wealthypeeps.com/tasha-mccauley-wikipedia-joseph-gordon-levitt-age/
+- id: ted-lieu
+  name: Ted Lieu
+  portrait:
+    file: ted-lieu.jpg
+    credit: U.S. House of Representatives
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Congressman_Ted_W._Lieu_Official_Photo.jpg
+- id: thomas-bayes
+  name: Thomas Bayes
+  portrait:
+    file: thomas-bayes.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Thomas_Bayes.gif
+    caveat: The only portrait in circulation; historians doubt it shows Bayes.
+- id: thomas-hobbes
+  name: Thomas Hobbes
+  portrait:
+    file: thomas-hobbes.jpg
+    credit: John Michael Wright
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg
+- id: timnit-gebru
+  name: Timnit Gebru
+  portrait:
+    file: timnit-gebru.jpg
+    credit: TechCrunch
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Timnit_Gebru_crop.jpg
+- id: toby-ord
+  name: Toby Ord
+  portrait:
+    file: toby-ord.jpg
+    credit: David Fisher
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toby_Ord.jpg
+- id: tomas-mikolov
+  name: Tomas Mikolov
+  aliases:
+  - Tomáš Mikolov
+  portrait:
+    file: tomas-mikolov.jpg
+    credit: Jindřich Nosek (NoJin)
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tom%C3%A1%C5%A1_Mikolov_(2020).jpg
+- id: tomicah-tillemann
+  name: Tomicah Tillemann
+  portrait:
+    file: tomicah-tillemann.jpg
+    credit: World Economic Forum
+    licence: CC BY 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tomicah_Tillemann_at_Sustainable_Development_Impact_Summit_2021.png
+- id: tristan-buckmaster
+  name: Tristan Buckmaster
+  portrait:
+    file: tristan-buckmaster.jpg
+    credit: Petra Lein
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tristan-Buckmaster_cropped.jpg
+- id: tristan-harris
+  name: Tristan Harris
+  portrait:
+    file: tristan-harris.jpg
+    credit: Photo by Stephen McCarthy/Collision via Sportsfile
+    licence: CC BY 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tristan_Harris_crop.jpg
+- id: tyler-cowen
+  name: Tyler Cowen
+  portrait:
+    file: tyler-cowen.jpg
+    credit: Tyler Cowen
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tyler_Cowen_1.jpg
+- id: vannevar-bush
+  name: Vannevar Bush
+  portrait:
+    file: vannevar-bush.jpg
+    credit: Harris & Ewing
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Vannevar_Bush,_1938,_Harris_%26_Ewing_(cropped).jpg
+- id: vernor-vinge
+  name: Vernor Vinge
+  portrait:
+    file: vernor-vinge.jpg
+    licence: CC BY-SA 3.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Vernor_Vinge_(cropped).jpg
+- id: victoria-krakovna
+  name: Victoria Krakovna
+- id: vince-chhabria
+  name: Vince Chhabria
+  portrait:
+    file: vince-chhabria.jpg
+    credit: United States District Court for the Northern District of California
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Vince_Chhabria,_U.S._District_Court_Judge.jpg
+- id: vladimir-putin
+  name: Vladimir Putin
+  aliases:
+  - Putin
+  portrait:
+    file: vladimir-putin.jpg
+    credit: Kremlin.ru
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_(2026_02_23)_(cropped).jpg
+- id: walter-pitts
+  name: Walter Pitts
+- id: warren-mcculloch
+  name: Warren McCulloch
+  portrait:
+    file: warren-mcculloch.jpg
+    licence: youtube.com
+    sourceUrl: https://www.youtube.com/watch?v=E3ePU8CWRf0
+- id: william-alsup
+  name: William Alsup
+  portrait:
+    file: william-alsup.jpg
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Judge_William_Alsup.jpg
+- id: william-macaskill
+  name: William MacAskill
+  aliases:
+  - Will MacAskill
+  portrait:
+    file: william-macaskill.jpg
+    credit: Sam Deere
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:William_MacAskill_Portrait_2015_(cropped).jpg
+- id: william-rees-mogg
+  name: William Rees-Mogg
+  portrait:
+    file: william-rees-mogg.jpg
+    licence: bernschwartz.org
+    sourceUrl: https://www.bernschwartz.org/william-rees-mogg-baron-rees-mogg
+- id: wolfgang-von-kempelen
+  name: Wolfgang von Kempelen
+  aliases:
+  - Kempelen
+  portrait:
+    file: wolfgang-von-kempelen.jpg
+    credit: Wolfgang von Kempelen
+    licence: Public domain, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kempelen-charcoal.jpg
+- id: xi-jinping
+  name: Xi Jinping
+  aliases:
+  - Xi
+  portrait:
+    file: xi-jinping.jpg
+    credit: Simon Dawson / No 10 Downing Street
+    licence: CC BY 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_visits_China_(55066713683)_(cropped%2Bangle).jpg
+- id: yann-lecun
+  name: Yann LeCun
+  aliases:
+  - Yann Le Cun
+  portrait:
+    file: yann-lecun.jpg
+    credit: Jérémy Barande
+    licence: CC BY-SA 2.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg
+- id: yoshua-bengio
+  name: Yoshua Bengio
+  portrait:
+    file: yoshua-bengio.jpg
+    credit: Xuthoria
+    licence: CC BY-SA 4.0, Wikimedia Commons
+    sourceUrl: https://commons.wikimedia.org/wiki/File:ICLR_2025_-_Yoshua_Bengio_02.jpg
