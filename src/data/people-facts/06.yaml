@@ -1,0 +1,355 @@
+# People facts, batch 06: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: bill-joy
+  lifespan: born 1954
+  note: Co-founder of Sun Microsystems. His 2000 Wired essay warned that robotics, genetic engineering and nanotechnology could threaten humanity.
+  roles:
+  - founder
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Bill Joy, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Bill_Joy
+  - for: roles
+    source: Wikipedia, Bill Joy (computer engineer; co-founded Sun Microsystems in 1982), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Bill_Joy
+  - for: note
+    source: Wikipedia, Why The Future Doesn't Need Us (Wired, April 2000), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Why_The_Future_Doesn%27t_Need_Us
+  status: checked
+- id: eliezer-yudkowsky
+  lifespan: born 1979
+  roles:
+  - writer
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Eliezer Yudkowsky, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Eliezer_Yudkowsky
+  - for: roles
+    source: Wikipedia, Eliezer Yudkowsky (AI researcher and writer; founder of MIRI and LessWrong), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Eliezer_Yudkowsky
+  status: checked
+- id: max-more
+  lifespan: born 1964
+  roles:
+  - writer
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Max More (born January 1964 as Max T. O'Connor), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Max_More
+  - for: roles
+    source: Wikipedia, Max More (philosopher and futurist; founder of the Extropy Institute), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Max_More
+  status: checked
+- id: ray-kurzweil
+  lifespan: born 1948
+  roles:
+  - writer
+  - researcher
+  labs:
+  - lab: google
+    from: 2012
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ray Kurzweil, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Kurzweil
+  - for: roles
+    source: Wikipedia, Ray Kurzweil (computer scientist, author, entrepreneur, futurist and inventor), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Kurzweil
+  - for: labs
+    source: Wikipedia, Ray Kurzweil (hired full-time by Google in December 2012), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ray_Kurzweil
+  - for: labs
+    source: MIT School of Humanities, Arts, and Social Sciences, 2025 | Ray Kurzweil (Principal Researcher and AI Visionary at Google), October 2025
+    url: https://shass.mit.edu/people/2025-ray-kurzweil
+  - for: letters
+    source: 'Center for AI Safety, Statement on AI Risk, signatory list (saved copy: Ray Kurzweil, Principal Researcher and AI Visionary, Google), 2023'
+    url: https://nacmnet.org/wp-content/uploads/Statement-on-AI-Risk-_-CAIS.pdf
+  - for: letters
+    source: Wikipedia, Statement on AI Risk (names Kurzweil among signatories), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Statement_on_AI_Risk
+  status: checked
+- id: david-pearce
+  lifespan: born 1959
+  roles:
+  - writer
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, David Pearce (philosopher) (born April 1959), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Pearce_(philosopher)
+  - for: roles
+    source: Wikipedia, David Pearce (philosopher) (transhumanist philosopher; co-founded the World Transhumanist Association with Nick Bostrom in 1998), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Pearce_(philosopher)
+  status: checked
+- id: leon-bottou
+  lifespan: born 1965
+  note: Machine-learning researcher who co-wrote, with Yann LeCun and others, the 1998 paper on networks that read handwriting. Known for work on stochastic gradient descent.
+  roles:
+  - researcher
+  labs:
+  - lab: microsoft
+    from: 2010
+    to: 2015
+  - lab: meta
+    from: 2015
+    to: 2026
+  sources:
+  - for: lifespan
+    source: Wikipedia, Léon Bottou, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/L%C3%A9on_Bottou
+  - for: roles
+    source: Wikipedia, Léon Bottou (computer scientist in machine learning and data compression), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/L%C3%A9on_Bottou
+  - for: labs
+    source: Wikipedia, Léon Bottou (Microsoft adCenter from 2010, Microsoft Research New York from 2012; Facebook AI Research from March 2015), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/L%C3%A9on_Bottou
+  - for: labs
+    source: Blair Hanley Frank, Facebook adds 3 former Microsoft Research employees to Artificial Intelligence team, GeekWire, 30 April 2015 (Bottou left Microsoft Research after five years)
+    url: https://www.geekwire.com/2015/facebook-adds-3-former-microsoft-research-employees-to-artificial-intelligence-team/
+  - for: labs
+    source: Léon Bottou, personal home page (Facebook AI Research, now Meta FAIR, March 2015 to February 2026; now visiting scholar at the Flatiron Institute), accessed 23 November 2026
+    url: https://leon.bottou.org/
+  - for: note
+    source: Wikipedia, Léon Bottou (co-author of Gradient-Based Learning Applied to Document Recognition, Proceedings of the IEEE, 1998; work on stochastic gradient descent), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/L%C3%A9on_Bottou
+  status: checked
+- id: yann-lecun
+  lifespan: born 1960
+  note: Pioneer of convolutional networks, which he built at Bell Labs to read handwriting. Joined Facebook in 2013 to lead its AI research lab, stayed at Meta until 2025 and shared the 2018 Turing Award.
+  roles:
+  - researcher
+  labs:
+  - lab: meta
+    from: 2013
+    to: 2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Yann LeCun (born 8 July 1960), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yann_LeCun
+  - for: roles
+    source: Wikipedia, Yann LeCun (computer scientist; professor at NYU), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yann_LeCun
+  - for: labs
+    source: Wikipedia, Yann LeCun (joined Facebook AI Research in 2013 as its director; confirmed on 19 November 2025 he would leave Meta), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yann_LeCun
+  - for: labs
+    source: Karissa Bell, Meta's Chief AI Scientist is leaving the company after 12 years, Engadget, 19 November 2025 (stays until the end of 2025)
+    url: https://www.engadget.com/ai/metas-chief-ai-scientist-is-leaving-the-company-after-12-years-224325268.html
+  - for: note
+    source: Wikipedia, Yann LeCun (led LeNet convolutional networks for character recognition at Bell Labs from 1988; 2018 Turing Award with Bengio and Hinton), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yann_LeCun
+  status: checked
+- id: yoshua-bengio
+  lifespan: born 1964
+  note: Pioneer of deep learning who shared the 2018 Turing Award. Since 2023 he has warned of catastrophic AI risk, chairs the International AI Safety Report and founded LawZero in 2025.
+  roles:
+  - researcher
+  - critic
+  letters:
+  - pause-2023
+  - extinction-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Yoshua Bengio (born 5 March 1964), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yoshua_Bengio
+  - for: roles
+    source: Wikipedia, Yoshua Bengio (computer scientist and pioneer of deep learning; signed the 2023 pause letter, argued in The Economist in July 2023 that action on catastrophic risk is needed now),
+      accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yoshua_Bengio
+  - for: letters
+    source: Wikipedia, Yoshua Bengio (signed the Future of Life Institute pause letter, March 2023), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yoshua_Bengio
+  - for: letters
+    source: Future of Life Institute, Six-Month Pause Expiry press release with signatories, September 2023
+    url: https://futureoflife.org/wp-content/uploads/2023/09/Six-Month-Pause-Expiry-Press-Release-with-Signatories.pdf
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatory list (Yoshua Bengio, Professor of Computer Science, U. Montreal / Mila), 30 May 2023
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: letters
+    source: Future of Life Institute, Prominent scientists, faith leaders, policymakers and artists call for a prohibition on superintelligence, press release (names Bengio among signatories)
+    url: https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/
+  - for: letters
+    source: Matt O'Brien, Associated Press, Prince Harry, Meghan Markle join with Steve Bannon and Steve Wozniak in calling for ban on AI superintelligence, Fortune, 22 October 2025 (names Bengio among
+      signers)
+    url: https://fortune.com/2025/10/22/prince-harry-meghan-markle-wozniak-bannon-ban-superintelligence-letter/
+  - for: note
+    source: Wikipedia, Yoshua Bengio (2018 Turing Award; chair of the International AI Safety Report; launched the non-profit LawZero in June 2025), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Yoshua_Bengio
+  status: checked
+- id: feng-hsiung-hsu
+  lifespan: born 1959
+  note: Engineer who began the chess-machine project as a student at Carnegie Mellon and became Deep Blue's principal designer at IBM. Deep Blue beat Garry Kasparov in 1997.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Feng-hsiung Hsu (born 1 January 1959), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Feng-hsiung_Hsu
+  - for: roles
+    source: Wikipedia, Feng-hsiung Hsu (computer scientist and electrical engineer), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Feng-hsiung_Hsu
+  - for: note
+    source: Encyclopedia.com, Hsu, Feng-Hsiung 1959- (began the chess project at Carnegie Mellon in 1985; architect and chip designer at IBM)
+    url: https://encyclopedia.com/arts/educational-magazines/hsu-feng-hsiung-1959
+  - for: note
+    source: Wikipedia, Feng-hsiung Hsu (architect and principal designer of Deep Blue; won the 1997 rematch), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Feng-hsiung_Hsu
+  status: checked
+- id: garry-kasparov
+  lifespan: born 1963
+  note: World chess champion who beat IBM's Deep Blue in 1996 and lost the 1997 rematch. Later wrote Deep Thinking (2017), revisiting that loss and arguing that AI can benefit humanity.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Garry Kasparov (born 13 April 1963), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Garry_Kasparov
+  - for: roles
+    source: Wikipedia, Garry Kasparov (chess grandmaster, political activist and writer), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Garry_Kasparov
+  - for: roles
+    source: 'Hachette Book Group, Garry Kasparov with Mig Greengard, Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins, PublicAffairs, 2 May 2017'
+    url: https://www.hachettebookgroup.com/titles/garry-kasparov/deep-thinking/9781610397872/
+  - for: note
+    source: Wikipedia, Garry Kasparov (won 4–2 in 1996, lost 3½–2½ in 1997; Deep Thinking, PublicAffairs, 2017, with Mig Greengard), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Garry_Kasparov
+  - for: note
+    source: Hachette Book Group, Deep Thinking (Kasparov revisits his 1997 loss to Deep Blue and argues AI can benefit humanity), PublicAffairs, 2 May 2017
+    url: https://www.hachettebookgroup.com/titles/garry-kasparov/deep-thinking/9781610397872/
+  status: checked
+- id: james-dale-davidson
+  lifespan: born 1946
+  note: American investment writer and founder of the National Taxpayers Union. Co-wrote, with William Rees-Mogg, The Sovereign Individual (1997), which argued the internet would make the nation state obsolete.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, James Dale Davidson (born 16 April 1946), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Dale_Davidson
+  - for: roles
+    source: Wikipedia, James Dale Davidson (private investor and investment writer), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Dale_Davidson
+  - for: note
+    source: Wikipedia, James Dale Davidson (founder of the National Taxpayers Union; co-author of The Sovereign Individual, 1997), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/James_Dale_Davidson
+  - for: note
+    source: Wikipedia, William Rees-Mogg (The Sovereign Individual contends the nation state will become obsolete in the internet age), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_Rees-Mogg
+  status: checked
+- id: jurgen-schmidhuber
+  lifespan: born 1963
+  note: Computer scientist who co-wrote the 1997 paper on long short-term memory (LSTM) with Sepp Hochreiter. He has directed the Swiss AI institute IDSIA since 1995.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Jürgen Schmidhuber (born 17 January 1963), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber
+  - for: roles
+    source: Wikipedia, Jürgen Schmidhuber (computer scientist in AI and neural networks), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber
+  - for: note
+    source: Wikipedia, Jürgen Schmidhuber (1997 LSTM paper with Hochreiter; director of IDSIA since 1995), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber
+  status: checked
+- id: murray-campbell
+  note: IBM computer scientist on the team that built Deep Blue, which beat Garry Kasparov in 1997. He worked on how the machine judged chess positions.
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Computer History Museum, Murray Campbell (research staff member, IBM T.J. Watson Research Center)
+    url: https://computerhistory.org/profile/murray-campbell/
+  - for: note
+    source: Computer History Museum, Murray Campbell (key member of the Deep Blue team; worked on its evaluation function)
+    url: https://computerhistory.org/profile/murray-campbell/
+  - for: roles
+    source: Wikipedia, Murray Campbell (Canadian computer scientist on the team that created Deep Blue), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Murray_Campbell
+  - for: note
+    source: Sarah Beck, Murray Campbell and Kasparov's blue day, University of Alberta Faculty of Science, 14 August 2014
+    url: https://www.ualberta.ca/en/science/news/2014/august/murray-campbell-and-kasparovs-blue-day.html
+  status: checked
+- id: sepp-hochreiter
+  lifespan: born 1967
+  note: Computer scientist whose 1991 thesis analysed the vanishing-gradient problem in recurrent networks. His 1997 paper with Jürgen Schmidhuber on long short-term memory (LSTM) let networks learn from
+    long sequences.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Sepp Hochreiter (born 14 February 1967), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sepp_Hochreiter
+  - for: roles
+    source: Wikipedia, Sepp Hochreiter (computer scientist; head of the Institute for Machine Learning, JKU Linz), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sepp_Hochreiter
+  - for: note
+    source: Wikipedia, Sepp Hochreiter (LSTM in his 1991 diploma thesis; main paper in 1997 with Schmidhuber; solves vanishing gradients on long sequences), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sepp_Hochreiter
+  - for: note
+    source: Wikipedia, Long short-term memory (1991 diploma thesis analysed the vanishing gradient problem; 1995 technical report; 1997 Neural Computation paper), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Long_short-term_memory
+  status: checked
+- id: william-rees-mogg
+  lifespan: 1928–2012
+  note: Editor of The Times from 1967 to 1981. Co-wrote The Sovereign Individual (1997), which argued the internet would make the nation state obsolete, a book Peter Thiel recommended in 2014.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, William Rees-Mogg (14 July 1928 – 29 December 2012), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_Rees-Mogg
+  - for: roles
+    source: Wikipedia, William Rees-Mogg (newspaper journalist; editor of The Times), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_Rees-Mogg
+  - for: note
+    source: Wikipedia, William Rees-Mogg (editor of The Times 1967–1981; The Sovereign Individual with Davidson argues the nation state will become outmoded in an internet age), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_Rees-Mogg
+  - for: note
+    source: The Week Staff, Peter Thiel's 6 favorite books that predict the future, The Week, 24 September 2014 (lists The Sovereign Individual)
+    url: https://theweek.com/articles/443683/peter-thiels-6-favorite-books-that-predict-future
+  status: checked
+- id: batya-friedman
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Wikipedia, Batya Friedman (professor, University of Washington Information School; pioneer of value sensitive design), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Batya_Friedman
+  status: checked
+- id: helen-nissenbaum
+  lifespan: born 1954
+  note: Professor of information science who co-wrote Bias in Computer Systems (1996) with Batya Friedman. Developed contextual integrity, a theory of privacy grounded in the norms of each context.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: VIAF, Virtual International Authority File, Nissenbaum, Helen, 1954- (record for the author of Privacy in Context), accessed 23 November 2026
+    url: https://viaf.org/viaf/34696927
+  - for: roles
+    source: Wikipedia, Helen Nissenbaum (Tisch Professor of information science, Cornell Tech), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Helen_Nissenbaum
+  - for: note
+    source: AcaWiki, Bias in Computer Systems (Batya Friedman and Helen Nissenbaum, ACM Transactions on Information Systems, 1996, doi 10.1145/230538.230561)
+    url: https://acawiki.org/Bias_in_Computer_Systems
+  - for: note
+    source: Wikipedia, Helen Nissenbaum (contextual integrity), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Helen_Nissenbaum
+  status: checked
+- id: vernor-vinge
+  lifespan: 1944–2024
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Vernor Vinge (2 October 1944 – 20 March 2024), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vernor_Vinge
+  - for: roles
+    source: Wikipedia, Vernor Vinge (science-fiction author; taught mathematics and computer science at San Diego State University), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Vernor_Vinge
+  status: checked
