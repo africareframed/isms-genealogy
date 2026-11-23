@@ -36,6 +36,7 @@ export const THREADS = [
   { id: 'compute', name: 'Chips and data' },
   { id: 'warnings', name: 'Warnings' },
   { id: 'law', name: 'Laws and states' },
+  { id: 'war', name: 'Machines at war' }, // owner, 23 Nov 2026: AI in war, from Palantir to the drone war
 ] as const;
 export const THREAD_IDS = THREADS.map((t) => t.id) as [string, ...string[]];
 export const threadName = (id?: string) => THREADS.find((t) => t.id === id)?.name;
