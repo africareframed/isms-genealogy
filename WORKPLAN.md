@@ -57,6 +57,10 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - Alignment tags: the three held-back tags were added after `keywords` merged (20 Nov).
 - The proxy refuses deleting remote branches (HTTP 403), so merged branches such as `keyword/alignment` stay on GitHub; the owner can delete them there.
 
+## Ideas for later (owner)
+
+- **People** (owner, 23 Nov 2026, 02:56; not started, after the history rewrite): a fourth track, menu History of AI, Movements, People, Vocabulary. Join up what exists (the figures on movement pages, the people in history moments, the vocabulary's coiners), showing who crosses camps. To settle first: a rule for who gets in; public roles and documented statements only, critics where it matters; portraits, which the owner is gathering himself with their licence data (Wikimedia Commons: public domain or free licences, credited), and whether they get the collage treatment. This would reverse the 20 Nov no-portraits rule, the owner's call.
+
 ## Waiting on the owner
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
