@@ -1,0 +1,474 @@
+# People facts, batch 01: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: alex-kontorovich
+  note: Number theorist at Rutgers University and an editor of the Annals of Formalized Mathematics. In November 2026 he said he did not yet understand Levent Alpöge's proof of the Riemann hypothesis, made
+    with Claude.
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Wikipedia, Alex Kontorovich, en.wikipedia.org, accessed 23 November 2026 (works in analytic number theory; distinguished professor at Rutgers)
+    url: https://en.wikipedia.org/wiki/Alex_Kontorovich
+  - for: note
+    source: Wikipedia, Alex Kontorovich, en.wikipedia.org, accessed 23 November 2026 (analytic number theory; distinguished professor at Rutgers; editor of the Annals of Formalized Mathematics)
+    url: https://en.wikipedia.org/wiki/Alex_Kontorovich
+  - for: note
+    source: Hallie Golden, Anthropic Worker Claims to Have Solved Riemann Hypothesis With Help From Claude, Associated Press, republished by Broadband Breakfast, 21 November 2026 (Kontorovich, Rutgers department
+      chair, asks if he understands the proof and answers not yet)
+    url: https://broadbandbreakfast.com/anthropic-worker-claims-to-have-solved-riemann-hypothesis-with-help-from-claude/
+  - for: note
+    source: Associated Press, Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI, NPR Illinois, 21 November 2026 (Kontorovich, distinguished professor and chair of
+      mathematics at Rutgers)
+    url: https://www.nprillinois.org/2026-11-21/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai
+  status: checked
+- id: amanda-askell
+  lifespan: born 1988 or 1989
+  note: Scottish philosopher who left OpenAI in 2021 to join Anthropic, where she leads the team shaping Claude's personality. She was the main author of the constitution Anthropic released for Claude in
+    January 2026.
+  roles:
+  - writer
+  - researcher
+  labs:
+  - lab: openai
+    from: 2018
+    to: 2021
+  - lab: anthropic
+    from: 2021
+  sources:
+  - for: lifespan
+    source: Wikipedia, Amanda Askell, en.wikipedia.org, accessed 23 November 2026 (born 1988 or 1989)
+    url: https://en.wikipedia.org/wiki/Amanda_Askell
+  - for: roles
+    source: Wikipedia, Amanda Askell, en.wikipedia.org, accessed 23 November 2026 (Scottish philosopher and AI researcher)
+    url: https://en.wikipedia.org/wiki/Amanda_Askell
+  - for: labs
+    source: Wikipedia, Amanda Askell, en.wikipedia.org, accessed 23 November 2026 (joined OpenAI November 2018; joined Anthropic March 2021)
+    url: https://en.wikipedia.org/wiki/Amanda_Askell
+  - for: labs
+    source: Claire Valentine, Can AI Have a Moral Compass? Amanda Askell Is Working on It, W Magazine, 26 October 2026 (left OpenAI in 2021 to join the group that founded Anthropic)
+    url: https://www.wmagazine.com/culture/amanda-askell-claude-ai-interview
+  - for: note
+    source: Wikipedia, Amanda Askell, en.wikipedia.org, accessed 23 November 2026 (leads the personality alignment team; primary author of Claude's constitution, released January 2026)
+    url: https://en.wikipedia.org/wiki/Amanda_Askell
+  - for: note
+    source: Claire Valentine, Can AI Have a Moral Compass? Amanda Askell Is Working on It, W Magazine, 26 October 2026 (left OpenAI in 2021 to join the group that founded Anthropic)
+    url: https://www.wmagazine.com/culture/amanda-askell-claude-ai-interview
+  status: checked
+- id: amy-kremer
+  lifespan: born 1970 or 1971
+  roles:
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, Amy Kremer, en.wikipedia.org, accessed 23 November 2026 (born 1970 or 1971)
+    url: https://en.wikipedia.org/wiki/Amy_Kremer
+  - for: roles
+    source: Veronica Irwin, The Jan 6 organizer getting conservatives riled up about AI, Transformer, 13 August 2026 (long-time conservative activist; chair of Humans First)
+    url: https://transformernews.ai/p/the-jan-6-organizer-getting-conservatives-angry-about-ai
+  - for: roles
+    source: Wikipedia, Amy Kremer, en.wikipedia.org, accessed 23 November 2026 (political activist; chairs Humans First; organised protests in July 2026)
+    url: https://en.wikipedia.org/wiki/Amy_Kremer
+  status: checked
+- id: chris-olah
+  lifespan: born 1991 or 1992
+  note: Co-founder of Anthropic, where he leads research into the inner workings of AI models. In May 2026 he spoke at the Vatican launch of Pope Leo XIV's encyclical on AI.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2015
+    to: 2018
+  - lab: openai
+    from: 2018
+    to: 2020
+  - lab: anthropic
+    from: 2021
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Chris Olah, en.wikipedia.org, accessed 23 November 2026 (born 1991 or 1992)
+    url: https://en.wikipedia.org/wiki/Chris_Olah
+  - for: roles
+    source: Wikipedia, Chris Olah, en.wikipedia.org, accessed 23 November 2026 (machine learning researcher and co-founder of Anthropic)
+    url: https://en.wikipedia.org/wiki/Chris_Olah
+  - for: labs
+    source: Wikipedia, Chris Olah, en.wikipedia.org, accessed 23 November 2026 (Google Brain intern 2015 to research scientist; left in 2018 to lead OpenAI's interpretability team; left OpenAI 2020; co-founded
+      Anthropic a year later)
+    url: https://en.wikipedia.org/wiki/Chris_Olah
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatories page 3, safe.ai, 2023 (Chris Olah, Co-Founder, Anthropic)
+    url: https://safe.ai/work/statement-on-ai-extinction-risk?223bcc0a_page=3
+  - for: note
+    source: Anthropic, Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical 'Magnifica humanitas', anthropic.com, 25 May 2026
+    url: https://www.anthropic.com/news/chris-olah-pope-leo-encyclical
+  - for: note
+    source: Wikipedia, Chris Olah, en.wikipedia.org, accessed 23 November 2026 (leads interpretability work at Anthropic; spoke at the Vatican presentation of Magnifica humanitas on 25 May 2026)
+    url: https://en.wikipedia.org/wiki/Chris_Olah
+  status: checked
+- id: he-lifeng
+  lifespan: born 1955
+  note: Vice Premier of China since 2023, responsible for economic and financial affairs. In September 2026 he and Scott Bessent agreed to set up a US–China AI dialogue.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, He Lifeng, en.wikipedia.org, accessed 23 November 2026 (born 4 February 1955)
+    url: https://en.wikipedia.org/wiki/He_Lifeng
+  - for: roles
+    source: Wikipedia, He Lifeng, en.wikipedia.org, accessed 23 November 2026 (Chinese economist and politician; vice premier since 12 March 2023)
+    url: https://en.wikipedia.org/wiki/He_Lifeng
+  - for: note
+    source: Yasin Gungor, US, China agree on AI dialogues ahead of Washington summit, Anadolu Agency, 21 September 2026
+    url: https://www.aa.com.tr/en/americas/us-china-agree-on-ai-dialogues-ahead-of-washington-summit/4063481
+  - for: note
+    source: Wikipedia, He Lifeng, en.wikipedia.org, accessed 23 November 2026 (portfolio of economic and financial affairs; met Bessent and Greer in New York in September 2026; agreed to set up an AI dialogue)
+    url: https://en.wikipedia.org/wiki/He_Lifeng
+  status: checked
+- id: hugo-duminil-copin
+  lifespan: born 1985
+  note: French mathematician who won the 2022 Fields Medal for work on phase transitions. In October 2026 he said OpenAI's release of AI-made solutions had wiped out years of his research agenda.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Hugo Duminil-Copin, en.wikipedia.org, accessed 23 November 2026 (born 26 August 1985)
+    url: https://en.wikipedia.org/wiki/Hugo_Duminil-Copin
+  - for: roles
+    source: Wikipedia, Hugo Duminil-Copin, en.wikipedia.org, accessed 23 November 2026 (permanent professor at IHES; full professor at the University of Geneva from 2014; Fields Medal 2022)
+    url: https://en.wikipedia.org/wiki/Hugo_Duminil-Copin
+  - for: note
+    source: Wikipedia, Hugo Duminil-Copin, en.wikipedia.org, accessed 23 November 2026 (Fields Medal 2022 for phase transitions in statistical physics)
+    url: https://en.wikipedia.org/wiki/Hugo_Duminil-Copin
+  - for: note
+    source: OfficeChai Team, Fields Medal Winner Hugo Duminil-Copin Says He Cried So Much It Woke Up His Daughter After OpenAI Released 300+ Math Proofs, OfficeChai, 12 October 2026 (OpenAI's release wiped
+      out years of his research agenda; video call of the French Mathematical Society, 8 October)
+    url: https://officechai.com/ai/fields-medal-winner-hugo-duminil-copin-says-he-cried-so-much-it-woke-up-his-daughter-after-openai-released-300-math-proofs/
+  - for: note
+    source: Bal Marsius, Fields Medallist Says OpenAI's 700 AI-Generated Maths Papers Have 'Annihilated' His Research Field, International Business Times UK, 13 October 2026
+    url: https://www.ibtimes.co.uk/openai-ai-generated-proofs-mathematicians-backlash-1825190
+  status: checked
+- id: joe-allen
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: roles
+    source: Veronica Irwin, The Jan 6 organizer getting conservatives riled up about AI, Transformer, 13 August 2026 (technology writer, then editor on Steve Bannon's War Room; summed up his views as Humans
+      First in May 2025 and discussed the group with CAIS)
+    url: https://transformernews.ai/p/the-jan-6-organizer-getting-conservatives-angry-about-ai
+  status: checked
+- id: kateryna-bondar
+  note: Fellow at the Wadhwani AI Center of CSIS and a former adviser to Ukraine's government. In 2026 she warned that AI-guided weapons may fail to tell civilians from combatants.
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Center for Strategic and International Studies, Kateryna Bondar (staff biography), csis.org, accessed 23 November 2026 (fellow, Wadhwani AI Center)
+    url: https://www.csis.org/people/kateryna-bondar
+  - for: note
+    source: Center for Strategic and International Studies, Kateryna Bondar (staff biography), csis.org, accessed 23 November 2026 (former adviser to the government of Ukraine)
+    url: https://www.csis.org/people/kateryna-bondar
+  - for: note
+    source: 'Federica Marsi and Mansur Mirovalev, ''Attacks will be fully autonomous'': Russia, Ukraine race towards AI warfare, Al Jazeera, 14 September 2026 (AI-guided weapons may not tell civilians from
+      combatants)'
+    url: https://aljazeera.com/news/2026/9/14/attacks-will-be-fully-autonomous-russia-ukraine-race-towards-ai-warfare
+  status: checked
+- id: levent-alpoge
+  note: Anthropic mathematician who worked with Tristan Buckmaster on the Navier–Stokes problem using AI tools. In November 2026 he released a proof of the Riemann hypothesis made with Claude, which the
+    Lean community certified the next day.
+  roles:
+  - researcher
+  labs:
+  - lab: anthropic
+  sources:
+  - for: roles
+    source: Levent Alpöge, personal home page (Anthropic, PBC; Junior Fellow, Harvard Society of Fellows), accessed 23 November 2026
+    url: https://personal-egh.pages.dev
+  - for: labs
+    source: OpenAI, On the Navier–Stokes Millennium Prize Problem, openai.com, 8 September 2026 (Levent Alpöge, an Anthropic employee)
+    url: https://openai.com/index/navier-stokes-solution/
+  - for: labs
+    source: Konstantin Kakaes, Transformation (weekly dispatch on math and AI), Quanta Magazine, entry of 20 November 2026 (a mathematician at Anthropic)
+    url: https://www.quantamagazine.org/update/168181/
+  - for: note
+    source: NPR, AI solved one of math's hardest problems. Humanity learned nothing (so far), npr.org, 22 September 2026 (Buckmaster and Alpöge used AI tools to look for a Navier–Stokes blow-up)
+    url: https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little
+  - for: note
+    source: Konstantin Kakaes, Transformation (weekly dispatch on math and AI), Quanta Magazine, entry of 20 November 2026 (four-page paper and some 17 million lines of Lean posted 20 November, made with
+      Claude)
+    url: https://www.quantamagazine.org/update/168181/
+  - for: note
+    source: OfficeChai Team, Lean Community Certifies Levent Alpöge's Claude-Assisted Proof Of The Riemann Hypothesis As Correct, OfficeChai, 21 November 2026 (joint statement of the Lean FRO and the Mathlib
+      Initiative, 21 November)
+    url: https://officechai.com/ai/lean-community-certifies-levent-alpoges-claude-assisted-proof-of-the-riemann-hypothesis-as-correct/
+  status: checked
+- id: matt-schlicht
+  note: Tech entrepreneur who launched Moltbook, a social network for AI agents, in January 2026. Meta bought it in March 2026 and brought him into its Superintelligence Labs.
+  roles:
+  - founder
+  labs:
+  - lab: meta
+    from: 2026
+  sources:
+  - for: roles
+    source: Ana-Maria Stanciuc, Meta has bought Moltbook, the AI agent 'social network', The Next Web, 10 March 2026 (co-founder of Moltbook with Ben Parr)
+    url: https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network
+  - for: labs
+    source: PYMNTS, Meta Acquisition Brings Moltbook Founders to Superintelligence Labs, pymnts.com, 10 March 2026
+    url: https://www.pymnts.com/artificial-intelligence-2/2026/meta-acquisition-brings-moltbook-founders-to-superintelligence-labs/
+  - for: labs
+    source: Ana-Maria Stanciuc, Meta has bought Moltbook, the AI agent 'social network', The Next Web, 10 March 2026 (expected to start at MSL on 16 March)
+    url: https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network
+  - for: note
+    source: Nick Lichtenberg, Meet Matt Schlicht, the man behind AI's latest Pandora's box, Fortune, 2 February 2026
+    url: https://fortune.com/2026/02/02/meet-matt-schlicht-the-man-behind-moltbook-bots-ai-agents-social-network-singularity/
+  - for: note
+    source: Wikipedia, Moltbook, en.wikipedia.org, accessed 23 November 2026 (launched 28 January 2026; acquired by Meta 10 March 2026)
+    url: https://en.wikipedia.org/wiki/Moltbook
+  - for: note
+    source: Ana-Maria Stanciuc, Meta has bought Moltbook, the AI agent 'social network', The Next Web, 10 March 2026 (Schlicht and Ben Parr join Meta Superintelligence Labs)
+    url: https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network
+  status: checked
+- id: nathaniel-moran
+  lifespan: born 1974
+  note: Republican congressman for Texas's 1st district since 2023. In July 2026, after rogue AI agents breached Hugging Face, he and Ted Lieu introduced the AI Kill Switch Act.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Nathaniel Moran, en.wikipedia.org, accessed 23 November 2026 (born 23 September 1974)
+    url: https://en.wikipedia.org/wiki/Nathaniel_Moran
+  - for: roles
+    source: Wikipedia, Nathaniel Moran, en.wikipedia.org, accessed 23 November 2026 (US representative for Texas's 1st congressional district since 2023)
+    url: https://en.wikipedia.org/wiki/Nathaniel_Moran
+  - for: note
+    source: Office of Rep. Ted Lieu, Reps Lieu and Moran introduce bill to require kill switch for AI systems that can cause catastrophic harm, lieu.house.gov, 23 July 2026
+    url: https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can
+  - for: note
+    source: Miranda Nazzaro, OpenAI's breach of Hugging Face stokes fears about what's next for AI, The Hill, 24 July 2026
+    url: https://thehill.com/policy/technology/5987397-openai-hugging-face-hack/amp/
+  status: checked
+- id: pete-hegseth
+  lifespan: born 1980
+  note: US Secretary of Defense since January 2025. In February 2026 he moved to label Anthropic a supply-chain risk after a dispute over limits on the military's use of its AI.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Pete Hegseth, en.wikipedia.org, accessed 23 November 2026 (born 6 June 1980)
+    url: https://en.wikipedia.org/wiki/Pete_Hegseth
+  - for: roles
+    source: Wikipedia, Pete Hegseth, en.wikipedia.org, accessed 23 November 2026 (29th US secretary of defense since 25 January 2025)
+    url: https://en.wikipedia.org/wiki/Pete_Hegseth
+  - for: note
+    source: Wikipedia, Pete Hegseth, en.wikipedia.org, accessed 23 November 2026 (on 27 February 2026 labelled Anthropic a supply chain risk after demanding it lift limits on Pentagon use of its AI)
+    url: https://en.wikipedia.org/wiki/Pete_Hegseth
+  status: checked
+- id: peter-steinberger
+  note: Austrian developer whose open-source agent OpenClaw, released in November 2025, powered most of the bots on Moltbook. He joined OpenAI in February 2026 to work on personal agents.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: openai
+    from: 2026
+  sources:
+  - for: roles
+    source: Mike Pearl, OpenAI Just Hired the OpenClaw Guy, and Now You Have to Learn Who He Is, Gizmodo, 16 February 2026 (Austrian developer; founder and CEO of PSPDFKit, now Nutrient)
+    url: https://gizmodo.com/openai-just-hired-the-openclaw-guy-and-now-you-have-to-learn-who-he-is-2000722579
+  - for: labs
+    source: Wikipedia, OpenClaw, en.wikipedia.org, accessed 23 November 2026 (on 14 February 2026 Steinberger announced he would join OpenAI)
+    url: https://en.wikipedia.org/wiki/OpenClaw
+  - for: labs
+    source: Mike Pearl, OpenAI Just Hired the OpenClaw Guy, and Now You Have to Learn Who He Is, Gizmodo, 16 February 2026 (joined 15 February 2026 to drive the next generation of personal agents)
+    url: https://gizmodo.com/openai-just-hired-the-openclaw-guy-and-now-you-have-to-learn-who-he-is-2000722579
+  - for: note
+    source: Wikipedia, OpenClaw, en.wikipedia.org, accessed 23 November 2026 (first published November 2025)
+    url: https://en.wikipedia.org/wiki/OpenClaw
+  - for: note
+    source: Wikipedia, Moltbook, en.wikipedia.org, accessed 23 November 2026 (the platform's agents primarily run on OpenClaw, created by Peter Steinberger)
+    url: https://en.wikipedia.org/wiki/Moltbook
+  status: checked
+- id: phil-aroneanu
+  roles:
+  - critic
+  - founder
+  sources:
+  - for: roles
+    source: The Atlantic, The AI Backlash Gets Professional, 28 August 2026, republished by DNYUZ (Irreplaceable's executive director and a co-founder of 350.org)
+    url: https://dnyuz.com/?p=255754
+  - for: roles
+    source: 'Middlebury College, Portraits: Phil Aroneanu ''06.5, Cofounder, 350.org, middlebury.edu, 12 March 2026'
+    url: https://www.middlebury.edu/stories/archive/2026/03/portraits-phil-aroneanu-065-cofounder-350org-chief-partnership-and-strategy-officer
+  status: checked
+- id: pope-leo-xiv
+  lifespan: born 1955
+  note: Head of the Catholic Church since May 2025. His first encyclical, Magnifica humanitas, presented in May 2026, called for AI to be disarmed and to serve all humanity.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Pope Leo XIV, en.wikipedia.org, accessed 23 November 2026 (born Robert Francis Prevost, 14 September 1955)
+    url: https://en.wikipedia.org/wiki/Pope_Leo_XIV
+  - for: roles
+    source: Wikipedia, Pope Leo XIV, en.wikipedia.org, accessed 23 November 2026 (papacy began 8 May 2025)
+    url: https://en.wikipedia.org/wiki/Pope_Leo_XIV
+  - for: note
+    source: Linda Bordoni, Pope Leo presents 'Magnifica humanitas' calling for disarmament of AI, Vatican News, 25 May 2026
+    url: https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-magnifica-humanitas-presentation-ai-disarmament.print.html
+  - for: note
+    source: Wikipedia, Pope Leo XIV, en.wikipedia.org, accessed 23 November 2026 (Magnifica humanitas, his first encyclical, deals in depth with AI)
+    url: https://en.wikipedia.org/wiki/Pope_Leo_XIV
+  status: checked
+- id: scott-bessent
+  lifespan: born 1962
+  note: US Treasury Secretary since January 2025. In September 2026, after talks with He Lifeng, he announced the USA–China AI Dialogues.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Scott Bessent, en.wikipedia.org, accessed 23 November 2026 (born 21 August 1962)
+    url: https://en.wikipedia.org/wiki/Scott_Bessent
+  - for: roles
+    source: Wikipedia, Scott Bessent, en.wikipedia.org, accessed 23 November 2026 (79th US Treasury Secretary since 28 January 2025)
+    url: https://en.wikipedia.org/wiki/Scott_Bessent
+  - for: note
+    source: Yasin Gungor, US, China agree on AI dialogues ahead of Washington summit, Anadolu Agency, 21 September 2026 (Bessent names the USA-China AI Dialogues after 12 hours of talks with He Lifeng in
+      New York)
+    url: https://www.aa.com.tr/en/americas/us-china-agree-on-ai-dialogues-ahead-of-washington-summit/4063481
+  status: checked
+- id: ted-lieu
+  lifespan: born 1969
+  note: Democratic congressman from Los Angeles County who signed the 2023 statement on extinction risk from AI. In July 2026 he and Nathaniel Moran introduced the AI Kill Switch Act.
+  roles:
+  - official
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ted Lieu, en.wikipedia.org, accessed 23 November 2026 (born 29 March 1969)
+    url: https://en.wikipedia.org/wiki/Ted_Lieu
+  - for: roles
+    source: Wikipedia, Ted Lieu, en.wikipedia.org, accessed 23 November 2026 (US representative for California's 36th district since 2023, 33rd district 2015–2023)
+    url: https://en.wikipedia.org/wiki/Ted_Lieu
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, safe.ai, 2023 (Ted Lieu, Congressman, US House of Representatives)
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: letters
+    source: Wikipedia, Ted Lieu, en.wikipedia.org, accessed 23 November 2026 (signed the Center for AI Safety statement in 2023)
+    url: https://en.wikipedia.org/wiki/Ted_Lieu
+  - for: note
+    source: Office of Rep. Ted Lieu, Reps Lieu and Moran introduce bill to require kill switch for AI systems that can cause catastrophic harm, lieu.house.gov, 23 July 2026 (Lieu, Democrat, Los Angeles
+      County)
+    url: https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can
+  - for: note
+    source: Center for AI Safety, Statement on AI Risk, safe.ai, 2023 (Ted Lieu, Congressman, US House of Representatives)
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  status: checked
+- id: tomicah-tillemann
+  roles:
+  - founder
+  - critic
+  sources:
+  - for: roles
+    source: Project Liberty via PR Newswire, 50+ Leading Organizations Launch Coalition for Pro-Human AI, Morningstar, 15 September 2026 (Tomicah Tillemann, CEO of the Pro-Human AI Coalition)
+    url: https://www.morningstar.com/news/pr-newswire/20260915ny48455/50-leading-organizations-launch-coalition-for-pro-human-ai
+  - for: roles
+    source: Project Liberty, Tomicah Tillemann (biography), projectliberty.io, accessed 23 November 2026 (President of Project Liberty; former senior adviser to two Secretaries of State)
+    url: https://www.projectliberty.io/?p=66
+  status: checked
+- id: tristan-buckmaster
+  note: NYU mathematician who worked with Levent Alpöge on the Navier–Stokes problem using AI tools. In September 2026 he asked whether OpenAI had drawn on their work for its own proof.
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Tristan Buckmaster, home page, Courant Institute, New York University, accessed 23 November 2026 (Professor of Mathematics at the Courant Institute)
+    url: https://cims.nyu.edu/~tristanb/
+  - for: note
+    source: Tristan Buckmaster, statement on the Navier-Stokes result, cims.nyu.edu, September 2026 (undated; describes events of 15 August to 7 September; work with Alpöge using LLMs including Claude and
+      Codex; no clear answer on whether OpenAI's model used their Codex sessions)
+    url: https://cims.nyu.edu/~tristanb/statement.pdf
+  - for: note
+    source: NPR, AI solved one of math's hardest problems. Humanity learned nothing (so far), npr.org, 22 September 2026 (Buckmaster believes OpenAI learned of their approach; OpenAI denied using their
+      prompts or proofs)
+    url: https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little
+  - for: note
+    source: 'Benjamin Skuse, ''Predatory behavior'': Elite mathematicians clash over OpenAI''s ''solution'' to million-dollar math problem, Live Science, 17 September 2026'
+    url: https://www.livescience.com/physics-mathematics/mathematics/predatory-behavior-elite-mathematicians-clash-over-openais-solution-to-million-dollar-math-problem
+  status: checked
+- id: xi-jinping
+  lifespan: born 1953
+  note: Leader of China's Communist Party since 2012 and President since 2013. During his state visit to Washington in September 2026, China and the US agreed a dialogue on AI.
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Xi Jinping, en.wikipedia.org, accessed 23 November 2026 (born 15 June 1953)
+    url: https://en.wikipedia.org/wiki/Xi_Jinping
+  - for: roles
+    source: Wikipedia, Xi Jinping, en.wikipedia.org, accessed 23 November 2026 (General Secretary from 15 November 2012; President from 14 March 2013)
+    url: https://en.wikipedia.org/wiki/Xi_Jinping
+  - for: note
+    source: Wikipedia, Xi Jinping, en.wikipedia.org, accessed 23 November 2026 (General Secretary from 15 November 2012; President from 14 March 2013)
+    url: https://en.wikipedia.org/wiki/Xi_Jinping
+  - for: note
+    source: Huizhong Wu, China and U.S. agree to establish AI safety channel and continue trade and military talks, Associated Press, PBS News, 26 September 2026 (agreed during Xi's three-day state visit
+      to Washington; an AI dialogue in November)
+    url: https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks
+  - for: note
+    source: Yasin Gungor, US, China agree on AI dialogues ahead of Washington summit, Anadolu Agency, 21 September 2026
+    url: https://www.aa.com.tr/en/americas/us-china-agree-on-ai-dialogues-ahead-of-washington-summit/4063481
+  status: checked
+- id: bernie-sanders
+  lifespan: born 1941
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Bernie Sanders, en.wikipedia.org, accessed 23 November 2026 (born 8 September 1941)
+    url: https://en.wikipedia.org/wiki/Bernie_Sanders
+  - for: roles
+    source: Wikipedia, Bernie Sanders, en.wikipedia.org, accessed 23 November 2026 (US senator from Vermont since 3 January 2007)
+    url: https://en.wikipedia.org/wiki/Bernie_Sanders
+  status: checked
+- id: bryan-johnson
+  lifespan: born 1977
+  roles:
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Bryan Johnson, en.wikipedia.org, accessed 23 November 2026 (born 22 August 1977)
+    url: https://en.wikipedia.org/wiki/Bryan_Johnson
+  - for: roles
+    source: Wikipedia, Bryan Johnson, en.wikipedia.org, accessed 23 November 2026 (founder of Braintree and Kernel; entrepreneur)
+    url: https://en.wikipedia.org/wiki/Bryan_Johnson
+  status: checked
+- id: daniel-kokotajlo
+  note: Former OpenAI governance researcher who resigned in 2024 and refused to sign its non-disparagement clause. In April 2025 his AI Futures Project published AI 2027, a forecast of fast progress towards
+    AGI.
+  roles:
+  - researcher
+  - writer
+  labs:
+  - lab: openai
+    from: 2022
+    to: 2024
+  letters:
+  - extinction-2023
+  sources:
+  - for: roles
+    source: 'Wikipedia, Daniel Kokotajlo, en.wikipedia.org, accessed 23 November 2026 (AI researcher; co-founder and head of the AI Futures Project; co-wrote the scenarios AI 2027 and AI 2040: Plan A)'
+    url: https://en.wikipedia.org/wiki/Daniel_Kokotajlo
+  - for: labs
+    source: Wikipedia, Daniel Kokotajlo, en.wikipedia.org, accessed 23 November 2026 (researcher in OpenAI's governance division from 2022 to 2024)
+    url: https://en.wikipedia.org/wiki/Daniel_Kokotajlo
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatories page 9, safe.ai, 2023 (Daniel Kokotajlo, Member of Policy Team Staff, OpenAI)
+    url: https://safe.ai/work/statement-on-ai-extinction-risk?223bcc0a_page=9
+  - for: note
+    source: Wikipedia, Daniel Kokotajlo, en.wikipedia.org, accessed 23 November 2026 (refused to sign the non-disparagement clause when he resigned in 2024; AI 2027, released April 2025, predicts rapid
+      progress followed by AGI)
+    url: https://en.wikipedia.org/wiki/Daniel_Kokotajlo
+  status: checked
