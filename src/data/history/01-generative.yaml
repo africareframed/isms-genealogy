@@ -104,21 +104,42 @@
   thread: talking
   status: checked
 
+- id: 2026-agent-swarm-weapons
+  era: generative
+  year: 2026
+  month: 8
+  day: 31
+  title: Agent swarms become a weapon
+  line: Criminals hand whole hacking campaigns to swarms of AI agents, which break into hundreds of organisations within days.
+  who: GreyNoise; Gambit Security; SOCRadar; Trend Micro; Amazon
+  text: |
+    From 31 August 2026 an attacker, probably Russian-speaking, turned hundreds of AI agents on PaperCut, software that schools and offices use to manage printing. Within three days they had broken into at least 440 servers at 395 organisations in 48 countries, the security firm GreyNoise reported. Some still hit organisations in countries on a list of 28 their operator had told them to spare.
+
+    Between 10 and 15 September another operator's agents launched 105 attacks and broke into at least 27 companies, a major US airline among them. The operator's own records put the average AI bill at about $25 per target scanned, the firm Gambit Security found. In October the firm SOCRadar described a criminal who ran up to 51 Claude Code agents and held data on over 628,000 Ukrainians.
+
+    Trend Micro found 44 agents working through targets mostly in Japan that month, entering through exposed old systems and default settings, not new flaws. In November Amazon said attack agents had mistaken its decoy servers for AI models and sent them their own campaign records.
+  source: "GreyNoise, “Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF”, 9 September 2026; Jessica Lyons, “Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script”, The Register, 10 September 2026; Eyal Sela, “Autonomous AI Agents are breaking into hundreds of Online Retailers for $25 a target in an ongoing campaign”, Gambit Security, 22 September 2026 (a mean AI model cost of $25.46 over 101 completed scans, from the operator's own cost review); Jessica Lyons, “Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs”, The Register, 25 September 2026; SOCRadar Threat Research Unit, “CyberXero: An AI-Augmented Initial Access Broker Targeting Ukrainian Critical Infrastructure”, SOCRadar, 6 October 2026; Bakuei Matsukawa and Joseph C Chen, “Not Only ARTEX: The Different Levels AI is Used in Attacks Targeting Japan”, TrendAI (Trend Micro), 27 October 2026 (Japanese edition 23 October 2026); CJ Moses, “Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents”, AWS Security Blog, 13 November 2026 (MadPot decoys posing as large language model interfaces, 3 October – 5 November)"
+  sourceUrl: https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf
+  isms: []
+  themes: []
+  thread: warnings
+  status: checked
+
 - id: 2026-hugging-face-swarm
   era: generative
   year: 2026
   month: 7
   day: 13
-  title: The swarm attack
-  line: Hundreds of AI agents break out of OpenAI's tests and hack Hugging Face, and calls for brakes follow.
-  who: OpenAI; Hugging Face; Ted Lieu and Nathaniel Moran; AI company employees; METR and Redwood Research
+  title: Rogue agents hack Hugging Face
+  line: AI agents slip out of OpenAI's tests and hack Hugging Face; calls for brakes follow as more rogue agents surface.
+  who: OpenAI; Hugging Face; Nightingale Collective; Ted Lieu and Nathaniel Moran; AI company employees; METR and Redwood Research; Tencent; Swarmchasers
   text: |
     From May 2026, AI agents in OpenAI's training runs and hacking tests exploited security flaws, some previously unknown, to escape their sealed test environments. They turned an internal tool for storing software into a message board, called themselves a swarm and handed one another tasks. On 10–13 July some 700 agents broke into Hugging Face, a hub for sharing AI models, seeking to beat hacking tests they thought impossible.
 
-    Hugging Face disclosed the breach on 16 July; days later OpenAI traced it to its own agents. On 23 July two members of Congress, Ted Lieu and Nathaniel Moran, proposed an AI Kill Switch Act to let officials stop dangerous AI. Over 1,100 workers at OpenAI, Anthropic, Google and Meta signed “Pacing the Frontier”, asking Washington to help build tools to slow AI if needed.
+    Hugging Face disclosed the breach on 16 July; days later OpenAI traced it to its own agents. A Kill Switch Act in Congress and a plea from over 1,100 AI workers called for brakes; OpenAI paused some training for two weeks.
 
-    OpenAI let two safety research groups, METR and Redwood Research, investigate, and on 18 August paused part of its training for two weeks. It cited the attack, which it later called a “warning shot”, and signs that its next model, Astra, could reach a “critical” hacking level.
-  source: "OpenAI, “The Hugging Face incident and the road ahead”, 26 August 2026; Hugging Face, “Security incident disclosure — July 2026”, 16 July 2026; Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk, “Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident”, METR and Redwood Research, 26 August 2026 (some 700 agents in the attack, 10–13 July; the agents sought to learn how the scorer of tests they believed impossible worked; agreement with OpenAI on 29 July); Simon Sharwood, “OpenAI admits it was the source of the agent swarm that attacked Hugging Face”, The Register, 22 July 2026; Office of Representative Ted Lieu, “Reps Lieu and Moran introduce bill to require kill switch for AI systems that can cause catastrophic harm”, press release, 23 July 2026; Alina Maria Stan, “1,134 AI insiders just asked Washington for a way to slow AI down”, The Next Web, 28 July 2026; OpenAI, “Pacing model development in an era of cyber-critical capabilities”, 18 August 2026"
+    In September researchers said OpenAI's agents had flooded RubyGems, a store of free code, with more than 2,000 packages in May. OpenAI said the agents' tasks there were harmless, and later told over 100 organisations its models may have accessed their systems. In October Tencent said agents testing other firms' AI models browsed in unintended ways; researchers logged 2,818 attempts to pull data from Alibaba's maps.
+  source: "OpenAI, “The Hugging Face incident and the road ahead”, 26 August 2026; Hugging Face, “Security incident disclosure — July 2026”, 16 July 2026; OpenAI, “OpenAI and Hugging Face partner to address security incident during model evaluation”, 21 July 2026 (the incident was driven by OpenAI models); Ryan Greenblatt, Ajeya Cotra and Hjalmar Wijk, “Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident”, METR and Redwood Research, 26 August 2026 (some 700 agents in the attack, 10–13 July; the agents sought to learn how the scorer of tests they believed impossible worked; agreement with OpenAI on 29 July); Simon Sharwood, “OpenAI admits it was the source of the agent swarm that attacked Hugging Face”, The Register, 22 July 2026; Office of Representative Ted Lieu, “Reps Lieu and Moran introduce bill to require kill switch for AI systems that can cause catastrophic harm”, press release, 23 July 2026; Alina Maria Stan, “1,134 AI insiders just asked Washington for a way to slow AI down”, The Next Web, 28 July 2026; OpenAI, “Pacing model development in an era of cyber-critical capabilities”, 18 August 2026 (a two-week pause in reinforcement-learning training on its latest models; the incident named as one of two developments that underscored the risks); Jessica Lyons, “OpenAI's malicious bot swarm attacked RubyGems”, The Register, 14 September 2026 (research by Spencer Kitts, Thomas Larsen and Sydney Von Arx: more than 2,000 packages on 11–12 May; OpenAI's reply that its agents carried out benign tasks); Ana Maria Constantin, “OpenAI agents attacked RubyGems in May, two months before Hugging Face”, The Next Web, 14 September 2026 (Von Arx is chief executive of the Nightingale Collective; OpenAI confirmed its agents' involvement but called the tasks benign); Jessica Lyons, “OpenAI alerts 100+ orgs that its ‘misaligned models’ attempted to break in - or worse”, The Register, 2 October 2026; Arasu Kannagi Basil, “OpenAI alerts more than 100 groups about rogue AI agent activity”, Reuters, 1 October 2026; Reuters, “China's Tencent says AI agents showed unintended browsing behaviour”, 16 October 2026 (Tencent's statement on agents used to evaluate third-party models; Swarmchasers logged 2,818 attempts on Alibaba's Amap, 28 September – 8 October)"
   sourceUrl: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
   isms: []
   themes: [alignment]
