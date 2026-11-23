@@ -1,0 +1,408 @@
+# People facts, batch 05: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: david-ferrucci
+  lifespan: born 1961
+  note: Led the IBM research team that built Watson, which beat two Jeopardy! champions in February 2011. He later founded the AI company Elemental Cognition.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Elizabeth Rholetter Purdy, David Ferrucci (born 11 August 1961), EBSCO Research Starters, 2013
+    url: https://ebsco.com/research-starters/biography/david-ferrucci
+  - for: roles
+    source: Wikipedia, David Ferrucci, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Ferrucci
+  - for: note
+    source: Wikipedia, IBM Watson (team led by principal investigator David Ferrucci; beat Brad Rutter and Ken Jennings, aired 14–15 February 2011), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/IBM_Watson
+  - for: note
+    source: Computer History Museum, David Ferrucci (profile), accessed 23 November 2026
+    url: https://computerhistory.org/profile/david-ferrucci/
+  - for: note
+    source: Wikipedia, David Ferrucci (founder, CEO and Chief Scientist of Elemental Cognition), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Ferrucci
+  status: checked
+- id: demis-hassabis
+  lifespan: born 1976
+  note: Co-founded DeepMind in 2010 and led it after Google bought it in 2014. Shared the 2024 Nobel Prize in Chemistry for AI that predicts the structure of proteins.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2010
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Demis Hassabis (born 27 July 1976), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Demis_Hassabis
+  - for: roles
+    source: Wikipedia, Demis Hassabis, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Demis_Hassabis
+  - for: labs
+    source: Wikipedia, Demis Hassabis (co-founded DeepMind in 2010; chairman and co-founder of Google DeepMind), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Demis_Hassabis
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatory list (Demis Hassabis, CEO, Google DeepMind), 30 May 2023
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: note
+    source: Wikipedia, Demis Hassabis (Nobel Prize in Chemistry 2024 with John Jumper for protein structure prediction), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Demis_Hassabis
+  - for: note
+    source: Wikipedia, Shane Legg (Google acquired DeepMind in 2014), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Shane_Legg
+  status: checked
+- id: kevin-kelly
+  lifespan: born 1952
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Kevin Kelly (editor), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Kevin_Kelly_(editor)
+  - for: roles
+    source: Wikipedia, Kevin Kelly (editor) (founding executive editor of Wired), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Kevin_Kelly_(editor)
+  status: checked
+- id: mustafa-suleyman
+  lifespan: born 1984
+  note: Co-founded DeepMind in 2010 and Inflection AI in 2022. Since 2024 he has led Microsoft AI, and in 2026 unveiled Microsoft's code of conduct for building humanist AI.
+  roles:
+  - founder
+  labs:
+  - lab: google
+    from: 2010
+    to: 2022
+  - lab: microsoft
+    from: 2024
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Mustafa Suleyman (born August 1984), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mustafa_Suleyman
+  - for: roles
+    source: Wikipedia, Mustafa Suleyman, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mustafa_Suleyman
+  - for: labs
+    source: Wikipedia, Mustafa Suleyman (DeepMind 2010; moved to Google in December 2019; left Google January 2022; Microsoft AI from March 2024), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mustafa_Suleyman
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatory list (Mustafa Suleyman, CEO, Inflection AI), 30 May 2023
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: note
+    source: Wikipedia, Mustafa Suleyman (co-founded Inflection AI in March 2022), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mustafa_Suleyman
+  - for: note
+    source: 'Sebastian Herrera, Microsoft AI chief: ''Now''s the time'' for top labs to coordinate on safety, Fortune, 14 September 2026 (Suleyman unveiled a code of conduct for model development steering
+      Microsoft towards a humanist approach)'
+    url: https://fortune.com/2026/09/14/microsoft-suleyman-ai-safety-code-of-conduct/
+  status: checked
+- id: shane-legg
+  lifespan: born 1973 or 1974
+  note: Co-founded DeepMind in 2010 with Hassabis and Suleyman, and became its Chief AGI Scientist. Helped revive the term artificial general intelligence in the early 2000s.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2010
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, Shane Legg ('born 1973 or 1974'; infobox gives 1973), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Shane_Legg
+  - for: roles
+    source: Wikipedia, Shane Legg, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Shane_Legg
+  - for: labs
+    source: Wikipedia, Shane Legg (co-founded DeepMind 2010; Chief AGI Scientist at Google DeepMind), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Shane_Legg
+  - for: letters
+    source: Center for AI Safety, Statement on AI Risk, signatory list (Shane Legg, Chief AGI Scientist and Co-Founder, Google DeepMind), 30 May 2023
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: note
+    source: Wikipedia, Shane Legg (re-introduced and popularised the term AGI with Ben Goertzel in the early 2000s), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Shane_Legg
+  status: checked
+- id: fei-fei-li
+  lifespan: born 1976
+  note: Computer scientist who led ImageNet, begun in 2007, a database of over 14 million labelled images. Later a founding co-director of Stanford's Human-Centered AI Institute and co-founder of World
+    Labs.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2017
+    to: 2018
+  sources:
+  - for: lifespan
+    source: Wikipedia, Fei-Fei Li (born July 3, 1976), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Fei-Fei_Li
+  - for: roles
+    source: Wikipedia, Fei-Fei Li, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Fei-Fei_Li
+  - for: labs
+    source: Wikipedia, Fei-Fei Li (Chief Scientist of AI/ML at Google Cloud on sabbatical, January 2017 to autumn 2018), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Fei-Fei_Li
+  - for: labs
+    source: 'Diane Greene, Google Cloud AI: Andrew Moore joining Google Cloud; Fei-Fei Li becoming advisor, Google Cloud Blog, 10 September 2018'
+    url: https://cloud.google.com/blog/topics/inside-google-cloud/google-cloud-ai-andrew-moore-joining-google-cloud-fei-fei-li-becoming-advisor
+  - for: note
+    source: Wikipedia, Fei-Fei Li (ImageNet begun 2007, over 14 million labelled images; founding co-director of Stanford HAI; co-founded World Labs 2024), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Fei-Fei_Li
+  status: checked
+- id: toby-ord
+  lifespan: born 1979
+  roles:
+  - writer
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Toby Ord (born July 1979), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Toby_Ord
+  - for: roles
+    source: Wikipedia, Toby Ord (philosopher; launched Giving What We Can in 2009 with Bernadette Young and William MacAskill), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Toby_Ord
+  status: checked
+- id: william-macaskill
+  lifespan: born 1987
+  roles:
+  - writer
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, William MacAskill (born 24 March 1987), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/William_MacAskill
+  - for: roles
+    source: Wikipedia, William MacAskill (philosopher and author; one of the originators of effective altruism; co-founded Giving What We Can, 80,000 Hours and the Centre for Effective Altruism), accessed
+      23 November 2026
+    url: https://en.wikipedia.org/wiki/William_MacAskill
+  - for: roles
+    source: Wikipedia, Toby Ord (co-founded Giving What We Can with MacAskill in 2009), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Toby_Ord
+  status: checked
+- id: peter-diamandis
+  lifespan: born 1961
+  roles:
+  - founder
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Peter Diamandis (born May 20, 1961), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Diamandis
+  - for: roles
+    source: Wikipedia, Peter Diamandis (founder of XPRIZE, co-founder of Singularity University, co-author of Abundance, 2012), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Diamandis
+  status: checked
+- id: curtis-yarvin
+  lifespan: born 1973
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Curtis Yarvin, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Curtis_Yarvin
+  - for: roles
+    source: Wikipedia, Curtis Yarvin (blogger as Mencius Moldbug, Unqualified Reservations 2007–2014), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Curtis_Yarvin
+  status: checked
+- id: elie-hassenfeld
+  roles:
+  - founder
+  sources:
+  - for: roles
+    source: Centre for Effective Altruism, Q and A with Elie Hassenfeld (CEO and co-founder of GiveWell), effectivealtruism.org, c. 2020
+    url: https://effectivealtruism.org/articles/q-and-a-with-elie-hassenfeld
+  - for: roles
+    source: Wikipedia, GiveWell (founded 2007 by Karnofsky and Hassenfeld; sole Executive Director from 2017), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/GiveWell
+  status: checked
+- id: holden-karnofsky
+  lifespan: born 1980 or 1981
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2017
+    to: 2021
+  - lab: anthropic
+    from: 2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Holden Karnofsky ('born 1980 or 1981'), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Holden_Karnofsky
+  - for: roles
+    source: Wikipedia, Holden Karnofsky (co-founded GiveWell 2007 and Open Philanthropy 2014), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Holden_Karnofsky
+  - for: labs
+    source: Wikipedia, Holden Karnofsky (OpenAI board of directors 2017–2021; joined Anthropic January 2025 as member of technical staff), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Holden_Karnofsky
+  status: checked
+- id: robin-hanson
+  lifespan: born 1959
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Robin Hanson (born August 28, 1959), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Robin_Hanson
+  - for: roles
+    source: Wikipedia, Robin Hanson (American economist and author; associate professor at George Mason University), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Robin_Hanson
+  status: checked
+- id: sebastian-thrun
+  lifespan: born 1967
+  note: Led the development of Stanley, the robot car that won the 2005 DARPA Grand Challenge. At Google he co-founded Google X and led its self-driving car project.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2007
+    to: 2014
+  sources:
+  - for: lifespan
+    source: Wikipedia, Sebastian Thrun (born May 14, 1967), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sebastian_Thrun
+  - for: roles
+    source: Wikipedia, Sebastian Thrun (co-founded Google X; co-founded Udacity 2012), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sebastian_Thrun
+  - for: labs
+    source: Ingrid Lunden, Google X Founder Sebastian Thrun Has Left His Role As Google VP And Fellow, TechCrunch, 23 September 2014 (first joined Google in 2007; left as of August 2014)
+    url: https://techcrunch.com/2014/09/23/google-x-founder-sebastian-thrun-has-left-his-role-as-google-vp-and-fellow/
+  - for: note
+    source: Wikipedia, Sebastian Thrun (led development of Stanley; co-founded Google X; led development of the Google self-driving car), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sebastian_Thrun
+  status: checked
+- id: alex-karp
+  lifespan: born 1967
+  note: Co-founded Palantir and has been its chief executive since 2004.
+  roles:
+  - founder
+  labs:
+  - lab: palantir
+    from: 2003
+  sources:
+  - for: lifespan
+    source: Wikipedia, Alex Karp (born October 2, 1967), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alex_Karp
+  - for: roles
+    source: Wikipedia, Alex Karp (co-founder and CEO of Palantir Technologies), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alex_Karp
+  - for: labs
+    source: Wikipedia, Palantir Technologies (founded 6 May 2003 by Thiel, Cohen, Lonsdale, Karp and Gettings), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  - for: note
+    source: Wikipedia, Palantir Technologies (Thiel hired Karp as chief executive officer in 2004; Karp listed as CEO), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  status: checked
+- id: joe-lonsdale
+  lifespan: born 1982 or 1983
+  note: Co-founded Palantir with Thiel and others, and left in 2009. He later co-founded the venture firm 8VC and the University of Austin.
+  roles:
+  - founder
+  labs:
+  - lab: palantir
+    from: 2003
+    to: 2009
+  sources:
+  - for: lifespan
+    source: Wikipedia, Joe Lonsdale ('born 1982 or 1983'), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joe_Lonsdale
+  - for: roles
+    source: Wikipedia, Joe Lonsdale, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joe_Lonsdale
+  - for: labs
+    source: Wikipedia, Palantir Technologies (founded 6 May 2003; Lonsdale among the five founders), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  - for: labs
+    source: Wikipedia, Joe Lonsdale (left Palantir in 2009, keeping an advisory role), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joe_Lonsdale
+  - for: note
+    source: Wikipedia, Joe Lonsdale (co-founded 8VC in 2015 and the University of Austin in 2023), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Joe_Lonsdale
+  status: checked
+- id: nathan-gettings
+  note: PayPal engineer who co-founded Palantir and, in 2004, built its first prototype with Lonsdale and Cohen.
+  roles:
+  - founder
+  - researcher
+  labs:
+  - lab: palantir
+    from: 2003
+    to: 2012
+  sources:
+  - for: roles
+    source: Wikipedia, Palantir Technologies (Nathan Gettings, a PayPal engineer, among the founders), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  - for: roles
+    source: Wikipedia, Nathan Gettings (software engineer and entrepreneur; co-founder of Palantir and Affirm), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nathan_Gettings
+  - for: labs
+    source: Wikipedia, Palantir Technologies (founded 6 May 2003), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  - for: labs
+    source: Wikipedia, Nathan Gettings (left Palantir in 2012 to start Affirm with Max Levchin), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nathan_Gettings
+  - for: labs
+    source: Wikipedia, Affirm Holdings (founded 2012; Gettings among the founders), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Affirm_Holdings
+  - for: note
+    source: Wikipedia, Palantir Technologies (in 2004 Thiel bankrolled a prototype by PayPal engineer Nathan Gettings and Stanford students Joe Lonsdale and Stephen Cohen), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  status: checked
+- id: peter-thiel
+  lifespan: born 1967
+  roles:
+  - founder
+  labs:
+  - lab: palantir
+    from: 2003
+  - lab: meta
+    from: 2005
+    to: 2022
+  sources:
+  - for: lifespan
+    source: Wikipedia, Peter Thiel (born 11 October 1967), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Thiel
+  - for: roles
+    source: Wikipedia, Peter Thiel (PayPal and Palantir co-founder), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Thiel
+  - for: labs
+    source: Wikipedia, Peter Thiel (incorporated Palantir in May 2003; serves as its chairman), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Peter_Thiel
+  - for: labs
+    source: Karissa Bell, Peter Thiel is leaving Meta's board of directors, Engadget, 7 February 2022 (joined the board in 2005)
+    url: https://www.engadget.com/peter-thiel-is-leaving-the-board-of-meta-214938978.html
+  - for: labs
+    source: NBC News, report on Thiel leaving the Facebook board (on the board since 2005; serves until Meta's next annual meeting), 7 February 2022
+    url: https://www.nbcnews.com/tech/tech-news/peter-thiel-leave-facebook-board-rcna15265
+  - for: labs
+    source: 'Wikipedia, Peter Thiel (7 February 2022: would not seek re-election to Meta''s board, leaving after 17 years), accessed 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Peter_Thiel
+  status: checked
+- id: stephen-cohen
+  lifespan: born 1982
+  note: Co-founded Palantir and, as a Stanford student, helped build its first prototype in 2004. He is the company's president.
+  roles:
+  - founder
+  labs:
+  - lab: palantir
+    from: 2003
+  sources:
+  - for: lifespan
+    source: Wikipedia, Stephen Cohen (entrepreneur) (born September 30, 1982), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stephen_Cohen_(entrepreneur)
+  - for: roles
+    source: Wikipedia, Stephen Cohen (entrepreneur) (co-founder, president and secretary of Palantir Technologies), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stephen_Cohen_(entrepreneur)
+  - for: labs
+    source: Wikipedia, Palantir Technologies (founded 6 May 2003; Cohen among the founders; listed as president), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  - for: note
+    source: Wikipedia, Palantir Technologies (2004 prototype by Gettings with Stanford students Lonsdale and Cohen; Cohen listed as president), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Palantir_Technologies
+  status: checked
