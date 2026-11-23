@@ -9,8 +9,13 @@
   title: Stable Diffusion goes public
   line: An image generator's weights are released for anyone to download and run.
   who: Stability AI
-  text: On 22 August 2022 Stability AI released Stable Diffusion, which turns text prompts into images, with its weights free to download. The licence, CreativeML OpenRAIL-M, allowed commercial use but made users responsible for using it ethically and lawfully. The model needed a graphics card with about 7 GB of memory, so it could run on recent consumer hardware.
-  source: Stability AI, “Stable Diffusion Public Release”, stability.ai, 22 August 2022; Open Future, “Stable Diffusion text to image generator released under an open license”, 22 August 2022
+  text: |
+    On 22 August 2022 Stability AI released Stable Diffusion, which turns a line of text into an image in seconds. It built on latent diffusion, from researchers at LMU Munich and Runway: the network forms a picture by removing noise in many small steps.
+
+    Its weights, the numbers the trained network runs on, were free to download; it needed a graphics card with about 7 GB of memory. The licence, CreativeML OpenRAIL-M, allowed commercial use but made users responsible for using it ethically and lawfully.
+
+    It had learned from part of LAION-5B, an open collection of 5.85 billion images paired with text. In January 2023 Getty Images sued Stability AI in London, saying it had copied millions of copyrighted images without a licence.
+  source: "Stability AI, “Stable Diffusion Public Release”, stability.ai, 22 August 2022; Stability AI, “Stable Diffusion Launch Announcement”, stability.ai, 10 August 2022; Open Future, “Stable Diffusion text to image generator released under an open license”, 22 August 2022; Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser and Björn Ommer, “High-Resolution Image Synthesis with Latent Diffusion Models”, arXiv:2112.10752, 20 December 2021; Christoph Schuhmann, Romain Beaumont, Richard Vencu and others, “LAION-5B: An open large-scale dataset for training next generation image-text models”, arXiv:2210.08402, 16 October 2022; Andrew Tarantola, “Getty Images sues the maker of AI art generator Stable Diffusion over data scraping allegations”, Engadget, 17 January 2023"
   sourceUrl: https://stability.ai/blog/stable-diffusion-public-release
   isms: []
   themes: []
@@ -21,10 +26,13 @@
   era: scale
   year: 2022
   month: 3
-  title: Chinchilla and compute-optimal training
+  title: Chinchilla shows models need more data
   line: DeepMind finds that large models need far more data for their size.
   who: Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch and colleagues, DeepMind
-  text: A DeepMind team found that large language models had been trained on too little data for their size. For a fixed computing budget, model size and training data should grow in equal proportion. Their 70-billion-parameter model, Chinchilla, used the same compute as the 280-billion-parameter Gopher, with about four times the data. It outperformed Gopher and GPT-3 across a wide range of tasks.
+  text: |
+    A DeepMind team found that large language models had been trained on too little data for their size. The cause, they wrote, was a focus on making models bigger while keeping their training data the same. For a fixed computing budget, model size and training data should grow in equal proportion: double one, double the other.
+
+    Their model Chinchilla had 70 billion parameters, the adjustable numbers inside a network, a quarter as many as DeepMind's Gopher. Trained with the same amount of computing on about four times the data, it outperformed Gopher and GPT-3 across a wide range of tasks. Being smaller, it also needed much less computing to adapt and run.
   source: Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch and others, “Training Compute-Optimal Large Language Models”, arXiv:2203.15556, 29 March 2022
   sourceUrl: https://arxiv.org/abs/2203.15556v1
   isms: []
@@ -39,8 +47,11 @@
   title: Anthropic is founded
   line: A former OpenAI research chief starts a company focused on AI safety.
   who: Dario Amodei, Daniela Amodei
-  text: Dario Amodei, formerly OpenAI's vice-president of research, founded Anthropic with his sister Daniela. They set it up as a public benefit corporation and called it an AI safety and research company. In May 2021 it raised $124 million, led by Jaan Tallinn, with Dustin Moskovitz and Eric Schmidt among the backers. It aimed to build large AI systems that are steerable, interpretable and robust.
-  source: Anthropic, “Anthropic raises $124 million to build more reliable, general AI systems”, 28 May 2021; Devin Coldewey, “Anthropic is the new AI research outfit from OpenAI's Dario Amodei, and it has $124M to burn”, TechCrunch, 28 May 2021
+  text: |
+    Dario Amodei, formerly OpenAI's vice-president of research, founded Anthropic with his sister Daniela. Its team had earlier worked on GPT-3, on scaling laws and on AI safety research. They called it an AI safety and research company.
+
+    It was set up as a public benefit corporation, whose directors may balance shareholders' financial interests with a public purpose. In May 2021 it raised $124 million, led by Jaan Tallinn, a co-founder of Skype, with Dustin Moskovitz and Eric Schmidt among the backers. It aimed to make large AI systems more reliable, steerable, interpretable and robust.
+  source: "Anthropic, “Anthropic raises $124 million to build more reliable, general AI systems”, 28 May 2021; Devin Coldewey, “Anthropic is the new AI research outfit from OpenAI's Dario Amodei, and it has $124M to burn”, TechCrunch, 28 May 2021; Anthropic, “The Long-Term Benefit Trust”, 19 September 2023"
   sourceUrl: https://anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems
   isms: []
   themes: [alignment]
@@ -54,8 +65,13 @@
   title: Timnit Gebru leaves Google
   line: A dispute over a paper on large language models ends with an ethics team co-lead out of Google.
   who: Timnit Gebru; Google
-  text: Gebru says Google told her to retract a paper on the risks of large language models, or to remove its Google authors' names. On 2 December 2020 she announced that Google had forced her out. Google said she resigned; she says she was fired. Her co-lead Margaret Mitchell was fired in February 2021, and the paper, “On the Dangers of Stochastic Parrots”, appeared that March.
-  source: "Karen Hao, “We read the paper that forced Timnit Gebru out of Google. Here's what it says.”, MIT Technology Review, 4 December 2020; NPR, “Google Employees Call Black Scientist's Ouster ‘Unprecedented Research Censorship’”, 3 December 2020; Megan Rose Dickey, “Google fires top AI ethics researcher Margaret Mitchell”, TechCrunch, 19 February 2021; Emily M. Bender and others, “On the Dangers of Stochastic Parrots”, FAccT '21, ACM, March 2021"
+  text: |
+    Timnit Gebru, co-lead of Google's Ethical AI team, wrote “On the Dangers of Stochastic Parrots” with the linguist Emily M. Bender and others. It warned that ever larger language models use much energy, absorb abusive language from the web and can fool people with fluent text.
+
+    Gebru says Google told her to retract it or remove its Google authors' names. On 2 December 2020 she announced that Google had forced her out; Google said she resigned.
+
+    More than 1,400 Google staff signed an open letter calling her exit “unprecedented research censorship”. Her co-lead Margaret Mitchell was fired in February 2021, and the paper appeared that March.
+  source: "Karen Hao, “We read the paper that forced Timnit Gebru out of Google. Here's what it says.”, MIT Technology Review, 4 December 2020; Bobby Allyn, “Google Employees Call Black Scientist's Ouster ‘Unprecedented Research Censorship’”, NPR, 3 December 2020; Megan Rose Dickey, “Google fires top AI ethics researcher Margaret Mitchell”, TechCrunch, 19 February 2021; Emily M. Bender and others, “On the Dangers of Stochastic Parrots”, FAccT '21, ACM, March 2021"
   sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
   isms: [ai-ethics]
   themes: [scaling-laws]
@@ -66,10 +82,13 @@
   era: scale
   year: 2020
   month: 11
-  title: AlphaFold 2 at CASP14
+  title: AlphaFold predicts protein shapes
   line: DeepMind's AlphaFold predicts protein shapes with accuracy rivalling laboratory methods.
   who: DeepMind
-  text: Predicting a protein's 3D shape from its sequence of amino acids had challenged biologists for about 50 years. At the CASP14 prediction contest, DeepMind's AlphaFold reached a median score of 92.4 GDT across all targets. A score of around 90 is informally considered competitive with experimental methods.
+  text: |
+    Proteins carry out almost every function of life, and what each one does depends largely on its 3D shape. Finding a shape in the laboratory can take years, so only about 170,000 were known, against more than 180 million protein sequences. Predicting the shape from the chain of amino acids had challenged biologists for about 50 years.
+
+    CASP, a contest held every two years since 1994, asks teams to predict shapes just found in laboratories but not yet published. At CASP14 DeepMind's AlphaFold reached a median score of 92.4 out of 100 on its main measure, GDT. A score around 90 is informally considered competitive with experimental methods.
   source: "DeepMind, “AlphaFold: a solution to a 50-year-old grand challenge in biology”, 30 November 2020"
   sourceUrl: https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/
   isms: []
@@ -81,11 +100,14 @@
   era: scale
   year: 2020
   month: 5
-  title: GPT-3
+  title: GPT-3 learns from a few examples
   line: A model ten times bigger learns new tasks from a few examples.
   who: Tom B. Brown, Benjamin Mann, Nick Ryder and colleagues, OpenAI
-  text: OpenAI researchers described GPT-3, a language model with 175 billion parameters. That was about ten times more than any earlier dense language model. Shown a few examples in plain text, it could take on new tasks without further training. Human judges found it hard to tell its news articles from ones written by people.
-  source: Tom B. Brown, Benjamin Mann, Nick Ryder and others, “Language Models are Few-Shot Learners”, arXiv:2005.14165, 28 May 2020
+  text: |
+    OpenAI researchers described GPT-3, a language model with 175 billion parameters, the adjustable numbers a network learns. That was about ten times more than any earlier model of its kind. Like GPT-2, it learned by predicting the next word in a text.
+
+    Shown a few examples in plain text, it could take on new tasks without further training, such as translating or unscrambling words. Human judges found it hard to tell its news articles from ones written by people. From June 2020 OpenAI offered access through an online service, its API, rather than releasing the model, saying this made misuse easier to curb.
+  source: "Tom B. Brown, Benjamin Mann, Nick Ryder and others, “Language Models are Few-Shot Learners”, arXiv:2005.14165, 28 May 2020; OpenAI, “OpenAI API”, 11 June 2020"
   sourceUrl: https://arxiv.org/abs/2005.14165v1
   isms: []
   themes: [scaling-laws]
@@ -96,11 +118,14 @@
   era: scale
   year: 2020
   month: 1
-  title: Scaling laws
+  title: OpenAI charts the scaling laws
   line: OpenAI researchers find that language models improve along smooth, predictable curves.
   who: Jared Kaplan (Johns Hopkins University and OpenAI), Sam McCandlish and colleagues at OpenAI
-  text: Jared Kaplan, Sam McCandlish and colleagues measured how language models improve as they grow. The models' prediction error fell along smooth power laws in model size, data and training compute. Some trends held across more than seven orders of magnitude. The curves showed how best to spend a fixed computing budget, on very large models trained on modest data.
-  source: Jared Kaplan, Sam McCandlish and others, “Scaling Laws for Neural Language Models”, arXiv:2001.08361, 23 January 2020
+  text: |
+    Jared Kaplan, Sam McCandlish and colleagues measured how language models improve as they grow. They tracked the models' prediction error: how far off they were in guessing the next word of a text. It fell along smooth power laws in model size, data and training compute: each tenfold increase cut it by a similar share.
+
+    Some trends held across more than seven orders of magnitude, a ten-million-fold range, and the network's shape mattered far less than its size. The curves showed how best to spend a fixed computing budget: on very large models trained on modest data. DeepMind's Chinchilla study revised that advice in 2022.
+  source: "Jared Kaplan, Sam McCandlish and others, “Scaling Laws for Neural Language Models”, arXiv:2001.08361, 23 January 2020; Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch and others, “Training Compute-Optimal Large Language Models”, arXiv:2203.15556, 29 March 2022"
   sourceUrl: https://arxiv.org/abs/2001.08361v1
   isms: []
   themes: [scaling-laws, compute]
@@ -111,10 +136,13 @@
   era: scale
   year: 2019
   month: 3
-  title: OpenAI becomes capped-profit
+  title: OpenAI creates a capped-profit arm
   line: The non-profit lab takes in investors to pay for computing power.
   who: OpenAI; Microsoft
-  text: In March 2019 OpenAI, founded as a non-profit, created a “capped-profit” company to raise money. Investors' returns were limited, at first to 100 times their stake, and the non-profit's board kept control. OpenAI said it needed billions of dollars for cloud computing, talent and AI supercomputers. In July Microsoft invested $1 billion and became its exclusive cloud provider.
+  text: |
+    In March 2019 OpenAI, founded as a non-profit, created a “capped-profit” company to raise money. It said it needed billions of dollars for cloud computing, talent and AI supercomputers. Investors' returns were capped, at first at 100 times their stake, and anything above that went to the non-profit.
+
+    The non-profit's board kept control, and the company's main legal duty was to the aims of OpenAI's charter. In July Microsoft invested $1 billion and became OpenAI's exclusive cloud provider. It also became the preferred partner for selling some of OpenAI's technologies.
   source: OpenAI, “OpenAI LP”, 11 March 2019; OpenAI, “Microsoft invests in and partners with OpenAI”, 22 July 2019
   sourceUrl: https://openai.com/index/openai-lp/
   isms: []
@@ -126,11 +154,14 @@
   era: scale
   year: 2019
   month: 2
-  title: GPT-2 and staged release
+  title: OpenAI holds back GPT-2
   line: OpenAI holds back a language model, citing fears of misuse.
   who: OpenAI
-  text: OpenAI described GPT-2, a language model with 1.5 billion parameters trained on text from 8 million web pages. Citing concerns about malicious uses, it withheld the trained model and released only a much smaller one. It then released larger versions in stages, leaving time between them to study risks and benefits.
-  source: OpenAI, “Better language models and their implications”, 14 February 2019, updated May 2019; Irene Solaiman, Miles Brundage, Jack Clark and others, “Release Strategies and the Social Impacts of Language Models”, arXiv:1908.09203, 2019
+  text: |
+    OpenAI described GPT-2, a language model: a program trained simply to predict the next word in a text. It had 1.5 billion parameters, the adjustable numbers inside a network, and learned from 8 million web pages. Citing fears that it could write misleading news articles, impersonate people or churn out spam, OpenAI withheld the full model.
+
+    It released a much smaller one, then larger versions in stages, leaving time to study risks and benefits. Some researchers called this a sensible precaution; others called it a publicity stunt. In November 2019 OpenAI released the full model, saying it had seen no strong evidence of misuse.
+  source: "OpenAI, “Better language models and their implications”, 14 February 2019, updated May 2019; Irene Solaiman, Miles Brundage, Jack Clark and others, “Release Strategies and the Social Impacts of Language Models”, arXiv:1908.09203, 2019; Karen Hao, “OpenAI has released the largest version yet of its fake-news-spewing AI”, MIT Technology Review, 29 August 2019; OpenAI, “GPT-2: 1.5B release”, 5 November 2019"
   sourceUrl: https://openai.com/index/better-language-models/
   isms: []
   themes: []
@@ -141,10 +172,13 @@
   era: scale
   year: 2018
   month: 10
-  title: BERT
+  title: Google releases BERT
   line: A Google model learns language by reading each word's context on both sides.
   who: Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova, Google
-  text: Google researchers released BERT, short for Bidirectional Encoder Representations from Transformers. It learned from unlabelled text, using the words on both sides of each word. Adapted with one extra output layer, it set new best results on eleven language tasks. From October 2019 it helped Google Search understand about one in ten English searches in the United States.
+  text: |
+    Google researchers released BERT, short for Bidirectional Encoder Representations from Transformers. Earlier language models mostly read text one way, left to right. BERT learned by hiding 15% of the words in books and Wikipedia, then guessing each from the words on both sides.
+
+    Adapted to each task with one extra layer, it set new best results on eleven language tasks, and Google shared it freely. From October 2019 it helped Google Search understand about one in ten English searches in the United States. It could tell, for example, that “2019 brazil traveler to usa need a visa” was about a Brazilian going to the US.
   source: "Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova, “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding”, arXiv:1810.04805, 11 October 2018; Pandu Nayak, “Understanding searches better than ever before”, Google, 25 October 2019"
   sourceUrl: https://arxiv.org/abs/1810.04805v1
   isms: []
@@ -156,10 +190,13 @@
   era: scale
   year: 2018
   month: 2
-  title: Gender Shades
+  title: Gender Shades tests face analysis
   line: Face analysis from big firms misreads darker-skinned women far more often than lighter-skinned men.
   who: Joy Buolamwini; Timnit Gebru
-  text: Buolamwini and Gebru tested three commercial systems that classify gender from faces. Darker-skinned women were misclassified up to 34.7% of the time, lighter-skinned men at most 0.8%. The study appeared at the first Conference on Fairness, Accountability and Transparency, in New York.
+  text: |
+    Joy Buolamwini of the MIT Media Lab and Timnit Gebru, then at Microsoft Research, tested how well commercial software guessed gender from faces. The systems came from Microsoft, IBM and Face++. Two widely used sets of test faces were overwhelmingly lighter-skinned, so they built one of 1,270 parliamentarians from three African and three European countries.
+
+    Darker-skinned women were misclassified up to 34.7% of the time, lighter-skinned men at most 0.8%. The authors noted that such technology was already used in high-stakes fields such as health care and law enforcement. The study appeared at the first Conference on Fairness, Accountability and Transparency, in New York.
   source: "Joy Buolamwini and Timnit Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”, PMLR 81, 2018, pp. 77–91; FAT* 2018, facctconference.org/2018 (23–24 February 2018, New York University)"
   sourceUrl: https://proceedings.mlr.press/v81/buolamwini18a.html
   isms: [ai-ethics]
@@ -174,7 +211,10 @@
   title: Attention Is All You Need
   line: Google researchers propose the Transformer, the design behind today's language models.
   who: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, Illia Polosukhin
-  text: Eight researchers, most of them at Google Brain and Google Research, proposed a network built only on attention, without recurrence or convolutions. They called it the Transformer. It translated better than earlier systems and trained far faster, in 3.5 days on eight GPUs for its best English–French model. BERT and GPT-4 were both built on it.
+  text: |
+    Eight researchers, most of them at Google Brain and Google Research, proposed a new kind of network for language, the Transformer. The leading translation networks mostly read a sentence word by word, in order, which made them slow to train. The Transformer relied only on attention: each word weighs every other word in the passage, near or far, to settle its meaning.
+
+    Because it took in a whole passage at once, its training could run many calculations in parallel. It translated better than earlier systems and trained far faster, in 3.5 days on eight graphics processors for its best English–French model. BERT and GPT-4 were both built on it.
   source: Ashish Vaswani, Noam Shazeer, Niki Parmar and others, “Attention Is All You Need”, arXiv:1706.03762, 12 June 2017
   sourceUrl: https://arxiv.org/abs/1706.03762v1
   isms: []
