@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import { ERAS, FAMILIES, THREADS, ROLES, LABS, LETTERS, SITE_NAME, pageHref, yearText } from '../lib/site';
-import { eraAnchor, momentAnchor } from '../lib/history';
+import { momentAnchor } from '../lib/history';
 import { getPeople, personAnchor } from '../lib/people';
 
 // The People page (owner, 23 Nov 2026): one page, a portrait grid by era, newest first; each portrait
@@ -15,7 +15,15 @@ const colour = (familyId: string) => FAMILIES.find((f) => f.id === familyId)?.co
 const ismColour = (ismId: string) => colour(ismById.get(ismId)?.data.family ?? '');
 
 const eras = ERAS.map((e) => ({ ...e, items: people.filter((p) => p.era === e.id) })).filter((e) => e.items.length > 0);
-const unplaced = people.filter((p) => !p.era);
+// An index, A to Z by surname (owner, 23 Nov 2026: grouping people on a timeline made no sense; era is a filter)
+const SURNAME: Record<string, string> = {
+  'pope-leo-xiv': 'Leo XIV', 'xi-jinping': 'Xi Jinping', 'he-lifeng': 'He Lifeng', 'lee-sedol': 'Lee Sedol',
+  'giovanni-pico-della-mirandola': 'Pico della Mirandola', 'leonardo-torres-quevedo': 'Torres Quevedo',
+};
+const surname = (p: { id: string; name: string }) => SURNAME[p.id] ?? p.name.split(/\s+/).at(-1)!;
+const sortKey = (p: { id: string; name: string }) => surname(p).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() + ' ' + p.name.toLowerCase();
+const alpha = [...new Set(people.map((p) => sortKey(p)[0].toUpperCase()))].sort();
+const groups = alpha.map((l) => ({ id: l, items: people.filter((p) => sortKey(p)[0].toUpperCase() === l).sort((a, b) => sortKey(a).localeCompare(sortKey(b))) }));
 const threads = THREADS.map((t) => ({ ...t, n: people.filter((p) => p.threads.includes(t.id)).length })).filter((t) => t.n > 0);
 // Role, Lab and Open letters show once checked facts give them people (stage 2)
 const roles = ROLES.filter((r) => people.some((p) => p.roles.includes(r.id)));
@@ -30,8 +38,7 @@ const srcList = (xs: { source: string; url?: string }[]) =>
     text: x.source.replace(/\s*\((?=[^)]{26,}\))[^)]*\)/g, '').replace(/\s+,/g, ',').trim(),
   }));
 const years = (x: { from?: number; to?: number }) => (x.from && x.to ? (x.from === x.to ? `${x.from}` : `${x.from}–${x.to}`) : x.from ? `since ${x.from}` : x.to ? `until ${x.to}` : '');
-const navLabel = (e: (typeof eras)[number]) => (e.from < 0 ? 'Before 1642' : e.span.replace(' to ', '–'));
-const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: navLabel(e) }))];
+const nav = groups.map((g) => ({ href: `#letter-${g.id}`, label: g.id }));
 
 // What each filter means, shown under the filters on hover and once chosen (owner: no help button, no hover-only text).
 const lines: Record<string, Record<string, string>> = {
@@ -54,7 +61,7 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
 ---
 <Base title={`People · ${SITE_NAME}`} description="The people who shape AI: what they did, the movements they belong to and their moments in the history.">
   <Fragment set:html={`<script type="application/json" id="pf-lines">${JSON.stringify({ lines, groupLines }).replace(/</g, '\\u003c')}</script>`} />
-  <PageHeader title="People" kind={`${people.length} people`} nav={nav} navLabel="Eras" />
+  <PageHeader title="People" kind={`${people.length} people`} nav={nav} navLabel="A to Z" />
 
   <main id="main">
     <section id="introduction" class="wrap intro">
@@ -112,12 +119,9 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
     </section>
 
     <section class="wrap people" aria-label="People">
-      {[...eras.map((e) => ({ id: e.id, name: e.name, span: e.span, items: e.items })), ...(unplaced.length ? [{ id: 'elsewhere', name: 'Elsewhere on the site', span: '', items: unplaced }] : [])].map((e) => (
-        <div class="pera" data-era={e.id}>
-          <div class="pera-head">
-            <h2 id={eraAnchor(e.id)} class="pera-h">{e.name}</h2>
-            {e.span && <p class="era-span">{e.span}</p>}
-          </div>
+      {groups.map((e) => (
+        <div class="pera paz">
+          <h2 id={`letter-${e.id}`} class="paz-h">{e.id}</h2>
           <div class="pgrid">
             {e.items.map((p) => (
               <Fragment>

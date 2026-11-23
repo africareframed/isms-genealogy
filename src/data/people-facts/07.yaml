@@ -1,0 +1,363 @@
+# People facts, batch 07: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: gerald-tesauro
+  note: IBM researcher whose TD-Gammon taught itself backgammon by playing against itself, reaching a level close to the best human players. He later worked on the game strategy of IBM's Watson for Jeopardy!
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Wikipedia, Gerald Tesauro, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gerald_Tesauro
+  - for: note
+    source: Wikipedia, Gerald Tesauro, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Gerald_Tesauro
+  - for: note
+    source: Wikipedia, TD-Gammon (developed by Tesauro at IBM's Thomas J. Watson Research Center; trained by self-play; play just slightly below the top human players of the time), accessed 23 November
+      2026
+    url: https://en.wikipedia.org/wiki/TD-Gammon
+  status: checked
+- id: hans-moravec
+  lifespan: born 1948
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Hans Moravec, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hans_Moravec
+  - for: roles
+    source: Wikipedia, Hans Moravec (computer scientist at Carnegie Mellon's Robotics Institute; futurist; author of Mind Children, 1988), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Hans_Moravec
+  status: checked
+- id: david-rumelhart
+  lifespan: 1942–2011
+  note: Psychologist and first author of the 1986 paper, with Hinton and Williams, showing that backpropagation lets neural networks learn internal representations. In the same year he published Parallel
+    Distributed Processing with James McClelland.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, David Rumelhart, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Rumelhart
+  - for: roles
+    source: Wikipedia, David Rumelhart, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Rumelhart
+  - for: note
+    source: Wikipedia, David Rumelhart, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Rumelhart
+  status: checked
+- id: geoffrey-hinton
+  lifespan: born 1947
+  note: Pioneer of neural networks, from backpropagation in 1986 to the deep network that won ImageNet in 2012. He left Google in 2023 to speak freely about the risks of AI, and shared the 2024 Nobel Prize
+    in Physics.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2013
+    to: 2023
+  letters:
+  - extinction-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, Geoffrey Hinton, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  - for: roles
+    source: Wikipedia, Geoffrey Hinton, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  - for: labs
+    source: Wikipedia, Geoffrey Hinton (Google acquired DNNresearch in March 2013; from 2013 to 2023 he divided his time between Google Brain and Toronto; resigned May 2023), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  - for: letters
+    source: 'Center for AI Safety, Statement on AI Risk, safe.ai, 30 May 2023 (signatory list: Geoffrey Hinton, Emeritus Professor of Computer Science, University of Toronto)'
+    url: https://www.safe.ai/work/statement-on-ai-risk
+  - for: letters
+    source: Matt O'Brien, Associated Press, Prince Harry, Meghan Markle join with Steve Bannon and Steve Wozniak in calling for ban on AI 'superintelligence', Fortune, 22 October 2025
+    url: https://fortune.com/2025/10/22/prince-harry-meghan-markle-wozniak-bannon-ban-superintelligence-letter/
+  - for: note
+    source: Wikipedia, Geoffrey Hinton (AlexNet won ImageNet 2012; resigned from Google May 2023 to speak out about AI risks; 2024 Nobel Prize in Physics with John Hopfield), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+  - for: note
+    source: Wikipedia, David Rumelhart (1986 Nature backpropagation paper with Hinton and Williams), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/David_Rumelhart
+  status: checked
+- id: ronald-j-williams
+  lifespan: 1945–2024
+  note: Computer scientist at Northeastern University and co-author, with Rumelhart and Hinton, of the 1986 Nature paper on backpropagation. In 1992 he introduced REINFORCE, a reinforcement learning algorithm.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Ronald J. Williams (born 1945; died 16 February 2024), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ronald_J._Williams
+  - for: lifespan
+    source: Milton Posner, A tribute to Ron Williams, Khoury professor and machine learning pioneer, Khoury College of Computer Sciences, Northeastern University, 5 March 2024 (died February 2024)
+    url: https://www.khoury.northeastern.edu/a-tribute-to-ron-williams-khoury-professor-and-machine-learning-pioneer/
+  - for: roles
+    source: Wikipedia, Ronald J. Williams, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ronald_J._Williams
+  - for: note
+    source: Wikipedia, Ronald J. Williams, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ronald_J._Williams
+  - for: note
+    source: Milton Posner, A tribute to Ron Williams, Khoury professor and machine learning pioneer, Khoury College of Computer Sciences, Northeastern University, 5 March 2024 (professor at Northeastern
+      from 1986; co-author with Rumelhart and Hinton of Learning representations by back-propagating errors)
+    url: https://www.khoury.northeastern.edu/a-tribute-to-ron-williams-khoury-professor-and-machine-learning-pioneer/
+  status: checked
+- id: derek-parfit
+  lifespan: 1942–2017
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, Derek Parfit, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Derek_Parfit
+  - for: roles
+    source: Wikipedia, Derek Parfit (British philosopher), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Derek_Parfit
+  status: checked
+- id: douglas-lenat
+  lifespan: 1950–2023
+  note: AI researcher who began Cyc in 1984, a project to capture common-sense knowledge in a comprehensive knowledge base. He led it as head of Cycorp until his death in 2023.
+  roles:
+  - researcher
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Douglas Lenat, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Douglas_Lenat
+  - for: roles
+    source: Wikipedia, Douglas Lenat (computer scientist and AI researcher; founder and CEO of Cycorp), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Douglas_Lenat
+  - for: note
+    source: Wikipedia, Cyc (begun July 1984 by Douglas Lenat at MCC; aims to capture common sense knowledge), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Cyc
+  - for: note
+    source: Wikipedia, Douglas Lenat (worked on Cyc as CEO of Cycorp until his death), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Douglas_Lenat
+  status: checked
+- id: kazuhiro-fuchi
+  lifespan: 1936–2006
+  note: Japanese computer scientist who directed ICOT, the laboratory behind Japan's Fifth Generation computer project, from its founding in 1982.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: 'Information Processing Society of Japan, Japanese Computer Pioneers: Kazuhiro Fuchi, IPSJ Computer Museum, accessed 23 November 2026'
+    url: https://museum.ipsj.or.jp/en/pioneer/fuchi.html
+  - for: roles
+    source: 'Information Processing Society of Japan, Japanese Computer Pioneers: Kazuhiro Fuchi, IPSJ Computer Museum, accessed 23 November 2026'
+    url: https://museum.ipsj.or.jp/en/pioneer/fuchi.html
+  - for: note
+    source: 'Information Processing Society of Japan, Japanese Computer Pioneers: Kazuhiro Fuchi (appointed research laboratory director of the newly established ICOT in 1982), IPSJ Computer Museum, accessed
+      23 November 2026'
+    url: https://museum.ipsj.or.jp/en/pioneer/fuchi.html
+  - for: note
+    source: Wikipedia, Fifth Generation Computer Systems (ICOT, the Institute for New Generation Computer Technology, founded in 1982 as the project's research body), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems
+  status: checked
+- id: robert-kahn
+  lifespan: born 1938
+  note: Engineer who headed DARPA's computing office, where he launched the Strategic Computing Initiative in 1983. The billion-dollar programme was America's answer to Japan's Fifth Generation project.
+  roles:
+  - researcher
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, Bob Kahn, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Bob_Kahn
+  - for: roles
+    source: Wikipedia, Bob Kahn (electrical engineer; joined DARPA's IPTO in 1972 and became its director), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Bob_Kahn
+  - for: note
+    source: Wikipedia, Bob Kahn (as IPTO director started the billion dollar Strategic Computing Initiative), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Bob_Kahn
+  - for: note
+    source: Wikipedia, Strategic Computing Initiative (1983 to 1993; Kahn gave early leadership; inspired by Japan's fifth generation project), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Strategic_Computing_Initiative
+  status: checked
+- id: john-mcdermott
+  note: Carnegie Mellon computer scientist who wrote R1 in 1978, an expert system that configured orders for Digital Equipment's VAX computers. As XCON, it went into use at DEC in 1980.
+  roles:
+  - researcher
+  sources:
+  - for: roles
+    source: Wikipedia, Xcon (written in OPS5 by John P. McDermott of Carnegie Mellon University in 1978), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Xcon
+  - for: note
+    source: Wikipedia, Xcon (first went into use in 1980 in DEC's plant in Salem, New Hampshire), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Xcon
+  status: checked
+- id: john-searle
+  lifespan: 1932–2025
+  note: Philosopher who put forward the Chinese Room argument in 1980. It holds that a computer running a program cannot have a mind or understanding, however intelligently it behaves.
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, John Searle (born 31 July 1932; died 17 September 2025, citing Alex Traub, The New York Times, 12 October 2025), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Searle
+  - for: lifespan
+    source: Dustin Sigsbee, John Searle (1932-2025), Daily Nous, 28 September 2025
+    url: https://dailynous.com/2025/09/28/john-searle-1932-2025/
+  - for: roles
+    source: Wikipedia, John Searle (American philosopher), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Searle
+  - for: note
+    source: Wikipedia, John Searle (1980, Minds, Brains and Programs, Behavioral and Brain Sciences), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/John_Searle
+  - for: note
+    source: Wikipedia, Chinese room, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Chinese_room
+  status: checked
+- id: satya-nadella
+  lifespan: born 1967
+  roles:
+  - founder
+  labs:
+  - lab: microsoft
+    from: 1992
+  sources:
+  - for: lifespan
+    source: Wikipedia, Satya Nadella, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Satya_Nadella
+  - for: roles
+    source: Wikipedia, Satya Nadella (chief executive of Microsoft from February 2014; chairman from 2021), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Satya_Nadella
+  - for: labs
+    source: Wikipedia, Satya Nadella (joined Microsoft in 1992), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Satya_Nadella
+  - for: labs
+    source: Microsoft Source, Satya Nadella, Chairman and Chief Executive Officer (joined Microsoft in 1992; named CEO in February 2014), accessed 23 November 2026
+    url: https://news.microsoft.com/source/exec/satya-nadella/
+  status: checked
+- id: steve-jobs
+  lifespan: 1955–2011
+  roles:
+  - founder
+  sources:
+  - for: lifespan
+    source: Wikipedia, Steve Jobs, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Jobs
+  - for: roles
+    source: Wikipedia, Steve Jobs (co-founded Apple in 1976; chief executive from 1997 to 2011), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Jobs
+  status: checked
+- id: alex-hanna
+  roles:
+  - critic
+  - researcher
+  labs:
+  - lab: google
+    to: 2022
+  sources:
+  - for: roles
+    source: Wikipedia, Alex Hanna (research scientist) (sociologist; director of research at DAIR; co-author of The AI Con, 2025; co-host of Mystery AI Hype Theater 3000), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alex_Hanna_(research_scientist)
+  - for: labs
+    source: Igor Bonifacic, Two more AI ethics researchers follow Timnit Gebru out of Google, Engadget, 2 February 2022
+    url: https://www.engadget.com/alex-hanna-dylan-baker-dair-233014682.html
+  - for: labs
+    source: Department of Sociology, UW–Madison, Alex Hanna (Ph.D. '16) Named One of 100 Brilliant Women in AI Ethics for 2021, 21 December 2020 (senior research scientist on Google's Ethical AI team)
+    url: https://sociology.wisc.edu/2020/12/21/alex-hanna-ph-d-2016-named-one-of-100-brilliant-women-in-ai-ethics-for-2021/
+  - for: labs
+    source: Bloomberg, Two of Google's Ethical AI staffers leave to join ousted colleague's institute, BNN Bloomberg, 2022 (Hanna, a research scientist in the Ethical AI group, resigned)
+    url: https://www.bnnbloomberg.ca/two-of-google-s-ethical-ai-staffers-leave-to-join-ousted-colleague-s-institute-1.1717428
+  status: checked
+- id: bruce-buchanan
+  lifespan: born 1940
+  note: Stanford computer scientist who helped build DENDRAL, an early expert system in chemistry. With others, he directed Edward Shortliffe's doctoral work on MYCIN, an expert system for infectious diseases.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: 'HistoryofMedicine.com, author entry: BUCHANAN, Bruce G. (1940 – ) (entries: MYCIN paper with Shortliffe, 1975; Dendral project, 1980), accessed 23 November 2026'
+    url: https://historyofmedicine.com/author?id=11123
+  - for: lifespan
+    source: IT History Society, Bruce G. Buchanan ((b.) 1940; key figure at the Stanford AI Laboratory; University Professor of Computer Science Emeritus, University of Pittsburgh), accessed 23 November
+      2026
+    url: https://ithistory.org/node/31387
+  - for: roles
+    source: Bruce Buchanan, Bruce Buchanan's Home Page (Professor of Computer Science, Philosophy and Medicine), University of Pittsburgh, accessed 23 November 2026
+    url: https://people.cs.pitt.edu/~buchanan/
+  - for: note
+    source: 'US National Library of Medicine, Computers, Artificial Intelligence, and Expert Systems in Biomedical Research, Joshua Lederberg: Profiles in Science, accessed 23 November 2026'
+    url: https://profiles.nlm.nih.gov/spotlight/bb/feature/ai
+  - for: note
+    source: Wikipedia, Mycin (doctoral dissertation of Edward Shortliffe under the direction of Bruce G. Buchanan, Stanley N. Cohen and others), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mycin
+  status: checked
+- id: edward-shortliffe
+  lifespan: born 1947
+  note: Physician and computer scientist who built MYCIN at Stanford in the early 1970s, an expert system for infectious diseases. It was his doctoral dissertation.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Edward H. Shortliffe, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Edward_H._Shortliffe
+  - for: roles
+    source: Wikipedia, Edward H. Shortliffe (biomedical informatician, physician and computer scientist), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Edward_H._Shortliffe
+  - for: note
+    source: Wikipedia, Mycin (developed by Shortliffe at Stanford over five or six years in the early 1970s as his doctoral dissertation), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Mycin
+  - for: note
+    source: 'US National Library of Medicine, Computers, Artificial Intelligence, and Expert Systems in Biomedical Research (MYCIN, a program for infectious diseases), Joshua Lederberg: Profiles in Science,
+      accessed 23 November 2026'
+    url: https://profiles.nlm.nih.gov/spotlight/bb/feature/ai
+  status: checked
+- id: george-heilmeier
+  lifespan: 1936–2014
+  note: Engineer whose work led to the first liquid crystal displays, and director of DARPA from 1975 to 1977. His Heilmeier Catechism asks every research proposal to state its goals, risks, costs and payoffs.
+  roles:
+  - official
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, George H. Heilmeier, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_H._Heilmeier
+  - for: roles
+    source: Wikipedia, George H. Heilmeier (engineer; Director of DARPA 1975 to 1977), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_H._Heilmeier
+  - for: note
+    source: Wikipedia, George H. Heilmeier (liquid crystal displays; DARPA directorship; Heilmeier Catechism), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/George_H._Heilmeier
+  status: checked
+- id: j-c-r-licklider
+  lifespan: 1915–1990
+  roles:
+  - researcher
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, J. C. R. Licklider, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._C._R._Licklider
+  - for: roles
+    source: Wikipedia, J. C. R. Licklider (psychologist and computer scientist; head of ARPA's IPTO 1962 to 1964 and again 1974 to 1975), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/J._C._R._Licklider
+  status: checked
+- id: amos-tversky
+  lifespan: 1937–1996
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Amos Tversky, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Amos_Tversky
+  - for: roles
+    source: Wikipedia, Amos Tversky (cognitive and mathematical psychologist), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Amos_Tversky
+  status: checked
+- id: daniel-kahneman
+  lifespan: 1934–2024
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, Daniel Kahneman, accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniel_Kahneman
+  - for: roles
+    source: Wikipedia, Daniel Kahneman (psychologist; 2002 Nobel Memorial Prize in Economic Sciences), accessed 23 November 2026
+    url: https://en.wikipedia.org/wiki/Daniel_Kahneman
+  status: checked
