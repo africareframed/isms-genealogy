@@ -124,7 +124,7 @@ const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) =
                   </summary>
                   <div class="hm-b">
                     {m.data.who && <p class="who">{m.data.who}</p>}
-                    <p class="ib">{m.data.text}</p>
+                    <div class="ibs">{m.data.text.trim().split(/\n\s*\n/).map((para) => <p class="ib">{para.trim()}</p>)}</div>
                     <p class="src">{m.data.sourceUrl ? <a href={m.data.sourceUrl}>{m.data.source}</a> : m.data.source}</p>
                     {m.data.status === 'draft' && <span class="draft">Draft · to be checked</span>}
                     {(m.data.isms.length > 0 || m.data.themes.length > 0) && (
