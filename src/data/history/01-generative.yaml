@@ -177,6 +177,22 @@
   thread: warnings
   status: checked
 
+- id: 2026-iran-war
+  era: generative
+  year: 2026
+  month: 2
+  day: 28
+  title: The Iran war
+  line: The United States and Israel strike Iran, and the US commander says AI tools turn hours of work into seconds.
+  who: United States Central Command; Israel; Palantir; Anthropic
+  text: "On 28 February 2026 the United States and Israel attacked Iran; US forces hit over 1,000 targets in a day, their top general said. In 38 days of major combat they made over 13,500 strikes, Central Command's commander told the US Senate in May. The Pentagon's AI chief said the strikes used Palantir's Maven system; the Washington Post's sources said Anthropic's Claude helped it suggest and rank targets. On day one a US missile hit a girls' school in Minab, killing over 150; early findings blamed outdated data, with AI's role unconfirmed."
+  source: "C. Todd Lopez, “Hegseth says ‘Epic Fury’ goals in Iran are ‘laser-focused’”, Pentagon News (army.mil), 3 March 2026 (Gen. Dan Caine, 1,000 targets); Adm. Brad Cooper, written statement to the Senate Armed Services Committee, 14 May 2026 (13,500 strikes in 38 days, with the Israel Defense Forces); Sydney J. Freedberg Jr., “‘Insatiable appetite’ for AI: Maven usage surged for strikes on Iran, Pentagon AI chief says”, Breaking Defense, 12 May 2026 (Cameron Stanley); The Washington Post, 4 March 2026, as reported in Katie Livingstone, “Deadly Iran school strike casts shadow over Pentagon's AI targeting push”, Military Times, 24 March 2026 (Claude); Aamer Madhani, Julia Frankel, Michael Biesecker and Eric Tucker, “Outdated intel likely led US to carry out deadly strike on Iranian elementary school, AP sources say”, Associated Press, 12 March 2026; Jennifer H. Svan, “UN report cites possible US war crimes in deadly strikes on Iran school, sports center”, Stars and Stripes, 18 September 2026 (157 dead); NPR, Fresh Air, “America's first AI-fueled war is unfolding right now in Iran. This is how we got here”, 26 March 2026 (AI's role unconfirmed); Jon Harper, “Centcom commander touts use of AI in fight against Iran during Operation Epic Fury”, DefenseScoop, 11 March 2026 (hours into seconds)"
+  sourceUrl: https://www.armed-services.senate.gov/imo/media/doc/cooper_statement.pdf
+  isms: []
+  themes: []
+  thread: war
+  status: checked
+
 - id: 2026-claude-constitution
   era: generative
   year: 2026
@@ -379,6 +395,22 @@
   isms: []
   themes: [facial-recognition]
   thread: law
+  status: checked
+
+- id: 2024-target-factory
+  era: generative
+  year: 2024
+  month: 4
+  day: 3
+  title: The target factory
+  line: In Gaza, Israel's army uses AI systems and mass surveillance to produce targets far faster than before.
+  who: Israel Defense Forces; Unit 8200; Aviv Kochavi; +972 Magazine and Local Call; The Guardian; Microsoft
+  text: "Israel's army once produced 50 targets in Gaza a year; in 2021 an AI system made 100 a day, its former chief said. After 7 October 2023, officers told +972 and Local Call, its AI system Lavender marked up to 37,000 Palestinians as suspected militants. The army denied using an AI system to identify militants, saying its tools only assist officers and an analyst checks each target. In 2025 reports said Unit 8200 stored Palestinians' calls on Microsoft's cloud, aiming for a million an hour; Microsoft then cut off some services."
+  source: "Ron Leshem, “IDF possesses Matrix-like capabilities, ex-Israeli army chief says”, Ynetnews, 30 June 2023 (Kochavi's figures); Harry Davies, Bethan McKernan and Dan Sabbagh, “‘The Gospel’: how Israel uses AI to select bombing targets in Gaza”, The Guardian, 1 December 2023 (the machine first used in the May 2021 war); Yuval Abraham, “‘Lavender’: The AI machine directing Israel's bombing spree in Gaza”, +972 Magazine and Local Call, 3 April 2024 (37,000; the army's response); Yuval Abraham, “Microsoft storing Israeli intelligence trove used to attack Palestinians”, +972 Magazine and Local Call, in a joint investigation with The Guardian (Harry Davies), 6 August 2025; Microsoft, “Update on ongoing Microsoft review”, Microsoft On the Issues, 25 September 2025 (services to a unit of Israel's Ministry of Defence ceased and disabled)"
+  sourceUrl: https://www.972mag.com/lavender-ai-israeli-army-gaza/
+  isms: []
+  themes: []
+  thread: war
   status: checked
 
 - id: 2024-gemini-images
