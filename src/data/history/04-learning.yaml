@@ -7,10 +7,15 @@
   era: learning
   year: 2011
   month: 10
-  title: Siri
+  title: Apple launches Siri
   line: Apple puts a voice assistant on its new iPhone.
   who: Apple
-  text: Apple announced the iPhone 4S on 4 October 2011 with Siri, “an intelligent assistant that helps you get things done just by asking”. Users could speak to make calls, send messages, schedule meetings and reminders, or look up facts. Siri launched as a beta, in English, French and German.
+  text: |
+    Apple announced the iPhone 4S on 4 October 2011 with Siri, “an intelligent assistant that helps you get things done just by asking”. Users could speak to make calls, send messages, schedule meetings and reminders, or look up facts.
+
+    Apple said Siri understood context, so people could speak naturally: asked whether an umbrella was needed that weekend, it knew to fetch the forecast. It could also use personal details people allowed it, such as names in their address book and their location.
+
+    Siri launched as a beta, in English, French and German.
   source: "Apple, “Apple Launches iPhone 4S, iOS 5 & iCloud”, press release, 4 October 2011"
   sourceUrl: https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/
   thread: talking
@@ -25,7 +30,12 @@
   title: Watson wins Jeopardy!
   line: IBM's question-answering machine beats two champions on television.
   who: IBM Research, led by David Ferrucci
-  text: In a televised two-match contest over three days, Watson beat Ken Jennings and Brad Rutter, the show's two foremost champions. It answered questions put in natural language without being connected to the internet. The room-sized system used 90 servers with 2,880 processor cores. Watson won $77,147, against $24,000 for Jennings and $21,600 for Rutter.
+  text: |
+    Watson, IBM's question-answering system, was built to understand questions put in everyday language, not just keywords as search engines did. In February 2011, in two televised matches over three days, it beat Ken Jennings and Brad Rutter, the quiz show's two foremost champions.
+
+    For each clue it ran hundreds of algorithms at once, buzzing in only when confident enough, all within about three seconds. It ran on 90 servers with 2,880 processor cores, filling a room, and was not connected to the internet.
+
+    It won $77,147, against $24,000 for Jennings and $21,600 for Rutter, despite answering “Toronto” to a clue in the category US Cities. IBM went on to apply Watson's technology in business, from weather forecasts for retailers to finance.
   source: "IBM, “Watson, ‘Jeopardy!’ champion”, IBM History"
   sourceUrl: https://www.ibm.com/history/watson-jeopardy
   thread: games
@@ -39,7 +49,10 @@
   title: DeepMind is founded
   line: A small start-up sets out to understand and recreate intelligence.
   who: Demis Hassabis, Shane Legg and Mustafa Suleyman
-  text: Hassabis, Legg and Suleyman founded DeepMind in 2010, aiming to answer big questions by understanding and recreating intelligence. Hassabis later called it a tiny start-up working in a very unfashionable area. In August 2010 he met the investor Peter Thiel at his home, after the Singularity Summit. Thiel went on to invest £1.4 million, and let the company stay in London.
+  text: |
+    Demis Hassabis, Shane Legg and Mustafa Suleyman founded DeepMind in 2010, aiming to answer big questions by understanding and recreating intelligence. Hassabis, a former junior chess star and game designer, later called it a “tiny start-up working in a very unfashionable area”. Its approach blended machine learning with neuroscience, the study of the brain.
+
+    In August 2010 Hassabis met the investor Peter Thiel at his home, after the Singularity Summit. Given a minute, he talked about chess, which Thiel had also played as a junior, instead of pitching his business. Thiel went on to invest £1.4 million and let it stay in London rather than move to Silicon Valley; Google bought DeepMind in 2014.
   source: "Demis Hassabis, “Entering our tenth year at DeepMind”, DeepMind blog, 5 December 2019; CNBC, “DeepMind's Demis Hassabis used chess to get Peter Thiel's attention”, 7 December 2020, reporting The Sunday Times"
   sourceUrl: https://deepmind.google/blog/announcements/entering-our-tenth-year-at-deepmind
   thread: booms-winters
@@ -50,11 +63,16 @@
 - id: 2009-imagenet
   era: learning
   year: 2009
-  title: ImageNet
+  title: ImageNet is built
   line: Princeton researchers build a vast library of labelled images.
   who: Jia Deng, Li Fei-Fei, Kai Li and colleagues, Princeton University
-  text: ImageNet sorted photographs into the categories of WordNet, a database of English words. At its debut it held 3.2 million images in 5,247 categories, and aimed at around 50 million. Workers on Amazon Mechanical Turk checked each image, with several voting independently.
-  source: "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, “ImageNet: A Large-Scale Hierarchical Image Database”, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009"
+  text: |
+    Programs that recognise objects learn from labelled pictures, and a Princeton team set out to supply them on a new scale. ImageNet sorted photographs into the categories of WordNet, a database of English words, from “mammal” down to “husky”. At its debut it held 3.2 million images in 5,247 categories, and aimed at around 50 million.
+
+    Candidate pictures came from image search engines, queried in several languages. Workers on Amazon Mechanical Turk, an online platform for small paid tasks, then checked each image, with several voting independently.
+
+    In 2010 ImageNet launched a yearly contest, with 1.2 million training images in 1,000 categories; a deep network won it in 2012.
+  source: "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, “ImageNet: A Large-Scale Hierarchical Image Database”, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009; ImageNet, “Large Scale Visual Recognition Challenge 2010”, challenge page, image-net.org; ImageNet, “ILSVRC2012” results, image-net.org"
   sourceUrl: https://wordnet.cs.princeton.edu/papers/imagenet_cvpr09.pdf
   thread: compute
   isms: []
@@ -68,8 +86,13 @@
   title: CUDA opens graphics chips to computing
   line: Nvidia lets programmers use its graphics chips for general calculation.
   who: Nvidia
-  text: On 16 November 2006 Nvidia unveiled CUDA, with a C compiler for programming its graphics processors. It ran on the new GeForce 8800, whose 128 processor cores could cooperate on one problem. In 2009 a Stanford team reported training deep belief nets up to 70 times faster on such chips than on a dual-core processor.
-  source: "Nvidia, press release on CUDA, 16 November 2006, in Computer Graphics World; Rajat Raina, Anand Madhavan and Andrew Y. Ng, “Large-scale Deep Unsupervised Learning using Graphics Processors”, ICML 2009"
+  text: |
+    Graphics processors, or GPUs, are the chips that draw images on a computer screen, using many small cores working in parallel. On 16 November 2006 Nvidia unveiled CUDA, which let programmers use its graphics chips for general calculation, writing in the common language C.
+
+    It ran on the new GeForce 8800, whose 128 processor cores could cooperate on one problem. Nvidia pictured uses in product design, data analysis, technical computing and game physics, claiming speeds up to 100 times those of traditional approaches.
+
+    In 2009 a Stanford team reported training deep belief nets up to 70 times faster on such chips than on a dual-core processor. A four-layer network with 100 million adjustable weights, which had needed weeks of training, now took about a day.
+  source: "Nvidia, press release on CUDA, 16 November 2006, in Computer Graphics World; Rajat Raina, Anand Madhavan and Andrew Y. Ng, “Large-scale Deep Unsupervised Learning using Graphics Processors”, Proceedings of the 26th International Conference on Machine Learning (ICML), 2009 (the proceedings version gives up to 70 times; a later abstract gives 55)"
   sourceUrl: https://www.cgw.com/Press-Center/News/2006/Nvidia-Introduces-CUDA-Architecture-for-Computin.aspx
   thread: compute
   isms: []
@@ -80,11 +103,16 @@
   era: learning
   year: 2006
   month: 7
-  title: Deep belief nets
+  title: Hinton trains deep networks
   line: Hinton's group shows how to train networks many layers deep.
   who: Geoffrey Hinton, Simon Osindero and Yee-Whye Teh
-  text: The paper gave a fast, greedy method that trains a deep network one layer at a time, before slower fine-tuning. Its model of handwritten digits, with three hidden layers, classified them better than the best discriminative methods. Hinton was then leading CIFAR's Neural Computation and Adaptive Perception programme, whose members included Yann LeCun and Yoshua Bengio.
-  source: "Geoffrey E. Hinton, Simon Osindero and Yee-Whye Teh, “A Fast Learning Algorithm for Deep Belief Nets”, Neural Computation 18 (7), 2006, pp. 1527–1554; CIFAR, “Our story”, cifar.ca"
+  text: |
+    Networks with many layers of artificial neurons were hard to train, and the field had long faced scepticism and patchy funding. Geoffrey Hinton, at the University of Toronto, had been backed by CIFAR, a Canadian research institute, since 1987.
+
+    His 2006 paper with Simon Osindero and Yee-Whye Teh trained a deep network quickly, one layer at a time, before slower fine-tuning. Its model of handwritten digits misread 1.25 per cent of test digits, slightly better than rivals not told how the pixels were arranged.
+
+    Hinton was then leading CIFAR's Neural Computation and Adaptive Perception programme, whose members included Yann LeCun and Yoshua Bengio. The three later shared the 2018 Turing Award for their work on deep learning.
+  source: "Geoffrey E. Hinton, Simon Osindero and Yee-Whye Teh, “A Fast Learning Algorithm for Deep Belief Nets”, Neural Computation 18 (7), 2006, pp. 1527–1554; CIFAR, “Our story”, cifar.ca; CIFAR, “Long-time CIFAR fellow Geoffrey Hinton awarded 2024 Nobel Prize in Physics”, 8 October 2024 (fellow since 1987; scepticism and an episodic dearth of funding; NCAP; the 2018 Turing Award)"
   sourceUrl: https://www.cs.utoronto.ca/~hinton/absps/ncfast.pdf
   thread: symbols-networks
   isms: []
@@ -97,8 +125,13 @@
   title: Stanley wins the desert race
   line: A robot car drives 132 miles of desert with no one aboard.
   who: Stanford Racing Team, led by Sebastian Thrun
-  text: In 2004 no vehicle finished DARPA's Grand Challenge across the desert, and its $1 million prize went unclaimed. On 8 October 2005 five teams completed the 132-mile course. Stanford's Stanley, a modified Volkswagen Touareg, won in just under seven hours and took the $2 million prize.
-  source: "DARPA, “The Grand Challenge”, Innovation Timeline; “Computerized Car Is Champ”, Stanford Magazine, November/December 2005"
+  text: |
+    Congress had set the armed forces a goal: by 2015, a third of their ground combat vehicles should be unmanned. To speed this up, DARPA, the Pentagon's research agency, staged the Grand Challenge, a desert race for vehicles with no one aboard. In 2004 none finished, and its $1 million prize went unclaimed; the farthest got just under seven and a half miles.
+
+    On 8 October 2005 five teams completed the 132-mile course. Stanford's Stanley, a modified Volkswagen Touareg built by Sebastian Thrun's team, won in just under seven hours and took the $2 million prize.
+
+    Its lasers marked out drivable ground just ahead, and its software used those patches to learn what road looked like on camera.
+  source: "DARPA, “The Grand Challenge”, Innovation Timeline; “Computerized Car Is Champ”, Stanford Magazine, November/December 2005; Greta Lorge, “Drivers Not Wanted”, Stanford Magazine, January/February 2006; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 32 (the goal in the Defense Authorization Act for fiscal 2001; the farthest run in 2004; Stanley's lasers and camera)"
   sourceUrl: https://www.darpa.mil/about/innovation-timeline/grand-challenge
   thread: made-beings
   isms: []
@@ -108,11 +141,16 @@
 - id: 2003-palantir
   era: learning
   year: 2003
-  title: Palantir
+  title: Palantir is founded
   line: Peter Thiel and partners set up a company to help US spy agencies make sense of their data.
   who: Peter Thiel; Alex Karp; Stephen Cohen; Joe Lonsdale; Nathan Gettings; In-Q-Tel
-  text: "In 2003, after 9/11, Peter Thiel and partners founded Palantir for US counter-terrorism work; In-Q-Tel, the CIA's venture arm, invested more than $2 million. Its software spread from spy agencies to the military and police, then to banks and companies, US immigration and health agencies, and England's NHS. In 2019 it took over Google's role in Project Maven, the Pentagon's AI programme, which Google quit after staff protests in 2018. Its 2023 Artificial Intelligence Platform linked language models to clients' data; US officials said its Maven Smart System helped pick Iranian targets in 2026."
-  source: "Palantir Technologies Inc., Form S-1 Registration Statement, US Securities and Exchange Commission, 25 August 2020 (founded and incorporated in 2003; software for US intelligence to assist counter-terrorism; Gotham first, Foundry later for companies; Karp, Cohen and Thiel as co-founders); Alexander C. Karp and Nicholas W. Zamiska, The Technological Republic, Vintage paperback, 2026, first published 2025 (founded in the years after the September 11 attacks to work for US defence and intelligence agencies); Andy Greenberg and Ryan Mac, “How A ‘Deviant’ Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut”, Forbes, 14 August 2013 (founders; In-Q-Tel, the CIA's venture arm, more than $2 million in two rounds; the CIA its only customer 2005–08; Marines, NYPD and LAPD; JPMorgan its first commercial customer, 2010); Spencer Woodman, “Palantir Provides the Engine for Donald Trump's Deportation Machine”, The Intercept, 2 March 2017 (ICE's $41 million case-management contract, 2014); Palantir, “CDC Partners with Palantir to Bolster the Fight Against COVID-19”, Business Wire, February 2022 (a longtime CDC partner, including against Ebola; HHS's Tiberius platform, 2020); NHS England, “New NHS software to improve care for millions of patients”, November 2023 (Federated Data Platform: up to £330 million over seven years to a Palantir-led group); Tristan Greene, “Report: Palantir took over Project Maven, the military AI program too unethical for Google”, The Next Web, 11 December 2019 (after Business Insider); Matt Mande and Gregory C. Allen, “What Is Maven Smart System, and What Does It Do?”, CSIS, 2 June 2026 (Google withdrew in 2018 after staff protests; Maven Smart System grew out of Project Maven on Palantir's platform); Andrew Tarantola, “Palantir shows off an AI that can go to war”, Engadget, 26 April 2023, and Jake Rudnitsky, “Peter Thiel's Palantir sees ‘unprecedented’ demand for A.I.”, Fortune (with Bloomberg), 9 May 2023 (AIP connects language models to clients' own data and networks); Michael Klare, “AI Plays Major Role in the War on Iran”, Arms Control Today, May 2026, and Sydney J. Freedberg Jr., “‘Insatiable appetite’ for AI: Maven usage surged for strikes on Iran, Pentagon AI chief says”, Breaking Defense, 12 May 2026 (senior US officials, among them the Pentagon's chief digital and AI officer Cameron Stanley, on Maven Smart System's role in choosing targets)"
+  text: |
+    Palantir was founded in 2003, after the 11 September attacks, to build software for US intelligence agencies' counter-terrorism work. Its founders included Peter Thiel, a co-founder of PayPal, and Alex Karp, Palantir's chief executive; In-Q-Tel, the CIA's venture arm, invested over $2 million.
+
+    Its software, which pulls scattered records into one picture, spread from spy agencies to the military and police. From 2010 it also sold to banks and companies, then to US immigration and health agencies and England's NHS.
+
+    In 2019 it took over Google's role in Project Maven, the Pentagon's AI programme, which Google had quit after staff protests. From 2023 it linked language models to clients' data; in the 2026 Iran war, US officials said, its Maven Smart System helped pick targets.
+  source: "Palantir Technologies Inc., Form S-1 Registration Statement, US Securities and Exchange Commission, 25 August 2020 (founded and incorporated in 2003; software for US intelligence to assist counter-terrorism; Gotham and Foundry join an organisation's siloed systems into one data asset; Karp, Cohen and Thiel as co-founders, Karp as chief executive); Alexander C. Karp and Nicholas W. Zamiska, The Technological Republic, Vintage paperback, 2026, first published 2025 (founded in the years after the September 11 attacks to work for US defence and intelligence agencies); Andy Greenberg and Ryan Mac, “How A ‘Deviant’ Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut”, Forbes, 14 August 2013 (founders; In-Q-Tel, the CIA's venture arm, more than $2 million in two rounds; the CIA its only customer 2005–08; Marines, NYPD and LAPD, the NYPD before 2010; JPMorgan its first commercial customer, 2010); CNBC, “DeepMind's Demis Hassabis used chess to get Peter Thiel's attention”, 7 December 2020 (Thiel a co-founder of PayPal and Palantir); Spencer Woodman, “Palantir Provides the Engine for Donald Trump's Deportation Machine”, The Intercept, 2 March 2017 (ICE's $41 million case-management contract, 2014); Palantir, “CDC Partners with Palantir to Bolster the Fight Against COVID-19”, Business Wire, February 2022 (a longtime CDC partner, including against Ebola; HHS's Tiberius platform, 2020); NHS England, “New NHS software to improve care for millions of patients”, November 2023 (Federated Data Platform: up to £330 million over seven years to a Palantir-led group); Tristan Greene, “Report: Palantir took over Project Maven, the military AI program too unethical for Google”, The Next Web, 11 December 2019 (after Business Insider); Matt Mande and Gregory C. Allen, “What Is Maven Smart System, and What Does It Do?”, CSIS, 2 June 2026 (Google withdrew in 2018 after staff protests; Palantir stepped in shortly after; Maven Smart System is powered by the Palantir platform); Andrew Tarantola, “Palantir shows off an AI that can go to war”, Engadget, 26 April 2023, and Jake Rudnitsky, “Peter Thiel's Palantir sees ‘unprecedented’ demand for A.I.”, Fortune (with Bloomberg), 9 May 2023 (AIP connects language models to clients' own data and networks); Michael Klare, “AI Plays Major Role in the War on Iran”, Arms Control Today, May 2026 (Operation Epic Fury, the US campaign against Iran from 28 February 2026; senior US officials said Maven, produced by Palantir, helped identify top-priority targets), and Sydney J. Freedberg Jr., “‘Insatiable appetite’ for AI: Maven usage surged for strikes on Iran, Pentagon AI chief says”, Breaking Defense, 12 May 2026 (senior US officials, among them the Pentagon's chief digital and AI officer Cameron Stanley, on Maven Smart System's role in choosing targets)"
   sourceUrl: https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm
   isms: []
   themes: []
@@ -122,10 +160,15 @@
 - id: 1998-lenet-mnist
   era: learning
   year: 1998
-  title: LeNet and the MNIST digits
+  title: A network learns to read handwriting
   line: A convolutional network learns to read handwriting, and millions of cheques.
   who: Yann LeCun, Léon Bottou, Yoshua Bengio and Patrick Haffner
-  text: The paper argued that networks trained by backpropagation could classify handwritten characters with minimal preprocessing. Its convolutional network, LeNet-5, was tested on MNIST, a set of 60,000 training digits built from two US NIST collections. On that test, convolutional networks outperformed every other technique compared. A cheque-reading system built on these methods read several million cheques a day.
+  text: |
+    Yann LeCun's team at AT&T Labs argued that networks could learn to read handwriting from examples, rather than rely on features designed by hand. Their convolutional network, LeNet-5, scanned each image with small detectors for edges, line ends and corners, then combined them layer by layer.
+
+    To compare methods fairly, the team built MNIST, mixing digits written by US Census Bureau staff and by high-school students. It held 60,000 training digits and 10,000 for testing, drawn from two collections of NIST, the US standards agency. Convolutional networks beat every other technique compared, and LeNet-5 misread under 1 per cent of the test digits.
+
+    A cheque-reading system built on these methods, sold by NCR to American banks, read several million cheques a day.
   source: "Yann LeCun, Léon Bottou, Yoshua Bengio and Patrick Haffner, “Gradient-Based Learning Applied to Document Recognition”, Proceedings of the IEEE 86 (11), November 1998"
   sourceUrl: https://gwern.net/doc/ai/nn/cnn/1998-lecun.pdf
   thread: symbols-networks
@@ -137,11 +180,16 @@
   era: learning
   year: 1997
   month: 11
-  title: Long short-term memory
+  title: Networks learn to remember
   line: A recurrent network learns to remember across long sequences.
   who: Sepp Hochreiter and Jürgen Schmidhuber
-  text: Recurrent networks trained by backpropagation struggled to link events far apart in time, because their error signals faded. Hochreiter and Schmidhuber added memory cells that keep the error flowing, with gates that control access to them. On artificial tasks their network bridged time lags of more than 1,000 steps.
-  source: "Sepp Hochreiter and Jürgen Schmidhuber, “Long Short-Term Memory”, Neural Computation 9 (8), 1997, pp. 1735–1780"
+  text: |
+    Recurrent networks read a sequence, such as speech or text, one step at a time, carrying a memory of what came before. Trained by backpropagation, they struggled to link events far apart, because their error signals faded as they flowed back.
+
+    Sepp Hochreiter and Jürgen Schmidhuber added memory cells that keep the error flowing, with gates that learn to open and close access to them. On artificial tasks their network bridged gaps of more than 1,000 steps, solving problems no earlier recurrent network had solved.
+
+    In 2016 Google built its new translation system on deep LSTM networks.
+  source: "Sepp Hochreiter and Jürgen Schmidhuber, “Long Short-Term Memory”, Neural Computation 9 (8), 1997, pp. 1735–1780; Yonghui Wu and others, “Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation”, arXiv:1609.08144, 26 September 2016"
   sourceUrl: https://mlanthology.org/neco/1997/hochreiter1997neco-long
   thread: symbols-networks
   isms: []
@@ -155,8 +203,13 @@
   title: Deep Blue beats Kasparov
   line: An IBM computer defeats the world chess champion in a match.
   who: IBM Research (Feng-hsiung Hsu, Murray Campbell, Joe Hoane and others), against Garry Kasparov
-  text: IBM hired Hsu and Campbell in 1989 to build a chess computer. In February 1996 Kasparov beat it 4–2, though it won the first game. In the May 1997 rematch in New York, Deep Blue won 3½–2½. It used 32 processors and could evaluate 200 million chess positions a second.
-  source: "IBM, “Deep Blue”, IBM History"
+  text: |
+    Chess had long been seen as a test of whether a computer could rival the human brain. In 1989 IBM hired Feng-hsiung Hsu and Murray Campbell to build Deep Blue, which lost 4–2 to the world champion, Garry Kasparov, in 1996. In the 1997 rematch in New York it won 3½–2½, the first match a computer had won against a reigning champion at tournament pace.
+
+    Its strength was brute computing power: 32 processors and 256 chips made for chess, evaluating 200 million positions a second. IBM itself said Deep Blue could not learn: Kasparov adapted as he played, while only its makers could adjust it, between games.
+
+    Kasparov implied that human players had intervened in the second game and wanted a rematch, but IBM retired the machine to the Smithsonian.
+  source: "IBM, “Deep Blue”, IBM History (32 processors; 200 million positions a second; retired to the Smithsonian); Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 32, quoting IBM's Deep Blue website (256 chess processors; not a learning system; Kasparov's implication about the second game)"
   sourceUrl: https://ibm.com/history/deep-blue
   thread: games
   isms: []
@@ -171,7 +224,10 @@
   title: The coming technological singularity
   line: Vinge tells a NASA symposium that the human era may soon end.
   who: Vernor Vinge
-  text: At a symposium held by NASA's Lewis Research Center and the Ohio Aerospace Institute, Vinge predicted superhuman intelligence within thirty years. He named four routes, from intelligent computers and networks that wake up to close human–computer links and improved biology. Shortly after, he argued, “the human era will be ended”.
+  text: |
+    Vernor Vinge, of San Diego State University's mathematics department, spoke at a symposium held by NASA's Lewis Research Center and the Ohio Aerospace Institute. He expected the means to create superhuman intelligence within thirty years, probably between 2005 and 2030.
+
+    He named four routes, from intelligent computers and networks that wake up to close human–computer links and improved biology. He called the change a singularity: a point beyond which our models no longer hold. Shortly after, he argued, “the human era will be ended”.
   source: "Vernor Vinge, “The Coming Technological Singularity: How to Survive in the Post-Human Era”, VISION-21 Symposium, NASA Lewis Research Center and Ohio Aerospace Institute, 30–31 March 1993"
   sourceUrl: https://edoras.sdsu.edu/~vinge/misc/singularity.html
   thread: warnings
