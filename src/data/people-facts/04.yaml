@@ -1,0 +1,669 @@
+# People facts, batch 04: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: cathy-oneil
+  lifespan: born 1972
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Cathy O'Neil', English Wikipedia, read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Cathy_O%27Neil
+  - for: roles
+    source: Wikipedia, 'Cathy O'Neil' (mathematician, author of Weapons of Math Destruction, founder of the algorithmic auditing firm ORCAA), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Cathy_O%27Neil
+  status: checked
+- id: julia-angwin
+  roles:
+  - writer
+  sources:
+  - for: roles
+    source: Wikipedia, 'Julia Angwin' (investigative journalist and author; co-founder and editor-in-chief of The Markup), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Julia_Angwin
+  status: checked
+- id: lee-sedol
+  lifespan: born 1983
+  note: Go champion who lost four of five games to DeepMind's AlphaGo in March 2016. He retired in 2019, saying AI was an opponent that could not be beaten.
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Lee Sedol' (born 2 March 1983), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Lee_Sedol
+  - for: note
+    source: Wikipedia, 'Lee Sedol' (AlphaGo match from 9 March 2016, lost 1–4; retirement announced 19 November 2019, citing AI as an entity that cannot be defeated), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Lee_Sedol
+  status: checked
+- id: elon-musk
+  lifespan: born 1971
+  note: Co-founded OpenAI in 2015 and left its board in 2018. In 2023 he signed the pause letter and launched xAI, maker of the Grok chatbot.
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2015
+    to: 2018
+  letters:
+  - pause-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Elon Musk' (born 28 June 1971), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Elon_Musk
+  - for: roles
+    source: Wikipedia, 'Elon Musk' (chief executive of Tesla and SpaceX; co-founder of PayPal, OpenAI, Neuralink), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Elon_Musk
+  - for: labs
+    source: Wikipedia, 'Elon Musk' (co-founded OpenAI in December 2015; left the OpenAI board in 2018), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Elon_Musk
+  - for: labs
+    source: Kyle Wiggers, 'A brief look at the history of OpenAI's board', TechCrunch, 21 November 2023
+    url: https://techcrunch.com/2023/11/21/a-brief-look-at-the-history-of-openais-board
+  - for: letters
+    source: 'Wikipedia, ''Pause Giant AI Experiments: An Open Letter'' (names Musk among the signatories), read 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: note
+    source: Wikipedia, 'Elon Musk' (OpenAI 2015, left board 2018; launched xAI in July 2023; Grok first released November 2023), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Elon_Musk
+  status: checked
+- id: greg-brockman
+  lifespan: born 1987
+  note: Co-founded OpenAI in 2015, first as chief technology officer and later as president. He quit when Sam Altman was fired in November 2023 and returned with him days later.
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2015
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Greg Brockman' (born 29 November 1987), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Greg_Brockman
+  - for: roles
+    source: Wikipedia, 'Greg Brockman' (co-founder, first CTO and president of OpenAI; earlier CTO of Stripe), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Greg_Brockman
+  - for: labs
+    source: Wikipedia, 'Greg Brockman' (co-founded OpenAI in December 2015; still there in 2026 after a sabbatical August–November 2024), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Greg_Brockman
+  - for: note
+    source: Wikipedia, 'Greg Brockman' (co-founded OpenAI in December 2015 and served as its CTO, later president; quit on 17 November 2023 after Altman's firing; returned after Altman's reinstatement days
+      later), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Greg_Brockman
+  status: checked
+- id: noam-chomsky
+  lifespan: born 1928
+  note: Linguist and social critic. Signed the 2015 open letter against autonomous weapons.
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Noam Chomsky' (born 7 December 1928; no death date), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Noam_Chomsky
+  - for: roles
+    source: Wikipedia, 'Noam Chomsky' (linguist, philosopher, cognitive scientist, political activist and social critic), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Noam_Chomsky
+  - for: note
+    source: Lucas Matney, 'Hawking, Musk Warn Of Virtually Inevitable AI Arms Race', TechCrunch, 27 July 2015 (names Chomsky as a signatory)
+    url: https://techcrunch.com/2015/07/27/artificially-assured-destruction/amp/
+  status: checked
+- id: reid-hoffman
+  lifespan: born 1967
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    to: 2023
+  - lab: microsoft
+    from: 2017
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Reid Hoffman' (born 5 August 1967), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Reid_Hoffman
+  - for: roles
+    source: Wikipedia, 'Reid Hoffman' (co-founder of LinkedIn and Inflection AI; venture capitalist), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Reid_Hoffman
+  - for: labs
+    source: Wikipedia, 'Reid Hoffman' (resigned from the OpenAI board on 3 March 2023; Microsoft board member since 14 March 2017), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Reid_Hoffman
+  - for: labs
+    source: Kyle Wiggers, 'A brief look at the history of OpenAI's board', TechCrunch, 21 November 2023 (Hoffman joined the board in 2018 or 2019 and left in 2023; start year left out because sources differ)
+    url: https://techcrunch.com/2023/11/21/a-brief-look-at-the-history-of-openais-board
+  - for: labs
+    source: OpenAI, 'OpenAI LP', OpenAI blog, 11 March 2019 (lists Reid Hoffman on the OpenAI Nonprofit board as of that date)
+    url: https://openai.com/index/openai-lp/
+  - for: labs
+    source: Microsoft Corporation, Proxy Statement (Form DEF 14A) for the 2026 Annual Shareholders Meeting, SEC, 2026 (Hoffman has served nine years and is not seeking re-election; his board service ends
+      at the meeting on 8 December 2026, so the seat stays open until then)
+    url: https://www.sec.gov/Archives/edgar/data/0000789019/000119312526427849/d61756ddef14a.htm
+  status: checked
+- id: sam-altman
+  lifespan: born 1985
+  roles:
+  - founder
+  labs:
+  - lab: openai
+    from: 2015
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Sam Altman' (born 22 April 1985), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sam_Altman
+  - for: roles
+    source: Wikipedia, 'Sam Altman' (chief executive of OpenAI; former president of Y Combinator), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sam_Altman
+  - for: labs
+    source: Wikipedia, 'Sam Altman' (co-founded OpenAI in 2015; CEO from 2019; removed and reinstated November 2023), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Sam_Altman
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 1, aistatement.com, read 23 November 2026 (Sam Altman, CEO, OpenAI)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  status: checked
+- id: stephen-hawking
+  lifespan: 1942–2018
+  note: Physicist who warned in 2014 that thinking machines could end the human race. In 2015 he signed open letters on AI safety research and against autonomous weapons.
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Stephen Hawking' (8 January 1942 – 14 March 2018), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stephen_Hawking
+  - for: roles
+    source: Wikipedia, 'Stephen Hawking' (theoretical physicist and cosmologist, University of Cambridge), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stephen_Hawking
+  - for: note
+    source: RNZ, 'AI could be a threat to mankind', 3 December 2014 (Hawking told the BBC that thinking machines could spell the end of the human race)
+    url: https://www.rnz.co.nz/news/world/260826/ai-could-be-a-'threat-to-mankind
+  - for: note
+    source: Wikipedia, 'Future of Life Institute' (the 2015 Puerto Rico open letter on AI safety was signed by Stephen Hawking and Elon Musk), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Future_of_Life_Institute
+  - for: note
+    source: Lucas Matney, 'Hawking, Musk Warn Of Virtually Inevitable AI Arms Race', TechCrunch, 27 July 2015
+    url: https://techcrunch.com/2015/07/27/artificially-assured-destruction/amp/
+  status: checked
+- id: steve-wozniak
+  lifespan: born 1950
+  note: Apple co-founder who signed the 2015 open letter against autonomous weapons. He also signed the 2023 pause letter and the 2025 call to prohibit superintelligence.
+  roles:
+  - founder
+  - researcher
+  letters:
+  - pause-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Steve Wozniak' (born 11 August 1950), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Wozniak
+  - for: roles
+    source: Wikipedia, 'Steve Wozniak' (co-founded Apple in 1976; designed the Apple I and Apple II), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Wozniak
+  - for: letters
+    source: Wikipedia, 'Steve Wozniak' (signed the Future of Life Institute letter calling for a six-month pause), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Steve_Wozniak
+  - for: letters
+    source: Matt O'Brien and The Associated Press, 'Prince Harry, Meghan Markle join with Steve Bannon and Steve Wozniak in calling for ban on AI superintelligence', Fortune, 22 October 2025
+    url: https://fortune.com/2025/10/22/prince-harry-meghan-markle-wozniak-bannon-ban-superintelligence-letter/
+  - for: letters
+    source: Future of Life Institute, 'Prominent scientists, faith leaders, policymakers and artists call for a prohibition on superintelligence', press release, futureoflife.org, read 23 November 2026
+      (names Wozniak as a signatory)
+    url: https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/
+  - for: note
+    source: Lucas Matney, 'Hawking, Musk Warn Of Virtually Inevitable AI Arms Race', TechCrunch, 27 July 2015
+    url: https://techcrunch.com/2015/07/27/artificially-assured-destruction/amp/
+  status: checked
+- id: stuart-russell
+  lifespan: born 1962
+  note: 'Berkeley computer scientist and co-author, with Peter Norvig, of the textbook Artificial Intelligence: A Modern Approach. Founded the Center for Human-Compatible AI in 2016 and campaigns against
+    autonomous weapons.'
+  roles:
+  - researcher
+  - critic
+  letters:
+  - pause-2023
+  - extinction-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Stuart J. Russell' (born 1962), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stuart_J._Russell
+  - for: roles
+    source: Wikipedia, 'Stuart J. Russell' (professor of computer science, UC Berkeley; active in the movement to ban autonomous weapons; Slaughterbots, 2017), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stuart_J._Russell
+  - for: letters
+    source: Wikipedia, 'Stuart J. Russell' (signed the pause letter, the CAIS statement and the Statement on Superintelligence), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Stuart_J._Russell
+  - for: letters
+    source: 'Wikipedia, ''Pause Giant AI Experiments: An Open Letter'' (names Russell among the signatories), read 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 1, aistatement.com, read 23 November 2026 (Stuart Russell, Professor of Computer Science, UC Berkeley)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  - for: letters
+    source: Matt O'Brien and The Associated Press, Fortune, 22 October 2025 (Russell named and quoted as a signatory of the superintelligence statement)
+    url: https://fortune.com/2025/10/22/prince-harry-meghan-markle-wozniak-bannon-ban-superintelligence-letter/
+  - for: note
+    source: 'Wikipedia, ''Stuart J. Russell'' (co-author with Peter Norvig of Artificial Intelligence: A Modern Approach; founded the Center for Human-Compatible AI in 2016), read 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Stuart_J._Russell
+  status: checked
+- id: anthony-aguirre
+  lifespan: born 1973
+  roles:
+  - researcher
+  - founder
+  letters:
+  - pause-2023
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Anthony Aguirre' (born 23 July 1973), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Anthony_Aguirre
+  - for: roles
+    source: Wikipedia, 'Anthony Aguirre' (cosmologist, UC Santa Cruz; co-founder and CEO of the Future of Life Institute; co-founder of Metaculus), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Anthony_Aguirre
+  - for: letters
+    source: 'Wikipedia, ''Pause Giant AI Experiments: An Open Letter'' (names Aguirre among the signatories), read 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 4, aistatement.com, read 23 November 2026 (Anthony Aguirre, Executive Director, Future of Life Institute)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=4
+  status: checked
+- id: ian-goodfellow
+  lifespan: born 1987
+  note: Invented generative adversarial networks (GANs) in 2014. Worked at Google Brain, OpenAI, Apple and Google DeepMind, which he left in 2025.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    to: 2016
+  - lab: openai
+    from: 2016
+    to: 2017
+  - lab: google
+    from: 2017
+    to: 2019
+  - lab: google
+    from: 2022
+    to: 2025
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Ian Goodfellow' (born 1987), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ian_Goodfellow
+  - for: roles
+    source: Wikipedia, 'Ian Goodfellow' (computer scientist known for work on neural networks and deep learning), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ian_Goodfellow
+  - for: labs
+    source: Wikipedia, 'Ian Goodfellow' (Google Brain after his PhD; OpenAI from March 2016; back to Google Research March 2017, left 2019; Apple 2019–April 2022; Google DeepMind from 2022; left Google
+      in 2025, citing his own LinkedIn profile), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ian_Goodfellow
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 1, aistatement.com, read 23 November 2026 (Ian Goodfellow, Principal Scientist, Google DeepMind)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  - for: note
+    source: Wikipedia, 'Ian Goodfellow' (invented GANs, paper 'Generative Adversarial Networks', arXiv:1406.2661, 2014), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ian_Goodfellow
+  status: checked
+- id: larry-page
+  lifespan: born 1973
+  note: Co-founded Google in 1998 and was its chief executive again from 2011 to 2015. He reportedly led Google's purchase of DeepMind in 2014.
+  roles:
+  - founder
+  labs:
+  - lab: google
+    from: 1998
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Larry Page' (born 26 March 1973), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Larry_Page
+  - for: roles
+    source: Wikipedia, 'Larry Page' (co-founder of Google; CEO of Google and later Alphabet), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Larry_Page
+  - for: labs
+    source: Wikipedia, 'Larry Page' (incorporated Google in 1998; remains an Alphabet board member, employee and controlling shareholder), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Larry_Page
+  - for: note
+    source: Wikipedia, 'Larry Page' (CEO 1998–2001 and from 4 April 2011; Alphabet CEO 2015–2019), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Larry_Page
+  - for: note
+    source: Catherine Shu, 'Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M', TechCrunch, 26 January 2014 (deal reportedly led by Page, citing Re/code)
+    url: https://techcrunch.com/2014/01/26/google-deepmind/
+  status: checked
+- id: max-tegmark
+  lifespan: born 1967
+  roles:
+  - researcher
+  - founder
+  letters:
+  - pause-2023
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Max Tegmark' (born 5 May 1967), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Max_Tegmark
+  - for: roles
+    source: Wikipedia, 'Max Tegmark' (physicist and machine learning researcher at MIT; co-founder and president of the Future of Life Institute), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Max_Tegmark
+  - for: letters
+    source: 'Wikipedia, ''Pause Giant AI Experiments: An Open Letter'' (names Tegmark among the signatories), read 23 November 2026'
+    url: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 3, aistatement.com, read 23 November 2026 (Max Tegmark, Professor, MIT, Center for AI and Fundamental Interactions)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=3
+  status: checked
+- id: meia-chita-tegmark
+  note: Co-founded the Future of Life Institute in 2014 and sits on its board. At Tufts University she studies how robots and other new technologies affect people's social and emotional lives.
+  roles:
+  - founder
+  - researcher
+  sources:
+  - for: roles
+    source: Future of Life Institute, 'Meia Chita-Tegmark' (Board Secretary; researcher at Tufts University's Human Robot Interaction Lab)
+    url: https://futureoflife.org/person/meia-chita-tegmark/
+  - for: note
+    source: Wikipedia, 'Future of Life Institute' (founded in March 2014 by Max Tegmark, Jaan Tallinn, Viktoriya Krakovna, Meia Chita-Tegmark and Anthony Aguirre), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Future_of_Life_Institute
+  - for: note
+    source: Future of Life Institute, 'Meia Chita-Tegmark' (research on artificial social agents and how emerging technologies affect social interaction and emotional well-being)
+    url: https://futureoflife.org/person/meia-chita-tegmark/
+  status: checked
+- id: moritz-hardt
+  note: Computer scientist who in 2016 co-proposed equality of opportunity, a test for discrimination in machine learning. Co-wrote the textbook Fairness and Machine Learning (2023).
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2015
+    to: 2017
+  sources:
+  - for: roles
+    source: Max-Planck-Gesellschaft, 'Prof. Moritz Hardt, Ph.D.' (director, Max Planck Institute for Intelligent Systems, full-time from 1 January 2022; formerly associate professor, UC Berkeley)
+    url: https://www.mpg.de/17065604/intelligent-systems-tuebingen-hardt
+  - for: labs
+    source: Moritz Hardt, personal homepage (Google, full-time employment 2015–2017; 20% consulting 2017–2019)
+    url: https://mrtz.org/
+  - for: labs
+    source: UC Berkeley EECS, 'Moritz Hardt' faculty page (research scientist at Google Research and Google Brain for two years)
+    url: https://www2.eecs.berkeley.edu/Faculty/Homepages/mhardt.html
+  - for: note
+    source: Moritz Hardt, Eric Price and Nathan Srebro, 'Equality of Opportunity in Supervised Learning', arXiv:1610.02413, 7 October 2016
+    url: https://arxiv.org/abs/1610.02413
+  - for: note
+    source: 'Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning: Limitations and Opportunities, MIT Press, 2023'
+    url: https://fairmlbook.org/
+  status: checked
+- id: nick-bostrom
+  lifespan: born 1973
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Nick Bostrom' (born 10 March 1973), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nick_Bostrom
+  - for: roles
+    source: Wikipedia, 'Nick Bostrom' (philosopher; founding director of the Future of Humanity Institute, 2005–2024; author of Superintelligence, 2014), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Nick_Bostrom
+  status: checked
+- id: solon-barocas
+  note: Microsoft Research scientist who studies fairness in machine learning. Co-founded the FAccT conference and co-wrote the textbook Fairness and Machine Learning.
+  roles:
+  - researcher
+  labs:
+  - lab: microsoft
+  sources:
+  - for: roles
+    source: Microsoft Research, 'Solon Barocas' (Senior Principal Researcher, New York City lab; works on fairness in machine learning)
+    url: https://www.microsoft.com/en-us/research/people/solon/
+  - for: labs
+    source: Microsoft Research, 'Solon Barocas' (no start year given)
+    url: https://www.microsoft.com/en-us/research/people/solon/
+  - for: note
+    source: Cornell Information Science, 'Solon Barocas' (Principal Researcher, Microsoft Research; co-founder of the ACM conference on Fairness, Accountability, and Transparency; co-author of Fairness
+      and Machine Learning)
+    url: https://infosci.cornell.edu/people/solon-barocas
+  - for: note
+    source: 'Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning: Limitations and Opportunities, MIT Press, 2023'
+    url: https://fairmlbook.org/
+  status: checked
+- id: victoria-krakovna
+  note: AI alignment researcher at Google DeepMind, working on problems such as specification gaming. Co-founded the Future of Life Institute in 2014.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+  letters:
+  - extinction-2023
+  sources:
+  - for: roles
+    source: Victoria Krakovna, 'About', personal website (research scientist at Google DeepMind focused on AI alignment; co-founder of the Future of Life Institute)
+    url: https://vkrakovna.wordpress.com/about/
+  - for: labs
+    source: Victoria Krakovna, 'About', personal website (no start year given)
+    url: https://vkrakovna.wordpress.com/about/
+  - for: labs
+    source: Future of Life Institute, 'Victoria Krakovna' (research scientist in AI safety at DeepMind; FLI board member)
+    url: https://futureoflife.org/person/victoria-krakovna
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 2, aistatement.com, read 23 November 2026 (Victoria Krakovna, Research Scientist, Google DeepMind)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=2
+  - for: note
+    source: Wikipedia, 'Future of Life Institute' (founded in March 2014; founders include DeepMind research scientist Viktoriya Krakovna), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Future_of_Life_Institute
+  - for: note
+    source: Victoria Krakovna, 'About', personal website (research topics include specification gaming, goal misgeneralization and side effects)
+    url: https://vkrakovna.wordpress.com/about/
+  status: checked
+- id: balaji-srinivasan
+  lifespan: born 1980
+  roles:
+  - founder
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Balaji Srinivasan' (born 24 May 1980), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Balaji_Srinivasan
+  - for: roles
+    source: Wikipedia, 'Balaji Srinivasan' (co-founded Counsyl in 2007; Coinbase's first CTO until 2019; wrote The Network State in 2022), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Balaji_Srinivasan
+  status: checked
+- id: jeremy-england
+  lifespan: born 1982
+  roles:
+  - researcher
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Jeremy England' (born 1982), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeremy_England
+  - for: roles
+    source: Wikipedia, 'Jeremy England' (physicist; MIT professor 2011–2019; GlaxoSmithKline AI and machine learning 2019–2025), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeremy_England
+  status: checked
+- id: tomas-mikolov
+  lifespan: born 1982
+  note: Led the Google Brain group that built word2vec, a 2013 method that turns words into vectors. Moved to Facebook AI in 2014.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2012
+    to: 2014
+  - lab: meta
+    from: 2014
+    to: 2020
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Tomáš Mikolov' (born 8 October 1982), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Mikolov
+  - for: roles
+    source: Wikipedia, 'Tomáš Mikolov' (computer scientist working in machine learning; lead author of word2vec), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Mikolov
+  - for: labs
+    source: 'IEEE Signal Processing Society, ''Industry Leaders in Signal Processing and Machine Learning: Tomas Mikolov'', 1 July 2021 (joined Google 2012; moved to Facebook AI 2014; joined CIIRC Prague
+      2020)'
+    url: https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov
+  - for: labs
+    source: Wikipedia, 'Tomáš Mikolov' (left Facebook in 2019/2020; senior research scientist at CIIRC from March 2020), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Mikolov
+  - for: labs
+    source: Czech Technical University in Prague, 'World-renowned expert Tomáš Mikolov comes to CIIRC CTU', 11 May 2020 (at Facebook AI Research since 2014; joined CIIRC in April 2020, coming directly from
+      Facebook AI Research)
+    url: https://aktualne.cvut.cz/en/reports/20200511-world-renowned-expert-tomas-mikolov-comes-to-ciirc-ctu
+  - for: note
+    source: 'IEEE Signal Processing Society, ''Industry Leaders in Signal Processing and Machine Learning: Tomas Mikolov'', 1 July 2021 (word2vec developed in 2013 by a group he led at Google Brain)'
+    url: https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov
+  status: checked
+- id: alex-krizhevsky
+  note: Built AlexNet with Ilya Sutskever and Geoffrey Hinton; it won the ImageNet challenge in 2012. Joined Google in 2013 and left in 2017.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2013
+    to: 2017
+  sources:
+  - for: roles
+    source: Wikipedia, 'Alex Krizhevsky' (computer scientist known for work on neural networks and deep learning), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alex_Krizhevsky
+  - for: labs
+    source: Alexis Santos, 'Google acquires neural network startup that may help it hone speech recognition and more', Engadget, 13 March 2013 (Krizhevsky and Sutskever move to Google)
+    url: https://www.engadget.com/2013/03/13/google-acquires-neural-network-startup-dnnresearch/
+  - for: labs
+    source: Quartz, 'The inside story of how AI got good enough to dominate Silicon Valley', 18 June 2018 (no byline shown on the page; says he left Google in September 2017 after four and a half years)
+    url: https://qz.com/1307091/the-inside-story-of-how-ai-got-good-enough-to-dominate-silicon-valley
+  - for: labs
+    source: AITopics (AAAI), index entry for Quartz, 'The inside story of how AI got good enough to dominate Silicon Valley' (gives the Quartz publication date as 18 June 2018)
+    url: https://aitopics.org/doc/news:22C93B74
+  - for: labs
+    source: Dessa, 'DeepLearni.ng Rebrands as Dessa and Announces AlexNet Inventor Alex Krizhevsky as Exclusive Technical Advisor', GlobeNewswire, 11 June 2018 (calls him a former Google Brain researcher)
+    url: https://rss.globenewswire.com/news-release/2018/06/11/1519506/0/en/DeepLearni-ng-Rebrands-as-Dessa-and-Announces-AlexNet-Inventor-Alex-Krizhevsky-as-Exclusive-Technical-Advisor.html
+  - for: note
+    source: Wikipedia, 'Alex Krizhevsky' (developed AlexNet with Sutskever and Hinton in 2012; it won the ImageNet challenge), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Alex_Krizhevsky
+  status: checked
+- id: andrew-ng
+  lifespan: born 1976
+  note: Founded the Google Brain project in 2011; its network learned to recognise cats in YouTube videos. Later co-founded Coursera and was chief scientist at Baidu.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2011
+    to: 2012
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Andrew Ng' (born 18 April 1976), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Andrew_Ng
+  - for: roles
+    source: Wikipedia, 'Andrew Ng' (computer scientist and technology entrepreneur; co-founder of Coursera; founder of DeepLearning.AI and Landing AI), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Andrew_Ng
+  - for: labs
+    source: Wikipedia, 'Andrew Ng' (founded and worked on the Google Brain project, 2011–2012), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Andrew_Ng
+  - for: note
+    source: Wikipedia, 'Andrew Ng' (Google Brain network on 16,000 CPU cores learned to recognise cats from YouTube videos; Baidu chief scientist 2014–2017), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Andrew_Ng
+  status: checked
+- id: ilya-sutskever
+  lifespan: born 1986
+  note: Built AlexNet with Alex Krizhevsky and Geoffrey Hinton in 2012. Co-founded OpenAI in 2015, voted to remove Sam Altman in 2023 and co-founded Safe Superintelligence in 2024.
+  roles:
+  - researcher
+  - founder
+  labs:
+  - lab: google
+    from: 2013
+    to: 2015
+  - lab: openai
+    from: 2015
+    to: 2024
+  letters:
+  - extinction-2023
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Ilya Sutskever' (born 1986), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ilya_Sutskever
+  - for: roles
+    source: Wikipedia, 'Ilya Sutskever' (computer scientist; co-founder and chief scientist of OpenAI; co-founder of Safe Superintelligence Inc.), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ilya_Sutskever
+  - for: labs
+    source: Wikipedia, 'Ilya Sutskever' (Google Brain from the 2013 DNNresearch acquisition; left Google end of 2015 for OpenAI; left OpenAI May 2024), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ilya_Sutskever
+  - for: labs
+    source: Alexis Santos, Engadget, 13 March 2013 (Krizhevsky and Sutskever move to Google)
+    url: https://www.engadget.com/2013/03/13/google-acquires-neural-network-startup-dnnresearch/
+  - for: letters
+    source: Center for AI Safety, 'Statement on AI Risk', official signatory list, page 1, aistatement.com, read 23 November 2026 (Ilya Sutskever, Co-Founder and Chief Scientist, OpenAI)
+    url: https://aistatement.com/work/statement-on-ai-extinction-risk?223bcc0a_page=1
+  - for: note
+    source: Wikipedia, 'Ilya Sutskever' (AlexNet 2012; voted with the board to remove Altman in November 2023; co-founded Safe Superintelligence in June 2024), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Ilya_Sutskever
+  status: checked
+- id: jeff-dean
+  lifespan: born 1968
+  note: Google engineer from 1999 who led Google Brain from 2012 and became Google's chief scientist in 2023. Left in 2026 to co-found the start-up Discovery Loop.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 1999
+    to: 2026
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Jeff Dean' (born 23 July 1968), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeff_Dean
+  - for: roles
+    source: Wikipedia, 'Jeff Dean' (computer scientist and software engineer), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeff_Dean
+  - for: labs
+    source: Wikipedia, 'Jeff Dean' (joined Google in mid-1999; chief scientist 2023–2026), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeff_Dean
+  - for: labs
+    source: Mike Wheatley, 'Google reveals big shakeup in its AI teams as Jeff Dean leaves and Demis Hassabis moves upstairs', SiliconANGLE, 5 August 2026
+    url: https://siliconangle.com/2026/08/05/google-reveals-big-shake-ai-teams-jeff-dean-leaves-demis-hassabis-moves-upstairs/
+  - for: note
+    source: Wikipedia, 'Jeff Dean' (became leader of Google Brain in 2012; Google's chief scientist from 2023), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Jeff_Dean
+  - for: note
+    source: Mike Wheatley, SiliconANGLE, 5 August 2026 (Dean leaves Google after 27 years to launch Discovery Loop)
+    url: https://siliconangle.com/2026/08/05/google-reveals-big-shake-ai-teams-jeff-dean-leaves-demis-hassabis-moves-upstairs/
+  - for: labs
+    source: Todd Bishop, 'The startup idea that convinced a UW computer science legend to leave Google after 27 years', GeekWire, 5 August 2026 (Dean leaves Google with Sanjay Ghemawat, Oriol Vinyals and
+      Quoc Le, all leaving Google, to co-found Discovery Loop)
+    url: https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/
+  status: checked
+- id: quoc-le
+  lifespan: born 1982
+  note: Founding member of Google Brain and first author of the paper on its network that learned to spot cats in YouTube videos. Left Google in 2026 to co-found Discovery Loop.
+  roles:
+  - researcher
+  labs:
+  - lab: google
+    from: 2011
+    to: 2026
+  sources:
+  - for: lifespan
+    source: Wikipedia, 'Quoc V. Le' (born 1982), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Quoc_V._Le
+  - for: roles
+    source: Wikipedia, 'Quoc V. Le' (computer scientist and AI researcher; Google Fellow), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Quoc_V._Le
+  - for: labs
+    source: Wikipedia, 'Quoc V. Le' (founding member of Google Brain in 2011), read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Quoc_V._Le
+  - for: labs
+    source: Luu Quy, 'Top innovator Le Viet Quoc leaves Google to launch AI research startup Discovery Loop', VnExpress International, 9 August 2026
+    url: https://e.vnexpress.net/news/tech/vietnam-innovation/top-innovator-le-viet-quoc-leaves-google-to-launch-ai-research-startup-discovery-loop-5107182.html
+  - for: note
+    source: Wikipedia, 'Quoc V. Le' (founding member of Google Brain in 2011; led Google Brain's first major breakthrough, a network on 16,000 CPU cores that learned to recognise cats from YouTube videos),
+      read 23 November 2026
+    url: https://en.wikipedia.org/wiki/Quoc_V._Le
+  - for: note
+    source: Quoc V. Le, Marc'Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg S. Corrado, Jeff Dean and Andrew Y. Ng, 'Building high-level features using large scale unsupervised learning',
+      arXiv:1112.6209, 2011–2012 (Le is first author)
+    url: https://arxiv.org/abs/1112.6209
+  - for: note
+    source: Luu Quy, VnExpress International, 9 August 2026 (left Google to co-found Discovery Loop with Jeff Dean, Sanjay Ghemawat and Oriol Vinyals)
+    url: https://e.vnexpress.net/news/tech/vietnam-innovation/top-innovator-le-viet-quoc-leaves-google-to-launch-ai-research-startup-discovery-loop-5107182.html
+  - for: labs
+    source: Todd Bishop, 'The startup idea that convinced a UW computer science legend to leave Google after 27 years', GeekWire, 5 August 2026 (Dean leaves Google with Sanjay Ghemawat, Oriol Vinyals and
+      Quoc Le, all leaving Google, to co-found Discovery Loop)
+    url: https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/
+  status: checked
