@@ -17,7 +17,7 @@ const hasItems = (folder: string) => {
 export const getHistory = async () =>
   hasItems('src/data/history')
     ? (await getCollection('history')).sort(
-        (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0),
+        (a, b) => b.data.year - a.data.year || (b.data.month ?? 0) - (a.data.month ?? 0) || (b.data.day ?? 0) - (a.data.day ?? 0),
       )
     : [];
 

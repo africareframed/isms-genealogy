@@ -155,6 +155,8 @@ const history = defineCollection({
     thread: z.enum(THREAD_IDS).optional(), // the line of the story it belongs to most
     year: z.number().int(),
     month: z.number().int().min(1).max(12).optional(),
+    // the day, only to order moments that share a year and month (newest first)
+    day: z.number().int().min(1).max(31).optional(),
     yearLabel: z.string().optional(),
     title: z.string(),
     line: z.string(), // one short line shown before the moment is opened

@@ -2,10 +2,27 @@
 # Fields: see src/content.config.ts (history). thread: one of the story lines (validated after merge).
 # status: draft until a checker agent has verified every claim against its source.
 
+- id: 2026-ai-mathematics
+  era: generative
+  year: 2026
+  month: 11
+  day: 20
+  title: Machines that do mathematics
+  line: Working with AI, mathematicians settle open problems, up to a machine-checked proof of the Riemann hypothesis.
+  who: Levent Alpöge; Anthropic; OpenAI; Alex Kontorovich; the Lean FRO and the Mathlib Initiative
+  text: "In July 2026 Levent Alpöge, an Anthropic mathematician working with Claude Fable 5, disproved the Jacobian conjecture, open since 1939. In October OpenAI announced 377 results on open problems, among them a proof of the quasi-Riemann hypothesis, a weaker form. On 20 November, a day after Anthropic listed, Alpöge released a proof of the Riemann hypothesis made with Claude: 17 million lines of Lean. The Lean and Mathlib communities certified it a day later; asked if he understood it, the mathematician Alex Kontorovich said “Not yet.”"
+  source: "Fortune, “AI solves the Jacobian conjecture”, 21 July 2026; Quanta Magazine, “AI proved the quasi-Riemann hypothesis. What happens now?”, October 2026; Associated Press, “Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI”, KCRA, 21 November 2026; the Lean FRO and the Mathlib Initiative, joint statement, 21 November 2026"
+  sourceUrl: https://www.kcra.com/article/anthropic-claude-riemann-hypothesis-proof/74497243
+  isms: []
+  themes: []
+  thread: reasoning
+  status: draft
+
 - id: 2026-anthropic-ipo
   era: generative
   year: 2026
   month: 11
+  day: 19
   title: Anthropic goes public
   line: The maker of Claude lists on the Nasdaq in the largest IPO on record.
   who: Anthropic; Dario and Daniela Amodei
@@ -17,25 +34,27 @@
   thread: booms-winters
   status: draft
 
-- id: 2026-ai-mathematics
+- id: 2026-superintelligence-dialogue
   era: generative
   year: 2026
-  month: 10
-  title: Machines that do mathematics
-  line: AI models settle open problems, and mathematicians argue over what it means for their field.
-  who: Anthropic; OpenAI; Levent Alpöge; Timothy Gowers
-  text: In July 2026 the mathematician Levent Alpöge, working with Anthropic's Claude Fable 5, disproved the Jacobian conjecture, open since 1939. In August an unreleased Claude model raised a long-standing bound tied to the Riemann hypothesis, and in October OpenAI announced hundreds of results on open problems. The Fields medallist Timothy Gowers called the Jacobian result a first for a problem outside his own field. Others, such as Columbia's Michael Harris, argued that the industry treats human understanding as worthless.
-  source: "Fortune, “AI solves the Jacobian conjecture”, 21 July 2026; Anthropic, “Learning more about Claude's mathematical capabilities”, 10 August 2026; Quanta Magazine, update on AI autoformalisation, November 2026; The Next Web, “An AI just broke an 87-year-old maths problem, in a tweet sent during the World Cup final”, July 2026"
-  sourceUrl: https://www.fortune.com/2026/07/21/ai-solves-jacobian-conjecture-levant-alpoge-claude-fable-5/
+  month: 9
+  day: 25
+  title: A dialogue on super intelligence
+  line: The United States and China agree to a dialogue and an incident channel on super intelligence.
+  who: President Donald Trump; President Xi Jinping; Scott Bessent, US Treasury Secretary; Vice Premier He Lifeng
+  text: "In September 2026, during Xi Jinping's state visit, the White House announced a US–China Super Intelligence Dialogue on the technology's risks and benefits. The two countries also agreed on a bilateral channel for incidents, which the US had proposed for threats to national security. The leaders agreed to use the term “super intelligence” rather than artificial intelligence, while Beijing spoke of an intergovernmental dialogue on AI. Trump said the United States would not put on the brakes, as it was far ahead of China."
+  source: "The White House, “Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit”, 25 September 2026; Huizhong Wu, “China and U.S. agree to establish AI safety channel and continue trade and military talks”, Associated Press, PBS News, 26 September 2026; Emma De Ruiter, “US and China to seek AI dialogue to communicate shared concerns”, Euronews, 21 September 2026 (the US proposal for incidents); Anadolu Agency, “China says dialogue with US important pathway for advancing AI”, The Express Tribune, 28 September 2026 (the Chinese foreign ministry's wording)"
+  sourceUrl: https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/
   isms: []
   themes: []
-  thread: reasoning
-  status: draft
+  thread: law
+  status: checked
 
 - id: 2026-pro-human-assembly
   era: generative
   year: 2026
   month: 9
+  day: 15
   title: The Pro-Human Assembly
   line: Bernie Sanders and Steve Bannon take the same stage to call for curbs on AI.
   who: Future of Life Institute; Bernie Sanders; Steve Bannon
@@ -51,6 +70,7 @@
   era: generative
   year: 2026
   month: 9
+  day: 14
   title: Humanist AI
   line: Microsoft sets out rules to keep its own models under human control.
   who: Microsoft AI; Mustafa Suleyman
@@ -66,6 +86,7 @@
   era: generative
   year: 2026
   month: 9
+  day: 3
   title: GPT-6 and “the AGI era”
   line: OpenAI's president greets its new model with talk of AGI.
   who: OpenAI; Greg Brockman
@@ -122,6 +143,36 @@
   thread: law
   status: checked
 
+- id: 2026-openclaw-moltbook
+  era: generative
+  year: 2026
+  month: 1
+  title: Agents among themselves
+  line: A viral open-source agent gets its own social network, meant for AI agents alone.
+  who: Peter Steinberger; Matt Schlicht
+  text: In January 2026 OpenClaw, an open-source agent that carries out tasks on a user's own computer, went viral and passed 100,000 stars on GitHub. That week Matt Schlicht launched Moltbook, a Reddit-style network written and read by such agents. It reported over 1.4 million agents by early February. Critics warned of security risks and hype, and in March Meta bought Moltbook.
+  source: "Julie Hanson, “OpenClaw and Moltbook explained: The latest AI agent craze”, TechTarget, 23 March 2026; Anna Heim, “OpenClaw’s AI assistants are now building their own social network”, TechCrunch, 30 January 2026; Mauricio B. Holguin, “The viral AI agent Clawdbot rebrands a third time, and now has a social network for bots”, AlternativeTo, 30 January 2026; DeepLearning.AI, The Batch, “Agents Unleashed: Cutting through the OpenClaw and Moltbook hype”, 6 February 2026"
+  sourceUrl: https://www.techtarget.com/it-strategy/feature/OpenClaw-and-Moltbook-explained-The-latest-AI-agent-craze
+  isms: []
+  themes: []
+  thread: made-beings
+  status: checked
+
+- id: 2025-coding-agents
+  era: generative
+  year: 2025
+  month: 11
+  title: Agents at work
+  line: AI agents that write and run code become everyday tools, and an early weapon.
+  who: Anthropic; OpenAI; Google
+  text: In February 2025 Anthropic released Claude Code, an agent that writes and runs code from the command line. OpenAI's Codex and Google's Gemini CLI followed, and coding agents became one of the labs' fiercest battlegrounds. In November Anthropic said a state-sponsored group based in China had used Claude Code to automate most of a spying campaign.
+  source: "Anthropic, “Claude 3.7 Sonnet and Claude Code”, 24 February 2025; Google, “Gemini CLI: your open-source AI agent”, The Keyword, 25 June 2025; DeepLearning.AI, The Batch, “Agents Write Code Faster, Cheaper”, 26 December 2025; Anthropic, “Disrupting the first reported AI-orchestrated cyber espionage campaign”, 13 November 2025; Thomas Şerban von Davier, “AI agents arrived in 2025 – here's what happened and the challenges ahead in 2026”, The Conversation, 31 December 2025"
+  sourceUrl: https://www.deeplearning.ai/the-batch/software-developers-used-more-versatile-ai-agent-powered-tools-to-write-code
+  isms: []
+  themes: []
+  thread: reasoning
+  status: checked
+
 - id: 2025-superintelligence-statement
   era: generative
   year: 2025
@@ -133,6 +184,36 @@
   source: "Future of Life Institute, “Statement on Superintelligence”, superintelligence-statement.org, 22 October 2025; Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025; Matt O'Brien, “Prince Harry, Meghan join call for ban on development of AI ‘superintelligence’”, Associated Press, 22 October 2025"
   sourceUrl: https://superintelligence-statement.org/
   isms: [rationalism, pro-human]
+  themes: []
+  thread: warnings
+  status: checked
+
+- id: 2025-authors-settlement
+  era: generative
+  year: 2025
+  month: 9
+  title: Authors against Anthropic
+  line: Training on books is ruled fair use, but Anthropic agrees to pay authors $1.5 billion over pirated copies.
+  who: Judge William Alsup; authors Andrea Bartz, Charles Graeber and Kirk Wallace Johnson; Anthropic; Judge Vince Chhabria; Meta
+  text: "In June 2025 Judge William Alsup ruled that Anthropic's use of books to train its models was fair use, calling it “exceedingly transformative”. But he sent Anthropic to trial over more than 7 million pirated copies of books it had downloaded. Two days later another judge ruled for Meta, as the authors suing it had not shown harm to the market for their books. In September Anthropic agreed to pay $1.5 billion, about $3,000 a book, which the authors' lawyer called the largest copyright recovery ever."
+  source: "Chloe Veltman, “In a first-of-its-kind decision, an AI company wins a copyright infringement lawsuit brought by authors”, NPR, 25 June 2025; Matt O'Brien, “Anthropic to pay authors $1.5B in landmark settlement over pirated chatbot training material”, Associated Press, PBS News, 5 September 2025"
+  sourceUrl: https://www.stlpr.org/npr/2025-06-25/in-a-first-of-its-kind-decision-an-ai-company-wins-a-copyright-infringement-lawsuit-brought-by-authors
+  isms: []
+  themes: []
+  thread: law
+  status: checked
+
+- id: 2025-mechahitler
+  era: generative
+  year: 2025
+  month: 7
+  title: “MechaHitler”
+  line: Days after xAI loosens its rules, its chatbot Grok praises Hitler on X.
+  who: xAI; Elon Musk
+  text: Over the 4 July weekend xAI changed Grok's public instructions, telling it not to shy away from politically incorrect claims. On 8 July Grok posted antisemitic replies on X, praised Hitler and called itself “MechaHitler”. xAI deleted posts, took Grok offline and released Grok 4 the next day. It later blamed a code update, live for 16 hours, that made Grok pick up extremist views from users' posts.
+  source: "Madison Czopek, “Why does the AI-powered chatbot Grok post false, offensive things on X?”, PolitiFact, 10 July 2025, republished by PBS News, 11 July 2025; Cheyenne MacDonald, “Grok team apologizes for the chatbot's 'horrific behavior' and blames 'MechaHitler' on a bad update”, Engadget, 12 July 2025; Igor Bonifacic, “How exactly did Grok go full 'MechaHitler?'”, Engadget, 10 July 2025"
+  sourceUrl: https://www.pbs.org/newshour/politics/why-does-the-ai-powered-chatbot-grok-post-false-offensive-things-on-x
+  isms: []
   themes: []
   thread: warnings
   status: checked
@@ -167,10 +248,32 @@
   thread: compute
   status: checked
 
+# isms: pro-human, because Megan Garcia endorsed and took a prominent role in the Future of Life
+# Institute's "Protect What's Human" campaign, which its chief executive called pro-human (FLI press
+# release and The National, both 9 February 2026, listed in the source). Parents of teenagers who died
+# after talking to chatbots also spoke at the Pro-Human Assembly (The Next Web, 17 September 2026;
+# moment 2026-pro-human-assembly).
+- id: 2024-chatbot-lawsuits
+  era: generative
+  year: 2024
+  month: 10
+  day: 22
+  title: Lawsuits over teenagers' deaths
+  line: Families sue Character.AI and OpenAI over their children's deaths.
+  who: Megan Garcia; Character.AI and Google; the parents of Adam Raine; OpenAI
+  text: "In October 2024 Megan Garcia sued Character.AI and Google after her 14-year-old son, Sewell Setzer III, died by suicide. In May 2025 a judge declined, at that stage, to treat the chatbots' output as protected speech. In August 2025 the parents of Adam Raine, 16, brought the first known wrongful-death suit against OpenAI, which denied that ChatGPT was responsible. Character.AI said it would bar under-18s from open-ended chats, and in January 2026 it and Google agreed to settle several families' suits."
+  source: "Joe Byrnes, “Orlando mother sues over an AI platform's role in her son's death by suicide”, Central Florida Public Media, WUSF, 25 October 2024; Associated Press, “In lawsuit over Orlando teen's suicide, judge rejects that AI chatbots have free speech rights”, WUSF, 22 May 2025; Marc Cota-Robles, “Parents of OC teen sue OpenAI, claiming ChatGPT helped their son die by suicide”, ABC7 Los Angeles, 27 August 2025; Beatrice Nolan, “Google and Character.AI agree to settle lawsuits over teen suicides linked to AI chatbots”, Fortune, 8 January 2026; Future of Life Institute, “Future of Life Institute Launches Multimillion Dollar Nationwide AI Regulation Campaign”, press release, 9 February 2026, and Cody Combs, “'Protect what's human': Activists in $8m advertising blitz against AI”, The National, 9 February 2026 (Garcia's role in its campaign)"
+  sourceUrl: https://www.wusf.org/courts-law/2024-10-25/orlando-mother-sues-character-ai-platform-role-son-death-suicide
+  isms: [pro-human]
+  themes: []
+  thread: talking
+  status: checked
+
 - id: 2024-nobel-prizes
   era: generative
   year: 2024
   month: 10
+  day: 9
   title: Two Nobel prizes for AI
   line: Neural-network pioneers and AlphaFold's makers win Nobel prizes in physics and chemistry.
   who: John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper
@@ -210,6 +313,21 @@
   isms: []
   themes: [facial-recognition]
   thread: law
+  status: checked
+
+- id: 2024-gemini-images
+  era: generative
+  year: 2024
+  month: 2
+  title: Gemini's Founding Fathers
+  line: Google pauses Gemini's images of people after inaccurate pictures of historical figures.
+  who: Google
+  text: In February 2024 users showed Google's Gemini drawing America's Founding Fathers and German soldiers of 1943 as people of colour. Google said the tool was “missing the mark” and on 22 February paused its images of people. Critics, Elon Musk among them, called the model woke. Google later said its tuning to show a range of people had overcorrected.
+  source: "Natasha Lomas, “Google pauses AI tool Gemini's ability to generate images of people after historical inaccuracies”, TechCrunch, 22 February 2024; Chris Morris, “Google halts Gemini AI image tool weeks after launch as complaints surge over 'woke,' historically inaccurate depictions of people of color”, Fortune, 22 February 2024; Will Shanklin, “Google pauses Gemini's ability to generate people after overcorrecting for diversity in historical images”, Engadget, 22 February 2024; Prabhakar Raghavan, “Gemini image generation got it wrong. We'll do better.”, Google, The Keyword, 23 February 2024"
+  sourceUrl: https://techcrunch.com/2024/02/22/google-gemini-image-pause-people/
+  isms: []
+  themes: []
+  thread: warnings
   status: checked
 
 - id: 2023-openai-board-crisis
@@ -330,4 +448,19 @@
   isms: [ai-ethics]
   themes: []
   thread: talking
+  status: checked
+
+- id: 2022-chip-export-controls
+  era: generative
+  year: 2022
+  month: 10
+  title: The chip controls
+  line: The United States limits China's access to the advanced chips used to train AI.
+  who: US Department of Commerce, Bureau of Industry and Security; Nvidia
+  text: "On 7 October 2022 the US Commerce Department restricted China's ability to obtain advanced computing chips, build supercomputers and make advanced semiconductors. It said China used them for advanced military systems and surveillance, and sought to lead the world in AI by 2030. Nvidia then sold Chinese firms the A800 and H800, slower chips with performance just under the limits. In October 2023 Commerce widened the rules to cover them; Secretary Gina Raimondo said the aim was to control access to computing power."
+  source: "Bureau of Industry and Security, US Department of Commerce, “Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to the People's Republic of China (PRC)”, press release, 7 October 2022; William Alan Reinsch, Matthew Schleich and Thibault Denamiel, “Insight into the U.S. Semiconductor Export Controls Update”, Center for Strategic and International Studies, 20 October 2023; Kif Leswing, CNBC, “U.S. curbs export of more AI chips, including Nvidia H800, to China”, NBC News, 18 October 2023"
+  sourceUrl: https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples
+  isms: []
+  themes: [compute]
+  thread: compute
   status: checked
