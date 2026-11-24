@@ -58,3 +58,11 @@
   isms: [pro-human]
   note: Former design ethicist at Google and co-founder of the Center for Humane Technology. Signed the Pro-Human AI Declaration.
   entry: pro-human/2018-center-for-humane-technology
+
+- id: yuval-noah-harari-pro-human
+  name: Yuval Noah Harari
+  lifespan: born 1976
+  isms:
+  - pro-human
+  note: Israeli historian and author of Sapiens and Homo Deus. In Nexus (2024) he calls AI an alien intelligence, and he signed both the pause letter and the superintelligence statement.
+  entry: pro-human/2025-superintelligence-statement

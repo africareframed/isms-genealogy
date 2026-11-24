@@ -1,0 +1,23 @@
+# People facts, batch 16: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: yuval-noah-harari
+  lifespan: born 1976
+  roles:
+  - writer
+  letters:
+  - pause-2023
+  - superintelligence-2025
+  sources:
+  - for: lifespan
+    source: Wikipedia, “Yuval Noah Harari”, accessed 24 November 2026 (born 24 February 1976); Sara Danial, review of Nexus, Dawn, 20 October 2024 (born in 1976 in Israel)
+    url: https://en.wikipedia.org/wiki/Yuval_Noah_Harari
+  - for: roles
+    source: Sara Danial, review of Nexus, Dawn, 20 October 2024 (historian and philosopher; author of Sapiens, Homo Deus and 21 Lessons for the 21st Century)
+    url: https://www.dawn.com/news/1866377
+  - for: letters
+    source: Future of Life Institute, “As Six-Month Pause Letter Expires, Experts Call for Regulation on Advanced AI Development”, 21 September 2023 (Harari among the pause letter's prominent signatories)
+    url: https://futureoflife.org/ai/six-month-letter-expires/
+  - for: letters
+    source: Ece Yildirim, “Prince Harry and Steve Bannon Join Forces Against Superintelligence Development”, Gizmodo, 22 October 2025 (Harari among the signatories of the Statement on Superintelligence);
+      also Mary-Anne Williams, The Conversation, republished by UNSW, 23 October 2025
+    url: https://gizmodo.com/prince-harry-and-steve-bannon-join-forces-against-superintelligence-development-2000675466
+  status: checked

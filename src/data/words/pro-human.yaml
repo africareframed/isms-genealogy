@@ -70,3 +70,15 @@
   isms: [pro-human]
   technical: false
   status: checked
+
+- id: alien-intelligence
+  word: alien intelligence
+  definition: Yuval Noah Harari's suggested reading of the letters AI. It comes from our own laboratories, not outer space, but it makes decisions and invents ideas in ways unlike ours.
+  year: 2015
+  yearLabel: by 2015
+  origin: 'Coiner unknown; earlier uses may exist. Kevin Kelly wrote that AI “could just as well stand for Alien Intelligence” (“Call Them Artificial Aliens”, Edge, 2015). Harari''s earliest use found is in “AI has hacked the operating system of human civilisation”, The Economist, 28 April 2023. He made it a theme of Nexus: A Brief History of Information Networks from the Stone Age to AI (Random House and Fern Press, 10 September 2024). He explains it in “Humankind''s Comparative Advantage”, IMF Finance & Development, December 2024.'
+  sourceUrl: https://www.edge.org/response-detail/26097
+  isms:
+  - pro-human
+  technical: false
+  status: checked
