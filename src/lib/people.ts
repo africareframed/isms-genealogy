@@ -53,13 +53,22 @@ export const getPeople = async () => {
     );
     // the era they made their mark in: their earliest moment whose "who" line names them (a mention in
     // another moment's text does not count, so Leibniz is not placed in Llull's century), else their
-    // earliest moment of any kind, their earliest timeline entry, or the entry their figure note points to
+    // earliest moment of any kind, their earliest timeline entry, the entry their figure note points to,
+    // or, for people with none of these (critics known for a word), the year they coined their first word
     const named = inHistory.filter((m) => re.test(m.data.who ?? ''));
     const firstMoment = named[named.length - 1] ?? inHistory[inHistory.length - 1];
     const figEntry = entries.find((e) => figs.some((f) => f.data.entry?.id === e.id));
     const firstEntry = inTimelines[inTimelines.length - 1] ?? figEntry;
-    const firstYear = firstMoment?.data.year ?? firstEntry?.data.year;
-    const era = firstMoment ? firstMoment.data.era : firstEntry ? eraOfYear(firstEntry.data.year) : undefined;
+    const coinedYears = coined.map((w) => w.data.year).filter((y): y is number => y !== undefined);
+    const coinedYear = coinedYears.length ? Math.min(...coinedYears) : undefined;
+    const firstYear = firstMoment?.data.year ?? firstEntry?.data.year ?? coinedYear;
+    const era = firstMoment
+      ? firstMoment.data.era
+      : firstEntry
+        ? eraOfYear(firstEntry.data.year)
+        : coinedYear !== undefined
+          ? eraOfYear(coinedYear)
+          : undefined;
     const threads = [...new Set(inHistory.map((m) => m.data.thread).filter((t): t is string => Boolean(t)))];
     const fact = facts.get(p.id);
     return {
