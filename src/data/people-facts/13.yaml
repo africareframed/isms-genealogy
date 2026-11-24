@@ -1,0 +1,9 @@
+# People facts, batch 13: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: katherine-boyle
+  roles:
+  - founder
+  sources:
+  - for: roles
+    source: a16z, author page "Katherine Boyle" (general partner at Andreessen Horowitz; cofounder of American Dynamism)
+    url: https://a16z.com/author/katherine-boyle/
+  status: checked

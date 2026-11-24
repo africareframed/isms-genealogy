@@ -71,6 +71,16 @@ entries:
     image: techopt-copilot-2023
     status: checked
 
+  - id: 2022-american-dynamism
+    year: 2022
+    title: Building American Dynamism
+    who: Katherine Boyle and David Ulevitch of Andreessen Horowitz
+    relation: definition
+    text: On 14 January 2022 Andreessen Horowitz published the thesis of its American Dynamism practice. The firm had used the name in 2021 but left it largely undefined. Boyle's essay argued that only technologists building companies for the national interest could end stagnation, in fields from national security to housing. The firm already backed defence start-ups such as Anduril and Shield AI.
+    source: Katherine Boyle, “Building American Dynamism”, a16z, 14 January 2022; David Ulevitch and Katherine Boyle, “Investing in American Dynamism”, a16z, 14 January 2022
+    sourceUrl: https://a16z.com/2022/01/14/building-american-dynamism-2/
+    status: checked
+
   - id: 2020-its-time-to-build
     year: 2020
     title: “It's Time to Build”

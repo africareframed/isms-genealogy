@@ -304,3 +304,19 @@
   alt: "A protest banner reading I want water to drink, not AI to think, above Bernie Sanders at the Pro-Human Assembly podium, over blue fields"
   sourceUrl: "https://unsplash.com/photos/protesters-hold-signs-at-a-demonstration-iykn9Qhc3KE"
   note: "The Sanders still was supplied and cleared by the owner (22 Nov 2026)."
+- id: collage-neo-luddism
+  title: "Collage from an engraving of a stocking frame (1867)"
+  rights: public-domain
+  licence: "Engraving from William Felkin, A History of the Machine-Wrought Hosiery and Lace Manufactures (1867), public domain, Wikimedia Commons"
+  file: "collage-neo-luddism.jpg"
+  alt: "An engraved stocking frame, the knitting machine the Luddites broke, over violet fields; a label reads 20 March 1812, breaking a stocking frame becomes a capital crime"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Lee%27s_knitting_frame.jpg"
+  note: "Fact: Destruction of Stocking Frames, etc. Act 1812 (52 Geo. 3 c. 16), royal assent 20 March 1812, made breaking a frame a capital felony (statutes.org.uk; Hansard, Frame Work Bill, February 1812)."
+- id: collage-neo-luddism-tall
+  title: "Collage from an engraving of a stocking frame (1867)"
+  rights: public-domain
+  licence: "Engraving from William Felkin, A History of the Machine-Wrought Hosiery and Lace Manufactures (1867), public domain, Wikimedia Commons"
+  file: "collage-neo-luddism-tall.jpg"
+  alt: "An engraved stocking frame filling the page over violet fields, beside a label: 20 March 1812, breaking a stocking frame becomes a capital crime"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Lee%27s_knitting_frame.jpg"
+  note: "Same fact as the card."

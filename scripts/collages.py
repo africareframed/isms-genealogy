@@ -17,6 +17,7 @@ GREEN, PINK, ORANGE, GREY = '#C9F25B', '#F5A3BC', '#D8461C', '#B7B3AA'
 # The families' colours are highlighter colours (owner, 22 Nov 2026). ORANGE stays the site accent, used on the History of AI cards.
 ACCEL = '#FF9F4F'
 BLUE = '#73C7F2'  # Protection (owner, 22 Nov 2026)
+VIOLET = '#C3A6FF'  # Reclaim (owner, 24 Nov 2026)
 SANS = os.path.join(ROOT, 'scripts/collage-fonts/InterTight-600.ttf')
 MONO = os.path.join(ROOT, 'scripts/collage-fonts/PlexMono-500.ttf')
 
@@ -377,6 +378,22 @@ SPECS += [
          shift=[(3, 4, 1, 1, 1, 0)], invert=[(8, 5, 1, 1)],
          labels=[('15 SEP 2026 · SANDERS, THEN BANNON,', 40, 1150), ('ON ONE STAGE', 40, 1192),
                  ('2026 · A PROTEST OUTSIDE OPENAI, SAN FRANCISCO', 40, 1440)]),
+]
+
+# The Reclaim family (owner, 24 Nov 2026): archive objects from batch 11, in highlighter violet.
+SPECS += [
+    dict(id='collage-neo-luddism', size=ISM, colour=VIOLET, seed=909,
+         fields=[(0, 1, 8, 9), (12, 8, 4, 4)], black=[(11, 0, 1, 1), (9, 10, 1, 1)],
+         fragments=[dict(img='stocking-frame-felkin-1867.jpg', box=(603, 1000), crop=(0.105, 0.12, 0.445, 0.835), how='screen', level=0.7, at=(80, 100))],
+         shift=[(2, 8, 1, 1, 1, 0)], invert=[(5, 4, 1, 1)],
+         labels=[('20 MAR 1812 · BREAKING A STOCKING FRAME', 730, 300), ('BECOMES A CAPITAL CRIME', 730, 342),
+                 ('STOCKING FRAME · ENGRAVING IN FELKIN, HOSIERY, 1867', 40, 1150)]),
+    dict(id='collage-neo-luddism-tall', size=PAGE, colour=VIOLET, seed=909,
+         fields=[(0, 2, 7, 10), (9, 12, 3, 3)], black=[(10, 1, 1, 1), (8, 14, 1, 1)],
+         fragments=[dict(img='stocking-frame-felkin-1867.jpg', box=(754, 1250), crop=(0.105, 0.12, 0.445, 0.835), how='screen', level=0.7, at=(40, 120))],
+         shift=[(2, 9, 1, 1, 1, 0)], invert=[(5, 5, 1, 1)],
+         labels=[('20 MAR 1812 ·', 830, 360), ('BREAKING A STOCKING', 830, 402), ('FRAME BECOMES', 830, 444), ('A CAPITAL CRIME', 830, 486),
+                 ('STOCKING FRAME · FELKIN, 1867', 40, 1440)]),
 ]
 
 if __name__ == '__main__':

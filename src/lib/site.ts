@@ -10,6 +10,8 @@ export const FAMILIES = [
   { id: 'risk', name: 'Risk', colour: '#F5A3BC', text: 'The fear that AI could end us, and the work to prevent it.' },
   // Protection (owner, 22 Nov 2026): protecting people living now from how AI is built and used today.
   { id: 'protection', name: 'Protection', colour: '#73C7F2', text: 'The demand to protect people now from how AI is built and used.' },
+  // Reclaim (owner, 24 Nov 2026): taking back control of the machine, by owning it or by refusing it.
+  { id: 'reclaim', name: 'Reclaim', colour: '#C3A6FF', text: 'The resolve to take back control of the machine: to own it, or to refuse it.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */
