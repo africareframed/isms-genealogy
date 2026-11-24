@@ -1,0 +1,18 @@
+# People facts, batch 12: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: jill-lepore
+  lifespan: born 1966
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Jill Lepore" (born 27 August 1966 in West Boylston, Massachusetts), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Jill_Lepore
+  - for: roles
+    source: NPR, Fresh Air, 15 September 2020 (David Woods Kemper '41 Professor of History at Harvard; staff writer at The New Yorker); Harvard University, Jill Lepore's scholar page (Professor of American
+      History and Professor of Law at Harvard Law School; staff writer at The New Yorker), accessed 24 November 2026, https://jlepore.scholars.harvard.edu/home.md
+    url: https://www.npr.org/transcripts/913039402
+  - for: roles
+    source: Publishers Weekly, starred review of The Rise and Fall of the Artificial State, 2026, quoted by BookBrowse ("a powerful anti-AI treatise")
+    url: https://www.bookbrowse.com/bb_briefs/detail/index.cfm/ezine_preview_number/26551/the-rise-and-fall-of-the-artificial-state
+  status: checked

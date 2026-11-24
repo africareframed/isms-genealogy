@@ -335,3 +335,22 @@
   themes: []
   thread: booms-winters
   status: checked
+
+- id: 1959-simulmatics
+  era: birth
+  year: 1959
+  title: The People Machine
+  line: A new company promises to predict, by computer, how voters will respond to a campaign.
+  who: Simulmatics Corporation; Ed Greenfield; Ithiel de Sola Pool; John F. Kennedy
+  text: 'In 1959 Ed Greenfield, an advertising executive, founded the Simulmatics Corporation with the MIT political scientist Ithiel de Sola Pool. Its name joined simulation and automation. Its “People Machine” was a computer program meant to predict how voters would respond to whatever a candidate said or did.
+
+
+    For the 1960 election it sorted voters into 480 types and wrote three reports for John F. Kennedy''s campaign; their effect is unclear. When Harper''s Magazine claimed in December 1960 that a secret computer had helped plan Kennedy''s victory, the story stirred fears of machines steering democracy. The firm later worked for the Pentagon in Vietnam and closed in 1970.
+
+    '
+  source: 'Jill Lepore, If Then: How the Simulmatics Corporation Invented the Future, Liveright, 2020; Shannon Bond, “Long Before Cambridge Analytica And Facebook, Simulmatics Linked Data And Politics”, NPR, 14 September 2020, also carried by WFAE and GPB (Greenfield and his co-founder Pool of MIT; simulation and automation; how voters would respond to whatever a candidate did or said; 480 categories; three reports for the Kennedy campaign, impact unclear; fears about computer-powered manipulation of democracy; a Defense Department contract in Vietnam; bankrupt in 1970); Seth Mnookin, review of If Then, The New York Times, reprinted by Business Standard as “Before Google and Facebook”, 27 September 2020 (Harper''s, late December 1960, Thomas Morgan: a secret computer behind Kennedy''s narrow win; picked up nationwide; opened in 1959 and ceased operations in 1970); Wikipedia, “Simulmatics Corporation” (founded 18 February 1959, infobox)'
+  sourceUrl: https://www.npr.org/2020/09/14/912644819/long-before-cambridge-analytica-and-facebook-simulmatics-linked-data-and-politic
+  thread: law
+  isms: []
+  themes: []
+  status: checked

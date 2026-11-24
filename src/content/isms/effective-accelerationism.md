@@ -31,7 +31,7 @@ words:
   - the Cathedral
   - network state
 themes: [compute, abundance]
-disputes: Zvi Mowshowitz, who blogs on AI risk, believes e/acc's founder sees human extinction as an acceptable outcome. Most who use the label do not, he adds (2023). Émile P. Torres places e/acc in the TESCREAL bundle and faults its move from what the universe does to what people should do (2023). George Michael, a professor of criminal justice, finds Yarvin's worldview not explicitly fascist but at times of “a fascistic bent”. He adds that Yarvin has echoed racist views, though Yarvin says he is not a white nationalist (2022). Against the network state, Divya Siddarth, Glen Weyl and Anne-Marie Slaughter propose plural, participatory “network societies”, arguing that exit needs something to exit to.
+disputes: Zvi Mowshowitz, who blogs on AI risk, believes e/acc's founder sees human extinction as an acceptable outcome. Most who use the label do not, he adds (2023). Émile P. Torres places e/acc in the TESCREAL bundle and faults its move from what the universe does to what people should do (2023). George Michael, a professor of criminal justice, finds Yarvin's worldview not explicitly fascist but at times of “a fascistic bent”. He adds that Yarvin has echoed racist views, though Yarvin says he is not a white nationalist (2022). Against the network state, Divya Siddarth, Glen Weyl and Anne-Marie Slaughter propose plural, participatory “network societies”, arguing that exit needs something to exit to. The historian Jill Lepore argues that tech leaders who want to move beyond the nation-state are building an “Artificial State”. It is ruled by machines, without the consent of the governed (2026).
 born: effective-accelerationism/2022-eacc-named
 status: checked
 ---

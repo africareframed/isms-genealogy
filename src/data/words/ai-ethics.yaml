@@ -126,3 +126,15 @@
   - ai-ethics
   technical: false
   status: checked
+
+- id: artificial-state
+  word: the Artificial State
+  definition: Lepore's name for rule by machines that corporations make, which she sees replacing the liberal democratic state. It is government without the consent of the governed, and she argues it can be dismantled.
+  coinedBy: Jill Lepore
+  year: 2026
+  origin: Jill Lepore, Tanner Lectures, Yale, February 2026; then The Rise and Fall of the Artificial State, Liveright (W. W. Norton) and Allen Lane in Britain, both 25 August 2026. She defines it as “government without consent, even government without humans” (part 1, chapter 1).
+  sourceUrl: https://www.penguin.co.uk/books/483176/the-rise-and-fall-of-the-artificial-state-by-lepore-jill/9780241836552
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked
