@@ -1,0 +1,110 @@
+# Words of Digital sovereignty. Same fields as words.yaml; see src/content.config.ts.
+- id: curse-of-bigness
+  word: the curse of bigness
+  definition: Brandeis's phrase for the harm done by companies grown huge through combination, which concentrates power and, he argued, usually works against the public interest. Tim Wu revived it in 2018, warning that corporate concentration threatens democracy.
+  coinedBy: Louis D. Brandeis
+  year: 1914
+  origin: 'Louis D. Brandeis, “A Curse of Bigness”, chapter VIII of Other People''s Money and How the Bankers Use It, Frederick A. Stokes, New York, 1914 (Brandeis School of Law Library, University of Louisville). The chapters first ran in Harper''s Weekly between 22 November 1913 and 17 January 1914 (Wikipedia, “Other People''s Money and How the Bankers Use It”). Tim Wu, The Curse of Bigness: Antitrust in the New Gilded Age, Columbia Global Reports, 13 November 2018 (the publisher''s description says such concentration may threaten democracy).'
+  sourceUrl: https://law.louisville.edu/lawlibrary/node/356
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: digital-sovereignty
+  word: digital sovereignty
+  definition: Control by a country, a region or its people over the digital technology they depend on, from cables and clouds to data and AI. The idea is contested; some stress control by the state, others democratic or public control.
+  year: 2013
+  yearLabel: by 2013
+  origin: 'Coiner unknown. Julia Pohle and Thorsten Thiel (“Digital sovereignty”, Internet Policy Review 9 (4), 17 December 2020) give no single first use; they describe China, the first country to develop its own idea of digital sovereignty (mostly framed as cyber or internet sovereignty), and the Snowden revelations of 2013 as drivers of the idea. An early use found: Catherine Morin-Desailly''s French Senate report n° 443 of 20 March 2013 calls for the “reconquête” of the EU''s “souveraineté numérique” (introduction, p. 7).'
+  sourceUrl: https://policyreview.info/concepts/digital-sovereignty
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: digital-colony
+  word: digital colony
+  definition: A country or region that depends on foreign-owned digital infrastructure, so that others control its data, its services and the value they create. EuroStack's advocates use it of Europe's dependence on US technology.
+  year: 2013
+  yearLabel: by 2013
+  origin: 'Coiner unknown. An early form of the idea: the title of Catherine Morin-Desailly''s report for the French Senate, L''Union européenne, colonie du monde numérique ? (“a colony of the digital world”, n° 443, 20 March 2013). At the Euro Stack conference of September 2024 the MEP Axel Voss warned that Europe could become a digital colony (Stéfane Fermigier, conference notes). The EuroStack pitch paper of 10 January 2025 warned of Europe becoming a “US colony” in digital infrastructure; Cristina Caffarra wrote “We are now a digital colony” (“EuroStack: How Europe Can Compete in Tech”, CEPA Bandwidth, 30 May 2025).'
+  sourceUrl: https://cepa.org/article/eurostack-how-europe-can-compete-in-tech
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: public-money-public-code
+  word: Public Money? Public Code!
+  definition: The demand that software paid for by the public be released as free and open-source software. Public bodies could then share, audit and improve it without being locked in to one vendor.
+  coinedBy: Free Software Foundation Europe
+  year: 2017
+  origin: Free Software Foundation Europe, “Public Money? Public Code! 31 organisations ask to improve public procurement of software”, 13 September 2017, launching the campaign and its open letter. Barcelona became the first city council to sign it (FSFE, interview with Francesca Bria, 5 July 2018); Bria recalls Barcelona's use of the policy in “Reclaiming Europe's Digital Sovereignty”, Noema, 2 October 2025.
+  sourceUrl: https://fsfe.org/news/2017/news-20170913-01
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: digital-feudalism
+  word: digital feudalism
+  definition: Mariana Mazzucato's term for the business model of the big platforms, which she compares to landowners extracting rent. Their dominance, she argues, comes from monopolising search and e-commerce rather than from creating value.
+  year: 2019
+  yearLabel: by 2019
+  origin: Coiner unknown. Mariana Mazzucato, “Preventing Digital Feudalism”, Project Syndicate, October 2019, republished by Social Europe on 9 October 2019 (the phrase is in the title; the essay compares platforms to landowners extracting rent). In “Resisting Digital Feudalism” (Project Syndicate, 7 February 2025) she calls it “a term I wrote about in 2019”, not one she coined; earlier uses by others are not ruled out. Evgeny Morozov criticises such “feudal-speak”, naming her term (“Critique of Techno-Feudal Reason”, New Left Review 133/134, 2022).
+  sourceUrl: https://www.socialeurope.eu/preventing-digital-feudalism
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: sovereign-ai
+  word: sovereign AI
+  definition: A country's capacity to build and run AI with its own infrastructure, data, workforce and businesses. Nvidia made it a sales pitch to governments; critics warn that such deals can leave control with foreign firms.
+  year: 2023
+  yearLabel: by 2023
+  origin: Coiner unknown. Pablo Chavez (“The Rising Tide of Sovereign AI”, CNAS, 10 February 2024) reports that Jensen Huang urged every country to build its own sovereign AI in a late-2023 interview, and calls it an offshoot of digital sovereignty. DFRLab (“The sovereignty trap”, 17 July 2024) takes its definition from Nvidia's blog post of 28 February 2024 and calls sovereign AI Nvidia's attempt to turn government demand into a new market. Francesca Bria questions “sovereign AI” deals with US firms (Noema, 2 October 2025).
+  sourceUrl: https://www.cnas.org/publications/commentary/the-rising-tide-of-sovereign-ai
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: public-ai
+  word: public AI
+  definition: AI built, funded or governed by public institutions as a public good, with universal access and public accountability. Its advocates see it as a counterweight to corporate AI.
+  year: 2024
+  yearLabel: by 2024
+  origin: 'Coiner unknown. Nathan Sanders, Bruce Schneier and Norman Eisen called for “strong public AI as a counterbalance to corporate AI” (“How public AI can strengthen democracy”, Brookings, dated 4 March 2024 on the page). The Public AI Network''s white paper, Public AI: Infrastructure for the Common Good (Zenodo, 8 August 2024), names its three features: public access, public accountability and permanent public goods. In June 2023 Schneier and Sanders had called for an “AI public option” (Foreign Policy; Schneier on Security, 14 June 2023).'
+  sourceUrl: https://zenodo.org/records/13914560
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: eurostack
+  word: EuroStack
+  definition: A proposed European-controlled stack of digital infrastructure, from chips and data centres to cloud, AI, digital identity and payments. Its aim is to cut Europe's dependence on US and Chinese technology.
+  year: 2024
+  origin: 'The conference “Towards European Digital Independence: Building the Euro Stack”, European Parliament, Brussels, 24 September 2024, curated by Francesca Bria, Cristina Caffarra and Meredith Whittaker (Stéfane Fermigier, conference notes, November 2024; Heinrich-Böll-Stiftung EU, 26 November 2024). Bria''s chapter in the AI Now Institute''s Redirecting Europe''s AI Industrial Policy (October 2024) and the Bertelsmann Stiftung report EuroStack – A European Alternative for Digital Sovereignty (13 February 2025) set out the plan. Wikipedia (“EuroStack”) credits Glen Weyl with coining the term in 2024; not confirmed here, as its cited pages could not be opened.'
+  sourceUrl: https://fermigier.com/blog/2024/11/eurostack-conference-notes.md
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: buy-european
+  word: Buy European
+  definition: A rule that public bodies should buy at least part of their digital technology from European suppliers. It is the first of the EuroStack Initiative Foundation's three pillars.
+  year: 2025
+  yearLabel: by 2025
+  origin: 'Coiner unknown. The EuroStack pitch paper of 10 January 2025 (p. 3) proposes a formal requirement for the public sector and European firms to “buy European” for at least part of their needs, and a letter from nearly 100 organisations asked the Commission to “buy European” (Dan Robinson, The Register, 17 March 2025). The EuroStack Initiative Foundation lists Buy European first among its three pillars (heise online, autumn 2025). An earlier form: “buy Europe” in Catherine Morin-Desailly''s French Senate report of 20 March 2013.'
+  sourceUrl: https://www.theregister.com/2025/03/17/european_tech_sovereign_fund/
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked
+- id: sovereignty-washing
+  word: sovereignty-washing
+  definition: Presenting technology as sovereign while control stays with foreign firms and foreign law. Bria uses it of leaders who repeat Big Tech's AI narratives while undermining real autonomy.
+  year: 2025
+  yearLabel: by 2025
+  origin: 'Coiner unknown. Francesca Bria, “Reclaiming Europe''s Digital Sovereignty”, Noema, 2 October 2025, urges leaders to stop falling for sovereignty-washing. The EuroStack Initiative Foundation pledged to combat “Sovereignty-Washing” in public procurement (heise online, “EuroStack Foundation: Europe''s Tech Industry Founds Sovereignty Initiative”, autumn 2025).'
+  sourceUrl: https://www.noemamag.com/reclaiming-europes-digital-sovereignty/
+  isms:
+  - digital-sovereignty
+  technical: false
+  status: checked

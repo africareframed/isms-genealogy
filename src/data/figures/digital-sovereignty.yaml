@@ -1,0 +1,79 @@
+# Notable figures for Digital sovereignty (one file per ism). Names only on the movement page; portraits on the People page.
+- id: francesca-bria-digital-sovereignty
+  name: Francesca Bria
+  lifespan: born 1977
+  isms:
+  - digital-sovereignty
+  note: Italian innovation economist and initiator of the EuroStack, who co-wrote its 2025 report for the Bertelsmann Stiftung. As Barcelona's chief technology officer from 2016, she made technological sovereignty city policy.
+  entry: digital-sovereignty/2024-euro-stack
+- id: cristina-caffarra-digital-sovereignty
+  name: Cristina Caffarra
+  isms:
+  - digital-sovereignty
+  note: Competition economist and honorary professor at UCL. She co-curated the 2024 conference that launched the EuroStack, leads the EuroStack Initiative Foundation and calls Europe a digital colony.
+  entry: digital-sovereignty/2024-euro-stack
+- id: meredith-whittaker-digital-sovereignty
+  name: Meredith Whittaker
+  isms:
+  - digital-sovereignty
+  note: President of Signal and co-founder of the AI Now Institute. She co-curated the 2024 conference in the European Parliament that launched the EuroStack.
+  entry: digital-sovereignty/2024-euro-stack
+- id: lina-khan-digital-sovereignty
+  name: Lina Khan
+  lifespan: born 1989
+  isms:
+  - digital-sovereignty
+  note: Lawyer whose note “Amazon's Antitrust Paradox” (2017) is a founding text of the New Brandeis movement. As chair of the US Federal Trade Commission (2021–2025) she opened an inquiry into Big Tech's investments in AI developers.
+  entry: digital-sovereignty/2017-amazons-antitrust-paradox
+- id: tim-wu-digital-sovereignty
+  name: Tim Wu
+  lifespan: born 1971 or 1972
+  isms:
+  - digital-sovereignty
+  note: Columbia law professor who coined “network neutrality” and wrote The Curse of Bigness (2018), urging a revival of trustbusting. He advised President Biden on competition policy from 2021 to 2023.
+  entry: digital-sovereignty/1914-curse-of-bigness
+- id: louis-brandeis-digital-sovereignty
+  name: Louis Brandeis
+  lifespan: 1856–1941
+  isms:
+  - digital-sovereignty
+  note: American lawyer and Supreme Court justice (1916–1939) who warned against “the curse of bigness”. Today's anti-monopoly movement takes its New Brandeis name from him.
+  entry: digital-sovereignty/1914-curse-of-bigness
+- id: jean-bodin-digital-sovereignty
+  name: Jean Bodin
+  lifespan: c. 1529–1596
+  isms:
+  - digital-sovereignty
+  note: French jurist whose Six Books of the Commonwealth (1576) systematised a theory of sovereignty, defined as absolute and perpetual power over a commonwealth.
+  entry: digital-sovereignty/1576-bodin
+- id: marietje-schaake-digital-sovereignty
+  name: Marietje Schaake
+  lifespan: born 1978
+  isms:
+  - digital-sovereignty
+  note: Dutch member of the European Parliament from 2009 to 2019, now at Stanford's Cyber Policy Center. In The Tech Coup (2024) she argues that governments have handed key functions to tech firms, and proposes a public stack.
+- id: mariana-mazzucato-digital-sovereignty
+  name: Mariana Mazzucato
+  lifespan: born 1968
+  isms:
+  - digital-sovereignty
+  note: Economist and founding director of UCL's Institute for Innovation and Public Purpose, which supported the 2025 EuroStack report. She calls the platforms' rent-taking business model digital feudalism.
+- id: evgeny-morozov-digital-sovereignty
+  name: Evgeny Morozov
+  lifespan: born 1984
+  isms:
+  - digital-sovereignty
+  note: Belarusian-born writer. With Francesca Bria he wrote Rethinking the Smart City (2018), on how cities can keep technological sovereignty over their data and services.
+- id: cory-doctorow-digital-sovereignty
+  name: Cory Doctorow
+  lifespan: born 1971
+  isms:
+  - digital-sovereignty
+  note: Canadian-British writer who coined enshittification. In 2025 he urged the EU to repeal its anti-circumvention law, so that users and firms can move off US platforms.
+- id: emmanuel-macron-digital-sovereignty
+  name: Emmanuel Macron
+  lifespan: born 1977
+  isms:
+  - digital-sovereignty
+  note: President of France since 2017. At the Berlin summit on digital sovereignty in 2025 he said Europe refused to be a vassal of US or Chinese tech.
+  entry: digital-sovereignty/2025-berlin-summit

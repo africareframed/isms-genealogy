@@ -1,0 +1,116 @@
+# People facts, batch 15: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: francesca-bria
+  lifespan: born 1977
+  roles:
+  - researcher
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Francesca Bria" (born 11 November 1977), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Francesca_Bria
+  - for: roles
+    source: Wikipedia, "Francesca Bria" (Barcelona's chief technology officer from 2016 to 2020; president of the Italian National Innovation Fund, 2020–2024; honorary professor at UCL IIPP); Noema, author
+      page (innovation economist)
+    url: https://en.wikipedia.org/wiki/Francesca_Bria
+  status: checked
+- id: cristina-caffarra
+  roles:
+  - researcher
+  - founder
+  sources:
+  - for: roles
+    source: Le Grand Continent, author page "Cristina Caffarra" (economist; founder and president of the EuroStack foundation; honorary professor at UCL; co-founder of CEPR's Competition Research Policy
+      Network), accessed 24 November 2026
+    url: https://legrandcontinent.eu/fr/p/cristina-caffarra/
+  - for: roles
+    source: IAPP, person page "Cristina Caffarra" (antitrust economist; head of European competition at Charles River Associates for over 20 years; lead of the EuroStack Industry Initiative)
+    url: https://iapp.org/about/person/cristina-caffarra
+  status: checked
+- id: lina-khan
+  lifespan: born 1989
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Lina Khan" (born 3 March 1989, London), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Lina_Khan
+  - for: roles
+    source: Wikipedia, "Lina Khan" (chair of the Federal Trade Commission, 15 June 2021 to 20 January 2025; chair of the New York City Economic Development Corporation from July 2026)
+    url: https://en.wikipedia.org/wiki/Lina_Khan
+  status: checked
+- id: tim-wu
+  lifespan: born 1971 or 1972
+  roles:
+  - writer
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Tim Wu" (born 1971 or 1972, Washington, D.C.), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Tim_Wu
+  - for: roles
+    source: Wikipedia, "Tim Wu" (Columbia Law professor; author of The Master Switch and The Curse of Bigness; Special Assistant to the President for Technology and Competition Policy, 2021–2023)
+    url: https://en.wikipedia.org/wiki/Tim_Wu
+  status: checked
+- id: louis-brandeis
+  lifespan: 1856–1941
+  roles:
+  - judge
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Louis Brandeis" (13 November 1856 – 5 October 1941), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Louis_Brandeis
+  - for: roles
+    source: Wikipedia, "Louis Brandeis" (associate justice of the US Supreme Court, 1916–1939; author of Other People's Money, 1914)
+    url: https://en.wikipedia.org/wiki/Louis_Brandeis
+  status: checked
+- id: jean-bodin
+  lifespan: c. 1529–1596
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Mario Turchetti, "Jean Bodin", Stanford Encyclopedia of Philosophy, revised 30 July 2018 (born between June 1529 and June 1530, died of plague in 1596)
+    url: https://plato.stanford.edu/entries/bodin/
+  - for: roles
+    source: Stanford Encyclopedia of Philosophy, "Jean Bodin" (jurist and political philosopher; Les Six livres de la République, 1576)
+    url: https://plato.stanford.edu/entries/bodin/
+  status: checked
+- id: marietje-schaake
+  lifespan: born 1978
+  roles:
+  - official
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Marietje Schaake" (born 28 October 1978, Leiden), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Marietje_Schaake
+  - for: roles
+    source: Wikipedia, "Marietje Schaake" (member of the European Parliament, 2009–2019; Stanford Cyber Policy Center; UN Secretary-General's AI Advisory Body, 2023; author of The Tech Coup, 2024)
+    url: https://en.wikipedia.org/wiki/Marietje_Schaake
+  status: checked
+- id: mariana-mazzucato
+  lifespan: born 1968
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Mariana Mazzucato" (born 16 June 1968, Rome), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Mariana_Mazzucato
+  - for: roles
+    source: Wikipedia, "Mariana Mazzucato" (professor of the economics of innovation and public value at UCL; founding director of UCL IIPP, 2017; author of The Entrepreneurial State, Mission Economy)
+    url: https://en.wikipedia.org/wiki/Mariana_Mazzucato
+  status: checked
+- id: emmanuel-macron
+  lifespan: born 1977
+  roles:
+  - official
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Emmanuel Macron" (born 21 December 1977, Amiens), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Emmanuel_Macron
+  - for: roles
+    source: Wikipedia, "Emmanuel Macron" (President of France since 14 May 2017)
+    url: https://en.wikipedia.org/wiki/Emmanuel_Macron
+  status: checked

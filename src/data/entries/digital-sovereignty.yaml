@@ -1,0 +1,158 @@
+# Timeline of Digital sovereignty, newest first. Copied from the checked staging file (24 Nov 2026).
+ism: digital-sovereignty
+entries:
+- id: 2026-tech-sovereignty-package
+  year: 2026
+  month: 6
+  title: Europe's tech sovereignty package
+  who: European Commission; Ursula von der Leyen; Cristina Caffarra
+  relation: milestone
+  text: On 3 June the European Commission proposed a Cloud and AI Development Act, a revised Chips Act and an open-source strategy. Cloud services for public bodies would be ranked in four tiers of trust, judged partly on ownership and control. Funding would rest largely on private capital and on InvestAI, launched in February 2025 with a €20 billion fund for AI gigafactories. Cristina Caffarra, who leads the EuroStack Initiative Foundation, wrote that the package disappointed.
+  source: European Commission, “Commission proposes Tech Sovereignty Package to strengthen Europe's digital autonomy and resilience”, digital-strategy.ec.europa.eu, 3 June 2026; Ramsha Jahangir, “EU Unveils Sweeping Tech Sovereignty Push, Balancing Autonomy with Openness”, Tech Policy Press, 3 June 2026; European Commission, “EU launches InvestAI initiative to mobilise €200 billion of investment in artificial intelligence”, 11 February 2025; Cristina Caffarra, “The sovereignty narratives that don't help Europe”, Tech Policy Press, 31 July 2026
+  sourceUrl: https://techpolicy.press/eu-unveils-sweeping-tech-sovereignty-push-balancing-autonomy-with-openness
+  themes:
+  - compute
+  status: checked
+- id: 2025-berlin-summit
+  year: 2025
+  month: 11
+  title: The Summit on European Digital Sovereignty
+  who: Emmanuel Macron and Friedrich Merz; the governments of France and Germany
+  relation: milestone
+  text: On 18 November more than 900 policymakers, business leaders, investors and researchers from the 27 EU states met in Berlin. Friedrich Merz wanted the state to become the “anchor customer” for European digital suppliers. Emmanuel Macron said Europe refused to be a vassal of US or Chinese tech, and urged a European preference in public procurement. France and Germany pledged to use more open-source tools in their administrations, and to foster public-private development of frontier AI in Europe.
+  source: Élysée and Bundesregierung, “Summit on European Digital Sovereignty Delivers Landmark Commitments for a more competitive and sovereign Europe”, joint press release, 18 November 2025; Federal Government of Germany, “Starting signal for a more independent Europe”, bundesregierung.de, 18 November 2025; “Europe refuses to be tech ‘vassal’ of China and US, France's Macron says”, South China Morning Post, 18 November 2025
+  sourceUrl: https://www.elysee.fr/en/emmanuel-macron/2025/11/18/summit-on-european-digital-sovereignty-delivers-landmark-commitments-for-a-more-competitive-and-sovereign-europe
+  status: checked
+- id: 2025-icc-opendesk
+  year: 2025
+  month: 10
+  title: The court that left Microsoft
+  who: International Criminal Court; its chief prosecutor, Karim Khan; Microsoft
+  relation: milestone
+  text: In February President Trump sanctioned officials of the International Criminal Court after its judges issued arrest warrants for Benjamin Netanyahu and Yoav Gallant. In May the Associated Press reported, citing court staff, that Microsoft had cancelled the email address of the chief prosecutor, Karim Khan. Microsoft's president, Brad Smith, denied that the company had ever stopped serving the court. In October the court confirmed it was moving from Microsoft Office to openDesk, open-source software from ZenDiS, a centre working for Germany's interior ministry.
+  source: Associated Press, “Trump's sanctions on ICC prosecutor have halted tribunal's work”, via Manila Bulletin, 15 May 2025; Dan Robinson, The Register, 31 October 2025; Tjitske Lingsma, “How sanctions can weaponize US tech against the ICC”, JusticeInfo.net, 19 March 2026
+  sourceUrl: https://www.theregister.com/2025/10/31/international_criminal_court_ditches_office/
+  status: checked
+- id: 2025-apertus
+  year: 2025
+  month: 9
+  title: Apertus, a public model
+  who: EPFL, ETH Zurich and the Swiss National Supercomputing Centre; the Public AI Network
+  relation: milestone
+  text: On 2 September EPFL, ETH Zurich and the Swiss National Supercomputing Centre released Apertus, a language model trained on more than 1,000 languages. Its weights, training data, recipes and code are all published. Martin Jaggi of EPFL called it a blueprint for trustworthy, sovereign and inclusive AI. It was offered abroad through the Public AI Inference Utility, whose Joshua Tan co-wrote the Public AI Network's 2024 white paper on public AI.
+  source: 'EPFL, “Apertus: a fully open, transparent, multilingual language model”, ai.epfl.ch, 2 September 2025; Brandon Jackson, B. Cavello, Flynn Devine, Nick Garcia, Samuel J. Klein, Alex Krasodomski, Joshua Tan and Eleanor Tursman, Public AI: Infrastructure for the Common Good, Public AI Network, Zenodo, 8 August 2024'
+  sourceUrl: https://ai.epfl.ch/apertus-a-fully-open-transparent-multilingual-language-model
+  status: checked
+- id: 2025-eurostack-report
+  year: 2025
+  month: 2
+  title: A European alternative
+  who: Francesca Bria, Paul Timmers and Fausto Gernone; Bertelsmann Stiftung; Cristina Caffarra and European industry
+  relation: milestone
+  text: A report for the Bertelsmann Stiftung, a German foundation, said that more than 80% of Europe's digital technologies and infrastructure are imported. Its authors proposed a European Sovereign Technology Fund of about €300 billion over ten years, for chips, supercomputing, data centres and sovereign AI clouds. In January a pitch paper by Cristina Caffarra and others had warned of Europe becoming a “US colony” in digital infrastructure. In March nearly 100 organisations, among them Airbus, asked the Commission for a sovereign infrastructure fund and a rule to buy European.
+  source: 'Francesca Bria, Paul Timmers and Fausto Gernone, EuroStack – A European Alternative for Digital Sovereignty, Bertelsmann Stiftung, 13 February 2025; CEPS, “A bold proposal to build the EuroStack, because doing nothing isn''t an option anymore”, 13 February 2025; Robin Berjon, Cristina Caffarra and others, #EUROSTACK: European Strategic Sovereign Digital Infrastructures, pitch paper, 10 January 2025, eurostack.eu; Dan Robinson, The Register, 17 March 2025'
+  sourceUrl: https://www.bertelsmann-stiftung.de/en/publications/publication/did/eurostack-a-european-alternative-for-digital-sovereignty
+  themes:
+  - compute
+  status: checked
+- id: 2024-euro-stack
+  year: 2024
+  month: 9
+  title: Building the Euro Stack
+  who: Francesca Bria, Cristina Caffarra and Meredith Whittaker; members of the European Parliament from several parties
+  relation: definition
+  text: 'On 24 September a conference in the European Parliament, “Towards European Digital Independence: Building the Euro Stack”, set out the idea. Its curators were Francesca Bria, Cristina Caffarra and Meredith Whittaker, and MEPs from several parties hosted it. Speakers called reliance on US and Chinese technology a threat, and proposed European-controlled, open-source infrastructure for identity, payments, data and cloud. In October Bria wrote that the EuroStack is a political project, not only a technological one.'
+  source: 'Stéfane Fermigier, “Euro Stack Conference notes (sept. 2024)”, fermigier.com, 19 November 2024; Sabine Muscat, “Europe''s quest for digital sovereignty: can a ‘Euro Stack’ protect the EU from Trump and big tech?”, Heinrich-Böll-Stiftung EU, 26 November 2024; Francesca Bria, “European Digital Independence: Building the EuroStack”, chapter X of Redirecting Europe''s AI Industrial Policy: From Competitiveness to Public Interest, AI Now Institute, October 2024'
+  sourceUrl: https://fermigier.com/blog/2024/11/eurostack-conference-notes.md
+  status: checked
+- id: 2024-indiaai-mission
+  year: 2024
+  month: 3
+  title: The IndiaAI Mission
+  who: Government of India
+  relation: milestone
+  text: On 7 March India's cabinet approved the IndiaAI Mission, with an outlay of ₹10,371.92 crore. It promised public computing infrastructure of 10,000 or more GPUs, built through a public-private partnership, and home-grown foundation models. It was framed as “Making AI in India and Making AI Work for India”. The government said the mission would support India's tech sovereignty.
+  source: Press Information Bureau, Government of India, “Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem”, 7 March 2024
+  sourceUrl: https://pib.gov.in/PressReleasePage.aspx?PRID=2012355
+  themes:
+  - compute
+  status: checked
+- id: 2024-sovereign-ai-pitch
+  year: 2024
+  month: 2
+  title: Nvidia sells sovereign AI
+  who: Jensen Huang, chief executive of Nvidia; Francesca Bria
+  relation: reacted-against
+  text: At the World Governments Summit in Dubai on 12 February, Nvidia's chief executive urged every country to own the production of its own intelligence. AI, Jensen Huang said, codifies a nation's culture and its society's intelligence. Researchers at the Atlantic Council's DFRLab later called “sovereign AI” Nvidia's attempt to turn government demand into a new market. In 2025 Francesca Bria warned that every sovereign AI deal with Nvidia or other US tech firms raises hard questions about who controls it.
+  source: Brian Caulfield, NVIDIA Blog, 12 February 2024; Konstantinos Komaitis, Esteban Ponce de León, Kenton Thibaut, Trisha Ray and Kevin Klyman, “The sovereignty trap”, DFRLab, Atlantic Council, 17 July 2024; Francesca Bria, “Reclaiming Europe's Digital Sovereignty”, Noema, 2 October 2025
+  sourceUrl: https://blogs.nvidia.com/blog/world-governments-summit/
+  themes:
+  - compute
+  status: checked
+- id: 2020-gaia-x
+  year: 2020
+  title: Gaia-X
+  who: Peter Altmaier and Bruno Le Maire; the governments of Germany and France
+  relation: milestone
+  text: Presented at Germany's Digital Summit in Dortmund in October 2019, Gaia-X was launched with France in June 2020, with 22 founding companies. It was meant as a European cloud and data infrastructure that would cut reliance on American and Chinese tech firms. Altmaier called it “nothing less than a European moonshot in digital policy”. Open-source advocates warned that big firms could capture it, and Scaleway, a founding member, left in November 2021.
+  source: 'ComputerBase, “Europäische Cloud: Bundesregierung stellt Gaia-X offiziell vor”, 29 October 2019; Geir Moulson, “Germany, France hope cloud data project to boost sovereignty”, Associated Press, via KSAT, 4 June 2020; Wikipedia, “Gaia-X”'
+  sourceUrl: https://www.ksat.com/business/2020/06/04/germany-france-hope-cloud-data-project-to-boost-sovereignty/
+  status: checked
+- id: 2017-amazons-antitrust-paradox
+  year: 2017
+  title: Amazon's Antitrust Paradox
+  who: Lina M. Khan
+  relation: milestone
+  text: A Yale law student argued that antitrust law, fixed on short-term prices, cannot see how platforms such as Amazon build market power. In 2021, aged 32, Lina Khan became chair of the US Federal Trade Commission. In 2023 she warned that a handful of firms controlled AI's raw materials, among them cloud services, computing power and data. In January 2024 the commission opened an inquiry into Big Tech's investments in AI developers, including OpenAI and Anthropic.
+  source: Lina M. Khan, “Amazon's Antitrust Paradox”, Yale Law Journal 126, January 2017; Marcy Gordon, “Biden elevates energetic critic of Big Tech as top regulator”, Associated Press, via KSAT, 15 June 2021; Tristan Bove, Fortune, 4 May 2023, on Lina Khan, “We Must Regulate A.I. Here's How”, The New York Times, 3 May 2023; Federal Trade Commission, “FTC Launches Inquiry into Generative AI Investments and Partnerships”, press release, 25 January 2024
+  sourceUrl: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
+  themes:
+  - compute
+  status: checked
+- id: 2016-barcelona
+  year: 2016
+  title: Barcelona's technological sovereignty
+  who: Barcelona City Council under Mayor Ada Colau; Francesca Bria
+  relation: milestone
+  text: 'On 6 October Barcelona presented its Digital City plan for 2017 to 2020, built on technological sovereignty: free software, interoperable services and free standards. Its chief technology officer, Francesca Bria, wanted to cut the city''s dependence on large, mostly foreign firms and keep control of its data. The plan committed 70% of the budget for new services to free and open-source software. By 2018 Barcelona was the first city council to have signed the open letter “Public Money? Public Code!”.'
+  source: Barcelona City Council, “General Principles of Technological Sovereignty”, Barcelona Digital Standards, barcelona.cat; Erik Albers, “Using Free Software to build a more democratic, inclusive and sustainable digital society”, interview with Francesca Bria, Free Software Foundation Europe, 5 July 2018
+  sourceUrl: https://fsfe.org/news/2018/news-20180705-01
+  status: checked
+- id: 2013-after-snowden
+  year: 2013
+  month: 6
+  title: After Snowden
+  who: Edward Snowden; European governments
+  relation: attributed
+  text: From June 2013 Edward Snowden's leaks revealed mass surveillance by the US National Security Agency. The researchers Julia Pohle and Thorsten Thiel write that demands for national or regional digital sovereignty have been made ever since. More than a dozen European countries floated plans, from new undersea cables to stronger data protection. In December Germany's new coalition pledged to regain technological sovereignty.
+  source: 'Julia Pohle and Thorsten Thiel, “Digital sovereignty”, Internet Policy Review 9 (4), 17 December 2020; Mirko Hohmann, Robert Morgus and Isabel Skierka, “Technological Sovereignty: Missing the Point?”, GPPi and New America''s Open Technology Institute, 24 November 2014; Loek Essers, “German coalition favors German-owned or open source software, aims to lock NSA out”, PCWorld, 17 December 2013'
+  sourceUrl: https://policyreview.info/concepts/digital-sovereignty
+  status: checked
+- id: 2013-colony-of-the-digital-world
+  year: 2013
+  month: 3
+  title: A colony of the digital world?
+  who: Catherine Morin-Desailly, French senator
+  relation: milestone
+  text: A report for the French Senate's European affairs committee warned that Europe was on the way to becoming a colony of the digital world. Its author, Catherine Morin-Desailly, wanted the EU to make the reconquest of its digital sovereignty a political goal. Her proposals included curbs on dominant platforms, more control over personal data and public purchasing to support European firms. In 2025 Cristina Caffarra wrote that Europe had become a digital colony.
+  source: 'Catherine Morin-Desailly, L''Union européenne, colonie du monde numérique ?, rapport d''information n° 443 (2012–2013), Commission des affaires européennes, Sénat, 20 March 2013; Cristina Caffarra, “EuroStack: How Europe Can Compete in Tech”, CEPA Bandwidth, 30 May 2025'
+  sourceUrl: https://www.senat.fr/rap/r12-443/r12-4431.pdf
+  status: checked
+- id: 1914-curse-of-bigness
+  year: 1914
+  title: A Curse of Bigness
+  who: Louis D. Brandeis
+  relation: claimed
+  text: In articles for Harper's Weekly, collected in 1914 as Other People's Money, an American lawyer attacked the power of the big banks. One chapter, “A Curse of Bigness”, argued that size won by combination usually harms the public and breeds inefficiency. Today's anti-monopoly movement, around Lina Khan and Tim Wu, is called the New Brandeis movement after him. Wu named his 2018 book on corporate concentration The Curse of Bigness.
+  source: 'Louis D. Brandeis, Other People''s Money and How the Bankers Use It, Frederick A. Stokes, New York, 1914, chapter VIII, “A Curse of Bigness” (Brandeis School of Law Library, University of Louisville); Wikipedia, “Other People''s Money and How the Bankers Use It”; Wikipedia, “New Brandeis movement”; Tim Wu, The Curse of Bigness: Antitrust in the New Gilded Age, Columbia Global Reports, 13 November 2018'
+  sourceUrl: https://law.louisville.edu/lawlibrary/node/356
+  status: checked
+- id: 1576-bodin
+  year: 1576
+  title: The Six Books of the Commonwealth
+  who: Jean Bodin
+  relation: attributed
+  text: In Les Six livres de la République, published in Paris, a French jurist systematised a theory of sovereignty. He defined it as “the most high, absolute, and perpetual power” over the citizens and subjects of a commonwealth. Writing on digital sovereignty in 2020, Julia Pohle and Thorsten Thiel begin their history of sovereignty with Bodin. Rousseau, they note, later shifted the focus to the sovereignty of the people.
+  source: Jean Bodin, Les Six livres de la République, Jacques du Puys, Paris, 1576; Mario Turchetti, “Jean Bodin”, Stanford Encyclopedia of Philosophy, revised 30 July 2018; Julia Pohle and Thorsten Thiel, “Digital sovereignty”, Internet Policy Review 9 (4), 17 December 2020
+  sourceUrl: https://plato.stanford.edu/entries/bodin/
+  status: checked
