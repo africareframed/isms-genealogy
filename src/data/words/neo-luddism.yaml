@@ -1,0 +1,79 @@
+# Words of Neo-Luddism. Same fields as words.yaml; see src/content.config.ts.
+- id: ned-ludd
+  word: Ned Ludd
+  definition: The mythical leader in whose name the Luddites broke machines, also called General or King Ludd. The tale of a Leicestershire man who broke knitting frames in 1779 has no firm evidence.
+  year: 1811
+  yearLabel: by 1811
+  origin: 'Wordorigins.org, “Luddite”: the earliest print reference found is The Times (London), 16 December 1811, reporting a threatening letter signed “Ned Lud and Co.”; it finds no strong evidence for the 1779 story or for a real Ned Ludd. The National Archives, “Why did the Luddites protest?”, gives “General Ned Ludd” or “King Ludd”, a mythical figure said to lead from Sherwood Forest.'
+  sourceUrl: https://www.wordorigins.org/big-list-entries/luddite
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: technique
+  word: technique
+  definition: Ellul's word for the totality of methods rationally arrived at, judged above all by their efficiency. In his account it is far wider than machines or technology.
+  coinedBy: Jacques Ellul (in this sense)
+  year: 1954
+  origin: 'Jacques Ellul, La Technique ou l''Enjeu du siècle, 1954; in English The Technological Society, translated by John Wilkinson, 1964 (Wikipedia, “The Technological Society”: “the totality of methods rationally arrived at”, distinct from machines, technology or procedures; efficiency its central focus). Kirkpatrick Sale names Ellul among the critics who challenged the technocratic mainstream before the neo-Luddites (“The Neo-Luddites”, Crow''s Nest Distribution zine).'
+  sourceUrl: https://en.wikipedia.org/wiki/The_Technological_Society
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: megamachine
+  word: megamachine
+  definition: Mumford's name for a society organised like one great machine, with people as its parts. It let rulers direct huge workforces on vast projects such as the pyramids.
+  coinedBy: Lewis Mumford
+  year: 1967
+  yearLabel: by 1967
+  origin: 'Lewis Mumford, The Myth of the Machine, vol. 1, Technics and Human Development, 1967, and vol. 2, The Pentagon of Power, 1970 (Wikipedia, “The Myth of the Machine”: a ruler coordinating a large workforce on pyramids, canals and cities). Zachary Loeb says Mumford “coined the neologism” (boundary 2, 30 July 2018). Chellis Glendinning cites Mumford in her neo-Luddite manifesto (1990), and Kirkpatrick Sale puts him “beyond all others” among the critics who challenged the technocratic mainstream.'
+  sourceUrl: https://en.wikipedia.org/wiki/The_Myth_of_the_Machine
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: convivial-tools
+  word: convivial tools
+  definition: Illich's name for tools that extend what people can do freely and creatively, in their own way. He set them against industrial tools, which past a certain point destroy human autonomy.
+  coinedBy: Ivan Illich
+  year: 1973
+  origin: 'Ivan Illich, Tools for Conviviality, Harper & Row, 1973 (Wikipedia, “Tools for Conviviality”: conviviality as “individual freedom realized in personal interdependence”). Kirkpatrick Sale names Illich among the critics who challenged the technocratic mainstream before the neo-Luddites (“The Neo-Luddites”, Crow''s Nest Distribution zine).'
+  sourceUrl: https://en.wikipedia.org/wiki/Tools_for_Conviviality
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: neo-luddite
+  word: neo-Luddite
+  definition: Someone who questions the belief that unbridled technology means progress, and resists technologies that harm work, community or nature. Its manifesto insists that neo-Luddites are not anti-technology.
+  year: 1990
+  yearLabel: by 1990
+  origin: Coiner unknown; earlier uses may exist. Chellis Glendinning, “Notes toward a Neo-Luddite Manifesto”, Utne Reader, 1990, gave the name its principles and programme; Wikipedia (“Neo-Luddism”) says she sought to found a unified movement and reclaim the term Luddite. Kirkpatrick Sale dates the movement's manifesto to March 1990 (“The Neo-Luddites”, Crow's Nest Distribution zine).
+  sourceUrl: https://theanarchistlibrary.org/library/chellis-glendinning-notes-toward-a-neo-luddite-manifesto
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: luddite-club
+  word: Luddite Club
+  definition: A club of teenagers and students who step away from smartphones and social media, the most devoted carrying flip phones. It began among Brooklyn high-school students and grew into a network of chapters.
+  coinedBy: a student at Murrow High School, Brooklyn
+  year: 2021
+  origin: 'Alex Vadukul, “‘Luddite’ Teens Don''t Want Your Likes”, The New York Times, 15 December 2022, republished by The Irish Times, 26 December 2022: founded the year before by a Murrow High School student, named after Ned Ludd; members read, draw and paint in Prospect Park. Allison Morrow, CNN, 8 October 2025: a non-profit with more than 20 chapters at US high schools and colleges.'
+  sourceUrl: https://www.irishtimes.com/life-style/people/2022/12/26/social-media-and-phones-are-not-real-life-meet-the-teens-ditching-likes-for-flip-phones
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked
+- id: luddite-renaissance
+  word: Luddite Renaissance
+  definition: The wave of groups, events and writers who since the mid-2020s wear the Luddite name against Big Tech and AI. It is also the name of an anonymous New York collective that organised the Summer of Ludd in 2026.
+  year: 2025
+  yearLabel: by 2025
+  origin: 'Coiner unknown. Earliest use found: a loose group of grassroots collectives and clubs dubbed autumn 2025 the “Luddite Renaissance”, with a press release of 4 September 2025 (Brian Merchant, “The Luddite Renaissance is in full swing”, Blood in the Machine, 21 September 2025). CNN reported a Luddite Renaissance rally in New York that September (Allison Morrow, 8 October 2025). The collective: Janus Rose, “Being a Luddite Is Fun Again”, 404 Media, 27 July 2026.'
+  sourceUrl: https://www.bloodinthemachine.com/p/the-luddite-renaissance-is-in-full
+  isms:
+  - neo-luddism
+  technical: false
+  status: checked

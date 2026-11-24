@@ -1,0 +1,114 @@
+# People facts, batch 14: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: jathan-sadowski
+  roles:
+  - researcher
+  - critic
+  sources:
+  - for: roles
+    source: Capricon 46, Guests of Honor, "This Machine Kills" (Senior Lecturer in the Department of Human-Centred Computing at Monash University; studies the political economy of technology; co-hosts This
+      Machine Kills), accessed 24 November 2026
+    url: https://www.capricon.org/capricon46/guests-of-honor/this-machine-kills/
+  - for: roles
+    source: Jathan Sadowski, "I'm a Luddite. You should be one, too", Monash Lens, 18 August 2021 (a social scientist who studies how new technologies affect politics, economics and society; calls himself
+      a Luddite)
+    url: https://lens.monash.edu/@technology/2021/08/18/1383616/im-a-luddite-you-should-be-one-too
+  status: checked
+- id: edward-ongweso-jr
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: roles
+    source: Social Science Research Council, Just Tech, "Edward Ongweso Jr." (finance editor at Logic(s); cohost of This Machine Kills; has worked as an organizer and researcher on how Silicon Valley restructures
+      labour), accessed 24 November 2026
+    url: https://just-tech.ssrc.org/our-network/edward-ongweso-jr/
+  - for: roles
+    source: Edward Ongweso Jr., edwardongweso.com (writer and editor; tech criticism, labor and financial reporting; Senior Researcher at Security in Context from 2024)
+    url: https://edwardongweso.com
+  status: checked
+- id: gavin-mueller
+  roles:
+  - researcher
+  - writer
+  sources:
+  - for: roles
+    source: University of Amsterdam, profile "Dr. G.C. (Gavin) Mueller" (Faculty of Humanities, Media & Culture), accessed 24 November 2026; Verso Books, Breaking Things at Work (February 2021)
+    url: https://www.uva.nl/en/profile/m/u/g.c.mueller/g.c.mueller.html
+  status: checked
+- id: chellis-glendinning
+  lifespan: born 1947
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Chellis Glendinning" (born 18 June 1947, Cleveland, Ohio), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Chellis_Glendinning
+  - for: roles
+    source: Wikipedia, "Chellis Glendinning" (author and activist; called a pioneer of ecopsychology); Chellis Glendinning, "Notes toward a Neo-Luddite Manifesto", Utne Reader, March 1990
+    url: https://en.wikipedia.org/wiki/Chellis_Glendinning
+  status: checked
+- id: kirkpatrick-sale
+  lifespan: born 1937
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Kirkpatrick Sale" (born 27 June 1937, Ithaca, New York; no death date given), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Kirkpatrick_Sale
+  - for: roles
+    source: Wikipedia, "Kirkpatrick Sale" (author; journalist at the New Leader and The New York Times Magazine; "a leader of the neo-Luddites"; protest and anti-war activist; director of the Middlebury
+      Institute)
+    url: https://en.wikipedia.org/wiki/Kirkpatrick_Sale
+  status: checked
+- id: wendell-berry
+  lifespan: 1934–2026
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Wendell Berry" (born 5 August 1934, Louisville, Kentucky; died 31 August 2026, Port Royal, Kentucky, aged 92), accessed 24 November 2026; Mark Engler, "Remembering Wendell Berry,
+      agrarian writer and voice of conscience", Resilience, 2 September 2026 (has died; he was 92; born 5 August 1934)
+    url: https://en.wikipedia.org/wiki/Wendell_Berry
+  - for: roles
+    source: Wikipedia, "Wendell Berry" (novelist, poet, essayist, farmer, environmental activist, cultural critic)
+    url: https://en.wikipedia.org/wiki/Wendell_Berry
+  status: checked
+- id: thomas-pynchon
+  lifespan: born 1937
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Thomas Pynchon" (born 8 May 1937, Glen Cove, New York), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Thomas_Pynchon
+  - for: roles
+    source: Wikipedia, "Thomas Pynchon" (American novelist)
+    url: https://en.wikipedia.org/wiki/Thomas_Pynchon
+  status: checked
+- id: ivan-illich
+  lifespan: 1926–2002
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Ivan Illich" (born 4 September 1926, Vienna; died 2 December 2002, Bremen), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Ivan_Illich
+  - for: roles
+    source: Wikipedia, "Ivan Illich" (Austrian Catholic priest, theologian, philosopher and social critic)
+    url: https://en.wikipedia.org/wiki/Ivan_Illich
+  status: checked
+- id: jacques-ellul
+  lifespan: 1912–1994
+  roles:
+  - writer
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Jacques Ellul" (born 6 January 1912, Bordeaux; died 19 May 1994, Pessac), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Jacques_Ellul
+  - for: roles
+    source: Wikipedia, "Jacques Ellul" (French-born philosopher, sociologist, lay theologian and professor; longtime professor at the University of Bordeaux)
+    url: https://en.wikipedia.org/wiki/Jacques_Ellul
+  status: checked

@@ -1,0 +1,164 @@
+# Timeline of Neo-Luddism, newest first. Copied from the checked staging file (24 Nov 2026).
+ism: neo-luddism
+entries:
+- id: 2026-summer-of-ludd
+  year: 2026
+  month: 7
+  title: The Summer of Ludd
+  who: Luddite Renaissance, an anonymous New York collective
+  relation: milestone
+  text: Around the Fourth of July an anonymous collective held a week of free New York events, for a life less reliant on Big Tech. At a mock trial in Washington Square Park the crowd found OpenAI and Sam Altman guilty, then stomped on a cardboard ChatGPT phone. Talks covered data centres, surveillance and AI, and word spread by posters and paper guides, not social media.
+  source: Janus Rose, “Being a Luddite Is Fun Again”, 404 Media, 27 July 2026 (week-long festival of free events over the July 4th weekend; mock trial; posters and paper event guides); Vitasta Kaul, “Return of the Luddites”, ThePrint, 4 July 2026 (discussions on data centres, surveillance and AI; posters and printed pamphlets); Emma Bowman, “Get with the times — here's what a ‘Luddite’ means today”, NPR, 19 June 2026 (social-media free events)
+  sourceUrl: https://404media.co/luddite-events-nyc-off-tech-summer-of-ludd
+  status: checked
+- id: 2025-luddite-renaissance
+  year: 2025
+  month: 9
+  title: The Luddite renaissance
+  who: Brian Merchant; youth collectives and workers' groups
+  relation: milestone
+  text: Brian Merchant declared a Luddite renaissance in full swing, listing youth collectives, workers' groups and events against Big Tech and AI. In New York several dozen people gathered for a Luddite Renaissance rally. Outside an Apple store in Manhattan, a figure dressed as Death smashed an iPhone with a rock. Like the first Luddites, CNN reported, the new ones oppose exploitation, not technology.
+  source: Brian Merchant, “The Luddite Renaissance is in full swing”, Blood in the Machine, 21 September 2025; Allison Morrow, “As AI gets more life-like, a new Luddite movement is taking root”, CNN, 8 October 2025, via AOL and CNN Brasil (the rally “last month”; not anti-technology but anti-exploitation); Mark Hurst, “The Luddite renaissance is here”, Creative Good, 23 October 2025, buttondown.com/creativegood (the Apple Store on West 14th Street, about two weeks earlier)
+  sourceUrl: https://www.bloodinthemachine.com/p/the-luddite-renaissance-is-in-full
+  themes:
+  - luddite
+  status: checked
+- id: 2023-writers-strike
+  year: 2023
+  month: 9
+  title: The writers' strike and AI
+  who: Writers Guild of America; Brian Merchant
+  relation: milestone
+  text: After a strike fought in part over studios' plans for AI, Hollywood writers won a new contract. It says AI is not a writer, and studios cannot require writers to use it. Brian Merchant called the strike the first workplace battle between humans and AI. He said the outcome was one the Luddites would applaud.
+  source: 'Writers Guild of America, “Know Your Rights: Artificial Intelligence” (the 2023 MBA''s AI provisions), wga.org; James Robins, “Can a New Generation of Luddites Take Down A.I.?”, The New Republic, 6 November 2023 (the strike in part against AI); Brian Merchant, “The writers'' strike was the first workplace battle between humans and AI. The humans won”, Los Angeles Times, September 2023 (listed by the Benton Institute, Daily Digest 25 September 2023); Libby Rainey, “‘Blood In The Machine’ Connects Hollywood Workers Fight Against AI To The Luddites”, LAist, 2 October 2023'
+  sourceUrl: https://laist.com/news/blood-in-the-machine-connects-hollywood-workers-fight-against-ai-to-the-luddites
+  status: checked
+- id: 2023-blood-in-the-machine
+  year: 2023
+  month: 9
+  title: Blood in the Machine
+  who: Brian Merchant
+  relation: milestone
+  text: A tech journalist tells the story of “the first machines that came for human jobs”. The Luddites, he argues, wanted a part in the new technology, not to be replaced by it. He calls himself a Luddite, and holds that their history explains the power and toll of Big Tech and AI today.
+  source: 'Brian Merchant, Blood in the Machine: The Origins of the Rebellion Against Big Tech, Little, Brown and Company, 26 September 2023 (publisher''s description, hachettebookgroup.com); KQED Forum, “Why Brian Merchant, a Tech Columnist, Says He''s a Luddite”, 14 November 2023'
+  sourceUrl: https://hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/
+  themes:
+  - luddite
+  status: checked
+- id: 2022-luddite-club
+  year: 2022
+  month: 12
+  title: The Luddite Club
+  who: High-school students in Brooklyn
+  relation: milestone
+  text: The New York Times reported on a club of Brooklyn teenagers who meet in Prospect Park on Sundays, phones put away. The most committed carry flip phones, and they read, draw and paint instead of scrolling. They named the club after Ned Ludd. By 2025 it was a non-profit with more than 20 school and college chapters in the US.
+  source: 'Alex Vadukul, “‘Luddite’ Teens Don''t Want Your Likes”, The New York Times, 15 December 2022, republished as “‘Social media and phones are not real life’: Meet the teens ditching likes for flip phones”, The Irish Times, 26 December 2022; Allison Morrow, “As AI gets more life-like, a new Luddite movement is taking root”, CNN, 8 October 2025'
+  sourceUrl: https://www.irishtimes.com/life-style/people/2022/12/26/social-media-and-phones-are-not-real-life-meet-the-teens-ditching-likes-for-flip-phones
+  status: checked
+- id: 2021-im-a-luddite
+  year: 2021
+  month: 8
+  title: I'm a Luddite. You should be one, too
+  who: Jathan Sadowski
+  relation: milestone
+  text: A social scientist at Monash University calls himself a proud Luddite. He sees in the backlash against Big Tech, gig platforms and data extraction the seeds of a neo-Luddite movement. Technology, he argues, should be democratically governed, not treated as a grab-bag of apps and gadgets. Since 2020 he has co-hosted the podcast This Machine Kills with Edward Ongweso Jr.
+  source: Jathan Sadowski, “I'm a Luddite. You should be one, too”, The Conversation, republished by Monash Lens, 18 August 2021; Apple Podcasts, This Machine Kills (2020–2026, hosted by Jathan Sadowski and Edward Ongweso Jr.); Edward Ongweso Jr., edwardongweso.com (a podcast “we started in 2020”)
+  sourceUrl: https://lens.monash.edu/@technology/2021/08/18/1383616/im-a-luddite-you-should-be-one-too
+  status: checked
+- id: 2021-breaking-things-at-work
+  year: 2021
+  month: 2
+  title: Breaking Things at Work
+  who: Gavin Mueller
+  relation: milestone
+  text: A media scholar argues that the Luddites were right about why people hate their jobs. He traces resistance from textile mills to algorithms, and calls a Marxist neo-Luddism crucial to changing the world. Against left-wing hopes that automation will free workers, he holds that their power depends on subverting such technologies.
+  source: 'Gavin Mueller, Breaking Things at Work: The Luddites Are Right About Why You Hate Your Job, Verso, February 2021 (publisher''s description, versobooks.com); New Books Network, “Breaking Things at Work” (book description); James Muldoon, “Fully Decelerated Carbon-Neutral Luddism”, Verso blog, 26 April 2021'
+  sourceUrl: https://www.versobooks.com/books/3184-breaking-things-at-work
+  status: checked
+- id: 1996-second-luddite-congress
+  year: 1996
+  month: 4
+  title: The Second Luddite Congress
+  who: Center for Plain Living; Kirkpatrick Sale
+  relation: milestone
+  text: About 250 delegates met at a Quaker meeting house in Barnesville, Ohio, convened by the Center for Plain Living, a conservative Quaker group. Kirkpatrick Sale gave the keynote, and speakers included Bill McKibben and Clifford Stoll. It opened days after the Unabomber's arrest; delegates voiced little sympathy for him and rejected the first Luddites' violence. A draft statement held “that the needs of people exceed the needs of the machines”.
+  source: 'Lionel Basney, “Questioning Progress”, Books & Culture, September/October 1998; Joshua Glenn, “Beardless in Barnesville”, Utne Reader, July–August 1996, reposted on HiLobrow, 29 November 2011 (the draft Statement of Means); The editors of E Magazine, “Second Luddite Congress in Ohio: A Modern Critique of Technology”, emagazine.com, posted 20 July 2004 (“little sympathy was expressed for the Unabomber”; the original Luddites'' violence rejected)'
+  sourceUrl: https://booksandculture.com/articles/1998/sepoct/8b5018.html
+  status: checked
+- id: 1995-rebels-against-the-future
+  year: 1995
+  title: Rebels Against the Future
+  who: Kirkpatrick Sale
+  relation: milestone
+  text: Sale's history of the Luddites gives its last third to the harms of today's technology, among them “disposable jobs”. In January he smashed a computer with a sledgehammer on stage at an Utne Reader forum. In Wired he bet Kevin Kelly $1,000 that currency collapse, war between rich and poor and environmental disaster would converge by 2020. The referee ruled for Kelly, saying it was a squeaker.
+  source: 'Kirkpatrick Sale, Rebels Against the Future: The Luddites and Their War on the Industrial Revolution, Addison-Wesley, 1995, reviewed by Kirkus Reviews (release date 1 May 1995; the last third on current technology); Monika Bauerlein, “The Luddites are Back”, Utne Reader, March–April 1996 (the sledgehammer, January 1995; the Wired debate, June 1995); Kevin Kelly, “Concluding our 25-year Bet”, The Technium, 5 January 2021'
+  sourceUrl: https://kk.org/thetechnium/?p=6766
+  status: checked
+- id: 1992-technopoly
+  year: 1992
+  title: Technopoly
+  who: Neil Postman
+  relation: attributed
+  text: A media critic argues that culture has surrendered to technology, which now shapes what politics, education and truth mean. He is sometimes listed among the neo-Luddites. A year later he called himself “not at all a Luddite”, though he saw no disgrace in being linked with them.
+  source: 'Neil Postman, Technopoly: The Surrender of Culture to Technology, Knopf, 1992 (Open Library, Vintage edition of 1993, “originally published” by Knopf in 1992; Penguin Random House, publisher''s description); Neil Postman, “Of Luddites, Learning, and Life”, TECHNOS Quarterly, vol. 2 no. 4, Winter 1993; Wikipedia, “Neo-Luddism” (lists him as a prominent neo-Luddite who did not consider himself one)'
+  sourceUrl: https://faculty.rsu.edu/users/f/felwell/www/Theorists/Postman/Articles/TECHNOS_NET.htm
+  status: checked
+- id: 1990-neo-luddite-manifesto
+  year: 1990
+  title: Notes toward a Neo-Luddite Manifesto
+  who: Chellis Glendinning
+  relation: definition
+  text: A New Mexico psychologist recasts the Luddites as a thoughtful social movement, and their heirs as citizens who doubt technology means progress. “Neo-Luddites are not anti-technology,” she writes; every technology is political and serves particular interests. Her programme calls for dismantling destructive technologies, computers among them, and for tools made at human scale by those who use them.
+  source: Chellis Glendinning, “Notes toward a Neo-Luddite Manifesto”, Utne Reader, 1990 (Wikipedia, “Neo-Luddism”, references), text at The Anarchist Library; Kirkpatrick Sale, “The Neo-Luddites”, in the zine Neo-Luddites and Lessons from the Luddites, Crow's Nest Distribution, at The Anarchist Library (“a New Mexico psychologist”, March 1990)
+  sourceUrl: https://theanarchistlibrary.org/library/chellis-glendinning-notes-toward-a-neo-luddite-manifesto
+  themes:
+  - luddite
+  status: checked
+- id: 1987-not-going-to-buy-a-computer
+  year: 1987
+  title: Why I Am Not Going to Buy a Computer
+  who: Wendell Berry
+  relation: claimed
+  text: A Kentucky farmer and writer explains why he writes by hand, partly because a computer would tie his work to strip-mined coal. He sets standards for any new tool, among them that it be cheaper, smaller, repairable near home and disruptive of nothing good. When called a Luddite, he came to the Luddites' defence. A critic later called his writing the unconfessed text of the 1996 Luddite congress.
+  source: Wendell Berry, “Why I Am Not Going to Buy a Computer”, Harper's, 1987 (study notes, College of Charleston); Mark Engler, “Remembering Wendell Berry, agrarian writer and voice of conscience”, Resilience, 2 September 2026 (when branded a Luddite, he rises to their defence); Lionel Basney, “Questioning Progress”, Books & Culture, September/October 1998
+  sourceUrl: https://hettingern.people.charleston.edu/Nature_Technology_Society_Fall05/Berry_Why_Not_Buy_Computer.htm
+  status: checked
+- id: 1984-ok-to-be-a-luddite
+  year: 1984
+  month: 10
+  title: Is It O.K. to Be a Luddite?
+  who: Thomas Pynchon
+  relation: claimed
+  text: A novelist traces the Luddites to the legend of Ned Lud, said to have broken two knitting frames in 1779. He reads their machine-breaking as class war against the capital each machine stood for and the work it took away. The next great challenge, he predicts, will come when artificial intelligence, molecular biology and robotics converge. Kirkpatrick Sale later wrote that Pynchon had called himself a Luddite.
+  source: Thomas Pynchon, “Is It O.K. to Be a Luddite?”, The New York Times Book Review, 28 October 1984, pp. 1, 40–41 (text posted to the nettime list, 8 January 1996); Kirkpatrick Sale, “The Neo-Luddites”, Crow's Nest Distribution zine, at The Anarchist Library (Pynchon “has said it”)
+  sourceUrl: https://nettime.org/Lists-Archives/nettime-l-9601/msg00017.html
+  status: checked
+- id: 1973-tools-for-conviviality
+  year: 1973
+  title: Tools for Conviviality
+  who: Ivan Illich
+  relation: claimed
+  text: An Austrian priest and social critic sets convivial tools, which widen what people can freely do, against industrial tools that end up destroying autonomy. Past a second watershed, he argues, a tool's benefits are used to justify manipulation by a professional elite. Kirkpatrick Sale names Illich among the critics who challenged the technocratic mainstream before the neo-Luddites.
+  source: Ivan Illich, Tools for Conviviality, Harper & Row, 1973 (Wikipedia, “Tools for Conviviality”); Kirkpatrick Sale, “The Neo-Luddites”, Crow's Nest Distribution zine, at The Anarchist Library
+  sourceUrl: https://en.wikipedia.org/wiki/Tools_for_Conviviality
+  status: checked
+- id: 1954-the-technological-society
+  year: 1954
+  title: The Technological Society
+  who: Jacques Ellul
+  relation: claimed
+  text: A French sociologist and lay theologian describes technique, the totality of rationally reached methods, as wider than machines and ruled by efficiency. “The only thing that matters technically is yield, production,” he writes. Published in French in 1954, it appeared in English in 1964. Kirkpatrick Sale names Ellul among the critics who challenged the technocratic mainstream.
+  source: Jacques Ellul, La Technique ou l'Enjeu du siècle, 1954; The Technological Society, translated by John Wilkinson, 1964 (Wikipedia, “The Technological Society”; Wikipedia, “Neo-Luddism”, for the quotation, citing The Technological Society, p. 324); Kirkpatrick Sale, “The Neo-Luddites”, Crow's Nest Distribution zine, at The Anarchist Library
+  sourceUrl: https://en.wikipedia.org/wiki/The_Technological_Society
+  status: checked
+- id: 1811-luddites
+  year: 1811
+  title: The Luddites
+  who: English textile workers
+  relation: claimed
+  text: From 1811 weavers and knitters in Nottinghamshire, Yorkshire and Lancashire broke machines in the name of a mythical leader, General Ned Ludd. They protested against wage cuts, lost work and a market that no longer paid a set price for craft. Neo-Luddites take their name from them, and Glendinning's manifesto recast them as a thoughtful movement defending livelihoods and communities.
+  source: The National Archives, “Why did the Luddites protest?”, education resource; Chellis Glendinning, “Notes toward a Neo-Luddite Manifesto”, Utne Reader, March 1990
+  sourceUrl: https://www.nationalarchives.gov.uk/education/resources/why-did-the-luddites-protest/
+  themes:
+  - luddite
+  status: checked

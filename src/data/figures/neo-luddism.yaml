@@ -1,0 +1,67 @@
+# Notable figures for Neo-Luddism (one file per ism). Names only on the movement page; portraits on the People page.
+- id: brian-merchant-neo-luddism
+  name: Brian Merchant
+  isms:
+  - neo-luddism
+  note: Tech journalist who calls himself a Luddite. Blood in the Machine (2023) ties the Luddites to Big Tech and AI; his newsletter of that name follows the Luddite renaissance.
+  entry: neo-luddism/2023-blood-in-the-machine
+- id: jathan-sadowski-neo-luddism
+  name: Jathan Sadowski
+  isms:
+  - neo-luddism
+  note: Senior lecturer at Monash University who calls himself a proud Luddite. He co-hosts This Machine Kills and wrote The Mechanic and the Luddite (2025).
+  entry: neo-luddism/2021-im-a-luddite
+- id: edward-ongweso-jr-neo-luddism
+  name: Edward Ongweso Jr.
+  isms:
+  - neo-luddism
+  note: Writer and editor on tech criticism, labour and finance, billed as a born-again Luddite. He co-hosts This Machine Kills with Jathan Sadowski.
+  entry: neo-luddism/2021-im-a-luddite
+- id: gavin-mueller-neo-luddism
+  name: Gavin Mueller
+  isms:
+  - neo-luddism
+  note: Media scholar at the University of Amsterdam. His Breaking Things at Work (2021) argues that the Luddites were right, and makes the case for a Marxist neo-Luddism.
+  entry: neo-luddism/2021-breaking-things-at-work
+- id: chellis-glendinning-neo-luddism
+  name: Chellis Glendinning
+  lifespan: born 1947
+  isms:
+  - neo-luddism
+  note: Psychologist, author and activist, called a pioneer of ecopsychology. Her “Notes toward a Neo-Luddite Manifesto” (1990) set out the movement's principles.
+  entry: neo-luddism/1990-neo-luddite-manifesto
+- id: kirkpatrick-sale-neo-luddism
+  name: Kirkpatrick Sale
+  lifespan: born 1937
+  isms:
+  - neo-luddism
+  note: Writer described as a leader of the neo-Luddites. He wrote Rebels Against the Future (1995), smashed computers on stage and gave the keynote at the Second Luddite Congress.
+  entry: neo-luddism/1995-rebels-against-the-future
+- id: wendell-berry-neo-luddism
+  name: Wendell Berry
+  lifespan: 1934–2026
+  isms:
+  - neo-luddism
+  note: Kentucky novelist, poet, essayist and farmer. His Why I Am Not Going to Buy a Computer (1987) set out standards for new tools. Called a Luddite, he defended the Luddites.
+  entry: neo-luddism/1987-not-going-to-buy-a-computer
+- id: thomas-pynchon-neo-luddism
+  name: Thomas Pynchon
+  lifespan: born 1937
+  isms:
+  - neo-luddism
+  note: American novelist. His essay “Is It O.K. to Be a Luddite?” (1984) traced the Luddites to the legend of Ned Lud and foresaw AI, molecular biology and robotics converging.
+  entry: neo-luddism/1984-ok-to-be-a-luddite
+- id: ivan-illich-neo-luddism
+  name: Ivan Illich
+  lifespan: 1926–2002
+  isms:
+  - neo-luddism
+  note: Austrian priest, philosopher and social critic. His Tools for Conviviality (1973) argued for tools that widen people's autonomy, against industrial tools that end up destroying it.
+  entry: neo-luddism/1973-tools-for-conviviality
+- id: jacques-ellul-neo-luddism
+  name: Jacques Ellul
+  lifespan: 1912–1994
+  isms:
+  - neo-luddism
+  note: French sociologist, lay theologian and professor at Bordeaux. In The Technological Society (1954) he described technique, the totality of rational methods, ruled by efficiency.
+  entry: neo-luddism/1954-the-technological-society
