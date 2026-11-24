@@ -1,0 +1,76 @@
+# People facts, batch 11: checked entries only, copied by scripts/people_facts.py. Do not edit here; fix the staging file and copy again.
+- id: shannon-vallor
+  roles:
+  - writer
+  - researcher
+  labs:
+  - lab: google
+  sources:
+  - for: roles
+    source: University of Edinburgh, profile "Shannon Vallor" (Baillie Gifford Chair in the Ethics of Data and Artificial Intelligence; appointed in Philosophy; research on how AI reshapes moral character),
+      accessed 24 November 2026
+    url: https://edwebprofiles.ed.ac.uk/profile/shannon-vallor
+  - for: labs
+    source: 'University of Edinburgh, profile "Shannon Vallor" (former Visiting Researcher and AI Ethicist at Google: work, so the lab counts); Wikipedia, "Shannon Vallor" (consulting AI Ethicist for Google''s
+      Cloud AI program); no years given'
+    url: https://edwebprofiles.ed.ac.uk/profile/shannon-vallor
+  status: checked
+- id: evgeny-morozov
+  lifespan: born 1984
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Evgeny Morozov" (born 1984 in Soligorsk, Belarus), accessed 24 November 2026; also his interview "Socialize the Data Centres!", New Left Review 91, January–February 2015 ("born in
+      1984 ... in Soligorsk"), https://newleftreview.org/issues/II91/articles/evgeny-morozov-socialize-the-data-centres
+    url: https://en.wikipedia.org/wiki/Evgeny_Morozov
+  - for: roles
+    source: Wikipedia, "Evgeny Morozov" (writer, researcher and intellectual who studies the political and social implications of technology), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Evgeny_Morozov
+  status: checked
+- id: l-m-sacasas
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: roles
+    source: Cardus, "L. M. Sacasas" (Executive Director of the Christian Study Center of Gainesville; author of the Convivial Society; has written extensively on technology and society), accessed 24 November
+      2026
+    url: https://www.cardus.ca/personnel/l-m-sacasas/
+  status: checked
+- id: ed-zitron
+  lifespan: born 1986 or 1987
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: Wikipedia, "Ed Zitron" (born 1986/1987 in Hammersmith), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Ed_Zitron
+  - for: roles
+    source: Wikipedia, "Ed Zitron" (English author, blogger and podcaster; critic of AI companies and the generative AI boom), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Ed_Zitron
+  status: checked
+- id: cory-doctorow
+  lifespan: born 1971
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: lifespan
+    source: The Canadian Encyclopedia, "Cory Doctorow" (born 17 July 1971 in Toronto)
+    url: https://thecanadianencyclopedia.ca/en/article/cory-doctorow
+  - for: roles
+    source: The Canadian Encyclopedia, "Cory Doctorow" (science fiction author, journalist, activist; special adviser to the EFF)
+    url: https://thecanadianencyclopedia.ca/en/article/cory-doctorow
+  status: checked
+- id: brian-merchant
+  roles:
+  - writer
+  - critic
+  sources:
+  - for: roles
+    source: Wikipedia, "Brian Merchant" (American technology journalist and author; Blood in the Machine newsletter on how big tech and generative AI affect workers), accessed 24 November 2026
+    url: https://en.wikipedia.org/wiki/Brian_Merchant
+  status: checked

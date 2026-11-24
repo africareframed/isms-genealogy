@@ -33,7 +33,7 @@ words:
   - superagency
   - bloomers
 themes: [abundance, augmentation, luddite]
-disputes: Janus Rose noted in Vice that one of the manifesto's patron saints, Marinetti, co-wrote the Fascist Manifesto of 1919 (2023). Daron Acemoglu and Simon Johnson reply that power and choices decide who gains from technology (Power and Progress, 2023). They want AI that helps workers, and say much of the industry aims to replace them. Vitalik Buterin, who offers his own nuanced techno-optimism, holds that AI is “fundamentally different from other tech” and calls for defensive acceleration (2023).
+disputes: Janus Rose noted in Vice that one of the manifesto's patron saints, Marinetti, co-wrote the Fascist Manifesto of 1919 (2023). Daron Acemoglu and Simon Johnson reply that power and choices decide who gains from technology (Power and Progress, 2023). They want AI that helps workers, and say much of the industry aims to replace them. Vitalik Buterin, who offers his own nuanced techno-optimism, holds that AI is “fundamentally different from other tech” and calls for defensive acceleration (2023). Evgeny Morozov calls the faith that AGI is inevitable, and good for all once made safe, “A.G.I.-ism”. He argues that its real risks are political (2023). Ed Zitron argues that demand for generative AI will never match the money poured into it, and calls the boom a bubble (2025).
 born: techno-optimism/2023-techno-optimist-manifesto
 status: checked
 ---

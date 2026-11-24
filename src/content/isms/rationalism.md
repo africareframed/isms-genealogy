@@ -38,7 +38,7 @@ words:
   - Tool AI
   - humanist superintelligence
 themes: [compute, luddite]
-disputes: AI ethics researchers, among them the authors of “Stochastic Parrots”, say extinction fears distract from present harms and from the companies' responsibility (2023). Timnit Gebru and Émile P. Torres place rationalism in their TESCREAL bundle, which they tie to the history of eugenics (2024). Marc Andreessen calls AI risk a cult with “all the hallmarks of a millenarian apocalypse cult” (“Why AI Will Save the World”, 2023). Yann LeCun finds the idea of an AI takeover absurd (2023).
+disputes: AI ethics researchers, among them the authors of “Stochastic Parrots”, say extinction fears distract from present harms and from the companies' responsibility (2023). Timnit Gebru and Émile P. Torres place rationalism in their TESCREAL bundle, which they tie to the history of eugenics (2024). Marc Andreessen calls AI risk a cult with “all the hallmarks of a millenarian apocalypse cult” (“Why AI Will Save the World”, 2023). Yann LeCun finds the idea of an AI takeover absurd (2023). Shannon Vallor argues that the existential risk we face now is not a rogue machine but people giving up their own thinking to AI (The AI Mirror, 2024).
 born: rationalism/2009-lesswrong
 status: checked
 ---

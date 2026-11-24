@@ -1430,3 +1430,19 @@
     credit: Xuthoria
     licence: CC BY-SA 4.0, Wikimedia Commons
     sourceUrl: https://commons.wikimedia.org/wiki/File:ICLR_2025_-_Yoshua_Bengio_02.jpg
+
+- id: shannon-vallor
+  name: Shannon Vallor
+- id: evgeny-morozov
+  name: Evgeny Morozov
+- id: l-m-sacasas
+  name: L. M. Sacasas
+  aliases:
+  - L.M. Sacasas
+  - Michael Sacasas
+- id: ed-zitron
+  name: Ed Zitron
+- id: cory-doctorow
+  name: Cory Doctorow
+- id: brian-merchant
+  name: Brian Merchant

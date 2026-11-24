@@ -70,3 +70,59 @@
   isms: [ai-ethics]
   technical: false
   status: checked
+
+- id: borg-complex
+  word: Borg Complex
+  definition: The belief, stated or assumed, that resisting a new technology is futile, as the Borg of Star Trek tell their victims. Sacasas uses it to expose the rhetoric of inevitability around new tools, AI among them.
+  coinedBy: L. M. Sacasas
+  year: 2012
+  origin: 'L. M. Sacasas, “The Borg Complex”, The Frailest Thing, 18 June 2012, replying to a Washington Post column saying religion must adapt to new technology. He summed it up in “Borg Complex: A Primer”, 1 March 2013, and applied it to talk about AI in “Manufactured Inevitability and the Need for Courage”, The Convivial Society, 15 December 2025.'
+  sourceUrl: https://thefrailestthing.com/2012/06/18/the-borg-complex/
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked
+- id: solutionism
+  word: solutionism
+  definition: The belief that every social or political problem has a neat technical fix. Morozov uses it against Silicon Valley's habit of recasting complex human situations as puzzles with computable solutions.
+  coinedBy: Evgeny Morozov (in this sense)
+  year: 2013
+  origin: 'Evgeny Morozov, To Save Everything, Click Here: The Folly of Technological Solutionism, PublicAffairs and Allen Lane, March 2013. The word is older: Michael Quinion''s World Wide Words records its use in Northern Ireland during the Troubles, for people offering easy answers to hard problems. Christine Rosen (“The Imperfectionist”, The New Atlantis, 2013) notes that Morozov borrowed it from architecture and urban planning.'
+  sourceUrl: https://worldwidewords.org/tw-sol1.html
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked
+- id: enshittification
+  word: enshittification
+  definition: Doctorow's word for how online platforms decay. First they are good to their users, then they squeeze users to please business customers, and finally they squeeze those customers to keep the value for themselves.
+  coinedBy: Cory Doctorow
+  year: 2022
+  origin: Cory Doctorow, “Social Quitting”, Medium, 15 November 2022, the earliest use Language Log cites, then “How monopoly enshittified Amazon”, Pluralistic, 28 November 2022; “Tiktok's enshittification”, Pluralistic, 21 January 2023, set out the stages. The American Dialect Society named it its Word of the Year for 2023 and the Macquarie Dictionary for 2024. His book Enshittification appeared in October 2025.
+  sourceUrl: https://languagelog.ldc.upenn.edu/nll/?p=67086
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked
+- id: rot-economy
+  word: rot economy
+  definition: Zitron's name for a tech industry that pursues growth above all, even as its products get worse. He applies it to the generative AI boom, which he calls a bubble.
+  coinedBy: Ed Zitron
+  year: 2023
+  origin: Ed Zitron, “The Rot Economy”, Where's Your Ed At, 9 February 2023, a post that went viral (Wikipedia, “Ed Zitron”, which also notes it has been likened to Doctorow's enshittification). In “The Rot-Com Bubble” (Where's Your Ed At, 3 June 2024) he cast generative AI as the industry's latest bid for growth.
+  sourceUrl: https://wheresyoured.at/the-rot-economy
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked
+- id: ai-mirror
+  word: the AI mirror
+  definition: Vallor's image for AI systems trained on human data. They reflect our past thinking, biases and failures back at us without understanding them, and can tempt us to stop thinking for ourselves.
+  coinedBy: Shannon Vallor
+  year: 2024
+  origin: 'Shannon Vallor, The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking, Oxford University Press, June 2024. The publisher''s description says today''s AI shows only where the data say we have been.'
+  sourceUrl: https://newbooksnetwork.com/the-ai-mirror
+  isms:
+  - ai-ethics
+  technical: false
+  status: checked

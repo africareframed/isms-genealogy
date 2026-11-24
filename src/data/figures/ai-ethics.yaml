@@ -67,3 +67,43 @@
   isms: [ai-ethics]
   note: MIT computer scientist who fled Nazi Germany as a boy, wrote ELIZA, and then became one of the leading critics of AI.
   entry: ai-ethics/1976-computer-power-and-human-reason
+
+- id: meredith-whittaker-ai-ethics
+  name: Meredith Whittaker
+  isms:
+  - ai-ethics
+  note: President of Signal since 2022 and co-founder of the AI Now Institute. She calls AI a surveillance technology, tied to the business model of big tech firms.
+  entry: ai-ethics/2017-ai-now
+- id: shannon-vallor-ai-ethics
+  name: Shannon Vallor
+  isms:
+  - ai-ethics
+  note: Philosopher who holds the Baillie Gifford Chair in the Ethics of Data and AI at Edinburgh. In The AI Mirror (2024) she argues that AI reflects our past back at us and tempts us to stop thinking for ourselves.
+- id: evgeny-morozov-ai-ethics
+  name: Evgeny Morozov
+  lifespan: born 1984
+  isms:
+  - ai-ethics
+  note: Belarusian-born writer who attacked Silicon Valley's urge to fix every problem with technology, which he called solutionism (2013). In 2023 he named the faith in AGI “A.G.I.-ism”.
+- id: l-m-sacasas-ai-ethics
+  name: L. M. Sacasas
+  isms:
+  - ai-ethics
+  note: Writer of The Convivial Society, a newsletter on technology and the moral life, and executive director of the Christian Study Center of Gainesville. He coined the Borg Complex for the claim that resisting technology is futile.
+- id: ed-zitron-ai-ethics
+  name: Ed Zitron
+  lifespan: born 1986 or 1987
+  isms:
+  - ai-ethics
+  note: English writer and PR executive who hosts the podcast Better Offline. He argues that the generative AI boom is a bubble, with too little demand to pay for what is spent on it.
+- id: cory-doctorow-ai-ethics
+  name: Cory Doctorow
+  lifespan: born 1971
+  isms:
+  - ai-ethics
+  note: Canadian-British writer and special adviser to the Electronic Frontier Foundation. He coined enshittification for the way online platforms decay as they turn on their users. He wrote The Reverse Centaur's Guide to Life After AI (2026).
+- id: brian-merchant-ai-ethics
+  name: Brian Merchant
+  isms:
+  - ai-ethics
+  note: Tech journalist and reporter in residence at the AI Now Institute. His Blood in the Machine (2023) recasts the Luddites as workers resisting technology used against them.
