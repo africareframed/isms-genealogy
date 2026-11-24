@@ -394,6 +394,18 @@ SPECS += [
          shift=[(2, 9, 1, 1, 1, 0)], invert=[(5, 5, 1, 1)],
          labels=[('20 MAR 1812 ·', 830, 360), ('BREAKING A STOCKING', 830, 402), ('FRAME BECOMES', 830, 444), ('A CAPITAL CRIME', 830, 486),
                  ('STOCKING FRAME · FELKIN, 1867', 40, 1440)]),
+    dict(id='collage-digital-sovereignty', size=ISM, colour=VIOLET, seed=1010,
+         fields=[(6, 0, 7, 8), (0, 9, 3, 3)], black=[(2, 1, 1, 1), (13, 10, 1, 1)],
+         fragments=[dict(img='first-web-server-2005.jpg', box=(819, 800), crop=(0.595, 0.16, 0.975, 0.655), channel='B', how='screen', level=0.30, detail=3, at=(741, 160))],
+         shift=[(10, 4, 1, 1, -1, 0)], invert=[(13, 2, 1, 1)],
+         labels=[("FEB 2025 · EUROSTACK: OVER 80 % OF EUROPE'S", 40, 640), ('DIGITAL TECHNOLOGY IS IMPORTED', 40, 682),
+                 ('THE FIRST WEB SERVER · CERN, 1990 · PHOTO 2005', 40, 1150)]),
+    dict(id='collage-digital-sovereignty-tall', size=PAGE, colour=VIOLET, seed=1010,
+         fields=[(0, 1, 6, 8), (8, 12, 4, 3)], black=[(0, 3, 1, 1), (10, 12, 1, 1)],
+         fragments=[dict(img='first-web-server-2005.jpg', box=(920, 899), crop=(0.595, 0.16, 0.975, 0.655), channel='B', how='screen', level=0.30, detail=3, at=(240, 140))],
+         shift=[(8, 4, 1, 1, -1, 0)], invert=[(10, 2, 1, 1)],
+         labels=[("FEB 2025 · EUROSTACK: OVER 80 % OF EUROPE'S", 40, 1150), ('DIGITAL TECHNOLOGY IS IMPORTED', 40, 1192),
+                 ('THE FIRST WEB SERVER · CERN, 1990 · PHOTO 2005', 40, 1440)]),
 ]
 
 if __name__ == '__main__':

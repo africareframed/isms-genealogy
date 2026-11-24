@@ -320,3 +320,19 @@
   alt: "An engraved stocking frame filling the page over violet fields, beside a label: 20 March 1812, breaking a stocking frame becomes a capital crime"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Lee%27s_knitting_frame.jpg"
   note: "Same fact as the card."
+- id: collage-digital-sovereignty
+  title: "Collage from a photograph of the first web server (CERN, 1990; photo 2005)"
+  rights: open-licence
+  licence: "CC BY-SA 3.0, photo Coolcaesar, Wikimedia Commons"
+  file: "collage-digital-sovereignty.jpg"
+  alt: "The NeXT computer that served the first web pages at CERN, with its handwritten warning sticker, over violet fields; a label reads February 2025, over 80% of Europe's digital technology is imported"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg"
+  note: "Fact: EuroStack report, Bertelsmann Stiftung, February 2025: more than 80% of Europe's digital technologies and infrastructures are imported (bertelsmann-stiftung.de, doi 10.11586/2025006)."
+- id: collage-digital-sovereignty-tall
+  title: "Collage from a photograph of the first web server (CERN, 1990; photo 2005)"
+  rights: open-licence
+  licence: "CC BY-SA 3.0, photo Coolcaesar, Wikimedia Commons"
+  file: "collage-digital-sovereignty-tall.jpg"
+  alt: "The first web server's NeXT cube filling the page over violet fields, above a label: February 2025, over 80% of Europe's digital technology is imported"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg"
+  note: "Same fact as the card."
