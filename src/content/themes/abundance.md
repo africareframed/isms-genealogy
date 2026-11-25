@@ -15,6 +15,8 @@ isms:
     text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure. Its e/acc strand treats abundance as a matter of will. Its newsletter wrote in 2022 that only will stands between us and abundance for every human alive.
   - ism: pro-human
     text: It wants AI's gains shared. Its 2026 declaration has a principle of shared prosperity. In June 2026 Bernie Sanders proposed a sovereign wealth fund, paid for by a one-time tax on the stock of the largest AI companies.
+  - ism: normal-technology
+    text: It expects any abundance to arrive slowly. In 2024 Daron Acemoglu estimated that AI would add well under one per cent to productivity over ten years.
 strands:
   - name: Too cheap to meter
     text: In 1954 Lewis Strauss, head of the US Atomic Energy Commission, told science writers the next generation would enjoy electricity “too cheap to meter”. Critics later made the phrase a byword for over-optimistic promises about nuclear power.

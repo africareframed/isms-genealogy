@@ -20,7 +20,7 @@ holders:
 words:
   - normal technology
   - AI snake oil
-themes: [alignment]
+themes: [alignment, abundance]
 # - Narayanan and Kapoor: Princeton University Press, AI Snake Oil, 24 September 2024; normaltech.ai/about ("transformative but normal technology, not superintelligence"); UC Berkeley School of Information, news, 28 July 2026 (Kapoor earned his Princeton doctorate; joins Berkeley in July 2027)
 # Built 25 Nov 2026 (owner's framework). New holders and the second paragraph are draft: Acemoglu, NBER Working Paper 32487 (2024);
 # Gordon, The Rise and Fall of American Growth (2016); Brynjolfsson, Rock and Syverson, AEJ Macroeconomics (2021); Solow, NYT Book Review (1987).

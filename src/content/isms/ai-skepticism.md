@@ -24,7 +24,7 @@ holders:
 words:
   - stochastic parrot
   - AI hype
-themes: []
+themes: [scaling-laws]
 # Built 25 Nov 2026 (owner's framework). Holders, introduction and lenses are draft. Sources: the timeline's sources;
 # Melanie Mitchell, “Why AI Is Harder Than We Think”, arXiv 2104.12871, April 2021.
 lenses:
