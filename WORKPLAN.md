@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Hero (owner, 19:05): no more "today they are movements"; a new paragraph asks what these positions become as they meet political power while the world order is remade, and who will hold power in the future. Four paragraphs now.
+
 - 2026-11-25: Hero: the breakthrough of large language models "stirred wonder and archaic fears" (owner, 19:00).
 
 - 2026-11-25: Hero, second paragraph (owner, 18:59): the breakthrough of large language models brought positions that had long been fringe into the mainstream; today they are movements.
