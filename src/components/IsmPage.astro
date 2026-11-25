@@ -100,6 +100,17 @@ const first = entries[0];
       <Picture image={ism.data.pageImage ?? ism.data.image} ratio={ism.data.pageImage ? '4 / 5' : '4 / 3'} />
     </section>
 
+    {ism.data.holders.length > 0 && (
+      <section class="wrap sec" aria-labelledby="holders-h">
+        <h2 class="kick" id="holders-h">Who holds it now</h2>
+        <div class="actors">
+          {ism.data.holders.map((h) => (
+            <div><h3 class="an">{h.name}</h3><p class="ad">{h.note}</p></div>
+          ))}
+        </div>
+      </section>
+    )}
+
     {L && (
       <section class="wrap sec" aria-label="Its values, fears, promises, funding and who it can serve" style={`--fam: ${family?.colour}`}>
         <div class="lenses">
@@ -136,16 +147,6 @@ const first = entries[0];
       </section>
     )}
 
-    {ism.data.holders.length > 0 && (
-      <section class="wrap sec" aria-labelledby="holders-h">
-        <h2 class="kick" id="holders-h">Who holds it now</h2>
-        <div class="actors">
-          {ism.data.holders.map((h) => (
-            <div><h3 class="an">{h.name}</h3><p class="ad">{h.note}</p></div>
-          ))}
-        </div>
-      </section>
-    )}
 
     {L && figures.length > 0 && (
       <section class="wrap sec ism-people" aria-labelledby="figures-h">
