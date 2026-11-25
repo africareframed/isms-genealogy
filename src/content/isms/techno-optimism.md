@@ -4,7 +4,7 @@ family: accelerate
 order: 3
 ready: true
 summary: Technology and free markets are the engine of human progress. AI will make people richer, healthier and freer, and slowing it down costs lives.
-includes: [effective accelerationism, the network state, augmentation]
+includes: [effective accelerationism, the network state, progress studies, the abundance agenda, augmentation]
 image: collage-techno-optimism
 pageImage: collage-techno-optimism-tall
 lead: Techno-optimism holds that technology and markets drive human progress, and that AI, if not held back, will make people richer, healthier and more capable.
@@ -38,6 +38,46 @@ disputes: Janus Rose noted in Vice that one of the manifesto's patron saints, Ma
 born: techno-optimism/2023-techno-optimist-manifesto
 # 25 Nov 2026 (owner): American Dynamism became a movement of its own; the e/acc strand moved in from the retired
 # Effective accelerationism page (its sources: that file's history in git, commit ac5f3db's parent). The new e/acc paragraph is draft.
+lenses:
+  quote:
+    text: "We believe any deceleration of AI will cost lives."
+    by: "Marc Andreessen"
+    source: "The Techno-Optimist Manifesto, 2023"
+    url: https://www.404media.co/marc-andreesen-manifesto-says-ai-regulation-is-a-form-of-murder/
+  values: [progress, markets, building, growth as the direction of the universe (e/acc)]
+  fears: [stagnation, precaution, central control]
+  promises: "A market society led by founders, with a light state, and at its edge an exit into opt-in network states. It echoes classical liberalism and its libertarian edge."
+  ifItWins: "the rules would come off. Open models, data centres and automation would spread fast, and the gains would arrive quickly, along with disruption to work."
+  fundedBy: |-
+    Much of its money comes from a few philanthropists. Open Philanthropy has given the Institute for Progress $9.3 million in general support since 2021, and Patrick and John Collison helped launch the Roots of Progress Institute.
+
+    Good Ventures, the foundation behind Open Philanthropy, put $60 million into a $120 million Abundance and Growth Fund, with Patrick Collison among the other backers.
+  canServeText: |-
+    **Its demands could serve** those who build and own the technology. The largest platforms and labs gain, since the belief makes any rule look like a cost in lives. Start-ups and open-source developers gain too, because fewer rules lower the cost of entry.
+
+    Founder-investors could gain most directly, as growth flows first to those who own the capital, and parties of deregulation gain a moral cause. Energy firms gain from the data-centre build-out.
+
+    Regulators would lose power, since every rule must justify its cost in lives, and safety, ethics and labour bodies would lose standing. Established firms exposed to automation would lose their place.
+  canServe:
+    - actor: Big Tech
+      text: "The largest platforms and labs, since the belief makes any rule look like a cost in lives."
+    - actor: Challengers
+      text: "Start-ups and open-source developers, since fewer rules lower the cost of entry."
+    - actor: Established industry
+      status: mixed
+      text: "Energy firms gain from the data-centre build-out; incumbents exposed to automation lose."
+    - actor: Patrons
+      text: "Founder-investors, since growth flows first to those who own the capital."
+    - actor: The state
+      status: loses
+      text: "Regulators lose power, since every rule must justify its cost in lives."
+    - actor: Politics
+      text: "Parties of deregulation, since the belief turns cutting rules into a moral cause."
+    - actor: Institutions
+      status: loses
+      text: "Safety, ethics and labour bodies lose standing, since precaution is cast as the enemy."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 

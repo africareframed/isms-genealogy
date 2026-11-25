@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 03 Techno-optimism, on branch `ism/techno-optimism` (create it from `main`).
+**Now:** phase 2, next movement: 07 Pro-human, on branch `page/pro-human` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -60,14 +60,14 @@ All on one branch, so the live site changes once, when the whole switch is done.
 - [x] 1.10 `CLAUDE.md`: the framework section rewritten to the new map (families, movements, strands, order).
 - [x] 1.11 Build, look at home, a movement page, vocabulary and People on a wide screen and a phone; merge into `main`; **Deploy**. Log line.
 
-### Phase 2. The new page for every movement (one branch `ism/<id>` each; merge and **Deploy** after each)
+### Phase 2. The new page for every movement (one branch `page/<id>` each, since old `ism/*` branches still exist on GitHub; merge and **Deploy** after each)
 
 For each movement, in this order: (a) lenses in its file from `framing.md`: values, fears, promises, first consequences (lower case, conditional), the quote ("In their own words"), `fundedBy` from the Funding tab, `canServeText` written by hand in the fixed order, `canServe` from the Can serve grid tab, `status: draft`; (b) the introduction's first sentence and the strands line checked against the family rule; (c) "Who disputes it" stays in the file, not shown; (d) build, look on a wide screen and a phone, merge, deploy, tick.
 
 - [x] 10 Neo-Luddism (25 Nov, the template)
 - [x] 01 Transhumanism
 - [x] 02 Singularitarianism
-- [ ] 03 Techno-optimism (also: trim the merged timeline to sixteen entries or fewer, keeping e/acc's key moments)
+- [x] 03 Techno-optimism (its timeline now has 31 entries with e/acc's; trimming to sixteen would delete checked entries, so that waits for the owner)
 - [ ] 07 Pro-human
 - [ ] 08 AI ethics
 - [ ] 09 Digital sovereignty
@@ -163,6 +163,8 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - **People** (owner, 23 Nov 2026, 02:56; not started, after the history rewrite): a fourth track, menu History of AI, Movements, People, Vocabulary. Join up what exists (the figures on movement pages, the people in history moments, the vocabulary's coiners), showing who crosses camps. To settle first: a rule for who gets in; public roles and documented statements only, critics where it matters; portraits, which the owner is gathering himself with their licence data (Wikimedia Commons: public domain or free licences, credited), and whether they get the collage treatment. This would reverse the 20 Nov no-portraits rule, the owner's call. At 04:45 the owner reported the portraits ready: 213 files with `portraits.csv` (name, file, Commons page, licence, author, credit, date, size) in his connected folder `isms-genealogy-images/portraits/`, not yet in the repository. Licences: public domain 47, CC0 6, CC licences 119, "Attribution" 2, fair use 8, external web source 31. **The owner cleared every file in the folder (04:50)**, so none needs a rights check; Checked against their sources (05:05; not by face): 12 need replacing (9 show the wrong person or a flag, 3 are book covers or a slide), 6 need cropping, 2 need a note or a second look; list in `isms-genealogy-images/portrait-check/portrait-check.csv`, contact sheets beside it.
 
 ## Waiting on the owner
+
+- Techno-optimism's timeline has 31 entries since e/acc moved in (the guide is ten to sixteen): trim, or keep the strand's history whole?
 
 - The Doubt family's colour (placeholder `#FFE45C`), and the cards for the five new movements (phase 3).
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
