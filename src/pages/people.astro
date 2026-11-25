@@ -42,7 +42,7 @@ const lines: Record<string, Record<string, string>> = {
   letters: Object.fromEntries(letters.map((l) => [l.id, `${l.name}, ${l.when}: signatories of ${l.line}`])),
 };
 const groupLines: Record<string, string> = {
-  movement: 'Movement: the ten movements, each with the people named among its notable figures',
+  movement: 'Movement: the twelve movements, each with the people named among its notable figures',
   era: 'Era: when people first appear in the History of AI',
   thread: "Thread: the history's story lines, from made beings to machines at war",
   role: 'Role: what people do in this story, from research to the law',
@@ -65,7 +65,7 @@ const groupLines: Record<string, string> = {
           <p>Each portrait opens to what the person did, the movements they belong to and their moments in the history.</p>
         </div>
       </div>
-      <p class="pcount"><span>{people.length}</span> people in the history and the ten movements</p>
+      <p class="pcount"><span>{people.length}</span> people in the history and the twelve movements</p>
     </section>
 
     <section class="wrap pfilters" aria-label="Filters">
