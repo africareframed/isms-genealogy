@@ -90,12 +90,6 @@ const first = entries[0];
         )}
         {ism.data.lead && <p class="lead">{ism.data.lead}</p>}
         <div class="body"><Content /></div>
-        {L?.quote && (
-          <figure class="iq">
-            <blockquote><p>“{L.quote.text}”</p></blockquote>
-            <figcaption class="cap">{L.quote.by}, {L.quote.url ? <a href={L.quote.url}>{L.quote.source}</a> : L.quote.source}</figcaption>
-          </figure>
-        )}
       </div>
       <Picture image={ism.data.pageImage ?? ism.data.image} ratio={ism.data.pageImage ? '4 / 5' : '4 / 3'} />
     </section>
@@ -150,6 +144,12 @@ const first = entries[0];
 
     {L && figures.length > 0 && (
       <section class="wrap sec ism-people" aria-labelledby="figures-h">
+        {L.quote && (
+          <figure class="iq">
+            <blockquote><p>“{L.quote.text}”</p></blockquote>
+            <figcaption class="cap">{L.quote.by}, {L.quote.url ? <a href={L.quote.url}>{L.quote.source}</a> : L.quote.source}</figcaption>
+          </figure>
+        )}
         <h2 class="kick" id="figures-h">People</h2>
         <div class="pgrid">
           {figures

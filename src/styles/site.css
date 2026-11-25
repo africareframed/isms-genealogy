@@ -138,9 +138,8 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .actors { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--g); row-gap: 36px; }
 .an { margin: 0 0 8px; font-size: 22px; line-height: 28px; font-weight: 600; }
 .ad { margin: 0; font-size: 17px; line-height: 26px; color: #333333; }
-/* The new page setup (owner, 25 Nov 2026; tested on Neo-Luddism): the quote closes the introduction,
-   then the lenses as three spreads (below). */
-.iq { margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; }
+/* The new page setup (owner, 25 Nov 2026; tested on Neo-Luddism): the movement's quote opens the People section. */
+.iq { margin: 0 0 24px; display: flex; flex-direction: column; gap: 12px; max-width: calc(var(--c) * 9 + var(--g) * 8); }
 .iq blockquote { margin: 0; }
 .iq blockquote p { margin: 0; font-size: 30px; line-height: 40px; font-weight: 500; letter-spacing: -0.01em; }
 /* The lenses: one label column (4) and the content (8), as on a key-word page. Values filled and fears
