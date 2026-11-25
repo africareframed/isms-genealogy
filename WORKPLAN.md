@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phases 1, 2 and 4 live. Next: phase 3 (owner-gated: the Doubt colour, cards for the five new movements, the design guide), then phase 5 (checker pass on the draft text).
+**Now:** phases 1, 2 and 4 live, and the Doubt colour (3.1). Next: 3.2 (cards for the five new movements, owner-gated), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
 
 ### How to pick up (read this first, every session)
 
@@ -15,7 +15,7 @@ Twelve movements in six families, and the new movement page (tested on Neo-Luddi
 3. One box is one commit. Tick the box and update the **Now** line in the same commit, then push at once (`git -c push.negotiate=true push -u origin <branch>`). `npm run build` must pass with no warnings before every commit.
 4. Deploy (`npm run deploy`) only at the lines marked **Deploy**, after merging into `main`. Between those points the live site stays as it is, so a stop half-way never leaves it broken.
 5. Sources: the doc "A new framing of the AI movements" (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi). Its main tab is saved in `docs/framework/framing.md` (families, descriptions, values, fears, promises, first consequences, funding lines, quotes, strands). The Funding and Can serve grid tabs are read in the doc itself (docs connector), or saved next to it first with the doc's Export menu. The page rules (lenses, Interests order, lead-ins) are in `CLAUDE.md` and the doc's "Movement page" tab; Neo-Luddism (`src/content/isms/neo-luddism.md`) is the worked example.
-6. Owner-gated, never blocking: the Doubt colour and every new image. Use the placeholder and go on; list what waits in "Waiting on the owner".
+6. Owner-gated, never blocking: every new image. Use the placeholder and go on; list what waits in "Waiting on the owner".
 7. Add a line to the log at the end of each phase.
 
 ### The map, old to new
@@ -37,7 +37,7 @@ Twelve movements in six families, and the new movement page (tested on Neo-Luddi
 
 Retired pages, kept as redirects: `effective-accelerationism.html` → `techno-optimism.html`, `rationalism.html` → `pause.html`, `effective-altruism.html` → `ai-safety.html` (to the home page's movements until the target page is ready). Neoreaction moves to the timeline and the vocabulary.
 
-Families (ids, names, colours): `transcend` Transcend `#C9F25B`, `accelerate` Accelerate `#FF9F4F`, `prevent` Prevent `#F5A3BC`, `protect` Protect `#73C7F2`, `reclaim` Reclaim `#C3A6FF`, `doubt` Doubt: colour the owner's (placeholder highlighter yellow `#FFE45C`). Each family's line comes from the "What it wants" column in `docs/framework/framing.md`.
+Families (ids, names, colours): `transcend` Transcend `#C9F25B`, `accelerate` Accelerate `#FF9F4F`, `prevent` Prevent `#F5A3BC`, `protect` Protect `#73C7F2`, `reclaim` Reclaim `#C3A6FF`, `doubt` Doubt `#2EE6C8` (turquoise, owner 25 Nov 2026). Each family's line comes from the "What it wants" column in `docs/framework/framing.md`.
 
 ### Phase 0. Groundwork
 
@@ -79,7 +79,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 
 ### Phase 3. Cards and colour (owner-gated)
 
-- [ ] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
+- [x] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
 - [ ] 3.2 Cards for the five new movements: the owner decides whether Pause and AI safety take over the Rationalism and EA cards; the rest as an image batch (`docs/image-batches/`, stage 5 procedure), collages only after his yes
 - [ ] 3.3 The design guide (artifact `4b7a91e1…`): cards, tokens, decisions
 
@@ -166,7 +166,7 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 - Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
-- The Doubt family's colour (placeholder `#FFE45C`), and the cards for the five new movements (phase 3).
+- The cards for the five new movements (phase 3).
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Doubt is highlighter turquoise `#2EE6C8` (owner). The placeholder yellow sat closer to Transcend's lime than any other two family colours (and almost matched it for colour-blind readers); turquoise is the gap in the set, furthest from all five. Set in `FAMILIES`, `scripts/collages.py`, `CLAUDE.md` and `framing.md`; the design guide's family tokens are renamed to the six families, with `family-doubt` added.
 
 - 2026-11-25: Phase 4 done and live: the method and about pages explain the lenses and the twelve movements; key-word lines for American Dynamism (Compute), Normal technology (Abundance) and AI skepticism (Scaling laws); four new words (Chinese room, octopus test, general-purpose technology, productivity paradox, all draft) and three retagged (American Dynamism, rot economy, AI winter); history moments tagged with American Dynamism, AI safety and AI skepticism; naming moments for American Dynamism, Pause and Normal technology. AI safety and AI skepticism have no naming moment: no entry records the name being coined. The People filter shows all twelve, each with people. Private preview republished (version 1795616499-d021).
 

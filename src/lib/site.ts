@@ -11,8 +11,8 @@ export const FAMILIES = [
   { id: 'prevent', name: 'Prevent', colour: '#F5A3BC', text: 'The work to stop AI from ending us.' },
   { id: 'protect', name: 'Protect', colour: '#73C7F2', text: 'The demand to shield people now, with limits and liability for the builders.' },
   { id: 'reclaim', name: 'Reclaim', colour: '#C3A6FF', text: 'The resolve to change who owns and decides: to build our own, or to refuse.' },
-  // Doubt's colour is the owner's to choose; highlighter yellow is the placeholder (25 Nov 2026).
-  { id: 'doubt', name: 'Doubt', colour: '#FFE45C', text: 'The case that AI is less than its makers claim.' },
+  // Doubt is highlighter turquoise (owner, 25 Nov 2026): the gap in the set, furthest from the other five.
+  { id: 'doubt', name: 'Doubt', colour: '#2EE6C8', text: 'The case that AI is less than its makers claim.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */

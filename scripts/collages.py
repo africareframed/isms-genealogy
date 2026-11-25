@@ -18,6 +18,7 @@ GREEN, PINK, ORANGE, GREY = '#C9F25B', '#F5A3BC', '#D8461C', '#B7B3AA'
 ACCEL = '#FF9F4F'
 BLUE = '#73C7F2'  # Protection (owner, 22 Nov 2026)
 VIOLET = '#C3A6FF'  # Reclaim (owner, 24 Nov 2026)
+TURQUOISE = '#2EE6C8'  # Doubt (owner, 25 Nov 2026)
 SANS = os.path.join(ROOT, 'scripts/collage-fonts/InterTight-600.ttf')
 MONO = os.path.join(ROOT, 'scripts/collage-fonts/PlexMono-500.ttf')
 

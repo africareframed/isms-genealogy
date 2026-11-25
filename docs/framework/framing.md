@@ -419,7 +419,7 @@ Each movement page runs: the introduction as now, who holds it now, the four len
 
 - [ ] Source every "Can serve" line, and check the actor-view patterns against the sources
 - [ ] Check every row in the Funding tab against its primary record; several rest on secondary sources
-- [ ] Doubt's colour: yellow, the original highlighter?
+- [x] Doubt's colour: turquoise `#2EE6C8` (owner, 25 Nov 2026; yellow sat too close to Transcend's lime)
 - [ ] The abundance agenda: under Techno-optimism, or elsewhere?
 - [ ] The hype critique: under AI skepticism, or AI ethics?
 - [ ] Humanist AI: under AI safety, or Pro-human?
