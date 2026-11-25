@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Menu order: Movements first, then History of AI, People, Vocabulary, About, Method (owner, 19:29).
+
 - 2026-11-25: Hero: Trump's "hoax" sentence dropped (owner, 19:27); the first paragraph now goes straight from the scene to the old line between left and right.
 
 - 2026-11-25: "In the history of AI" taken off the movement pages (owner, 19:22): each page ends with its own history, so the second list was a duplicate. Key-word pages keep theirs.

@@ -40,8 +40,8 @@ const SHOW_HISTORY_CARD = false;
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
-      {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
       <a href="#movements">Movements</a>
+      {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
       <a href={pageHref('people')}>People</a>
       <a href={pageHref('vocabulary')}>Vocabulary</a>
       <a href={pageHref('about')}>About</a>
