@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 08 AI ethics, on branch `page/ai-ethics` (create it from `main`).
+**Now:** phase 2, next movement: 09 Digital sovereignty, on branch `page/digital-sovereignty` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -69,7 +69,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 02 Singularitarianism
 - [x] 03 Techno-optimism (its timeline now has 31 entries with e/acc's; trimming to sixteen would delete checked entries, so that waits for the owner)
 - [x] 07 Pro-human
-- [ ] 08 AI ethics
+- [x] 08 AI ethics
 - [ ] 09 Digital sovereignty
 - [ ] 05 AI safety (from the moved content: introduction, holders, the rest; `ready: true` when complete)
 - [ ] 06 Pause (likewise)

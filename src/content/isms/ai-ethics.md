@@ -43,6 +43,47 @@ disputes: Jeff Dean, who led Google's AI research, said Stochastic Parrots “di
 born: ai-ethics/2014-fairness-accountability-transparency
 # 25 Nov 2026 (owner): AI as normal technology became a movement of its own, in the Doubt family; its holder,
 # words and paragraph moved to normal-technology.md. Strands now from docs/framework/framing.md.
+lenses:
+  quote:
+    text: "fundamentally a technology that is derivative of centralized corporate power and control"
+    by: "Meredith Whittaker"
+    source: "to NBC News, 2023"
+    url: https://www.nbcnews.com/tech/tech-news/growing-number-technologists-think-ai-giving-big-tech-inordinate-power-rcna126338
+  values: [justice, accountability]
+  fears: [bias, surveillance, hidden labour, concentrated corporate power]
+  promises: "A rights-based democracy where courts, regulators and civil society hold systems to account, weighted toward those most exposed. It echoes civil-rights liberalism and critical theory."
+  ifItWins: "significant systems would be audited before and after launch, and people affected could contest decisions. Deployment would slow while compliance costs rose."
+  fundedBy: |-
+    Older foundations fund most of it. Ford, MacArthur, the Kapor Center, Open Society and Rockefeller gave the Distributed AI Research Institute (DAIR) $3.7 million at its launch in 2021, and MacArthur gave the AI Now Institute $2 million in 2025.
+
+    In 2025 ten foundations, among them Ford, MacArthur, Mozilla and Omidyar, committed $500 million to a joint fund, Humanity AI. Data & Society lists Microsoft among its funders in earlier years.
+  canServeText: |-
+    **Its demands could serve** those who would enforce accountability. Regulators gain, since accountability runs through them, and parties of regulation gain a cause: harms happening now are easier to campaign on than harms to come. Lawyers and advocacy groups gain, since rights need people to enforce them.
+
+    Consulting and audit firms stand to gain, since every audit needs an auditor. Firms that use AI in hiring and credit would face audits of their own.
+
+    Small firms would lose most, since compliance costs fall hardest on them. Its opponents could gain as well: the largest companies can absorb compliance that smaller rivals cannot, and principles can work as reputation.
+  canServe:
+    - actor: Big Tech
+      status: opponent
+      text: "Firms large enough to absorb compliance, and companies that use principles as reputation."
+    - actor: Challengers
+      status: loses
+      text: "Compliance costs fall hardest on small firms."
+    - actor: Established industry
+      status: mixed
+      text: "Consulting and audit firms gain, since every audit needs an auditor; firms using AI in hiring and credit face audits."
+    - actor: Patrons
+      status: none
+      text: "Its demands give individual fortunes nothing to gain."
+    - actor: The state
+      text: "Regulators, since accountability runs through them."
+    - actor: Politics
+      text: "Parties of regulation, since harms happening now are easier to campaign on than harms to come."
+    - actor: Institutions
+      text: "Lawyers and advocacy NGOs, since rights need people to enforce them."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 
