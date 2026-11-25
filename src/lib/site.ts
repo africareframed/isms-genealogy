@@ -6,20 +6,21 @@ export const FAMILIES = [
   // Six families of two movements each (owner, 25 Nov 2026: the new framework, doc "A new framing of the AI
   // movements"), named by a verb for what they want done, ordered from the largest claims about what AI will
   // become to the smallest. Family colours are highlighter colours. `intro` heads the family's row on the home page
-  // (owner, 25 Nov 2026): what the two movements share, then how they differ.
+  // (owner, 25 Nov 2026): it opens with the family's name and what defines it, never "Both", then how its
+  // two movements differ.
   { id: 'transcend', name: 'Transcend', colour: '#C9F25B', text: 'The vision of a future beyond human limits.',
-    intro: 'Both movements see in AI a way beyond human limits. They differ over who crosses. Transhumanism would free people from ageing and the limits of body and mind; Singularitarianism expects machines to surpass us and carry history past prediction.' },
+    intro: 'Transcend is the vision of a future beyond human limits, with AI as the way across. Its movements differ over who crosses. Transhumanism would free people from ageing and the limits of body and mind; Singularitarianism expects machines to surpass us and carry history past prediction.' },
   { id: 'accelerate', name: 'Accelerate', colour: '#FF9F4F', text: 'The conviction that the answer is more technology, faster.',
-    intro: 'Both want more technology, faster, and count slowing down as the greater danger. They differ over whom it serves. Techno-optimism trusts markets to make everyone richer; American Dynamism builds national strength for a race with China.' },
+    intro: 'Accelerate is the conviction that the answer is more technology, faster, and that slowing down is the greater danger. Its movements differ over whom it serves. Techno-optimism trusts markets to make everyone richer; American Dynamism builds national strength for a race with China.' },
   { id: 'prevent', name: 'Prevent', colour: '#F5A3BC', text: 'The work to stop AI from ending us.',
-    intro: 'Both fear that AI more capable than us could slip out of our control and end humanity. They differ over whether it can be made safe in time. AI safety works to align and govern it as it is built; Pause holds it cannot, and would stop superintelligence being built.' },
+    intro: 'Prevent is the work to stop AI from ending us, should a machine more capable than we are slip out of control. Its movements differ over whether it can be made safe in time. AI safety works to align and govern it as it is built; Pause holds it cannot, and would stop superintelligence being built.' },
   { id: 'protect', name: 'Protect', colour: '#73C7F2', text: 'The demand to shield people now, with limits and liability for the builders.',
-    intro: 'Both shield people living now, not a humanity that may come, and want the builders to answer for harm. They differ in what they defend first. Pro-human defends work, children and humans in charge; AI ethics demands justice against bias, surveillance and hidden labour.' },
+    intro: 'Protect is the demand to shield people living now, not a humanity that may come, and to make the builders answer for harm. Its movements differ in what they defend first. Pro-human defends work, children and humans in charge; AI ethics demands justice against bias, surveillance and hidden labour.' },
   { id: 'reclaim', name: 'Reclaim', colour: '#C3A6FF', text: 'The resolve to change who owns and decides: to build our own, or to refuse.',
-    intro: 'Both want to change who owns AI and who decides about it. Digital sovereignty would build its own, in public hands. Neo-Luddism claims the right to refuse, and workers\' say over which machines come in.' },
+    intro: 'Reclaim is the resolve to change who owns AI and who decides about it. Its movements give two answers: build our own, or refuse. Digital sovereignty would build alternatives in public hands; Neo-Luddism claims the right to refuse, and workers\' say over which machines come in.' },
   // Doubt is highlighter turquoise (owner, 25 Nov 2026): the gap in the set, furthest from the other five.
   { id: 'doubt', name: 'Doubt', colour: '#2EE6C8', text: 'The case that AI is less than its makers claim.',
-    intro: 'Both hold that AI is less than its makers claim, and that policy should start from evidence. Normal technology sees a powerful but ordinary tool, spreading slowly like electricity. AI skepticism sees imitation without understanding, and warns of money and trust sunk into a bubble.' },
+    intro: 'Doubt is the case that AI is less than its makers claim, and that policy should start from evidence. Its movements differ over how much of it is real. Normal technology sees a powerful but ordinary tool, spreading slowly like electricity; AI skepticism sees imitation without understanding, and money sunk into a bubble.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */

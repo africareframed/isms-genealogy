@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Family introductions now open with the family's name and what defines it ("Transcend is the vision of a future beyond human limits…"), not "Both" (owner, 19:17).
+
 - 2026-11-25: Hero edited by the owner (19:14): new axes form around the machine "and the Big Tech behind it"; "an archaic dread" instead of fears (the word is the lenses' and the families'); the line on the range of futures is gone, since the family introductions carry it.
 
 - 2026-11-25: Each family row on the home page now opens with a short introduction instead of one line (owner, 19:10): what its two movements share, then how they differ (who crosses; whom it serves; whether it can be made safe in time; what they defend first; build our own or refuse; ordinary or oversold). Written from the movements' own lenses.
