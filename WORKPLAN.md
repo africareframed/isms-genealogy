@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: More air between each family's introduction and its cards (owner, 19:49): 68 px on wide screens, 52 px on phones.
+
 - 2026-11-25: Hero in four paragraphs (owner, 19:30): the breakthrough and "strange, yet strangely familiar" share one paragraph.
 
 - 2026-11-25: Menu order: Movements first, then History of AI, People, Vocabulary, About, Method (owner, 19:29).
