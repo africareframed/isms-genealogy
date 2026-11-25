@@ -36,11 +36,9 @@ const isms = defineCollection({
         fears: z.array(z.string()), // stated
         promises: z.string(), // stated: its own ideal, plus the older tradition it echoes
         ifItWins: z.string(), // derived: the first consequences of its demands becoming law, one step only
-        fundedBy: z.string(), // fact, one line: public records only; absence recorded
-        // the rows under the meter: a funder (or a year) on the left, what was given or done on the right
+        fundedBy: z.string(), // fact, set large: the largest public sum and its funder, or that none was found
+        // the facts under it, small: a year or a funder, then what was given or done
         fundRows: z.array(z.object({ label: z.string(), text: z.string() })).default([]),
-        // the meter: the largest single public sum found for its organisations, in dollars (none = none found)
-        funding: z.enum(['none', '1m', '10m', '100m', '1bn']).default('none'),
         canServe: z
           .array(
             z.object({

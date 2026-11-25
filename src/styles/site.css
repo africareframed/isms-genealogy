@@ -139,45 +139,36 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .an { margin: 0 0 8px; font-size: 22px; line-height: 28px; font-weight: 600; }
 .ad { margin: 0; font-size: 17px; line-height: 26px; color: #333333; }
 /* The new page setup (owner, 25 Nov 2026; tested on Neo-Luddism): the quote closes the introduction,
-   then the lenses on 4 + 8 rows, without labels or tags beyond the lens names. */
+   then the lenses as three spreads (below). */
 .iq { margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; }
 .iq blockquote { margin: 0; }
 .iq blockquote p { margin: 0; font-size: 30px; line-height: 40px; font-weight: 500; letter-spacing: -0.01em; }
-.lenses { display: flex; flex-direction: column; }
-.lens { display: grid; grid-template-columns: calc(var(--c) * 4 + var(--g) * 3) minmax(0, 1fr); column-gap: var(--g); row-gap: 12px; padding: 20px 0; align-items: baseline; }
-.lens-l { margin: 0; font-size: 20px; line-height: 28px; font-weight: 600; }
-.lens-t { margin: 0; font-size: 20px; line-height: 32px; color: var(--ink-2); }
-.lchips { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
-.lchips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; font-size: 17px; line-height: 22px; }
-.lchips .lv { background: var(--fam); border: 2px solid var(--fam); }
-.lchips .lf { background: #ffffff; border: 2px solid var(--fam); }
-.lens-g { display: flex; flex-direction: column; gap: 24px; }
-/* Funded by and Can serve sit on the grid: the right-hand eight columns split 2 + 6, the meter 2 + 2 + 2 + 2 */
-.meter { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--g); }
-.m-st { display: flex; flex-direction: column; gap: 8px; }
-.meter .sq { width: 100%; height: 24px; }
-.sq { display: block; border: 1.5px solid var(--rule-2); background: #ffffff; }
-.sq.on, .sq.gains { background: var(--fam); border-color: var(--fam); }
-.sq.opponent { border: 2px solid var(--accent); }
-.sq.mixed { background: linear-gradient(90deg, var(--fam) 50%, #ffffff 50%); border-color: var(--fam); }
-.m-l { font-family: var(--mono); font-size: 11px; line-height: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
-.lrows { display: flex; flex-direction: column; }
-.lrow { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); column-gap: var(--g); row-gap: 6px; padding: 12px 0; align-items: baseline; }
-.lr-a { grid-column: 1 / span 2; margin: 0; display: flex; align-items: baseline; gap: 10px; font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); }
-.lr-a .sq { flex: none; width: 14px; height: 14px; position: relative; top: 2px; }
-.lr-n { display: flex; flex-direction: column; gap: 3px; }
-.lr-s { font-size: 11px; letter-spacing: 0.04em; color: var(--muted); }
-.opponent .lr-s { color: var(--accent); }
-.lr-t { grid-column: 3 / span 6; margin: 0; font-size: 18px; line-height: 28px; color: var(--ink-2); }
-.lrow.loses .lr-t, .lrow.none .lr-t { color: var(--muted); }
-/* People as one wrapping row (new setup): name and year, a round portrait when the person has one */
-.prow { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
-.pr { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 18px 0 18px; border: 1px solid var(--rule-2); border-radius: 999px; text-decoration: none; color: var(--ink); }
-.pr:has(img) { padding-left: 4px; }
-.pr img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; filter: grayscale(1) contrast(1.04); }
-a.pr:hover { border-color: var(--ink); color: var(--ink); }
-.pr-n { font-size: 17px; line-height: 22px; font-weight: 500; }
-.pr-y { font-family: var(--mono); font-size: 12px; line-height: 16px; color: var(--muted); }
+/* The argument: three spreads on the grid, each 6 + 6, so the right-hand column starts on one line. No boxes: scale, air and the
+   family's highlighter. Values are highlighted, fears underlined, as in the Highlight view to come. */
+.argue { gap: 72px; padding-top: 72px; padding-bottom: 72px; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--g); row-gap: 48px; align-items: start; }
+.pc { display: flex; flex-direction: column; gap: 16px; }
+.pc .kick { margin: 0; }
+.big { margin: 0; font-size: 44px; line-height: 54px; font-weight: 500; letter-spacing: -0.02em; }
+.mid { margin: 0; font-size: 24px; line-height: 36px; color: var(--ink-2); }
+.mk { background: linear-gradient(to bottom, transparent 12%, var(--fam) 12%, var(--fam) 90%, transparent 90%); box-shadow: 0.08em 0 0 -0.01em transparent; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.ul { text-decoration: underline; text-decoration-color: var(--fam); text-decoration-thickness: 0.16em; text-underline-offset: 0.14em; text-decoration-skip-ink: none; }
+.fr { margin: 8px 0 0; font-size: 17px; line-height: 27px; color: var(--ink-3); max-width: 440px; }
+.fr-l { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; color: var(--muted); margin-right: 6px; }
+.cs { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; }
+.cs li { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); column-gap: var(--g); align-items: baseline; }
+.cs-n { grid-column: 1 / span 3; margin: 0; font-size: 26px; line-height: 34px; font-weight: 500; letter-spacing: -0.01em; display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 10px; }
+.cs-s { font-family: var(--mono); font-size: 11px; line-height: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 400; }
+.cs .opponent .cs-s { color: var(--accent); }
+.cs-t { grid-column: 4 / span 3; margin: 0; font-size: 15px; line-height: 22px; color: var(--muted); }
+.cs .loses .cs-n, .cs .none .cs-n { color: #a3a39e; }
+/* People: a typeset index, names with their year, a small round portrait when the person has one */
+.pindex { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; column-gap: 36px; row-gap: 14px; max-width: 1100px; }
+.pi { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; color: var(--ink); }
+.pi img { align-self: center; width: 36px; height: 36px; border-radius: 50%; object-fit: cover; filter: grayscale(1) contrast(1.04); }
+a.pi:hover .pi-n { text-decoration: underline; text-underline-offset: 0.16em; text-decoration-thickness: 1px; }
+.pi-n { font-size: 26px; line-height: 34px; font-weight: 500; letter-spacing: -0.01em; }
+.pi-y { font-family: var(--mono); font-size: 12px; line-height: 16px; color: var(--muted); }
 .names { max-width: 1040px; border-top: 1px solid var(--rule-2); }
 .nm { border-bottom: 1px solid var(--rule); }
 .nm summary { display: grid; grid-template-columns: 88px minmax(0, 1fr) auto 24px; align-items: baseline; column-gap: 16px; padding: 18px 0; cursor: pointer; list-style: none; }
@@ -326,10 +317,8 @@ a.hist:hover .ht { text-decoration: underline; }
   .intro { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .intro h1 { font-size: 72px; line-height: 76px; }
   .actors { grid-template-columns: minmax(0, 1fr); }
-  .lens { grid-template-columns: minmax(0, 1fr); }
-  .lrow { grid-template-columns: minmax(0, 1fr); }
-  .lr-a, .lr-t { grid-column: 1; }
-  .meter { column-gap: 8px; }
+  .pair { grid-template-columns: minmax(0, 1fr); }
+  .argue { gap: 56px; }
   .nm summary { grid-template-columns: 64px minmax(0, 1fr) 24px; }
   .nm-l { display: none; }
   .nm-b { padding-left: 80px; padding-right: 0; }
@@ -368,6 +357,13 @@ a.hist:hover .ht { text-decoration: underline; }
   .intro h1 { font-size: 48px; line-height: 50px; }
   .lead { font-size: 22px; line-height: 31px; }
   .iq blockquote p { font-size: 22px; line-height: 31px; }
+  .big { font-size: 30px; line-height: 38px; }
+  .mid { font-size: 20px; line-height: 30px; }
+  .cs li { grid-template-columns: minmax(0, 1fr); row-gap: 2px; }
+  .cs-n, .cs-t { grid-column: 1; }
+  .cs-n { font-size: 22px; line-height: 30px; }
+  .pi-n { font-size: 20px; line-height: 28px; }
+  .pindex { column-gap: 24px; }
   .body p, p.body { font-size: 18px; line-height: 29px; }
   .thread { padding-left: 24px; margin-left: 4px; }
   .era-h { font-size: 44px; line-height: 48px; }
