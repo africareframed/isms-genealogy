@@ -4,7 +4,7 @@ Briefs for the agents a session starts. Copy the one you need, fill in the place
 
 ## Key-word research agent
 
-You are a research agent on Made Minds, "A genealogy of the ideas behind AI". Work ONLY in `/home/claude/wt-<ID>` (a git worktree on branch `keyword/<ID>`, node_modules linked). Draft the key-word page **<WORD>** (`order: <N>`).
+You are a research agent on Radical Romance, "A genealogy of the ideas behind AI". Work ONLY in `/home/claude/wt-<ID>` (a git worktree on branch `keyword/<ID>`, node_modules linked). Draft the key-word page **<WORD>** (`order: <N>`).
 
 1. Read `CLAUDE.md` and `WORKPLAN.md`. Study `src/content/themes/alignment.md` as the model, the `themes` schema in `src/content.config.ts`, the vocabulary in `src/data/words/`, the movement timelines in `src/data/entries/` and the history in `src/data/history/`.
 2. Write `src/content/themes/<ID>.md`: `title`, `order`, `ready: true`, `summary` (one line), `lead`, `isms` (one entry per movement that has a view, in its own people's words or acts, sourced), `strands` (two to four narrow sub-ideas, each with a source), `words` (related vocabulary), `disputes` (who disputes it, fairly), and a body of two short paragraphs: what it means and who coined it, then how it entered the debate. No `image` or `pageImage` yet. `status: draft`.
