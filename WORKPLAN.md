@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phases 1, 2 and 4 live, the Doubt colour (3.1), and the Pause and AI safety cards. Next: the home page as an atlas (owner's choices pending), 3.3 (the design guide), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
+**Now:** phases 1, 2 and 4 live; the Doubt colour and all twelve movement cards (3.1, 3.2). Next: the home page as an atlas of the movements (waiting on the owner's three choices), 3.3 (the design guide: the new cards), then phase 5 (checker pass on the draft text).
 
 ### How to pick up (read this first, every session)
 
