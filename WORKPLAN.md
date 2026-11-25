@@ -88,6 +88,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: New movement-page setup tested on Neo-Luddism only (owner). After the introduction: In its own words (Merchant), What it wants (Values and Fears as chips in the family colour, filled and outlined; Promises; If it wins tomorrow), Who holds it, then Who funds it beside Who it can serve. Each section is tagged Stated, Derived or Fact; the new text is draft until checked. "Who disputes it" is no longer shown when an ism has `lenses`; its text stays in the file. The framework behind it (twelve movements in six families) lives in the owner's doc "A new framing of the AI movements" (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi) and is not yet applied to the rest of the site.
+
 - 2026-11-21: Vocabulary gets technical terms (owner): a "Technical terms" filter beside the families (`technical: true` on a word), ten existing words tagged, and 23 new words in `src/data/words/technical.yaml`, from neural network (1943) to reasoning model (2024), checked the same night; the checker corrected 17 of them against their sources. Training, inference and benchmark left out as separate words: ordinary words with no traceable first use.
 
 - 2026-11-21: The section menu's underline now follows scrolling on every page with a menu (owner). Its script ran before the sections existed and stopped; it now runs after load and tracks scroll position. Bold width reserved so the menu never shifts.

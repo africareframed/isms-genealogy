@@ -27,6 +27,28 @@ const isms = defineCollection({
     themes: z.array(reference('themes')).default([]),
     disputes: z.string().optional(),
     born: reference('entries').optional(), // the moment the movement got its name, shown in the history of AI
+    // The new page setup (owner, 25 Nov 2026; tested on Neo-Luddism first). When present, the page shows
+    // the quote and the lenses after the introduction, and "Who disputes it" is no longer shown.
+    lenses: z
+      .object({
+        quote: z.object({ text: z.string(), by: z.string(), source: z.string(), url: z.string().optional() }).optional(),
+        values: z.array(z.string()), // stated
+        fears: z.array(z.string()), // stated
+        promises: z.string(), // stated: its own ideal, plus the older tradition it echoes
+        ifItWins: z.string(), // derived: the first consequences of its demands becoming law, one step only
+        fundedBy: z.string(), // fact: public records only; absence recorded
+        canServe: z
+          .array(
+            z.object({
+              actor: z.enum(['Big Tech', 'Challengers', 'Established industry', 'Patrons', 'The state', 'Politics', 'Institutions']),
+              text: z.string(), // who, then "since" and the mechanism
+              opponent: z.boolean().default(false),
+            }),
+          )
+          .default([]),
+        status,
+      })
+      .optional(),
     status,
   }),
 });
