@@ -44,7 +44,7 @@ lenses:
   values: [workers’ say, craft, the right to refuse]
   fears: [deskilling, machines imposed from above]
   promises: Technology decided where it lands, in the workplace, the town and the classroom. It echoes the Luddites themselves, William Morris and the labour movement.
-  ifItWins: Workers and communities gain vetoes. AI enters a workplace only by agreement, and adoption becomes uneven, place by place.
+  ifItWins: workers and communities would gain vetoes. AI would enter a workplace only by agreement, and adoption would become uneven, place by place.
   fundedBy: No major funders found.
   fundRows:
     - label: "2023"

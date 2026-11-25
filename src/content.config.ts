@@ -35,7 +35,9 @@ const isms = defineCollection({
         values: z.array(z.string()), // stated
         fears: z.array(z.string()), // stated
         promises: z.string(), // stated: its own ideal, plus the older tradition it echoes
-        ifItWins: z.string(), // derived: the first consequences of its demands becoming law, one step only
+        // derived: the first consequences of its demands becoming law, one step only. Shown under Promises after
+        // "If <movement>'s demands became law tomorrow,", so it starts in lower case and keeps to the conditional.
+        ifItWins: z.string(),
         fundedBy: z.string(), // fact, set large: the largest public sum and its funder, or that none was found
         // the facts under it, small: a year or a funder, then what was given or done
         fundRows: z.array(z.object({ label: z.string(), text: z.string() })).default([]),
