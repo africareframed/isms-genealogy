@@ -49,6 +49,12 @@ lenses:
   fundRows:
     - label: "2023"
       text: Its leverage is organised labour instead. A 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
+  canServeText: |-
+    Its demands could serve those who already hold power at work. Strong unions and established professions, teachers and academics among them, stand to gain, since a veto is only as strong as the group holding it. Brands that sell the handmade gain too, as refusal turns the human-made into a premium.
+
+    Populists on the left and the right could draw on its anger at automation. Local councils would gain a say, while national industrial strategies would lose speed. Big Tech would lose: adoption would need consent, place by place.
+
+    Its opponents could gain as well. Refusal in one place moves the work to competitors in places that don’t refuse.
   canServe:
     - actor: Big Tech
       status: loses

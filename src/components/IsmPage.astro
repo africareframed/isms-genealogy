@@ -13,8 +13,6 @@ const { Content } = await render(ism);
 const family = FAMILIES.find((f) => f.id === ism.data.family);
 // The new page setup (owner, 25 Nov 2026): quote and lenses after the introduction, no "Who disputes it".
 const L = ism.data.lenses;
-// Can serve lists the same seven actor types in the same order on every page, so pages compare.
-const STATUS = { gains: 'Gains', opponent: 'Gains · opponent', mixed: 'Mixed', loses: 'Loses', none: 'No mechanism' } as const;
 // People (owner, 25 Nov 2026): the movement's figures as portraits that open the same panel as on the People page
 const allPeople = L ? await getPeople() : [];
 
@@ -129,14 +127,9 @@ const first = entries[0];
           </div>
           <div class="lens">
             <p class="lens-l">Can serve</p>
-            <ul class="cs">
-              {L.canServe.map((c) => (
-                <li class={c.status}>
-                  <p class="cs-n">{c.actor}<span class="cs-s">{STATUS[c.status]}</span></p>
-                  <p class="cs-t">{c.text}</p>
-                </li>
-              ))}
-            </ul>
+            <div class="lens-g lens-p">
+              {L.canServeText.split(/\n\s*\n/).map((para) => <p class="lens-t">{para.trim()}</p>)}
+            </div>
           </div>
         </div>
         {L.status === 'draft' && <p class="draft">Draft · to be checked</p>}
