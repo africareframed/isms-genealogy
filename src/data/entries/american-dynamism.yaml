@@ -1,8 +1,63 @@
-# Timeline of american-dynamism, newest first. status: draft until checked.
+# Timeline of American Dynamism, newest first. Built 25 Nov 2026 (owner's framework); new entries are draft until checked.
 ism: american-dynamism
 entries:
+  - id: 2025-ai-action-plan
+    year: 2025
+    month: 7
+    title: Winning the Race
+    who: The White House
+    relation: milestone
+    text: The White House publishes America's AI Action Plan under the title Winning the Race. It sets out federal actions to speed up AI adoption, build data centres and export American AI to allies. The contest with China is framed as a race the United States must win.
+    source: The White House, “Winning the Race. America's AI Action Plan”, July 2025
+    status: draft
+  - id: 2025-technological-republic
+    year: 2025
+    month: 2
+    title: The Technological Republic
+    who: Alexander C. Karp and Nicholas W. Zamiska
+    relation: definition
+    text: Palantir's chief executive and its head of corporate affairs argue that Silicon Valley turned away from the state to build consumer software. They call on engineers to work with government again on defence and national purpose, as their predecessors did in the Cold War.
+    source: Alexander C. Karp and Nicholas W. Zamiska, The Technological Republic. Hard Power, Soft Belief, and the Future of the West, Crown, 2025
+    status: draft
+  - id: 2025-ai-dominance-order
+    year: 2025
+    month: 1
+    title: “Global AI dominance”
+    who: President Donald Trump
+    relation: milestone
+    text: Days after revoking his predecessor's order on AI safety, the president signs a new one. It makes it American policy to sustain and enhance the country's global AI dominance. The phrase gives the movement's national strand its name in government.
+    source: Executive Order 14179, “Removing Barriers to American Leadership in Artificial Intelligence”, 23 January 2025
+    status: draft
+  - id: 2024-manhattan-project-for-agi
+    year: 2024
+    month: 11
+    title: A Manhattan Project for AGI
+    who: U.S.-China Economic and Security Review Commission
+    relation: milestone
+    text: The congressional commission's annual report puts one recommendation first. Congress should set up and fund a programme, like the Manhattan Project, dedicated to racing to artificial general intelligence.
+    source: U.S.-China Economic and Security Review Commission, 2024 Annual Report to Congress, November 2024
+    status: draft
+  - id: 2024-situational-awareness
+    year: 2024
+    month: 6
+    title: Situational Awareness
+    who: Leopold Aschenbrenner
+    relation: definition
+    text: A former OpenAI researcher publishes a long essay arguing that AGI could arrive by 2027. He calls for a government-led national project to build it first and secure it against China. The essay became a founding text for the idea of a national AGI project.
+    source: Leopold Aschenbrenner, “Situational Awareness. The Decade Ahead”, situational-awareness.ai, June 2024
+    status: draft
+  - id: 2024-american-dynamism-fund
+    year: 2024
+    month: 4
+    title: A $600 million fund
+    who: Andreessen Horowitz
+    relation: milestone
+    text: Andreessen Horowitz raises $600 million for its American Dynamism practice, as part of $7.2 billion in new funds. The money goes to start-ups in defence, aerospace, manufacturing and other areas it calls the national interest.
+    source: Andreessen Horowitz, “New Funds, New Era”, a16z, April 2024
+    status: draft
   - id: 2022-american-dynamism
     year: 2022
+    month: 1
     title: Building American Dynamism
     who: Katherine Boyle and David Ulevitch of Andreessen Horowitz
     relation: definition
@@ -10,3 +65,77 @@ entries:
     source: Katherine Boyle, “Building American Dynamism”, a16z, 14 January 2022; David Ulevitch and Katherine Boyle, “Investing in American Dynamism”, a16z, 14 January 2022
     sourceUrl: https://a16z.com/2022/01/14/building-american-dynamism-2/
     status: checked
+  - id: 2022-chip-export-controls
+    year: 2022
+    month: 10
+    title: Export controls on AI chips
+    who: U.S. Department of Commerce
+    relation: milestone
+    text: The Commerce Department's Bureau of Industry and Security restricts exports to China of the most advanced AI chips and the equipment to make them. The rules turn computing power into an instrument of national strategy. Later rounds widened them.
+    source: Bureau of Industry and Security, U.S. Department of Commerce, rules on advanced computing and semiconductor manufacturing items, 7 October 2022
+    status: draft
+  - id: 2021-nscai-final-report
+    year: 2021
+    title: The National Security Commission on AI
+    who: Eric Schmidt and the commission
+    relation: institutional-root
+    text: A commission set up by Congress and chaired by Google's former chief executive delivers its final report. It warns that America is not prepared to defend or compete in the AI era, and calls for a national effort to win the technology competition with China.
+    source: National Security Commission on Artificial Intelligence, Final Report, March 2021
+    status: draft
+  - id: 2018-project-maven
+    year: 2018
+    title: Google leaves Project Maven
+    who: Google employees
+    relation: reacted-against
+    text: Thousands of Google employees protest the company's work on Project Maven, a Pentagon programme using AI to analyse drone footage. Google says it will not renew the contract. The episode became the movement's example of Silicon Valley turning its back on national defence.
+    source: "Scott Shane and Daisuke Wakabayashi, “‘The Business of War’: Google Employees Protest Work for the Pentagon”, The New York Times, 4 April 2018"
+    status: draft
+  - id: 2017-anduril
+    year: 2017
+    title: Anduril
+    who: Palmer Luckey and co-founders
+    relation: institutional-root
+    text: The founder of Oculus starts a defence company built like a software start-up, with partners from Founders Fund and Palantir. Anduril sells autonomous systems and surveillance towers to governments, and became the model of the new defence start-up.
+    source: Anduril Industries, “About”, anduril.com
+    status: draft
+  - id: 2017-china-ai-plan
+    year: 2017
+    month: 7
+    title: China's plan to lead in AI
+    who: China's State Council
+    relation: reacted-against
+    text: China's government publishes its New Generation Artificial Intelligence Development Plan. It aims to make China the world's primary centre of AI innovation by 2030. For the movement it marks the start of the race it says America must win.
+    source: State Council of the People's Republic of China, New Generation Artificial Intelligence Development Plan, July 2017 (translation by New America's DigiChina)
+    status: draft
+  - id: 1945-endless-frontier
+    year: 1945
+    title: Science, the Endless Frontier
+    who: Vannevar Bush
+    relation: attributed
+    text: The wartime head of American research sends the president a plan for science in peacetime. Public money, he argues, should fund basic research for health, jobs and national security. The report shaped the alliance of state, universities and industry that built Silicon Valley.
+    source: Vannevar Bush, Science, the Endless Frontier, report to the President, July 1945
+    status: draft
+  - id: 1942-manhattan-project
+    year: 1942
+    title: The Manhattan Project
+    who: The United States government
+    relation: claimed
+    text: The United States sets up a secret programme to build the atomic bomb before Nazi Germany. Scientists, the army and industry work under one command. Its advocates in AI hold it up as the model for a national AGI project.
+    source: U.S. Department of Energy, The Manhattan Project. An Interactive History; Leopold Aschenbrenner, “Situational Awareness”, 2024
+    status: draft
+  - id: 1940-arsenal-of-democracy
+    year: 1940
+    title: The arsenal of democracy
+    who: Franklin D. Roosevelt
+    relation: attributed
+    text: In a radio address the president asks American industry to supply the countries fighting Nazi Germany. “We must be the great arsenal of democracy,” he says. The idea of industry as the nation's defence returns in the movement's case for building at home.
+    source: Franklin D. Roosevelt, fireside chat on national security, 29 December 1940
+    status: draft
+  - id: 1791-report-on-manufactures
+    year: 1791
+    title: Report on Manufactures
+    who: Alexander Hamilton
+    relation: attributed
+    text: The first Treasury secretary argues that the young republic should protect and promote its own industry, not rely on imports. National strength, he holds, depends on what a country can make. It became a founding text of what economists call the American School.
+    source: Alexander Hamilton, Report on the Subject of Manufactures, 5 December 1791
+    status: draft

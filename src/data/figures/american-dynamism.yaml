@@ -1,12 +1,44 @@
-# Notable figures for american-dynamism (one file per ism).
+# Notable figures for American Dynamism (one file per ism). Built 25 Nov 2026; new figures are draft until checked.
 - id: katherine-boyle-techno-optimism
   name: Katherine Boyle
-  isms:
-  - techno-optimism
+  isms: [american-dynamism]
   note: General partner at Andreessen Horowitz who coined the term American Dynamism and co-founded the firm's practice of that name. An early investor in the defence company Anduril.
   entry: american-dynamism/2022-american-dynamism
 - id: alex-karp-techno-optimism
   name: Alex Karp
-  isms:
-  - techno-optimism
+  isms: [american-dynamism]
   note: Co-founder and chief executive of Palantir. His book The Technological Republic (2025), with Nicholas Zamiska, calls on Silicon Valley to rebuild its partnership with government and the military.
+  entry: american-dynamism/2025-technological-republic
+- id: leopold-aschenbrenner-american-dynamism
+  name: Leopold Aschenbrenner
+  isms: [american-dynamism]
+  note: Former OpenAI researcher. His essay Situational Awareness (2024) calls for a national project to build AGI before China, and he runs an investment fund of the same name.
+  entry: american-dynamism/2024-situational-awareness
+- id: eric-schmidt-american-dynamism
+  name: Eric Schmidt
+  isms: [american-dynamism]
+  note: Former chief executive of Google. He chaired the National Security Commission on Artificial Intelligence, whose 2021 report called for a national effort to win the AI competition with China.
+  entry: american-dynamism/2021-nscai-final-report
+- id: palmer-luckey-american-dynamism
+  name: Palmer Luckey
+  isms: [american-dynamism]
+  note: Founder of Oculus and, in 2017, of the defence company Anduril.
+  entry: american-dynamism/2017-anduril
+- id: vannevar-bush-american-dynamism
+  name: Vannevar Bush
+  lifespan: 1890–1974
+  isms: [american-dynamism]
+  note: Engineer who ran American research in the Second World War. His Science, the Endless Frontier (1945) set out the alliance of state and science.
+  entry: american-dynamism/1945-endless-frontier
+- id: franklin-d-roosevelt-american-dynamism
+  name: Franklin D. Roosevelt
+  lifespan: 1882–1945
+  isms: [american-dynamism]
+  note: President of the United States from 1933 to 1945, who called American industry the “arsenal of democracy”.
+  entry: american-dynamism/1940-arsenal-of-democracy
+- id: alexander-hamilton-american-dynamism
+  name: Alexander Hamilton
+  lifespan: 1755/57–1804
+  isms: [american-dynamism]
+  note: First Treasury secretary of the United States. His Report on Manufactures (1791) argued for building national industry.
+  entry: american-dynamism/1791-report-on-manufactures

@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 04 American Dynamism, on branch `page/american-dynamism` (create it from `main`).
+**Now:** phase 2, next movement: 11 Normal technology, on branch `page/normal-technology` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -73,7 +73,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 09 Digital sovereignty
 - [x] 05 AI safety (from the moved content: introduction, holders, the rest; `ready: true` when complete)
 - [x] 06 Pause (likewise)
-- [ ] 04 American Dynamism (likewise; more entries if fewer than ten)
+- [x] 04 American Dynamism (likewise; more entries if fewer than ten)
 - [ ] 11 Normal technology (likewise)
 - [ ] 12 AI skepticism (new: introduction, six holders, figures, ten to sixteen entries with real sources, words, lenses; `ready: true` when complete)
 
