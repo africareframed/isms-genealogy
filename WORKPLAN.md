@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: The subtitle and the map date are back above the headline (owner, 18:14). The "Movements" heading is gone from the home page; its introduction (what a movement is, how the families run) is fused into the hero's text.
+
 - 2026-11-25: The hero's top line (subtitle and map date) and the six family verbs are gone from the home page (owner, 18:09). The big headline is now "ChatGPT felt like year zero. It wasn't." The subtitle stays in the browser tab; the families still head their rows.
 
 - 2026-11-25: Home hero rewritten with the owner (18:05): it opens in medias res at the Pro-Human Assembly (Washington, 15 September 2026, Sanders and Bannon on one stage), then Trump's "hoax" the day before and the old lines between left and right being redrawn; the movements behind the new lines and the futures they want; "ChatGPT felt like year zero. It wasn't." closes it, with each page tracing its genealogy. Facts from the checked History of AI moment "The pro-human campaign".
