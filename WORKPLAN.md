@@ -2,6 +2,102 @@
 
 Every session starts here: find the first stage that is not done, do the next piece, update this file, commit, push. Rules are in `CLAUDE.md`.
 
+## The new framework on the live site (owner's go, 25 Nov 2026, 14:43)
+
+Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
+
+**Now:** phase 1, branch `framework/switch` (not yet created). Next step: 1.1.
+
+### How to pick up (read this first, every session)
+
+1. Read `CLAUDE.md`, then this section. The first unticked box is the next step. The **Now** line above names the phase and branch.
+2. `git fetch origin`, check out the branch on the **Now** line (create it from `main` if it does not exist yet), run `git status`. Uncommitted changes belong to the first unticked step: finish it, or discard them (`git checkout -- . && git clean -fd src public`) and redo it.
+3. One box is one commit. Tick the box and update the **Now** line in the same commit, then push at once (`git -c push.negotiate=true push -u origin <branch>`). `npm run build` must pass with no warnings before every commit.
+4. Deploy (`npm run deploy`) only at the lines marked **Deploy**, after merging into `main`. Between those points the live site stays as it is, so a stop half-way never leaves it broken.
+5. Sources: the doc "A new framing of the AI movements" (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi). Its main tab is saved in `docs/framework/framing.md` (families, descriptions, values, fears, promises, first consequences, funding lines, quotes, strands). The Funding and Can serve grid tabs are read in the doc itself (docs connector), or saved next to it first with the doc's Export menu. The page rules (lenses, Interests order, lead-ins) are in `CLAUDE.md` and the doc's "Movement page" tab; Neo-Luddism (`src/content/isms/neo-luddism.md`) is the worked example.
+6. Owner-gated, never blocking: the Doubt colour and every new image. Use the placeholder and go on; list what waits in "Waiting on the owner".
+7. Add a line to the log at the end of each phase.
+
+### The map, old to new
+
+| New (order, family) | Id | From |
+| --- | --- | --- |
+| 01 Transhumanism (Transcend) | `transhumanism` | as now |
+| 02 Singularitarianism (Transcend) | `singularitarianism` | as now |
+| 03 Techno-optimism (Accelerate) | `techno-optimism` | as now, plus effective accelerationism as a strand; American Dynamism leaves it |
+| 04 American Dynamism (Accelerate) | `american-dynamism` | new; its entries and figures move out of Techno-optimism |
+| 05 AI safety (Prevent) | `ai-safety` | new; effective altruism and longtermism, Humanist AI and the alignment entries of Rationalism |
+| 06 Pause (Prevent) | `pause` | new; Rationalism and the call to pause |
+| 07 Pro-human (Protect) | `pro-human` | as now |
+| 08 AI ethics (Protect) | `ai-ethics` | as now, without AI as normal technology |
+| 09 Digital sovereignty (Reclaim) | `digital-sovereignty` | as now |
+| 10 Neo-Luddism (Reclaim) | `neo-luddism` | as now; new page setup done |
+| 11 Normal technology (Doubt) | `normal-technology` | new; the strand moves out of AI ethics |
+| 12 AI skepticism (Doubt) | `ai-skepticism` | new; written from scratch (the hype critique, the neurosymbolic critique, the bubble thesis) |
+
+Retired pages, kept as redirects: `effective-accelerationism.html` → `techno-optimism.html`, `rationalism.html` → `pause.html`, `effective-altruism.html` → `ai-safety.html` (to the home page's movements until the target page is ready). Neoreaction moves to the timeline and the vocabulary.
+
+Families (ids, names, colours): `transcend` Transcend `#C9F25B`, `accelerate` Accelerate `#FF9F4F`, `prevent` Prevent `#F5A3BC`, `protect` Protect `#73C7F2`, `reclaim` Reclaim `#C3A6FF`, `doubt` Doubt: colour the owner's (placeholder highlighter yellow `#FFE45C`). Each family's line comes from the "What it wants" column in `docs/framework/framing.md`.
+
+### Phase 0. Groundwork
+
+- [x] Save the doc's main tab as `docs/framework/framing.md` (25 Nov)
+- [x] This plan (25 Nov)
+
+### Phase 1. Switch to six families and twelve movements (branch `framework/switch`)
+
+All on one branch, so the live site changes once, when the whole switch is done.
+
+- [ ] 1.1 Families: `FAMILIES` in `src/lib/site.ts`, the family enum in `src/content.config.ts`, the `family` and `order` of every movement file (01–12), hero line "Transcend. Accelerate. Prevent. Protect. Reclaim. Doubt."
+- [ ] 1.2 Stub files for the five new movements (`ready: false`): title, family, order, summary, lead and includes from `framing.md`; entries and figures files where the build needs them. Their cards show "In preparation".
+- [ ] 1.3 Effective accelerationism into Techno-optimism: entries, figures, words, images and every reference (themes, words, history, people); the file removed; the strand line updated. Build catches broken references.
+- [ ] 1.4 American Dynamism out of Techno-optimism: its entries and figures move to `american-dynamism`.
+- [ ] 1.5 Rationalism into Pause, and its alignment entries into AI safety: entries, figures, words, images, references (history, themes, `about.astro`).
+- [ ] 1.6 Effective altruism into AI safety, with Humanist AI: entries, figures, words, images, references (history, themes, `people.yaml`).
+- [ ] 1.7 AI as normal technology out of AI ethics into `normal-technology`.
+- [ ] 1.8 Redirect pages for the three retired addresses (`public/`, meta refresh, `noindex`).
+- [ ] 1.9 Counts and wording: "ten movements" and "five families" in `index.astro`, `history.astro`, `method.astro`, `vocabulary.astro` and `people.astro`; the Movements header's introduction.
+- [ ] 1.10 `CLAUDE.md`: the framework section rewritten to the new map (families, movements, strands, order).
+- [ ] 1.11 Build, look at home, a movement page, vocabulary and People on a wide screen and a phone; merge into `main`; **Deploy**. Log line.
+
+### Phase 2. The new page for every movement (one branch `ism/<id>` each; merge and **Deploy** after each)
+
+For each movement, in this order: (a) lenses in its file from `framing.md`: values, fears, promises, first consequences (lower case, conditional), the quote ("In their own words"), `fundedBy` from the Funding tab, `canServeText` written by hand in the fixed order, `canServe` from the Can serve grid tab, `status: draft`; (b) the introduction's first sentence and the strands line checked against the family rule; (c) "Who disputes it" stays in the file, not shown; (d) build, look on a wide screen and a phone, merge, deploy, tick.
+
+- [x] 10 Neo-Luddism (25 Nov, the template)
+- [ ] 01 Transhumanism
+- [ ] 02 Singularitarianism
+- [ ] 03 Techno-optimism (also: trim the merged timeline to sixteen entries or fewer, keeping e/acc's key moments)
+- [ ] 07 Pro-human
+- [ ] 08 AI ethics
+- [ ] 09 Digital sovereignty
+- [ ] 05 AI safety (from the moved content: introduction, holders, the rest; `ready: true` when complete)
+- [ ] 06 Pause (likewise)
+- [ ] 04 American Dynamism (likewise; more entries if fewer than ten)
+- [ ] 11 Normal technology (likewise)
+- [ ] 12 AI skepticism (new: introduction, six holders, figures, ten to sixteen entries with real sources, words, lenses; `ready: true` when complete)
+
+### Phase 3. Cards and colour (owner-gated)
+
+- [ ] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
+- [ ] 3.2 Cards for the five new movements: the owner decides whether Pause and AI safety take over the Rationalism and EA cards; the rest as an image batch (`docs/image-batches/`, stage 5 procedure), collages only after his yes
+- [ ] 3.3 The design guide (artifact `4b7a91e1…`): cards, tokens, decisions
+
+### Phase 4. Across the site
+
+- [ ] 4.1 Method page: the movement test, the four lenses, the derivation rules, interest not motive, the funding rules
+- [ ] 4.2 About page and the home page's section introductions
+- [ ] 4.3 Key-word pages: "How the movements see it" lines for the new movements, none left pointing at retired ones
+- [ ] 4.4 Vocabulary: words for the new movements (AI skepticism especially), tags moved from retired movements
+- [ ] 4.5 History of AI: each new movement's naming moment (`born`) and tags on moments
+- [ ] 4.6 People: filters and counts with twelve movements; the owner decides whether People stays in the menu
+- [ ] 4.7 Private preview artifact (stage 7)
+
+### Phase 5. Checks (later, with the owner)
+
+- [ ] 5.1 A checker that has not seen the drafting checks every draft line against its sources and sets `status: checked`
+- [ ] 5.2 The doc and the site agree (lenses, funding, Can serve grid)
+
 ## Night of 22–23 November 2026 (owner's go at 23:49; he reads the result in the morning)
 
 Tick each line as it is done, commit, push. A resumed session picks up at the first open line.
@@ -67,6 +163,9 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - **People** (owner, 23 Nov 2026, 02:56; not started, after the history rewrite): a fourth track, menu History of AI, Movements, People, Vocabulary. Join up what exists (the figures on movement pages, the people in history moments, the vocabulary's coiners), showing who crosses camps. To settle first: a rule for who gets in; public roles and documented statements only, critics where it matters; portraits, which the owner is gathering himself with their licence data (Wikimedia Commons: public domain or free licences, credited), and whether they get the collage treatment. This would reverse the 20 Nov no-portraits rule, the owner's call. At 04:45 the owner reported the portraits ready: 213 files with `portraits.csv` (name, file, Commons page, licence, author, credit, date, size) in his connected folder `isms-genealogy-images/portraits/`, not yet in the repository. Licences: public domain 47, CC0 6, CC licences 119, "Attribution" 2, fair use 8, external web source 31. **The owner cleared every file in the folder (04:50)**, so none needs a rights check; Checked against their sources (05:05; not by face): 12 need replacing (9 show the wrong person or a flag, 3 are book covers or a slide), 6 need cropping, 2 need a note or a second look; list in `isms-genealogy-images/portrait-check/portrait-check.csv`, contact sheets beside it.
 
 ## Waiting on the owner
+
+- The Doubt family's colour (placeholder `#FFE45C`), and the cards for the five new movements (phase 3).
+- Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
 
