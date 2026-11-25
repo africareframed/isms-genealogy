@@ -9,7 +9,7 @@ lead: A Luddite is someone said to oppose new technology, a name taken from Engl
 isms:
   - ism: singularitarianism
     text: Ray Kurzweil framed resistance to his future in Luddite terms. Among the forecasts for 2009 in The Age of Spiritual Machines (1999) was a growing neo-Luddite movement. It quoted Theodore Kaczynski's case against technology under the heading “The New Luddite Challenge”.
-  - ism: rationalism
+  - ism: pause
     text: Those who would slow AI reject the label. Katja Grace of AI Impacts wrote in 2022 that “Technological choice is not luddism”. PauseAI's FAQ says most of its members consider themselves techno-optimists.
   - ism: techno-optimism
     text: Its manifesto uses the word for its opponents. Progress has continued, Marc Andreessen wrote in 2023, despite “continuous howling from Communists and Luddites”.

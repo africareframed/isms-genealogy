@@ -57,7 +57,7 @@
     Microsoft plans to use the revised code to guide its model development from 2027.
   source: "Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026; Microsoft, “Mustafa Suleyman, DeepMind and Inflection Co-founder, joins Microsoft to lead Copilot”, Official Microsoft Blog, 19 March 2024; Mustafa Suleyman, “Towards Humanist Superintelligence”, Microsoft AI, 6 November 2025"
   sourceUrl: https://axios.com/2026/09/14/microsoft-ai-people-code
-  isms: [rationalism]
+  isms: [ai-safety]
   themes: [alignment]
   thread: warnings
   status: checked
@@ -278,7 +278,7 @@
     The same day more than 50 organisations launched the Pro-Human AI Coalition, to keep AI under human control. A day earlier, President Trump had written on Truth Social that fears of AI destroying humanity were a “HOAX”.
   source: "Future of Life Institute, “Statement on Superintelligence”, superintelligence-statement.org, 22 October 2025; Reuters, “US right-wing media figures, tech pioneers call for superintelligent AI ban”, 22 October 2025; Matt O'Brien, “Prince Harry, Meghan join call for ban on development of AI ‘superintelligence’”, Associated Press, 22 October 2025; NPR, “Bernie Sanders and Steve Bannon call for curbs on AI”, 15 September 2026; Axios, “Scoop: Coxon, Bernie and Bannon unite for ‘pro-human’ AI”, 14 September 2026; Project Liberty, “50+ Leading Organizations Launch Coalition for Pro-Human AI”, PR Newswire, 15 September 2026 (the coalition's aim); Alina Maria Stan, “Sanders and Bannon call for an AI slowdown at the Pro-Human Assembly”, The Next Web, 17 September 2026 (Archbishop Cordileone; Ashley Judd of the SAG-AFTRA union)"
   sourceUrl: https://superintelligence-statement.org/
-  isms: [rationalism, pro-human]
+  isms: [pause, pro-human]
   themes: []
   thread: warnings
   status: checked
@@ -506,7 +506,7 @@
     Nearly all the company's staff threatened to quit and join him at Microsoft, which had invested $13 billion in OpenAI, unless the directors resigned. By the end of the month Altman was back, under a new board chaired by Bret Taylor, with Microsoft as a non-voting observer. Two departing directors, Helen Toner and Tasha McCauley, had ties to effective altruism.
   source: OpenAI, “OpenAI announces leadership transition”, 17 November 2023; OpenAI, “Sam Altman returns as CEO, OpenAI has a new initial board”, 29 November 2023; Semafor, “The AI industry turns against its favorite philosophy”, 21 November 2023 (the board's task, Microsoft's $13 billion, the staff threat and the two directors' ties to effective altruism)
   sourceUrl: https://openai.com/index/openai-announces-leadership-transition/
-  isms: [effective-altruism]
+  isms: [ai-safety]
   themes: []
   thread: booms-winters
   status: checked
@@ -565,7 +565,7 @@
     Signers included the neural-network pioneers Yoshua Bengio and Geoffrey Hinton, and the heads of OpenAI, Google DeepMind and Anthropic. Weeks earlier Hinton had left Google, so that he could speak freely about the risks of AI.
   source: Center for AI Safety, “Statement on AI Risk”, and its press release, 30 May 2023; Katyanna Quach, “Top Google boffin Hinton quits, warns of AI danger, partly regrets life's work”, The Register, 1 May 2023
   sourceUrl: https://safe.ai/work/statement-on-ai-risk
-  isms: [rationalism]
+  isms: [ai-safety]
   themes: []
   thread: warnings
   status: checked
@@ -586,7 +586,7 @@
     Timnit Gebru, Emily Bender and other authors of “Stochastic Parrots”, a paper on the dangers of language models, said the letter ignored present harms.
   source: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023; Associated Press, “Tech leaders urge a pause in the 'out-of-control' artificial intelligence race”, NPR, 29 March 2023; Timnit Gebru, Emily M. Bender, Angelina McMillan-Major and others, “Statement from the listed authors of Stochastic Parrots on the ‘AI pause’ letter”, DAIR Institute, 31 March 2023; Devin Coldewey, “Ethicists fire back at ‘AI Pause’ letter they say ‘ignores the actual harms’”, TechCrunch, 31 March 2023 (the statement's authors)"
   sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-  isms: [rationalism, ai-ethics, pro-human]
+  isms: [pause, ai-ethics, pro-human]
   themes: []
   thread: warnings
   status: checked

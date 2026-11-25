@@ -1,0 +1,150 @@
+# Timeline of pause, newest first. status: draft until checked.
+ism: pause
+entries:
+  - id: 2009-lesswrong
+    year: 2009
+    title: LessWrong
+    who: Eliezer Yudkowsky
+    relation: institutional-root
+    tagLabel: Institutional root · rationalism
+    text: Yudkowsky moves to a new community blog, seeded with his own essays. Its members aim for accurate beliefs and effective action, with Bayes's theorem as a guide. AI alignment becomes a central concern. His fan fiction Harry Potter and the Methods of Rationality, begun in 2010, draws many newcomers.
+    source: Ruby, “A Brief History of LessWrong”, LessWrong, 2019; LessWrong, “About LessWrong”
+    sourceUrl: https://www.lesswrong.com/posts/S69ogAGXcc9EQjpcZ/a-brief-history-of-lesswrong
+    themes: [alignment]
+    image: rationalism-lesswrong-2009
+    status: checked
+  - id: 2006-overcoming-bias
+    year: 2006
+    title: Overcoming Bias and the Sequences
+    who: Robin Hanson and Eliezer Yudkowsky
+    relation: institutional-root
+    tagLabel: Institutional root · rationalism
+    text: "An economist and an AI researcher become the main writers of a new group blog on human rationality. Between 2006 and 2009 Yudkowsky writes several hundred essays there and on LessWrong. Collected in 2015 as Rationality: From AI to Zombies, these Sequences remain the community's best-known texts."
+    source: 'Rob Bensinger, “Rationality: From AI to Zombies”, Machine Intelligence Research Institute, 12 March 2015; Ruby, “A Brief History of LessWrong”, LessWrong, 2019'
+    sourceUrl: https://intelligence.org/2015/03/12/rationality-ai-zombies/
+    image: rationalism-overcoming-bias-2006
+    status: checked
+  - id: 2000-singularity-institute
+    year: 2000
+    title: The Singularity Institute for Artificial Intelligence
+    who: Eliezer Yudkowsky, Brian Atkins and Sabine Atkins
+    relation: institutional-root
+    tagLabel: Institutional root · rationalism
+    text: The institute is founded to speed up the arrival of smarter-than-human AI. Within three years Yudkowsky comes to see the danger, and the institute turns to making AI safe, which he calls Friendly AI. In 2013 it is renamed the Machine Intelligence Research Institute, MIRI.
+    source: Machine Intelligence Research Institute, About MIRI, intelligence.org
+    sourceUrl: https://intelligence.org/about/
+    themes: [alignment]
+    image: rationalism-singinst-2000
+    status: checked
+  - id: 1974-heuristics-and-biases
+    year: 1974
+    title: '“Judgment under Uncertainty: Heuristics and Biases”'
+    who: Amos Tversky and Daniel Kahneman
+    relation: claimed
+    tagLabel: Claimed ancestor · cited · rationalism
+    text: Two psychologists show that people judge probabilities by mental shortcuts that cause systematic, predictable errors. The paper becomes a founding text of the study of cognitive biases. In a 2008 chapter, Yudkowsky used their findings to argue that people misjudge the risk of human extinction.
+    source: 'Amos Tversky and Daniel Kahneman, “Judgment under Uncertainty: Heuristics and Biases”, Science 185 (4157), 27 September 1974; Eliezer Yudkowsky, “Cognitive Biases Potentially Affecting Judgment of Global Risks”, in Nick Bostrom and Milan M. Ćirković (eds), Global Catastrophic Risks, Oxford University Press, 2008'
+    sourceUrl: https://pubmed.ncbi.nlm.nih.gov/17835457/
+    image: rationalism-science-1974
+    status: checked
+  - id: 1763-bayes
+    year: 1763
+    title: An Essay towards solving a Problem in the Doctrine of Chances
+    who: Thomas Bayes and Richard Price
+    relation: claimed
+    tagLabel: Claimed ancestor · cited · rationalism
+    text: Two years after Bayes died, Richard Price communicated his essay to the Royal Society. It shows how to infer an unknown chance from a record of successes and failures. The rationalists took its theorem as their model of how evidence should change a belief. The first book of the Sequences introduces the Bayesian view of rational belief.
+    source: 'Thomas Bayes, “An Essay towards solving a Problem in the Doctrine of Chances”, communicated by Richard Price, Philosophical Transactions of the Royal Society 53, 1763; on the Sequences, Machine Intelligence Research Institute, “Rationality: From AI to Zombies”, 2015'
+    sourceUrl: https://zenodo.org/records/1432246
+    image: rationalism-bayes-1763
+    status: checked
+  - id: 2026-stop-the-ai-race
+    year: 2026
+    month: 3
+    title: Marching against the AI race
+    who: Stop the AI Race, with members of MIRI, PauseAI and StopAI
+    relation: milestone
+    text: In March about 200 people, by the organiser's count, marched past the San Francisco offices of Anthropic, OpenAI and xAI. The organiser, Michaël Trazzi of Stop the AI Race, asked the labs to stop building new frontier models if rivals credibly did the same. Members of MIRI, PauseAI and StopAI joined the march.
+    source: Jason Nelson, “Protesters Rally Outside OpenAI, Anthropic, and xAI Offices Over Industry Concerns”, Decrypt, 23 March 2026
+    sourceUrl: https://decrypt.co/362129/protesters-rally-openai-anthropic-xai-offices
+    image: rationalism-stop-ai-race-2026
+    status: checked
+  - id: 2025-ban-on-superintelligence
+    year: 2025
+    month: 10
+    title: Statement on Superintelligence
+    who: Future of Life Institute
+    relation: milestone
+    text: The statement calls for a prohibition on developing superintelligence. It would hold until there is broad scientific agreement that this can be done safely, and strong public support. Early signers ranged from Geoffrey Hinton and Yoshua Bengio to Steve Wozniak, Susan Rice and Steve Bannon. Unlike the 2023 letter, it asks for a ban, not a pause.
+    source: Future of Life Institute, Statement on Superintelligence, 22 October 2025; AFP, “Celebrities, AI giants urge end to superintelligence quest”, 22 October 2025
+    sourceUrl: https://superintelligence-statement.org/
+    image: rationalism-superintelligence-statement-2025
+    status: checked
+  - id: 2025-if-anyone-builds-it
+    year: 2025
+    month: 9
+    title: If Anyone Builds It, Everyone Dies
+    who: Eliezer Yudkowsky and Nate Soares
+    relation: milestone
+    text: MIRI's co-founder and its president argue that modern AI systems are opaque, so no one can set the goals a superintelligence would pursue. Such a machine would want the resources people depend on, and humanity would die out. They call for a halt to large-scale AI development everywhere, and the book's website sets out a draft treaty.
+    source: Eliezer Yudkowsky and Nate Soares, If Anyone Builds It, Everyone Dies, Little, Brown, 2025; “A Draft of a Treaty, with Annotations”, on the book's website
+    sourceUrl: https://www.ifanyonebuildsit.com/treaty
+    themes: [compute, alignment]
+    image: rationalism-iabied-cover-2025
+    status: checked
+  - id: 2023-shut-it-all-down
+    year: 2023
+    month: 3
+    title: “Shut it all down”
+    who: Eliezer Yudkowsky
+    relation: milestone
+    text: A week after the pause letter, Yudkowsky wrote in TIME that it asked for too little. He called for an indefinite, worldwide moratorium on large training runs, a cap on computing power and the tracking of every GPU sold. States should be ready to enforce it, he wrote, even by destroying a rogue data centre from the air.
+    source: Eliezer Yudkowsky, “Pausing AI Developments Isn't Enough. We Need to Shut it All Down”, TIME, 29 March 2023
+    sourceUrl: https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/
+    themes: [compute]
+    image: rationalism-time-2023
+    status: checked
+  - id: 2023-six-month-pause-letter
+    year: 2023
+    month: 3
+    title: Pause Giant AI Experiments
+    who: Future of Life Institute
+    relation: milestone
+    text: An open letter asks all AI labs to pause, for at least six months, the training of systems more powerful than GPT-4. If the labs do not act quickly, governments should impose a moratorium. More than 30,000 people signed, including Elon Musk and Steve Wozniak.
+    source: 'Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023'
+    sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+    themes: [compute]
+    image: rationalism-pause-letter-2023
+    status: checked
+  - id: 1965-good
+    year: 1965
+    title: The first ultraintelligent machine
+    who: I. J. Good
+    relation: claimed
+    text: A statistician who had worked with Alan Turing at Bletchley Park argues that a machine cleverer than any human could design still better machines. An intelligence explosion would follow, and the first such machine would be “the last invention that man need ever make”. Good added a condition, that it be docile enough to tell us how to control it. MIRI's FAQ on the intelligence explosion quotes the passage.
+    source: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965; Luke Muehlhauser, “Intelligence Explosion FAQ”, Machine Intelligence Research Institute, 2013
+    sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
+    image: rationalism-advances-computers-1965
+    status: checked
+  - id: 1951-turing
+    year: 1951
+    yearLabel: c. 1951
+    title: “Intelligent Machinery, A Heretical Theory”
+    who: Alan Turing
+    relation: claimed
+    text: In a lecture to the ’51 Society in Manchester, Turing argues that thinking machines would soon outstrip human powers. They would not die, and they could talk among themselves to grow cleverer. At some stage, he says, “we should have to expect the machines to take control”, as in Samuel Butler's Erewhon. A 2012 LessWrong timeline of early AI-risk ideas quotes the line, as does PauseAI.
+    source: "Alan Turing, “Intelligent Machinery, A Heretical Theory”, lecture to the ’51 Society, Manchester, c. 1951; typescript, King's College Cambridge, AMT/B/4; Luke Muehlhauser (lukeprog), “AI Risk & Opportunity: A Timeline of Early Ideas and Arguments”, LessWrong, 31 March 2012"
+    sourceUrl: https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-4
+    image: rationalism-turing-1951-typescript
+    status: checked
+  - id: 1863-butler
+    year: 1863
+    title: Darwin among the Machines
+    who: Samuel Butler
+    relation: claimed
+    text: "In a letter to a Christchurch newspaper, signed Cellarius, Butler argues that machines evolve like living things and may one day take our place. His answer is blunt: “war to the death should be instantly proclaimed against them”. He later reworked the idea as the Book of the Machines in his novel Erewhon (1872). A 2012 LessWrong timeline of early AI-risk ideas opens with this letter."
+    source: "Cellarius [Samuel Butler], “Darwin among the Machines”, The Press, Christchurch, 13 June 1863; reprinted in Canterbury Pieces, A. C. Fifield, 1914; Luke Muehlhauser (lukeprog), “AI Risk & Opportunity: A Timeline of Early Ideas and Arguments”, LessWrong, 31 March 2012"
+    sourceUrl: https://gutenberg.org/files/3279/3279-h/3279-h.htm
+    themes: [luddite]
+    image: rationalism-erewhon-1872
+    status: checked

@@ -11,7 +11,7 @@ isms:
     text: For transhumanists, augmentation can go inside the body. Elon Musk said in 2019 that Neuralink's long-term aim was to “achieve a sort of symbiosis with artificial intelligence”.
   - ism: singularitarianism
     text: Ray Kurzweil expects augmentation to end in a merger. He foresees nanobots linking the brain to digital neurons in the late 2030s, and human intelligence expanded a millionfold around 2045.
-  - ism: effective-altruism
+  - ism: ai-safety
     text: Some want AI tools that help humanity think and coordinate through the transition. A 2025 paper from Forethought, where William MacAskill works, urges speeding up AI for forecasting, negotiation, treaty verification and safety research.
   - ism: techno-optimism
     text: Its leaders describe AI as augmentation. Marc Andreessen wrote in 2023 that AI offers the chance to “profoundly augment human intelligence”, and Microsoft sells its assistants as Copilot.

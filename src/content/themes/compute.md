@@ -9,9 +9,9 @@ lead: "Compute is the computing power that trains and runs AI: states ration it,
 isms:
   - ism: singularitarianism
     text: Sam Altman ties what AI can do to how much compute is built. With 10 gigawatts, he wrote in September 2025, AI might work out how to cure cancer. He set OpenAI the aim of a factory producing “a gigawatt of new AI infrastructure every week”.
-  - ism: rationalism
+  - ism: pause
     text: Compute is what rationalists would cap. In 2023 Eliezer Yudkowsky called for shutting down large GPU clusters and tracking every GPU sold. The draft treaty on the website of his 2025 book with Nate Soares bans training runs above 10²⁴ FLOP.
-  - ism: effective-altruism
+  - ism: ai-safety
     text: Effective altruists have tried to date AI by the compute it would need. Ajeya Cotra's 2020 draft report, written at Open Philanthropy, anchored its estimates on the human brain and on evolution. Its median for transformative AI was about 2050.
   - ism: techno-optimism
     text: Its e/acc strand has a founder who works on the hardware itself. Guillaume Verdon, who posted as Beff Jezos, runs Extropic, which builds chips meant to use far less energy than GPUs. Once it succeeds, it says, “energy constraints will no longer limit AI scaling”.

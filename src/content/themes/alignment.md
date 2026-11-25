@@ -11,9 +11,9 @@ isms:
     text: For Bryan Johnson, who leads the Don't Die movement, longer life depends on alignment. Defeating ageing will take decades, he said in 2025. Humanity will only last that long if AI is aligned with its survival.
   - ism: singularitarianism
     text: Sam Altman puts alignment first on the road to superintelligence. In “The Gentle Singularity” (2025) he defines it as getting AI to act towards “what we collectively really want over the long-term”. Social media feeds, he writes, are misaligned AI.
-  - ism: rationalism
+  - ism: pause
     text: Alignment is its central problem, first called Friendly AI. Eliezer Yudkowsky and Nate Soares argued in 2025 that no one can set a superintelligence's goals. They call for a halt to large-scale AI development everywhere.
-  - ism: effective-altruism
+  - ism: ai-safety
     text: Toby Ord's The Precipice (2020) ranks unaligned AI as the largest single risk to humanity's future, at about one in ten this century. In 2025 the movement's careers organisation, 80,000 Hours, turned its focus to helping the transition to AGI go well.
   - ism: techno-optimism
     text: In “Why AI Will Save the World” (2023), Marc Andreessen argues that AI has no goals of its own. He reads alignment as a push to control what AI may say, and asks “Whose human values?” Its e/acc strand answers with competition, not central control. Guillaume Verdon, who posts as “Beff Jezos”, argued in 2023 that the market will select for AI that is safer and better aligned.

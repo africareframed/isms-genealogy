@@ -60,7 +60,7 @@
   year: 1965
   origin: "I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965, pp. 31–88. It calls the first such machine “the last invention that man need ever make”."
   sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
-  isms: [singularitarianism, rationalism]
+  isms: [singularitarianism, pause]
   technical: false
   status: checked
 
@@ -82,7 +82,7 @@
   yearLabel: by 1996
   origin: "Earliest use found: Robin Hanson and Dan Clemmensen debating whether computers would bring a takeoff, “Re: What is Intelligence?”, Extropians mailing list, 14 October 1996. Vernor Vinge contrasted hard and soft takeoffs there on 16 September 1998 (Robin Hanson, selected posts from the Vinge singularity discussion). Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014, chapter 4, compares slow, moderate and fast takeoffs. Sam Altman wrote in June 2025 that the takeoff had begun."
   sourceUrl: https://diyhpl.us/~bryan/irc/extropians/extracted-extropians-archive/archive/9610/1833.html
-  isms: [singularitarianism, rationalism]
+  isms: [singularitarianism, pause]
   technical: false
   status: checked
 
@@ -224,7 +224,7 @@
   yearLabel: by 2007
   origin: "Earliest use found by Word Spy: “Bostrom talk on X-Risk and AI transcribed”, Institute for Ethics and Emerging Technologies, 8 September 2007. The full term comes from Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards”, Journal of Evolution and Technology 9(1), 2002."
   sourceUrl: https://wordspy.com/words/x-risk
-  isms: [rationalism, effective-altruism]
+  isms: [pause, ai-safety]
   technical: false
   status: checked
 
@@ -235,7 +235,7 @@
   yearLabel: by 2003
   origin: "Earliest use found in rationalist writing: Eliezer Yudkowsky, “An Intuitive Explanation of Bayes' Theorem”, 2003, now on LessWrong. It explains how to update a probability given new evidence. His “Update Yourself Incrementally” followed on Overcoming Bias in 2007. Philosophers already used the word of belief change, for instance James M. Joyce, “Bayes' Theorem”, Stanford Encyclopedia of Philosophy, 2003. The rule goes back to Thomas Bayes, “An Essay towards solving a Problem in the Doctrine of Chances”, Philosophical Transactions of the Royal Society 53, 1763."
   sourceUrl: https://www.lesswrong.com/rationality/an-intuitive-explanation-of-bayes-s-theorem
-  isms: [rationalism]
+  isms: [pause]
   technical: false
   status: checked
 
@@ -246,7 +246,7 @@
   yearLabel: written 2006–2009
   origin: "Written on Overcoming Bias and LessWrong between 2006 and 2009; about half were grouped into themed sequences of posts, hence the name (LessWrong, “Original Sequences”). LessWrong was seeded with them in 2009 (Ruby, “A Brief History of LessWrong”, LessWrong, 1 June 2019). They were collected as Rationality: From AI to Zombies (Machine Intelligence Research Institute, announced by Rob Bensinger, 12 March 2015)."
   sourceUrl: https://intelligence.org/2015/03/12/rationality-ai-zombies/
-  isms: [rationalism]
+  isms: [pause]
   technical: false
   status: checked
 
@@ -260,7 +260,7 @@
   yearLabel: 1657 (the idea)
   origin: "Christiaan Huygens, De ratiociniis in ludo aleae (On Reasoning in Games of Chance), 1657, after Pascal and Fermat's letters of 1654. Neither used expectation in its modern sense. Laplace defined the concept explicitly in Théorie analytique des probabilités (1814), and W. A. Whitworth first wrote E for it in 1901 (Wikipedia, “Expected value”)."
   sourceUrl: https://en.wikipedia.org/wiki/Expected_value
-  isms: [effective-altruism]
+  isms: [ai-safety]
   technical: false
   status: checked
 
@@ -271,7 +271,7 @@
   yearLabel: by 2013
   origin: "Earliest use of the phrase found: Benjamin Todd, “A framework for strategically selecting a cause”, 80,000 Hours, 19 December 2013. It judges causes as important, tractable and uncrowded, an early form of the importance, neglectedness and tractability framework. GiveWell Labs, later Open Philanthropy, had called the work strategic cause selection: Holden Karnofsky, “Strategic cause selection”, The GiveWell Blog, 2 May 2012."
   sourceUrl: https://80000hours.org/2013/12/a-framework-for-strategically-selecting-a-cause/
-  isms: [effective-altruism]
+  isms: [ai-safety]
   technical: false
   status: checked
 
@@ -282,7 +282,7 @@
   year: 2003
   origin: "Nick Bostrom, “Astronomical Waste: The Opportunity Cost of Delayed Technological Development”, Utilitas 15(3), 2003, pp. 308–314."
   sourceUrl: https://nickbostrom.com/astronomical/waste.pdf
-  isms: [effective-altruism, rationalism]
+  isms: [ai-safety, pause]
   technical: false
   status: checked
 
@@ -293,7 +293,7 @@
   yearLabel: by 2020
   origin: "Earliest use found: William MacAskill, “Are We Living at the Hinge of History?”, Global Priorities Institute Working Paper No. 12-2020, September 2020. It names a Value Lock-In view. He gave it a chapter, “Value Lock-In” (chapter 4), in What We Owe the Future, Basic Books, August 2022 (Oneworld in the UK)."
   sourceUrl: https://globalprioritiesinstitute.org/wp-content/uploads/William-MacAskill_Are-we-living-at-the-hinge-of-history.pdf
-  isms: [effective-altruism]
+  isms: [ai-safety]
   technical: false
   status: checked
 
@@ -305,7 +305,7 @@
   yearLabel: by 2018
   origin: "William MacAskill, interviewed by Robert Wiblin, 80,000 Hours podcast no. 17, 19 January 2018: “I call it the long reflection.” Toby Ord develops it in The Precipice: Existential Risk and the Future of Humanity, Bloomsbury, 2020, chapter 7."
   sourceUrl: https://80000hours.org/podcast/episodes/will-macaskill-moral-philosophy/
-  isms: [effective-altruism]
+  isms: [ai-safety]
   technical: false
   status: checked
 

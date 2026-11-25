@@ -108,7 +108,7 @@
     The book asks how to use it to make an intelligence explosion, a runaway rise in machine intelligence, survivable. Oren Etzioni, head of the Allen Institute for AI, said alarmed headlines, fuelled by Elon Musk and Stephen Hawking, owed much to Bostrom's work. In 2016, 92.5% of the senior AI researchers who answered his survey put superintelligence beyond the foreseeable horizon.
   source: "Nick Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 3 July 2014; Oxford Martin School, University of Oxford, publication page; Oren Etzioni, “No, the Experts Don't Think Superintelligent AI is a Threat to Humanity”, MIT Technology Review, 20 September 2016"
   sourceUrl: https://www.oxfordmartin.ox.ac.uk/publications/superintelligence-paths-dangers-strategies
-  isms: [rationalism]
+  isms: [ai-safety]
   themes: [alignment]
   thread: warnings
   status: checked

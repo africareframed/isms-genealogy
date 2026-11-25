@@ -30,7 +30,7 @@
   year: 1965
   origin: I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965. Vinge, Kurzweil and MIRI all cite the passage.
   sourceUrl: https://quoteinvestigator.com/?p=440994
-  isms: [singularitarianism, rationalism]
+  isms: [singularitarianism, pause]
   status: checked
 
 - id: cryonics
@@ -60,7 +60,7 @@
   year: 1972
   origin: Peter Singer, “Famine, Affluence, and Morality”, Philosophy & Public Affairs 1(3), 1972, pp. 229–243, written in November 1971 during the famine in East Bengal. Full text on the Giving What We Can website.
   sourceUrl: https://www.givingwhatwecan.org/get-involved/videos-books-and-essays/famine-affluence-and-morality-peter-singer
-  isms: [effective-altruism]
+  isms: [ai-safety]
   status: checked
 
 - id: bicycle-for-the-mind
@@ -131,7 +131,7 @@
   year: 1997
   origin: "Mark Gubrud, “Nanotechnology and International Security”, a paper for the Fifth Foresight Conference on Molecular Nanotechnology, November 1997. Around 2002 Shane Legg proposed the name again, for a book edited by Ben Goertzel and Cassio Pennachin. Goertzel spread it (“Who coined the term ‘AGI’?”, goertzel.org, 28 August 2011)."
   sourceUrl: https://legacy.foresight.org/Conferences/MNT05/Papers/Gubrud/index.html
-  isms: [singularitarianism, rationalism, effective-altruism, techno-optimism, pro-human]
+  isms: [singularitarianism, pause, ai-safety, techno-optimism, pro-human]
   status: checked
 
 - id: superintelligence
@@ -141,7 +141,7 @@
   year: 1998
   origin: Nick Bostrom, “How Long Before Superintelligence?”, International Journal of Futures Studies 2, 1998 (dated 1997), which gives the definition still in use. He expanded it in Superintelligence (2014). Earlier uses of the word itself are not traced here.
   sourceUrl: https://nickbostrom.com/superintelligence
-  isms: [singularitarianism, rationalism, effective-altruism, pro-human]
+  isms: [singularitarianism, pause, ai-safety, pro-human]
   status: checked
 
 - id: law-of-accelerating-returns
@@ -162,7 +162,7 @@
   yearLabel: by 2001
   origin: "Earliest text found here: Eliezer Yudkowsky, Creating Friendly AI 1.0, Singularity Institute for Artificial Intelligence, 2001. The LessWrong wiki says Yudkowsky coined the term. MIRI's drafts switched to “aligned AI” in late 2014."
   sourceUrl: https://www.lesswrong.com/w/friendly-artificial-intelligence
-  isms: [rationalism, singularitarianism]
+  isms: [pause, singularitarianism]
   status: checked
 
 - id: existential-risk
@@ -172,7 +172,7 @@
   year: 2002
   origin: "Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards”, Journal of Evolution and Technology 9(1), 2002. A first version dates from 2001. In it he writes “I shall call these existential risks”."
   sourceUrl: https://nickbostrom.com/existential/risks
-  isms: [effective-altruism, rationalism]
+  isms: [ai-safety, pause]
   status: checked
 
 - id: paperclip-maximiser
@@ -182,7 +182,7 @@
   year: 2003
   origin: "Nick Bostrom, “Ethical Issues in Advanced Artificial Intelligence”, in I. Smit et al. (eds), Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence, vol. 2, 2003. Disputed: the LessWrong wiki says Yudkowsky first mentioned it, on the Extropians mailing list (11 March 2003). LessWrong now calls it the squiggle maximiser."
   sourceUrl: https://nickbostrom.com/ethics/ai
-  isms: [rationalism]
+  isms: [ai-safety, pause]
   status: checked
 
 - id: proactionary-principle
@@ -224,7 +224,7 @@
   yearLabel: by 2008
   origin: "Earliest dated use found: the Hanson–Yudkowsky debate on Overcoming Bias in November 2008, including Hanson's post “AI Go Foom” (20 November). The debate is collected in The Hanson-Yudkowsky AI-Foom Debate, Machine Intelligence Research Institute, 2013. Who said it first is unclear."
   sourceUrl: https://www.overcomingbias.com/p/ai-go-foomhtml
-  isms: [rationalism]
+  isms: [pause]
   status: checked
 
 - id: p-doom
@@ -235,7 +235,7 @@
   yearLabel: by 2009
   origin: "Earliest use found: a comment by Tim Tyler on the LessWrong post “This Failing Earth”, 25 May 2009, asking why p(doom) had been overestimated. Fast Company (Clint Rainey, 7 December 2023) traces it to a half-serious joke on tech message boards."
   sourceUrl: https://www.lesswrong.com/posts/2KNN9WPcyto7QH9pi/this-failing-earth?commentId=nvA3JjbaMa7YGrM7J
-  isms: [rationalism]
+  isms: [pause]
   status: checked
 
 - id: accelerationism
@@ -255,7 +255,7 @@
   year: 2011
   origin: "The staff of Giving What We Can and 80,000 Hours chose it by vote on 5 December 2011. It named their umbrella charity, the Centre for Effective Altruism. Source: William MacAskill, “The history of the term ‘effective altruism’”, Effective Altruism Forum, 11 March 2014. Comments there note scattered earlier uses, on the SL4 wiki (2003) and by Eliezer Yudkowsky (2007)."
   sourceUrl: https://forum.effectivealtruism.org/posts/9a7xMXoSiQs3EYPA2/the-history-of-the-term-effective-altruism
-  isms: [effective-altruism]
+  isms: [ai-safety]
   status: checked
 
 - id: earning-to-give
@@ -266,7 +266,7 @@
   yearLabel: by 2012
   origin: "Jeff Kaufman, “History of ‘Earning to Give’”, jefftk.com, 18 September 2012, updated 2013. The idea goes back to Tomasik's 2006 essay “Why Activists Should Consider Making Lots of Money”. 80,000 Hours had called it professional philanthropy. Tomasik suggested the new name on a mailing list, and Kaufman took it up."
   sourceUrl: https://www.jefftk.com/p/history-of-earning-to-give
-  isms: [effective-altruism]
+  isms: [ai-safety]
   status: checked
 
 - id: orthogonality-thesis
@@ -276,7 +276,7 @@
   year: 2012
   origin: "Nick Bostrom, “The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents”, Minds and Machines 22(2), May 2012."
   sourceUrl: https://nickbostrom.com/superintelligentwill.pdf
-  isms: [rationalism]
+  isms: [ai-safety, pause]
   status: checked
 
 - id: instrumental-convergence
@@ -286,7 +286,7 @@
   year: 2012
   origin: Nick Bostrom, “The Superintelligent Will”, Minds and Machines 22(2), May 2012, which states the instrumental convergence thesis. It builds on Stephen Omohundro's “The Basic AI Drives” (2008), which Bostrom calls pioneering.
   sourceUrl: https://nickbostrom.com/superintelligentwill.pdf
-  isms: [rationalism]
+  isms: [ai-safety, pause]
   status: checked
 
 - id: importance-neglectedness-tractability
@@ -297,7 +297,7 @@
   yearLabel: c. 2013
   origin: First developed by Karnofsky around 2013 at GiveWell Labs, as importance, tractability and uncrowdedness. Owen Cotton-Barratt made a quantitative version for 80,000 Hours in late 2014, as scale, solvability and neglectedness. Effective Altruism Forum, “ITN framework”.
   sourceUrl: https://forum.effectivealtruism.org/topics/itn-framework
-  isms: [effective-altruism]
+  isms: [ai-safety]
   status: checked
 
 - id: alignment
@@ -308,7 +308,7 @@
   yearLabel: by 2014
   origin: "The first MIRI paper to use it was “Aligning Superintelligence with Human Interests: A Technical Research Agenda” (2014). Rob Bensinger of MIRI recalls Stuart Russell suggesting the term that year; Russell has reportedly said he did not coin it. Norbert Wiener described the problem in Science in 1960. LessWrong, “When was the term ‘AI alignment’ coined?”, 2020."
   sourceUrl: https://lesswrong.com/posts/ZxWzCGKzX84S7DBZ9/when-was-the-term-ai-alignment-coined
-  isms: [rationalism, effective-altruism]
+  isms: [ai-safety, pause]
   technical: true
   status: checked
 
@@ -319,7 +319,7 @@
   year: 2017
   origin: Proposed by MacAskill in October 2017, to replace clumsier phrases such as “people interested in x-risk reduction”. William MacAskill, “‘Longtermism’”, Effective Altruism Forum, 25 July 2019. Wikipedia credits him and Toby Ord.
   sourceUrl: https://forum.effectivealtruism.org/posts/qZyshHCNkjs3TvSem/longtermism
-  isms: [effective-altruism]
+  isms: [ai-safety]
   status: checked
 
 - id: progress-studies
@@ -380,7 +380,7 @@
   year: 2023
   origin: "Future of Life Institute, “Pause Giant AI Experiments: An Open Letter”, 22 March 2023, which asks for at least six months. PauseAI, founded in Utrecht in May 2023 by Joep Meindertsma, took the word as its name."
   sourceUrl: https://futureoflife.org/open-letter/pause-giant-ai-experiments/
-  isms: [rationalism, pro-human]
+  isms: [pause, pro-human]
   status: checked
 
 - id: tescreal
@@ -421,7 +421,7 @@
   year: 2012
   origin: "Holden Karnofsky, co-executive director of GiveWell, “Thoughts on the Singularity Institute (SI)”, LessWrong, 11 May 2012, his Objection 2: the Singularity Institute appears to neglect the distinction between “tool” and “agent” AI, with Google Maps as the example. Anthony Aguirre of the Future of Life Institute made Tool AI the alternative to AGI and superintelligence in Keep The Future Human (2025)."
   sourceUrl: https://www.lesswrong.com/lw/cbs/thoughts_on_the_singularity_institute_si/6lc8
-  isms: [rationalism, pro-human]
+  isms: [ai-safety, pro-human]
   status: checked
 
 - id: humanist-superintelligence
@@ -431,7 +431,7 @@
   year: 2025
   origin: "Mustafa Suleyman, “Towards Humanist Superintelligence”, Microsoft AI, 6 November 2025, announcing the MAI Superintelligence Team. The essay shortens it to HSI."
   sourceUrl: https://microsoft.ai/blog/towards-humanist-superintelligence
-  isms: [rationalism]
+  isms: [ai-safety]
   status: checked
 
 - id: humanist-ai
@@ -441,5 +441,5 @@
   year: 2026
   origin: "The Humanist AI code of conduct for Microsoft AI's models, published in September 2026 and put to a six-week public consultation (Axios, “Microsoft: ‘People matter more than AI’”, 14 September 2026). Microsoft AI also funds a quarterly, The Humanist Review of AI (humanistreview.ai)."
   sourceUrl: https://axios.com/2026/09/14/microsoft-ai-people-code
-  isms: [rationalism]
+  isms: [ai-safety]
   status: checked

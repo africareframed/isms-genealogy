@@ -90,7 +90,7 @@
   source: "I. J. Good, “Speculations Concerning the First Ultraintelligent Machine”, Advances in Computers 6, Academic Press, 1965; Quote Investigator, “The First Ultraintelligent Machine Is the Last Invention That Humanity Need Ever Make”, 4 January 2022; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 35"
   sourceUrl: https://quoteinvestigator.com/2022/01/04/ultraintelligent/
   thread: warnings
-  isms: [singularitarianism, rationalism]
+  isms: [singularitarianism, pause]
   themes: []
   status: checked
 
@@ -109,7 +109,7 @@
   source: "Norbert Wiener, “Some Moral and Technical Consequences of Automation”, Science 131 (3410), 6 May 1960; Stuart Russell, “Human-Compatible Artificial Intelligence”, in Stephen Muggleton and Nicholas Chater (eds.), Human-Like Machine Intelligence, Oxford University Press, 2021, ch. 1 (author's manuscript, University of California, Berkeley)"
   sourceUrl: https://www.cs.umd.edu/users/gasarch/BLOGPAPERS/moral.pdf
   thread: warnings
-  isms: [rationalism]
+  isms: [ai-safety]
   themes: [alignment]
   status: checked
 
