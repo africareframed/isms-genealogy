@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Each family row on the home page now opens with a short introduction instead of one line (owner, 19:10): what its two movements share, then how they differ (who crosses; whom it serves; whether it can be made safe in time; what they defend first; build our own or refuse; ordinary or oversold). Written from the movements' own lenses.
+
 - 2026-11-25: Family headings on the home page made large (owner, 19:08): name and colour square at 48 px on columns 1–6, the family's line on 7–12, as the old Movements header and its introduction were.
 
 - 2026-11-25: Hero (owner, 19:05): no more "today they are movements"; a new paragraph asks what these positions become as they meet political power while the world order is remade, and who will hold power in the future. Four paragraphs now.

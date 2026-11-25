@@ -107,7 +107,7 @@ const SHOW_HISTORY_CARD = false;
         <section class="fam" aria-labelledby={`fam-${fam.id}`}>
           <div class="fh">
             <h3 class="fn" id={`fam-${fam.id}`}><span class="fsw" style={`background:${fam.colour}`} aria-hidden="true"></span>{fam.name}</h3>
-            <p class="fd">{fam.text}</p>
+            <p class="fd">{fam.intro}</p>
           </div>
           {isms
             .filter((i) => i.data.family === fam.id)
