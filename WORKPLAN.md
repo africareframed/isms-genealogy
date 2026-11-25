@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Hero in four paragraphs (owner, 19:30): the breakthrough and "strange, yet strangely familiar" share one paragraph.
+
 - 2026-11-25: Menu order: Movements first, then History of AI, People, Vocabulary, About, Method (owner, 19:29).
 
 - 2026-11-25: Hero: Trump's "hoax" sentence dropped (owner, 19:27); the first paragraph now goes straight from the scene to the old line between left and right.
