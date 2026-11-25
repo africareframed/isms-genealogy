@@ -1,0 +1,38 @@
+# Words of the movements added on 25 Nov 2026 with the new framework (owner). Same fields as words.yaml; draft until checked.
+- id: chinese-room
+  word: Chinese room
+  definition: A thought experiment in which a person follows rules to answer questions in Chinese without understanding the language. It is meant to show that running a program is not the same as understanding.
+  coinedBy: John Searle
+  year: 1980
+  origin: "John R. Searle, “Minds, Brains, and Programs”, Behavioral and Brain Sciences 3(3), 1980"
+  isms: [ai-skepticism]
+  technical: false
+  status: draft
+- id: octopus-test
+  word: octopus test
+  definition: A thought experiment about an octopus that listens in on an undersea cable and learns to imitate two people's messages without knowing what any word refers to. It is meant to show that a system trained only on the form of language cannot learn its meaning.
+  coinedBy: Emily M. Bender and Alexander Koller
+  year: 2020
+  origin: "Emily M. Bender and Alexander Koller, “Climbing towards NLU. On Meaning, Form, and Understanding in the Age of Data”, Proceedings of ACL, 2020"
+  isms: [ai-skepticism]
+  technical: false
+  status: draft
+- id: general-purpose-technology
+  word: general-purpose technology
+  definition: A technology, like the steam engine or electricity, that spreads across the whole economy and enables further inventions. Its gains come slowly, as firms and workers reorganise around it.
+  coinedBy: Timothy Bresnahan and Manuel Trajtenberg
+  year: 1995
+  origin: "Timothy F. Bresnahan and Manuel Trajtenberg, “General Purpose Technologies. ‘Engines of Growth’?”, Journal of Econometrics 65(1), 1995"
+  isms: [normal-technology]
+  technical: false
+  status: draft
+- id: productivity-paradox
+  word: productivity paradox
+  definition: The puzzle that a new technology spreads everywhere while productivity statistics barely move. Robert Solow put it in a line about computers in 1987.
+  coinedBy: Erik Brynjolfsson (popularised the term)
+  year: 1993
+  yearLabel: by 1993
+  origin: "Erik Brynjolfsson, “The Productivity Paradox of Information Technology”, Communications of the ACM 36(12), 1993; Robert M. Solow, “We'd Better Watch Out”, New York Times Book Review, 12 July 1987"
+  isms: [normal-technology]
+  technical: false
+  status: draft

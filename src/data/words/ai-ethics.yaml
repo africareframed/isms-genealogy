@@ -113,6 +113,7 @@
   sourceUrl: https://wheresyoured.at/the-rot-economy
   isms:
   - ai-ethics
+  - ai-skepticism
   technical: false
   status: checked
 - id: ai-mirror

@@ -51,5 +51,5 @@
   yearLabel: by 1984
   origin: "Drew McDermott, M. Mitchell Waldrop, B. Chandrasekaran, John McDermott and Roger Schank, “The Dark Ages of AI: A Panel Discussion at AAAI-84”, AI Magazine 6 (3), Fall 1985, pp. 122–134. Opening the panel, McDermott urged steps to make sure the “AI Winter” did not happen. Quoted in Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 24."
   sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
-  isms: []
+  isms: [ai-skepticism]
   status: checked

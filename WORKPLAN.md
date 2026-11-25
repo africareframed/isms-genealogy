@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 4, branch `site/phase-4`. Next step: 4.4.
+**Now:** phase 4, branch `site/phase-4`. Next step: 4.5.
 
 ### How to pick up (read this first, every session)
 
@@ -88,7 +88,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 4.1 Method page: the movement test, the four lenses, the derivation rules, interest not motive, the funding rules
 - [x] 4.2 About page and the home page's section introductions
 - [x] 4.3 Key-word pages: "How the movements see it" lines for the new movements, none left pointing at retired ones
-- [ ] 4.4 Vocabulary: words for the new movements (AI skepticism especially), tags moved from retired movements
+- [x] 4.4 Vocabulary: words for the new movements (AI skepticism especially), tags moved from retired movements
 - [ ] 4.5 History of AI: each new movement's naming moment (`born`) and tags on moments
 - [ ] 4.6 People: filters and counts with twelve movements; the owner decides whether People stays in the menu
 - [ ] 4.7 Private preview artifact (stage 7)
