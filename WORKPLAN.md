@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: On phones a closed family shows both its cards side by side, cut at 80 px; an opened family stays one card per row (owner, 21:13).
 - 2026-11-25: Family introductions set at the hero text's size, 19 px (17 px on phones) (owner, 20:43).
 
 - 2026-11-25: The six families on the home page are drawers (owner, 20:35, straight to live): closed, the name, the introduction and a 120 px strip of the cards; a click opens the row; #transcend … #doubt open one directly. The home page is about 3,800 px tall closed.
