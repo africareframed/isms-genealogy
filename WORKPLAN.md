@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 1, branch `framework/switch`. Next step: 1.11.
+**Now:** phase 2, next movement: 01 Transhumanism, on branch `ism/transhumanism` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -58,7 +58,7 @@ All on one branch, so the live site changes once, when the whole switch is done.
 - [x] 1.8 Redirect pages for the three retired addresses (`public/`, meta refresh, `noindex`).
 - [x] 1.9 Counts and wording: "ten movements" and "five families" in `index.astro`, `history.astro`, `method.astro`, `vocabulary.astro` and `people.astro`; the Movements header's introduction.
 - [x] 1.10 `CLAUDE.md`: the framework section rewritten to the new map (families, movements, strands, order).
-- [ ] 1.11 Build, look at home, a movement page, vocabulary and People on a wide screen and a phone; merge into `main`; **Deploy**. Log line.
+- [x] 1.11 Build, look at home, a movement page, vocabulary and People on a wide screen and a phone; merge into `main`; **Deploy**. Log line.
 
 ### Phase 2. The new page for every movement (one branch `ism/<id>` each; merge and **Deploy** after each)
 
@@ -186,6 +186,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Phase 1 of the new framework is live (owner's go, 14:48): six families named by verbs (Doubt in a placeholder yellow), twelve movements numbered 01–12, the map dated 25 November 2026. Effective accelerationism is a strand of Techno-optimism; Rationalism and Effective altruism are strands of Pause and AI safety; American Dynamism and Normal technology have their own files; AI skepticism is a stub. The five new movements show "In preparation" without cards until phases 2 and 3. Retired addresses redirect.
 
 - 2026-11-25: New movement-page setup tested on Neo-Luddism only (owner). Who holds it now follows the introduction; the movement's quote opens the People section (owner). Then the lenses as labelled rows on 4 + 8: Values (filled chips in the family colour), Fears (outlined chips), Promises (with the first consequences after "If <movement>'s demands became law tomorrow,"), and Interests: one row, the funding first (fact, `fundedBy`), then who its demands could serve (the site's reasoning, `canServeText`, after a bold "Its demands could serve"); funders are named only in the first part, beneficiaries only in the second. The seven-actor matrix stays in the file (`canServe`) for the actor view, not on the page: the owner found it too simplistic as a list. He also tried a spread layout and turned it down: the hierarchy became unclear. People on the page are the People page's own portrait tiles, opening the same panel (`src/components/PersonCard.astro`, now shared by both pages; the People page output is unchanged). The owner may take People out of the menu later. The new text is draft until checked. "Who disputes it" is no longer shown when an ism has `lenses`; its text stays in the file. The framework behind it (twelve movements in six families) lives in the owner's doc "A new framing of the AI movements" (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi) and is not yet applied to the rest of the site.
 

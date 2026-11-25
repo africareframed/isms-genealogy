@@ -1,6 +1,6 @@
 export const SITE_NAME = 'Made Minds';
 export const SITE_TITLE = 'A genealogy of the ideas behind AI';
-export const MAP_DATE = '20 November 2026';
+export const MAP_DATE = '25 November 2026';
 
 export const FAMILIES = [
   // Six families of two movements each (owner, 25 Nov 2026: the new framework, doc "A new framing of the AI
