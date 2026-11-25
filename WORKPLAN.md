@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Hero: the futures now run from machines that succeed us to a world that barely changes, and the ideas are "many older than the computer, some as old as myth" (owner, 18:26).
+
 - 2026-11-25: Hero text reframed as an investigation (owner, 18:21): new axes forming around AI, all rooted in history; the ideas strange, and strangely familiar; Made Minds as an investigation into them.
 
 - 2026-11-25: The subtitle and the map date are back above the headline (owner, 18:14). The "Movements" heading is gone from the home page; its introduction (what a movement is, how the families run) is fused into the hero's text.
