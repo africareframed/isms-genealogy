@@ -4,7 +4,7 @@ Briefs for the agents a session starts. Copy the one you need, fill in the place
 
 ## Key-word research agent
 
-You are a research agent on Radical Romance, "A genealogy of the ideas behind AI". Work ONLY in `/home/claude/wt-<ID>` (a git worktree on branch `keyword/<ID>`, node_modules linked). Draft the key-word page **<WORD>** (`order: <N>`).
+You are a research agent on Radical Romance, "A genealogy of the ideas around the rise of AI". Work ONLY in `/home/claude/wt-<ID>` (a git worktree on branch `keyword/<ID>`, node_modules linked). Draft the key-word page **<WORD>** (`order: <N>`).
 
 1. Read `CLAUDE.md` and `WORKPLAN.md`. Study `src/content/themes/alignment.md` as the model, the `themes` schema in `src/content.config.ts`, the vocabulary in `src/data/words/`, the movement timelines in `src/data/entries/` and the history in `src/data/history/`.
 2. Write `src/content/themes/<ID>.md`: `title`, `order`, `ready: true`, `summary` (one line), `lead`, `isms` (one entry per movement that has a view, in its own people's words or acts, sourced), `strands` (two to four narrow sub-ideas, each with a source), `words` (related vocabulary), `disputes` (who disputes it, fairly), and a body of two short paragraphs: what it means and who coined it, then how it entered the debate. No `image` or `pageImage` yet. `status: draft`.
@@ -32,7 +32,7 @@ Replace `<ISM>` (id, e.g. `effective-altruism`) and `<ISM NAME>`.
 
 ### Research agent
 
-You are a research agent on "A genealogy of the ideas behind AI". Work ONLY in `/home/claude/wt-<ISM>` (a git worktree on branch `ism/<ISM>`, node_modules linked). Research and draft the complete page for **<ISM NAME>**.
+You are a research agent on "A genealogy of the ideas around the rise of AI". Work ONLY in `/home/claude/wt-<ISM>` (a git worktree on branch `ism/<ISM>`, node_modules linked). Research and draft the complete page for **<ISM NAME>**.
 
 1. Read `CLAUDE.md` and `WORKPLAN.md`. Study the Transhumanism files as the model: `src/content/isms/transhumanism.md`, `src/data/entries/transhumanism.yaml`, `src/data/figures/transhumanism.yaml`, `src/data/images/transhumanism.yaml`, and `src/content.config.ts`.
 2. Write only these four files:
@@ -46,7 +46,7 @@ You are a research agent on "A genealogy of the ideas behind AI". Work ONLY in `
 
 ### Checker agent
 
-You are a checker on "A genealogy of the ideas behind AI". You did not write the draft. Work ONLY in `/home/claude/wt-<ISM>` on branch `ism/<ISM>`.
+You are a checker on "A genealogy of the ideas around the rise of AI". You did not write the draft. Work ONLY in `/home/claude/wt-<ISM>` on branch `ism/<ISM>`.
 
 1. Read `CLAUDE.md`. Then read `src/content/isms/<ISM>.md`, `src/data/entries/<ISM>.yaml`, `src/data/figures/<ISM>.yaml`, `src/data/images/<ISM>.yaml`.
 2. For every factual claim (names, dates, titles, publishers, what someone said or did, the `relation` of each root), open the source or find a reliable one. Fix what is wrong, remove what cannot be verified, and add `sourceUrl` where missing.

@@ -143,7 +143,7 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 - [ ] **5. Images.** Every movement, key word and the History of AI has its collage card (batches 1–7). New cards follow the illustration guide: a session lists candidates as a batch in `docs/image-batches/batch-NN.md` (file, what it shows, file page, licence, size); the owner approves in the main conversation; only then is anything downloaded and the collage made there.
 - [ ] **6. Checks.** WCAG 2.2 AA, speed, links, a source on every entry.
 - [ ] **6b. Phone pass** (owner, 21 Nov: later). A hamburger menu on phones; until then the menu wraps onto a second line. Also: the history panorama is small on phones (consider its 4:5 page image there), and the sticky section menus on long pages.
-- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("Radical Romance: A genealogy of the ideas behind AI"; get its current version with get_artifact first, and use `remove` for pages that no longer exist).
+- [ ] **7. Private preview.** Live and kept updated: run `npm run build:artifact`, then republish the `.html` files and `images/` of `dist-artifact/` (not `fonts/`) to artifact slug `608fc983-b11a-491d-82a9-146c41b7bb55` ("Radical Romance: A genealogy of the ideas around the rise of AI"; get its current version with get_artifact first, and use `remove` for pages that no longer exist).
 - [ ] **8. New key words** (owner, 20 Nov), one at a time, each drafted on a branch `keyword/<id>` by a research agent and checked by a separate agent, then merged with the next `order`: **Open weights** (9), **AGI** (10), **The pause** (11), **p(doom)** (12). Each needs a card: the research agent proposes one concrete object for it (see the illustration guide), and the session lists candidates as an image batch. Until the card is made the page shows without an image. Tag the history moments and movement entries that belong to the word (`themes:`), and add or update its vocabulary entry.
 - [ ] **9. Keep the history and the vocabulary current.** New moments in the newest era (`src/data/history/01-generative.yaml`) for events since the last update, and new words as they enter the debate, each drafted and then checked by a separate agent. Keep each narrow; ask the owner before adding an era, a thread or a movement.
 
@@ -187,6 +187,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: New subtitle "A genealogy of the ideas around the rise of AI" (owner, 19:54), in the hero's top line, every tab title and the preview's title.
 
 - 2026-11-25: More air between each family's introduction and its cards (owner, 19:49): 68 px on wide screens, 52 px on phones.
 

@@ -1,5 +1,5 @@
 export const SITE_NAME = 'Radical Romance'; // owner, 25 Nov 2026: Made Minds dropped altogether
-export const SITE_TITLE = 'A genealogy of the ideas behind AI';
+export const SITE_TITLE = 'A genealogy of the ideas around the rise of AI'; // owner, 25 Nov 2026; it was 'A genealogy of the ideas behind AI'
 export const MAP_DATE = '25 November 2026';
 
 export const FAMILIES = [
