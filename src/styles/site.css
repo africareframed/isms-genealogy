@@ -455,3 +455,17 @@ a.hist:hover .ht { text-decoration: underline; }
 .dev-grid-toggle { position: fixed; right: 16px; bottom: 16px; z-index: 9999; padding: 7px 12px; border: 1px solid var(--ink); background: #fff; color: var(--ink); font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; }
 .dev-grid-toggle[aria-pressed="true"] { background: var(--ink); color: #fff; }
 @media print { .dev-grid, .dev-grid-toggle { display: none; } }
+
+/* Themes (owner, 25 Nov 2026): the chains of thought, folding open like the history's moments, with two filters. */
+.themes .chips + .chips { margin-top: -12px; }
+.themes .draft { margin-top: -8px; }
+.ch-shown { margin: 0; min-height: 18px; font-family: var(--mono); font-size: 12px; line-height: 18px; color: var(--muted); }
+.clist { border-top: 1px solid var(--rule); }
+.ch-none { margin: 24px 0 0; font-size: 17px; line-height: 25px; color: var(--muted); }
+.ch-steps { margin: 0; padding-left: 28px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; line-height: 26px; color: var(--ink-3); }
+.ch-steps li { padding-left: 6px; }
+.ch-steps li::marker { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.ch-steps strong { color: var(--ink); font-weight: 600; }
+.ch-steps li.hinge strong { background: linear-gradient(transparent 58%, rgba(216, 70, 28, 0.24) 58%); }
+.ch-hinge { margin-left: 10px; font-family: var(--mono); font-size: 11px; line-height: 15px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+.ch .hm-b .wi { margin: 6px 0 0; }

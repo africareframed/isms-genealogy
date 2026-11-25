@@ -1,0 +1,154 @@
+---
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
+import Base from '../layouts/Base.astro';
+import { SITE_NAME, pageHref } from '../lib/site';
+
+// The themes (owner, 25 Nov 2026): fifty-one chains of thought about AI as it is deployed, from the master list in
+// the owner's Claude doc. Each chain is a numbered run of steps, one of them the hinge where the argument turns, and
+// it ends on an open question. Not the key words (src/content/themes/, the old theme files): a page of its own.
+type Step = { name: string; text?: string; hinge?: boolean };
+type Chain = { n: number; title: string; groups: string[]; words: string[]; steps: Step[] };
+const chains: Chain[] = parse(readFileSync('src/data/chains/chains.yaml', 'utf8'));
+
+// Groups: where the mechanism acts. A chain's first group is its main one; some sit in two.
+const GROUPS = [
+  { id: 'intake', name: 'Intake and ownership' },
+  { id: 'dial', name: 'The dial' },
+  { id: 'inside', name: 'Inside us' },
+  { id: 'work', name: 'Work and wealth' },
+  { id: 'state', name: 'State and race' },
+  { id: 'story', name: 'The story told' },
+  { id: 'critique', name: 'Seeing clearly' },
+  { id: 'machine', name: 'The machine itself' },
+];
+// The words: the ten words the industry keeps using, from the Voices tab of the owner's doc.
+const WORDS = [
+  { id: 'inevitability', name: 'Inevitability' },
+  { id: 'democratize', name: 'Democratize' },
+  { id: 'training', name: 'Training' },
+  { id: 'black-box', name: 'Black box' },
+  { id: 'alignment', name: 'Alignment' },
+  { id: 'safety', name: 'Safety' },
+  { id: 'race', name: 'The race' },
+  { id: 'doom', name: 'Doom' },
+  { id: 'augment', name: 'Augment' },
+  { id: 'abundance', name: 'Abundance' },
+];
+const groupName = (id: string) => GROUPS.find((g) => g.id === id)?.name ?? id;
+const pad = (n: number) => String(n).padStart(2, '0');
+// The count opens the lead, so it is written out (British style): "Fifty-one".
+const ONES = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+const TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+const inWords = (n: number) => (n < 20 ? ONES[n] : TENS[Math.floor(n / 10)] + (n % 10 ? '-' + ONES[n % 10] : ''));
+const countText = (n: number) => (n < 100 ? inWords(n).charAt(0).toUpperCase() + inWords(n).slice(1) : String(n));
+
+// The filters: CSS only, as on the vocabulary page. One row of radios for the groups and one for the words; the two
+// combine, so a chain shows only when it is in the chosen group and runs through the chosen word.
+const filterCss = [
+  ...['all', ...GROUPS.map((g) => g.id)].map(
+    (id) =>
+      `#tg-${id}:checked ~ .chips label[for="tg-${id}"]{background:#111;border-color:#111;color:#fff}` +
+      `#tg-${id}:focus-visible ~ .chips label[for="tg-${id}"]{outline:2px solid #D8461C;outline-offset:3px}`,
+  ),
+  ...['all', ...WORDS.map((w) => w.id)].map(
+    (id) =>
+      `#tw-${id}:checked ~ .chips label[for="tw-${id}"]{background:#111;border-color:#111;color:#fff}` +
+      `#tw-${id}:focus-visible ~ .chips label[for="tw-${id}"]{outline:2px solid #D8461C;outline-offset:3px}`,
+  ),
+  ...GROUPS.map((g) => `#tg-${g.id}:checked ~ .clist .ch:not(.g-${g.id}){display:none}`),
+  ...WORDS.map((w) => `#tw-${w.id}:checked ~ .clist .ch:not(.w-${w.id}){display:none}`),
+].join('');
+---
+<Base title={`Themes · ${SITE_NAME}`} description="Fifty-one chains of thought about AI as it is deployed, each with its hinge marked, each ending on an open question.">
+  <Fragment set:html={`<style>${filterCss}</style>`} />
+  <header class="wrap site-head">
+    <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href={pageHref()}>All movements</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap vocab themes">
+    <h1>Themes</h1>
+    <p class="vlead">{countText(chains.length)} lines of investigation into AI as it is deployed. Each follows one argument step by step to the point where it turns, the hinge, and ends on an open question. None is settled: each is still to be researched.</p>
+    <span class="draft">Draft · to be checked</span>
+
+    <input class="sr" type="radio" name="tg" id="tg-all" checked aria-label="All groups" />
+    {GROUPS.map((g) => <input class="sr" type="radio" name="tg" id={`tg-${g.id}`} aria-label={g.name} />)}
+    <input class="sr" type="radio" name="tw" id="tw-all" checked aria-label="All words" />
+    {WORDS.map((w) => <input class="sr" type="radio" name="tw" id={`tw-${w.id}`} aria-label={w.name} />)}
+
+    <div class="chips" role="group" aria-label="Show the chains of one group">
+      <span class="lbl">Group</span>
+      <label for="tg-all">All</label>
+      {GROUPS.map((g) => <label for={`tg-${g.id}`}>{g.name}</label>)}
+    </div>
+    <div class="chips" role="group" aria-label="Show the chains that run through one word">
+      <span class="lbl">Word</span>
+      <label for="tw-all">All</label>
+      {WORDS.map((w) => <label for={`tw-${w.id}`}>{w.name}</label>)}
+    </div>
+
+    <p class="ch-shown" aria-live="polite"></p>
+    <div class="clist">
+      {chains.map((c) => {
+        const end = c.steps[c.steps.length - 1];
+        return (
+          <details class={['hm', 'ch', ...c.groups.map((g) => `g-${g}`), ...c.words.map((w) => `w-${w}`)].join(' ')} id={`theme-${c.n}`}>
+            <summary>
+              <span class="hm-y">
+                {pad(c.n)}
+                <span class="hm-th">{groupName(c.groups[0])}</span>
+              </span>
+              <span class="hm-t">
+                <span class="hm-n">{c.title}</span>
+                <span class="hm-l">{end.text ? `${end.name} ${end.text}` : end.name}</span>
+              </span>
+              <span class="hm-dots" aria-hidden="true"></span>
+            </summary>
+            <div class="hm-b">
+              <ol class="ch-steps">
+                {c.steps.map((s) => (
+                  <li class={s.hinge ? 'hinge' : undefined}>
+                    <strong>{s.name}</strong>{s.text ? ` ${s.text}` : ''}
+                    {s.hinge && <span class="ch-hinge">Hinge</span>}
+                  </li>
+                ))}
+              </ol>
+              {(c.groups.length > 1 || c.words.length > 0) && (
+                <p class="wi">
+                  {[...c.groups.map(groupName), ...c.words.map((w) => WORDS.find((x) => x.id === w)?.name ?? w)].join(' · ')}
+                </p>
+              )}
+            </div>
+          </details>
+        );
+      })}
+    </div>
+      <p class="ch-none" hidden>No theme in this group runs through this word.</p>
+  </main>
+  <script is:inline>
+    // Counts the themes the two filters leave, and says so when none is left.
+    (function () {
+      var list = document.querySelector('.clist'), shown = document.querySelector('.ch-shown'), none = document.querySelector('.ch-none');
+      if (!list) return;
+      function update() {
+        var n = Array.prototype.filter.call(list.querySelectorAll('.ch'), function (c) { return c.offsetParent !== null; }).length;
+        var all = list.querySelectorAll('.ch').length;
+        shown.textContent = n === all ? '' : n + (n === 1 ? ' theme' : ' themes') + ' of ' + all;
+        none.hidden = n !== 0;
+      }
+      document.querySelectorAll('input[name="tg"], input[name="tw"]').forEach(function (r) { r.addEventListener('change', update); });
+      update();
+    })();
+  </script>
+
+  <footer class="wrap site-foot">
+    <span>{SITE_NAME} · An investigation into the ideas shaping AI, and the history behind them</span>
+    <nav aria-label="Footer">
+      <a href={pageHref('about')}>About</a>
+      <a href={pageHref('method')}>Method</a>
+    </nav>
+  </footer>
+</Base>

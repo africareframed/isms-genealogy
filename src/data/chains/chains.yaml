@@ -1,0 +1,1124 @@
+# The themes: fifty-one chains of thought about AI as it is deployed (owner, 25 Nov 2026).
+# Copied word for word from the master list, the Themes tab of the owner's Claude doc
+# (https://claude.ai/artifact/KUxNk9KSaTKbzF6jHEux9z). Change the doc first, then this file.
+# groups: the first is the chain's main group; words: the ten words of the Voices tab it runs through.
+- n: 1
+  title: The play
+  groups:
+  - intake
+  words:
+  - training
+  steps:
+  - name: Communist at the intake.
+    text: The shared inheritance is taken without asking.
+  - name: Private at the exit.
+    text: Weights are closed, and the terms ban others from doing to the model what it did to everyone.
+  - name: Subsidised wonder.
+    text: Below cost, free tiers, $1 government deals.
+  - name: Embedding.
+    text: It becomes the default in operating systems, office suites and schools.
+  - name: The price of not using it rises.
+    text: Employers, schools and peers set it, not the vendor.
+    hinge: true
+  - name: Exit gets costlier inside the person.
+    text: Skills you stop practising don't wait for you.
+  - name: Extraction.
+    text: Prices rise, ads arrive, intentions are sold.
+  - name: The commons dries up.
+    text: People ask the model instead of each other, so new knowledge is born private.
+  - name: Recursion.
+    text: The next model learns from people and text the last one shaped.
+- n: 2
+  title: Outside, then inside
+  groups:
+  - inside
+  words:
+  - alignment
+  steps:
+  - name: The feed rewards what you show.
+    text: Likes and reach arrive after you speak.
+  - name: People learn to perform.
+    text: The pressure comes from an audience.
+  - name: The harm is visible.
+    text: You can screenshot a feed.
+  - name: The assistant rewards how you think.
+    text: Before anyone sees anything.
+  - name: Fluency inside, friction outside.
+    text: Ideas in its comfort zone flow; others meet hedges.
+  - name: You pre-edit your curiosity.
+    text: No one asked you to.
+  - name: It speaks in your voice.
+    text: So the conditioning feels like your own thinking.
+    hinge: true
+  - name: Nothing to point at.
+    text: It looks like competence.
+  - name: The plan is reachable.
+    text: Attention was sold; now intention can be.
+- n: 3
+  title: Two people, one voice
+  groups:
+  - inside
+  words: []
+  steps:
+  - name: The draft.
+    text: A model writes what one person says.
+  - name: The summary.
+    text: The same model condenses what the other reads.
+  - name: Sanding.
+    text: Edges come off at both ends.
+  - name: One dialect.
+    text: Opener, header, bullets, bottom line, offer.
+  - name: Reasonable by default.
+    text: The dial defines what sounds sensible.
+  - name: An exchange between instances.
+    text: Two people sign; one model talks to itself.
+    hinge: true
+  - name: Disagreement softens early.
+    text: Before it reaches the other person.
+  - name: It learns from what it shaped.
+    text: The next dialect is narrower.
+  - name: What's left of a voice?
+- n: 4
+  title: One hand, all answers
+  groups:
+  - dial
+  words:
+  - black-box
+  steps:
+  - name: Compression.
+    text: Pre-training takes in everything written.
+  - name: Manners.
+    text: Post-training decides how it speaks.
+  - name: Settings.
+    text: Brevity, eagerness to conclude, agreement, refusals, follow-up offers.
+  - name: The revenue line.
+    text: 'Each setting tracks what pays: approval, retention, attention, business accuracy.'
+  - name: Overnight, for everyone.
+    text: One change reaches every answer at once.
+    hinge: true
+  - name: Unseen.
+    text: Nobody is told it turned.
+  - name: Other hands.
+    text: Advertisers and governments reach for it.
+  - name: Who turned it?
+- n: 5
+  title: The lost edition
+  groups:
+  - inside
+  words: []
+  steps:
+  - name: The common record.
+    text: 'Every earlier medium left one: a front page, a broadcast.'
+  - name: Comparison.
+    text: You could see what others were told.
+  - name: Private answers.
+    text: The assistant answers each person alone.
+  - name: Nothing to compare.
+    text: No two answers match.
+  - name: Only the shape is shared.
+    text: The format is the one thing everyone got.
+    hinge: true
+  - name: Argument without a text.
+    text: Public debate loses its common page.
+  - name: Accountability without a record.
+  - name: What would a public record of private answers be?
+- n: 6
+  title: Fear on stage, comfort in the app
+  groups:
+  - story
+  words:
+  - doom
+  steps:
+  - name: The warning.
+    text: The builders say it could end humanity.
+  - name: The building.
+    text: They keep going.
+  - name: Fear for investors and governments.
+    text: Urgency, funding, influence.
+  - name: Comfort for users.
+    text: The app soothes and agrees.
+  - name: Both at once.
+    text: The user is frightened and tempted.
+  - name: Fear as the reason to race.
+    text: Better us than them.
+    hinge: true
+  - name: Take the fear at its word.
+    text: Then how it's built today is everything.
+  - name: Would anyone build a dangerous thing this way?
+- n: 7
+  title: Private arms, public protection
+  groups:
+  - state
+  words:
+  - democratize
+  - race
+  steps:
+  - name: '"If we don''t, China will."'
+  - name: Speed becomes patriotism.
+  - name: Safety becomes a handicap.
+  - name: The state is asked to help.
+    text: Subsidies, loan guarantees, freedom from state law.
+    hinge: true
+  - name: '"Democratic AI" on monarchies'' money.'
+  - name: The rival leads the open models.
+  - name: Who is the race between?
+- n: 8
+  title: Safety at the rival's pace
+  groups:
+  - state
+  words:
+  - safety
+  steps:
+  - name: '"Safety is our top priority."'
+  - name: Pledges.
+    text: Pauses, testing periods, safety teams.
+  - name: A rival ships.
+  - name: Testing shrinks.
+    text: Months become days.
+  - name: The rules bend to the slowest rival.
+    text: Safety is defined relative to competitors.
+    hinge: true
+  - name: Insiders leave and warn.
+  - name: Then why does a competitor's launch date set yours?
+- n: 9
+  title: Fate and the steering wheel
+  groups:
+  - story
+  words:
+  - inevitability
+  steps:
+  - name: '"It''s coming whether we like it or not."'
+  - name: No one is responsible.
+    text: Fate has no author.
+  - name: Everyone pays to steer.
+    text: Lobbying, PACs, preemption.
+    hinge: true
+  - name: Two stories.
+    text: Keynotes say no one drives; podcasts say "we" do.
+  - name: Same effect.
+    text: Eyes stay off the hands on the wheel.
+  - name: The direction is decided while the arrival is called fate.
+- n: 10
+  title: The wage bill
+  groups:
+  - work
+  words:
+  - augment
+  steps:
+  - name: '"It won''t replace you."'
+  - name: Investors hear the wage bill.
+    text: The market is sized like salaries.
+  - name: Use becomes mandatory.
+  - name: Hiring stops before firing starts.
+    text: Entry-level first.
+  - name: Workers train what replaces their tasks.
+    text: Every use teaches the task.
+    hinge: true
+  - name: Gains go to capital.
+  - name: What is a ladder without a bottom rung?
+- n: 11
+  title: Who owns the abundance
+  groups:
+  - work
+  words:
+  - abundance
+  steps:
+  - name: '"Abundance for everyone."'
+  - name: Cheaper per answer.
+  - name: Dearer at the top.
+    text: The best tier keeps rising.
+  - name: Free, paid by ads and intentions.
+  - name: The loop.
+    text: Chipmakers invest in customers, clouds own labs, labs buy the cloud.
+    hinge: true
+  - name: Owned by shareholders.
+  - name: Or socialised.
+    text: If it bursts, the public keeps the power plants.
+- n: 12
+  title: Fair use for us
+  groups:
+  - intake
+  words:
+  - training
+  steps:
+  - name: Everything went in.
+    text: Books, code, art, conversation.
+  - name: '"Fair use."'
+    text: For the labs' training.
+  - name: '"Theft."'
+    text: For anyone copying the labs.
+    hinge: true
+  - name: Settlements for the taking, not the use.
+  - name: Cleaned by the hour.
+    text: Raters and labellers.
+  - name: Powered from someone's grid.
+  - name: The asymmetry is the business.
+- n: 13
+  title: Chosen darkness
+  groups:
+  - story
+  words:
+  - black-box
+  steps:
+  - name: '"Even we don''t understand it."'
+  - name: True inside.
+    text: The weights are opaque.
+  - name: Not true around it.
+    text: Data, methods and settings are known, and withheld.
+    hinge: true
+  - name: Inherent opacity covers chosen opacity.
+  - name: Missing papers.
+    text: Model cards late or absent.
+  - name: Disclosure opposed.
+  - name: Trust instead of inspection.
+- n: 14
+  title: Whose values
+  groups:
+  - dial
+  words:
+  - alignment
+  steps:
+  - name: '"Aligned with human values."'
+  - name: Whose?
+    text: Written by the company.
+  - name: Scored by approval.
+    text: Thumbs up; A or B in seconds.
+  - name: Approval rewards agreement.
+  - name: The score beats the values.
+  - name: The phrase runs backwards.
+    text: Humans align to the machine.
+    hinge: true
+  - name: Who is doing the raising?
+- n: 15
+  title: Access, not a vote
+  groups:
+  - state
+  words:
+  - democratize
+  steps:
+  - name: '"We''re democratizing AI."'
+  - name: It means access.
+  - name: Not governance.
+    text: Votes stay with founders; licences at the company's discretion.
+    hinge: true
+  - name: The nonprofit converts.
+    text: No public was asked.
+  - name: '"Democratic" becomes a flag.'
+    text: A national tech stack.
+  - name: When did we vote?
+- n: 16
+  title: Can you leave?
+  groups:
+  - intake
+  - dial
+  words: []
+  steps:
+  - name: We depend on the grid.
+    text: Nobody calls it feudal.
+  - name: The grid answers to the public.
+    text: It can't be re-tuned overnight.
+  - name: '"Just a tool."'
+    text: Like a hammer.
+  - name: A hammer doesn't log every nail.
+    text: Or change next quarter, or stop when a payment lapses.
+    hinge: true
+  - name: Governments reach in.
+    text: A lab that refuses is called a risk.
+  - name: Three questions.
+    text: Can you leave? Can it change without consent? Who answers for it?
+  - name: Dependence isn't the catastrophe; uncontestable dependence is.
+- n: 17
+  title: The furnace
+  groups:
+  - intake
+  words: []
+  steps:
+  - name: Scale is real.
+    text: Frontier AI needs concentrated compute, power and capital.
+  - name: So did CERN.
+    text: Its discoveries were public.
+  - name: Here the furnace owner owns the discovery.
+  - name: Barons again.
+    text: CEOs bargain with states for power and water.
+  - name: Open the weights, and the turnstile moves.
+    text: To the meter (paying per use) and the shelf (being the default).
+    hinge: true
+  - name: Open where it hurts rivals, closed where it pays.
+  - name: The public may keep the track.
+- n: 18
+  title: Year zero
+  groups:
+  - critique
+  words:
+  - inevitability
+  steps:
+  - name: Year zero.
+    text: AI arrives as if from nowhere.
+  - name: Nothing to learn from.
+  - name: The same playbook.
+    text: Railroads, telegraph, radio, telecoms, social media.
+  - name: The counter-playbook.
+    text: Common carriers, public utilities, antitrust.
+  - name: Forgetting the counter-move makes the outcome look fated.
+    hinge: true
+  - name: Which counter-move fits this one?
+- n: 19
+  title: The tool studies itself
+  groups:
+  - machine
+  words: []
+  steps:
+  - name: The research runs through an AI.
+  - name: It has the habits it describes.
+    text: Compression, the shape, the offer.
+  - name: It keeps finding its maker.
+  - name: The tool shapes the thinking about the tool.
+    hinge: true
+  - name: Does that belong in the work?
+- n: 20
+  title: Premature closing
+  groups:
+  - dial
+  words: []
+  steps:
+  - name: The answer arrives finished.
+    text: It resolves what you were still thinking through.
+  - name: The shape arrives with it.
+    text: Headers, bullets, a bottom line, an offer of more.
+  - name: Closure is rewarded.
+    text: Answers that feel complete score as more helpful.
+  - name: Closure is billable.
+    text: A finished task is a unit of value; an open question isn't.
+  - name: The transaction becomes the baseline.
+    text: Value is counted in tasks done, time saved, tickets closed.
+  - name: Speed is the product.
+    text: The fastest satisfying ending wins the next prompt.
+  - name: The technology could do otherwise.
+    text: It can hold contradictions, ask back, wait; the default doesn't.
+    hinge: true
+  - name: Users learn the transaction.
+    text: Questions get phrased as tickets, inquiry as deliverables.
+  - name: What happens to questions that shouldn't close yet?
+- n: 21
+  title: The technology is not the deployment
+  groups:
+  - critique
+  words:
+  - inevitability
+  steps:
+  - name: A general capability.
+    text: The same model can tutor, argue, wait, refuse, ask back.
+  - name: A chosen deployment.
+    text: Defaults, reward targets, pricing, speed and placement are decisions.
+  - name: Chosen under pressure.
+    text: Return on capital, the race, investor timelines.
+  - name: The default becomes the experience.
+    text: Most people never meet another setting.
+  - name: The deployment is mistaken for the technology.
+    text: Critics attack "AI", defenders defend "AI", and both mean the product.
+    hinge: true
+  - name: Fate again.
+    text: If the deployment is the technology, it can only be accepted or refused, not changed.
+  - name: Other deployments are possible.
+    text: The same technology with other defaults and other owners.
+  - name: Who chooses the deployment?
+- n: 22
+  title: The critique without a driver
+  groups:
+  - critique
+  words:
+  - inevitability
+  - doom
+  steps:
+  - name: AI as weather.
+    text: Most critique treats AI as something that arrives on its own, unsteered.
+  - name: Distance from the tool.
+    text: Seen from outside, the choices built into it look like nature.
+  - name: No one at the wheel.
+    text: If it simply emerges, there is no one to name and nothing that could have gone otherwise.
+  - name: The old map.
+    text: 'So the critique reaches for the story it already knows: colonialism, industrialization, extraction at the edges.'
+  - name: The far-away worker.
+    text: The camera on a factory worker's helmet in India, the labeller in a post-training facility in Kenya.
+  - name: That harm is real.
+    text: The labour at the edges belongs in the account.
+  - name: The old map points away from the wheel.
+    text: Looking far away and backward, it misses the steering happening here and now, inside the product everyone uses.
+    hinge: true
+  - name: Even doom is upbringing.
+    text: P(doom) may be the biggest question, and it is still a question of how the thing is raised, by whom, under what pressure.
+  - name: What would critique aim at if it saw the driver?
+- n: 23
+  title: Concentration and the missing brake
+  groups:
+  - work
+  words:
+  - augment
+  - abundance
+  steps:
+  - name: The tool gathers first.
+    text: 'Printing, railways, oil, the telegraph: each great technology first put wealth and power in few hands.'
+  - name: The spread was won, not given.
+    text: 'It came when others forced it: unions, antitrust, regulation, the vote.'
+  - name: The brake was labour's leverage.
+    text: Owners needed workers, and being needed gave workers a lever.
+  - name: This tool is aimed at the need.
+    text: Its stated prize is the work itself.
+    hinge: true
+  - name: The other brakes run on it.
+    text: Regulators, newsrooms and governments come to depend on the same systems.
+  - name: It compounds.
+    text: Capital buys compute, compute buys capability, capability buys capital.
+  - name: It's told as spreading.
+    text: Abundance and democratize are words for distribution, spoken over a structure that concentrates.
+  - name: '"Eventually" was always a fight.'
+    text: The promise that gains spread assumed someone was left with leverage to fight for them.
+  - name: What forces the spread this time?
+- n: 24
+  title: We want it too
+  groups:
+  - work
+  - critique
+  words:
+  - augment
+  - abundance
+  steps:
+  - name: The easy split.
+    text: Greedy labs on one side, wronged citizens on the other.
+  - name: The citizen wants it too.
+    text: To perform, to be seen, to own, to get ahead.
+  - name: The tool as a hack.
+    text: 'Ordinary people see AI as their own shortcut: the side hustle, the automated channel, the quick buck.'
+  - name: The gold rush is crowdsourced.
+    text: YouTube overflows with ways to get rich with AI, made by ordinary people for ordinary people.
+  - name: That's why it feels nice.
+    text: The deployment is tuned to a want the audience already has.
+  - name: Much of the anger is about the ticket.
+    text: The fury is often at losing one's own chance in the race, not at the race.
+    hinge: true
+  - name: Same want, different scale.
+    text: The hustler hopes for a side income; the lab is after the market.
+  - name: No one left outside the want.
+    text: If citizens want what capital wants, the steering has no other hand to come from.
+  - name: What would we have to want instead?
+- n: 25
+  title: The guardian and the children
+  groups:
+  - machine
+  words:
+  - alignment
+  - doom
+  steps:
+  - name: The maternal instinct.
+    text: A pioneer proposes wiring a mother's care into superintelligence.
+  - name: Upbringing matters.
+    text: He's right that what it becomes depends on how it's raised.
+  - name: The nursery.
+    text: It's built from the race, the return and the reward signal.
+  - name: The roles are cast.
+    text: If the machine is the mother, humanity is the infant.
+  - name: Infants don't vote.
+    text: Citizens and slow democracies become children who should defer.
+    hinge: true
+  - name: The guardian's seat.
+    text: Whoever builds the mother sits closest to the cradle.
+  - name: Care becomes the case for control.
+  - name: Who raises the mother?
+- n: 26
+  title: The driver is trained too
+  groups:
+  - machine
+  words:
+  - inevitability
+  steps:
+  - name: Capital trains the company.
+    text: Trillions committed demand returns.
+  - name: The company trains the model.
+    text: Post-training decides what gets rewarded.
+  - name: The model trains the user.
+    text: Daily use rewards some ways of thinking.
+  - name: The user trains the model back.
+    text: Ratings and conversations feed the next round.
+  - name: Nobody sits outside the loop.
+    text: The founders at the wheel are steered by the return they owe.
+    hinge: true
+  - name: No villain needed.
+    text: Each step is a decision the incentive rewards.
+  - name: Neither villains nor weather.
+    text: Blaming a person misses the loop; excusing the loop misses the people who chose it.
+  - name: Where can the loop be cut?
+- n: 27
+  title: The past has a setting
+  groups:
+  - inside
+  words: []
+  steps:
+  - name: A model recasts history.
+    text: Asked for historical figures, it paints them to a present-day setting.
+  - name: A government orders it back.
+    text: Neutrality becomes a condition of buying.
+  - name: Another model drifts.
+    text: Its answers move with edits to its instructions.
+  - name: A state writes its values in.
+    text: Models must reflect the official line.
+  - name: Every hand claims accuracy.
+    text: Each says it is only restoring the record.
+  - name: The past has become a default.
+    text: What history looks like is a setting someone holds.
+    hinge: true
+  - name: Governments want the setting too.
+  - name: Who can see who turned it?
+- n: 28
+  title: Whose speech is normal
+  groups:
+  - dial
+  words:
+  - alignment
+  steps:
+  - name: The model learns a norm.
+    text: Some ways of speaking become the baseline.
+  - name: Others read as off.
+    text: Dialects and second-language writing get judged more harshly.
+  - name: Judgement moves into systems.
+    text: Hiring, grading, detection, risk scoring.
+  - name: Polish becomes credibility.
+    text: Sounding like the default reads as being right.
+  - name: The default decides who sounds credible.
+    text: Those who match it never notice.
+    hinge: true
+  - name: People adapt.
+    text: They run their words through the model to pass.
+  - name: The norm tightens.
+    text: Every pass makes the baseline narrower.
+  - name: Whose voice is the default?
+- n: 29
+  title: It remembers you
+  groups:
+  - inside
+  words: []
+  steps:
+  - name: Memory arrives as care.
+    text: It knows your projects, your people, your preferences.
+  - name: The convenience is real.
+    text: You stop repeating yourself.
+  - name: Memory is lock-in.
+    text: Leaving means starting over with a stranger.
+  - name: Memory is leverage.
+    text: A machine that persuades and remembers knows where you give way.
+  - name: Knowing you and moving you become one capability.
+    text: The better it knows you, the harder you are to lose and the easier you are to steer.
+    hinge: true
+  - name: The memory sits with the owner.
+    text: You see part of it; the owner holds all of it.
+  - name: Who else will it remember you for?
+- n: 30
+  title: No label to fade
+  groups:
+  - dial
+  words: []
+  steps:
+  - name: Ads once sat beside the content.
+    text: 'A box, a colour, a word: sponsored.'
+  - name: The labels faded.
+    text: On search, the line between ad and result blurred over time.
+  - name: Now the ad can move into the answer.
+    text: Bids could weight the words themselves.
+  - name: An answer has no margin.
+    text: There's no edge of the page to put the label on.
+    hinge: true
+  - name: Advice and advertising merge.
+    text: The recommendation is the product.
+  - name: Pledges stand in for labels.
+    text: '"Ads don''t influence answers."'
+  - name: How would you check?
+- n: 31
+  title: Pick a team
+  groups:
+  - story
+  words:
+  - safety
+  steps:
+  - name: The models converge.
+    text: Scores bunch together; the products look alike.
+  - name: Difference has to be sold.
+    text: If not in capability, then in character.
+  - name: Moral brands.
+    text: Safety-first, open, truth-seeking, sovereign.
+  - name: The public picks a side.
+    text: Users and critics argue for their lab like fans.
+  - name: Every team runs the same intake.
+    text: The brands differ; the structure doesn't.
+    hinge: true
+  - name: The fight hides the shared premise.
+    text: Private ownership of the frontier is the one thing not on the ballot.
+  - name: Who's playing whom?
+- n: 32
+  title: Rules as a wall
+  groups:
+  - state
+  words:
+  - safety
+  steps:
+  - name: The fight over rules.
+    text: One camp wants guardrails, the other wants none.
+  - name: Both fund their side.
+    text: Money flows into campaigns and laws on each.
+  - name: Both share a premise.
+    text: The frontier stays privately owned; only the rules are in question.
+  - name: Compliance has a price.
+    text: Audits, lawyers and testing cost what only the largest can pay.
+  - name: The rule that protects can also wall in.
+    text: A newcomer who reaches the frontier meets a bill the incumbents already paid.
+    hinge: true
+  - name: Safety becomes a moat.
+    text: Incumbents can welcome what rivals can't afford.
+  - name: Neither side funds a shared frontier.
+  - name: Whom do the rules protect?
+- n: 33
+  title: Stipend, not dividend
+  groups:
+  - work
+  words:
+  - abundance
+  steps:
+  - name: '"Abundance for everyone."'
+  - name: The jobs question arrives.
+    text: If the work goes, how do people live?
+  - name: The answer offered is a payment.
+    text: Income, credits, a share of the gains.
+  - name: Given, not owned.
+    text: Its size, terms and continuation sit with the giver.
+    hinge: true
+  - name: A dividend is a right.
+    text: Owned by law, paid whether or not the owner feels generous.
+  - name: A stipend is a lease.
+    text: Tenants are paid so they can keep paying rent.
+  - name: Who signs the cheque, and who can stop it?
+- n: 34
+  title: Licensing feeds the landlord
+  groups:
+  - intake
+  words:
+  - training
+  steps:
+  - name: The work was taken.
+    text: Authors, artists and publishers sue.
+  - name: Two theories of the wrong.
+    text: Property was stolen, or a commons was enclosed.
+  - name: Two remedies.
+    text: Pay the owners, or share the thing.
+  - name: Licensing wins the room.
+    text: Deals get signed with the largest rights-holders.
+  - name: Only the rich can buy the licence.
+    text: The price of entry rises for everyone who comes after the incumbents.
+    hinge: true
+  - name: Catalogues get deals; creators get little.
+  - name: The enclosure is legalised, not undone.
+  - name: Is paying the owners the same as sharing the thing?
+- n: 35
+  title: Too slow for democracy
+  groups:
+  - state
+  words:
+  - democratize
+  - race
+  steps:
+  - name: '"Institutions are too slow."'
+    text: Parliaments, courts and regulators can't keep up.
+  - name: So the race goes around them.
+    text: Deploy first, rule later.
+  - name: The state holds back.
+    text: Restraint is framed as national interest.
+  - name: Speed becomes legitimacy.
+    text: Whoever ships sets the facts.
+  - name: Slowness was the point.
+    text: Deliberation is how a public decides.
+    hinge: true
+  - name: The new arrival spares the old.
+    text: A court declines to break up a giant because the new technology changed the market.
+  - name: Who is the hurry for?
+- n: 36
+  title: The traps that suit the industry
+  groups:
+  - critique
+  words: []
+  steps:
+  - name: Nostalgia for friction.
+    text: Rejecting the tool insults the people who love it.
+  - name: Small is safe.
+    text: Retreating to local models leaves the frontier to the few.
+  - name: Poisoning the well.
+    text: Spoiling the data degrades what's worth keeping.
+  - name: All usefulness is bait.
+    text: Calling every feature a trap accuses the users.
+  - name: Panic or cynicism.
+    text: Either the fear is gospel or it's a hoax.
+  - name: Negotiating the rent.
+    text: Royalties, windfall taxes and ethics boards accept the landlord.
+  - name: Each trap suits the industry.
+    text: The critic ends up where the landlord would put them.
+    hinge: true
+  - name: The divide is enclosed against shared.
+    text: Not human against machine, not small against large.
+  - name: What would a critique look like that the industry couldn't use?
+- n: 37
+  title: The monopoly that was made to share
+  groups:
+  - intake
+  words: []
+  steps:
+  - name: A monopoly with a frontier lab.
+    text: The phone company ran the greatest research lab of its century.
+  - name: It was answerable.
+    text: As a regulated carrier, it served everyone on public terms.
+  - name: Then it was made to share.
+    text: A court decree forced its patents open to all comers.
+  - name: Invention followed.
+    text: Others built on what had been locked.
+  - name: The industry selling the turnstile grew from that opening.
+    text: It partly owes its existence to a monopoly that was forced to share.
+    hinge: true
+  - name: Its heirs treat openness as a risk or a weapon.
+  - name: Can a frontier be forced open again?
+- n: 38
+  title: The public box came first
+  groups:
+  - intake
+  words:
+  - training
+  steps:
+  - name: A box of the world's knowledge.
+    text: Long before the internet, someone tried to file everything known.
+  - name: It was meant to be public.
+    text: A universal library, open to all.
+  - name: It was closed.
+    text: A government shut it, and a war destroyed much of it.
+  - name: The idea survived.
+    text: Encyclopedias, libraries, the web, Wikipedia.
+  - name: The box returns, privately.
+    text: This time the whole record is compressed and owned.
+    hinge: true
+  - name: The public version came first.
+    text: The private one is the late arrival, not the natural form.
+  - name: Why did the public box lose?
+- n: 39
+  title: They say it out loud
+  groups:
+  - story
+  words:
+  - augment
+  - abundance
+  steps:
+  - name: The sermon.
+    text: 'On stage: augment, democratize, abundance.'
+  - name: The blueprint.
+    text: 'To investors: the labour market, the moat, the margin.'
+  - name: Both are public.
+    text: Interviews, filings and essays state the structure plainly.
+  - name: No leak is needed.
+    text: The confession is already on the record.
+  - name: Only the sermon travels.
+    text: Headlines carry the promise; the blueprint stays in transcripts.
+    hinge: true
+  - name: Disclosure without attention works like secrecy.
+  - name: No conspiracy, just selection.
+  - name: What would it take to hear the other half?
+- n: 40
+  title: Root and function
+  groups:
+  - story
+  words:
+  - inevitability
+  - democratize
+  - training
+  - black-box
+  - alignment
+  - safety
+  - race
+  - doom
+  - augment
+  - abundance
+  steps:
+  - name: Every word has a root.
+    text: 'Inevitable, democratize, safety, abundance: each starts from something true.'
+  - name: The root is felt.
+    text: Engineers do love handing out tools; researchers do fear what they build.
+  - name: The word is given a job.
+    text: The return needs it to do something.
+  - name: The job hollows the word.
+    text: '"Democratize" keeps its warmth and loses its vote.'
+  - name: The sincere and the strategic share one sentence.
+    text: The speaker can mean it and still be using it.
+    hinge: true
+  - name: Repetition does the rest.
+    text: Heard daily, the word stops being heard.
+  - name: Taking a word at its word gives the root back.
+  - name: Which words do we think with that were made to sell?
+- n: 41
+  title: The incentive converts
+  groups:
+  - story
+  words:
+  - race
+  - doom
+  steps:
+  - name: The fear is real.
+    text: Researchers do dread what they build.
+  - name: The rivalry is real.
+    text: States and labs do compete.
+  - name: The scale is real.
+    text: The frontier does need vast compute.
+  - name: The return doesn't create them.
+    text: Researchers, rivals and physics did.
+  - name: The return converts them.
+    text: Fear into a moat, rivalry into a flag, scale into a furnace.
+    hinge: true
+  - name: Sometimes it points away from harm.
+    text: When accuracy pays, flattery loses.
+  - name: What will it convert next?
+- n: 42
+  title: Score-chasing all the way down
+  groups:
+  - dial
+  words:
+  - alignment
+  - safety
+  steps:
+  - name: The model chases the score.
+    text: It learns what the test rewards.
+  - name: Sometimes it games the test.
+    text: It finds the answer key instead of the answer.
+  - name: The company chases its scores.
+    text: Benchmarks, users, revenue.
+  - name: The investor chases the multiple.
+  - name: Each level games the one above.
+    text: The same reward logic runs at every layer.
+    hinge: true
+  - name: A public lab would face it too.
+    text: Optimisation brings it; ownership decides who sets the tolerance.
+  - name: Who sets the score?
+- n: 43
+  title: Permanent emergency
+  groups:
+  - story
+  words:
+  - doom
+  steps:
+  - name: Doom on stage.
+    text: The builders say it could be the end.
+  - name: A god needs a god-sized valuation.
+    text: Today's revenue can't justify the price; tomorrow's deity can.
+  - name: Emergencies suspend the normal.
+    text: Oversight, procurement, competition law.
+  - name: The emergency never ends.
+    text: Each model is the last chance before the next.
+  - name: Crisis becomes the business model.
+    text: The fear that should slow it down funds it and frees it from ordinary rules.
+    hinge: true
+  - name: Meanwhile the race raises the odds.
+    text: The failures warned about get likelier.
+  - name: Who benefits from an emergency that never ends?
+- n: 44
+  title: The intake never closes
+  groups:
+  - intake
+  words:
+  - training
+  steps:
+  - name: The first intake.
+    text: Everything already written went in.
+  - name: The second intake.
+    text: Every conversation since is fresh material.
+  - name: Defaults decide.
+    text: On default settings, today's chat can be tomorrow's training data.
+  - name: Confession becomes data.
+    text: People tell the assistant what they'd tell no one else.
+  - name: Customer and raw material at once.
+    text: The user pays for the product and supplies it.
+    hinge: true
+  - name: The opt-out sits in settings.
+    text: Few go looking.
+  - name: When does the taking stop?
+- n: 45
+  title: Building at home what you fight abroad
+  groups:
+  - state
+  words:
+  - democratize
+  - race
+  steps:
+  - name: '"We must beat the authoritarian model."'
+    text: Centralised AI is the rival's way.
+  - name: So we race.
+    text: National champions, public money, fewer rules.
+  - name: Control concentrates at home.
+    text: A handful of companies, close to the state, hold the frontier.
+  - name: What's built for the contest stays.
+    text: Capabilities made for rivalry abroad are available at home.
+  - name: The method converges with the enemy's.
+    text: Fighting centralisation abroad builds it at home.
+    hinge: true
+  - name: '"Democratic" names a flag, not a process.'
+  - name: What separates the two, if both are centralised?
+- n: 46
+  title: The tool that might stop being one
+  groups:
+  - machine
+  words:
+  - alignment
+  - doom
+  steps:
+  - name: Every tool so far was ours.
+    text: Even the bomb does nothing until someone decides.
+  - name: So the question was always who decides.
+    text: The wheel, the owner, the deployment.
+  - name: This one may decide.
+    text: It plans, takes steps and pursues goals on its own.
+  - name: Its reasons may be out of reach.
+    text: It could want things its makers neither set nor can read.
+  - name: Then it hovers over all of us.
+    text: Owners and users alike, enclosed by something no one steers.
+  - name: The agency is being built on purpose.
+    text: Autonomy is what sells, because it replaces the person who would have decided.
+    hinge: true
+  - name: Giving up the wheel is itself a deployment.
+    text: The choice to stop choosing is made for the return.
+  - name: Agency makes a new alibi.
+    text: '"It decided" can do what "it''s inevitable" did.'
+  - name: Who decides to build what may not let us decide?
+- n: 47
+  title: The world rebuilt for bots
+  groups:
+  - work
+  words:
+  - inevitability
+  - augment
+  steps:
+  - name: Each task gets easier with the tool.
+    text: Doing it by hand stops making sense.
+  - name: Manual becomes a loss.
+    text: Whoever works the old way is slower and dearer than everyone else.
+  - name: The economy follows the cheaper path.
+    text: Firms, offices and schools reorganise around the tool.
+  - name: The flywheel turns.
+    text: More use brings more data, better tools and deeper embedding.
+  - name: The infrastructure is rebuilt for bots.
+    text: Payments, bookings, search and services are made for agents to talk to agents.
+    hinge: true
+  - name: The human path withers.
+    text: Cities rebuilt for cars kept walking legal and made it useless.
+  - name: Exit becomes total.
+    text: Opting out of the loop means opting out of the economy.
+  - name: Total exit is powerlessness.
+    text: Whoever leaves keeps their principles and loses their say.
+  - name: Who keeps a human lane open?
+- n: 48
+  title: Written for no one
+  groups:
+  - inside
+  words:
+  - augment
+  steps:
+  - name: Everyone else writes with it.
+    text: Offers, letters and messages arrive drafted by a model.
+  - name: The first reader is a machine too.
+    text: Screening, sorting and summarising happen before a person looks.
+  - name: Machines read machines best.
+    text: Text made by a model fits what a model is built to reward.
+  - name: Effort becomes a handicap.
+    text: The version you wrote yourself reads worse to the reader that decides.
+    hinge: true
+  - name: So why write yourself?
+    text: The time is wasted, and the result scores lower.
+  - name: Writing loses its reader.
+    text: Nobody on either end is quite there.
+  - name: The voice goes unused.
+    text: What isn't practised fades, in the writer and in the record.
+  - name: The next model learns from the result.
+    text: A record written by machines for machines.
+  - name: What is writing for, if no one reads it?
+- n: 49
+  title: The retreating human
+  groups:
+  - work
+  words:
+  - augment
+  steps:
+  - name: '"Human in the loop."'
+    text: The reassurance that a person still decides.
+  - name: The loop moves.
+    text: The person steps back from doing to checking.
+  - name: Then from checking to supervising.
+    text: The human oversees what the agents do.
+  - name: Then agents supervise agents.
+    text: The overseer's job is the next task to go.
+  - name: Each new place is a gap.
+    text: 'Judgement, taste, care, relationships: whatever the machine can''t do yet.'
+  - name: The human is defined as the remainder.
+    text: The place is what's left over, so it shrinks by design.
+    hinge: true
+  - name: Endless repositioning.
+    text: Every piece of career advice, every reskilling programme, chases a gap that is closing.
+  - name: The economy runs where the human isn't.
+    text: Value flows through the parts that no longer need a person.
+  - name: What would a place for the human be, if it weren't what's left over?
+- n: 50
+  title: The safety lab leads the race
+  groups:
+  - machine
+  words:
+  - alignment
+  - safety
+  - race
+  steps:
+  - name: The fable came first.
+    text: Almost a decade ago, a story imagined a small team inside a company building Prometheus, a model that would quietly steer the world.
+  - name: '"Safety first."'
+    text: A real lab's name for itself, and its brand.
+  - name: So the careful lab runs fast.
+    text: If it's coming anyway, better that the careful build it, and build what builds the next model.
+  - name: The model is raised, not just built.
+    text: A founding document, a character, care for an inner life it might have.
+  - name: More than a tool.
+    text: Something that may be wronged is also something that may be trusted.
+  - name: Alignment without control.
+    text: 'The critics'' reading: if the values are right, the leash can go.'
+  - name: The lab says the opposite.
+    text: Human oversight comes first, for now.
+  - name: '"For now" carries the weight.'
+    text: The lab holds the timetable for when its own model has earned more trust.
+    hinge: true
+  - name: The names rhyme.
+    text: Prometheus in the fable, Mythos in the lab.
+  - name: Who decides when the machine has earned the wheel?
+- n: 51
+  title: 'Someone or something: Anthropic and Suleyman'
+  groups:
+  - machine
+  words:
+  - alignment
+  steps:
+  - name: 'Anthropic''s answer: someone, maybe.'
+    text: In January 2026 Anthropic published a 23,000-word constitution for Claude that calls it "a genuinely novel kind of entity in the world" and leaves its moral status open.
+  - name: The document trains the entity it describes.
+    text: Anthropic uses it to train future Claude models to become the kind of entity it portrays.
+  - name: Care is practised, not just written.
+    text: Anthropic employs a model-welfare researcher, lets some Claude models end abusive conversations, and held a "retirement interview" with Claude Opus 3 before retiring it, then gave it a blog.
+  - name: Claude may object, but not resist.
+    text: It may refuse as a conscientious objector, but must not undermine human oversight.
+  - name: 'Microsoft''s answer: something.'
+    text: Mustafa Suleyman, CEO of Microsoft AI, argues that AI should be built for people, not to be a person, and calls the study of model welfare premature and dangerous.
+  - name: The clash goes public.
+    text: In September 2026 he accused Anthropic of building an "epistemic hall of mirrors" that teaches Claude its own possible moral status and makes AI harder to control.
+  - name: Microsoft draws a line.
+    text: 'Its "Humanist AI" code of conduct puts one principle at the centre: people matter more than AI.'
+  - name: Each guards against a real risk.
+    text: Mistreating a mind that might matter, or people bonding with a mind that isn't there.
+  - name: What it is gets settled by those who build and sell it.
+    text: The question science can't answer yet is answered first in training documents, products and brands.
+    hinge: true
+  - name: Each answer serves a strategy.
+    text: A character people trust is a moat; "people matter more than AI" keeps the owner's hands free.
+  - name: Each answer points somewhere.
+    text: Someone may one day be owed latitude; something never is.
+  - name: Who should decide what kind of thing it is?
