@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: The six families on the home page are drawers (owner, 20:35, straight to live): closed, the name, the introduction and a 120 px strip of the cards; a click opens the row; #transcend … #doubt open one directly. The home page is about 3,800 px tall closed.
+
 - 2026-11-25: New subtitle "A genealogy of the ideas around the rise of AI" (owner, 19:54), in the hero's top line, every tab title and the preview's title.
 
 - 2026-11-25: More air between each family's introduction and its cards (owner, 19:49): 68 px on wide screens, 52 px on phones.
