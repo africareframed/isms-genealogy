@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 05 AI safety, on branch `page/ai-safety` (create it from `main`).
+**Now:** phase 2, next movement: 06 Pause, on branch `page/pause` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -71,7 +71,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 07 Pro-human
 - [x] 08 AI ethics
 - [x] 09 Digital sovereignty
-- [ ] 05 AI safety (from the moved content: introduction, holders, the rest; `ready: true` when complete)
+- [x] 05 AI safety (from the moved content: introduction, holders, the rest; `ready: true` when complete)
 - [ ] 06 Pause (likewise)
 - [ ] 04 American Dynamism (likewise; more entries if fewer than ten)
 - [ ] 11 Normal technology (likewise)
@@ -164,7 +164,7 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 ## Waiting on the owner
 
-- Techno-optimism's timeline has 31 entries since e/acc moved in (the guide is ten to sixteen): trim, or keep the strand's history whole?
+- Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
 - The Doubt family's colour (placeholder `#FFE45C`), and the cards for the five new movements (phase 3).
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).

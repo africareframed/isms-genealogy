@@ -2,27 +2,25 @@
 title: AI safety
 family: prevent
 order: 5
-ready: false
+ready: true
 summary: "Powerful AI is coming and may become far more capable than we are. The work is to make it aligned, controllable and governed before it outruns us."
-includes: [alignment research, lab safety and responsible scaling, AI governance, effective altruism and longtermism, Humanist AI]
+includes: [alignment research, lab safety and responsible scaling, AI governance, effective altruism, longtermism, Humanist AI]
 lead: "AI safety holds that AI may soon outrun us, and that it must be made aligned, controllable and governed before it does."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
 # The page is built in phase 2 of the workplan; until then the card shows "In preparation".
 holders:
-  - name: William MacAskill
-    note: Philosopher and co-founder of Giving What We Can, 80,000 Hours and the Centre for Effective Altruism. At Forethought he studies how to navigate the transition to superintelligent AI.
-  - name: Toby Ord
-    note: Philosopher, co-founder of Giving What We Can and author of The Precipice. A senior researcher at Oxford's AI Governance Initiative.
-  - name: Coefficient Giving
-    note: Called Open Philanthropy until November 2025. By 2025 it had helped Good Ventures, the foundation of Dustin Moskovitz and Cari Tuna, give over $4 billion. It has funded AI safety since 2015.
-  - name: 80,000 Hours
-    note: Careers organisation founded in 2011. Since April 2025 it focuses on helping people make the transition to advanced AI go well.
-  - name: Centre for Effective Altruism
-    note: Runs the EA Global conferences and the EA Forum. Its chief executive, Zachary Robinson, stresses that the movement is not the same as AI safety.
-  - name: Giving What We Can
-    note: Its members pledge at least 10% of their income to effective charities. More than 11,000 had taken its 10% Pledge by November 2026.
+  - name: Center for AI Safety
+    note: San Francisco non-profit led by Dan Hendrycks. In 2023 it published the one-line Statement on AI Risk, signed by the heads of the leading labs.
+  - name: Anthropic
+    note: AI company founded in 2021 by former OpenAI researchers, among them Dario and Daniela Amodei. Its Responsible Scaling Policy (2023) ties each rise in capability to stricter safeguards.
+  - name: Yoshua Bengio
+    note: Computer scientist and Turing Award winner. He chairs the International AI Safety Report, first published in January 2025 for the governments behind the AI summits.
+  - name: UK AI Security Institute
+    note: Government body set up in 2023 as the AI Safety Institute and renamed in 2025. It tests frontier models before and after their release.
   - name: Microsoft AI
     note: Mustafa Suleyman's division at Microsoft. Its Humanist AI wants AI kept subordinate to people and rejects the race to an all-purpose superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
+  - name: 80,000 Hours
+    note: Careers organisation founded in 2011. Since April 2025 it focuses on helping people make the transition to advanced AI go well.
 words:
   - longtermism
   - existential risk
@@ -37,13 +35,56 @@ words:
   - Tool AI
   - humanist superintelligence
 themes: [scaling-laws, compute, augmentation]
-born: ai-safety/2011-effective-altruism-named
-# Moved in from the retired Effective altruism page (25 Nov 2026): holders, words, the introduction below (checked there)
-# and its sources; Microsoft AI and the Humanist AI words from the retired Rationalism page:
+# Built 25 Nov 2026 (owner's framework). From the retired Effective altruism page: 80,000 Hours, words and the sources below;
+# from the retired Rationalism page: Microsoft AI and the Humanist AI words. New holders and the introduction are draft:
+# CAIS (safe.ai, Statement on AI Risk, 30 May 2023), Anthropic (anthropic.com, Responsible Scaling Policy, September 2023),
+# Bengio (International AI Safety Report, January 2025), UK AI Security Institute (gov.uk, renamed 14 February 2025).
 
+lenses:
+  quote:
+    text: "this country would have a fairly good shot at taking over the world"
+    by: "Dario Amodei"
+    source: "The Adolescence of Technology, 2026"
+    url: https://fortune.com/2026/01/27/country-of-geniuses-anthropic-dario-amodei-50-million-nobel-prize-winners/
+  values: [control, alignment, careful science]
+  fears: [losing control, a reckless race]
+  promises: "Governance by expertise, where scientists, labs and specialist state bodies steer on the public’s behalf. It echoes technocracy, from Saint-Simon’s society run by savants and engineers."
+  ifItWins: "frontier AI would become a licensed industry: a few vetted labs, mandatory tests, and state bodies with the power to halt a model."
+  fundedBy: |-
+    Two fortunes fund much of the field. Open Philanthropy, funded mainly by Dustin Moskovitz’s Good Ventures, has given more than $450 million to over 320 grantees for work on risks from advanced AI.
+
+    That includes $5.16 million to the Center for AI Safety in 2022. Jaan Tallinn’s Survival and Flourishing Fund recommended $34.33 million in its 2025 round.
+
+    The same money reached the labs. Open Philanthropy gave OpenAI $30 million in 2017, and Tallinn led Anthropic’s first big funding round in 2021.
+  canServeText: |-
+    **Its demands could serve** the frontier labs, since the rule that only responsible builders should build can become a moat; the labs dispute this. Safety institutes and regulators gain, since licences and tests need them. The safety-research field gains too, since governance needs evaluators.
+
+    The field’s funders could gain a say in how AI is governed.
+
+    The smallest players would lose most, since licences and tests cost them more than anyone. Parties and older industries have little at stake: the rules target frontier developers, and the movement works through experts, not elections.
+  canServe:
+    - actor: Big Tech
+      text: "The frontier labs, since “only responsible builders should build” can become a moat (contested)."
+    - actor: Challengers
+      status: loses
+      text: "Licences and tests cost most for the smallest players."
+    - actor: Established industry
+      status: none
+      text: "The rules target frontier developers, not the industries that use AI."
+    - actor: Patrons
+      text: "The field’s funders, since they gain a say in how AI is governed."
+    - actor: The state
+      text: "Safety institutes and regulators, since licences and tests need them."
+    - actor: Politics
+      status: none
+      text: "The movement works through experts and agencies, not parties."
+    - actor: Institutions
+      text: "The safety-research field and its experts, since governance needs evaluators."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: draft
 ---
 
-Its roots are utilitarian. In 1972 Peter Singer argued that a starving child far away has the same claim on us as a drowning child nearby. GiveWell (2007) and Giving What We Can (2009) turned the question into practice, and in 2011 the movement named itself effective altruism.
+The worry is as old as computing. In 1960 Norbert Wiener warned that the purpose put into a machine had better be the purpose we really desire. Nick Bostrom's Superintelligence (2014) argued that a smarter-than-human AI with the wrong goals could be catastrophic.
 
-Longtermism followed: Nick Bostrom argued that extinction would forfeit a vast future, and in 2017 William MacAskill named the view. AI moved to the centre, funded since 2015 by Open Philanthropy and, from 2025, the main focus of 80,000 Hours. The collapse of FTX in 2022, run by one of the movement's major donors, badly damaged its reputation.
+Effective altruists made the problem a cause and funded the new field from the mid-2010s, and alignment research grew inside the labs. After ChatGPT it moved into government, with safety institutes and a 2023 statement that the risk of extinction from AI should be a global priority. Unlike Pause, it holds that powerful AI can be built, if it is built with care.
