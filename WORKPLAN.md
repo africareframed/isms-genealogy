@@ -80,7 +80,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 ### Phase 3. Cards and colour (owner-gated)
 
 - [x] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
-- [ ] 3.2 Cards for the five new movements. Pause and AI safety took over the Rationalism and EA cards (owner, 25 Nov: the paper clip and the arithmometer with 10⁵⁸, renamed `collage-pause` and `collage-ai-safety`). Left: American Dynamism, Normal technology and AI skepticism, as an image batch (`docs/image-batches/`, stage 5 procedure), collages only after his yes
+- [ ] 3.2 Cards for the five new movements. Pause and AI safety took over the Rationalism and EA cards (owner, 25 Nov: the paper clip and the arithmometer with 10⁵⁸, renamed `collage-pause` and `collage-ai-safety`). Left: American Dynamism, Normal technology and AI skepticism: image batch 12 (`docs/image-batches/batch-12.md`) waits for his yes; collages only after it
 - [ ] 3.3 The design guide (artifact `4b7a91e1…`): cards, tokens, decisions
 
 ### Phase 4. Across the site
@@ -166,7 +166,8 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 - Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
-- The cards for American Dynamism, Normal technology and AI skepticism (phase 3.2): an image batch.
+- Image batch 12 (`docs/image-batches/batch-12.md`): cards for American Dynamism, Normal technology and AI skepticism.
+- The home page as an atlas of the movements only (owner, 25 Nov, 17:40): History of AI and Vocabulary off the home page for now; new subtitle and hero. Waiting on three choices: where History and Vocabulary go (own pages, or parked on People), whether they stay in the menu, and the subtitle.
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
