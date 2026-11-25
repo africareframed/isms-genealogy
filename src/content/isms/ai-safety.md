@@ -7,7 +7,8 @@ summary: "Powerful AI is coming and may become far more capable than we are. The
 includes: [alignment research, lab safety and responsible scaling, AI governance, effective altruism, longtermism, Humanist AI]
 lead: "AI safety holds that AI may soon outrun us, and that it must be made aligned, controllable and governed before it does."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
-# The page is built in phase 2 of the workplan; until then the card shows "In preparation".
+image: collage-ai-safety
+pageImage: collage-ai-safety-tall
 holders:
   - name: Center for AI Safety
     note: San Francisco non-profit led by Dan Hendrycks. In 2023 it published the one-line Statement on AI Risk, signed by the heads of the leading labs.

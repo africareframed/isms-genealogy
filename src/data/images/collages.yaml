@@ -16,20 +16,21 @@
   alt: "The IAS machine, an early valve computer, over green fields, beside 2045, Kurzweil's date for the Singularity; in 1958 Ulam recalled von Neumann speaking of an essential singularity"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:IAS_machine_at_Smithsonian.jpg"
 
-- id: collage-rationalism
+- id: collage-pause
   title: "Collage from an 1893 advertisement for the Gem paper clip"
   rights: public-domain
-  file: "collage-rationalism.jpg"
+  file: "collage-pause.jpg"
   alt: "A single Gem paper clip, drawn in 1893, over pink fields; the paperclip maximiser thought experiment dates from 2003"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
+  note: "Made for Rationalism; Pause took it over when Rationalism became its strand (owner, 25 Nov 2026)."
 
-- id: collage-effective-altruism
+- id: collage-ai-safety
   title: "Collage from a photograph of a Thomas de Colmar arithmometer (1860)"
   rights: public-domain
-  file: "collage-effective-altruism.jpg"
+  file: "collage-ai-safety.jpg"
   alt: "A brass arithmometer of 1860, the first commercially successful calculating machine, in its open wooden case over pink fields, beside 10 to the power 58, Bostrom's 2014 count of possible future lives"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
-  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted."
+  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted. Made for Effective altruism; AI safety took it over when effective altruism became its strand (owner, 25 Nov 2026)."
 
 - id: collage-effective-accelerationism
   title: "Collage from Boccioni's The City Rises (1910)"
@@ -181,20 +182,21 @@
   alt: "Hoover Dam's intake towers in scaffolding over orange fields; the dam was handed over more than two years ahead of schedule"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Construction_Intake_Towers_Hoover_Dam_1934.jpg"
 
-- id: collage-rationalism-tall
+- id: collage-pause-tall
   title: "Collage from an 1893 advertisement for the Gem paper clip"
   rights: public-domain
-  file: "collage-rationalism-tall.jpg"
+  file: "collage-pause-tall.jpg"
   alt: "A single Gem paper clip, drawn in 1893, over pink fields; the paperclip maximiser thought experiment dates from 2003"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png"
+  note: "Made for Rationalism; Pause took it over when Rationalism became its strand (owner, 25 Nov 2026)."
 
-- id: collage-effective-altruism-tall
+- id: collage-ai-safety-tall
   title: "Collage from a photograph of a Thomas de Colmar arithmometer (1860)"
   rights: public-domain
-  file: "collage-effective-altruism-tall.jpg"
+  file: "collage-ai-safety-tall.jpg"
   alt: "A brass arithmometer of 1860, the first commercially successful calculating machine, in its open wooden case over pink fields, beside 10 to the power 58, Bostrom's 2014 count of possible future lives"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:Arithmometer_1860.JPG"
-  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted."
+  note: "Owner, 22 Nov 2026: the bed nets showed EA's charity, not its view of AI, and its labels captioned the object. Photo by MKFI, released into the public domain; the machine is at the Helsinki observatory. 10^58: Bostrom, Superintelligence (2014), the lower bound for human lives if digital minds are counted. Made for Effective altruism; AI safety took it over when effective altruism became its strand (owner, 25 Nov 2026)."
 
 - id: collage-alignment
   title: "Collage from a photograph of Watt's centrifugal governor (1788)"

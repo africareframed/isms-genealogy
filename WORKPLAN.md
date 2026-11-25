@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phases 1, 2 and 4 live, and the Doubt colour (3.1). Next: 3.2 (cards for the five new movements, owner-gated), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
+**Now:** phases 1, 2 and 4 live, the Doubt colour (3.1), and the Pause and AI safety cards. Next: 3.2 (an image batch for the other three cards, owner-gated), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
 
 ### How to pick up (read this first, every session)
 
@@ -80,7 +80,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 ### Phase 3. Cards and colour (owner-gated)
 
 - [x] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
-- [ ] 3.2 Cards for the five new movements: the owner decides whether Pause and AI safety take over the Rationalism and EA cards; the rest as an image batch (`docs/image-batches/`, stage 5 procedure), collages only after his yes
+- [ ] 3.2 Cards for the five new movements. Pause and AI safety took over the Rationalism and EA cards (owner, 25 Nov: the paper clip and the arithmometer with 10⁵⁸, renamed `collage-pause` and `collage-ai-safety`). Left: American Dynamism, Normal technology and AI skepticism, as an image batch (`docs/image-batches/`, stage 5 procedure), collages only after his yes
 - [ ] 3.3 The design guide (artifact `4b7a91e1…`): cards, tokens, decisions
 
 ### Phase 4. Across the site
@@ -166,7 +166,7 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 - Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
-- The cards for the five new movements (phase 3).
+- The cards for American Dynamism, Normal technology and AI skepticism (phase 3.2): an image batch.
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Pause and AI safety took over the old Rationalism and Effective altruism cards (owner): the Gem paper clip with the paperclip maximiser, and the arithmometer with Bostrom's 10⁵⁸ future lives. Both stay pink, as before. Files and engine ids renamed to `collage-pause` and `collage-ai-safety`.
 
 - 2026-11-25: Doubt is highlighter turquoise `#2EE6C8` (owner). The placeholder yellow sat closer to Transcend's lime than any other two family colours (and almost matched it for colour-blind readers); turquoise is the gap in the set, furthest from all five. Set in `FAMILIES`, `scripts/collages.py`, `CLAUDE.md` and `framing.md`; the design guide's family tokens are renamed to the six families, with `family-doubt` added.
 
