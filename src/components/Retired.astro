@@ -1,0 +1,25 @@
+---
+// A retired movement's address (owner, 25 Nov 2026: the new framework). It sends readers on to the movement
+// that now holds it as a strand, or to the movements on the home page while that page is in preparation.
+import { getEntry } from 'astro:content';
+import { pageHref, SITE_NAME } from '../lib/site';
+
+interface Props { name: string; to: string }
+const { name, to } = Astro.props;
+const target = await getEntry('isms', to);
+const href = target?.data.ready ? pageHref(to) : `${pageHref()}#movements`;
+const where = target ? target.data.title : 'the movements';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0; url=${href}`} />
+    <link rel="canonical" href={href} />
+    <title>{name} · {SITE_NAME}</title>
+  </head>
+  <body>
+    <p>{name} is now a strand of {where}. <a href={href}>Go on to {target?.data.ready ? where : 'the movements'}</a>.</p>
+  </body>
+</html>
