@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: On phones the hero no longer shows the subtitle and map date line; the headline opens the page (owner, 23:28).
 - 2026-11-25: On phones a closed family shows both its cards side by side, cut at 80 px; an opened family stays one card per row (owner, 21:13).
 - 2026-11-25: Family introductions set at the hero text's size, 19 px (17 px on phones) (owner, 20:43).
 

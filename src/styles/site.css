@@ -342,8 +342,8 @@ a.hist:hover .ht { text-decoration: underline; }
   .site-nav { flex-wrap: wrap; column-gap: 18px; row-gap: 6px; font-size: 15px; }
   .hero .stand { font-size: 22px; line-height: 30px; }
   .hero { padding-top: 48px; padding-bottom: 80px; }
-  .hero-top { flex-direction: column; gap: 6px; }
-  .hero-grid { padding-top: 40px; }
+  .hero-top { display: none; } /* the subtitle and map date: not on phones (owner, 25 Nov 2026) */
+  .hero-grid { padding-top: 0; }
   .eras { grid-template-columns: minmax(0, 1fr); }
   .hm summary { grid-template-columns: minmax(0, 1fr) 24px; }
   .hm-y { grid-column: 1; }
