@@ -11,10 +11,8 @@ isms:
     text: Nick Bostrom, a co-founder of the World Transhumanist Association, asks what comes after abundance. His Deep Utopia (2024) imagines a “solved world” where AI has made human effort unnecessary, and asks where meaning would then lie.
   - ism: singularitarianism
     text: Sam Altman expects intelligence and energy to become “wildly abundant” in the 2030s. In September 2025 he titled a post on building AI infrastructure “Abundant Intelligence”.
-  - ism: effective-accelerationism
-    text: e/acc treats abundance as a matter of will. Its newsletter wrote in 2022 that only will stands between us and abundance for every human alive.
   - ism: techno-optimism
-    text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure.
+    text: Marc Andreessen's 2023 manifesto uses the word again and again. Technology and markets, it says, bring material abundance for everyone, and falling prices are its measure. Its e/acc strand treats abundance as a matter of will. Its newsletter wrote in 2022 that only will stands between us and abundance for every human alive.
   - ism: pro-human
     text: It wants AI's gains shared. Its 2026 declaration has a principle of shared prosperity. In June 2026 Bernie Sanders proposed a sovereign wealth fund, paid for by a one-time tax on the stock of the largest AI companies.
 strands:

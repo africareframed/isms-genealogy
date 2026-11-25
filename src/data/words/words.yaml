@@ -50,7 +50,7 @@
   year: 1970
   origin: "Albert O. Hirschman, Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States, Harvard University Press, 1970. Nick Land's “The Dark Enlightenment” (2012) and Balaji Srinivasan's talk “Silicon Valley's Ultimate Exit” (2013) took it up."
   sourceUrl: https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: the-drowning-child
@@ -121,7 +121,7 @@
   year: 1994
   origin: "Nick Land, “Meltdown”, a talk at the Virtual Futures conference, University of Warwick, May 1994, printed by the CCRU in 1997 (Fanged Noumena, 2011). Its opening has Earth captured by a technocapital singularity. e/acc's 2022 tenets link to the text."
   sourceUrl: https://dataswamp.org/~john/sites/ccru/swarm1/1_melt.htm
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: agi
@@ -131,7 +131,7 @@
   year: 1997
   origin: "Mark Gubrud, “Nanotechnology and International Security”, a paper for the Fifth Foresight Conference on Molecular Nanotechnology, November 1997. Around 2002 Shane Legg proposed the name again, for a book edited by Ben Goertzel and Cassio Pennachin. Goertzel spread it (“Who coined the term ‘AGI’?”, goertzel.org, 28 August 2011)."
   sourceUrl: https://legacy.foresight.org/Conferences/MNT05/Papers/Gubrud/index.html
-  isms: [singularitarianism, rationalism, effective-altruism, effective-accelerationism, pro-human]
+  isms: [singularitarianism, rationalism, effective-altruism, techno-optimism, pro-human]
   status: checked
 
 - id: superintelligence
@@ -213,7 +213,7 @@
   year: 2008
   origin: "On 19 June 2008 Yarvin wrote that he would answer to “neoreactionary”, though he preferred “restorationist”. The post is “Chapter X: A Simple Sovereign Bankruptcy Procedure”, in An Open Letter to Open-Minded Progressives, Unqualified Reservations, as quoted by Wikipedia. Arnold Kling used “neo-reactionary” as a label of his own on EconLog, 18 July 2010. Nick Land's “The Dark Enlightenment” (2012) spread it."
   sourceUrl: https://en.wikipedia.org/wiki/Curtis_Yarvin
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: foom
@@ -245,7 +245,7 @@
   year: 2010
   origin: "Benjamin Noys, The Persistence of the Negative: A Critique of Contemporary Continental Theory, Edinburgh University Press, 2010. He applied it to thinkers such as Deleuze and Guattari, Lyotard and Baudrillard. Noys says he first coined the term (e-flux, 2025). The word appears earlier in Roger Zelazny's novel Lord of Light (1967)."
   sourceUrl: https://en.wikipedia.org/wiki/Accelerationism
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: effective-altruism
@@ -350,7 +350,7 @@
   year: 2022
   origin: Announced on Twitter at the end of May 2022 by its four pseudonymous authors. Their own posts embedded in the text date from 30 and 31 May. Their post “Effective Accelerationism — e/acc” was reposted on the e/acc newsletter, Substack, 31 October 2022.
   sourceUrl: https://effectiveaccelerationism.substack.com/p/repost-effective-accelerationism
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: network-state
@@ -360,7 +360,7 @@
   year: 2022
   origin: "Balaji Srinivasan, The Network State: How To Start a New Country, July 2022, free to read at thenetworkstate.com. Wiktionary credits the coinage to the book."
   sourceUrl: https://en.wiktionary.org/wiki/network_state
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: decel
@@ -370,7 +370,7 @@
   yearLabel: by 2022
   origin: "Coiner unknown. Earliest use found: a post by @bayeslord, 8 July 2022. It is embedded in “Notes on e/acc principles and tenets” (Beff Jezos and bayeslord, 10 July 2022). Alex Wilhelm explains the label in “Effective accelerationism, doomers, decels, and how to flaunt your AI priors”, TechCrunch, 20 November 2023."
   sourceUrl: https://beff.substack.com/p/notes-on-eacc-principles-and-tenets
-  isms: [effective-accelerationism]
+  isms: [techno-optimism]
   status: checked
 
 - id: pause
@@ -400,7 +400,7 @@
   yearLabel: by 2023
   origin: "As slang for a pessimist, the word was reported in 2008 on internet forums about peak oil. The source is The Globe and Mail, 7 March 2008, cited by Wikipedia. Marc Andreessen's “Why AI Will Save the World” (6 June 2023) uses it of AI risk. Reid Hoffman's Superagency (2025) sets doomers beside gloomers, zoomers and bloomers."
   sourceUrl: https://en.wikipedia.org/wiki/Doomer
-  isms: [effective-accelerationism, techno-optimism]
+  isms: [techno-optimism]
   status: checked
 
 - id: superagency

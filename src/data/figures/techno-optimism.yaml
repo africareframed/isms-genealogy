@@ -85,3 +85,54 @@
   isms:
   - techno-optimism
   note: Co-founder and chief executive of Palantir. His book The Technological Republic (2025), with Nicholas Zamiska, calls on Silicon Valley to rebuild its partnership with government and the military.
+- id: eacc-guillaume-verdon
+  name: Guillaume Verdon
+  isms: [techno-optimism]
+  note: Physicist behind the Beff Jezos account and co-author of e/acc's first posts. Founded the chip start-up Extropic.
+  entry: techno-optimism/2022-eacc-tenets
+- id: eacc-balaji-srinivasan
+  name: Balaji Srinivasan
+  isms: [techno-optimism]
+  note: Investor and former Coinbase executive who turned exit into the plan of the network state.
+  entry: techno-optimism/2022-network-state
+- id: eacc-jeremy-england
+  name: Jeremy England
+  isms: [techno-optimism]
+  note: Physicist whose theory of dissipation-driven adaptation e/acc takes as its account of life.
+  entry: techno-optimism/2013-england-dissipation
+- id: eacc-peter-thiel
+  name: Peter Thiel
+  lifespan: born 1967
+  isms: [techno-optimism]
+  note: Investor and PayPal co-founder. Wrote in 2009 that he no longer believed freedom and democracy were compatible.
+  entry: techno-optimism/2009-thiel-libertarian
+- id: eacc-curtis-yarvin
+  name: Curtis Yarvin
+  lifespan: born 1973
+  isms: [techno-optimism]
+  note: Software developer who, as Mencius Moldbug, wrote the blog from which neoreaction grew.
+  entry: techno-optimism/2007-unqualified-reservations
+- id: eacc-nick-land
+  name: Nick Land
+  lifespan: born 1962
+  isms: [techno-optimism]
+  note: Philosopher of accelerationism, co-founder of Warwick's Cybernetic Culture Research Unit, and author of The Dark Enlightenment.
+  entry: techno-optimism/1994-meltdown
+- id: eacc-gilles-deleuze
+  name: Gilles Deleuze
+  lifespan: 1925–1995
+  isms: [techno-optimism]
+  note: Philosopher. With Guattari, wrote the passage on accelerating the process that accelerationists cite.
+  entry: techno-optimism/1972-anti-oedipus
+- id: eacc-felix-guattari
+  name: Félix Guattari
+  lifespan: 1930–1992
+  isms: [techno-optimism]
+  note: Psychoanalyst and political activist, Deleuze's co-author on Anti-Oedipus.
+  entry: techno-optimism/1972-anti-oedipus
+- id: eacc-nikolai-kardashev
+  name: Nikolai Kardashev
+  lifespan: 1932–2019
+  isms: [techno-optimism]
+  note: Soviet astrophysicist who ranked civilisations by the energy they command.
+  entry: techno-optimism/1964-kardashev

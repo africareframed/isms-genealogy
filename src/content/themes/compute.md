@@ -13,8 +13,8 @@ isms:
     text: Compute is what rationalists would cap. In 2023 Eliezer Yudkowsky called for shutting down large GPU clusters and tracking every GPU sold. The draft treaty on the website of his 2025 book with Nate Soares bans training runs above 10²⁴ FLOP.
   - ism: effective-altruism
     text: Effective altruists have tried to date AI by the compute it would need. Ajeya Cotra's 2020 draft report, written at Open Philanthropy, anchored its estimates on the human brain and on evolution. Its median for transformative AI was about 2050.
-  - ism: effective-accelerationism
-    text: One of its founders works on the hardware itself. Guillaume Verdon, who posted as Beff Jezos, runs Extropic, which builds chips meant to use far less energy than GPUs. Once it succeeds, it says, “energy constraints will no longer limit AI scaling”.
+  - ism: techno-optimism
+    text: Its e/acc strand has a founder who works on the hardware itself. Guillaume Verdon, who posted as Beff Jezos, runs Extropic, which builds chips meant to use far less energy than GPUs. Once it succeeds, it says, “energy constraints will no longer limit AI scaling”.
   - ism: ai-ethics
     text: AI ethics sees compute as a source of corporate power. In 2023 the AI Now Institute called it “profoundly monopolized at key points in the supply chain”, which lets a few firms shape who can build AI.
   - ism: pro-human
@@ -45,7 +45,7 @@ disputes: Sara Hooker finds compute thresholds a poor guide to risk, as the link
 # - Eliezer Yudkowsky, "Pausing AI Developments Isn't Enough. We Need to Shut it All Down", TIME, 29 March 2023
 # - "A Draft of a Treaty, with Annotations", ifanyonebuildsit.com/treaty, Article IV
 # - Ajeya Cotra, "Draft report on AI timelines", LessWrong, 18 September 2020
-# - Extropic, "Thermodynamic computing from zero to one", extropic.ai; Verdon as Beff Jezos: entry effective-accelerationism/2023-beff-jezos-named
+# - Extropic, "Thermodynamic computing from zero to one", extropic.ai; Verdon as Beff Jezos: entry techno-optimism/2023-beff-jezos-named
 # - Sara Hooker, "On the Limitations of Compute Thresholds as a Governance Strategy", arXiv:2407.05694, July 2024
 # - Stuart Dyos, "Jensen Huang blasts U.S. curbs on the sale of Nvidia chips to China", Fortune, 22 May 2025
 # - DeepSeek-AI, "DeepSeek-V3 Technical Report", arXiv:2412.19437, 27 December 2024 (2.788M H800 GPU hours); Axios, "Nvidia shares plunge as DeepSeek promises new AI path", 27 January 2025 (down more than 17% at 3:45 pm; the close was about 17%)
