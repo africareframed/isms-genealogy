@@ -3,15 +3,16 @@ export const SITE_TITLE = 'A genealogy of the ideas behind AI';
 export const MAP_DATE = '20 November 2026';
 
 export const FAMILIES = [
-  // In the order of the home page (owner, 22 Nov 2026): from the farthest future towards the present,
-  // from the most eager about the machine to the most wary. Family colours are highlighter colours.
-  { id: 'transcendence', name: 'Transcendence', colour: '#C9F25B', text: 'The vision of a future beyond human limits.' },
-  { id: 'acceleration', name: 'Acceleration', colour: '#FF9F4F', text: 'The conviction that the answer is more technology, faster.' },
-  { id: 'risk', name: 'Risk', colour: '#F5A3BC', text: 'The fear that AI could end us, and the work to prevent it.' },
-  // Protection (owner, 22 Nov 2026): protecting people living now from how AI is built and used today.
-  { id: 'protection', name: 'Protection', colour: '#73C7F2', text: 'The demand to protect people now from how AI is built and used.' },
-  // Reclaim (owner, 24 Nov 2026): taking back control of the machine, by owning it or by refusing it.
-  { id: 'reclaim', name: 'Reclaim', colour: '#C3A6FF', text: 'The resolve to take back control of the machine: to own it, or to refuse it.' },
+  // Six families of two movements each (owner, 25 Nov 2026: the new framework, doc "A new framing of the AI
+  // movements"), named by a verb for what they want done, ordered from the largest claims about what AI will
+  // become to the smallest. Family colours are highlighter colours.
+  { id: 'transcend', name: 'Transcend', colour: '#C9F25B', text: 'The vision of a future beyond human limits.' },
+  { id: 'accelerate', name: 'Accelerate', colour: '#FF9F4F', text: 'The conviction that the answer is more technology, faster.' },
+  { id: 'prevent', name: 'Prevent', colour: '#F5A3BC', text: 'The work to stop AI from ending us.' },
+  { id: 'protect', name: 'Protect', colour: '#73C7F2', text: 'The demand to shield people now, with limits and liability for the builders.' },
+  { id: 'reclaim', name: 'Reclaim', colour: '#C3A6FF', text: 'The resolve to change who owns and decides: to build our own, or to refuse.' },
+  // Doubt's colour is the owner's to choose; highlighter yellow is the placeholder (25 Nov 2026).
+  { id: 'doubt', name: 'Doubt', colour: '#FFE45C', text: 'The case that AI is less than its makers claim.' },
 ] as const;
 
 /* The eras of the history of AI, newest first. Each history moment names one. */

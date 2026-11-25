@@ -1,7 +1,7 @@
 ---
 title: Effective altruism
-family: risk
-order: 6
+family: prevent
+order: 5.1
 ready: true
 summary: Do the most good you can, counted across the whole future. For its longtermists, reducing the risk of extinction outweighs almost everything else.
 includes: [longtermism]

@@ -1,7 +1,7 @@
 ---
 title: Effective accelerationism
-family: acceleration
-order: 3
+family: accelerate
+order: 3.1
 ready: true
 summary: Growth in energy, intelligence and capital is the direction of the universe. Technology should be accelerated, not slowed, and fear of it is the real danger.
 includes: [neoreaction and the network state]

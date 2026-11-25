@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 1, branch `framework/switch` (not yet created). Next step: 1.1.
+**Now:** phase 1, branch `framework/switch`. Next step: 1.2.
 
 ### How to pick up (read this first, every session)
 
@@ -48,7 +48,7 @@ Families (ids, names, colours): `transcend` Transcend `#C9F25B`, `accelerate` Ac
 
 All on one branch, so the live site changes once, when the whole switch is done.
 
-- [ ] 1.1 Families: `FAMILIES` in `src/lib/site.ts`, the family enum in `src/content.config.ts`, the `family` and `order` of every movement file (01–12), hero line "Transcend. Accelerate. Prevent. Protect. Reclaim. Doubt."
+- [x] 1.1 Families: `FAMILIES` in `src/lib/site.ts`, the family enum in `src/content.config.ts`, the `family` and `order` of every movement file (01–12), hero line "Transcend. Accelerate. Prevent. Protect. Reclaim. Doubt."
 - [ ] 1.2 Stub files for the five new movements (`ready: false`): title, family, order, summary, lead and includes from `framing.md`; entries and figures files where the build needs them. Their cards show "In preparation".
 - [ ] 1.3 Effective accelerationism into Techno-optimism: entries, figures, words, images and every reference (themes, words, history, people); the file removed; the strand line updated. Build catches broken references.
 - [ ] 1.4 American Dynamism out of Techno-optimism: its entries and figures move to `american-dynamism`.

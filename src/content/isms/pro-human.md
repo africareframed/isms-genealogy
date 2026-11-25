@@ -1,7 +1,7 @@
 ---
 title: Pro-human
-family: protection
-order: 8
+family: protect
+order: 7
 ready: true
 summary: The AI companies are racing to replace people at work, at home and in power. Humans must stay in charge, and the builders must answer for harm.
 includes: []

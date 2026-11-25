@@ -13,7 +13,7 @@ const isms = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/isms' }),
   schema: z.object({
     title: z.string(),
-    family: z.enum(['transcendence', 'acceleration', 'risk', 'protection', 'reclaim']),
+    family: z.enum(['transcend', 'accelerate', 'prevent', 'protect', 'reclaim', 'doubt']),
     order: z.number(),
     ready: z.boolean().default(false),
     summary: z.string(),

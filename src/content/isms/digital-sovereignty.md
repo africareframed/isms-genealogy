@@ -1,7 +1,7 @@
 ---
 title: Digital sovereignty
 family: reclaim
-order: 10
+order: 9
 ready: true
 summary: A few, mostly American, companies control the chips, clouds, data and models that AI runs on. Countries and their publics should take that stack back.
 includes: [the anti-monopoly movement, public AI]

@@ -1,7 +1,7 @@
 ---
 title: Techno-optimism
-family: acceleration
-order: 4
+family: accelerate
+order: 3
 ready: true
 summary: Technology and free markets are the engine of human progress. AI will make people richer, healthier and freer, and slowing it down costs lives.
 includes: [augmentation, American Dynamism]

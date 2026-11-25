@@ -1,6 +1,6 @@
 ---
 title: Transhumanism
-family: transcendence
+family: transcend
 order: 1
 ready: true
 summary: Humans can and should use technology to overcome ageing, illness and the limits of body and mind. AI is the strongest tool yet for becoming more than human.

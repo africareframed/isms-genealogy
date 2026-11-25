@@ -1,7 +1,7 @@
 ---
 title: Neo-Luddism
 family: reclaim
-order: 9
+order: 10
 ready: true
 summary: Technology is political. Workers and citizens, not tech companies, should decide which machines to accept, and they are free to refuse AI.
 includes: [the analogue revival, Marxist neo-Luddism]
