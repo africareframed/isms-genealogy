@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 02 Singularitarianism, on branch `ism/singularitarianism` (create it from `main`).
+**Now:** phase 2, next movement: 03 Techno-optimism, on branch `ism/techno-optimism` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -66,7 +66,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 
 - [x] 10 Neo-Luddism (25 Nov, the template)
 - [x] 01 Transhumanism
-- [ ] 02 Singularitarianism
+- [x] 02 Singularitarianism
 - [ ] 03 Techno-optimism (also: trim the merged timeline to sixteen entries or fewer, keeping e/acc's key moments)
 - [ ] 07 Pro-human
 - [ ] 08 AI ethics

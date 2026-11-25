@@ -33,6 +33,47 @@ words:
 themes: [scaling-laws, compute, abundance, augmentation, luddite]
 disputes: "Sceptics doubt the curve: in 2011 Paul Allen and Mark Greaves argued that a “complexity brake” in brain science puts any singularity far off. The scholar of religion Robert Geraci (2010) traces it to the apocalyptic traditions of Judaism and Christianity. Émile P. Torres calls the successionist wish for posthuman heirs “pro-extinctionism” (2025). With Timnit Gebru, Torres places singularitarianism in the TESCREAL bundle, which they tie to twentieth-century eugenics (2024)."
 born: singularitarianism/2000-singularity-institute
+lenses:
+  quote:
+    text: "Shortly after, the human era will be ended."
+    by: "Vernor Vinge"
+    source: "The Coming Technological Singularity, 1993"
+    url: https://edoras.sdsu.edu/~vinge/misc/singularity.html
+  values: [intelligence itself, the leap beyond prediction]
+  fears: [standing still, humans in the way (for successionists)]
+  promises: "History with an endpoint, where whoever shapes the transition shapes everything after. It echoes millenarianism, the old expectation of a final turning point."
+  ifItWins: "everything would be staked on reaching AGI first. Capital, energy and talent would flow to a few labs, and other priorities would wait."
+  fundedBy: |-
+    Its institutions were seeded by tech money. The Thiel Foundation gave the Singularity Institute, now MIRI, more than $1.6 million, including $100,000 in matching funds in 2006.
+
+    Singularity University opened in 2008 at NASA's Ames Research Center. Google was its first corporate sponsor, with $1 million, followed by Cisco, Autodesk, Nokia and Genentech.
+  canServeText: |-
+    **Its demands could serve** the labs closest to AGI. A race rewards whoever is ahead, and an AGI said to be near justifies almost any valuation. Investors betting on AGI gain too, since the belief turns a long shot into an inevitability.
+
+    Energy firms and utilities stand to gain, because the race needs ever more power. Smaller challengers get a mixed deal: capital floods the sector, but a winner-takes-all race favours the leaders.
+
+    Universities would lose, as researchers leave for the labs racing to get there first. States and parties have little stake, since the belief treats the transition as technical, not political.
+  canServe:
+    - actor: Big Tech
+      text: "The labs closest to AGI, since a race rewards whoever is ahead and a near AGI justifies almost any valuation."
+    - actor: Challengers
+      status: mixed
+      text: "Capital floods the sector, but a winner-takes-all race favours the leaders."
+    - actor: Established industry
+      text: "Energy firms and utilities, since the race needs ever more power."
+    - actor: Patrons
+      text: "Investors betting on AGI, since the belief turns a long shot into an inevitability."
+    - actor: The state
+      status: none
+      text: "The belief treats the transition as technical, not political."
+    - actor: Politics
+      status: none
+      text: "No party campaigns on the singularity."
+    - actor: Institutions
+      status: loses
+      text: "Universities lose researchers to the labs racing to reach it."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 
