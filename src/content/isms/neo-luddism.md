@@ -45,6 +45,7 @@ lenses:
   fears: [deskilling, machines imposed from above]
   promises: Technology decided where it lands, in the workplace, the town and the classroom. It echoes the Luddites themselves, William Morris and the labour movement.
   ifItWins: Workers and communities gain vetoes. AI enters a workplace only by agreement, and adoption becomes uneven, place by place.
+  funding: none
   fundedBy: No major funders found. Its leverage is organised labour. In 2023 a 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
   canServe:
     - actor: Institutions

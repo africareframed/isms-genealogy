@@ -12,6 +12,19 @@ const { Content } = await render(ism);
 const family = FAMILIES.find((f) => f.id === ism.data.family);
 // The new page setup (owner, 25 Nov 2026): quote and lenses after the introduction, no "Who disputes it".
 const L = ism.data.lenses;
+// The meter and the actor strip: the same scale and the same seven actor types on every page, so pages compare.
+const FUNDING = [
+  { id: '1m', label: '$1m' },
+  { id: '10m', label: '$10m' },
+  { id: '100m', label: '$100m' },
+  { id: '1bn', label: '$1bn+' },
+];
+const fundLevel = L ? FUNDING.findIndex((f) => f.id === L.funding) : -1;
+const ACTORS = ['Big Tech', 'Challengers', 'Established industry', 'Patrons', 'The state', 'Politics', 'Institutions'] as const;
+const actorState = (a: string) => {
+  const c = L?.canServe.filter((x) => x.actor === a) ?? [];
+  return c.length === 0 ? 'none' : c.every((x) => x.opponent) ? 'opp' : 'gain';
+};
 
 const allThemes = await getCollection('themes');
 const themeById = new Map(allThemes.map((t) => [t.id, t]));
@@ -118,10 +131,23 @@ const first = entries[0];
           </div>
           <div class="lens">
             <p class="lens-l">Funded by</p>
-            <p class="lens-t">{L.fundedBy}</p>
+            <div class="lens-g">
+              <div class="meter" role="img" aria-label={fundLevel < 0 ? 'No major funding found' : `Largest sum found: ${FUNDING[fundLevel].label} or more`}>
+                {FUNDING.map((f, i) => (
+                  <span class="m-st"><span class={i <= fundLevel ? 'sq on' : 'sq'} style={`--fam: ${family?.colour}`}></span><span class="m-l">{f.label}</span></span>
+                ))}
+              </div>
+              <p class="lens-t">{L.fundedBy}</p>
+            </div>
           </div>
           <div class="lens">
             <p class="lens-l">Can serve</p>
+            <div class="lens-g">
+              <div class="strip" aria-hidden="true">
+                {ACTORS.map((a) => (
+                  <span class="m-st"><span class={`sq ${actorState(a)}`} style={`--fam: ${family?.colour}`}></span><span class="m-l">{a}</span></span>
+                ))}
+              </div>
             <div class="serve">
               {L.canServe.map((c) => (
                 <div class="sv">
@@ -129,6 +155,7 @@ const first = entries[0];
                   <p class="sv-t">{c.text}</p>
                 </div>
               ))}
+            </div>
             </div>
           </div>
         </div>
@@ -147,7 +174,28 @@ const first = entries[0];
       </section>
     )}
 
-    {figures.length > 0 && (
+    {L && figures.length > 0 && (
+      <section class="wrap sec" aria-labelledby="figures-h">
+        <h2 class="kick" id="figures-h">People</h2>
+        <ul class="prow">
+          {figures.map((f) => {
+            const d = f.data;
+            const e = d.entry ? entryById.get(d.entry.id) : undefined;
+            const p = personOf(d.name);
+            const inner = (
+              <Fragment>
+                {p?.data.portrait && <img src={`portraits/${p.data.portrait.file}`} alt="" width="48" height="48" loading="lazy" decoding="async" />}
+                <span class="pr-n">{d.name}</span>
+                {e && <span class="pr-y">{yearText(e.data.year, e.data.yearLabel)}</span>}
+              </Fragment>
+            );
+            return <li>{p ? <a class="pr" href={`${pageHref('people')}#${personAnchor(p.id)}`}>{inner}</a> : <span class="pr">{inner}</span>}</li>;
+          })}
+        </ul>
+      </section>
+    )}
+
+    {!L && figures.length > 0 && (
       <section class="wrap sec" aria-labelledby="figures-h">
         <h2 class="kick" id="figures-h">People</h2>
         <div class="names">

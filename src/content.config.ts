@@ -37,6 +37,8 @@ const isms = defineCollection({
         promises: z.string(), // stated: its own ideal, plus the older tradition it echoes
         ifItWins: z.string(), // derived: the first consequences of its demands becoming law, one step only
         fundedBy: z.string(), // fact: public records only; absence recorded
+        // the meter: the largest single public sum found for its organisations, in dollars (none = none found)
+        funding: z.enum(['none', '1m', '10m', '100m', '1bn']).default('none'),
         canServe: z
           .array(
             z.object({
