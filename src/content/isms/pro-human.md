@@ -4,7 +4,7 @@ family: protect
 order: 7
 ready: true
 summary: The AI companies are racing to replace people at work, at home and in power. Humans must stay in charge, and the builders must answer for harm.
-includes: []
+includes: [humane technology, the families’ campaigns, faith-based humanism]
 image: collage-pro-human
 pageImage: collage-pro-human-tall
 lead: Pro-human holds that people living now must be protected from AI built to replace them, and from the companies racing to build it.
@@ -53,6 +53,45 @@ born: pro-human/2026-pro-human-declaration
 # - IFS, "5 Questions With Family Studies: Michael Toscano Introduces the Family First Technology Initiative", 20 September 2024
 # - The New York Times, via CNBC, "Early Facebook and Google employees form coalition to fight what they built", 4 February 2018; Center for Humane Technology, Impact and Story, humanetech.com (attention-harvesting design; expanded to AI)
 # - Vatican, Pope Leo XIV, address to "The Future of AI" dialogue, 30 October 2026
+lenses:
+  quote:
+    text: "When you are racing towards a cliff, you hit the brakes"
+    by: "Bernie Sanders"
+    source: "at the Pro-Human Assembly, 2026"
+    url: https://thenextweb.com/news/sanders-bannon-pro-human-assembly-ai-pause-warren
+  values: [work, children, dignity, humans in charge]
+  fears: [replacement, manipulative machines, companies that answer to no one]
+  promises: "A human-centred democracy where the people, through elected governments, set the machine’s limits, with family, work and community as the things to protect. It echoes Catholic social teaching, from Rerum Novarum (1891), and the American populism of the 1890s."
+  ifItWins: "limits would be written into law: liability for harm, no legal personhood for AI, protections for children and jobs. Adoption would slow in homes, schools and workplaces."
+  fundedBy: |-
+    Two sources stand out. Frank McCourt has committed $500 million to Project Liberty, which he launched with $100 million in 2021 and which co-founded the Pro-Human AI Coalition. The Future of Life Institute, funded by Vitalik Buterin and Elon Musk, convened the Pro-Human Declaration and its Assembly in 2026.
+
+    The Center for Humane Technology received $10 million from 61 grantmakers between 2020 and 2025, among them Omidyar Network, Open Society and the Ford Foundation.
+  canServeText: |-
+    **Its demands could serve** those who would write and defend the limits. National governments gain, since they would set them, and politicians on both flanks gain a cause that unites voters across old lines. Unions and faith groups gain a seat at the table.
+
+    Media, publishing and other industries the limits protect stand to gain, since a limit protects what already exists. Patrons of the risk camp gain too: the coalition gives their cause a mass base.
+
+    Small firms launching new products would lose most, as liability and limits cost them more than anyone. Its opponents could gain as well: companies that borrow its language, since “humanist” branding can answer the critique without changing the product.
+  canServe:
+    - actor: Big Tech
+      status: opponent
+      text: "Companies that borrow its language, since “humanist” branding answers the critique without changing the product."
+    - actor: Challengers
+      status: loses
+      text: "Liability and limits cost most for small firms launching new products."
+    - actor: Established industry
+      text: "Media, publishing and other industries the limits protect, since a limit protects what already exists."
+    - actor: Patrons
+      text: "The risk camp’s funders, since the coalition gives their cause a mass base."
+    - actor: The state
+      text: "National governments, since they write the limits."
+    - actor: Politics
+      text: "Politicians on both flanks looking for a cause that unites voters."
+    - actor: Institutions
+      text: "Unions and faith groups, since the coalition gives them a seat at the table."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 
