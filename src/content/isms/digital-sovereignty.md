@@ -53,6 +53,45 @@ born: digital-sovereignty/2024-euro-stack
 # - "Most of its voices are European": an editorial summary of the sources above (EuroStack, Berlin summit, Commission, Barcelona, Gaia-X); India's mission is the main non-European holder.
 # - Disputes: JD Vance, remarks at the AI Action Summit, Paris, 11 February 2025, American Presidency Project, presidency.ucsb.edu ("gold standard"; DSA and GDPR); Executive Order 14320, "Promoting the Export of the American AI Technology Stack", 23 July 2025, whitehouse.gov (full-stack AI export packages); Matthias Bauer, "EuroStack's Hypocrisy: A European Vision Built on American Cloud Solutions?", ECIPE blog, March 2025, ecipe.org/blog/eurostacks-hypocrisy (the quoted words are about the campaign's "Aggressive Buy European" procurement rules, not the EuroStack as a whole: checker, 24 Nov 2026); Komaitis and others, "The sovereignty trap", DFRLab, 17 July 2024, dfrlab.org/2024/07/17/the-sovereignty-trap (sovereign AI can create "sovereignty traps" that unintentionally help authoritarian governments undermine multistakeholder governance; systems built in silos); Aline Blankertz (Tech Economy Lead at Rebalance Now), "At the Sovereignty Summit, Europe Put Start-Ups on Stage and Kept Big Tech in Control", Tech Policy Press, 19 November 2025, techpolicy.press/at-the-sovereignty-summit-europe-put-startups-on-stage-and-kept-big-tech-in-control
 # - Not used: Jill Lepore's "Artificial State" (no source ties her book to sovereignty or the movement); Thomas Hobbes (no source ties Leviathan to digital sovereignty); Yanis Varoufakis (his "cloud rebellion" is not a programme of public ownership of the stack). Evgeny Morozov's critique of "feudal-speak" (New Left Review 133/134, 2022) bears on the word "digital feudalism", not on sovereignty itself, so it is not in the disputes.
+lenses:
+  quote:
+    text: "neither to copy Silicon Valley nor Beijing, but to build the alternative"
+    by: "Francesca Bria"
+    source: "in Tagesspiegel"
+    url: https://www.tagesspiegel.de/themenspeziale/a-digital-republic-instead-of-digital-empires-why-the-eu-needs-a-new-plan-for-the-ai-age-16136630.html
+  values: [independence, public infrastructure]
+  fears: [dependence on a few foreign companies]
+  promises: "A mixed economy where public bodies build and own core infrastructure, in a world of several blocs. It echoes European social democracy and the public-service tradition of post, rail and broadcasting."
+  ifItWins: "public money would build local chips, clouds and models, and foreign providers would face limits. Prices and timelines would rise in exchange for independence."
+  fundedBy: |-
+    States and foundations fund most of it. The EU’s InvestAI, launched in February 2025, aims to mobilise €200 billion, including €20 billion for four AI gigafactories. The Bertelsmann Stiftung commissioned the EuroStack report the same month, with CEPS, the Mercator Stiftung and UCL’s Institute for Innovation and Public Purpose.
+
+    Europe’s champion is built partly with American money. ASML put €1.3 billion into Mistral AI in September 2025, in a round joined by Nvidia and Andreessen Horowitz, and Microsoft invested €15 million in 2024.
+  canServeText: |-
+    **Its demands could serve** those who would build the stack. Governments and the EU gain, since building it expands their role, and local AI firms gain as public money and preference flow to them. Telecoms and national champions gain too: infrastructure is their business.
+
+    Public research bodies and universities stand to gain, since a public stack is partly built in public labs. Nationalists and social democrats alike could take up the cause, since sovereignty speaks to both.
+
+    Few stand to lose, apart from the foreign providers facing limits. Its opponents could gain as well: chipmakers selling “sovereign AI”, since local stacks still run on their hardware.
+  canServe:
+    - actor: Big Tech
+      status: opponent
+      text: "Chipmakers selling “sovereign AI”, since local stacks still run on their hardware."
+    - actor: Challengers
+      text: "Local AI firms, since public money and preference flow to them."
+    - actor: Established industry
+      text: "Telecoms and national champions, since infrastructure is their business."
+    - actor: Patrons
+      status: none
+      text: "The stack is built with public money, not personal fortunes."
+    - actor: The state
+      text: "Governments and the EU, since building the stack expands their role."
+    - actor: Politics
+      text: "Nationalists as well as social democrats, since sovereignty speaks to both."
+    - actor: Institutions
+      text: "Public research bodies and universities, since a public stack is partly built in public labs."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 
