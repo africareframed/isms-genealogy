@@ -3,9 +3,10 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
 import PageHeader from './PageHeader.astro';
+import PersonCard from './PersonCard.astro';
 import { FAMILIES, RELATIONS, SITE_NAME, eraOf, eraId, yearText, pageHref , strandsLine } from '../lib/site';
 import { getHistory, momentAnchor } from '../lib/history';
-import { namePattern, personAnchor } from '../lib/people';
+import { namePattern, personAnchor, getPeople } from '../lib/people';
 
 const { ism } = Astro.props;
 const { Content } = await render(ism);
@@ -13,8 +14,9 @@ const family = FAMILIES.find((f) => f.id === ism.data.family);
 // The new page setup (owner, 25 Nov 2026): quote and lenses after the introduction, no "Who disputes it".
 const L = ism.data.lenses;
 // Can serve lists the same seven actor types in the same order on every page, so pages compare.
-const andList = (xs: string[]) => (xs.length < 2 ? xs : [...xs.slice(0, -1).flatMap((x, i) => (i ? [', ', x] : [x])), ' and ', xs[xs.length - 1]]);
 const STATUS = { gains: 'Gains', opponent: 'Gains · opponent', mixed: 'Mixed', loses: 'Loses', none: 'No mechanism' } as const;
+// People (owner, 25 Nov 2026): the movement's figures as portraits that open the same panel as on the People page
+const allPeople = L ? await getPeople() : [];
 
 const allThemes = await getCollection('themes');
 const themeById = new Map(allThemes.map((t) => [t.id, t]));
@@ -101,39 +103,37 @@ const first = entries[0];
     </section>
 
     {L && (
-      <section class="wrap sec argue" aria-label="Its values, fears, promises, funding and who it can serve" style={`--fam: ${family?.colour}`}>
-        <div class="pair">
-          <div class="pc">
-            <p class="kick">Values</p>
-            <p class="big">{andList(L.values).map((x, i) => (i % 2 === 0 ? <span class="mk">{x}</span> : x))}</p>
+      <section class="wrap sec" aria-label="Its values, fears, promises, funding and who it can serve" style={`--fam: ${family?.colour}`}>
+        <div class="lenses">
+          <div class="lens">
+            <p class="lens-l">Values</p>
+            <p class="lchips">{L.values.map((v) => <span class="lv">{v}</span>)}</p>
           </div>
-          <div class="pc">
-            <p class="kick">Fears</p>
-            <p class="big">{andList(L.fears).map((x, i) => (i % 2 === 0 ? <span class="ul">{x}</span> : x))}</p>
+          <div class="lens">
+            <p class="lens-l">Fears</p>
+            <p class="lchips">{L.fears.map((v) => <span class="lf">{v}</span>)}</p>
           </div>
-        </div>
-        <div class="pair">
-          <div class="pc">
-            <p class="kick">Promises</p>
-            <p class="mid">{L.promises}</p>
+          <div class="lens">
+            <p class="lens-l">Promises</p>
+            <p class="lens-t">{L.promises}</p>
           </div>
-          <div class="pc">
-            <p class="kick">If it wins tomorrow</p>
-            <p class="mid">{L.ifItWins}</p>
+          <div class="lens">
+            <p class="lens-l">If it wins tomorrow</p>
+            <p class="lens-t">{L.ifItWins}</p>
           </div>
-        </div>
-        <div class="pair">
-          <div class="pc">
-            <p class="kick">Funded by</p>
-            <p class="big">{L.fundedBy}</p>
-            {L.fundRows.map((r) => <p class="fr"><span class="fr-l">{r.label}</span> {r.text}</p>)}
+          <div class="lens">
+            <p class="lens-l">Funded by</p>
+            <div class="lens-g">
+              <p class="lens-t lens-f">{L.fundedBy}</p>
+              {L.fundRows.map((r) => <p class="lens-t"><span class="fr-l">{r.label}</span> {r.text}</p>)}
+            </div>
           </div>
-          <div class="pc">
-            <p class="kick">Can serve</p>
+          <div class="lens">
+            <p class="lens-l">Can serve</p>
             <ul class="cs">
               {L.canServe.map((c) => (
                 <li class={c.status}>
-                  <p class="cs-n"><span class={c.status === 'gains' || c.status === 'opponent' ? 'mk' : c.status === 'mixed' ? 'ul' : ''}>{c.actor}</span>{c.status !== 'gains' && <span class="cs-s">{STATUS[c.status].replace('Gains · ', '')}</span>}</p>
+                  <p class="cs-n">{c.actor}<span class="cs-s">{STATUS[c.status]}</span></p>
                   <p class="cs-t">{c.text}</p>
                 </li>
               ))}
@@ -156,23 +156,16 @@ const first = entries[0];
     )}
 
     {L && figures.length > 0 && (
-      <section class="wrap sec" aria-labelledby="figures-h">
+      <section class="wrap sec ism-people" aria-labelledby="figures-h">
         <h2 class="kick" id="figures-h">People</h2>
-        <ul class="pindex">
-          {figures.map((f) => {
-            const d = f.data;
-            const e = d.entry ? entryById.get(d.entry.id) : undefined;
-            const p = personOf(d.name);
-            const inner = (
-              <Fragment>
-                {p?.data.portrait && <img src={`portraits/${p.data.portrait.file}`} alt="" width="36" height="36" loading="lazy" decoding="async" />}
-                <span class="pi-n">{d.name}</span>
-                {e && <span class="pi-y">{yearText(e.data.year, e.data.yearLabel)}</span>}
-              </Fragment>
-            );
-            return <li>{p ? <a class="pi" href={`${pageHref('people')}#${personAnchor(p.id)}`}>{inner}</a> : <span class="pi">{inner}</span>}</li>;
-          })}
-        </ul>
+        <div class="pgrid">
+          {figures
+            .map((f) => personOf(f.data.name))
+            .filter((x, i, xs) => x && xs.findIndex((y) => y?.id === x.id) === i)
+            .map((x) => allPeople.find((p) => p.id === x!.id))
+            .filter((p) => p)
+            .map((p) => <PersonCard p={p!} />)}
+        </div>
       </section>
     )}
 
@@ -284,4 +277,20 @@ const first = entries[0];
       </div>
     </section>
   </main>
+  {L && figures.length > 0 && (
+    <script is:inline>
+      (function () {
+        var open = null;
+        function panelOf(t) { return document.getElementById(t.getAttribute('aria-controls')); }
+        function close() { if (!open) return; open.setAttribute('aria-expanded', 'false'); panelOf(open).hidden = true; open = null; }
+        document.querySelectorAll('.ism-people .pt').forEach(function (t) {
+          t.addEventListener('click', function () {
+            if (open === t) { close(); return; }
+            close(); open = t; t.setAttribute('aria-expanded', 'true'); panelOf(t).hidden = false;
+          });
+        });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && open) { var t = open; close(); t.focus(); } });
+      })();
+    </script>
+  )}
 </Base>

@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
+import PersonCard from '../components/PersonCard.astro';
 import { ERAS, FAMILIES, THREADS, ROLES, LABS, LETTERS, SITE_NAME, pageHref, yearText } from '../lib/site';
 import { momentAnchor } from '../lib/history';
 import { getPeople, personAnchor } from '../lib/people';
@@ -29,15 +30,6 @@ const threads = THREADS.map((t) => ({ ...t, n: people.filter((p) => p.threads.in
 const roles = ROLES.filter((r) => people.some((p) => p.roles.includes(r.id)));
 const labs = LABS.filter((l) => people.some((p) => p.labs.some((x) => x.lab === l.id)));
 const letters = LETTERS.filter((l) => people.some((p) => p.letters.includes(l.id)));
-const roleName = (id: string) => ROLES.find((r) => r.id === id)?.name;
-const labName = (id: string) => LABS.find((l) => l.id === id)?.name;
-// a source as readers see it: one per page, without the checkers' notes in long brackets
-const srcList = (xs: { source: string; url?: string }[]) =>
-  [...new Map(xs.map((x) => [x.url ?? x.source, x])).values()].map((x) => ({
-    url: x.url,
-    text: x.source.replace(/\s*\((?=[^)]{26,}\))[^)]*\)/g, '').replace(/\s+,/g, ',').trim(),
-  }));
-const years = (x: { from?: number; to?: number }) => (x.from && x.to ? (x.from === x.to ? `${x.from}` : `${x.from}–${x.to}`) : x.from ? `since ${x.from}` : x.to ? `until ${x.to}` : '');
 const nav = groups.map((g) => ({ href: `#letter-${g.id}`, label: g.id }));
 
 // What each filter means, shown under the filters on hover and once chosen (owner: no help button, no hover-only text).
@@ -57,7 +49,6 @@ const groupLines: Record<string, string> = {
   lab: 'Lab: who has worked at the six labs and companies that lead AI today',
   letters: 'Open letters: who signed the three open letters on the risks of AI',
 };
-const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.test(w)).map((w) => w[0]).slice(0, 3).join('');
 ---
 <Base title={`People · ${SITE_NAME}`} description="The people who shape AI: what they did, the movements they belong to and their moments in the history.">
   <Fragment set:html={`<script type="application/json" id="pf-lines">${JSON.stringify({ lines, groupLines }).replace(/</g, '\\u003c')}</script>`} />
@@ -125,105 +116,7 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
           <div class="pgrid">
             {e.items.map((p) => (
               <Fragment>
-                <button
-                  type="button"
-                  class="pt"
-                  id={personAnchor(p.id)}
-                  data-isms={p.isms.join(' ')}
-                  data-era={p.era ?? ''}
-                  data-threads={p.threads.join(' ')}
-                  data-roles={p.roles.join(' ')}
-                  data-labs={p.labs.map((x) => x.lab).join(' ')}
-                  data-letters={p.letters.join(' ')}
-                  aria-expanded="false"
-                  aria-controls={`pp-${p.id}`}
-                >
-                  <span class="pt-img">
-                    {p.portrait ? (
-                      <img src={`portraits/${p.portrait.file}`} alt="" width="600" height="750" loading="lazy" decoding="async" />
-                    ) : (
-                      <span class="pt-none" aria-hidden="true">{initials(p.name)}</span>
-                    )}
-                    {p.families.length > 0 && (
-                      <span class="pt-sqs" aria-hidden="true">{p.families.slice(0, 2).map((f) => <span class="pt-sq" style={`background:${colour(f)}`}></span>)}</span>
-                    )}
-                  </span>
-                  <span class="pt-n">{p.name}</span>
-                  {p.lifespan && <span class="pt-l">{p.lifespan}</span>}
-                </button>
-                <div class="pp" id={`pp-${p.id}`} role="region" aria-label={p.name} hidden>
-                  <div class="pp-l">
-                    <p class="kick">{[p.lifespan, ...p.roles.map(roleName), ...p.isms.map((i) => ismById.get(i)?.data.title)].filter(Boolean).join(' · ') || 'In the history of AI'}</p>
-                    <h3 class="pp-n">{p.name}</h3>
-                    {p.notes.map((n) => <p class="pp-note">{n.note}</p>)}
-                    {p.factNote && p.factNote.trim().split(/\n+/).map((para) => <p class="pp-note">{para.trim()}</p>)}
-                    {p.notes.length === 0 && !p.factNote && (p.named.length > 0 ? p.named : p.moments).slice(0, 2).map((m) => (
-                      <p class="pp-note pp-from"><a href={`${pageHref('history')}#${momentAnchor(m.id)}`}>{yearText(m.data.year, m.data.yearLabel)} · {m.data.title}</a> {m.data.line}</p>
-                    ))}
-                    {p.notes.length === 0 && !p.factNote && p.moments.length === 0 && p.entries.slice(0, 2).map((e) => (
-                      <p class="pp-note pp-from"><a href={`${pageHref(e.data.ism.id)}#entry-${e.id.split('/')[1]}`}>{yearText(e.data.year, e.data.yearLabel)} · {e.data.title}</a></p>
-                    ))}
-                    {p.portrait && (
-                      <p class="cap pp-cap">
-                        Portrait{p.portrait.credit ? `: ${p.portrait.credit}` : ''} · {p.portrait.sourceUrl ? <a href={p.portrait.sourceUrl}>{p.portrait.licence}</a> : p.portrait.licence}
-                        {p.portrait.caveat && <Fragment> · {p.portrait.caveat}</Fragment>}
-                      </p>
-                    )}
-                  </div>
-                  <dl class="pp-r">
-                    {p.isms.length > 0 && (
-                      <div>
-                        <dt>Movements</dt>
-                        <dd class="tchips">
-                          {p.isms.map((i) => (
-                            <a href={pageHref(i)}><span class="fsw" style={`background:${ismColour(i)}`} aria-hidden="true"></span>{ismById.get(i)?.data.title}</a>
-                          ))}
-                        </dd>
-                      </div>
-                    )}
-                    {p.labs.length > 0 && (
-                      <div>
-                        <dt>Labs</dt>
-                        <dd><ul class="pp-list">{p.labs.map((x) => <li><span class="pp-row"><span class="pp-y">{years(x)}</span><span>{labName(x.lab)}</span></span></li>)}</ul></dd>
-                      </div>
-                    )}
-                    {p.letters.length > 0 && (
-                      <div>
-                        <dt>Open letters</dt>
-                        <dd><ul class="pp-list">{LETTERS.filter((l) => p.letters.includes(l.id)).map((l) => <li><span class="pp-row"><span class="pp-y">{l.when.slice(-4)}</span><span>Signed {l.name.replace(/^The /, 'the ')}</span></span></li>)}</ul></dd>
-                      </div>
-                    )}
-                    {p.moments.length > 0 && (
-                      <div>
-                        <dt>In the history of AI</dt>
-                        <dd><ul class="pp-list">{p.moments.map((m) => <li><a href={`${pageHref('history')}#${momentAnchor(m.id)}`}><span class="pp-y">{yearText(m.data.year, m.data.yearLabel)}</span>{m.data.title}</a></li>)}</ul></dd>
-                      </div>
-                    )}
-                    {p.entries.length > 0 && (
-                      <div>
-                        <dt>In the movements' histories</dt>
-                        <dd><ul class="pp-list">{p.entries.map((e) => <li><a href={`${pageHref(e.data.ism.id)}#entry-${e.id.split('/')[1]}`}><span class="pp-y">{yearText(e.data.year, e.data.yearLabel)}</span><span>{e.data.title}<span class="pp-ism"> · {ismById.get(e.data.ism.id)?.data.title}</span></span></a></li>)}</ul></dd>
-                      </div>
-                    )}
-                    {p.words.length > 0 && (
-                      <div>
-                        <dt>Words</dt>
-                        <dd class="tchips">{p.words.map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}</dd>
-                      </div>
-                    )}
-                    {p.sources.length > 0 && (
-                      <div>
-                        <dt class="vh">Sources</dt>
-                        <dd>
-                          <details class="pp-srcs">
-                            <summary>Sources · {srcList(p.sources).length}</summary>
-                            <ul class="pp-src">{srcList(p.sources).map((x) => <li>{x.url ? <a href={x.url}>{x.text}</a> : x.text}</li>)}</ul>
-                          </details>
-                        </dd>
-                      </div>
-                    )}
-                  </dl>
-                </div>
+                <PersonCard p={p} />
               </Fragment>
             ))}
           </div>
