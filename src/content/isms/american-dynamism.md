@@ -7,7 +7,8 @@ summary: "AI is the decisive technology of national power, and the race with Chi
 includes: [a national AGI project, AI dominance, the technological republic]
 lead: "American Dynamism holds that AI decides national power, and that America and its allies must out-build China to set the rules."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
-# The page is built in phase 2 of the workplan; until then the card shows "In preparation".
+image: collage-american-dynamism
+pageImage: collage-american-dynamism-tall
 themes: [compute]
 born: american-dynamism/2022-american-dynamism
 holders:

@@ -295,3 +295,33 @@
   alt: "A black NeXT computer cube with a handwritten sticker on its side, on display at CERN's Microcosm museum"
   sourceUrl: "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg"
   note: "Batch 11, approved by the owner on 24 Nov 2026 (19:43) in place of CERN's own 1990 photo, which sits behind a bot check. Original 2,048 × 1,536 px; resized to 1,800 px."
+- id: y12-alpha-racetrack-1944
+  title: "An Alpha racetrack at the Y-12 electromagnetic plant, Oak Ridge, Manhattan Project"
+  date: "c. 1944"
+  creator: "Ed Westcott, US government photographer"
+  rights: public-domain
+  licence: "Public domain, photo Ed Westcott, US Department of Energy, Wikimedia Commons"
+  file: "y12-alpha-racetrack-1944.jpg"
+  alt: "An oval track of huge electromagnets in a factory hall, walkways and stairs running round it, concrete pillars rising through the middle"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Oak_Ridge_Y-12_Alpha_Track.jpg"
+  note: "Batch 12, approved by the owner on 25 Nov 2026 (17:46). Original 1,417 × 1,087 px, kept at that size."
+- id: edison-jumbo-dynamo-1882
+  title: "The Edison 1,500-light steam dynamo called the Jumbo, installed in 1882"
+  date: "1882 (illustration in J. A. Fleming, Fifty Years of Electricity, 1921)"
+  creator: "Unknown engraver"
+  rights: open-licence
+  licence: "CC BY 4.0, Wellcome Collection"
+  file: "edison-jumbo-dynamo-1882.jpg"
+  alt: "An engraving of a long steam engine coupled to a dynamo with tall field magnets, on a cast-iron bed"
+  sourceUrl: "https://wellcomecollection.org/works/nub24h4h"
+  note: "Batch 12, approved by the owner on 25 Nov 2026 (17:46). From Wikimedia Commons (File:The_Edison_1,500_light_110_volt_steam_dynamo_Wellcome_M0015307.jpg), CC BY 4.0. Wellcome's record of a 1956 archive photograph of the same plate (works/h5qqy3qt) says in copyright; the image used comes from the CC BY 4.0 record. The printed caption is cropped out. Original 3,819 × 2,746 px; resized to 1,800 px."
+- id: vaucanson-duck-mechanism
+  title: "The mechanism of a digesting duck presumed to be Vaucanson's"
+  date: "before 1880"
+  creator: "Unknown photographer"
+  rights: public-domain
+  licence: "Public domain, photograph before 1880, reproduced in Chapuis and Droz, Les automates (1949), Wikimedia Commons"
+  file: "vaucanson-duck-mechanism.jpg"
+  alt: "The skeleton of a mechanical duck standing on a tall wooden frame full of wheels, weights and gears"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Canard_pr%C3%A9sum%C3%A9_de_Vaucanson_1.jpg"
+  note: "Batch 12, approved by the owner on 25 Nov 2026 (17:46), in place of the 1899 Scientific American drawing. Whether it shows Vaucanson's own duck is disputed; the label says presumed. Original 2,424 × 3,438 px; resized to 1,800 px."

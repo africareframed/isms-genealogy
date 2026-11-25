@@ -7,7 +7,8 @@ summary: "AI is powerful but normal, like electricity: its effects arrive slowly
 includes: [the snake-oil critique of predictive AI, the modest-growth economics]
 lead: "Normal technology holds that AI is powerful but ordinary, and that its uses should be governed with the tools we already have."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
-# The page is built in phase 2 of the workplan; until then the card shows "In preparation".
+image: collage-normal-technology
+pageImage: collage-normal-technology-tall
 born: normal-technology/2025-normal-technology
 holders:
   - name: Arvind Narayanan and Sayash Kapoor

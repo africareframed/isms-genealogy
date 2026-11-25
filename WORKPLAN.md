@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phases 1, 2 and 4 live, the Doubt colour (3.1), and the Pause and AI safety cards. Next: 3.2 (an image batch for the other three cards, owner-gated), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
+**Now:** phases 1, 2 and 4 live, the Doubt colour (3.1), and the Pause and AI safety cards. Next: the home page as an atlas (owner's choices pending), 3.3 (the design guide), 3.3 (the design guide), then phase 5 (checker pass on the draft text).
 
 ### How to pick up (read this first, every session)
 
@@ -80,7 +80,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 ### Phase 3. Cards and colour (owner-gated)
 
 - [x] 3.1 The Doubt colour (owner); then `FAMILIES`, cards and the design guide's tokens
-- [ ] 3.2 Cards for the five new movements. Pause and AI safety took over the Rationalism and EA cards (owner, 25 Nov: the paper clip and the arithmometer with 10⁵⁸, renamed `collage-pause` and `collage-ai-safety`). Left: American Dynamism, Normal technology and AI skepticism: image batch 12 (`docs/image-batches/batch-12.md`) waits for his yes; collages only after it
+- [x] 3.2 Cards for the five new movements. Pause and AI safety took over the Rationalism and EA cards (owner, 25 Nov: the paper clip and the arithmometer with 10⁵⁸, renamed `collage-pause` and `collage-ai-safety`). American Dynamism (the Y-12 Alpha racetrack), Normal technology (Edison's Jumbo dynamo) and AI skepticism (the mechanism of Vaucanson's presumed duck) from image batch 12, approved 25 Nov (17:46)
 - [ ] 3.3 The design guide (artifact `4b7a91e1…`): cards, tokens, decisions
 
 ### Phase 4. Across the site
@@ -166,7 +166,6 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 - Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
-- Image batch 12 (`docs/image-batches/batch-12.md`): cards for American Dynamism, Normal technology and AI skepticism.
 - The home page as an atlas of the movements only (owner, 25 Nov, 17:40): History of AI and Vocabulary off the home page for now; new subtitle and hero. Waiting on three choices: where History and Vocabulary go (own pages, or parked on People), whether they stay in the menu, and the subtitle.
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
@@ -189,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Cards for the last three movements, from image batch 12 (owner's yes, 17:46): American Dynamism is an Alpha racetrack at Y-12, Oak Ridge (c. 1944) with 2024 · a Manhattan Project for AGI; Normal technology is Edison's Jumbo dynamo (1882) with 2025 · AI as normal technology; AI skepticism is the mechanism of a duck presumed to be Vaucanson's (before 1880) with 2021 · On the Dangers of Stochastic Parrots. All twelve movements now have cards.
 
 - 2026-11-25: Pause and AI safety took over the old Rationalism and Effective altruism cards (owner): the Gem paper clip with the paperclip maximiser, and the arithmometer with Bostrom's 10⁵⁸ future lives. Both stay pink, as before. Files and engine ids renamed to `collage-pause` and `collage-ai-safety`.
 

@@ -1,6 +1,6 @@
 # Image batch 12 — 25 November 2026
 
-Status: **waiting for the owner's approval.** Cards for the three new movements that have none: American Dynamism (Accelerate, orange), Normal technology and AI skepticism (Doubt, turquoise). One strong object each, with a label from another time that closes the gap, by the guide's rule. No people in any of them. Licences read from the Commons file pages and the Wellcome Collection record through search results; Commons itself did not answer today, so each file page is opened again before download.
+Status: **approved by the owner on 25 November 2026 (17:46): 1, 2 and 3b** (the photograph of the duck's mechanism in place of the 1899 drawing). Downloaded into batch-12/ after the licences were read again on the file pages through the Commons API; looked at by eye, no people in any of them. Cards for the three new movements that have none: American Dynamism (Accelerate, orange), Normal technology and AI skepticism (Doubt, turquoise). One strong object each, with a label from another time that closes the gap, by the guide's rule. No people in any of them. Licences read from the Commons file pages and the Wellcome Collection record through search results; Commons itself did not answer today, so each file page is opened again before download.
 
 | # | Card | Image id (proposed) | What it shows | File page | Licence | Credit | Size |
 | --- | --- | --- | --- | --- | --- | --- | --- |

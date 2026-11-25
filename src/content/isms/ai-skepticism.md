@@ -7,7 +7,8 @@ summary: "Today’s AI imitates understanding without having it, and scaling it 
 includes: [the hype critique, the neurosymbolic critique, the bubble thesis]
 lead: "AI skepticism holds that today’s AI imitates understanding without having it, and that the promise of AGI is hype to be tested."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
-# The page is built in phase 2 of the workplan; until then the card shows "In preparation".
+image: collage-ai-skepticism
+pageImage: collage-ai-skepticism-tall
 holders:
   - name: Gary Marcus
     note: Cognitive scientist and emeritus professor at New York University. He argues that scaling up language models will not reach reliable intelligence without symbols and reasoning.
