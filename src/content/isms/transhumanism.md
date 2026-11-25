@@ -4,6 +4,7 @@ family: transcend
 order: 1
 ready: true
 summary: Humans can and should use technology to overcome ageing, illness and the limits of body and mind. AI is the strongest tool yet for becoming more than human.
+includes: [longevity and Don't Die, cryonics, extropianism]
 image: collage-transhumanism
 pageImage: collage-transhumanism-tall
 lead: Transhumanism holds that the human condition is not fixed. Ageing, illness and the limits of the body and mind are problems that technology can solve, and should.
@@ -32,6 +33,45 @@ words:
 themes: [abundance, augmentation]
 disputes: "Bioconservatives see a threat to human dignity and equality. In 2004 Foreign Policy asked one of them, Francis Fukuyama, to name one of the world's most dangerous ideas, and he chose transhumanism. “The first victim of transhumanism might be equality,” he wrote. The disability scholar Gregor Wolbring sees in it an ableism that treats every body as lacking and in need of endless improvement (2008). The acronym TESCREAL, coined by Émile P. Torres with Timnit Gebru, entered debate in 2023. Its T stands for transhumanism, first in a bundle of ideologies that the two trace to twentieth-century eugenics (2024)."
 born: transhumanism/1957-huxley
+lenses:
+  quote:
+    text: "We will no longer tolerate the tyranny of aging and death."
+    by: "Max More"
+    source: "Letter to Mother Nature, 1999"
+    url: https://maxmore.substack.com/p/letter-to-mother-nature-amendments
+  values: [self-improvement, longevity, freedom over one’s own body]
+  fears: [death, ageing, bans on enhancement]
+  promises: "Liberal individualism extended to the body: each person decides what to become. It echoes the Enlightenment’s faith in human perfectibility, from Condorcet on."
+  ifItWins: "enhancement would become a consumer market, and those who can pay would go first."
+  fundedBy: |-
+    Tech fortunes pay for much of it. Peter Thiel pledged $3.5 million to the Methuselah Foundation’s anti-ageing research in 2006, and Vitalik Buterin gave the SENS Research Foundation $2.4 million in 2018.
+
+    Sam Altman put $180 million into Retro Biosciences in 2021. Altos Labs launched in 2022 with $3 billion, backed by a vehicle of Yuri Milner’s foundation and by venture funds.
+  canServeText: |-
+    **Its demands could serve** those who sell the measured body. Makers of wearables and health platforms gain, since self-enhancement runs on constant measurement. Longevity start-ups gain as ageing becomes a market, and drug and wellness firms gain as it becomes a condition to treat.
+
+    The wealthy could gain first, since they can afford enhancement before anyone else. Ageing-research labs would gain too, as money moves to the biology of ageing.
+
+    No group stands to lose outright. Its one demand of the state is to stay out of the way, and no party with power campaigns on enhancement.
+  canServe:
+    - actor: Big Tech
+      text: "Makers of wearables and health platforms, since self-enhancement runs on constant measurement."
+    - actor: Challengers
+      text: "Longevity and enhancement start-ups, since the belief turns ageing into a market."
+    - actor: Established industry
+      text: "Pharmaceutical and wellness firms, since ageing becomes a condition to treat."
+    - actor: Patrons
+      text: "Wealthy individuals seeking longer lives, since they can afford enhancement first."
+    - actor: The state
+      status: none
+      text: "Its core demand is that the state stay out of the way."
+    - actor: Politics
+      status: none
+      text: "No party with power campaigns on enhancement."
+    - actor: Institutions
+      text: "Ageing-research labs, since the belief directs money to the biology of ageing."
+  status: draft
+# Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---
 
