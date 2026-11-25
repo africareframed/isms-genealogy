@@ -1,0 +1,50 @@
+# Notable figures for AI skepticism (one file per ism). Built 25 Nov 2026; draft until checked.
+- id: ed-zitron-ai-skepticism
+  name: Ed Zitron
+  isms: [ai-skepticism]
+  note: Writer and public-relations executive whose newsletter Where's Your Ed At and podcast Better Offline argue that generative AI is a bubble.
+  entry: ai-skepticism/2024-subprime-ai-crisis
+- id: noam-chomsky-ai-skepticism
+  name: Noam Chomsky
+  isms: [ai-skepticism]
+  note: Linguist. In 2023 he argued, with Ian Roberts and Jeffrey Watumull, that ChatGPT works nothing like the human mind.
+  entry: ai-skepticism/2023-false-promise-of-chatgpt
+- id: alex-hanna-ai-skepticism
+  name: Alex Hanna
+  isms: [ai-skepticism]
+  note: Sociologist and director of research at DAIR. Co-hosts Mystery AI Hype Theater 3000 with Emily M. Bender.
+  entry: ai-skepticism/2022-mystery-ai-hype-theater
+- id: gary-marcus-ai-skepticism
+  name: Gary Marcus
+  isms: [ai-skepticism]
+  note: Cognitive scientist and emeritus professor at New York University. Since 2018 he has argued that deep learning alone will not reach reliable intelligence.
+  entry: ai-skepticism/2018-critical-appraisal
+- id: emily-m-bender-ai-skepticism
+  name: Emily M. Bender
+  lifespan: born 1973
+  isms: [ai-skepticism]
+  note: Linguist at the University of Washington. Her octopus test (2020, with Alexander Koller) argues that form alone cannot teach meaning.
+  entry: ai-skepticism/2020-octopus-test
+- id: john-searle-ai-skepticism
+  name: John Searle
+  isms: [ai-skepticism]
+  note: Philosopher whose Chinese room (1980) argued that running a program is not understanding.
+  entry: ai-skepticism/1980-chinese-room
+- id: joseph-weizenbaum-ai-skepticism
+  name: Joseph Weizenbaum
+  lifespan: 1923–2008
+  isms: [ai-skepticism]
+  note: MIT computer scientist who built ELIZA and then warned against crediting machines with understanding (1976).
+  entry: ai-skepticism/1976-computer-power-and-human-reason
+- id: james-lighthill-ai-skepticism
+  name: James Lighthill
+  lifespan: 1924–1998
+  isms: [ai-skepticism]
+  note: Cambridge mathematician whose 1973 report led Britain to cut AI research.
+  entry: ai-skepticism/1973-lighthill-report
+- id: hubert-dreyfus-ai-skepticism
+  name: Hubert Dreyfus
+  lifespan: 1929–2017
+  isms: [ai-skepticism]
+  note: Berkeley philosopher. What Computers Can't Do (1972) argued that intelligence cannot be reduced to rules.
+  entry: ai-skepticism/1972-what-computers-cant-do

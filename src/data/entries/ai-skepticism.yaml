@@ -1,0 +1,112 @@
+# Timeline of AI skepticism, newest first. Built 25 Nov 2026 (owner's framework); all entries are draft until checked.
+# Strand entries carry a tagLabel ending in "· hype critique", "· neurosymbolic critique" or "· bubble thesis".
+ism: ai-skepticism
+entries:
+  - id: 2024-subprime-ai-crisis
+    year: 2024
+    month: 9
+    title: The Subprime AI Crisis
+    who: Ed Zitron
+    relation: milestone
+    tagLabel: Milestone · bubble thesis
+    text: The writer argues that the generative AI industry loses money on its products and depends on a few cash-rich backers. When the money runs out, he predicts, the companies built on it will fail. His newsletter became the best-known voice of the bubble thesis.
+    source: Ed Zitron, “The Subprime AI Crisis”, Where's Your Ed At, September 2024
+    status: draft
+  - id: 2024-too-much-spend
+    year: 2024
+    month: 6
+    title: Too much spend, too little benefit?
+    who: Goldman Sachs
+    relation: milestone
+    tagLabel: Milestone · bubble thesis
+    text: A Goldman Sachs research report asks whether the coming trillion dollars of AI investment will pay off. Its head of global equity research, Jim Covello, doubts it, since AI is expensive and has yet to solve the complex problems that would justify the cost.
+    source: Goldman Sachs, “Gen AI. Too Much Spend, Too Little Benefit?”, Top of Mind, issue 129, 25 June 2024
+    status: draft
+  - id: 2023-false-promise-of-chatgpt
+    year: 2023
+    title: The False Promise of ChatGPT
+    who: Noam Chomsky, Ian Roberts and Jeffrey Watumull
+    relation: milestone
+    text: In The New York Times, the linguist and two colleagues argue that ChatGPT works nothing like the human mind. It finds statistical patterns in vast data, they write, but cannot explain anything or tell what is impossible from what is merely unlikely.
+    source: Noam Chomsky, Ian Roberts and Jeffrey Watumull, “The False Promise of ChatGPT”, The New York Times, 8 March 2023
+    status: draft
+  - id: 2022-mystery-ai-hype-theater
+    year: 2022
+    month: 8
+    title: Mystery AI Hype Theater 3000
+    who: Emily M. Bender and Alex Hanna
+    relation: milestone
+    tagLabel: Milestone · hype critique
+    text: The linguist and the sociologist start a livestream, later a podcast, in which they read and take apart AI hype. Hosted by the Distributed AI Research Institute, it has been downloaded more than 230,000 times.
+    source: Distributed AI Research Institute, “Mystery AI Hype Theater 3000”, dair-institute.org; Tech Policy Press, interview with Bender and Hanna, 2 July 2023
+    sourceUrl: https://www.dair-institute.org/projects/mystery-ai-hype-theater-3000
+    status: draft
+  - id: 2022-hitting-a-wall
+    year: 2022
+    month: 3
+    title: Deep Learning Is Hitting a Wall
+    who: Gary Marcus
+    relation: milestone
+    tagLabel: Milestone · neurosymbolic critique
+    text: The cognitive scientist argues that ever larger neural networks are reaching their limits on reliability and reasoning. Progress, he writes, needs a hybrid of neural networks with the symbols and logic of classical AI.
+    source: Gary Marcus, “Deep Learning Is Hitting a Wall”, Nautilus, 10 March 2022
+    status: draft
+  - id: 2020-octopus-test
+    year: 2020
+    title: Meaning, form and an octopus
+    who: Emily M. Bender and Alexander Koller
+    relation: definition
+    text: Two linguists argue that a system trained only on the form of language cannot learn its meaning. Their thought experiment has an octopus that taps an undersea cable and learns to mimic two people's messages, without knowing what any word refers to.
+    source: Emily M. Bender and Alexander Koller, “Climbing towards NLU. On Meaning, Form, and Understanding in the Age of Data”, Proceedings of ACL, 2020
+    status: draft
+  - id: 2019-rebooting-ai
+    year: 2019
+    title: Rebooting AI
+    who: Gary Marcus and Ernest Davis
+    relation: milestone
+    tagLabel: Milestone · neurosymbolic critique
+    text: Two NYU scientists argue that deep learning lacks common sense and an understanding of time, space and cause. Trustworthy AI, they write, will need knowledge built in, not only patterns learned from data.
+    source: Gary Marcus and Ernest Davis, Rebooting AI. Building Artificial Intelligence We Can Trust, Pantheon, 2019
+    status: draft
+  - id: 2018-critical-appraisal
+    year: 2018
+    title: Deep Learning. A Critical Appraisal
+    who: Gary Marcus
+    relation: definition
+    tagLabel: Modern definition · neurosymbolic critique
+    text: At the height of the deep-learning boom, Marcus lists ten of its limits, from the hunger for data to the failure to transfer what it learns. The paper set out the case that would follow every new model.
+    source: Gary Marcus, “Deep Learning. A Critical Appraisal”, arXiv 1801.00631, January 2018
+    status: draft
+  - id: 1980-chinese-room
+    year: 1980
+    title: The Chinese room
+    who: John Searle
+    relation: claimed
+    text: The philosopher imagines himself in a room, following rules to answer questions in Chinese, a language he does not understand. To those outside he seems to understand. Running a program, he argues, is not the same as understanding.
+    source: John R. Searle, “Minds, Brains, and Programs”, Behavioral and Brain Sciences 3(3), 1980
+    status: draft
+  - id: 1976-computer-power-and-human-reason
+    year: 1976
+    title: Computer Power and Human Reason
+    who: Joseph Weizenbaum
+    relation: claimed
+    text: The MIT computer scientist was alarmed that people confided in his simple chatbot ELIZA as if it understood them. In this book he warns against crediting machines with understanding, and argues that some decisions must stay with humans.
+    source: Joseph Weizenbaum, Computer Power and Human Reason. From Judgment to Calculation, W. H. Freeman, 1976
+    status: draft
+  - id: 1973-lighthill-report
+    year: 1973
+    title: The Lighthill report
+    who: James Lighthill
+    relation: milestone
+    text: Asked by Britain's Science Research Council to judge AI research, the Cambridge mathematician finds that it has failed to deliver on its promises. The report led to deep cuts in British AI funding. It is the precedent for what happens when the doubters win.
+    source: James Lighthill, “Artificial Intelligence. A General Survey”, Science Research Council, 1973
+    sourceUrl: https://www.aiai.ed.ac.uk/events/lighthill1973/lighthill.pdf
+    status: draft
+  - id: 1972-what-computers-cant-do
+    year: 1972
+    title: What Computers Can't Do
+    who: Hubert Dreyfus
+    relation: claimed
+    text: The Berkeley philosopher argues that human intelligence rests on bodily know-how and context that cannot be written down as rules. The early hopes for AI, he concludes, rested on a mistaken picture of the mind.
+    source: Hubert L. Dreyfus, What Computers Can't Do. A Critique of Artificial Reason, Harper & Row, 1972
+    status: draft

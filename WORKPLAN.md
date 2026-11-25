@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 2, next movement: 12 AI skepticism, on branch `page/ai-skepticism` (create it from `main`).
+**Now:** phase 4 (phase 3 waits on the owner), next step: 4.1, on branch `site/phase-4` (create it from `main`).
 
 ### How to pick up (read this first, every session)
 
@@ -75,7 +75,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 06 Pause (likewise)
 - [x] 04 American Dynamism (likewise; more entries if fewer than ten)
 - [x] 11 Normal technology (likewise)
-- [ ] 12 AI skepticism (new: introduction, six holders, figures, ten to sixteen entries with real sources, words, lenses; `ready: true` when complete)
+- [x] 12 AI skepticism (new: introduction, six holders, figures, ten to sixteen entries with real sources, words, lenses; `ready: true` when complete)
 
 ### Phase 3. Cards and colour (owner-gated)
 
@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Phase 2 done: all twelve movements have the new page (lenses with Promises and Interests, the quote opening People, portrait tiles). AI safety, Pause, American Dynamism, Normal technology and AI skepticism are live; American Dynamism (16 entries), Normal technology (11) and AI skepticism (12) got new timelines, and 13 names were added to the People page. All new text is draft. The five new movements still have no cards (phase 3).
 
 - 2026-11-25: Phase 1 of the new framework is live (owner's go, 14:48): six families named by verbs (Doubt in a placeholder yellow), twelve movements numbered 01–12, the map dated 25 November 2026. Effective accelerationism is a strand of Techno-optimism; Rationalism and Effective altruism are strands of Pause and AI safety; American Dynamism and Normal technology have their own files; AI skepticism is a stub. The five new movements show "In preparation" without cards until phases 2 and 3. Retired addresses redirect.
 

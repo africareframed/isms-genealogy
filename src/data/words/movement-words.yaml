@@ -341,7 +341,7 @@
   yearLabel: by 2017
   origin: "Earliest use found: Andrew Orlowski, “‘Artificial Intelligence’ was 2016's fake news”, The Register, 2 January 2017. Emily M. Bender and Alex Hanna made it the target of Mystery AI Hype Theater 3000, a DAIR Institute project first streamed on 31 August 2022. Their book followed: The AI Con: How to Fight Big Tech's Hype and Create the Future We Want, Harper, 2025."
   sourceUrl: https://www.theregister.com/2017/01/02/ai_was_the_fake_news_of_2016/
-  isms: [ai-ethics]
+  isms: [ai-ethics, ai-skepticism]
   technical: false
   status: checked
 
