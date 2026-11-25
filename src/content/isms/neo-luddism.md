@@ -45,12 +45,9 @@ lenses:
   fears: [deskilling, machines imposed from above]
   promises: Technology decided where it lands, in the workplace, the town and the classroom. It echoes the Luddites themselves, William Morris and the labour movement.
   ifItWins: workers and communities would gain vetoes. AI would enter a workplace only by agreement, and adoption would become uneven, place by place.
-  fundedBy: No major funders found.
-  fundRows:
-    - label: "2023"
-      text: Its leverage is organised labour instead. A 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
+  fundedBy: No major funders found. Its leverage is organised labour instead. In 2023 a 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
   canServeText: |-
-    Its demands could serve those who already hold power at work. Strong unions and established professions, teachers and academics among them, stand to gain, since a veto is only as strong as the group holding it. Brands that sell the handmade gain too, as refusal turns the human-made into a premium.
+    **Its demands could serve** those who already hold power at work. Strong unions and established professions, teachers and academics among them, stand to gain, since a veto is only as strong as the group holding it. Brands that sell the handmade gain too, as refusal turns the human-made into a premium.
 
     Populists on the left and the right could draw on its anger at automation. Local councils would gain a say, while national industrial strategies would lose speed. Big Tech would lose: adoption would need consent, place by place.
 

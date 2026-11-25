@@ -38,11 +38,11 @@ const isms = defineCollection({
         // derived: the first consequences of its demands becoming law, one step only. Shown under Promises after
         // "If <movement>'s demands became law tomorrow,", so it starts in lower case and keeps to the conditional.
         ifItWins: z.string(),
-        fundedBy: z.string(), // fact, set large: the largest public sum and its funder, or that none was found
-        // the facts under it, small: a year or a funder, then what was given or done
-        fundRows: z.array(z.object({ label: z.string(), text: z.string() })).default([]),
-        // shown on the page: tailored prose on who could see a benefit and why (interest, not motive; opponents included).
-        // Paragraphs separated by a blank line.
+        // Interests (owner, 25 Nov 2026): one row, two parts kept apart. First the funding, fact from the public
+        // record; then who its demands could serve, the site's reasoning, opening with a bold lead-in (**…**).
+        // Funders are named only in the first part, beneficiaries only in the second. Paragraphs split by a blank line.
+        fundedBy: z.string(),
+        // the second part: who could see a benefit and why (interest, not motive; opponents included)
         canServeText: z.string(),
         // not shown on the page: the seven actor types for the actor view (the "Can serve grid" in the owner's doc)
         canServe: z

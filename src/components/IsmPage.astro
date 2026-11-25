@@ -13,6 +13,9 @@ const { Content } = await render(ism);
 const family = FAMILIES.find((f) => f.id === ism.data.family);
 // The new page setup (owner, 25 Nov 2026): quote and lenses after the introduction, no "Who disputes it".
 const L = ism.data.lenses;
+// Prose fields: paragraphs split by a blank line; **words** set in bold (a lead-in)
+const paras = (text: string) =>
+  text.split(/\n\s*\n/).map((p) => p.trim().split(/\*\*(.+?)\*\*/).map((t, i) => ({ t, b: i % 2 === 1 })).filter((r) => r.t));
 // People (owner, 25 Nov 2026): the movement's figures as portraits that open the same panel as on the People page
 const allPeople = L ? await getPeople() : [];
 
@@ -124,16 +127,10 @@ const first = entries[0];
             </div>
           </div>
           <div class="lens">
-            <p class="lens-l">Funded by</p>
-            <div class="lens-g">
-              <p class="lens-t lens-f">{L.fundedBy}</p>
-              {L.fundRows.map((r) => <p class="lens-t"><span class="fr-l">{r.label}</span> {r.text}</p>)}
-            </div>
-          </div>
-          <div class="lens">
-            <p class="lens-l">Can serve</p>
+            <p class="lens-l">Interests</p>
             <div class="lens-g lens-p">
-              {L.canServeText.split(/\n\s*\n/).map((para) => <p class="lens-t">{para.trim()}</p>)}
+              {paras(L.fundedBy).map((x) => <p class="lens-t">{x.map((r) => (r.b ? <strong>{r.t}</strong> : r.t))}</p>)}
+              {paras(L.canServeText).map((x) => <p class="lens-t">{x.map((r) => (r.b ? <strong>{r.t}</strong> : r.t))}</p>)}
             </div>
           </div>
         </div>

@@ -149,11 +149,9 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .lens:last-child { border-bottom: 0; }
 .lens-l { margin: 0; font-size: 20px; line-height: 28px; font-weight: 600; }
 .lens-t { margin: 0; font-size: 20px; line-height: 32px; color: var(--ink-2); }
-.lens-f { color: var(--ink); font-weight: 600; }
 .lens-w { margin-top: 12px; }
-.lens-w strong { font-weight: 600; color: var(--ink); }
+.lens-w strong, .lens-p strong { font-weight: 600; color: var(--ink); }
 .lens-g { display: flex; flex-direction: column; gap: 8px; }
-.fr-l { font-family: var(--mono); font-size: 13px; letter-spacing: 0.04em; color: var(--muted); margin-right: 4px; }
 .lchips { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .lchips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; font-size: 17px; line-height: 22px; }
 .lchips .lv { background: var(--fam); border: 2px solid var(--fam); }
