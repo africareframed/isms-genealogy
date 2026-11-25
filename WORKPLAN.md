@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: "In the history of AI" taken off the movement pages (owner, 19:22): each page ends with its own history, so the second list was a duplicate. Key-word pages keep theirs.
+
 - 2026-11-25: Hero in the owner's order (19:20): scene and new axes; the breakthrough; strange, yet strangely familiar; power and the world order; and a closing line on its own, "Radical Romance investigates twelve movements and follows each tale back to its roots". Big Tech and "an archaic dread" kept from his edit at 19:14.
 
 - 2026-11-25: Family introductions now open with the family's name and what defines it ("Transcend is the vision of a future beyond human limits…"), not "Both" (owner, 19:17).

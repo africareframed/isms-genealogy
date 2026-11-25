@@ -194,7 +194,8 @@ const first = entries[0];
       </section>
     )}
 
-    {inHistory.length > 0 && (
+    {/* Not on the new page setup (owner, 25 Nov 2026): the page's own history follows, so a second list of History of AI moments is left out. */}
+    {inHistory.length > 0 && !L && (
       <section class="wrap sec" aria-labelledby="aih-h">
         <h2 class="kick" id="aih-h">In the history of AI</h2>
         <div>
