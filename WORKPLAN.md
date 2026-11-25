@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phases 1, 2 and 4 live; the Doubt colour and all twelve movement cards (3.1, 3.2). Next: the home page as an atlas of the movements (waiting on the owner's three choices), 3.3 (the design guide: the new cards), then phase 5 (checker pass on the draft text).
+**Now:** phases 1, 2 and 4 live; the Doubt colour and all twelve movement cards (3.1, 3.2); the home page as an atlas of the movements. Next: 3.3 (the design guide: the new cards), then phase 5 (checker pass on the draft text, and the doc and the site agree).
 
 ### How to pick up (read this first, every session)
 
@@ -166,7 +166,6 @@ Tick each line as it is done, commit, push. A resumed session picks up at the fi
 
 - Long timelines after the merges (the guide is ten to sixteen): Techno-optimism 31 entries, AI safety 20. Trim, or keep the strands' history whole?
 
-- The home page as an atlas of the movements only (owner, 25 Nov, 17:40): History of AI and Vocabulary off the home page for now; new subtitle and hero. Waiting on three choices: where History and Vocabulary go (own pages, or parked on People), whether they stay in the menu, and the subtitle.
 - Whether People stays in the menu once movement pages show their people as portraits (phase 4.6).
 
 - Whether images under a non-commercial licence (CC BY-NC, e.g. the British Museum's Gilgamesh tablet, a Barlach lithograph) are acceptable.
@@ -188,6 +187,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: The home page is an atlas of the movements only (owner, 17:40 and 17:54): the History of AI card is parked (switched off in `index.astro`), the key-word cards move to the top of the vocabulary page, and both pages stay in the menu. The subtitle stays. The hero's text now frames the atlas: the camps were already there, they compete over what AI is and what future it should bring, twelve in six families, and each idea's genealogy. Back links read "All movements".
 
 - 2026-11-25: Cards for the last three movements, from image batch 12 (owner's yes, 17:46): American Dynamism is an Alpha racetrack at Y-12, Oak Ridge (c. 1944) with 2024 · a Manhattan Project for AGI; Normal technology is Edison's Jumbo dynamo (1882) with 2025 · AI as normal technology; AI skepticism is the mechanism of a duck presumed to be Vaucanson's (before 1880) with 2021 · On the Dangers of Stochastic Parrots. All twelve movements now have cards.
 

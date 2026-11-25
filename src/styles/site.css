@@ -105,6 +105,8 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .ww a { text-decoration: none; border-bottom: 2px solid #D8461C; }
 .vocab { padding-top: 72px; display: flex; flex-direction: column; gap: 24px; }
 .vocab h1 { margin: 0; font-size: 64px; line-height: 68px; font-weight: 600; letter-spacing: -0.025em; }
+.vkeys { margin: 40px 0 72px; }
+.vkeys .kick, .vall-h { margin: 0 0 24px; font-weight: 400; }
 .vlead { margin: 0 0 16px; max-width: 760px; font-size: 20px; line-height: 30px; color: var(--ink-3); }
 .vocab .wlist { margin-top: 16px; }
 .vteaser { margin: 24px 0 0; display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 10px; font-size: 26px; line-height: 34px; font-weight: 600; letter-spacing: -0.01em; }

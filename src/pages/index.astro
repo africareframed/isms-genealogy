@@ -31,6 +31,9 @@ const GLITCH = {
     pieces: [[6, 1, 4, 5], [3, 0, 2, 1], [2, 2, 2, 2], [4, 11, 1, 2], [9, 12, 2, 2]] },
 };
 const num = (n: number) => String(n).padStart(2, '0');
+// Parked (owner, 25 Nov 2026): the home page is an atlas of the movements only while the site is restructured.
+// The History of AI card and its motion stay here, switched off; set to true to bring it back.
+const SHOW_HISTORY_CARD = false;
 
 ---
 <Base title={`${SITE_NAME}: ${SITE_TITLE}`}>
@@ -40,7 +43,7 @@ const num = (n: number) => String(n).padStart(2, '0');
       {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
       <a href="#movements">Movements</a>
       <a href={pageHref('people')}>People</a>
-      <a href="#vocabulary">Vocabulary</a>
+      <a href={pageHref('vocabulary')}>Vocabulary</a>
       <a href={pageHref('about')}>About</a>
       <a href={pageHref('method')}>Method</a>
     </nav>
@@ -56,16 +59,16 @@ const num = (n: number) => String(n).padStart(2, '0');
       <div class="hero-side">
         <p class="stand">ChatGPT arrived in November 2022 and felt like year zero.<br /><span class="nb">It wasn't.</span></p>
         <div class="hero-body">
-          <p>The AI world was already divided into camps, each with its own founding texts, institutions and language. Their arguments now shape what the labs build, what investors fund and what governments write into law.</p>
-          <p>Many of their ideas are older than the computer. A rule for updating belief dates from 1763, a dream of perfecting humanity from 1795, a warning that machines would overtake us from 1863.</p>
-          <p>Made Minds tells the {moments.length > 0 ? <a href="#history">history of AI</a> : 'history of AI'}, maps the <a href="#movements">twelve movements</a> that grew out of it and the <a href={pageHref('people')}>people</a> behind them, and gathers the <a href="#vocabulary">vocabulary</a> they fight over.</p>
+          <p>The AI world was already divided into movements, each with its own founding texts, institutions and language. Since then, they have competed to say what AI is and what kind of future it should bring.</p>
+          <p>Their ideas now shape what labs build, what investors fund and what governments write into law. This atlas maps twelve of them in six families, from those who expect AI to transcend humanity to those who doubt it will change much.</p>
+          <p>Many of their ideas are older than the computer. A rule for updating belief dates from 1763, a dream of perfecting humanity from 1795, a warning that machines would overtake us from 1863. Each movement's page traces its genealogy.</p>
         </div>
       </div>
     </div>
   </section>
 
   <main id="main">
-  {moments.length > 0 && (
+  {SHOW_HISTORY_CARD && moments.length > 0 && (
     <section id="history" class="wrap hist-sec" aria-labelledby="hist-h">
       <div class="themes-head">
         <h2 id="hist-h">History of AI</h2>
@@ -131,31 +134,6 @@ const num = (n: number) => String(n).padStart(2, '0');
     </div>
   </section>
 
-  <section id="vocabulary" class="wrap themes-sec" aria-labelledby="vocab-h">
-    <div class="themes-head">
-      <h2 id="vocab-h">Vocabulary</h2>
-      <p class="sec-intro">The words the debate keeps returning to, each with who coined it and when. The key words below have a page of their own, comparing how the movements see them. The rest are in the full vocabulary, alongside the technical terms they argue over.</p>
-    </div>
-    <div class="tgrid">
-      {questions.map((t) => {
-        const inner = (
-          <Fragment>
-            <Picture image={t.data.image} ratio="3 / 2" />
-            <h3 class="tt">{t.data.title}</h3>
-            <p class="td">{t.data.summary}</p>
-            {!t.data.ready && <span class="soon">In preparation</span>}
-          </Fragment>
-        );
-        return t.data.ready ? <a class="card" href={pageHref(t.id)}>{inner}</a> : <div class="card">{inner}</div>;
-      })}
-    </div>
-    {words.length > 0 && (
-      <p class="vteaser">
-        {words.filter((w) => !keyTitles.has(w.data.word.toLowerCase())).slice(-14).reverse().map((w) => <a href={`${pageHref('vocabulary')}#${w.id}`}>{w.data.word}</a>)}
-        <a class="vall" href={pageHref('vocabulary')}>All {words.length} words →</a>
-      </p>
-    )}
-  </section>
   </main>
 
   <footer class="wrap site-foot">

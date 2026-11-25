@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
 import { FAMILIES, SITE_NAME, pageHref } from '../lib/site';
 import { linkNames, personAnchor } from '../lib/people';
 
@@ -13,6 +14,8 @@ const isms = await getCollection('isms');
 const people = (await getCollection('people')).map((p) => ({ id: p.id, name: p.data.name, aliases: p.data.aliases }));
 const ismById = new Map(isms.map((i) => [i.id, i]));
 const keyWords = new Map((await getCollection('themes')).map((t) => [t.data.title.toLowerCase(), t]));
+// The key words with their cards, moved here from the home page (owner, 25 Nov 2026).
+const themes = (await getCollection('themes')).sort((a, b) => a.data.order - b.data.order);
 const familiesOf = (ids: string[]) => [...new Set(ids.map((id) => ismById.get(id)?.data.family).filter(Boolean))];
 
 // The filter: CSS only, one radio per family, and one for the technical terms (owner, 21 Nov 2026).
@@ -31,7 +34,7 @@ const filterCss = [
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
     <nav class="site-nav" aria-label="Site">
-      <a href={pageHref()}>All movements and words</a>
+      <a href={pageHref()}>All movements</a>
     </nav>
   </header>
 
@@ -39,6 +42,24 @@ const filterCss = [
     <h1>Vocabulary</h1>
     <p class="vlead">The words of the AI debate and its twelve movements, and the technical terms they argue over, oldest first, with who coined each one and when. Where an origin is disputed, the note says so.</p>
 
+    <section class="vkeys" aria-labelledby="vk-h">
+      <h2 id="vk-h" class="kick">Key words</h2>
+      <div class="tgrid">
+        {themes.map((t) => {
+          const inner = (
+            <Fragment>
+              <Picture image={t.data.image} ratio="3 / 2" />
+              <h3 class="tt">{t.data.title}</h3>
+              <p class="td">{t.data.summary}</p>
+              {!t.data.ready && <span class="soon">In preparation</span>}
+            </Fragment>
+          );
+          return t.data.ready ? <a class="card" href={pageHref(t.id)}>{inner}</a> : <div class="card">{inner}</div>;
+        })}
+      </div>
+    </section>
+
+    <h2 class="kick vall-h">All words</h2>
     <input class="sr" type="radio" name="wf" id="w-all" checked aria-label="All words" />
     {FAMILIES.map((f) => <input class="sr" type="radio" name="wf" id={`w-${f.id}`} aria-label={`Words of ${f.name}`} />)}
     <input class="sr" type="radio" name="wf" id="w-tech" aria-label="Technical terms" />
