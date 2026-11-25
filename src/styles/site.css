@@ -67,11 +67,15 @@ a:hover { color: var(--muted); }
 .sec-h { margin: 0 0 40px; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; }
 .mov-sec { margin-top: 0; display: flex; flex-direction: column; gap: 48px; } /* the home page is the movements only, straight after the hero (owner, 25 Nov 2026) */
 .fams { display: flex; flex-direction: column; row-gap: 72px; }
-.fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--g); row-gap: 28px; align-items: start; padding-top: 18px; border-top: 2px solid var(--ink); }
-.fh { grid-column: 1 / -1; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 20px; row-gap: 4px; }
-.fn { margin: 0; font-size: 15px; line-height: 20px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; display: flex; align-items: center; }
+.fam { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--g); row-gap: 28px; align-items: start; padding-top: 32px; border-top: 2px solid var(--ink); }
+/* Each family heads its row like a section: the name large on columns 1-6, its line on 7-12 (owner, 25 Nov 2026, as the Movements header was) */
+.fh { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--g); row-gap: 12px; align-items: start; margin-bottom: 20px; }
+.fn { margin: 0; font-size: 48px; line-height: 52px; font-weight: 600; letter-spacing: -0.02em; display: flex; align-items: center; }
+.fn .fsw { width: 26px; height: 26px; margin-right: 18px; }
 .fsw { display: inline-block; width: 14px; height: 14px; margin-right: 10px; flex: none; }
-.fd { margin: 0; font-size: 16px; line-height: 24px; color: var(--muted); }
+.fd { margin: 0; max-width: 560px; padding-top: 6px; font-size: 16px; line-height: 25px; color: var(--ink-3); }
+@media (max-width: 900px) { .fh { grid-template-columns: minmax(0, 1fr); } .fd { padding-top: 0; } }
+@media (max-width: 640px) { .fn { font-size: 36px; line-height: 40px; } .fn .fsw { width: 20px; height: 20px; margin-right: 14px; } }
 .cn { font-family: var(--mono); font-size: 13px; line-height: 18px; color: var(--muted); margin-top: 6px; }
 .card { display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: var(--ink); transition: opacity 200ms ease; }
 a.card:hover .ph, a.card:hover img { filter: brightness(0.96); }
