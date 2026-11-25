@@ -1,0 +1,11 @@
+# Notable figures for normal-technology (one file per ism).
+- id: arvind-narayanan-ai-ethics
+  name: Arvind Narayanan
+  isms: [normal-technology]
+  note: Princeton computer scientist who directs its Center for Information Technology Policy. Co-wrote AI Snake Oil and “AI as Normal Technology”.
+  entry: normal-technology/2025-normal-technology
+- id: sayash-kapoor-ai-ethics
+  name: Sayash Kapoor
+  isms: [normal-technology]
+  note: Computer scientist with a Princeton doctorate, who joins UC Berkeley's School of Information in 2027. Co-wrote AI Snake Oil and “AI as Normal Technology” with Narayanan.
+  entry: normal-technology/2024-ai-snake-oil

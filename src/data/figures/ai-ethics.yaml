@@ -11,16 +11,6 @@
   isms: [ai-ethics]
   note: Sociologist and director of research at DAIR. Co-hosts Mystery AI Hype Theater 3000 with Emily M. Bender.
   entry: ai-ethics/2025-the-ai-con
-- id: arvind-narayanan-ai-ethics
-  name: Arvind Narayanan
-  isms: [ai-ethics]
-  note: Princeton computer scientist who directs its Center for Information Technology Policy. Co-wrote AI Snake Oil and “AI as Normal Technology”.
-  entry: ai-ethics/2025-normal-technology
-- id: sayash-kapoor-ai-ethics
-  name: Sayash Kapoor
-  isms: [ai-ethics]
-  note: Computer scientist with a Princeton doctorate, who joins UC Berkeley's School of Information in 2027. Co-wrote AI Snake Oil and “AI as Normal Technology” with Narayanan.
-  entry: ai-ethics/2024-ai-snake-oil
 - id: timnit-gebru-ai-ethics
   name: Timnit Gebru
   lifespan: born 1983
@@ -67,7 +57,6 @@
   isms: [ai-ethics]
   note: MIT computer scientist who fled Nazi Germany as a boy, wrote ELIZA, and then became one of the leading critics of AI.
   entry: ai-ethics/1976-computer-power-and-human-reason
-
 - id: meredith-whittaker-ai-ethics
   name: Meredith Whittaker
   isms:
@@ -107,7 +96,6 @@
   isms:
   - ai-ethics
   note: Tech journalist and reporter in residence at the AI Now Institute. His Blood in the Machine (2023) recasts the Luddites as workers resisting technology used against them.
-
 - id: jill-lepore-ai-ethics
   name: Jill Lepore
   lifespan: born 1966

@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 1, branch `framework/switch`. Next step: 1.7.
+**Now:** phase 1, branch `framework/switch`. Next step: 1.8.
 
 ### How to pick up (read this first, every session)
 
@@ -54,7 +54,7 @@ All on one branch, so the live site changes once, when the whole switch is done.
 - [x] 1.4 American Dynamism out of Techno-optimism: its entries and figures move to `american-dynamism`.
 - [x] 1.5 Rationalism into Pause, and its alignment entries into AI safety: entries, figures, words, images, references (history, themes, `about.astro`).
 - [x] 1.6 Effective altruism into AI safety, with Humanist AI: entries, figures, words, images, references (history, themes, `people.yaml`).
-- [ ] 1.7 AI as normal technology out of AI ethics into `normal-technology`.
+- [x] 1.7 AI as normal technology out of AI ethics into `normal-technology`.
 - [ ] 1.8 Redirect pages for the three retired addresses (`public/`, meta refresh, `noindex`).
 - [ ] 1.9 Counts and wording: "ten movements" and "five families" in `index.astro`, `history.astro`, `method.astro`, `vocabulary.astro` and `people.astro`; the Movements header's introduction.
 - [ ] 1.10 `CLAUDE.md`: the framework section rewritten to the new map (families, movements, strands, order).

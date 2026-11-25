@@ -1,4 +1,4 @@
-# Words of AI ethics (incl. AI as normal technology). Same fields as words.yaml; see src/content.config.ts.
+# Words of AI ethics (and, since 25 Nov 2026, two of Normal technology). Same fields as words.yaml; see src/content.config.ts.
 # Ordered by year of coinage or earliest documented use, oldest first.
 # yearLabel "by …" means only an earliest documented use is known; origin says so.
 # status: draft until a checker agent has verified every claim against its source.
@@ -56,7 +56,7 @@
   yearLabel: by 2019
   origin: "Arvind Narayanan, “How to recognize AI snake oil”, slides of a talk at MIT in November 2019, the earliest use of the phrase found; Princeton's computer science department reported on it on 22 January 2021. He developed it with Sayash Kapoor into the book AI Snake Oil, Princeton University Press, September 2024."
   sourceUrl: https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf
-  isms: [ai-ethics]
+  isms: [normal-technology]
   technical: false
   status: checked
 
@@ -67,7 +67,7 @@
   year: 2025
   origin: "Arvind Narayanan and Sayash Kapoor, “AI as Normal Technology”, Knight First Amendment Institute at Columbia University, 15 April 2025. Their newsletter now carries the same name (normaltech.ai)."
   sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
-  isms: [ai-ethics]
+  isms: [normal-technology]
   technical: false
   status: checked
 

@@ -1,0 +1,24 @@
+# Timeline of normal-technology, newest first. status: draft until checked.
+ism: normal-technology
+entries:
+  - id: 2025-normal-technology
+    year: 2025
+    month: 4
+    title: AI as Normal Technology
+    who: Arvind Narayanan and Sayash Kapoor
+    relation: milestone
+    text: Narayanan and Kapoor argue that AI is a normal technology, like electricity or the internet, transformative but a tool people can control. New methods may come fast, they write, but adoption takes decades, as electrification did. They doubt that superintelligence, as usually framed, is a coherent idea, and put resilience rather than nonproliferation at the centre of policy.
+    source: Arvind Narayanan and Sayash Kapoor, “AI as Normal Technology”, Knight First Amendment Institute at Columbia University, 15 April 2025
+    sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
+    themes: [alignment]
+    status: checked
+  - id: 2024-ai-snake-oil
+    year: 2024
+    month: 9
+    title: AI Snake Oil
+    who: Arvind Narayanan and Sayash Kapoor
+    relation: milestone
+    text: Two Princeton computer scientists use the name for AI products that do not work and probably never will. They describe harms AI already causes in education, medicine, hiring, banking, insurance and criminal justice. They grant the potential of some AI, such as ChatGPT, but warn against control by largely unaccountable big tech companies. What people will do with AI worries them far more than AI acting on its own.
+    source: "Arvind Narayanan and Sayash Kapoor, AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, Princeton University Press, 24 September 2024 (publisher's description)"
+    sourceUrl: https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil
+    status: checked

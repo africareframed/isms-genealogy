@@ -1,4 +1,4 @@
-# Timeline of AI ethics (incl. AI as normal technology), newest first. Each entry: id, year,
+# Timeline of AI ethics, newest first. Each entry: id, year,
 # relation (see src/content.config.ts), text, source, themes, image. status: draft until checked.
 ism: ai-ethics
 entries:
@@ -11,7 +11,6 @@ entries:
     source: "Ayush Tiwari and Raghav Kakkar, “How Big Tech is harnessing the data of Indian factory workers to train robots”, Scroll.in, 20 May 2026 (the video, Pearl Global's Gurugram unit, consent); Aishwarya Kumar, “The Indian workers training AI robots to take their jobs”, AFP, 11 June 2026, as published by The Star (Karur, Objectways, 250 rupees an hour); Diaa Hadid and Omkar Khandekar, “These workers help train robots who could one day steal their jobs”, NPR, 14 October 2026, as published by KPBS (Karur, about $2.60 an hour, Astha Kapoor)"
     sourceUrl: https://scroll.in/article/1092960/how-big-tech-is-harnessing-the-data-of-indian-factory-workers-to-train-robots
     status: checked
-
   - id: 2025-the-ai-con
     year: 2025
     month: 5
@@ -23,30 +22,6 @@ entries:
     sourceUrl: https://cdn.penguin.co.uk/dam-assets/books/9781847928610/9781847928610-sample.pdf
     themes: [luddite]
     status: checked
-
-  - id: 2025-normal-technology
-    year: 2025
-    month: 4
-    title: AI as Normal Technology
-    who: Arvind Narayanan and Sayash Kapoor
-    relation: milestone
-    text: Narayanan and Kapoor argue that AI is a normal technology, like electricity or the internet, transformative but a tool people can control. New methods may come fast, they write, but adoption takes decades, as electrification did. They doubt that superintelligence, as usually framed, is a coherent idea, and put resilience rather than nonproliferation at the centre of policy.
-    source: Arvind Narayanan and Sayash Kapoor, “AI as Normal Technology”, Knight First Amendment Institute at Columbia University, 15 April 2025
-    sourceUrl: https://knightcolumbia.org/content/ai-as-normal-technology
-    themes: [alignment]
-    status: checked
-
-  - id: 2024-ai-snake-oil
-    year: 2024
-    month: 9
-    title: AI Snake Oil
-    who: Arvind Narayanan and Sayash Kapoor
-    relation: milestone
-    text: Two Princeton computer scientists use the name for AI products that do not work and probably never will. They describe harms AI already causes in education, medicine, hiring, banking, insurance and criminal justice. They grant the potential of some AI, such as ChatGPT, but warn against control by largely unaccountable big tech companies. What people will do with AI worries them far more than AI acting on its own.
-    source: "Arvind Narayanan and Sayash Kapoor, AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, Princeton University Press, 24 September 2024 (publisher's description)"
-    sourceUrl: https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil
-    status: checked
-
   - id: 2024-tescreal
     year: 2024
     month: 4
@@ -57,7 +32,6 @@ entries:
     source: "Timnit Gebru and Émile P. Torres, “The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence”, First Monday 29(4), April 2024"
     sourceUrl: https://firstmonday.org/ojs/index.php/fm/article/view/13636
     status: checked
-
   - id: 2023-reply-to-the-pause
     year: 2023
     month: 3
@@ -68,7 +42,6 @@ entries:
     source: "Statement from the listed authors of Stochastic Parrots on the “AI pause” letter, DAIR Institute, 31 March 2023; Devin Coldewey, TechCrunch, 31 March 2023 (names the four authors)"
     sourceUrl: https://www.dair-institute.org/blog/letter-statement-March2023/
     status: checked
-
   - id: 2023-kenyan-data-labellers
     year: 2023
     month: 1
@@ -79,7 +52,6 @@ entries:
     source: "Billy Perrigo, “Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic”, TIME, 18 January 2023"
     sourceUrl: https://time.com/6247678/openai-chatgpt-kenya-workers/
     status: checked
-
   - id: 2021-stochastic-parrots
     year: 2021
     month: 3
@@ -91,7 +63,6 @@ entries:
     sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
     themes: [scaling-laws, compute]
     status: checked
-
   - id: 2018-gender-shades
     year: 2018
     title: Gender Shades
@@ -102,7 +73,6 @@ entries:
     sourceUrl: https://proceedings.mlr.press/v81/buolamwini18a.html
     themes: [facial-recognition]
     status: checked
-
   - id: 2017-ai-now
     year: 2017
     title: The AI Now Institute
@@ -112,7 +82,6 @@ entries:
     source: "NYU Tandon School of Engineering, “New Artificial Intelligence Research Institute Launches”, 20 November 2017; AI Now Institute, “About”, ainowinstitute.org"
     sourceUrl: https://engineering.nyu.edu/news/new-artificial-intelligence-research-institute-launches
     status: checked
-
   - id: 2016-weapons-of-math-destruction
     year: 2016
     month: 9
@@ -123,7 +92,6 @@ entries:
     source: "Cathy O'Neil, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy, Crown, September 2016"
     sourceUrl: https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/
     status: checked
-
   - id: 2016-machine-bias
     year: 2016
     month: 5
@@ -134,7 +102,6 @@ entries:
     source: Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, “Machine Bias”, ProPublica, 23 May 2016
     sourceUrl: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
     status: checked
-
   - id: 2014-fairness-accountability-transparency
     year: 2014
     title: Fairness, accountability, transparency
@@ -144,7 +111,6 @@ entries:
     source: "“Fairness, Accountability, and Transparency in Machine Learning”, workshop at NIPS 2014, organised by Moritz Hardt and Solon Barocas (nips.cc; fatml.org, schedules 2014–2018); Cathy O'Neil, “Fairness, accountability, and transparency in big data models”, mathbabe.org, 16 December 2014 (one day, Montreal); Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning, fairmlbook.org, introduction, bibliographic notes; FAT* 2018, New York (facctconference.org)"
     sourceUrl: https://nips.cc/virtual/2014/workshop/4290
     status: checked
-
   - id: 1996-bias-in-computer-systems
     year: 1996
     title: Bias in Computer Systems
@@ -154,7 +120,6 @@ entries:
     source: "Batya Friedman and Helen Nissenbaum, “Bias in Computer Systems”, ACM Transactions on Information Systems 14(3), 1996, pp. 330–347; Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning, fairmlbook.org, introduction, bibliographic notes"
     sourceUrl: https://humanrights.uchicago.edu/virtual-library/citation/bias-computer-systems
     status: checked
-
   - id: 1976-computer-power-and-human-reason
     year: 1976
     title: Computer Power and Human Reason
@@ -164,7 +129,6 @@ entries:
     source: "Joseph Weizenbaum, Computer Power and Human Reason: From Judgment to Calculation, W. H. Freeman, 1976; Wikipedia, “Joseph Weizenbaum”; Emily M. Bender and Alex Hanna, The AI Con, Harper, 2025, excerpted as “On the Very Real Dangers of the Artificial Intelligence Hype Machine”, Literary Hub, 13 May 2025"
     sourceUrl: https://en.wikipedia.org/wiki/Joseph_Weizenbaum
     status: checked
-
   - id: 1950-human-use-of-human-beings
     year: 1950
     title: The Human Use of Human Beings
