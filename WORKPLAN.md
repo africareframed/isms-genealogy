@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Hero, second paragraph (owner, 18:59): the breakthrough of large language models brought positions that had long been fringe into the mainstream; today they are movements.
+
 - 2026-11-25: Hero text polished (owner, 18:55): one tense with the scene ("The day before"), "the machine" for one of the repeated "AI"s, a lighter list of what a movement has, and a last paragraph that closes on the tales and their roots. The subtitle waits.
 
 - 2026-11-25: The site is renamed **Radical Romance** (owner, 18:31); Made Minds is dropped altogether. `SITE_NAME`, the hero, the preview artifact's title and the illustration guide's title follow. The subtitle stays "A genealogy of the ideas behind AI". The repository and the GitHub Pages address are unchanged.
