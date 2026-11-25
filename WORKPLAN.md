@@ -6,7 +6,7 @@ Every session starts here: find the first stage that is not done, do the next pi
 
 Twelve movements in six families, and the new movement page (tested on Neo-Luddism) for all twelve. The owner, 25 Nov: no more fact-checking in this run beyond what is already done; everything new stays `status: draft` and its page shows "Draft · to be checked"; a checker pass comes later (phase 5).
 
-**Now:** phase 4, branch `site/phase-4`. Next step: 4.7.
+**Now:** phases 1, 2 and 4 live. Next: phase 3 (owner-gated: the Doubt colour, cards for the five new movements, the design guide), then phase 5 (checker pass on the draft text).
 
 ### How to pick up (read this first, every session)
 
@@ -91,7 +91,7 @@ For each movement, in this order: (a) lenses in its file from `framing.md`: valu
 - [x] 4.4 Vocabulary: words for the new movements (AI skepticism especially), tags moved from retired movements
 - [x] 4.5 History of AI: each new movement's naming moment (`born`) and tags on moments
 - [x] 4.6 People: filters and counts with twelve movements; the owner decides whether People stays in the menu
-- [ ] 4.7 Private preview artifact (stage 7)
+- [x] 4.7 Private preview artifact (stage 7)
 
 ### Phase 5. Checks (later, with the owner)
 
@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 6. Tick this file, add a line to the log, commit, push. Fetch before every push, because the owner's conversation also pushes to `main`.
 
 ## Log
+
+- 2026-11-25: Phase 4 done and live: the method and about pages explain the lenses and the twelve movements; key-word lines for American Dynamism (Compute), Normal technology (Abundance) and AI skepticism (Scaling laws); four new words (Chinese room, octopus test, general-purpose technology, productivity paradox, all draft) and three retagged (American Dynamism, rot economy, AI winter); history moments tagged with American Dynamism, AI safety and AI skepticism; naming moments for American Dynamism, Pause and Normal technology. AI safety and AI skepticism have no naming moment: no entry records the name being coined. The People filter shows all twelve, each with people. Private preview republished (version 1795616499-d021).
 
 - 2026-11-25: Phase 2 done: all twelve movements have the new page (lenses with Promises and Interests, the quote opening People, portrait tiles). AI safety, Pause, American Dynamism, Normal technology and AI skepticism are live; American Dynamism (16 entries), Normal technology (11) and AI skepticism (12) got new timelines, and 13 names were added to the People page. All new text is draft. The five new movements still have no cards (phase 3).
 
