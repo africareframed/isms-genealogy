@@ -18,7 +18,7 @@
   source: "James Lighthill, “Artificial Intelligence: A General Survey”, in Artificial Intelligence: a paper symposium, Science Research Council, 1973; Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 16; Artificial Intelligence Applications Institute, University of Edinburgh, “BBC TV – June 1973 – Lighthill Controversy Debate at the Royal Institution”; Jon Agar, “What is science for? The Lighthill report on artificial intelligence reinterpreted”, The British Journal for the History of Science 53 (3), 2020"
   sourceUrl: https://www.aiai.ed.ac.uk/events/lighthill1973/lighthill.pdf
   thread: booms-winters
-  isms: []
+  isms: [ai-skepticism]
   themes: []
   status: checked
 
@@ -310,7 +310,7 @@
     In 1972 he expanded his case into a book, What Computers Can't Do; his exchanges with AI researchers were often contentious. Human expertise, he argued, rests on a body living in the world, not on rules a program could follow.
   source: "Hubert L. Dreyfus, “Alchemy and Artificial Intelligence”, RAND Corporation paper P-3244, December 1965 (the abstract on rand.org: a different sort of computer, the human brain); Hubert L. Dreyfus, What Computers Can't Do: A Critique of Artificial Reason, Harper & Row, 1972 (as cited by Nilsson); Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, chs. 14 and 24 (teaching at MIT; the summer of 1961; alchemy; the tree; MAC HACK VI and the chess game of 1967; contentious interactions; the body; read in the author's online draft of 13 September 2009)"
   sourceUrl: https://www.rand.org/pubs/papers/P3244.html
-  isms: []
+  isms: [ai-skepticism]
   themes: []
   thread: symbols-networks
   status: checked

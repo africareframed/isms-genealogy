@@ -9,6 +9,7 @@ lead: "American Dynamism holds that AI decides national power, and that America 
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
 # The page is built in phase 2 of the workplan; until then the card shows "In preparation".
 themes: [compute]
+born: american-dynamism/2022-american-dynamism
 holders:
   - name: Andreessen Horowitz's American Dynamism practice
     note: Founded in 2022 by Katherine Boyle and David Ulevitch to back companies that “support the national interest”, from defence and aerospace to manufacturing. Its portfolio includes Anduril, Shield AI and Skydio.

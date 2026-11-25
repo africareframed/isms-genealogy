@@ -54,7 +54,7 @@
   source: "Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, ch. 21 and 24, quoting Drew McDermott at the 1984 AAAI panel and citing Alex Roland with Philip Shiman, Strategic Computing, MIT Press, 2002"
   sourceUrl: https://ai.stanford.edu/~nilsson/QAI/qai.pdf
   thread: booms-winters
-  isms: []
+  isms: [ai-skepticism]
   themes: []
   status: checked
 
@@ -181,7 +181,7 @@
     His target was what he called strong AI: the claim that a suitably programmed computer really has a mind. The journal printed it with replies from 27 researchers, and critics have long answered that the room as a whole might understand. By 1991 the computer scientist Pat Hayes had defined cognitive science as the ongoing effort to refute Searle's argument.
   source: "John R. Searle, “Minds, brains, and programs”, Behavioral and Brain Sciences 3 (3), September 1980, pp. 417–424 (Department of Philosophy, University of California, Berkeley); David Cole, “The Chinese Room Argument”, Stanford Encyclopedia of Philosophy, first published 19 March 2004, revised 23 October 2024 (the room; strong AI; the 27 commentaries; the systems reply; Pat Hayes)"
   sourceUrl: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A
-  isms: []
+  isms: [ai-skepticism]
   themes: []
   thread: reasoning
   status: checked
@@ -198,7 +198,7 @@
     There are, he wrote, “certain tasks which computers ought not be made to do”, whatever they can do. Choices that need wisdom and compassion, such as a judge's or a psychiatrist's, should stay with people who have lived human lives. Stanford's John McCarthy called it a “moralistic and incoherent book”; MIT's Eric Grimson later said it spurred years of debate about computers in decision-making.
   source: "Joseph Weizenbaum, Computer Power and Human Reason: From Judgment to Calculation, W. H. Freeman, 1976, as quoted and summarised in Nils J. Nilsson, The Quest for Artificial Intelligence, Cambridge University Press, 2010, chs. 2 and 24 (ELIZA, 1966; his escape with his family in 1936; the tasks computers ought not do; wisdom and compassion; read in the author's online draft of 13 September 2009); John McCarthy, “An Unreasonable Book”, 16 September 1976, in Bruce Buchanan, Joshua Lederberg and John McCarthy, Three Reviews of J. Weizenbaum's Computer Power and Human Reason, Stanford Artificial Intelligence Laboratory Memo AIM-291, November 1976 (read at DTIC; “This moralistic and incoherent book”; Colby's proposal of programs as psychotherapists); “Joseph Weizenbaum, professor emeritus of computer science, 85”, MIT News, 10 March 2008 (users opening their hearts to ELIZA; Eric Grimson; Weizenbaum as a critic of AI and a “heretic of technology”)"
   sourceUrl: https://news.mit.edu/2008/obit-weizenbaum-0310
-  isms: [ai-ethics]
+  isms: [ai-ethics, ai-skepticism]
   themes: []
   thread: warnings
   status: checked

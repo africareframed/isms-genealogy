@@ -9,6 +9,7 @@ lead: "Pause holds that superintelligence built with today's methods would likel
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
 # The page is built in phase 2 of the workplan; until then the card shows "In preparation".
 aka: Often called the doomers
+born: pause/2023-six-month-pause-letter
 holders:
   - name: Eliezer Yudkowsky
     note: Co-founder of MIRI and founder of LessWrong. Argues that superintelligence built with today's methods would kill everyone.

@@ -73,7 +73,7 @@
     More than 1,400 Google staff signed an open letter calling her exit “unprecedented research censorship”. Her co-lead Margaret Mitchell was fired in February 2021, and the paper appeared that March.
   source: "Karen Hao, “We read the paper that forced Timnit Gebru out of Google. Here's what it says.”, MIT Technology Review, 4 December 2020; Bobby Allyn, “Google Employees Call Black Scientist's Ouster ‘Unprecedented Research Censorship’”, NPR, 3 December 2020; Megan Rose Dickey, “Google fires top AI ethics researcher Margaret Mitchell”, TechCrunch, 19 February 2021; Emily M. Bender and others, “On the Dangers of Stochastic Parrots”, FAccT '21, ACM, March 2021"
   sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
-  isms: [ai-ethics]
+  isms: [ai-ethics, ai-skepticism]
   themes: [scaling-laws]
   thread: warnings
   status: checked

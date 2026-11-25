@@ -353,7 +353,7 @@
     SoftBank, OpenAI, Oracle and MGX were its first investors, and a data centre in Abilene, Texas, was reportedly already being built. The plans involved no US government funds. Elon Musk posted that the backers did not actually have the money.
   source: OpenAI, “Announcing The Stargate Project”, 21 January 2025; Billy Perrigo, “What to Know About ‘Stargate,’ OpenAI's New Venture Announced by President Trump”, TIME, 22 January 2025
   sourceUrl: https://openai.com/index/announcing-the-stargate-project/
-  isms: []
+  isms: [american-dynamism]
   themes: [compute]
   thread: compute
   status: checked
@@ -527,7 +527,7 @@
     They pledged to support shared research on frontier AI safety, and to meet again in 2024.
   source: "UK Government, “The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023”, GOV.UK, 1 November 2023; Department for Science, Innovation and Technology, “Iconic Bletchley Park to host UK AI Safety Summit in early November”, GOV.UK, 24 August 2023; Farouq Suleiman, “Factbox-Bletchley Park: Five facts about the UK's AI Safety Summit venue”, Reuters, 1 November 2023, republished by Yahoo News Canada (Enigma; Turing)"
   sourceUrl: https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023
-  isms: []
+  isms: [ai-safety]
   themes: []
   thread: law
   status: checked
@@ -547,7 +547,7 @@
     President Trump revoked the order on 20 January 2025, his first day back in office.
   source: Executive Order 14110, “Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence”, 30 October 2023, Federal Register 88 FR 75191, 1 November 2023, revoked by Executive Order 14148, “Initial Rescissions of Harmful Executive Orders and Actions”, 20 January 2025, Federal Register 90 FR 8237; Josh Boak and Matt O'Brien, “Biden wants to move fast on AI safeguards and signs an executive order to address his concerns”, Associated Press, 30 October 2023, republished by The Boston Globe; Kyle Wiggers, “President Trump repeals Biden's AI executive order”, TechCrunch, 20 January 2025 (his first day in office)
   sourceUrl: https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence
-  isms: []
+  isms: [ai-safety]
   themes: [compute]
   thread: law
   status: checked
@@ -661,7 +661,7 @@
     The rules also restricted Americans from helping to make advanced chips at certain plants in China. Nvidia then sold Chinese firms the A800 and H800, slower chips with performance just under the limits. In October 2023 Commerce widened the rules to cover them; Secretary Gina Raimondo said the aim was to control access to computing power.
   source: "Bureau of Industry and Security, US Department of Commerce, “Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to the People's Republic of China (PRC)”, press release, 7 October 2022; William Alan Reinsch, Matthew Schleich and Thibault Denamiel, “Insight into the U.S. Semiconductor Export Controls Update”, Center for Strategic and International Studies, 20 October 2023; Kif Leswing, CNBC, “U.S. curbs export of more AI chips, including Nvidia H800, to China”, NBC News, 18 October 2023; Billy Perrigo, “What to Know About ‘Stargate,’ OpenAI's New Venture Announced by President Trump”, TIME, 22 January 2025 (thousands of chips to train an AI system)"
   sourceUrl: https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples
-  isms: []
+  isms: [american-dynamism]
   themes: [compute]
   thread: compute
   status: checked
@@ -682,7 +682,7 @@
     Gary Marcus, an emeritus professor of neuroscience at New York University, called it “a work of fiction, not a work of science”. At the end of 2025 Kokotajlo pushed his forecast for fully automated coding back to about 2030; in April 2026, to mid-2028.
   source: "Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean, “AI 2027”, AI Futures Project, ai-2027.com, 3 April 2025 (the two endings; Scott Alexander's role); Kevin Roose, “This A.I. Forecast Predicts Storms Ahead”, The New York Times, 3 April 2025, as reprinted by The Star (Malaysia), 7 April 2025 (Berkeley non-profit led by Kokotajlo; why he left OpenAI); 80,000 Hours, “AI 2027's author returns with a plan to change the ending | Daniel Kokotajlo”, interview by Luisa Rodriguez and Elizabeth Cox, 27 August 2026 (read by millions); Zvi Mowshowitz, “AI #117: OpenAI Buys Device Maker IO”, LessWrong, 22 May 2025 (quoting Vance's interview with Ross Douthat of 21 May 2025: he had read it); Gary Marcus, “The ‘AI 2027’ Scenario: How realistic is it?”, Marcus on AI, 22 May 2025; Aisha Down, “AI expert delays timeline for its possible destruction of humanity”, The Guardian, as reprinted by the Irish Examiner, 6 January 2026 (Marcus's post and title); Eli Lifland, Brendan Halstead, Alex Kastner and Daniel Kokotajlo, “AI Futures Timelines and Takeoff Model: Dec 2025 Update”, LessWrong, 31 December 2025 (Kokotajlo's automated-coder median, 2030); Daniel Kokotajlo, Eli Lifland and Brendan Halstead, “Q1 2026 Timelines Update”, LessWrong, 2 April 2026 (moved to mid-2028)"
   sourceUrl: https://ai-2027.com/
-  isms: []
+  isms: [ai-safety]
   themes: []
   thread: warnings
   status: checked
@@ -705,7 +705,7 @@
     Amodei urged laws making AI companies open about their safety practices, and curbs on selling advanced chips to China. Fortune's Jeremy Kahn did not doubt his sincerity, but called the essay as much “a novella-length marketing message” as a prophecy.
   source: "Dario Amodei, “Machines of Loving Grace: How AI Could Transform the World for the Better”, darioamodei.com, October 2024; Kyle Wiggers, “Anthropic CEO goes full techno-optimist in 15,000-word paean to AI”, TechCrunch, 11 October 2024; David Streitfeld, “The Awesome and Alarming AI Visions of Anthropic's CEO”, The New York Times, 17 September 2026, as reprinted by GV Wire (the 1967 Brautigan poem); Dario Amodei, “The Adolescence of Technology: Confronting and Overcoming the Risks of Powerful AI”, darioamodei.com, January 2026 (one or two years; bioweapons; autocracy; 50% of entry-level white-collar jobs; transparency laws; chips); Jeremy Kahn, “Anthropic CEO Dario Amodei's 20,000-word essay on how AI ‘will test’ humanity is a must-read—but more for his remedies than his warnings”, Fortune, 27 January 2026 (published on Monday 26 January; 20,000 words)"
   sourceUrl: https://www.darioamodei.com/essay/machines-of-loving-grace
-  isms: []
+  isms: [ai-safety]
   themes: []
   thread: made-beings
   status: checked

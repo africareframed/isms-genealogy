@@ -8,6 +8,7 @@ includes: [the snake-oil critique of predictive AI, the modest-growth economics]
 lead: "Normal technology holds that AI is powerful but ordinary, and that its uses should be governed with the tools we already have."
 # New movement in the framework of 25 Nov 2026 (owner). Card text and lead from docs/framework/framing.md.
 # The page is built in phase 2 of the workplan; until then the card shows "In preparation".
+born: normal-technology/2025-normal-technology
 holders:
   - name: Arvind Narayanan and Sayash Kapoor
     note: Computer scientists from Princeton who wrote AI Snake Oil (2024). Their newsletter, AI as Normal Technology, treats AI as transformative but normal, not as a coming superintelligence.
