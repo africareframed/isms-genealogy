@@ -9,3 +9,41 @@
   isms: [normal-technology]
   note: Computer scientist with a Princeton doctorate, who joins UC Berkeley's School of Information in 2027. Co-wrote AI Snake Oil and “AI as Normal Technology” with Narayanan.
   entry: normal-technology/2024-ai-snake-oil
+- id: daron-acemoglu-normal-technology
+  name: Daron Acemoglu
+  isms: [normal-technology]
+  note: MIT economist and Nobel laureate (2024). His estimate of AI's effect on productivity, published the same year, is among the most cited cases for modest growth.
+  entry: normal-technology/2024-simple-macroeconomics
+- id: erik-brynjolfsson-normal-technology
+  name: Erik Brynjolfsson
+  isms: [normal-technology]
+  note: Stanford economist who studies how general-purpose technologies spread. Co-author of the productivity J-curve (2021).
+  entry: normal-technology/2021-productivity-j-curve
+- id: robert-j-gordon-normal-technology
+  name: Robert J. Gordon
+  isms: [normal-technology]
+  note: Northwestern economist. The Rise and Fall of American Growth (2016) argues that recent technologies have not matched the great inventions of the past.
+  entry: normal-technology/2016-rise-and-fall-of-american-growth
+- id: carlota-perez-normal-technology
+  name: Carlota Perez
+  isms: [normal-technology]
+  note: Economist who describes great technologies as waves of frenzy, crash and slow spread (2002).
+  entry: normal-technology/2002-technological-revolutions
+- id: paul-a-david-normal-technology
+  name: Paul A. David
+  isms: [normal-technology]
+  note: Stanford economic historian. He compared the computer with the electric dynamo (1990).
+  entry: normal-technology/1990-dynamo-and-computer
+- id: robert-solow-normal-technology
+  name: Robert Solow
+  lifespan: 1924–2023
+  isms: [normal-technology]
+  note: Nobel economist who saw the computer age everywhere but in the productivity statistics (1987).
+  entry: normal-technology/1987-solow-paradox
+- id: everett-m-rogers-normal-technology
+  name: Everett M. Rogers
+  lifespan: 1931–2004
+  isms: [normal-technology]
+  note: Sociologist whose Diffusion of Innovations (1962) described how new tools spread.
+  entry: normal-technology/1962-diffusion-of-innovations
+

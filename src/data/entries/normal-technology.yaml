@@ -1,4 +1,5 @@
-# Timeline of normal-technology, newest first. status: draft until checked.
+# Timeline of Normal technology, newest first. Built 25 Nov 2026 (owner's framework); new entries are draft until checked.
+# The snake-oil and modest-growth strands carry a tagLabel ending in "· snake oil" or "· modest growth".
 ism: normal-technology
 entries:
   - id: 2025-normal-technology
@@ -22,3 +23,82 @@ entries:
     source: "Arvind Narayanan and Sayash Kapoor, AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference, Princeton University Press, 24 September 2024 (publisher's description)"
     sourceUrl: https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil
     status: checked
+  - id: 2024-simple-macroeconomics
+    year: 2024
+    month: 5
+    title: The Simple Macroeconomics of AI
+    who: Daron Acemoglu
+    relation: attributed
+    tagLabel: Attributed by historians · modest growth
+    text: The MIT economist estimates what AI can add to productivity over the next ten years, based on the tasks it can take over profitably. His answer is a gain of well under one per cent in total factor productivity. The paper became a reference for those who expect modest growth from AI.
+    source: Daron Acemoglu, “The Simple Macroeconomics of AI”, NBER Working Paper 32487, May 2024
+    status: draft
+  - id: 2023-against-predictive-optimization
+    year: 2023
+    title: Against Predictive Optimization
+    who: Angelina Wang, Sayash Kapoor, Solon Barocas and Arvind Narayanan
+    relation: milestone
+    tagLabel: Milestone · snake oil
+    text: Four researchers examine systems that decide about people by predicting their future, from welfare to hiring and criminal justice. They argue that such systems share recurring flaws, from social outcomes that cannot be predicted well to training data that do not match where the systems are used.
+    source: Angelina Wang, Sayash Kapoor, Solon Barocas and Arvind Narayanan, “Against Predictive Optimization”, ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023
+    status: draft
+  - id: 2021-productivity-j-curve
+    year: 2021
+    title: The productivity J-curve
+    who: Erik Brynjolfsson, Daniel Rock and Chad Syverson
+    relation: attributed
+    text: Three economists explain why general-purpose technologies first seem to lower productivity before raising it. Firms must invest in new skills, processes and organisation that the statistics do not count. On this view AI's gains arrive late, as electricity's did.
+    source: Erik Brynjolfsson, Daniel Rock and Chad Syverson, “The Productivity J-Curve. How Intangibles Complement General Purpose Technologies”, American Economic Journal. Macroeconomics 13(1), 2021
+    status: draft
+  - id: 2019-how-to-recognize-ai-snake-oil
+    year: 2019
+    title: How to recognize AI snake oil
+    who: Arvind Narayanan
+    relation: coined
+    tagLabel: Claimed ancestor · coined the word · snake oil
+    text: In a talk at MIT, the Princeton computer scientist separates AI that works, such as image recognition, from AI that cannot, such as software claiming to predict who will reoffend or succeed in a job. He calls the second kind snake oil. The talk led to the book.
+    source: Arvind Narayanan, “How to recognize AI snake oil”, talk slides, MIT, November 2019
+    status: draft
+  - id: 2016-rise-and-fall-of-american-growth
+    year: 2016
+    title: The Rise and Fall of American Growth
+    who: Robert J. Gordon
+    relation: attributed
+    tagLabel: Attributed by historians · modest growth
+    text: The Northwestern economist argues that the great inventions of 1870 to 1970, from electricity to the car, raised living standards in ways that newer technologies have not matched. Computers, he finds, gave only a short burst of faster growth.
+    source: Robert J. Gordon, The Rise and Fall of American Growth, Princeton University Press, 2016
+    status: draft
+  - id: 2002-technological-revolutions
+    year: 2002
+    title: Technological Revolutions and Financial Capital
+    who: Carlota Perez
+    relation: attributed
+    text: The economist describes how each great technology, from railways to computers, arrives in waves. A speculative frenzy is followed by a crash, and only then by a long period in which the technology spreads through the economy.
+    source: Carlota Perez, Technological Revolutions and Financial Capital, Edward Elgar, 2002
+    status: draft
+  - id: 1990-dynamo-and-computer
+    year: 1990
+    title: The Dynamo and the Computer
+    who: Paul A. David
+    relation: attributed
+    text: The Stanford economic historian compares computers with the electric dynamo. Factories took decades to reorganise around electric power before productivity rose, he shows, and computers may follow the same slow path.
+    source: Paul A. David, “The Dynamo and the Computer. An Historical Perspective on the Modern Productivity Paradox”, American Economic Review 80(2), 1990
+    status: draft
+  - id: 1987-solow-paradox
+    year: 1987
+    title: The productivity paradox
+    who: Robert Solow
+    relation: attributed
+    tagLabel: Attributed by historians · modest growth
+    text: Reviewing a book on manufacturing, the Nobel economist writes that “you can see the computer age everywhere but in the productivity statistics”. The line named a puzzle that returns with every new technology, AI included.
+    source: Robert M. Solow, “We'd Better Watch Out”, New York Times Book Review, 12 July 1987
+    status: draft
+  - id: 1962-diffusion-of-innovations
+    year: 1962
+    title: Diffusion of Innovations
+    who: Everett M. Rogers
+    relation: attributed
+    text: The rural sociologist describes how new ideas and tools spread through a society, from early adopters to laggards, along an S-shaped curve. Diffusion, he shows, depends on people and institutions as much as on the invention.
+    source: Everett M. Rogers, Diffusion of Innovations, Free Press, 1962
+    status: draft
+

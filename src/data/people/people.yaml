@@ -1500,3 +1500,19 @@
   name: Franklin D. Roosevelt
 - id: alexander-hamilton
   name: Alexander Hamilton
+# Added 25 Nov 2026 with the Normal technology page (names only)
+- id: daron-acemoglu
+  name: Daron Acemoglu
+- id: erik-brynjolfsson
+  name: Erik Brynjolfsson
+- id: robert-j-gordon
+  name: Robert J. Gordon
+- id: carlota-perez
+  name: Carlota Perez
+- id: paul-a-david
+  name: Paul A. David
+- id: robert-solow
+  name: Robert Solow
+- id: everett-m-rogers
+  name: Everett M. Rogers
+
