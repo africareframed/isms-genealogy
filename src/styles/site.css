@@ -146,25 +146,30 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .lenses { display: flex; flex-direction: column; }
 .lens { display: grid; grid-template-columns: calc(var(--c) * 4 + var(--g) * 3) minmax(0, 1fr); column-gap: var(--g); row-gap: 12px; padding: 20px 0; align-items: baseline; }
 .lens-l { margin: 0; font-size: 20px; line-height: 28px; font-weight: 600; }
-.lens-t { margin: 0; font-size: 20px; line-height: 32px; color: var(--ink-2); max-width: 760px; }
+.lens-t { margin: 0; font-size: 20px; line-height: 32px; color: var(--ink-2); }
 .lchips { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .lchips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; font-size: 17px; line-height: 22px; }
 .lchips .lv { background: var(--fam); border: 2px solid var(--fam); }
 .lchips .lf { background: #ffffff; border: 2px solid var(--fam); }
-.serve { display: flex; flex-direction: column; gap: 18px; max-width: 760px; }
-.sv { display: flex; flex-direction: column; gap: 4px; }
-.sv-a { margin: 0; font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.sv-o { color: var(--accent); }
-.sv-t { margin: 0; font-size: 20px; line-height: 30px; color: var(--ink-2); }
-.lens-g { display: flex; flex-direction: column; gap: 20px; }
-/* the funding meter and the actor strip: squares, as in the collages; filled in the family colour */
-.meter, .strip { display: flex; flex-wrap: wrap; column-gap: 6px; row-gap: 10px; }
-.m-st { display: flex; flex-direction: column; gap: 8px; width: 104px; }
-.meter .m-st { width: 72px; }
-.sq { display: block; width: 100%; height: 28px; border: 1.5px solid var(--rule-2); background: #ffffff; }
-.sq.on, .sq.gain { background: var(--fam); border-color: var(--fam); }
-.sq.opp { background: #ffffff; border: 2px solid var(--accent); }
+.lens-g { display: flex; flex-direction: column; gap: 24px; }
+/* Funded by and Can serve sit on the grid: the right-hand eight columns split 2 + 6, the meter 2 + 2 + 2 + 2 */
+.meter { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--g); }
+.m-st { display: flex; flex-direction: column; gap: 8px; }
+.meter .sq { width: 100%; height: 24px; }
+.sq { display: block; border: 1.5px solid var(--rule-2); background: #ffffff; }
+.sq.on, .sq.gains { background: var(--fam); border-color: var(--fam); }
+.sq.opponent { border: 2px solid var(--accent); }
+.sq.mixed { background: linear-gradient(90deg, var(--fam) 50%, #ffffff 50%); border-color: var(--fam); }
 .m-l { font-family: var(--mono); font-size: 11px; line-height: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.lrows { display: flex; flex-direction: column; }
+.lrow { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); column-gap: var(--g); row-gap: 6px; padding: 12px 0; align-items: baseline; }
+.lr-a { grid-column: 1 / span 2; margin: 0; display: flex; align-items: baseline; gap: 10px; font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink); }
+.lr-a .sq { flex: none; width: 14px; height: 14px; position: relative; top: 2px; }
+.lr-n { display: flex; flex-direction: column; gap: 3px; }
+.lr-s { font-size: 11px; letter-spacing: 0.04em; color: var(--muted); }
+.opponent .lr-s { color: var(--accent); }
+.lr-t { grid-column: 3 / span 6; margin: 0; font-size: 18px; line-height: 28px; color: var(--ink-2); }
+.lrow.loses .lr-t, .lrow.none .lr-t { color: var(--muted); }
 /* People as one wrapping row (new setup): name and year, a round portrait when the person has one */
 .prow { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
 .pr { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 18px 0 18px; border: 1px solid var(--rule-2); border-radius: 999px; text-decoration: none; color: var(--ink); }
@@ -322,6 +327,9 @@ a.hist:hover .ht { text-decoration: underline; }
   .intro h1 { font-size: 72px; line-height: 76px; }
   .actors { grid-template-columns: minmax(0, 1fr); }
   .lens { grid-template-columns: minmax(0, 1fr); }
+  .lrow { grid-template-columns: minmax(0, 1fr); }
+  .lr-a, .lr-t { grid-column: 1; }
+  .meter { column-gap: 8px; }
   .nm summary { grid-template-columns: 64px minmax(0, 1fr) 24px; }
   .nm-l { display: none; }
   .nm-b { padding-left: 80px; padding-right: 0; }
@@ -360,8 +368,6 @@ a.hist:hover .ht { text-decoration: underline; }
   .intro h1 { font-size: 48px; line-height: 50px; }
   .lead { font-size: 22px; line-height: 31px; }
   .iq blockquote p { font-size: 22px; line-height: 31px; }
-  .strip .m-st { width: 76px; }
-  .meter .m-st { width: 64px; }
   .body p, p.body { font-size: 18px; line-height: 29px; }
   .thread { padding-left: 24px; margin-left: 4px; }
   .era-h { font-size: 44px; line-height: 48px; }

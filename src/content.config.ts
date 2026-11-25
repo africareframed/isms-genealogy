@@ -36,15 +36,18 @@ const isms = defineCollection({
         fears: z.array(z.string()), // stated
         promises: z.string(), // stated: its own ideal, plus the older tradition it echoes
         ifItWins: z.string(), // derived: the first consequences of its demands becoming law, one step only
-        fundedBy: z.string(), // fact: public records only; absence recorded
+        fundedBy: z.string(), // fact, one line: public records only; absence recorded
+        // the rows under the meter: a funder (or a year) on the left, what was given or done on the right
+        fundRows: z.array(z.object({ label: z.string(), text: z.string() })).default([]),
         // the meter: the largest single public sum found for its organisations, in dollars (none = none found)
         funding: z.enum(['none', '1m', '10m', '100m', '1bn']).default('none'),
         canServe: z
           .array(
             z.object({
               actor: z.enum(['Big Tech', 'Challengers', 'Established industry', 'Patrons', 'The state', 'Politics', 'Institutions']),
-              text: z.string(), // who, then "since" and the mechanism
-              opponent: z.boolean().default(false),
+              // all seven actor types, in the fixed order, so pages compare (the "Can serve grid" in the owner's doc)
+              status: z.enum(['gains', 'opponent', 'mixed', 'loses', 'none']).default('gains'),
+              text: z.string(), // who, then "since" and the mechanism; for the others, the reason in brief
             }),
           )
           .default([]),

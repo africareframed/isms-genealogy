@@ -12,7 +12,7 @@ const { Content } = await render(ism);
 const family = FAMILIES.find((f) => f.id === ism.data.family);
 // The new page setup (owner, 25 Nov 2026): quote and lenses after the introduction, no "Who disputes it".
 const L = ism.data.lenses;
-// The meter and the actor strip: the same scale and the same seven actor types on every page, so pages compare.
+// The funding meter and the Can serve rows: the same scale and the same seven actor types on every page, so pages compare.
 const FUNDING = [
   { id: '1m', label: '$1m' },
   { id: '10m', label: '$10m' },
@@ -20,11 +20,7 @@ const FUNDING = [
   { id: '1bn', label: '$1bn+' },
 ];
 const fundLevel = L ? FUNDING.findIndex((f) => f.id === L.funding) : -1;
-const ACTORS = ['Big Tech', 'Challengers', 'Established industry', 'Patrons', 'The state', 'Politics', 'Institutions'] as const;
-const actorState = (a: string) => {
-  const c = L?.canServe.filter((x) => x.actor === a) ?? [];
-  return c.length === 0 ? 'none' : c.every((x) => x.opponent) ? 'opp' : 'gain';
-};
+const STATUS = { gains: 'Gains', opponent: 'Gains · opponent', mixed: 'Mixed', loses: 'Loses', none: 'No mechanism' } as const;
 
 const allThemes = await getCollection('themes');
 const themeById = new Map(allThemes.map((t) => [t.id, t]));
@@ -137,25 +133,22 @@ const first = entries[0];
                   <span class="m-st"><span class={i <= fundLevel ? 'sq on' : 'sq'} style={`--fam: ${family?.colour}`}></span><span class="m-l">{f.label}</span></span>
                 ))}
               </div>
-              <p class="lens-t">{L.fundedBy}</p>
+              <div class="lrows">
+                {L.fundRows.map((r) => (
+                  <div class="lrow"><p class="lr-a">{r.label}</p><p class="lr-t">{r.text}</p></div>
+                ))}
+              </div>
             </div>
           </div>
           <div class="lens">
             <p class="lens-l">Can serve</p>
-            <div class="lens-g">
-              <div class="strip" aria-hidden="true">
-                {ACTORS.map((a) => (
-                  <span class="m-st"><span class={`sq ${actorState(a)}`} style={`--fam: ${family?.colour}`}></span><span class="m-l">{a}</span></span>
-                ))}
-              </div>
-            <div class="serve">
+            <div class="lrows">
               {L.canServe.map((c) => (
-                <div class="sv">
-                  <p class="sv-a">{c.actor}{c.opponent && <span class="sv-o"> · opponent</span>}</p>
-                  <p class="sv-t">{c.text}</p>
+                <div class={`lrow ${c.status}`}>
+                  <p class="lr-a"><span class={`sq ${c.status}`} style={`--fam: ${family?.colour}`}></span><span class="lr-n">{c.actor}<span class="lr-s">{STATUS[c.status]}</span></span></p>
+                  <p class="lr-t">{c.text}</p>
                 </div>
               ))}
-            </div>
             </div>
           </div>
         </div>

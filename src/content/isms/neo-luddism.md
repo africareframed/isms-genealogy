@@ -46,23 +46,37 @@ lenses:
   promises: Technology decided where it lands, in the workplace, the town and the classroom. It echoes the Luddites themselves, William Morris and the labour movement.
   ifItWins: Workers and communities gain vetoes. AI enters a workplace only by agreement, and adoption becomes uneven, place by place.
   funding: none
-  fundedBy: No major funders found. Its leverage is organised labour. In 2023 a 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
+  fundedBy: No major funders found.
+  fundRows:
+    - label: None found
+      text: No grants to its organisations in foundation databases or the press.
+    - label: "2023"
+      text: Its leverage is organised labour instead. A 148-day strike won the Writers Guild of America a contract under which writers decide whether and how generative AI is used.
   canServe:
-    - actor: Institutions
-      text: Established professions and strong unions, teachers and academic staff included, since a veto is only as strong as the group holding it.
+    - actor: Big Tech
+      status: loses
+      text: Adoption needs consent, place by place.
+    - actor: Challengers
+      status: opponent
+      text: Competitors in places that don’t refuse, since refusal in one place moves the work to another.
     - actor: Established industry
       text: Brands selling the human-made, since refusal creates a premium for the handmade.
+    - actor: Patrons
+      status: none
+      text: Few fortunes back it, and its demands offer them nothing.
+    - actor: The state
+      status: mixed
+      text: Local councils gain a say; national industrial strategies lose speed.
     - actor: Politics
       text: Populists on left and right, since anger at automation mobilises voters.
-    - actor: Challengers
-      opponent: true
-      text: Competitors in places that don’t refuse, since refusal in one place moves the work to another.
+    - actor: Institutions
+      text: Established professions and strong unions, teachers and academic staff included, since a veto is only as strong as the group holding it.
   status: draft
 # Sources for the lenses (drafted 25 November 2026, to be checked):
 # - Quote: Nathan J. Robinson, "Why You Should Be a Luddite" (interview with Brian Merchant), Current Affairs, 26 January 2024, currentaffairs.org/2024/01/why-you-should-be-a-luddite (opened: "Luddism is about questioning who machinery serves")
 # - Values, fears, promises: Glendinning 1990, Sadowski 2021, Merchant 2025 and Radsch 2025, as listed above; Mueller, Breaking Things at Work (Verso, 2021) for deskilling and workplace control
 # - Funded by: no funders found in grant databases or press (search, 25 November 2026). Writers Guild contract: Brookings, "Hollywood writers went on strike to protect their livelihoods from generative AI", 12 April 2024 (writers decide whether and how they use generative AI); 148 days: The Register, 27 September 2023, and Harvard Journal of Sports and Entertainment Law, October 2023 (seen in search results, pages not yet opened)
-# - If it wins tomorrow and Can serve are derived by the site's published rules (one step from its own demands; interest, not motive), not quoted
+# - If it wins tomorrow and Can serve are derived by the site's published rules (one step from its own demands; interest, not motive), not quoted. Can serve statuses and reasons for all seven actor types: the "Can serve grid" tab of the owner's doc (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi)
 # Sources for the card, lead, holders, introduction and disputes (checked 24 November 2026; every page below was opened):
 # - Jathan Sadowski, "I'm a Luddite. You should be one, too", The Conversation, republished by Monash Lens, 18 August 2021, lens.monash.edu/@technology/2021/08/18/1383616/im-a-luddite-you-should-be-one-too ("proud proclamation" that he is a Luddite; technology "critically scrutinised and democratically governed"; data reclaimed "from corporate gatekeepers"; seeds of a neo-Luddite movement; gig labour, data extraction)
 # - Chellis Glendinning, "Notes toward a Neo-Luddite Manifesto", Utne Reader, 1990 (Wikipedia, "Neo-Luddism", references), text at theanarchistlibrary.org/library/chellis-glendinning-notes-toward-a-neo-luddite-manifesto (principle 1: "Neo-Luddites are not anti-technology"; principle 2: "All technologies are political"; Mumford cited)
