@@ -188,6 +188,8 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-25: Hero: the breakthrough of large language models "stirred wonder and archaic fears" (owner, 19:00).
+
 - 2026-11-25: Hero, second paragraph (owner, 18:59): the breakthrough of large language models brought positions that had long been fringe into the mainstream; today they are movements.
 
 - 2026-11-25: Hero text polished (owner, 18:55): one tense with the scene ("The day before"), "the machine" for one of the repeated "AI"s, a lighter list of what a movement has, and a last paragraph that closes on the tales and their roots. The subtitle waits.
