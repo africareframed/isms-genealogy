@@ -87,78 +87,62 @@ const first = entries[0];
         )}
         {ism.data.lead && <p class="lead">{ism.data.lead}</p>}
         <div class="body"><Content /></div>
+        {L?.quote && (
+          <figure class="iq">
+            <blockquote><p>“{L.quote.text}”</p></blockquote>
+            <figcaption class="cap">{L.quote.by}, {L.quote.url ? <a href={L.quote.url}>{L.quote.source}</a> : L.quote.source}</figcaption>
+          </figure>
+        )}
       </div>
       <Picture image={ism.data.pageImage ?? ism.data.image} ratio={ism.data.pageImage ? '4 / 5' : '4 / 3'} />
     </section>
 
-    {L?.quote && (
-      <section class="wrap sec" aria-labelledby="quote-h">
-        <div class="sec-top"><h2 class="kick" id="quote-h">In its own words</h2></div>
-        <figure class="lq">
-          <blockquote><p>“{L.quote.text}”</p></blockquote>
-          <figcaption class="cap">{L.quote.by}, {L.quote.url ? <a href={L.quote.url}>{L.quote.source}</a> : L.quote.source}</figcaption>
-        </figure>
-      </section>
-    )}
-
     {L && (
-      <section class="wrap sec" aria-labelledby="wants-h">
-        <div class="sec-top">
-          <h2 class="kick" id="wants-h">What it wants</h2>
-          {L.status === 'draft' && <span class="draft">Draft · to be checked</span>}
-        </div>
+      <section class="wrap sec" aria-label="Values, fears, promises, funding and who it can serve">
         <div class="lenses">
           <div class="lens">
-            <p class="lens-l"><span>Values</span><span class="st">Stated</span></p>
+            <p class="lens-l">Values</p>
             <p class="lchips">{L.values.map((v) => <span class="lv" style={`--fam: ${family?.colour}`}>{v}</span>)}</p>
           </div>
           <div class="lens">
-            <p class="lens-l"><span>Fears</span><span class="st">Stated</span></p>
+            <p class="lens-l">Fears</p>
             <p class="lchips">{L.fears.map((v) => <span class="lf" style={`--fam: ${family?.colour}`}>{v}</span>)}</p>
           </div>
           <div class="lens">
-            <p class="lens-l"><span>Promises</span><span class="st">Stated</span></p>
+            <p class="lens-l">Promises</p>
             <p class="lens-t">{L.promises}</p>
           </div>
           <div class="lens">
-            <p class="lens-l"><span>If it wins tomorrow</span><span class="st">Derived</span></p>
+            <p class="lens-l">If it wins tomorrow</p>
             <p class="lens-t">{L.ifItWins}</p>
           </div>
+          <div class="lens">
+            <p class="lens-l">Funded by</p>
+            <p class="lens-t">{L.fundedBy}</p>
+          </div>
+          <div class="lens">
+            <p class="lens-l">Can serve</p>
+            <div class="serve">
+              {L.canServe.map((c) => (
+                <div class="sv">
+                  <p class="sv-a">{c.actor}{c.opponent && <span class="sv-o"> · opponent</span>}</p>
+                  <p class="sv-t">{c.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
+        {L.status === 'draft' && <p class="draft">Draft · to be checked</p>}
       </section>
     )}
 
     {ism.data.holders.length > 0 && (
       <section class="wrap sec" aria-labelledby="holders-h">
-        {L ? (
-          <div class="sec-top"><h2 class="kick" id="holders-h">Who holds it</h2><span class="st">Fact</span></div>
-        ) : (
-          <h2 class="kick" id="holders-h">Who holds it now</h2>
-        )}
+        <h2 class="kick" id="holders-h">Who holds it now</h2>
         <div class="actors">
           {ism.data.holders.map((h) => (
             <div><h3 class="an">{h.name}</h3><p class="ad">{h.note}</p></div>
           ))}
-        </div>
-      </section>
-    )}
-
-    {L && (
-      <section class="wrap sec whos" aria-label="Who funds it and who it can serve">
-        <div class="who-col">
-          <div class="sec-top"><h2 class="kick">Who funds it</h2><span class="st">Fact</span></div>
-          <p class="lens-t fund">{L.fundedBy}</p>
-        </div>
-        <div class="who-col">
-          <div class="sec-top"><h2 class="kick">Who it can serve</h2><span class="st">Derived</span></div>
-          <div class="serve">
-            {L.canServe.map((c) => (
-              <div class="sv">
-                <p class="sv-a">{c.actor}{c.opponent && <span class="sv-o"> · opponent</span>}</p>
-                <p class="sv-t">{c.text}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     )}
