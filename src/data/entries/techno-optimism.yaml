@@ -17,7 +17,6 @@ entries:
     themes: [augmentation]
     image: techopt-nadella-post-2025
     status: checked
-
   - id: 2025-superagency
     year: 2025
     month: 1
@@ -31,7 +30,6 @@ entries:
     themes: [augmentation]
     image: techopt-superagency-cover-2025
     status: checked
-
   - id: 2023-techno-optimist-manifesto
     year: 2023
     month: 10
@@ -44,7 +42,6 @@ entries:
     themes: [abundance, luddite]
     image: techopt-manifesto-2023
     status: checked
-
   - id: 2023-why-ai-will-save-the-world
     year: 2023
     month: 6
@@ -57,7 +54,6 @@ entries:
     themes: [augmentation, alignment]
     image: techopt-save-the-world-2023
     status: checked
-
   - id: 2023-microsoft-365-copilot
     year: 2023
     month: 3
@@ -71,17 +67,6 @@ entries:
     themes: [augmentation]
     image: techopt-copilot-2023
     status: checked
-
-  - id: 2022-american-dynamism
-    year: 2022
-    title: Building American Dynamism
-    who: Katherine Boyle and David Ulevitch of Andreessen Horowitz
-    relation: definition
-    text: On 14 January 2022 Andreessen Horowitz published the thesis of its American Dynamism practice. The firm had used the name in 2021 but left it largely undefined. Boyle's essay argued that only technologists building companies for the national interest could end stagnation, in fields from national security to housing. The firm already backed defence start-ups such as Anduril and Shield AI.
-    source: Katherine Boyle, “Building American Dynamism”, a16z, 14 January 2022; David Ulevitch and Katherine Boyle, “Investing in American Dynamism”, a16z, 14 January 2022
-    sourceUrl: https://a16z.com/2022/01/14/building-american-dynamism-2/
-    status: checked
-
   - id: 2020-its-time-to-build
     year: 2020
     title: “It's Time to Build”
@@ -92,7 +77,6 @@ entries:
     sourceUrl: https://a16z.com/its-time-to-build/
     image: techopt-time-to-build-2020
     status: checked
-
   - id: 2019-progress-studies
     year: 2019
     title: A new science of progress
@@ -103,7 +87,6 @@ entries:
     sourceUrl: https://marginalrevolution.com/marginalrevolution/2019/07/we-need-a-new-science-of-progress.html
     image: techopt-progress-studies-2019
     status: checked
-
   - id: 2012-abundance
     year: 2012
     title: Abundance
@@ -115,7 +98,6 @@ entries:
     themes: [abundance]
     image: techopt-abundance-cover-2012
     status: checked
-
   - id: 2010-what-technology-wants
     year: 2010
     title: What Technology Wants
@@ -126,7 +108,6 @@ entries:
     sourceUrl: https://kk.org/thetechnium/?p=5138
     image: techopt-what-technology-wants-cover-2010
     status: checked
-
   - id: 1980-bicycle-for-the-mind
     year: 1980
     yearLabel: c. 1980
@@ -140,7 +121,6 @@ entries:
     themes: [augmentation]
     image: techopt-apple-ii
     status: checked
-
   - id: 1962-augmenting-human-intellect
     year: 1962
     title: “Augmenting Human Intellect”
@@ -153,7 +133,6 @@ entries:
     themes: [augmentation]
     image: techopt-augmenting-1962
     status: checked
-
   - id: 1960-man-computer-symbiosis
     year: 1960
     title: “Man-Computer Symbiosis”
@@ -166,7 +145,6 @@ entries:
     themes: [augmentation]
     image: techopt-symbiosis-1960
     status: checked
-
   - id: 1945-hayek-knowledge
     year: 1945
     month: 9
@@ -178,7 +156,6 @@ entries:
     sourceUrl: https://www.econlib.org/library/Essays/hykKnw.html
     image: techopt-hayek-1945
     status: checked
-
   - id: 1945-as-we-may-think
     year: 1945
     month: 7
@@ -192,7 +169,6 @@ entries:
     themes: [augmentation]
     image: techopt-as-we-may-think-1945
     status: checked
-
   - id: 1909-futurist-manifesto
     year: 1909
     title: The Manifesto of Futurism
@@ -203,7 +179,6 @@ entries:
     sourceUrl: https://cdn.britannica.com/primary_source/eb/435828.html
     image: techopt-figaro-1909
     status: checked
-
   - id: 1620-novum-organum
     year: 1620
     title: Novum Organum
