@@ -446,6 +446,18 @@ SPECS += [
                  ('BEFORE 1880 · THE PRESUMED DUCK OF VAUCANSON', 40, 1440)]),
 ]
 
+# The home page's movement cards without their black squares (owner, 26 Nov 2026): there the squares are laid over
+# the card as separate pieces, one grid square out of place while a family is folded, and they lock into place when it
+# opens. LOCKS lists the cards; the engine writes each one's squares to src/data/images/card-squares.json.
+LOCKS = ['transhumanism', 'singularitarianism', 'techno-optimism', 'american-dynamism', 'ai-safety', 'pause',
+         'pro-human', 'ai-ethics', 'digital-sovereignty', 'neo-luddism', 'normal-technology', 'ai-skepticism']
+SQUARES = {}
+for _name in LOCKS:
+    _s = next(x for x in SPECS if x['id'] == f'collage-{_name}')
+    SQUARES[_s['id']] = dict(grid=[_s['size'][0] // M, _s['size'][1] // M], squares=[list(b) for b in _s['black']])
+    SPECS.append(dict(_s, id=_s['id'] + '-base', black=[]))
+
+
 if __name__ == '__main__':
     import os, sys
     os.makedirs(OUT, exist_ok=True)
@@ -453,3 +465,6 @@ if __name__ == '__main__':
     for s in SPECS:
         if not only or s['id'] in only:
             render(s); print('made', s['id'])
+    import json
+    with open(os.path.join(ROOT, 'src/data/images/card-squares.json'), 'w') as fh:
+        json.dump(SQUARES, fh, indent=2); fh.write('\n')

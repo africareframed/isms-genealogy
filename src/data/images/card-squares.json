@@ -1,0 +1,242 @@
+{
+  "collage-transhumanism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        9,
+        0,
+        1,
+        1
+      ],
+      [
+        15,
+        7,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-singularitarianism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        8,
+        0,
+        1,
+        1
+      ],
+      [
+        15,
+        3,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-techno-optimism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        7,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        7,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-american-dynamism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        10,
+        1,
+        1,
+        1
+      ],
+      [
+        15,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-ai-safety": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        10,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-pause": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        7,
+        0,
+        1,
+        1
+      ],
+      [
+        15,
+        9,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-pro-human": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        11,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-ai-ethics": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        11,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-digital-sovereignty": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        2,
+        1,
+        1,
+        1
+      ],
+      [
+        13,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-neo-luddism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        11,
+        0,
+        1,
+        1
+      ],
+      [
+        9,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-normal-technology": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        11,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        10,
+        1,
+        1
+      ]
+    ]
+  },
+  "collage-ai-skepticism": {
+    "grid": [
+      16,
+      12
+    ],
+    "squares": [
+      [
+        9,
+        0,
+        1,
+        1
+      ],
+      [
+        15,
+        9,
+        1,
+        1
+      ]
+    ]
+  }
+}

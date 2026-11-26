@@ -1,5 +1,7 @@
 # The collage set (20 Nov 2026): one per ism and theme, made in code by scripts/collages.py
 # from the archive images listed in each title. No generative model is used.
+# The twelve movement cards also come as collage-<id>-base.jpg, the same image without its black squares, for the
+# home page, where the squares lie over the card and lock into place as a family opens (26 Nov 2026).
 
 - id: collage-transhumanism
   title: "Collage from the Flood Tablet, Epic of Gilgamesh (7th century BCE)"

@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: The movement cards' black squares lock: on the home page they lie over the cards as separate pieces, one grid square out of place while a family is folded, and ratchet into place in two steps as it opens; they unlock first when it closes. Engine: `collage-<id>-base.jpg` and `src/data/images/card-squares.json` (owner, 15:48). Still to add to the design guide with 3.3.
 - 2026-11-26: The site menu moved behind a burger on every page and screen (`SiteMenu.astro`): a panel of the seven links in large type, the current page underlined; the "All movements" back links stay (owner, 13:35).
 - 2026-11-26: Footer on the home, vocabulary, people and themes pages: "An investigation into the ideas around AI, and the history behind them" (was "shaping AI"), in line with the subtitle and the standfirst (owner, 13:29).
 - 2026-11-26: The families on the home page slide open and shut when clicked (280 ms open, 220 ms closed, easing to a stop); on load and for reduced motion they open at once (owner, 12:32).

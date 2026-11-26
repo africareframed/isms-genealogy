@@ -6,6 +6,8 @@ import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
 import Go from '../components/Go.astro';
 import SiteMenu from '../components/SiteMenu.astro';
+import cardSquares from '../data/images/card-squares.json';
+const CARD_SQUARES = cardSquares as Record<string, { grid: number[]; squares: number[][] }>;
 import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel , strandsLine } from '../lib/site';
 import { getHistory } from '../lib/history';
 
@@ -112,7 +114,7 @@ const SHOW_HISTORY_CARD = false;
             .map((i) => {
               const inner = (
                 <Fragment>
-                  <Picture image={i.data.image} />
+                  <Picture image={i.data.image} squares={i.data.image ? CARD_SQUARES[i.data.image.id] : undefined} />
                   <span class="cn">{num(i.data.order)}</span>
                   <h4 class="ct"><Go text={i.data.title} go={i.data.ready} /></h4>
                   <p class="cd">{i.data.summary}</p>
@@ -158,15 +160,19 @@ const SHOW_HISTORY_CARD = false;
           b.style.overflow = 'hidden';
           b.style.maxHeight = start + 'px';
           void b.offsetHeight;
-          b.style.transition = `max-height ${open ? 280 : 220}ms cubic-bezier(0.2, 0.7, 0.2, 1)`;
+          b.style.transition = `max-height ${open ? 280 : 220}ms cubic-bezier(0.2, 0.7, 0.2, 1) ${open ? 0 : 140}ms`; // closing waits for the squares to unlock
           b.style.maxHeight = to + 'px';
           b._done = (e) => { if (e.target === b) clear(b); };
           b.addEventListener('transitionend', b._done);
-          b._t = setTimeout(() => clear(b), 500);
+          b._t = setTimeout(() => clear(b), 700);
         };
         const mark = (f) => { try { history.replaceState(null, '', '#' + f.id); } catch (e) {} };
         const target = location.hash.slice(1);
+        // on load the families fold at once: the squares go to their unlocked places without moving
+        const holder = document.querySelector('.fams');
+        holder.classList.add('still');
         fams.forEach((f) => set(f, f.id === target));
+        requestAnimationFrame(() => requestAnimationFrame(() => holder.classList.remove('still')));
         fams.forEach((f) => {
           f.querySelector('.ftog').addEventListener('click', (e) => {
             e.stopPropagation();

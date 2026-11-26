@@ -6,8 +6,23 @@ interface Props {
   image?: { collection: 'images'; id: string };
   ratio?: string;
   class?: string;
+  // a movement card on the home page: its black squares as separate pieces over the card drawn without them
+  // (owner, 26 Nov 2026); grid is the collage's grid of 100 px squares, squares are [column, row, width, height]
+  squares?: { grid: number[]; squares: number[][] };
 }
-const { image, ratio = '4 / 3', class: cls = '' } = Astro.props;
+const { image, ratio = '4 / 3', class: cls = '', squares } = Astro.props;
+// while a family is folded, each square sits one grid square out of place: a square in the top rows to the side,
+// towards the card's middle; a lower one upwards; so none ever leaves the card
+const pieces = squares
+  ? squares.squares.map(([c, r, w, h]) => {
+      const [gw, gh] = squares.grid;
+      const top = r < gh / 2;
+      const dx = top ? (c + w / 2 < gw / 2 ? 1 : -1) : 0;
+      const dy = top ? 0 : -1;
+      const pc = (n: number, of: number) => `${((n / of) * 100).toFixed(4)}%`;
+      return `left:${pc(c, gw)};top:${pc(r, gh)};width:${pc(w, gw)};height:${pc(h, gh)};--dx:${dx};--dy:${dy};--w:${w};--h:${h}`;
+    })
+  : [];
 const img = image ? await getEntry(image) : undefined;
 const d = img?.data;
 const caption = d
@@ -15,7 +30,18 @@ const caption = d
   : 'Image to come';
 ---
 <figure class={`pic ${cls}`}>
-  {d?.file ? (
+  {d?.file && pieces.length ? (
+    <span class="sqw">
+      <img
+        src={`images/${d.file.replace(/\.jpg$/, '-base.jpg')}`}
+        alt={d.alt ?? ''}
+        style={`aspect-ratio:${ratio}`}
+        loading="lazy"
+        decoding="async"
+      />
+      {pieces.map((st) => <span class="sq" style={st} aria-hidden="true"></span>)}
+    </span>
+  ) : d?.file ? (
     <img
       src={`images/${d.file}`}
       alt={d.alt ?? ''}
