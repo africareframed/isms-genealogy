@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Hero small text: the Washington scene and the old line between left and right in one paragraph; "the Big Tech companies behind it"; "and who will hold it?" without "in the future" (owner, 09:46).
 - 2026-11-26: Hero standfirst: "This moment feels weightless, but the ideas around AI were there long before it. Their history may hold clues to what AI is, how to meet it, and whether we have a choice at all." (owner, 09:42).
 - 2026-11-26: Hero standfirst deepened: "…Their history may hold clues to what AI is, how to meet it, and whether we have a choice at all." (owner, 09:34).
 - 2026-11-26: Hero: the bold standfirst now answers the headline, "The ideas now fighting over AI were there long before it. Their history may hold clues to what comes next."; the Washington scene opens the small text on the right (owner, 09:29).
