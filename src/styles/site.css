@@ -103,11 +103,11 @@ a:hover { color: var(--muted); }
 .fam.shut .fh { cursor: pointer; }
 .fam.shut .fbody { max-height: 120px; overflow: hidden; }
 /* The cards' black squares lock (owner, 26 Nov 2026): folded, each sits one grid square out of place; when a family
-   opens they jump into place in one hard cut the moment the drawer stops, and jump out first when it closes. */
+   opens they jump into place in one hard cut the moment it is clicked, and jump out the moment it is closed. */
 .sqw { position: relative; display: block; overflow: hidden; }
 .sqw img { display: block; }
-.sq { position: absolute; background: #141313; transform: translate(0, 0); transition: transform 1ms steps(1, end) 280ms; }
-.fam.shut .sq { transform: translate(calc(var(--dx) * 100% / var(--w)), calc(var(--dy) * 100% / var(--h))); transition-delay: 0ms; }
+.sq { position: absolute; background: #141313; transform: translate(0, 0); }
+.fam.shut .sq { transform: translate(calc(var(--dx) * 100% / var(--w)), calc(var(--dy) * 100% / var(--h))); }
 .fams.still .sq { transition: none; }
 .fam.shut .fpeek { display: block; position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; }
 .fam.shut .fbody:hover img { filter: brightness(0.96); }
