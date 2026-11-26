@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: About page brought in line (owner, 08:53): Radical Romance named, an investigation of twelve movements in six families, "isms" gone, the history, people, words and themes named, sentences under 25 words.
 - 2026-11-26: Method page brought up to date (owner, 08:49): six families and how they run, how a movement page is built, the three movements now strands, the history's rules (one story, one moment; texts only once they became events), the Themes page, the quotation rule, the collages and why; "the same seven kinds of actor" (not listed on the page) dropped.
 - 2026-11-25: On phones the hero no longer shows the subtitle and map date line; the headline opens the page (owner, 23:28).
 - 2026-11-25: On phones a closed family shows both its cards side by side, cut at 80 px; an opened family stays one card per row (owner, 21:13).
