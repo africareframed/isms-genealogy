@@ -128,6 +128,8 @@ a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .go-w { white-space: nowrap; }
 .go-w svg { display: inline-block; width: 0.8em; height: 0.8em; margin-left: 0.3em; vertical-align: -0.08em; } /* the forward arrow after a card's title (owner, 26 Nov 2026) */
 a.card:hover .go-t { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+/* the movement the reader came back from: its name underlined in the accent, as the menu marks the current page */
+a.card.came .go-t, a.card.came:hover .go-t { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 6px; }
 .ct { margin: 0; font-size: 32px; line-height: 36px; font-weight: 600; letter-spacing: -0.015em; }
 .cd { margin: 0; font-size: 17px; line-height: 26px; color: #333333; }
 .soon { font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }

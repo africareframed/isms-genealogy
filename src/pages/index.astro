@@ -124,7 +124,7 @@ const SHOW_HISTORY_CARD = false;
                   {!i.data.ready && <span class="soon">In preparation</span>}
                 </Fragment>
               );
-              return i.data.ready ? <a class="card" href={pageHref(i.id)}>{inner}</a> : <div class="card">{inner}</div>;
+              return i.data.ready ? <a class="card" href={pageHref(i.id)} data-m={i.id}>{inner}</a> : <div class="card">{inner}</div>;
             })}
             <button type="button" class="fpeek" tabindex="-1" aria-hidden="true"></button>
           </div>
@@ -167,12 +167,28 @@ const SHOW_HISTORY_CARD = false;
           b._t = setTimeout(() => clear(b), 500);
         };
         const mark = (f) => { try { history.replaceState(null, '', '#' + f.id); } catch (e) {} };
-        const target = location.hash.slice(1);
+        // back from a movement page (#pause): its family opens, its name is marked, and the page lands on the family,
+        // far enough down that the whole card shows (owner, 26 Nov 2026); the mark stays still
+        const cardOf = (id) => (id ? fams.map((f) => f.querySelector(`.card[data-m="${id}"]`)).find(Boolean) : null);
+        const land = (c) => {
+          const f = c.closest('.fam'), r = c.getBoundingClientRect();
+          const ct = r.top + scrollY, cb = r.bottom + scrollY;
+          let y = f.getBoundingClientRect().top + scrollY - 24;
+          if (cb > y + innerHeight - 24) y = Math.min(ct - 24, cb - innerHeight + 24);
+          scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+        };
+        const came = cardOf(location.hash.slice(1));
+        const target = came ? came.closest('.fam').id : location.hash.slice(1);
         // on load the families fold at once: the squares go to their unlocked places without moving
         const holder = document.querySelector('.fams');
         holder.classList.add('still');
         fams.forEach((f) => set(f, f.id === target));
         requestAnimationFrame(() => requestAnimationFrame(() => holder.classList.remove('still')));
+        if (came) {
+          came.classList.add('came');
+          if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+          requestAnimationFrame(() => land(came));
+        }
         fams.forEach((f) => {
           f.querySelector('.ftog').addEventListener('click', (e) => {
             e.stopPropagation();
@@ -187,6 +203,14 @@ const SHOW_HISTORY_CARD = false;
           f.querySelector('.fpeek').addEventListener('click', () => { set(f, true, true); mark(f); });
         });
         addEventListener('hashchange', () => {
+          const c = cardOf(location.hash.slice(1));
+          if (c) {
+            document.querySelectorAll('.card.came').forEach((x) => x.classList.remove('came'));
+            c.classList.add('came');
+            set(c.closest('.fam'), true);
+            requestAnimationFrame(() => land(c));
+            return;
+          }
           const t = document.getElementById(location.hash.slice(1));
           if (t && t.classList.contains('fam') && t.classList.contains('shut')) set(t, true, true);
         });

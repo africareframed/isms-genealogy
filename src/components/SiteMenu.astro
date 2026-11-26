@@ -5,10 +5,11 @@
 // scripts the links show as a plain row.
 import { pageHref } from '../lib/site';
 
-interface Props { current?: string; home?: boolean }
-const { current, home = false } = Astro.props;
+// from: on a movement page, its id; Movements then leads back to its place on the home page (owner, 26 Nov 2026).
+interface Props { current?: string; home?: boolean; from?: string }
+const { current, home = false, from } = Astro.props;
 const items: [string, string, string][] = [
-  ['movements', 'Movements', home ? '#movements' : `${pageHref()}#movements`],
+  ['movements', 'Movements', from ? `${pageHref()}#${from}` : home ? '#movements' : `${pageHref()}#movements`],
   ['history', 'History of AI', pageHref('history')],
   ['people', 'People', pageHref('people')],
   ['vocabulary', 'Vocabulary', pageHref('vocabulary')],

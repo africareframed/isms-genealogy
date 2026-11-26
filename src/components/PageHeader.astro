@@ -8,19 +8,23 @@ interface Props {
   nav: { href: string; label: string }[];
   navLabel: string;
   current?: string;
+  // a movement's id: "All movements" and the menu then lead back to its place on the home page, its family open and
+  // its name marked (owner, 26 Nov 2026); the site name still leads to the top
+  from?: string;
 }
-const { title, kind, nav, navLabel, current } = Astro.props;
+const { title, kind, nav, navLabel, current, from } = Astro.props;
+const back = from ? `${pageHref()}#${from}` : pageHref();
 ---
 <header class="ph-head">
   <div class="wrap ph-top">
-    <a class="back" href={pageHref()}>
+    <a class="back" href={back}>
       <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10H4"></path><path d="M9 5L4 10L9 15"></path></svg>
       All movements
     </a>
     <span class="ph-title">{title} <span class="ph-kind">{kind}</span></span>
     <span class="head-end">
       <a class="ph-site" href={pageHref()}>{SITE_NAME}</a>
-      <SiteMenu current={current} />
+      <SiteMenu current={current} from={from} />
     </span>
   </div>
   <nav class="wrap secnav" aria-label={navLabel}>

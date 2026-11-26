@@ -84,7 +84,7 @@ const first = entries[0];
 const shareImage = existsSync(`public/images/share/${ism.id}.jpg`) ? `images/share/${ism.id}.jpg` : undefined;
 ---
 <Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary} share={shareImage}>
-  <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" current="movements" />
+  <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" current="movements" from={ism.id} />
 
   <main id="main">
     <section id="introduction" class="wrap intro">
@@ -267,7 +267,7 @@ const shareImage = existsSync(`public/images/share/${ism.id}.jpg`) ? `images/sha
       <p>The oldest root traced so far.</p>
       <div class="end-links">
         <a href="#introduction">Back to the introduction</a>
-        <a href={pageHref()}>All movements</a>
+        <a href={`${pageHref()}#${ism.id}`}>All movements</a>
       </div>
     </section>
   </main>
