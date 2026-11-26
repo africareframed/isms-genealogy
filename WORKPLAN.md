@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Footer on the home, vocabulary, people and themes pages: "An investigation into the ideas around AI, and the history behind them" (was "shaping AI"), in line with the subtitle and the standfirst (owner, 13:29).
 - 2026-11-26: The families on the home page slide open and shut when clicked (280 ms open, 220 ms closed, easing to a stop); on load and for reduced motion they open at once (owner, 12:32).
 - 2026-11-26: On phones an open family's two cards are 64 px apart (was 28), against 18 px inside a card, so each text reads with its own image (owner, 10:33).
 - 2026-11-26: Hero: the last line back to grey, like the paragraphs above (owner, 09:56: black at the same weight looked like an error); no italic, since the site loads no italic face. "Twelve movements" kept over "six families".
