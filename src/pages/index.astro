@@ -139,15 +139,37 @@ const SHOW_HISTORY_CARD = false;
     <script is:inline>
       // The families as drawers (owner, 25 Nov 2026): closed, a family shows its name, its introduction and a strip of
       // its two cards; a click on the row opens it. Several can be open; the last opened is in the address (#prevent).
-      // Without scripts every family stays open.
+      // Without scripts every family stays open. A click opens or closes it with a short slide, the strip growing
+      // into the full cards and easing to a stop (owner, 26 Nov 2026); on page load, and for reduced motion, at once.
       (() => {
         const fams = [...document.querySelectorAll('.fam')];
-        const set = (f, open) => {
+        const still = matchMedia('(prefers-reduced-motion: reduce)');
+        const clear = (b) => {
+          clearTimeout(b._t);
+          if (b._done) b.removeEventListener('transitionend', b._done);
+          b.style.maxHeight = b.style.overflow = b.style.transition = '';
+        };
+        const set = (f, open, move) => {
+          const b = f.querySelector('.fbody');
+          const from = b.getBoundingClientRect().height;
+          clear(b);
           f.classList.toggle('shut', !open);
           f.querySelector('.ftog').setAttribute('aria-expanded', String(open));
-          const b = f.querySelector('.fbody');
           if (open) b.removeAttribute('aria-hidden'); else b.setAttribute('aria-hidden', 'true');
           b.querySelectorAll('a').forEach((a) => (open ? a.removeAttribute('tabindex') : a.setAttribute('tabindex', '-1')));
+          if (!move || still.matches) return;
+          // open: to the cards' full height; closed: to the strip the stylesheet sets
+          const to = open ? b.scrollHeight : parseFloat(getComputedStyle(b).maxHeight);
+          const start = Math.min(from, b.scrollHeight);
+          if (!(to > 0) || Math.abs(to - start) < 2) return;
+          b.style.overflow = 'hidden';
+          b.style.maxHeight = start + 'px';
+          void b.offsetHeight;
+          b.style.transition = `max-height ${open ? 280 : 220}ms cubic-bezier(0.2, 0.7, 0.2, 1)`;
+          b.style.maxHeight = to + 'px';
+          b._done = (e) => { if (e.target === b) clear(b); };
+          b.addEventListener('transitionend', b._done);
+          b._t = setTimeout(() => clear(b), 500);
         };
         const mark = (f) => { try { history.replaceState(null, '', '#' + f.id); } catch (e) {} };
         const target = location.hash.slice(1);
@@ -156,18 +178,18 @@ const SHOW_HISTORY_CARD = false;
           f.querySelector('.ftog').addEventListener('click', (e) => {
             e.stopPropagation();
             const opening = f.classList.contains('shut');
-            set(f, opening);
+            set(f, opening, true);
             if (opening) mark(f);
           });
           f.querySelector('.fh').addEventListener('click', () => {
             if (String(window.getSelection ? window.getSelection() : '')) return;
-            if (f.classList.contains('shut')) { set(f, true); mark(f); }
+            if (f.classList.contains('shut')) { set(f, true, true); mark(f); }
           });
-          f.querySelector('.fpeek').addEventListener('click', () => { set(f, true); mark(f); });
+          f.querySelector('.fpeek').addEventListener('click', () => { set(f, true, true); mark(f); });
         });
         addEventListener('hashchange', () => {
           const t = document.getElementById(location.hash.slice(1));
-          if (t && t.classList.contains('fam')) set(t, true);
+          if (t && t.classList.contains('fam') && t.classList.contains('shut')) set(t, true, true);
         });
       })();
     </script>
