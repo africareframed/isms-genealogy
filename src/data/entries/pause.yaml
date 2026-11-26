@@ -116,6 +116,26 @@ entries:
     themes: [compute]
     image: rationalism-pause-letter-2023
     status: checked
+  - id: 1985-atomkraft-nej-tak
+    year: 1985
+    month: 3
+    title: Atomkraft? Nej tak
+    who: OOA (Organisationen til Oplysning om Atomkraft); the Danish parliament
+    relation: attributed
+    text: 'Founded by Copenhagen students in 1974, OOA pointed out a year later that no democracy had ever voted to bring in nuclear power. Its smiling-sun badge, “Atomkraft? Nej tak”, drawn by Anne Lund in 1975, spread in over 60 languages. On 29 March 1985 parliament voted 79 to 67 to plan Denmark''s energy without nuclear power. The 2025 Statement on Superintelligence also makes strong public support one of its conditions.'
+    source: 'Palle Bendsen, Gunnar Boye Olesen and Hans Pedersen, “Danmark har klaret sig fint i 40 år uden atomkraft”, Ingeniøren, 1 April 2025 (OOA''s point of 1975; Jytte Hilden''s motion of 29 March 1985; passed 79 to 67); Wikipedia, “Nuclear power in Denmark” (OOA founded in January 1974 by students in Copenhagen); Wikipedia, “Smiling Sun” (Anne Lund, 1975; badges in over 60 languages); Future of Life Institute, Statement on Superintelligence, 22 October 2025'
+    sourceUrl: 'https://ing.dk/holdning/danmark-har-klaret-sig-fint-i-40-aar-uden-atomkraft'
+    status: draft
+  - id: 1978-zwentendorf
+    year: 1978
+    month: 11
+    title: Austria says no to Zwentendorf
+    who: Austrian voters; the “Nein zu Zwentendorf” campaign
+    relation: attributed
+    text: In a referendum on 5 November, 50.47 per cent of voters said no to starting up the Zwentendorf nuclear plant, already built. In December parliament unanimously banned nuclear power, and in 1999 the ban entered the constitution. Zwentendorf remains the only finished nuclear plant in the world never switched on. Writing on slowing down AI in 2022, Katja Grace counted nuclear energy among valuable technologies held back by regulation and public distaste.
+    source: 'Haus der Geschichte Österreich, “1974–1978: Protests and Referendum Against the Zwentendorf Nuclear Power Plant” (50.47 per cent against); ORF, “„Lausbuben“ gegen die Kernkraft”, orf.at, 5 November 2018 (the unanimous ban in December; Austria the only country with a finished plant never run); Austrian Federal Ministry of Agriculture, Climate and Environment (BMLUK), “40 Jahre „Nein“ zu Zwentendorf” (the 1999 constitutional law; the only plant in the world completely built but never operated); Katja Grace, “Let''s think about slowing down AI”, AI Impacts, 22 December 2022 (nuclear energy among technologies slowed)'
+    sourceUrl: 'https://hdgoe.at/protests_referendum_zwentendorf'
+    status: draft
   - id: 1965-good
     year: 1965
     title: The first ultraintelligent machine

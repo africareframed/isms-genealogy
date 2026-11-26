@@ -151,6 +151,27 @@ entries:
   source: Jacques Ellul, La Technique ou l'Enjeu du siècle, 1954; The Technological Society, translated by John Wilkinson, 1964 (Wikipedia, “The Technological Society”; Wikipedia, “Neo-Luddism”, for the quotation, citing The Technological Society, p. 324); Kirkpatrick Sale, “The Neo-Luddites”, Crow's Nest Distribution zine, at The Anarchist Library
   sourceUrl: https://en.wikipedia.org/wiki/The_Technological_Society
   status: checked
+- id: 1910-amish-telephone
+  year: 1910
+  yearLabel: c. 1910
+  title: The telephone stays outside
+  who: Old Order Amish of Lancaster County, Pennsylvania
+  relation: claimed
+  text: Around 1910 Amish bishops in Lancaster County, Pennsylvania, decided their people should not have telephones, which belonged to “the world” and spread gossip. The dispute helped split the church, which lost a fifth of its members. Today phones stand in shared booths away from the house, and each Amish group draws its own lines on which machines come in. Wendell Berry held up their horse-worked farms as models; in 2026 the Amish of North America numbered about 421,000, doubling about every twenty years.
+  source: Diane Zimmerman Umble, “Shunning the Telephone”, Invention & Technology, vol. 5 no. 1, Spring/Summer 1989 (the 1910 division over the telephone; a fifth of members lost; the phone of “the world”, enabling gossip; community telephones, shared and for emergencies); Will Braun, “Seven criteria for the adoption of new technology”, Geez, 18 November 2010 (phone shanties allowed, phones in homes not; restrictions vary among some 40 Amish groups); Bill McKibben, “Prophet in Kentucky”, The New York Review of Books, 14 June 1990 (Berry admires Amish farms and communities as useful models); Young Center for Anabaptist and Pietist Studies, “Amish Population Profile, 2026”, Elizabethtown College (421,200 as of June 2026; doubling about every 20 years)
+  sourceUrl: 'https://www.inventionandtech.com/node/85394'
+  status: draft
+- id: 1884-useful-work-useless-toil
+  year: 1884
+  title: Useful Work versus Useless Toil
+  who: William Morris
+  relation: claimed
+  text: 'A designer and socialist tells a London club that “labour-saving” machines have not saved labour: they turn skilled workers into unskilled ones. In a true society, he argues, the same machines would cut the hours of unattractive work, and work itself would give pleasure. He had learned this from John Ruskin''s “The Nature of Gothic” (1853), which he later printed at his Kelmscott Press. In Breaking Things at Work (2021), Gavin Mueller enlists Morris against the promise that machines bring abundance.'
+  source: William Morris, “Useful Work versus Useless Toil”, lecture to the Hampstead Liberal Club, 1884 (booklet note, worrydream.com), text at the Marxists Internet Archive (“labour-saving” machines; machines in a true society; the hope of pleasure in work); William Morris, preface to John Ruskin, The Nature of Gothic, Kelmscott Press, 1892, at the Marxists Internet Archive (“man''s pleasure in labour”); John Ruskin, The Nature of Gothic, printed by William Morris at the Kelmscott Press, 1892, Internet Archive; Wikipedia, “The Stones of Venice (book)” (the chapter in volume 2, 1853); Zachary Loeb, “Specters of Ludd”, review of Gavin Mueller, Breaking Things at Work (Verso, 2021), boundary 2 (Morris against the promise of abundance from machines)
+  sourceUrl: 'https://www.marxists.org/archive/morris/works/1884/useful.htm'
+  themes:
+  - abundance
+  status: draft
 - id: 1811-luddites
   year: 1811
   title: The Luddites

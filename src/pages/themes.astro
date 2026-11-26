@@ -5,7 +5,7 @@ import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import { SITE_NAME, pageHref } from '../lib/site';
 
-// The themes (owner, 25 Nov 2026): fifty-one chains of thought about AI as it is deployed, from the master list in
+// The themes (owner, 25 Nov 2026): fifty-two chains of thought about AI as it is deployed, from the master list in
 // the owner's Claude doc. Each chain is a numbered run of steps, one of them the hinge where the argument turns, and
 // it ends on an open question. Not the key words (src/content/themes/, the old theme files): a page of its own.
 type Step = { name: string; text?: string; hinge?: boolean };
@@ -38,7 +38,7 @@ const WORDS = [
 ];
 const groupName = (id: string) => GROUPS.find((g) => g.id === id)?.name ?? id;
 const pad = (n: number) => String(n).padStart(2, '0');
-// The count opens the lead, so it is written out (British style): "Fifty-one".
+// The count opens the lead, so it is written out (British style): "Fifty-two".
 const ONES = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
 const TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 const inWords = (n: number) => (n < 20 ? ONES[n] : TENS[Math.floor(n / 10)] + (n % 10 ? '-' + ONES[n % 10] : ''));
@@ -61,7 +61,7 @@ const filterCss = [
   ...WORDS.map((w) => `#tw-${w.id}:checked ~ .clist .ch:not(.w-${w.id}){display:none}`),
 ].join('');
 ---
-<Base title={`Themes · ${SITE_NAME}`} description="Fifty-one chains of thought about AI as it is deployed, each with its hinge marked, each ending on an open question.">
+<Base title={`Themes · ${SITE_NAME}`} description="Fifty-two chains of thought about AI as it is deployed, each with its hinge marked, each ending on an open question.">
   <Fragment set:html={`<style>${filterCss}</style>`} />
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>

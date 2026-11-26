@@ -147,6 +147,16 @@ entries:
   source: 'Louis D. Brandeis, Other People''s Money and How the Bankers Use It, Frederick A. Stokes, New York, 1914, chapter VIII, “A Curse of Bigness” (Brandeis School of Law Library, University of Louisville); Wikipedia, “Other People''s Money and How the Bankers Use It”; Wikipedia, “New Brandeis movement”; Tim Wu, The Curse of Bigness: Antitrust in the New Gilded Age, Columbia Global Reports, 13 November 2018'
   sourceUrl: https://law.louisville.edu/lawlibrary/node/356
   status: checked
+- id: 1909-hind-swaraj
+  year: 1909
+  month: 12
+  title: Hind Swaraj
+  who: Mohandas K. Gandhi
+  relation: claimed
+  text: 'On a ship to South Africa, Gandhi writes that swaraj, India''s self-rule, means freedom from modern civilisation as well as from British rule. He calls machinery “the chief symbol of modern civilisation”, and asks Indians to support swadeshi: hand-looms and goods made at home. The British banned the book in India in 1910. His word is back: in 2025 an Indian think tank called for a “Digital Swaraj Mission” to end dependence on US platforms.'
+  source: 'M. K. Gandhi, Hind Swaraj, written in Gujarati aboard the Kildonan Castle, 13–22 November 1909, published in Indian Opinion in December 1909; English translation, Indian Home Rule, 20 March 1910 (edition and text at the Gandhi Center, James Madison University: chapter XIX, “Machinery”; chapters XIX and XX on swadeshi and hand-looms); Wikipedia, “Hind Swaraj or Indian Home Rule” (written on the voyage from London; banned in 1910); “‘Digital Swaraj Mission’ calls for India''s tech self-reliance by 2030 amid US dependence concerns”, Bureaucrats India, 15 September 2025 (the Global Trade Research Initiative''s proposal)'
+  sourceUrl: 'https://www.jmu.edu/gandhicenter/_files/gandhiana-hindswaraj.pdf'
+  status: draft
 - id: 1576-bodin
   year: 1576
   title: The Six Books of the Commonwealth

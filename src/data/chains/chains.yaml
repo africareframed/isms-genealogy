@@ -1,4 +1,4 @@
-# The themes: fifty-one chains of thought about AI as it is deployed (owner, 25 Nov 2026).
+# The themes: fifty-two chains of thought about AI as it is deployed (owner, 25 Nov 2026).
 # Copied word for word from the master list, the Themes tab of the owner's Claude doc
 # (https://claude.ai/artifact/KUxNk9KSaTKbzF6jHEux9z). Change the doc first, then this file.
 # groups: the first is the chain's main group; words: the ten words of the Voices tab it runs through.
@@ -1122,3 +1122,34 @@
   - name: Each answer points somewhere.
     text: Someone may one day be owed latitude; something never is.
   - name: Who should decide what kind of thing it is?
+- n: 52
+  title: Leave to say no
+  groups:
+  - state
+  - work
+  words:
+  - inevitability
+  - abundance
+  steps:
+  - name: Some will say no.
+    text: Faiths, communities and families choose to live without the new machine.
+  - name: Saying no has a record.
+    text: Around 1910 the Amish took the telephone out of their homes, and they still choose which machines come in.
+  - name: It grows, not fades.
+    text: Their numbers double about every twenty years.
+  - name: It rests on others.
+    text: A state that leaves them be, a court that let them end school after eighth grade, buyers for what they make.
+  - name: A fast takeoff changes the terms.
+    text: Whoever holds the systems decides whether enclaves are allowed.
+  - name: Handmade turns luxury or worthless.
+    text: When machines can make anything, the price of craft is set outside.
+  - name: The pull of the outside grows.
+    text: Longer lives and plenty are hard to refuse at eighteen.
+  - name: Some dangers cross every fence.
+    text: A pandemic, a war or a machine gone wrong reaches the enclave too.
+  - name: Saying no becomes a freedom someone else must guarantee.
+    text: Refusal protects a way of life, not a body.
+    hinge: true
+  - name: Every movement owes an answer.
+    text: Each future on the map needs a place for those who refuse it.
+  - name: Who will guarantee the right to say no?
