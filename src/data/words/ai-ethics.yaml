@@ -15,6 +15,17 @@
   technical: false
   status: checked
 
+- id: algorithmic-management
+  word: algorithmic management
+  definition: Software that takes on a manager's work. It assigns tasks, sets the pace, rates performance and can issue warnings; the term began with ride-hailing apps and now reaches warehouses and offices.
+  coinedBy: Min Kyung Lee, Daniel Kusbit, Evan Metsky and Laura Dabbish
+  year: 2015
+  origin: "Min Kyung Lee, Daniel Kusbit, Evan Metsky and Laura Dabbish, “Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers”, CHI 2015, Seoul, April 2015: a study of 21 Uber and Lyft drivers that calls software algorithms that assume managerial functions algorithmic management (Wikipedia, “Algorithmic management”, on the term's origin and spread). The EU's Platform Work Directive (2024/2831, adopted 23 October 2024) sets the first EU rules on it, with human oversight by staff who can override automated decisions, to be in national law by 2 December 2026 (CMS, “From gig to guarantee: how the EU is transforming platform work”)."
+  sourceUrl: https://minlee.ischool.utexas.edu/materials/Publication/2015-CHI_algorithmic_management.pdf
+  isms: [ai-ethics]
+  technical: false
+  status: draft
+
 - id: coded-gaze
   word: the coded gaze
   definition: Buolamwini's name for the way algorithmic systems reflect the biases of the people who build them. She came to it after face-analysis software she worked with at MIT failed to detect her own face.

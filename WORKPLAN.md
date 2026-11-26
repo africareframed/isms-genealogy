@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Drafted for the checker (owner, 20:35): the word "algorithmic management" (Lee, Kusbit, Metsky and Dabbish, 2015) for AI ethics, and the AI ethics entry "Time off task" (Amazon's Baltimore letter, 2019). Pro-human not tagged: no source found that it uses the term.
 - 2026-11-26: A trail in the header: "← Movements / Pause" on movement pages and "← Vocabulary / Compute" on key-word pages (the end link there now reads Vocabulary), the page's name in grey, on every screen; it replaces the name in the middle, which phones hid (owner, 19:05).
 - 2026-11-26: Header kept as it is on the long pages (owner, 19:00): it slides away and comes back on every screen; a slimmer phone header and a fixed one on desktop were both turned down.
 - 2026-11-26: Back to your place: from a movement page, "All movements" and the menu's Movements open its family on the home page, land so the whole card shows, and underline its name in the accent; the site name still leads to the top (owner, 18:45).

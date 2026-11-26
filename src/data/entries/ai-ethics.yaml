@@ -63,6 +63,16 @@ entries:
     sourceUrl: https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/
     themes: [scaling-laws, compute]
     status: checked
+  - id: 2019-time-off-task
+    year: 2019
+    month: 4
+    title: Time off task
+    who: Amazon warehouse workers in Baltimore, as reported by Colin Lecher in The Verge
+    relation: milestone
+    text: A letter from a lawyer for Amazon to the US labour board described how its warehouses were run. Software tracked each worker's rate and “time off task”, and generated warnings and firings without input from supervisors. About 300 full-time workers at one Baltimore warehouse, roughly a tenth of its staff, were fired over productivity in a year. Amazon denied that anyone is terminated by an automatic system, and said managers can step in.
+    source: "Colin Lecher, “How Amazon automatically tracks and fires warehouse workers for ‘productivity’”, The Verge, 25 April 2019, as reported by CBS News, “Amazon under fire for software that recommends firing workers”, April 2019 (the letter of 4 September 2018 to the National Labor Relations Board; about 300 fired at the Baltimore site between August 2017 and September 2018, roughly 10% of its workforce; Amazon's reply that managers can intervene); KUOW, “Amazon denies report that it fires workers by robot”, 26 April 2019 (the denial)"
+    sourceUrl: https://www.cbsnews.com/news/amazon-under-fire-for-software-that-recommends-firing-workers
+    status: draft
   - id: 2018-gender-shades
     year: 2018
     title: Gender Shades
