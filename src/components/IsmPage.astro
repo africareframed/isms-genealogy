@@ -84,7 +84,7 @@ const first = entries[0];
 const shareImage = existsSync(`public/images/share/${ism.id}.jpg`) ? `images/share/${ism.id}.jpg` : undefined;
 ---
 <Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary} share={shareImage}>
-  <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" current="movements" from={ism.id} />
+  <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" current="movements" from={ism.id} parent={{ label: 'Movements' }} />
 
   <main id="main">
     <section id="introduction" class="wrap intro">

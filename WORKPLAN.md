@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: A trail in the header: "← Movements / Pause" on movement pages and "← Vocabulary / Compute" on key-word pages (the end link there now reads Vocabulary), the page's name in grey, on every screen; it replaces the name in the middle, which phones hid (owner, 19:05).
 - 2026-11-26: Header kept as it is on the long pages (owner, 19:00): it slides away and comes back on every screen; a slimmer phone header and a fixed one on desktop were both turned down.
 - 2026-11-26: Back to your place: from a movement page, "All movements" and the menu's Movements open its family on the home page, land so the whole card shows, and underline its name in the accent; the site name still leads to the top (owner, 18:45).
 - 2026-11-26: Roots of refusal, drafted for the checker (owner, 18:26): the Amish and the telephone (c. 1910) and William Morris's "Useful Work versus Useless Toil" (1884) on Neo-Luddism, which now has 18 entries (owner, 18:41: timelines may run long; the fact-check can wait); Gandhi's Hind Swaraj (1909) on Digital sovereignty; Zwentendorf (1978) and Denmark's "Atomkraft? Nej tak" (1985) on Pause. Chain 52, "Leave to say no", added to the Themes tab of the owner's doc and to `chains.yaml`. No seventh family (see CLAUDE.md).

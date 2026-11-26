@@ -11,17 +11,28 @@ interface Props {
   // a movement's id: "All movements" and the menu then lead back to its place on the home page, its family open and
   // its name marked (owner, 26 Nov 2026); the site name still leads to the top
   from?: string;
+  // the page's parent: the header then shows a trail, "← Movements / Pause", the parent a link and the page's name
+  // after it in grey, on every screen, in place of the name in the middle (owner, 26 Nov 2026)
+  parent?: { label: string; href?: string };
 }
-const { title, kind, nav, navLabel, current, from } = Astro.props;
-const back = from ? `${pageHref()}#${from}` : pageHref();
+const { title, kind, nav, navLabel, current, from, parent } = Astro.props;
+const back = parent?.href ?? (from ? `${pageHref()}#${from}` : pageHref());
+const arrow = '<svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10H4"></path><path d="M9 5L4 10L9 15"></path></svg>';
 ---
 <header class="ph-head">
   <div class="wrap ph-top">
-    <a class="back" href={back}>
-      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10H4"></path><path d="M9 5L4 10L9 15"></path></svg>
-      All movements
-    </a>
-    <span class="ph-title">{title} <span class="ph-kind">{kind}</span></span>
+    {parent ? (
+      <span class="crumb">
+        <a class="back" href={back}><Fragment set:html={arrow} />{parent.label}</a>
+        <span class="crumb-sep" aria-hidden="true">/</span>
+        <span class="crumb-here" aria-current="page">{title}</span>
+      </span>
+    ) : (
+      <Fragment>
+        <a class="back" href={back}><Fragment set:html={arrow} />All movements</a>
+        <span class="ph-title">{title} <span class="ph-kind">{kind}</span></span>
+      </Fragment>
+    )}
     <span class="head-end">
       <a class="ph-site" href={pageHref()}>{SITE_NAME}</a>
       <SiteMenu current={current} from={from} />

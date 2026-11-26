@@ -177,6 +177,12 @@ a.card.came .go-t, a.card.came:hover .go-t { text-decoration: underline; text-de
 .ph-title { font-size: 16px; line-height: 22px; font-weight: 600; }
 .ph-kind { font-family: var(--mono); font-size: 12px; font-weight: 400; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
 .ph-site { font-size: 16px; line-height: 22px; color: var(--muted); text-decoration: none; }
+/* the trail on movement and key-word pages: "← Movements / Pause", the page's name in grey, not a link */
+.crumb { display: inline-flex; align-items: center; gap: 10px; min-width: 0; font-size: 16px; line-height: 22px; font-weight: 500; }
+.crumb .back { flex: none; }
+.crumb-sep, .crumb-here { color: var(--muted); }
+.crumb-here { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+@media (max-width: 374px) { .crumb, .crumb .back { font-size: 15px; gap: 8px; } }
 .secnav { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 8px; padding-top: 6px; padding-bottom: 14px; font-size: 15px; line-height: 22px; }
 .secnav a { text-decoration: none; padding-bottom: 4px; border-bottom: 2px solid transparent; display: inline-flex; flex-direction: column; }
 /* the bold width is reserved, so the menu does not shift when the underline moves */
