@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: On phones an open family's two cards are 64 px apart (was 28), against 18 px inside a card, so each text reads with its own image (owner, 10:33).
 - 2026-11-26: Hero: the last line back to grey, like the paragraphs above (owner, 09:56: black at the same weight looked like an error); no italic, since the site loads no italic face. "Twelve movements" kept over "six families".
 - 2026-11-26: Hero small text: the Washington scene and the old line between left and right in one paragraph; "the Big Tech companies behind it"; "and who will hold it?" without "in the future" (owner, 09:46).
 - 2026-11-26: Hero standfirst: "This moment feels weightless, but the ideas around AI were there long before it. Their history may hold clues to what AI is, how to meet it, and whether we have a choice at all." (owner, 09:42).
