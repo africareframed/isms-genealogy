@@ -46,5 +46,20 @@ const items: [string, string, string][] = [
     addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && h.classList.contains('menu-open')) { set(false); b.focus(); }
     });
+    // Like a news site (owner, 26 Nov 2026): the header slides away while the reader scrolls down and comes back
+    // as soon as they scroll up; it stays while the menu is open, at the top of the page, and when it takes focus.
+    let lastY = scrollY, ticking = false;
+    const hide = (on) => h.classList.toggle('head-hidden', on);
+    const update = () => {
+      ticking = false;
+      const y = scrollY, dy = y - lastY;
+      if (y <= h.offsetHeight) { hide(false); lastY = y; }
+      else if (dy > 6) { if (!h.classList.contains('menu-open')) hide(true); lastY = y; }
+      else if (dy < -6) { hide(false); lastY = y; }
+      h.classList.toggle('scrolled', y > 4);
+    };
+    addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+    h.addEventListener('focusin', () => hide(false));
+    update();
   })();
 </script>

@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: News-style header on every page: it slides away on scrolling down and returns on scrolling up; on phones a movement page's image sits under its name, before the lead (owner, 18:00).
 - 2026-11-26: The cards' squares now jump into place the moment a family is clicked open, and out the moment it is closed; the drawer slides at once both ways (owner, 16:02).
 - 2026-11-26: The cards' squares now lock in one hard cut the moment the drawer stops, and jump out a beat before it closes (owner, 15:57: the two-step ratchet looked like a stutter).
 - 2026-11-26: The movement cards' black squares lock: on the home page they lie over the cards as separate pieces, one grid square out of place while a family is folded, and ratchet into place in two steps as it opens; they unlock first when it closes. Engine: `collage-<id>-base.jpg` and `src/data/images/card-squares.json` (owner, 15:48). Still to add to the design guide with 3.3.

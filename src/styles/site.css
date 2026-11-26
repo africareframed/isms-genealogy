@@ -43,7 +43,12 @@ a:hover { color: var(--muted); }
 .site-nav { display: flex; gap: 28px; font-size: 16px; line-height: 24px; }
 .site-nav a { text-decoration: none; white-space: nowrap; }
 /* The site menu behind a burger, on every page (owner, 26 Nov 2026). Without scripts: a plain row of links. */
-.site-head { position: relative; }
+.site-head { position: sticky; top: 0; z-index: 20; }
+.site-head::before { content: ''; position: absolute; z-index: -1; top: 0; bottom: 0; left: calc(50% - 50vw); right: calc(50% - 50vw); background: #ffffff; border-bottom: 1px solid transparent; }
+.site-head.scrolled::before { border-bottom-color: var(--rule); }
+/* the news-site header (owner, 26 Nov 2026): it slides away while you scroll down and back as you scroll up */
+.site-head, .ph-head { transition: transform 220ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+.head-hidden { transform: translateY(calc(-100% - 2px)); }
 .head-end { display: flex; align-items: center; gap: 28px; }
 .menu-btn { display: none; }
 .menu-list { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 6px; font-size: 16px; line-height: 24px; }
@@ -350,7 +355,12 @@ a.hist:hover .ht { text-decoration: underline; }
   .hm-b { padding-left: 100px; padding-right: 0; }
   .hero-side { grid-template-columns: minmax(0, 1fr); row-gap: 32px; margin-top: 48px; max-width: 640px; }
   .hero-side .stand, .hero-side .hero-body { grid-column: 1; }
-  .intro { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .intro { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  /* the image straight under the name and its strands, before the lead (owner, 26 Nov 2026) */
+  .intro-text { display: contents; }
+  .intro-text > * { order: 3; }
+  .intro-text > .kick, .intro-text > h1, .intro-text > .inc { order: 1; }
+  .intro > .pic { order: 2; margin: 12px 0; }
   .intro h1 { font-size: 72px; line-height: 76px; }
   .actors { grid-template-columns: minmax(0, 1fr); }
   .lens { grid-template-columns: minmax(0, 1fr); }
@@ -405,6 +415,7 @@ a.hist:hover .ht { text-decoration: underline; }
   .prose h1 { font-size: 44px; line-height: 48px; }
 }
 @media (prefers-reduced-motion: reduce) { .sq { transition: none; } .fam.shut .sq { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .site-head, .ph-head { transition: none; } }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .card { transition: none; }
