@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
@@ -31,8 +32,10 @@ const nav = [
   ...(theme.data.disputes ? [{ href: '#disputes', label: 'Who disputes it' }] : []),
 ];
 const arrow = `<svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg>`;
+// its link preview (scripts/share-images.py), if made; else the home page's
+const shareImage = existsSync(`public/images/share/${theme.id}.jpg`) ? `images/share/${theme.id}.jpg` : undefined;
 ---
-<Base title={`${theme.data.title} · ${SITE_NAME}`} description={theme.data.summary}>
+<Base title={`${theme.data.title} · ${SITE_NAME}`} description={theme.data.summary} share={shareImage}>
   <PageHeader title={theme.data.title} kind="Vocabulary" nav={nav} navLabel="On this page" current="vocabulary" />
 
   <main id="main">

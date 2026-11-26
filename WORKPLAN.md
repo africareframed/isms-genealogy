@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Link previews on every page (owner, 18:07): Open Graph and Twitter tags; a home image with the headline, the twelve card strips and a ruler back to c. 1800 BCE; one designed image per movement and key word (`scripts/share-images.py`).
 - 2026-11-26: News-style header on every page: it slides away on scrolling down and returns on scrolling up; on phones a movement page's image sits under its name, before the lead (owner, 18:00).
 - 2026-11-26: The cards' squares now jump into place the moment a family is clicked open, and out the moment it is closed; the drawer slides at once both ways (owner, 16:02).
 - 2026-11-26: The cards' squares now lock in one hard cut the moment the drawer stops, and jump out a beat before it closes (owner, 15:57: the two-step ratchet looked like a stutter).

@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Picture from './Picture.astro';
@@ -79,8 +80,10 @@ const nav = [
   ...groups.map((g) => ({ href: `#${g.id}`, label: g.era })),
 ];
 const first = entries[0];
+// its link preview (scripts/share-images.py), if made; else the home page's
+const shareImage = existsSync(`public/images/share/${ism.id}.jpg`) ? `images/share/${ism.id}.jpg` : undefined;
 ---
-<Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary}>
+<Base title={`${ism.data.title} · ${SITE_NAME}`} description={ism.data.summary} share={shareImage}>
   <PageHeader title={ism.data.title} kind="Movement" nav={nav} navLabel="Periods" current="movements" />
 
   <main id="main">

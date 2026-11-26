@@ -2,6 +2,8 @@
 # from the archive images listed in each title. No generative model is used.
 # The twelve movement cards also come as collage-<id>-base.jpg, the same image without its black squares, for the
 # home page, where the squares lie over the card and lock into place as a family opens (26 Nov 2026).
+# The link previews in public/images/share/ (26 Nov 2026) are made from these collages and the site's own fonts by
+# scripts/share-images.py: the home page's, and one per movement and key word with its whole card.
 
 - id: collage-transhumanism
   title: "Collage from the Flood Tablet, Epic of Gilgamesh (7th century BCE)"
