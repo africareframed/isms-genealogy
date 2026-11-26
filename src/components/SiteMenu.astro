@@ -1,0 +1,50 @@
+---
+// The site's menu behind a burger, on every page and every screen (owner, 26 Nov 2026). Closed: three thin lines.
+// Open: a panel slides down under the header with every section in large type, the page you are on underlined in
+// the accent; the lines turn into a cross. It closes with the cross, Escape, a link or a click outside. Without
+// scripts the links show as a plain row.
+import { pageHref } from '../lib/site';
+
+interface Props { current?: string; home?: boolean }
+const { current, home = false } = Astro.props;
+const items: [string, string, string][] = [
+  ['movements', 'Movements', home ? '#movements' : `${pageHref()}#movements`],
+  ['history', 'History of AI', pageHref('history')],
+  ['people', 'People', pageHref('people')],
+  ['vocabulary', 'Vocabulary', pageHref('vocabulary')],
+  ['themes', 'Themes', pageHref('themes')],
+  ['about', 'About', pageHref('about')],
+  ['method', 'Method', pageHref('method')],
+];
+---
+<button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-menu" aria-label="Menu" hidden>
+  <svg class="mb-open" aria-hidden="true" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 8H25"></path><path d="M3 14H25"></path><path d="M3 20H25"></path></svg>
+  <svg class="mb-close" aria-hidden="true" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6L22 22"></path><path d="M22 6L6 22"></path></svg>
+</button>
+<div class="menu-panel" id="site-menu">
+  <nav class="wrap menu-list" aria-label="Site">
+    {items.map(([id, label, href]) => <a href={href} aria-current={id === current ? 'page' : undefined}>{label}</a>)}
+  </nav>
+</div>
+<script is:inline>
+  (() => {
+    const b = document.querySelector('.menu-btn'), p = document.getElementById('site-menu');
+    if (!b || !p) return;
+    const h = b.closest('header');
+    h.classList.add('menu-ready');
+    b.hidden = false;
+    const set = (o) => {
+      h.classList.toggle('menu-open', o);
+      b.setAttribute('aria-expanded', String(o));
+      b.setAttribute('aria-label', o ? 'Close the menu' : 'Menu');
+    };
+    b.addEventListener('click', (e) => { e.stopPropagation(); set(!h.classList.contains('menu-open')); });
+    p.addEventListener('click', (e) => { if (e.target.closest('a')) set(false); });
+    document.addEventListener('click', (e) => {
+      if (h.classList.contains('menu-open') && !p.contains(e.target) && !b.contains(e.target)) set(false);
+    });
+    addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && h.classList.contains('menu-open')) { set(false); b.focus(); }
+    });
+  })();
+</script>

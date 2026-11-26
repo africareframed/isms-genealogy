@@ -52,7 +52,7 @@ const groupLines: Record<string, string> = {
 ---
 <Base title={`People · ${SITE_NAME}`} description="The people who shape AI: what they did, the movements they belong to and their moments in the history.">
   <Fragment set:html={`<script type="application/json" id="pf-lines">${JSON.stringify({ lines, groupLines }).replace(/</g, '\\u003c')}</script>`} />
-  <PageHeader title="People" kind={`${people.length} people`} nav={nav} navLabel="A to Z" />
+  <PageHeader title="People" kind={`${people.length} people`} nav={nav} navLabel="A to Z" current="people" />
 
   <main id="main">
     <section id="introduction" class="wrap intro">

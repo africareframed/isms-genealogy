@@ -5,6 +5,7 @@ import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
 import Go from '../components/Go.astro';
+import SiteMenu from '../components/SiteMenu.astro';
 import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel , strandsLine } from '../lib/site';
 import { getHistory } from '../lib/history';
 
@@ -40,15 +41,7 @@ const SHOW_HISTORY_CARD = false;
 <Base title={`${SITE_NAME}: ${SITE_TITLE}`}>
   <header class="wrap site-head">
     <a class="site-name" href={pageHref()}>{SITE_NAME}</a>
-    <nav class="site-nav" aria-label="Site">
-      <a href="#movements">Movements</a>
-      {moments.length > 0 && <a href={pageHref('history')}>History of AI</a>}
-      <a href={pageHref('people')}>People</a>
-      <a href={pageHref('vocabulary')}>Vocabulary</a>
-      <a href={pageHref('themes')}>Themes</a>
-      <a href={pageHref('about')}>About</a>
-      <a href={pageHref('method')}>Method</a>
-    </nav>
+    <SiteMenu current="movements" home />
   </header>
 
   <section class="wrap hero">

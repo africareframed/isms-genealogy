@@ -1,13 +1,15 @@
 ---
 import { SITE_NAME, pageHref } from '../lib/site';
+import SiteMenu from './SiteMenu.astro';
 
 interface Props {
   title: string;
   kind: string;
   nav: { href: string; label: string }[];
   navLabel: string;
+  current?: string;
 }
-const { title, kind, nav, navLabel } = Astro.props;
+const { title, kind, nav, navLabel, current } = Astro.props;
 ---
 <header class="ph-head">
   <div class="wrap ph-top">
@@ -16,7 +18,10 @@ const { title, kind, nav, navLabel } = Astro.props;
       All movements
     </a>
     <span class="ph-title">{title} <span class="ph-kind">{kind}</span></span>
-    <a class="ph-site" href={pageHref()}>{SITE_NAME}</a>
+    <span class="head-end">
+      <a class="ph-site" href={pageHref()}>{SITE_NAME}</a>
+      <SiteMenu current={current} />
+    </span>
   </div>
   <nav class="wrap secnav" aria-label={navLabel}>
     {nav.map((n, i) => <a href={n.href} data-label={n.label} aria-current={i === 0 ? 'true' : undefined}>{n.label}</a>)}

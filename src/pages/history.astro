@@ -44,7 +44,7 @@ const navLabel = (e: (typeof eras)[number]) => (e.from < 0 ? 'Before 1642' : e.s
 const nav = [{ href: '#introduction', label: 'Introduction' }, ...eras.map((e) => ({ href: `#${eraAnchor(e.id)}`, label: navLabel(e) }))];
 ---
 <Base title={`History of AI · ${SITE_NAME}`} description="The history of artificial intelligence, from ancient automata to the generative race, newest first.">
-  <PageHeader title="History of AI" kind="History" nav={nav} navLabel="Eras" />
+  <PageHeader title="History of AI" kind="History" nav={nav} navLabel="Eras" current="history" />
 
   <main id="main">
     <section id="introduction" class="wrap intro hintro">

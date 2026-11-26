@@ -42,6 +42,25 @@ a:hover { color: var(--muted); }
 .site-name { font-size: 18px; line-height: 24px; font-weight: 600; text-decoration: none; letter-spacing: -0.01em; }
 .site-nav { display: flex; gap: 28px; font-size: 16px; line-height: 24px; }
 .site-nav a { text-decoration: none; white-space: nowrap; }
+/* The site menu behind a burger, on every page (owner, 26 Nov 2026). Without scripts: a plain row of links. */
+.site-head { position: relative; }
+.head-end { display: flex; align-items: center; gap: 28px; }
+.menu-btn { display: none; }
+.menu-list { display: flex; flex-wrap: wrap; column-gap: 28px; row-gap: 6px; font-size: 16px; line-height: 24px; }
+.menu-list a { text-decoration: none; white-space: nowrap; }
+.menu-ready .menu-btn { display: block; flex: none; width: 36px; height: 36px; margin: -4px -4px -4px 0; padding: 4px; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.menu-btn svg { display: block; width: 28px; height: 28px; }
+.menu-btn .mb-close, .menu-btn[aria-expanded="true"] .mb-open { display: none; }
+.menu-btn[aria-expanded="true"] .mb-close { display: block; }
+.menu-ready .menu-panel { position: absolute; left: 0; right: 0; top: 100%; z-index: 30; max-height: calc(100dvh - 100%); overflow-y: auto; background: #ffffff; border-bottom: 2px solid var(--ink); visibility: hidden; clip-path: inset(0 0 100% 0); transition: clip-path 220ms cubic-bezier(0.2, 0.7, 0.2, 1), visibility 0s linear 220ms; }
+.menu-ready.menu-open .menu-panel { visibility: visible; clip-path: inset(0 0 0 0); transition: clip-path 280ms cubic-bezier(0.2, 0.7, 0.2, 1), visibility 0s; }
+.menu-ready .menu-list { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--g); row-gap: 0; padding-bottom: 48px; font-size: 40px; line-height: 48px; font-weight: 600; letter-spacing: -0.02em; }
+.menu-ready .menu-list a { grid-column: 7 / -1; padding: 14px 0; border-top: 1px solid var(--rule); }
+.menu-ready .menu-list a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 7px; }
+.menu-list a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 3px; text-underline-offset: 8px; }
+@media (max-width: 900px) { .menu-ready .menu-list a { grid-column: 1 / -1; } }
+@media (max-width: 640px) { .menu-ready .menu-list { font-size: 30px; line-height: 38px; padding-bottom: 32px; } .menu-ready .menu-list a { padding: 11px 0; } .head-end { gap: 18px; } }
+@media (prefers-reduced-motion: reduce) { .menu-ready .menu-panel, .menu-ready.menu-open .menu-panel { transition: none; } }
 .site-name { white-space: nowrap; }
 /* Hero (option A): subtitle and date on one line; the heading across; under it the standfirst left and the text right */
 .hero { padding-top: 88px; padding-bottom: 128px; }
