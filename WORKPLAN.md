@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Hero standfirst: "This moment feels weightless, but the ideas around AI were there long before it. Their history may hold clues to what AI is, how to meet it, and whether we have a choice at all." (owner, 09:42).
 - 2026-11-26: Hero standfirst deepened: "…Their history may hold clues to what AI is, how to meet it, and whether we have a choice at all." (owner, 09:34).
 - 2026-11-26: Hero: the bold standfirst now answers the headline, "The ideas now fighting over AI were there long before it. Their history may hold clues to what comes next."; the Washington scene opens the small text on the right (owner, 09:29).
 - 2026-11-26: The movement cards on the home page and the key-word cards on the vocabulary page end their names in a forward arrow (the back link's arrow turned round), kept with the last word; the name underlines on hover; titles 28 px under 360 px so the longest names fit (owner, 09:18).
