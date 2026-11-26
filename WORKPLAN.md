@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-26: Header kept as it is on the long pages (owner, 19:00): it slides away and comes back on every screen; a slimmer phone header and a fixed one on desktop were both turned down.
 - 2026-11-26: Back to your place: from a movement page, "All movements" and the menu's Movements open its family on the home page, land so the whole card shows, and underline its name in the accent; the site name still leads to the top (owner, 18:45).
 - 2026-11-26: Roots of refusal, drafted for the checker (owner, 18:26): the Amish and the telephone (c. 1910) and William Morris's "Useful Work versus Useless Toil" (1884) on Neo-Luddism, which now has 18 entries (owner, 18:41: timelines may run long; the fact-check can wait); Gandhi's Hind Swaraj (1909) on Digital sovereignty; Zwentendorf (1978) and Denmark's "Atomkraft? Nej tak" (1985) on Pause. Chain 52, "Leave to say no", added to the Themes tab of the owner's doc and to `chains.yaml`. No seventh family (see CLAUDE.md).
 - 2026-11-26: Link previews on every page (owner, 18:07): Open Graph and Twitter tags; a home image with the headline, the twelve card strips and a ruler back to c. 1800 BCE; one designed image per movement and key word (`scripts/share-images.py`).
