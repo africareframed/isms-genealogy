@@ -94,6 +94,9 @@ a:hover { color: var(--muted); }
 a.card:hover .ph, a.card:hover img { filter: brightness(0.96); }
 a.card:hover { color: var(--ink); }
 a.card:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
+.go-w { white-space: nowrap; }
+.go-w svg { display: inline-block; width: 0.8em; height: 0.8em; margin-left: 0.3em; vertical-align: -0.08em; } /* the forward arrow after a card's title (owner, 26 Nov 2026) */
+a.card:hover .go-t { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
 .ct { margin: 0; font-size: 32px; line-height: 36px; font-weight: 600; letter-spacing: -0.015em; }
 .cd { margin: 0; font-size: 17px; line-height: 26px; color: #333333; }
 .soon { font-family: var(--mono); font-size: 12px; line-height: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
@@ -484,3 +487,4 @@ a.hist:hover .ht { text-decoration: underline; }
 .ch-steps li.hinge strong { background: linear-gradient(transparent 58%, rgba(216, 70, 28, 0.24) 58%); }
 .ch-hinge { margin-left: 10px; font-family: var(--mono); font-size: 11px; line-height: 15px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
 .ch .hm-b .wi { margin: 6px 0 0; }
+@media (max-width: 359px) { .ct { font-size: 28px; line-height: 32px; } } /* the longest names keep their arrow inside the card on the smallest phones */

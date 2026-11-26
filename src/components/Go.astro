@@ -1,0 +1,13 @@
+---
+// A card's title with the forward arrow after it: the back link's arrow turned round, the one mark for
+// "go further" (owner, 26 Nov 2026). The last word and the arrow never break apart, and the hover underline
+// stops at the last letter.
+interface Props { text: string; go?: boolean }
+const { text, go = true } = Astro.props;
+const words = text.split(' ');
+const last = words.pop();
+const head = words.join(' ');
+---
+{go ? (
+  <span class="go-t">{head && `${head} `}<span class="go-w">{last}<svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10H16"></path><path d="M11 5L16 10L11 15"></path></svg></span></span>
+) : text}

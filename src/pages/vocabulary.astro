@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
+import Go from '../components/Go.astro';
 import { FAMILIES, SITE_NAME, pageHref } from '../lib/site';
 import { linkNames, personAnchor } from '../lib/people';
 
@@ -49,7 +50,7 @@ const filterCss = [
           const inner = (
             <Fragment>
               <Picture image={t.data.image} ratio="3 / 2" />
-              <h3 class="tt">{t.data.title}</h3>
+              <h3 class="tt"><Go text={t.data.title} go={t.data.ready} /></h3>
               <p class="td">{t.data.summary}</p>
               {!t.data.ready && <span class="soon">In preparation</span>}
             </Fragment>

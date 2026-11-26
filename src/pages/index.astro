@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
+import Go from '../components/Go.astro';
 import { ERAS, FAMILIES, SITE_NAME, SITE_TITLE, MAP_DATE, pageHref, yearText, rightsLabel , strandsLine } from '../lib/site';
 import { getHistory } from '../lib/history';
 
@@ -120,7 +121,7 @@ const SHOW_HISTORY_CARD = false;
                 <Fragment>
                   <Picture image={i.data.image} />
                   <span class="cn">{num(i.data.order)}</span>
-                  <h4 class="ct">{i.data.title}</h4>
+                  <h4 class="ct"><Go text={i.data.title} go={i.data.ready} /></h4>
                   <p class="cd">{i.data.summary}</p>
                   {(i.data.aka || i.data.includes.length > 0) && (
                     <p class="inc">{strandsLine(i.data.aka, i.data.includes)}</p>
