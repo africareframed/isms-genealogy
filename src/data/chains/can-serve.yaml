@@ -1,0 +1,305 @@
+# Who could gain (owner, 27 Nov 2026): the "Can serve" grid, copied word for word from the "Can serve grid" tab of the
+# owner's doc "A new framing of the AI movements" (https://claude.ai/artifact/JZZanMGfFdDsTYLQWH2bHi). Change the doc
+# first, then this file. Every movement against seven kinds of actor: whether each could gain if the movement's demands
+# won, with the mechanism ("since..."), or why the cell is empty. Interest, never motive. A first draft: every line
+# still needs a source, so the section shows "Draft · to be checked".
+# status: gains | gains-opponent (the movement's own opponent could gain) | mixed | loses | none (no mechanism)
+actors:
+- id: big-tech
+  name: Big Tech
+  who: The largest platforms, frontier labs and chipmakers
+- id: challengers
+  name: Challengers
+  who: Startups, smaller labs, open-source developers
+- id: industry
+  name: Established industry
+  who: Energy, defence contractors, media, finance, manufacturing
+- id: patrons
+  name: Patrons
+  who: Individuals who fund or found movements and labs with personal fortunes
+- id: state
+  name: The state
+  who: Governments, agencies, militaries
+- id: politics
+  name: Politics
+  who: Parties and politicians
+- id: institutions
+  name: Institutions
+  who: Unions, professions, experts, NGOs, universities
+movements:
+- ism: transhumanism
+  cells:
+  - actor: big-tech
+    status: gains
+    text: Makers of wearables and health platforms, since self-enhancement runs on constant measurement
+  - actor: challengers
+    status: gains
+    text: Longevity and enhancement startups, since the belief turns ageing into a market
+  - actor: industry
+    status: gains
+    text: Pharmaceutical and wellness firms, since ageing becomes a condition to treat
+  - actor: patrons
+    status: gains
+    text: Wealthy individuals seeking longer lives, since they can afford enhancement first
+  - actor: state
+    status: none
+    text: Its core demand is that the state stay out of the way
+  - actor: politics
+    status: none
+    text: No party with power campaigns on enhancement
+  - actor: institutions
+    status: gains
+    text: Ageing-research labs, since the belief directs money to the biology of ageing
+- ism: singularitarianism
+  cells:
+  - actor: big-tech
+    status: gains
+    text: The labs closest to AGI, since a race rewards whoever is ahead and a near AGI justifies almost any valuation
+  - actor: challengers
+    status: mixed
+    text: Capital floods the sector, but a winner-takes-all race favours the leaders
+  - actor: industry
+    status: gains
+    text: Energy firms and utilities, since the race needs ever more power
+  - actor: patrons
+    status: gains
+    text: Investors betting on AGI, since the belief turns a long shot into an inevitability
+  - actor: state
+    status: none
+    text: The belief treats the transition as technical, not political
+  - actor: politics
+    status: none
+    text: No party campaigns on the singularity
+  - actor: institutions
+    status: loses
+    text: Universities lose researchers to the labs racing to reach it
+- ism: techno-optimism
+  cells:
+  - actor: big-tech
+    status: gains
+    text: The largest platforms and labs, since the belief makes any rule look like a cost in lives
+  - actor: challengers
+    status: gains
+    text: Startups and open-source developers, since fewer rules lower the cost of entry
+  - actor: industry
+    status: mixed
+    text: Energy firms gain from the data-centre build-out; incumbents exposed to automation lose
+  - actor: patrons
+    status: gains
+    text: Founder-investors, since growth flows first to those who own the capital
+  - actor: state
+    status: loses
+    text: Regulators lose power, since every rule must justify its cost in lives
+  - actor: politics
+    status: gains
+    text: Parties of deregulation, since the belief turns cutting rules into a moral cause
+  - actor: institutions
+    status: loses
+    text: Safety, ethics and labour bodies lose standing, since precaution is cast as the enemy
+- ism: american-dynamism
+  cells:
+  - actor: big-tech
+    status: gains
+    text: Labs and cloud firms with government contracts, since national projects run through chosen contractors
+  - actor: challengers
+    status: gains
+    text: Defence-tech startups, since the race opens defence budgets to new firms
+  - actor: industry
+    status: gains
+    text: Defence contractors and energy firms, since rearmament and the build-out need both
+  - actor: patrons
+    status: gains
+    text: Investors in defence tech, since national security turns their portfolios into policy
+  - actor: state
+    status: gains-opponent
+    text: Security establishments on both sides, rivals included, since a race justifies budgets in each
+  - actor: politics
+    status: gains
+    text: China hawks across parties, since the race unites them
+  - actor: institutions
+    status: mixed
+    text: Universities gain defence research money but face limits on foreign students and collaboration
+- ism: ai-safety
+  cells:
+  - actor: big-tech
+    status: gains
+    text: The frontier labs, since "only responsible builders should build" can become a moat (contested)
+  - actor: challengers
+    status: loses
+    text: Licences and tests cost most for the smallest players
+  - actor: industry
+    status: none
+    text: The rules target frontier developers, not the industries that use AI
+  - actor: patrons
+    status: gains
+    text: The field's funders, since they gain a say in how AI is governed
+  - actor: state
+    status: gains
+    text: Safety institutes and regulators, since licences and tests need them
+  - actor: politics
+    status: none
+    text: The movement works through experts and agencies, not parties
+  - actor: institutions
+    status: gains
+    text: The safety-research field and its experts, since governance needs evaluators
+- ism: pause
+  cells:
+  - actor: big-tech
+    status: gains-opponent
+    text: The frontier labs, since the fear advertises their power, and today's leaders, since a freeze keeps their models
+  - actor: challengers
+    status: loses
+    text: A cap below the frontier blocks them from building their way up
+  - actor: industry
+    status: mixed
+    text: Incumbents AI would disrupt gain time; energy firms lose the build-out
+  - actor: patrons
+    status: gains
+    text: The risk camp's funders, since a treaty would turn their cause into law
+  - actor: state
+    status: gains
+    text: Governments seeking oversight of computing, since a treaty requires tracking chips and data centres
+  - actor: politics
+    status: gains
+    text: Politicians on both flanks, since fear of AI unites voters across old lines
+  - actor: institutions
+    status: gains
+    text: Arms-control and safety bodies, since a treaty needs inspectors
+- ism: pro-human
+  cells:
+  - actor: big-tech
+    status: gains-opponent
+    text: Companies that borrow its language, since "humanist" branding answers the critique without changing the product
+  - actor: challengers
+    status: loses
+    text: Liability and limits cost most for small firms launching new products
+  - actor: industry
+    status: gains
+    text: Media, publishing and other industries the limits protect, since a limit protects what already exists
+  - actor: patrons
+    status: gains
+    text: The risk camp's funders, since the coalition gives their cause a mass base
+  - actor: state
+    status: gains
+    text: National governments, since they write the limits
+  - actor: politics
+    status: gains
+    text: Politicians on both flanks looking for a cause that unites voters
+  - actor: institutions
+    status: gains
+    text: Unions and faith groups, since the coalition gives them a seat at the table
+- ism: ai-ethics
+  cells:
+  - actor: big-tech
+    status: gains-opponent
+    text: Firms large enough to absorb compliance, and companies that use principles as reputation
+  - actor: challengers
+    status: loses
+    text: Compliance costs fall hardest on small firms
+  - actor: industry
+    status: mixed
+    text: Consulting and audit firms gain, since every audit needs an auditor; firms using AI in hiring and credit face audits
+  - actor: patrons
+    status: none
+    text: Its demands give individual fortunes nothing to gain
+  - actor: state
+    status: gains
+    text: Regulators, since accountability runs through them
+  - actor: politics
+    status: gains
+    text: Parties of regulation, since harms happening now are easier to campaign on than harms to come
+  - actor: institutions
+    status: gains
+    text: Lawyers and advocacy NGOs, since rights need people to enforce them
+- ism: digital-sovereignty
+  cells:
+  - actor: big-tech
+    status: gains-opponent
+    text: Chipmakers selling "sovereign AI", since local stacks still run on their hardware
+  - actor: challengers
+    status: gains
+    text: Local AI firms, since public money and preference flow to them
+  - actor: industry
+    status: gains
+    text: Telecoms and national champions, since infrastructure is their business
+  - actor: patrons
+    status: none
+    text: The stack is built with public money, not personal fortunes
+  - actor: state
+    status: gains
+    text: Governments and the EU, since building the stack expands their role
+  - actor: politics
+    status: gains
+    text: Nationalists as well as social democrats, since sovereignty speaks to both
+  - actor: institutions
+    status: gains
+    text: Public research bodies and universities, since a public stack is partly built in public labs
+- ism: neo-luddism
+  cells:
+  - actor: big-tech
+    status: loses
+    text: Adoption needs consent, place by place
+  - actor: challengers
+    status: gains-opponent
+    text: Competitors in places that don't refuse, since refusal in one place moves the work to another
+  - actor: industry
+    status: gains
+    text: Brands selling the human-made, since refusal creates a premium for the handmade
+  - actor: patrons
+    status: none
+    text: Few fortunes back it, and its demands offer them nothing
+  - actor: state
+    status: mixed
+    text: Local councils gain a say; national industrial strategies lose speed
+  - actor: politics
+    status: gains
+    text: Populists on left and right, since anger at automation mobilises voters
+  - actor: institutions
+    status: gains
+    text: Established professions and strong unions, teachers and academic staff included, since a veto is only as strong as the group holding it
+- ism: normal-technology
+  cells:
+  - actor: big-tech
+    status: gains
+    text: Firms that prefer light rules, since the belief removes the case for emergency powers
+  - actor: challengers
+    status: gains
+    text: Open-source developers, since it argues against non-proliferation rules
+  - actor: industry
+    status: gains
+    text: Incumbents adopting AI at their own pace, since diffusion is slow and runs through them
+  - actor: patrons
+    status: none
+    text: Ordinary governance gives individual fortunes no special stake
+  - actor: state
+    status: gains
+    text: Existing regulators, since governance stays with them
+  - actor: politics
+    status: none
+    text: It removes urgency, and urgency is what mobilises voters
+  - actor: institutions
+    status: gains
+    text: Today's institutions, since adapting existing rules favours those the rules already fit
+- ism: ai-skepticism
+  cells:
+  - actor: big-tech
+    status: mixed
+    text: Valuations fall, but a burst bubble leaves the cash-rich standing as rivals fail (opponent)
+  - actor: challengers
+    status: mixed
+    text: Rival research programmes gain; startups that depend on AI funding lose
+  - actor: industry
+    status: gains
+    text: Investors betting against the bubble, and, if it is right, the incumbents AI was meant to disrupt
+  - actor: patrons
+    status: none
+    text: It asks for proof, which gives fortunes nothing to fund
+  - actor: state
+    status: none
+    text: It asks for proof, not for state action
+  - actor: politics
+    status: none
+    text: Doubt gives parties little to campaign on
+  - actor: institutions
+    status: gains
+    text: Independent evaluators and academic critics, since demands for proof need someone to test the claims; when skeptics last won (Lighthill, 1973), universities lost funding

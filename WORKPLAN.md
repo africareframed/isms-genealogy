@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-27: "Who could gain" on the Themes page, under the chains (owner, 09:01): the Can serve grid from the framework doc, 12 movements × 7 actors, as a draft; rows fold open to the mechanisms.
 - 2026-11-26: AI ethics entry "State v. Loomis" (July 2016) drafted for the checker, next to Machine Bias (owner, 20:46).
 - 2026-11-26: Drafted for the checker (owner, 20:35): the word "algorithmic management" (Lee, Kusbit, Metsky and Dabbish, 2015) for AI ethics, and the AI ethics entry "Time off task" (Amazon's Baltimore letter, 2019). Pro-human not tagged: no source found that it uses the term.
 - 2026-11-26: A trail in the header: "← Movements / Pause" on movement pages and "← Vocabulary / Compute" on key-word pages (the end link there now reads Vocabulary), the page's name in grey, on every screen; it replaces the name in the middle, which phones hid (owner, 19:05).

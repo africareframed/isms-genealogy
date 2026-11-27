@@ -1,9 +1,11 @@
 ---
 import { readFileSync } from 'node:fs';
+import { getCollection } from 'astro:content';
+import Go from '../components/Go.astro';
 import SiteMenu from '../components/SiteMenu.astro';
 import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
-import { SITE_NAME, pageHref } from '../lib/site';
+import { FAMILIES, SITE_NAME, pageHref } from '../lib/site';
 
 // The themes (owner, 25 Nov 2026): fifty-two chains of thought about AI as it is deployed, from the master list in
 // the owner's Claude doc. Each chain is a numbered run of steps, one of them the hinge where the argument turns, and
@@ -36,6 +38,27 @@ const WORDS = [
   { id: 'augment', name: 'Augment' },
   { id: 'abundance', name: 'Abundance' },
 ];
+// Who could gain (owner, 27 Nov 2026): the "Can serve" grid from the owner's doc "A new framing of the AI movements",
+// under the themes. Each movement folds open to its seven lines; the marks are the collages' black squares.
+type Cell = { actor: string; status: string; text: string };
+const serve: { actors: { id: string; name: string; who: string }[]; movements: { ism: string; cells: Cell[] }[] } = parse(
+  readFileSync('src/data/chains/can-serve.yaml', 'utf8'),
+);
+const STATUS = [
+  { id: 'gains', name: 'Could gain' },
+  { id: 'gains-opponent', name: 'Could gain, though the movement opposes it' },
+  { id: 'mixed', name: 'Mixed' },
+  { id: 'loses', name: 'Loses' },
+  { id: 'none', name: 'No mechanism' },
+];
+const SHORT: Record<string, string> = { industry: 'Industry', institutions: 'Institutions', challengers: 'Challengers' };
+const statusName = (id: string) => STATUS.find((s) => s.id === id)?.name ?? id;
+const actorName = (id: string) => serve.actors.find((a) => a.id === id)?.name ?? id;
+const isms = new Map((await getCollection('isms')).map((i) => [i.id, i]));
+const famColour = (id: string) => FAMILIES.find((f) => f.id === id)?.colour ?? '#ccc';
+const serveRows = serve.movements
+  .map((m) => ({ ...m, ism: isms.get(m.ism)! }))
+  .sort((a, b) => (a.ism.data.order ?? 0) - (b.ism.data.order ?? 0));
 const groupName = (id: string) => GROUPS.find((g) => g.id === id)?.name ?? id;
 const pad = (n: number) => String(n).padStart(2, '0');
 // The count opens the lead, so it is written out (British style): "Fifty-two".
@@ -131,6 +154,50 @@ const filterCss = [
       })}
     </div>
       <p class="ch-none" hidden>No theme in this group runs through this word.</p>
+
+    <section class="cs" id="who-could-gain" aria-labelledby="cs-h">
+      <h2 id="cs-h">Who could gain</h2>
+      <p class="vlead">Who stands to gain if each movement's demands became law, and who would lose? Twelve movements against seven kinds of actor, each with the mechanism behind it. Often the clearest winner is the movement's own opponent.</p>
+      <span class="draft">Draft · to be checked</span>
+      <ul class="cs-key" aria-label="Key">
+        {STATUS.map((s) => <li><span class={`cs-c s-${s.id}`} aria-hidden="true"></span>{s.name}</li>)}
+      </ul>
+      <div class="cs-grid">
+        <div class="cs-head" aria-hidden="true">
+          <span></span>
+          <span class="cs-cols">{serve.actors.map((a) => <span title={a.who}><span class="l-long">{a.name}</span><span class="l-short">{SHORT[a.id] ?? a.name}</span></span>)}</span>
+        </div>
+        {serveRows.map((m) => (
+          <details class="cs-row" id={`gain-${m.ism.id}`}>
+            <summary>
+              <span class="cs-m">
+                <span class="cs-sw" style={`background:${famColour(m.ism.data.family)}`} aria-hidden="true"></span>
+                <span class="cs-no">{pad(m.ism.data.order ?? 0)}</span>
+                <span class="cs-n">{m.ism.data.title}</span>
+              </span>
+              <span class="cs-cols">
+                {m.cells.map((c) => (
+                  <span class={`cs-c s-${c.status}`} title={`${actorName(c.actor)}: ${statusName(c.status)}`}>
+                    <span class="sr">{actorName(c.actor)}: {statusName(c.status)}</span>
+                  </span>
+                ))}
+              </span>
+            </summary>
+            <div class="cs-b">
+              <dl>
+                {m.cells.map((c) => (
+                  <div class="cs-l">
+                    <dt><span class={`cs-c s-${c.status}`} aria-hidden="true"></span><span class="cs-dn">{actorName(c.actor)} <span class="cs-s">{statusName(c.status)}</span></span></dt>
+                    <dd>{c.text}.</dd>
+                  </div>
+                ))}
+              </dl>
+              {m.ism.data.ready && <a class="cs-go" href={pageHref(m.ism.id)}><Go text={m.ism.data.title} go={true} /></a>}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
   </main>
   <script is:inline>
     // Counts the themes the two filters leave, and says so when none is left.
