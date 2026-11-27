@@ -26,6 +26,14 @@ holders:
     note: Mustafa Suleyman's division at Microsoft. Its Humanist AI wants AI kept subordinate to people and rejects the race to an all-purpose superintelligence. Suleyman rejects the doomer label and calls his team accelerationists.
   - name: 80,000 Hours
     note: Careers organisation founded in 2011. Since April 2025 it focuses on helping people make the transition to advanced AI go well.
+  - name: OpenAI and Sam Altman
+    note: Founded in 2015 as a non-profit to make AGI benefit all humanity. That year Altman called superhuman AI probably the greatest threat to our survival. In 2024 the lab disbanded its superalignment team and opposed California's AI safety bill.
+    since: 2015
+    until: 2024
+  - name: Elon Musk
+    note: Called AI humanity's biggest existential threat in 2014, and gave the Future of Life Institute $10 million in 2015. He co-founded OpenAI, signed the 2023 pause letter months before launching xAI, and in 2024 backed California's AI safety bill.
+    since: 2014
+    until: 2024
 words:
   - longtermism
   - existential risk
@@ -94,6 +102,13 @@ status: draft
 # Holders' dates (owner, 27 Nov 2026), draft: Anthropic and Amodei since 2021 (founded as a safety lab, Wikipedia,
 # "Anthropic"); Google DeepMind and Hassabis since 2024 (Frontier Safety Framework v1.0, May 2024). A lab moves with its
 # chief executive (owner, 27 Nov 2026), so each is paired with its head, here and under Singularitarianism.
+# Earlier: OpenAI and Altman 2015–2024 (Sam Altman, “Machine intelligence, part 1”, blog.samaltman.com, 25 February 2015;
+# OpenAI's founding post, December 2015, quoted by the Future of Life Institute, “Should AI Be Open?”, 17 December 2015;
+# Axios, “OpenAI's long-term safety team disbands”, 17 May 2024, with Jan Leike's “safety culture and processes have
+# taken a backseat to shiny products”; Business Insider, 27 August 2024: OpenAI and Meta opposed SB 1047). Musk
+# 2014–2024 (CNN Money, “Elon Musk gives $10M to fight killer robots”, 15 January 2015, on his MIT remarks of
+# October 2014; Fortune, “Elon Musk backs California's AI safety bill”, 27 August 2024). “until” is the year of the
+# last act the site cites for the position; both now stand under Singularitarianism.
 ---
 
 The worry is as old as computing. In 1960 Norbert Wiener warned that the purpose put into a machine had better be the purpose we really desire. Nick Bostrom's Superintelligence (2014) argued that a smarter-than-human AI with the wrong goals could be catastrophic.

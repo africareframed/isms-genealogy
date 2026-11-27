@@ -14,11 +14,15 @@ holders:
     since: 2005
   - name: OpenAI and Sam Altman
     note: The lab behind ChatGPT and its chief executive. In his 2025 essay “The Gentle Singularity” he writes that humanity is close to digital superintelligence and the takeoff has started.
+    since: 2025
   - name: Anthropic and Dario Amodei
     note: The lab behind Claude and its chief executive. Amodei foresees “a country of geniuses in a datacenter” squeezing 50 to 100 years of progress in biology into five to ten. In January 2026 he wrote it might be one or two years away.
     since: 2024
   - name: Google DeepMind and Demis Hassabis
     note: Google's AI lab and its chief executive, joint winner of the 2024 Nobel Prize in Chemistry. In May 2026 Hassabis said humanity stands in the “foothills of the singularity”, with AGI likely around 2030.
+    since: 2026
+  - name: xAI and Elon Musk
+    note: Musk's AI lab, part of SpaceX since February 2026, and Musk, who leads both. In January 2026 he posted “We have entered the Singularity”, and he has said it again since.
     since: 2026
   - name: Masayoshi Son
     note: Chief executive of SoftBank Group. In June 2024 he told shareholders that superintelligence would arrive in about ten years, and that he was born to realise it.
@@ -26,6 +30,10 @@ holders:
     note: AI researcher and chief executive of SingularityNET. Said in 2024 that human-level AGI could come within three to eight years, followed by an intelligence explosion.
   - name: Richard Sutton
     note: Reinforcement-learning pioneer and joint winner of the 2024 Turing Award. Said in 2025 that succession to digital intelligence or augmented humans is inevitable.
+  - name: Peter Thiel
+    note: Investor and PayPal co-founder. He advised and funded the Singularity Institute while it set out to build a friendly AGI. He says he lost faith around 2015, when it grew pessimistic.
+    since: 2007
+    until: 2015
 words:
   - singularitarian
   - the singularity
@@ -87,6 +95,12 @@ status: checked
 # Holders' dates (owner, 27 Nov 2026), draft: Kurzweil since 2005 (The Singularity Is Near, Viking, 2005); Anthropic and Amodei since 2024
 # ("Machines of Loving Grace", October 2024); Google DeepMind and Hassabis since 2026 (Axios, 26 May 2026). A lab moves
 # with its chief executive (owner, 27 Nov 2026), so each lab is paired with its head, here and under AI safety.
+# OpenAI and Altman since 2025 (Sam Altman, “The Gentle Singularity”, blog.samaltman.com, June 2025). xAI and Musk since
+# 2026 (Benzinga, “Elon Musk Says ‘We Have Entered the Singularity’”, via Yahoo Finance, January 2026, on his X post of
+# 4 January 2026; Fortune, 27 July 2026, on his “We are in the Singularity”; SpaceX acquired xAI: Bloomberg, 2 February 2026).
+# Thiel 2007–2015 (Ronald Bailey, “Technology Is at the Center”, Reason, May 2008: adviser to and backer of the
+# Singularity Institute, host of the party that launched the 2007 Singularity Summit; Thiel, talk transcribed on
+# LessWrong, 7 December 2022: around 2015 it seemed “more pessimistic”, gone “from sort of transhumanist to Luddite”).
 ---
 
 Its roots lie in a remark by John von Neumann, recalled in 1958, and in I. J. Good's 1965 idea of an intelligence explosion. The writer Vernor Vinge named it the singularity in 1983, and Ray Kurzweil gave it dates: 2029 for human-level AI, 2045 for the singularity. An early institution, the Singularity Institute, founded in 2000 to speed the arrival of smarter-than-human AI, later turned to its risks.
