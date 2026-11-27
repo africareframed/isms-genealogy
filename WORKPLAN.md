@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-27: A lab moves with its chief executive (owner, 09:50): Anthropic and Dario Amodei, Google DeepMind and Demis Hassabis now stand together under both AI safety and Singularitarianism, each with its date; OpenAI joins Sam Altman under Singularitarianism.
 - 2026-11-27: Holders' dates (owner, 09:44): `since` / `until` on holders; "since 2021" beside present holders, an "Earlier" block for past ones; "Positions" with dates in the person panels. First dates, as drafts: Anthropic, Google DeepMind, Amodei, Hassabis, Kurzweil, the Future of Life Institute, Bender and Hanna. Moved cases (Musk, Thiel and others) still to research.
 - 2026-11-27: Present positions (owner, 09:39), drafts: AI safety's Anthropic note brought up to 2026 and Google DeepMind added; Dario Amodei and Demis Hassabis added to Singularitarianism's holders; "Machines of Loving Grace" tagged with Singularitarianism and Techno-optimism; AI safety timeline entries "Anthropic drops its pause trigger" (Feb 2026) and "Pacing the Frontier" (Jul 2026). No new History moment: Pacing the Frontier is already told in "Rogue agents hack Hugging Face".
 - 2026-11-27: "Who could gain" on the Themes page, under the chains (owner, 09:01): the Can serve grid from the framework doc, 12 movements × 7 actors, as a draft; rows fold open to the mechanisms.
