@@ -188,6 +188,7 @@ The site now has three tracks: **Movements** (the six, done), **History of AI** 
 
 ## Log
 
+- 2026-11-27: Neuralink and Elon Musk under Transhumanism since 2019 (owner, 10:20), so Musk's panel shows three positions.
 - 2026-11-27: Moved holders (owner, 09:58), drafts with sources in the files' comments: OpenAI and Sam Altman, AI safety 2015–2024, Singularitarianism since 2025; Elon Musk, AI safety 2014–2024, and xAI and Elon Musk, Singularitarianism since 2026; Peter Thiel, Singularitarianism 2007–2015, Techno-optimism since 2009. First "Earlier" blocks on AI safety and Singularitarianism. Still open: Hinton, Sutskever.
 - 2026-11-27: A lab moves with its chief executive (owner, 09:50): Anthropic and Dario Amodei, Google DeepMind and Demis Hassabis now stand together under both AI safety and Singularitarianism, each with its date; OpenAI joins Sam Altman under Singularitarianism.
 - 2026-11-27: Holders' dates (owner, 09:44): `since` / `until` on holders; "since 2021" beside present holders, an "Earlier" block for past ones; "Positions" with dates in the person panels. First dates, as drafts: Anthropic, Google DeepMind, Amodei, Hassabis, Kurzweil, the Future of Life Institute, Bender and Hanna. Moved cases (Musk, Thiel and others) still to research.

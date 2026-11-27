@@ -20,8 +20,9 @@ holders:
     since: 2004
   - name: Bryan Johnson
     note: Entrepreneur. Founded Blueprint, a public attempt to slow his own ageing, and leads the “Don't Die” movement, which he links to superintelligent AI.
-  - name: Neuralink
-    note: Brain–computer interface company, which implanted its device in a first human patient in 2024. Elon Musk has described its long-term aim as symbiosis with AI.
+  - name: Neuralink and Elon Musk
+    note: Brain–computer interface company, and Musk, its co-founder and majority owner. He has described its long-term aim as symbiosis with AI. It implanted its device in a first human patient in 2024.
+    since: 2019
 words:
   - transhuman
   - posthuman
@@ -75,7 +76,9 @@ lenses:
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 # Holders' dates (owner, 27 Nov 2026), draft: Kurzweil since 2004 (Ray Kurzweil and Terry Grossman, Fantastic Voyage: Live Long
-# Enough to Live Forever, Rodale, 2004).
+# Enough to Live Forever, Rodale, 2004). Neuralink and Musk since 2019 (the launch event, TechCrunch, 16 July 2019, this
+# timeline's entry). Musk is not Neuralink's chief executive on paper (Jared Birchall is listed), but its co-founder and
+# majority owner, who keeps the key decisions in practice (Fortune, 31 January 2022) and states its aim, so he stands with it.
 ---
 
 The hope is old: myths of immortality, Renaissance praise of human self-making, Enlightenment faith in endless improvement. The biologist Julian Huxley popularised the word in 1957. The movement took shape in the 1980s and 1990s, around the Extropians and, from 1998, the World Transhumanist Association, now Humanity+.
