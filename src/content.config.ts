@@ -22,7 +22,12 @@ const isms = defineCollection({
     image: reference('images').optional(),
     pageImage: reference('images').optional(), // the vertical (4:5) image at the top of the page
     lead: z.string().optional(),
-    holders: z.array(z.object({ name: z.string(), note: z.string() })).default([]),
+    // since / until (owner, 27 Nov 2026): the year of the first act or statement the site cites for this position, and
+    // the year the holder left it. Given where an actor stands under two movements or has moved; a holder with
+    // `until` is shown as "Earlier", under the present holders.
+    holders: z
+      .array(z.object({ name: z.string(), note: z.string(), since: z.number().optional(), until: z.number().optional() }))
+      .default([]),
     words: z.array(z.string()).default([]),
     themes: z.array(reference('themes')).default([]),
     disputes: z.string().optional(),

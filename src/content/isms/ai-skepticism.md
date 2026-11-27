@@ -14,8 +14,10 @@ holders:
     note: Cognitive scientist and emeritus professor at New York University. He argues that scaling up language models will not reach reliable intelligence without symbols and reasoning.
   - name: Emily M. Bender
     note: Linguist at the University of Washington. Co-author of “On the Dangers of Stochastic Parrots” (2021) and, with Alex Hanna, The AI Con (2025).
+    since: 2021
   - name: Alex Hanna
     note: Sociologist and director of research at the Distributed AI Research Institute. With Bender she hosts Mystery AI Hype Theater 3000, which takes AI hype apart.
+    since: 2025
   - name: Ed Zitron
     note: Writer whose newsletter Where's Your Ed At and podcast Better Offline argue that generative AI is a bubble that will burst.
   - name: Melanie Mitchell
@@ -69,6 +71,8 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: draft
+# Holders' dates (owner, 27 Nov 2026), draft: Bender since 2021 ("On the Dangers of Stochastic Parrots", March 2021); Hanna
+# since 2025 (Emily M. Bender and Alex Hanna, The AI Con, Harper, 2025).
 ---
 
 Its writers hold that large language models predict words without understanding them: in 2021 Emily M. Bender and her co-authors called them stochastic parrots. Gary Marcus argues that scaling them up will not reach reliable intelligence without symbols and reasoning. Others, such as Ed Zitron, see an investment bubble that will burst.

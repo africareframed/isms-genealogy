@@ -80,6 +80,12 @@ const initials = (name: string) => name.split(/\s+/).filter((w) => /^\p{Lu}/u.te
         </dd>
       </div>
     )}
+    {(p.positions.length > 1 || p.positions.some((x) => x.to)) && (
+      <div>
+        <dt>Positions</dt>
+        <dd><ul class="pp-list">{p.positions.map((x) => <li><span class="pp-row"><span class="pp-y">{x.to ? years(x) : x.from ? `since ${x.from}` : 'now'}</span><span><span class="fsw" style={`background:${ismColour(x.ism)}`} aria-hidden="true"></span>{ismById.get(x.ism)?.data.title}</span></span></li>)}</ul></dd>
+      </div>
+    )}
     {p.labs.length > 0 && (
       <div>
         <dt>Labs</dt>

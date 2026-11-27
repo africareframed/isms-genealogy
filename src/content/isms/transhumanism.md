@@ -17,6 +17,7 @@ holders:
     note: Artist and writer. Chaired Humanity+, then served as its executive director until August 2024, when she became president emeritus.
   - name: Ray Kurzweil
     note: Inventor and futurist. In 2024 he restated his forecasts of human-level AI by 2029 and a merger of human and machine intelligence by 2045.
+    since: 2004
   - name: Bryan Johnson
     note: Entrepreneur. Founded Blueprint, a public attempt to slow his own ageing, and leads the “Don't Die” movement, which he links to superintelligent AI.
   - name: Neuralink
@@ -73,6 +74,8 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
+# Holders' dates (owner, 27 Nov 2026), draft: Kurzweil since 2004 (Ray Kurzweil and Terry Grossman, Fantastic Voyage: Live Long
+# Enough to Live Forever, Rodale, 2004).
 ---
 
 The hope is old: myths of immortality, Renaissance praise of human self-making, Enlightenment faith in endless improvement. The biologist Julian Huxley popularised the word in 1957. The movement took shape in the 1980s and 1990s, around the Extropians and, from 1998, the World Transhumanist Association, now Humanity+.

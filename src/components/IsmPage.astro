@@ -104,10 +104,20 @@ const shareImage = existsSync(`public/images/share/${ism.id}.jpg`) ? `images/sha
       <section class="wrap sec" aria-labelledby="holders-h">
         <h2 class="kick" id="holders-h">Who holds it now</h2>
         <div class="actors">
-          {ism.data.holders.map((h) => (
-            <div><h3 class="an">{h.name}</h3><p class="ad">{h.note}</p></div>
+          {ism.data.holders.filter((h) => !h.until).map((h) => (
+            <div><h3 class="an">{h.name}{h.since && <span class="an-y">since {h.since}</span>}</h3><p class="ad">{h.note}</p></div>
           ))}
         </div>
+        {ism.data.holders.some((h) => h.until) && (
+          <div class="earlier">
+            <h3 class="kick">Earlier</h3>
+            <div class="actors">
+              {ism.data.holders.filter((h) => h.until).map((h) => (
+                <div><h4 class="an">{h.name}<span class="an-y">{h.since ? `${h.since}–${h.until}` : `until ${h.until}`}</span></h4><p class="ad">{h.note}</p></div>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
     )}
 

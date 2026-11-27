@@ -14,8 +14,10 @@ holders:
     note: San Francisco non-profit led by Dan Hendrycks. In 2023 it published the one-line Statement on AI Risk, signed by the heads of the leading labs.
   - name: Anthropic
     note: AI company founded in 2021 by former OpenAI researchers, among them Dario and Daniela Amodei. In 2026 its scaling policy dropped the trigger to pause training on its own; it argues it must stay at the frontier. Its leaders back government tools to pace that frontier.
+    since: 2021
   - name: Google DeepMind
     note: Google's AI lab, led by Demis Hassabis. Its Frontier Safety Framework, last updated in April 2026, sets capability levels that trigger stricter safeguards. In July 2026 Hassabis called for a US body to test frontier models before launch, and possibly a mandated pause.
+    since: 2024
   - name: Yoshua Bengio
     note: Computer scientist and Turing Award winner. He chairs the International AI Safety Report, first published in January 2025 for the governments behind the AI summits.
   - name: UK AI Security Institute
@@ -89,6 +91,8 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: draft
+# Holders' dates (owner, 27 Nov 2026), draft: Anthropic since 2021 (founded as a safety lab, Wikipedia, "Anthropic"); Google
+# DeepMind since 2024 (Frontier Safety Framework v1.0, May 2024).
 ---
 
 The worry is as old as computing. In 1960 Norbert Wiener warned that the purpose put into a machine had better be the purpose we really desire. Nick Bostrom's Superintelligence (2014) argued that a smarter-than-human AI with the wrong goals could be catastrophic.

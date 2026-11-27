@@ -24,6 +24,7 @@ holders:
     note: Grassroots movement founded in the Netherlands in 2023, with groups in more than a dozen countries. Asks governments for a treaty pausing the most powerful AI systems.
   - name: Future of Life Institute
     note: Non-profit co-founded by the physicist Max Tegmark, who chairs its board. Organised the 2023 pause letter and the 2025 call to prohibit superintelligence.
+    since: 2023
 words:
   - alignment
   - Friendly AI
@@ -82,6 +83,7 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: draft
+# Holders' dates (owner, 27 Nov 2026), draft: Future of Life Institute since 2023 (the pause letter, 22 March 2023).
 ---
 
 The fear is old: Samuel Butler, Alan Turing, Norbert Wiener and I. J. Good all warned that machines might escape human control. From 2006, Eliezer Yudkowsky's essays on bias, probability and AI drew a community to Overcoming Bias, then LessWrong. Its members call themselves rationalists; critics often call them doomers.

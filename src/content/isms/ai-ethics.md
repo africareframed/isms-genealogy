@@ -17,6 +17,7 @@ holders:
     note: Joy Buolamwini's organisation, founded in 2016. It combines art and research to show the harms of AI and to give the most affected communities a voice.
   - name: Emily M. Bender and Alex Hanna
     note: A linguist at the University of Washington and DAIR's director of research. They wrote The AI Con (2025) and host Mystery AI Hype Theater 3000, a series that takes apart claims about AI.
+    since: 2021
   - name: ACM FAccT
     note: The yearly conference on fairness, accountability and transparency in socio-technical systems, first held in New York in 2018. Both Gender Shades and Stochastic Parrots appeared there.
 words:
@@ -85,6 +86,7 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
+# Holders' dates (owner, 27 Nov 2026), draft: Bender and Hanna since 2021 ("On the Dangers of Stochastic Parrots", FAccT, March 2021).
 ---
 
 Norbert Wiener warned from 1950 that automatic machines could cause mass unemployment. Joseph Weizenbaum held in 1976 that some choices belong to humans alone. From 2014, researchers and journalists showed how scoring systems and face recognition treat groups unequally.

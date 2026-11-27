@@ -70,6 +70,15 @@ export const getPeople = async () => {
           ? eraOfYear(coinedYear)
           : undefined;
     const threads = [...new Set(inHistory.map((m) => m.data.thread).filter((t): t is string => Boolean(t)))];
+    // positions (owner, 27 Nov 2026): where the movements' "Who holds it now" names them, with since / until, so a
+    // person under two movements, or one who moved, shows past and present with dates
+    const positions = isms
+      .flatMap((i) =>
+        i.data.holders
+          .filter((h) => h.name.split(/\s+and\s+|,\s*/).some((part) => plain(part).match(re)?.[0].length === plain(part).length))
+          .map((h) => ({ ism: i.id, from: h.since, to: h.until })),
+      )
+      .sort((a, b) => Number(Boolean(a.to)) - Number(Boolean(b.to)) || (b.from ?? 0) - (a.from ?? 0));
     const fact = facts.get(p.id);
     return {
       id: p.id,
@@ -91,6 +100,7 @@ export const getPeople = async () => {
       era,
       firstYear,
       threads,
+      positions,
     };
   });
 

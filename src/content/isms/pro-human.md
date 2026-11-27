@@ -11,6 +11,7 @@ lead: Pro-human holds that people living now must be protected from AI built to 
 holders:
   - name: Future of Life Institute
     note: Non-profit founded in 2014, led by Anthony Aguirre and chaired by Max Tegmark. It convened the Pro-Human AI Declaration, ran the Protect What's Human campaign and hosted the Pro-Human Assembly.
+    since: 2026
   - name: Pro-Human AI Coalition
     note: Independent non-profit launched in September 2026 by Project Liberty, the Future of Life Institute and Ergo Impact, with more than 50 member organisations. Its chief executive is Tomicah Tillemann.
   - name: Institute for Family Studies
@@ -93,6 +94,8 @@ lenses:
   status: draft
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
+# Holders' dates (owner, 27 Nov 2026), draft: Future of Life Institute since 2026 (Protect What's Human, February 2026; the
+# Pro-Human AI Declaration, 2026: this movement's timeline).
 ---
 
 The movement defends their work, their children, their dignity and their democratic say against a race to replace humans and concentrated corporate power. It wants humans kept in charge of AI, children shielded from manipulative chatbots, and AI companies held liable for harm. It is not against technology, its leaders say, but for AI tools that serve people.

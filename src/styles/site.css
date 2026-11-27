@@ -198,6 +198,12 @@ a.card.came .go-t, a.card.came:hover .go-t { text-decoration: underline; text-de
 .sec { padding-top: 40px; padding-bottom: 56px; display: flex; flex-direction: column; gap: 32px; border-top: 1px solid var(--rule); }
 .actors { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--g); row-gap: 36px; }
 .an { margin: 0 0 8px; font-size: 22px; line-height: 28px; font-weight: 600; }
+/* holders' dates (owner, 27 Nov 2026): "since 2021" beside a present holder; earlier holders under them, quieter */
+.an-y { margin-left: 12px; font-family: var(--mono); font-size: 12px; line-height: 16px; font-weight: 400; letter-spacing: 0.03em; color: var(--muted); white-space: nowrap; vertical-align: 3px; }
+.earlier { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--rule); }
+.earlier .kick { margin: 0 0 24px; }
+.earlier .an { color: var(--ink-3); font-size: 19px; line-height: 26px; }
+.earlier .ad { color: var(--muted); }
 .ad { margin: 0; font-size: 17px; line-height: 26px; color: #333333; }
 /* The new page setup (owner, 25 Nov 2026; tested on Neo-Luddism): the movement's quote opens the People section. */
 .iq { margin: 0 0 24px; display: flex; flex-direction: column; gap: 12px; max-width: calc(var(--c) * 9 + var(--g) * 8); }
