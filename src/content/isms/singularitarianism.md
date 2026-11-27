@@ -13,6 +13,10 @@ holders:
     note: Inventor and futurist. His 2024 book The Singularity Is Nearer still puts the merger of humans and AI around 2045.
   - name: Sam Altman
     note: Chief executive of OpenAI. In his 2025 essay “The Gentle Singularity” he writes that humanity is close to digital superintelligence and the takeoff has started.
+  - name: Dario Amodei
+    note: Chief executive of Anthropic. He foresees “a country of geniuses in a datacenter” squeezing 50 to 100 years of progress in biology into five to ten. In January 2026 he wrote it might be one or two years away.
+  - name: Demis Hassabis
+    note: Chief executive of Google DeepMind and joint winner of the 2024 Nobel Prize in Chemistry. In May 2026 he said humanity stands in the “foothills of the singularity”, with AGI likely around 2030.
   - name: Masayoshi Son
     note: Chief executive of SoftBank Group. In June 2024 he told shareholders that superintelligence would arrive in about ten years, and that he was born to realise it.
   - name: Ben Goertzel
@@ -73,6 +77,8 @@ lenses:
       status: loses
       text: "Universities lose researchers to the labs racing to reach it."
   status: draft
+# Present positions (owner, 27 Nov 2026), draft: Dario Amodei (“Machines of Loving Grace”, October 2024; “The Adolescence
+# of Technology”, January 2026, as in the History of AI moment); Demis Hassabis (Axios, 26 May 2026, after Google I/O).
 # Lenses drafted 25 Nov 2026 from docs/framework/framing.md, the doc's Funding and Can serve grid tabs (owner: no further checking in this run).
 status: checked
 ---

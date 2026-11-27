@@ -13,7 +13,9 @@ holders:
   - name: Center for AI Safety
     note: San Francisco non-profit led by Dan Hendrycks. In 2023 it published the one-line Statement on AI Risk, signed by the heads of the leading labs.
   - name: Anthropic
-    note: AI company founded in 2021 by former OpenAI researchers, among them Dario and Daniela Amodei. Its Responsible Scaling Policy (2023) ties each rise in capability to stricter safeguards.
+    note: AI company founded in 2021 by former OpenAI researchers, among them Dario and Daniela Amodei. In 2026 its scaling policy dropped the trigger to pause training on its own; it argues it must stay at the frontier. Its leaders back government tools to pace that frontier.
+  - name: Google DeepMind
+    note: Google's AI lab, led by Demis Hassabis. Its Frontier Safety Framework, last updated in April 2026, sets capability levels that trigger stricter safeguards. In July 2026 Hassabis called for a US body to test frontier models before launch, and possibly a mandated pause.
   - name: Yoshua Bengio
     note: Computer scientist and Turing Award winner. He chairs the International AI Safety Report, first published in January 2025 for the governments behind the AI summits.
   - name: UK AI Security Institute
@@ -40,6 +42,9 @@ themes: [scaling-laws, compute, augmentation]
 # from the retired Rationalism page: Microsoft AI and the Humanist AI words. New holders and the introduction are draft:
 # CAIS (safe.ai, Statement on AI Risk, 30 May 2023), Anthropic (anthropic.com, Responsible Scaling Policy, September 2023),
 # Bengio (International AI Safety Report, January 2025), UK AI Security Institute (gov.uk, renamed 14 February 2025).
+# Present positions (owner, 27 Nov 2026), draft: Anthropic (Semafor, 25 February 2026, on RSP v3.0; Fortune, 29 July 2026, on
+# Pacing the Frontier); Google DeepMind (deepmind.google/frontier-safety, Frontier Safety Framework v3.1, 17 April 2026;
+# Semafor, 14 July 2026, Hassabis calls for government oversight and possibly a mandated pause).
 
 lenses:
   quote:

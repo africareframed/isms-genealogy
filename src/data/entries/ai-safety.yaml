@@ -1,6 +1,26 @@
 # Timeline of ai-safety, newest first. status: draft until checked.
 ism: ai-safety
 entries:
+  - id: 2026-pacing-the-frontier
+    year: 2026
+    month: 7
+    title: Pacing the Frontier
+    who: More than 1,200 employees of frontier AI labs, among them Dario Amodei, Jakub Pachocki, Shengjia Zhao and Anca Dragan
+    relation: milestone
+    text: 'Lab employees asked the US government to back an international effort to build the tools to deliberately pace frontier AI. They feared AI designing its successors faster than people can understand or control it. Anthropic and OpenAI endorsed it; the same day Meta''s Mark Zuckerberg said rival labs'' talk was “overwhelmingly filled with doom”. In September Amodei proposed that every frontier lab give independent evaluators permanent, employee-level access, and committed Anthropic to it.'
+    source: 'Beatrice Nolan, Fortune, 29 July 2026, on the statement “Pacing the Frontier” (the request; more than 1,200 signatories, among them Amodei, Pachocki of OpenAI, Zhao of Meta and Dragan of Google DeepMind; the fear of AI designing its successors); The Next Web, “1,134 AI insiders just asked Washington for a way to slow AI down”, 28 July 2026 (Anthropic''s and OpenAI''s endorsements; Zuckerberg''s remarks to The New York Times); Fortune, 12 September 2026, on Amodei''s essay “We Must Pace the Frontier” (the three-step plan; Anthropic''s commitment to evaluator access)'
+    sourceUrl: https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan
+    status: draft
+  - id: 2026-rsp-v3
+    year: 2026
+    month: 2
+    title: Anthropic drops its pause trigger
+    who: Anthropic
+    relation: milestone
+    text: 'Anthropic''s 2023 policy had a binary trigger: at set capability levels, training would stop unless the model could be shown safe. Version 3.0 replaced it with flexible responses: what Anthropic will do alone, and what works only if the whole industry joins. An executive told TIME that unilateral commitments made little sense while competitors moved ahead. In return it promised public Risk Reports every three to six months, with outside review in some cases.'
+    source: 'Semafor, “Anthropic eases AI safety restrictions to avoid slowing development”, 25 February 2026 (the dropped binary trigger; the executive''s remark to TIME); Anthropic, “Anthropic''s Responsible Scaling Policy: Version 3.0”, 24 February 2026 (what Anthropic will do regardless of others, and the industry-wide map; Risk Reports every 3–6 months; external review in certain circumstances)'
+    sourceUrl: https://www.semafor.com/article/02/25/2026/anthropic-eases-ai-safety-restrictions-to-avoid-slowing-development
+    status: draft
   - id: 2026-humanist-ai
     year: 2026
     month: 9
